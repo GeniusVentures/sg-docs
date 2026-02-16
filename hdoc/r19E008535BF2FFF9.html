@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></meta><meta content="width=device-width, initial-scale=1" name="viewport"></meta><title>class TrieStorageMock: SuperGenius .99 documentation</title><link href="styles.css" rel="stylesheet"></link><script src="highlight.min.js"></script><script>hljs.highlightAll();</script><link href="katex.min.css" rel="stylesheet"></link><script src="katex.min.js"></script><script src="auto-render.min.js"></script><script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+      });
+    });
+  </script><link href="apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon"></link><link href="favicon-32x32.png" sizes="32x32" type="image/png" rel="icon"></link><link href="favicon-16x16.png" sizes="16x16" type="image/png" rel="icon"></link></head><body><div id="wrapper"><section class="section"><div class="container"><div class="columns"><aside class="column is-one-fifth"><ul class="menu-list"><p class="is-size-4">SuperGenius .99</p><p class="menu-label">Navigation</p><li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li><li><a href="https://github.com/GeniusVentures/SuperGenius/">Repository</a></li><li><a href="https://hdoc.io">Made with hdoc</a></li><p class="menu-label">API Documentation</p><li><a href="functions.html">Functions</a></li><li><a href="records.html">Records</a></li><li><a href="enums.html">Enums</a></li><li><a href="namespaces.html">Namespaces</a></li></ul></aside><div class="column" style="overflow-x: auto"><nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs"><ul><li><a href="namespaces.html#76AACD17F8903E0F"><span>namespace sgns</span></a></li><li><a href="namespaces.html#373D4CD0A7C05C2F"><span>namespace storage</span></a></li><li><a href="namespaces.html#27A4374507B2B6B0"><span>namespace trie</span></a></li><li class="is-active"><a aria-current="page19E008535BF2FFF9"><span>class TrieStorageMock</span></a></li></ul></nav><main class="content"><h1>class TrieStorageMock</h1><h2>Declaration</h2><pre class="p-0"><code class="hdoc-record-code language-cpp">class TrieStorageMock : public TrieStorage { /* full declaration omitted */ };</code></pre><h2>Description</h2><p>Grants access to the storage in two ways: - persistent batch that will written back to the storage after commit() call - ephemeral batch, all changes to which are left in memory and thus the main storage is never changed by it</p><p>Declared at: <a class="is-family-code" href="https://github.com/GeniusVentures/SuperGenius/blob/main/test/mock/src/storage/trie/trie_storage_mock.hpp#L12">test/mock/src/storage/trie/trie_storage_mock.hpp:12</a></p><p>Inherits from: <a href="r3E067B4931299E08.html">TrieStorage</a></p><h2>Member Variables</h2><dl><dt class="is-family-code" id="var_gmock00_getPersistentBatch_15">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;std::unique_ptr&lt;
+            PersistentTrieBatch&gt;&gt;()&gt;&gt; <b>gmock00_getPersistentBatch_15</b></dt><dt class="is-family-code" id="var_gmock10_getEphemeralBatch_17">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;std::unique_ptr&lt;
+            EphemeralTrieBatch&gt;&gt;()&gt;&gt; <b>gmock10_getEphemeralBatch_17</b></dt><dt class="is-family-code" id="var_gmock01_getPersistentBatchAt_21">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;
+            std::unique_ptr&lt;PersistentTrieBatch&gt;&gt;(
+            const base::Hash256&amp;)&gt;&gt; <b>gmock01_getPersistentBatchAt_21</b></dt><dt class="is-family-code" id="var_gmock11_getEphemeralBatchAt_24">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;
+            std::unique_ptr&lt;EphemeralTrieBatch&gt;&gt;(
+            const base::Hash256&amp;)&gt;&gt; <b>gmock11_getEphemeralBatchAt_24</b></dt><dt class="is-family-code" id="var_gmock10_getRootHash_26">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        base::Buffer()&gt;&gt; <b>gmock10_getRootHash_26</b></dt><dt class="is-family-code" id="var_gmock00_GetName_28">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        std::string()&gt;&gt; <b>gmock00_GetName_28</b></dt></dl><p>Inherited from <a href="r3E067B4931299E08.html">TrieStorage</a>:</p><ul><li class="is-family-code"><a href="r3E067B4931299E08.html#8803BE5D7258D861">public <b>getEphemeralBatch</b></a></li><li class="is-family-code"><a href="r3E067B4931299E08.html#2E3A5C3575EC5730">public <b>getEphemeralBatchAt</b></a></li><li class="is-family-code"><a href="r3E067B4931299E08.html#32D737C7C740A1B0">public <b>getPersistentBatch</b></a></li><li class="is-family-code"><a href="r3E067B4931299E08.html#767C3D3195F6A42B">public <b>getPersistentBatchAt</b></a></li><li class="is-family-code"><a href="r3E067B4931299E08.html#411CB41B0035104F">public <b>getRootHash</b></a></li></ul><p>Inherited from <a href="r961A76021F28B039.html">IComponent</a>:</p><ul><li class="is-family-code"><a href="r961A76021F28B039.html#2992A88C27213BCF">public <b>GetName</b></a></li></ul></main></div></div></div></section></div><footer class="footer"><p>Documentation for SuperGenius .99.</p><p>Generated by <a href="https://hdoc.io/">hdoc</a> version 1.4.2-hdocInternal on 2026-02-16T05:47:16 UTC.</p><p class="has-text-grey-light">19AD43E11B2996</p></footer></body></html>

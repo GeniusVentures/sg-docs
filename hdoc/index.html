@@ -1,0 +1,127 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></meta><meta content="width=device-width, initial-scale=1" name="viewport"></meta><title>SuperGenius .99 documentation</title><link href="styles.css" rel="stylesheet"></link><script src="highlight.min.js"></script><script>hljs.highlightAll();</script><link href="katex.min.css" rel="stylesheet"></link><script src="katex.min.js"></script><script src="auto-render.min.js"></script><script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+      });
+    });
+  </script><link href="apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon"></link><link href="favicon-32x32.png" sizes="32x32" type="image/png" rel="icon"></link><link href="favicon-16x16.png" sizes="16x16" type="image/png" rel="icon"></link></head><body><div id="wrapper"><section class="section"><div class="container"><div class="columns"><aside class="column is-one-fifth"><ul class="menu-list"><p class="is-size-4">SuperGenius .99</p><p class="menu-label">Navigation</p><li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li><li><a href="https://github.com/GeniusVentures/SuperGenius/">Repository</a></li><li><a href="https://hdoc.io">Made with hdoc</a></li><p class="menu-label">API Documentation</p><li><a href="functions.html">Functions</a></li><li><a href="records.html">Records</a></li><li><a href="enums.html">Enums</a></li><li><a href="namespaces.html">Namespaces</a></li></ul></aside><div class="column" style="overflow-x: auto"><main class="content"><h1>SuperGenius</h1>
+<p>This is the block-lattice super fast cryptotoken system based on the original nanocurrency</p>
+<h2>Download thirdparty project</h2>
+<pre><code class="language-bash">cd ..
+git clone git@github.com:GeniusVentures/thirdparty.git
+cd thirdparty
+git checkout develop
+git submodule update --init --recursive
+</code></pre>
+<h2><a href="../../../thirdparty/blob/master/README.md">Build thirdparty project</a></h2>
+<h2>Download SuperGenius project</h2>
+<pre><code class="language-bash">git clone git@github.com:GeniusVentures/SuperGenius.git 
+cd SuperGenius
+git checkout develop
+git submodule update --init --recursive
+</code></pre>
+<p>Ideally the folder structure should be as follows, this way CMake will use relative directory for <code>thirdparty</code> automatically</p>
+<pre><code class="language-bash">.
+├── thirdparty                          # SuperGenius project
+│   └── build                            # build directory
+│        ├── Android                     # Android build directory
+│        ├── Linux                       # Linux build directory
+│        ├── Windows                     # Windows build directory
+│        ├── OSX                         # OSX build directory
+|            └── Release                 # Release build of OSX (Created when building for macOS Release)
+|        └── iOS                         # iOS build directory
+└── SuperGenius   
+│   └── build                            # build directory
+│        ├── Android                     # Android build directory
+│        ├── Linux                       # Linux build directory
+│        ├── Windows                     # Windows build directory
+│        ├── OSX                         # OSX build directory
+|            └── Release                 # Release build of OSX (Created when building for macOS Release)
+|        └── iOS                         # iOS build directory
+</code></pre>
+<p>By having this directory structure, you won't need to pass the hard-coded value for the <code>thirdparty</code> directory.</p>
+<h2>Building</h2>
+<p>Chose the <code>CMAKE_BUILD_TYPE</code> according to the desired configuration (Debug or Release). Chose TESTING ON of OFF to enable unit tests.</p>
+<h3>Note on ABIs</h3>
+<p>When cross-compiling to a different ABI, it is recommended to have the <code>thirdparty</code> libraries on <code>build/[Config]/[ABI]</code>, e.g. for Linux release on ARM it would look like <code>build/Release/aarch64</code>. You'll also need to provide this ABI to SuperGenius in the CMake variable <code>ABI_SUBFOLDER_NAME</code> so that it can properly find the necessary directories.</p>
+<h3>Windows</h3>
+<p>Use the Visual Studio 17 2022 generator to compile SuperGenius project.</p>
+<pre><code class="language-bash">cd build\Windows 
+cmake -B [Debug | Release] -G &quot;Visual Studio 17 2022&quot; -DCMAKE_BUILD_TYPE=[Debug | Release] -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT]
+cmake --build [Debug | Release] --config [Debug | Release]
+</code></pre>
+<h3>Linux</h3>
+<pre><code class="language-bash">cd build/Linux
+cmake -B [Debug | Release] -DCMAKE_BUILD_TYPE=[Debug | Release] -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT] -DTESTING=[ON | OFF] -DABI_SUBFOLDER_NAME=[x86_64 | aarch64]
+cmake --build . --config [Debug | Release]
+</code></pre>
+<h3>Android Cross-Compile on Linux/OSX Hosts</h3>
+<h4>Preinstall</h4>
+<ul>
+<li>Android NDK Version <code>r27b</code> <a href="https://github.com/android/ndk/wiki/Unsupported-Downloads">(link)</a></li>
+</ul>
+<h4>Building</h4>
+<p>Note that Android is only built on our CI using Linux as the host system.</p>
+<pre><code class="language-bash">export ANDROID_NDK_HOME=[path to Android NDK]
+export ANDROID_NDK_ROOT=$ANDROID_NDK_ROOT
+export CMAKE_ANDROID_NDK=$ANDROID_NDK_HOME
+</code></pre>
+<ul>
+<li>armeabi-v7a</li>
+</ul>
+<pre><code class="language-bash">cd build/Android
+cmake -B[Debug | Release]/armeabi-v7a -DANDROID_ABI=&quot;armeabi-v7a&quot; -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT] 
+cmake --build [Debug | Release]/armeabi-v7a --config [Debug | Release]
+</code></pre>
+<ul>
+<li>arm64-v8a</li>
+</ul>
+<pre><code class="language-bash">cd build/Android
+cmake [Debug | Release]/arm64-v8a -DANDROID_ABI=&quot;arm64-v8a&quot; -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT]
+cmake --build [Debug | Release]/arm64-v8a --config [Debug | Release]
+</code></pre>
+<ul>
+<li>x86_64</li>
+</ul>
+<pre><code class="language-bash">cd build/Android
+cmake [Debug | Release]/x86_64 -DANDROID_ABI=&quot;x86_64&quot; -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT]
+cmake --build [Debug | Release]/arm64-v8a --config [Debug | Release]
+</code></pre>
+<h3>macOS</h3>
+<p>This builds a fat library for both <code>x86</code> and <code>ARM</code> architectures.</p>
+<pre><code class="language-bash">cd build/OSX
+cmake -B [Debug | Release] -DCMAKE_BUILD_TYPE=[Debug | Release] -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT]
+cmake --build [Debug | Release] --config [Debug | Release]
+</code></pre>
+<h3>iOS</h3>
+<p>You must use a macOS system to cross-compile for iOS.</p>
+<pre><code class="language-bash">cd build/iOS
+cmake -B [Debug | Release] -DCMAKE_BUILD_TYPE=[Debug | Release] -DTHIRDPARTY_DIR=[ABSOLUTE_PATH_TO_THIRDPARTY_PROJECT] 
+cmake --build [Debug | Release] --config [Debug | Release]
+</code></pre>
+<h2>Unit tests</h2>
+<p>If you configured and built with <code>-DTESTING=ON</code>, you can execute the unit tests on the root of the build directory.</p>
+<pre><code class="language-bash">ctest -C [Debug | Release]
+</code></pre>
+<p>To run specific test with detailed log, you can use following commands.</p>
+<pre><code class="language-bash">ctest -C [Debug | Release] -R &lt;test_name&gt; --verbose
+</code></pre>
+<p>To run all tests and display log for failed tests, you can use following commands.</p>
+<pre><code class="language-bash">ctest -C [Debug | Release] --output-on-failure
+</code></pre>
+<h2>Setting up VS Code intellisense</h2>
+<p>This requires installing the (C/C++ Extension Pack)[https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack]. Configure CMake Tools to appear under the toolbar, with this setting:</p>
+<pre><code class="language-json">&quot;cmake.options.statusBarVisibility&quot;: &quot;visible&quot;,
+</code></pre>
+<p>And configure the output build directory with this setting:</p>
+<pre><code class="language-json">&quot;cmake.buildDirectory&quot;: &quot;${workspaceFolder}/build/[Platform]/[Debug | Release]&quot;,
+</code></pre>
+<p>By pressing <code>CTRL + P</code> and picking <code>CMake: Configure</code>, choose the <code>CMakeLists.txt</code> file associated with your build. Microsoft's C++ extension (and clangd) works by looking at the file <code>compile_commands.json</code>, which is generated by CMake in the output directory. To tell the extension to let CMake Tools control it, use this setting:</p>
+<pre><code class="language-json">&quot;C_Cpp.default.configurationProvider&quot;: &quot;ms-vscode.cmake-tools&quot;,
+&quot;cmake.configureArgs&quot;: [&quot;THIRDPARTY_DIR=${workspaceFolder}/../thirdparty&quot;],
+</code></pre>
+<p>This will also configure the <code>thirdparty</code> directory. Now, it should be working.</p>
+</main></div></div></div></section></div><footer class="footer"><p>Documentation for SuperGenius .99.</p><p>Generated by <a href="https://hdoc.io/">hdoc</a> version 1.4.2-hdocInternal on 2026-02-16T05:47:16 UTC.</p><p class="has-text-grey-light">19AD43E11B2996</p></footer></body></html>

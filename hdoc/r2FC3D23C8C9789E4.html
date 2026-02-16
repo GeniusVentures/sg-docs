@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></meta><meta content="width=device-width, initial-scale=1" name="viewport"></meta><title>struct GenericStorageMock: SuperGenius .99 documentation</title><link href="styles.css" rel="stylesheet"></link><script src="highlight.min.js"></script><script>hljs.highlightAll();</script><link href="katex.min.css" rel="stylesheet"></link><script src="katex.min.js"></script><script src="auto-render.min.js"></script><script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+      });
+    });
+  </script><link href="apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon"></link><link href="favicon-32x32.png" sizes="32x32" type="image/png" rel="icon"></link><link href="favicon-16x16.png" sizes="16x16" type="image/png" rel="icon"></link></head><body><div id="wrapper"><section class="section"><div class="container"><div class="columns"><aside class="column is-one-fifth"><ul class="menu-list"><p class="is-size-4">SuperGenius .99</p><p class="menu-label">Navigation</p><li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li><li><a href="https://github.com/GeniusVentures/SuperGenius/">Repository</a></li><li><a href="https://hdoc.io">Made with hdoc</a></li><p class="menu-label">API Documentation</p><li><a href="functions.html">Functions</a></li><li><a href="records.html">Records</a></li><li><a href="enums.html">Enums</a></li><li><a href="namespaces.html">Namespaces</a></li></ul></aside><div class="column" style="overflow-x: auto"><nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs"><ul><li><a href="namespaces.html#76AACD17F8903E0F"><span>namespace sgns</span></a></li><li><a href="namespaces.html#373D4CD0A7C05C2F"><span>namespace storage</span></a></li><li><a href="namespaces.html#AA7D5AC476309668"><span>namespace face</span></a></li><li class="is-active"><a aria-current="page2FC3D23C8C9789E4"><span>struct GenericStorageMock</span></a></li></ul></nav><main class="content"><h1>struct GenericStorageMock</h1><h2>Declaration</h2><pre class="p-0"><code class="hdoc-record-code language-cpp">template &lt;typename K, typename V&gt;
+struct GenericStorageMock { /* full declaration omitted */ };</code></pre><p>Declared at: <a class="is-family-code" href="https://github.com/GeniusVentures/SuperGenius/blob/main/test/mock/src/storage/persistent_map_mock.hpp#L13">test/mock/src/storage/persistent_map_mock.hpp:13</a></p><h2>Templates</h2><dl><dt class="is-family-code"><b> K</b></dt><dt class="is-family-code"><b> V</b></dt></dl><h2>Member Variables</h2><dl><dt class="is-family-code" id="var_gmock00_batch_14">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        std::unique_ptr&lt;WriteBatch&lt;K, V&gt;&gt;()&gt;&gt; <b>gmock00_batch_14</b></dt><dt class="is-family-code" id="var_gmock00_cursor_16">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        std::unique_ptr&lt;MapCursor&lt;K, V&gt;&gt;()&gt;&gt; <b>gmock00_cursor_16</b></dt><dt class="is-family-code" id="var_gmock11_get_18">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;V&gt;(const K&amp;)&gt;&gt; <b>gmock11_get_18</b></dt><dt class="is-family-code" id="var_gmock11_contains_20">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;bool(
+        const K&amp;)&gt;&gt; <b>gmock11_contains_20</b></dt><dt class="is-family-code" id="var_gmock10_empty_22">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;bool()&gt;&gt; <b>gmock10_empty_22</b></dt><dt class="is-family-code" id="var_gmock02_put_24">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;void&gt;(const K&amp;,
+                              const V&amp;)&gt;&gt; <b>gmock02_put_24</b></dt><dt class="is-family-code" id="var_gmock02_put_rv_29">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;void&gt;(const K&amp;, V)&gt;&gt; <b>gmock02_put_rv_29</b></dt><dt class="is-family-code" id="var_gmock01_remove_31">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;void&gt;(const K&amp;)&gt;&gt; <b>gmock01_remove_31</b></dt><dt class="is-family-code" id="var_gmock00_GetName_33">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        std::string()&gt;&gt; <b>gmock00_GetName_33</b></dt></dl><h2>Method Overview</h2><ul><li class="is-family-code">public outcome::result&lt;void&gt;  <a href="#E3144792EF0DCBFC"><b>put</b></a>(const K &amp; k, V &amp;&amp; v)</li></ul><h2>Methods</h2><h3 id="E3144792EF0DCBFC"><pre class="p-0 hdoc-pre-parent"><a class="hdoc-permalink-icon" href="#E3144792EF0DCBFC">¶</a><code class="hdoc-function-code language-cpp">outcome::result&lt;void&gt; put(const K&amp; k, V&amp;&amp; v)</code></pre></h3><p>Declared at: <a class="is-family-code" href="https://github.com/GeniusVentures/SuperGenius/blob/main/test/mock/src/storage/persistent_map_mock.hpp#L26">test/mock/src/storage/persistent_map_mock.hpp:26</a></p><h4>Parameters</h4><dl><dt class="is-family-code">const K&amp;<b> k</b></dt><dt class="is-family-code">V&amp;&amp;<b> v</b></dt></dl></main></div></div></div></section></div><footer class="footer"><p>Documentation for SuperGenius .99.</p><p>Generated by <a href="https://hdoc.io/">hdoc</a> version 1.4.2-hdocInternal on 2026-02-16T05:47:16 UTC.</p><p class="has-text-grey-light">19AD43E11B2996</p></footer></body></html>

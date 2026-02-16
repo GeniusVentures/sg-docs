@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></meta><meta content="width=device-width, initial-scale=1" name="viewport"></meta><title>class BlockHeaderRepositoryMock: SuperGenius .99 documentation</title><link href="styles.css" rel="stylesheet"></link><script src="highlight.min.js"></script><script>hljs.highlightAll();</script><link href="katex.min.css" rel="stylesheet"></link><script src="katex.min.js"></script><script src="auto-render.min.js"></script><script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+      });
+    });
+  </script><link href="apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon"></link><link href="favicon-32x32.png" sizes="32x32" type="image/png" rel="icon"></link><link href="favicon-16x16.png" sizes="16x16" type="image/png" rel="icon"></link></head><body><div id="wrapper"><section class="section"><div class="container"><div class="columns"><aside class="column is-one-fifth"><ul class="menu-list"><p class="is-size-4">SuperGenius .99</p><p class="menu-label">Navigation</p><li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li><li><a href="https://github.com/GeniusVentures/SuperGenius/">Repository</a></li><li><a href="https://hdoc.io">Made with hdoc</a></li><p class="menu-label">API Documentation</p><li><a href="functions.html">Functions</a></li><li><a href="records.html">Records</a></li><li><a href="enums.html">Enums</a></li><li><a href="namespaces.html">Namespaces</a></li></ul></aside><div class="column" style="overflow-x: auto"><nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs"><ul><li><a href="namespaces.html#76AACD17F8903E0F"><span>namespace sgns</span></a></li><li><a href="namespaces.html#85B631E3F108E6D7"><span>namespace blockchain</span></a></li><li class="is-active"><a aria-current="page692C745B34EA5CC4"><span>class BlockHeaderRepositoryMock</span></a></li></ul></nav><main class="content"><h1>class BlockHeaderRepositoryMock</h1><h2>Declaration</h2><pre class="p-0"><code class="hdoc-record-code language-cpp">class BlockHeaderRepositoryMock : public BlockHeaderRepository { /* full declaration omitted */ };</code></pre><h2>Description</h2><p>An interface to a storage with block headers that provides several convenience methods, such as getting block number by its hash and vice versa or getting a block status</p><p>Declared at: <a class="is-family-code" href="https://github.com/GeniusVentures/SuperGenius/blob/main/test/mock/src/blockchain/block_header_repository_mock.hpp#L10">test/mock/src/blockchain/block_header_repository_mock.hpp:10</a></p><p>Inherits from: <a href="rEEFC895864A9CC17.html">BlockHeaderRepository</a></p><h2>Member Variables</h2><dl><dt class="is-family-code" id="var_gmock11_getNumberByHash_13">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;primitives::BlockNumber&gt;(
+            const base::Hash256&amp;)&gt;&gt; <b>gmock11_getNumberByHash_13</b></dt><dt class="is-family-code" id="var_gmock11_getHashByNumber_15">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;base::Hash256&gt;(
+            const primitives::BlockNumber&amp;)&gt;&gt; <b>gmock11_getHashByNumber_15</b></dt><dt class="is-family-code" id="var_gmock11_getBlockHeader_17">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;primitives::BlockHeader&gt;(
+            const primitives::BlockId&amp;)&gt;&gt; <b>gmock11_getBlockHeader_17</b></dt><dt class="is-family-code" id="var_gmock01_removeBlockHeader_19">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;void&gt;(
+            const primitives::BlockId&amp;)&gt;&gt; <b>gmock01_removeBlockHeader_19</b></dt><dt class="is-family-code" id="var_gmock01_putBlockHeader_21">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;primitives::BlockHash&gt;(
+            const primitives::BlockHeader&amp;)&gt;&gt; <b>gmock01_putBlockHeader_21</b></dt><dt class="is-family-code" id="var_gmock11_getBlockStatus_23">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;
+            sgns::blockchain::BlockStatus&gt;(
+            const primitives::BlockId&amp;)&gt;&gt; <b>gmock11_getBlockStatus_23</b></dt><dt class="is-family-code" id="var_gmock11_getHashById_25">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;base::Hash256&gt;(
+            const primitives::BlockId&amp;)&gt;&gt; <b>gmock11_getHashById_25</b></dt><dt class="is-family-code" id="var_gmock11_getNumberById_27">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        outcome::result&lt;primitives::BlockNumber&gt;(
+            const primitives::BlockId&amp;)&gt;&gt; <b>gmock11_getNumberById_27</b></dt><dt class="is-family-code" id="var_gmock00_GetName_29">public  ::testing::FunctionMocker&lt;
+    ::testing::internal::identity_t&lt;
+        std::string()&gt;&gt; <b>gmock00_GetName_29</b></dt></dl><p>Inherited from <a href="rEEFC895864A9CC17.html">BlockHeaderRepository</a>:</p><ul><li class="is-family-code"><a href="rEEFC895864A9CC17.html#75B8FC8A60A22828">public <b>getBlockHeader</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#578778478FAA9166">public <b>getBlockStatus</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#8A571B73AB92817E">public <b>getHashById</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#4A6922A66BBAA038">public <b>getHashByNumber</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#DACD854341EA867A">public <b>getNumberByHash</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#16B2EF648376F730">public <b>getNumberById</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#CEA5C1FCBC3933FA">public <b>putBlockHeader</b></a></li><li class="is-family-code"><a href="rEEFC895864A9CC17.html#728463CBBC2C8F3A">public <b>removeBlockHeader</b></a></li></ul><p>Inherited from <a href="r961A76021F28B039.html">IComponent</a>:</p><ul><li class="is-family-code"><a href="r961A76021F28B039.html#2992A88C27213BCF">public <b>GetName</b></a></li></ul></main></div></div></div></section></div><footer class="footer"><p>Documentation for SuperGenius .99.</p><p>Generated by <a href="https://hdoc.io/">hdoc</a> version 1.4.2-hdocInternal on 2026-02-16T05:47:16 UTC.</p><p class="has-text-grey-light">19AD43E11B2996</p></footer></body></html>
