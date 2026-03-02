@@ -6,6 +6,7 @@
     <includes local="no">vector</includes>
     <includes local="no">gsl/span</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
+    <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">src/account/GeniusAccount.cpp</includedby>
     <includedby refid="d1/d90/configuration__storage__impl_8cpp" local="yes">src/application/impl/configuration_storage_impl.cpp</includedby>
     <includedby refid="df/d89/local__key__storage_8cpp" local="yes">src/application/impl/local_key_storage.cpp</includedby>
     <includedby refid="d4/d16/blob_8hpp" local="yes">src/base/blob.hpp</includedby>
@@ -44,81 +45,81 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="43">
+      <node id="44">
         <label>node/app_delegate.cpp</label>
         <link refid="d5/df0/app__delegate_8cpp"/>
       </node>
-      <node id="54">
+      <node id="55">
         <label>src/account/AccountMessenger.cpp</label>
         <link refid="d0/d58/_account_messenger_8cpp"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>src/account/EscrowReleaseTransaction.cpp</label>
         <link refid="d5/dab/_escrow_release_transaction_8cpp"/>
       </node>
-      <node id="20">
+      <node id="21">
         <label>src/account/EscrowReleaseTransaction.hpp</label>
         <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>src/account/EscrowTransaction.cpp</label>
-        <link refid="d7/d12/_escrow_transaction_8cpp"/>
-      </node>
-      <node id="21">
-        <label>src/account/EscrowTransaction.hpp</label>
-        <link refid="df/df3/_escrow_transaction_8hpp"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
-        <label>src/account/GeniusAccount.cpp</label>
-        <link refid="dd/dd9/_genius_account_8cpp"/>
-      </node>
-      <node id="10">
-        <label>src/account/GeniusNode.cpp</label>
-        <link refid="df/de0/_genius_node_8cpp"/>
-      </node>
-      <node id="9">
-        <label>src/account/GeniusNode.hpp</label>
-        <link refid="d3/d63/_genius_node_8hpp"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="7">
+        <label>src/account/EscrowTransaction.cpp</label>
+        <link refid="d7/d12/_escrow_transaction_8cpp"/>
+      </node>
+      <node id="22">
+        <label>src/account/EscrowTransaction.hpp</label>
+        <link refid="df/df3/_escrow_transaction_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/account/GeniusAccount.cpp</label>
+        <link refid="dd/dd9/_genius_account_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/account/GeniusNode.cpp</label>
+        <link refid="df/de0/_genius_node_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/account/GeniusNode.hpp</label>
+        <link refid="d3/d63/_genius_node_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
         <label>src/account/GeniusUTXO.hpp</label>
         <link refid="d6/d74/_genius_u_t_x_o_8hpp"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="56">
         <label>src/account/IGeniusTransactions.cpp</label>
         <link refid="da/dcc/_i_genius_transactions_8cpp"/>
       </node>
-      <node id="12">
+      <node id="13">
         <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
-      <node id="13">
+      <node id="14">
         <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
-      <node id="14">
+      <node id="15">
         <label>src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
-      <node id="15">
+      <node id="16">
         <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
@@ -130,16 +131,14 @@
         <label>src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
       </node>
-      <node id="16">
+      <node id="17">
         <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
-      <node id="11">
+      <node id="12">
         <label>src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -149,58 +148,60 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
-      <node id="22">
+      <node id="23">
         <label>src/account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>src/account/UTXOManager.cpp</label>
+        <link refid="dc/d76/_u_t_x_o_manager_8cpp"/>
+      </node>
+      <node id="9">
+        <label>src/account/UTXOManager.hpp</label>
+        <link refid="d1/dac/_u_t_x_o_manager_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>src/account/UTXOManager.cpp</label>
-        <link refid="dc/d76/_u_t_x_o_manager_8cpp"/>
-      </node>
-      <node id="8">
-        <label>src/account/UTXOManager.hpp</label>
-        <link refid="d1/dac/_u_t_x_o_manager_8hpp"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
+      <node id="24">
         <label>src/account/UTXOStructs.cpp</label>
         <link refid="d4/d13/_u_t_x_o_structs_8cpp"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>src/account/UTXOStructs.hpp</label>
         <link refid="d1/dd1/_u_t_x_o_structs_8hpp"/>
-        <childnode refid="20" relation="include">
-        </childnode>
         <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
         <childnode refid="23" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
-      <node id="24">
+      <node id="25">
         <label>src/api/service/author/author_api.hpp</label>
         <link refid="d8/dd1/author__api_8hpp"/>
       </node>
@@ -209,81 +210,81 @@
         <link refid="d1/d83/configuration__storage_8hpp"/>
         <childnode refid="114" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="2">
+      <node id="3">
         <label>src/application/impl/configuration_storage_impl.cpp</label>
         <link refid="d1/d90/configuration__storage__impl_8cpp"/>
       </node>
       <node id="114">
         <label>src/application/impl/configuration_storage_impl.hpp</label>
         <link refid="d9/d22/configuration__storage__impl_8hpp"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>src/application/impl/local_key_storage.cpp</label>
         <link refid="df/d89/local__key__storage_8cpp"/>
       </node>
-      <node id="41">
+      <node id="42">
         <label>src/application/impl/local_key_storage.hpp</label>
         <link refid="d8/d59/local__key__storage_8hpp"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="45">
         <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
-      <node id="42">
+      <node id="43">
         <label>src/application/impl/validating_node_application.hpp</label>
         <link refid="d6/dce/validating__node__application_8hpp"/>
-        <childnode refid="43" relation="include">
-        </childnode>
         <childnode refid="44" relation="include">
-        </childnode>
-      </node>
-      <node id="40">
-        <label>src/application/key_storage.hpp</label>
-        <link refid="d0/d63/key__storage_8hpp"/>
-        <childnode refid="41" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="41">
+        <label>src/application/key_storage.hpp</label>
+        <link refid="d0/d63/key__storage_8hpp"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>src/base/blob.cpp</label>
         <link refid="dd/dc0/blob_8cpp"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>src/base/blob.hpp</label>
         <link refid="d4/d16/blob_8hpp"/>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="80" relation="include">
         </childnode>
@@ -337,83 +338,85 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="169" relation="include">
         </childnode>
         <childnode refid="170" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>src/blockchain/block_header_repository.hpp</label>
         <link refid="d6/d4c/block__header__repository_8hpp"/>
-        <childnode refid="27" relation="include">
-        </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="99">
         <label>src/blockchain/block_storage.hpp</label>
         <link refid="d4/d5d/block__storage_8hpp"/>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="100">
         <label>src/blockchain/block_tree.hpp</label>
         <link refid="d2/d0a/block__tree_8hpp"/>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>src/blockchain/impl/block_header_repository.cpp</label>
         <link refid="df/d2c/block__header__repository_8cpp"/>
       </node>
-      <node id="29">
+      <node id="30">
         <label>src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
-      <node id="28">
+      <node id="29">
         <label>src/blockchain/impl/block_tree_impl.hpp</label>
         <link refid="d7/d87/block__tree__impl_8hpp"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="106">
         <label>src/blockchain/impl/common.hpp</label>
         <link refid="db/d1e/src_2blockchain_2impl_2common_8hpp"/>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="107" relation="include">
         </childnode>
         <childnode refid="108" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="32">
         <label>src/blockchain/impl/key_value_block_header_repository.cpp</label>
         <link refid="de/d1b/key__value__block__header__repository_8cpp"/>
       </node>
-      <node id="30">
+      <node id="31">
         <label>src/blockchain/impl/key_value_block_header_repository.hpp</label>
         <link refid="dd/dc6/key__value__block__header__repository_8hpp"/>
-        <childnode refid="31" relation="include">
-        </childnode>
         <childnode refid="32" relation="include">
         </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
       </node>
-      <node id="33">
+      <node id="34">
         <label>src/blockchain/impl/key_value_block_storage.cpp</label>
         <link refid="de/de9/key__value__block__storage_8cpp"/>
       </node>
-      <node id="32">
+      <node id="33">
         <label>src/blockchain/impl/key_value_block_storage.hpp</label>
         <link refid="d4/d6b/key__value__block__storage_8hpp"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="107">
@@ -423,11 +426,11 @@
       <node id="109">
         <label>src/blockchain/impl/storage_util.hpp</label>
         <link refid="dd/d87/storage__util_8hpp"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="107" relation="include">
         </childnode>
@@ -442,68 +445,68 @@
         <label>src/crypto/bip39/entropy_accumulator.cpp</label>
         <link refid="d4/d0c/entropy__accumulator_8cpp"/>
       </node>
-      <node id="47">
+      <node id="48">
         <label>src/crypto/crypto_store.hpp</label>
         <link refid="d2/db9/crypto__store_8hpp"/>
-        <childnode refid="37" relation="include">
-        </childnode>
-      </node>
-      <node id="38">
-        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
-        <link refid="dd/d14/crypto__store__impl_8cpp"/>
-      </node>
-      <node id="37">
-        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
-        <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="50">
-        <label>src/crypto/ed25519/ed25519_provider_impl.cpp</label>
-        <link refid="d0/d42/ed25519__provider__impl_8cpp"/>
+      <node id="39">
+        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
+        <link refid="dd/d14/crypto__store__impl_8cpp"/>
       </node>
-      <node id="49">
-        <label>src/crypto/ed25519/ed25519_provider_impl.hpp</label>
-        <link refid="df/d66/ed25519__provider__impl_8hpp"/>
-        <childnode refid="50" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
-        <label>src/crypto/ed25519_provider.hpp</label>
-        <link refid="d0/d2a/ed25519__provider_8hpp"/>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="49" relation="include">
+      <node id="38">
+        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <link refid="d4/d05/crypto__store__impl_8hpp"/>
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="51">
-        <label>src/crypto/ed25519_types.cpp</label>
-        <link refid="db/dba/ed25519__types_8cpp"/>
+        <label>src/crypto/ed25519/ed25519_provider_impl.cpp</label>
+        <link refid="d0/d42/ed25519__provider__impl_8cpp"/>
       </node>
-      <node id="39">
-        <label>src/crypto/ed25519_types.hpp</label>
-        <link refid="d4/d6e/ed25519__types_8hpp"/>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
+      <node id="50">
+        <label>src/crypto/ed25519/ed25519_provider_impl.hpp</label>
+        <link refid="df/d66/ed25519__provider__impl_8hpp"/>
         <childnode refid="51" relation="include">
         </childnode>
       </node>
+      <node id="49">
+        <label>src/crypto/ed25519_provider.hpp</label>
+        <link refid="d0/d2a/ed25519__provider_8hpp"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
       <node id="52">
+        <label>src/crypto/ed25519_types.cpp</label>
+        <link refid="db/dba/ed25519__types_8cpp"/>
+      </node>
+      <node id="40">
+        <label>src/crypto/ed25519_types.hpp</label>
+        <link refid="d4/d6e/ed25519__types_8hpp"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
         <label>src/crypto/hasher.hpp</label>
         <link refid="da/d6b/hasher_8hpp"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="62" relation="include">
         </childnode>
@@ -514,18 +517,16 @@
         <label>src/crypto/hasher/hasher_impl.cpp</label>
         <link refid="d3/d84/hasher__impl_8cpp"/>
       </node>
-      <node id="53">
+      <node id="54">
         <label>src/crypto/hasher/hasher_impl.hpp</label>
         <link refid="d0/d62/hasher__impl_8hpp"/>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="56" relation="include">
         </childnode>
@@ -533,7 +534,7 @@
         </childnode>
         <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
@@ -555,7 +556,7 @@
       <node id="81">
         <label>src/crypto/secp256k1_provider.hpp</label>
         <link refid="d2/d17/secp256k1__provider_8hpp"/>
-        <childnode refid="37" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="82" relation="include">
         </childnode>
@@ -593,7 +594,7 @@
       <node id="89">
         <label>src/crypto/sr25519_provider.hpp</label>
         <link refid="d2/dbb/sr25519__provider_8hpp"/>
-        <childnode refid="37" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="90" relation="include">
         </childnode>
@@ -605,9 +606,9 @@
       <node id="87">
         <label>src/crypto/sr25519_types.hpp</label>
         <link refid="d2/d9c/sr25519__types_8hpp"/>
-        <childnode refid="40" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
@@ -687,7 +688,7 @@
       <node id="97">
         <label>src/primitives/block_header.hpp</label>
         <link refid="d7/d72/block__header_8hpp"/>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="98" relation="include">
         </childnode>
@@ -697,7 +698,7 @@
       <node id="105">
         <label>src/primitives/block_id.hpp</label>
         <link refid="d9/da1/block__id_8hpp"/>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="99" relation="include">
         </childnode>
@@ -882,26 +883,26 @@
         <childnode refid="67" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="36">
         <label>src/runtime/binaryen/runtime_api/core_factory_impl.cpp</label>
         <link refid="de/d5e/core__factory__impl_8cpp"/>
       </node>
       <node id="64">
         <label>src/runtime/binaryen/runtime_api/core_factory_impl.hpp</label>
         <link refid="d7/de4/core__factory__impl_8hpp"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="37">
         <label>src/runtime/binaryen/runtime_api/core_impl.cpp</label>
         <link refid="dc/d7c/core__impl_8cpp"/>
       </node>
-      <node id="34">
+      <node id="35">
         <label>src/runtime/binaryen/runtime_api/core_impl.hpp</label>
         <link refid="d7/dbc/core__impl_8hpp"/>
-        <childnode refid="35" relation="include">
-        </childnode>
         <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
       <node id="69">
@@ -959,7 +960,7 @@
         <link refid="dd/d87/runtime__api_8hpp"/>
         <childnode refid="66" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="68" relation="include">
         </childnode>
@@ -1065,7 +1066,7 @@
       <node id="103">
         <label>src/runtime/core.hpp</label>
         <link refid="da/d47/core_8hpp"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="104" relation="include">
         </childnode>
@@ -1076,14 +1077,14 @@
         <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="47">
         <label>src/runtime/dummy/finality_api_dummy.cpp</label>
         <link refid="d0/d07/finality__api__dummy_8cpp"/>
       </node>
-      <node id="45">
+      <node id="46">
         <label>src/runtime/dummy/finality_api_dummy.hpp</label>
         <link refid="d5/d14/finality__api__dummy_8hpp"/>
-        <childnode refid="46" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
       <node id="110">
@@ -1091,7 +1092,7 @@
         <link refid="d7/d22/finality__api_8hpp"/>
         <childnode refid="68" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
       <node id="115">
@@ -1131,7 +1132,7 @@
       <node id="117">
         <label>src/storage/changes_trie/changes_tracker.hpp</label>
         <link refid="d3/d51/changes__tracker_8hpp"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="118" relation="include">
         </childnode>
@@ -1223,7 +1224,7 @@
       <node id="158">
         <label>src/storage/trie/serialization/supergenius_codec.hpp</label>
         <link refid="d7/db4/supergenius__codec_8hpp"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="108" relation="include">
         </childnode>

@@ -4,6 +4,7 @@
     <compoundname>outcome.hpp</compoundname>
     <includes local="no">libp2p/outcome/outcome.hpp</includes>
     <includedby refid="d8/d7a/_account_messenger_8hpp" local="yes">src/account/AccountMessenger.hpp</includedby>
+    <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">src/account/GeniusAccount.cpp</includedby>
     <includedby refid="d0/dad/_genius_account_8hpp" local="yes">src/account/GeniusAccount.hpp</includedby>
     <includedby refid="db/d3c/_i_genius_transactions_8hpp" local="yes">src/account/IGeniusTransactions.hpp</includedby>
     <includedby refid="d5/da7/_i_migration_step_8hpp" local="yes">src/account/IMigrationStep.hpp</includedby>
@@ -696,6 +697,8 @@
       <node id="234">
         <label>src/base/hexutil.hpp</label>
         <link refid="df/d28/hexutil_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
@@ -1238,8 +1241,6 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
@@ -1465,6 +1466,8 @@
         <label>src/outcome/outcome.hpp</label>
         <link refid="d5/dda/outcome_8hpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>

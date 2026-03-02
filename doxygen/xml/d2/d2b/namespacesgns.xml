@@ -425,20 +425,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="d2/d2b/namespacesgns_1a70063e3482afed9e184834124df30e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
-        <definition>base::Logger sgns::genius_account_logger</definition>
-        <argsstring>()</argsstring>
-        <name>genius_account_logger</name>
-        <qualifiedname>sgns::genius_account_logger</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="src/account/GeniusAccount.cpp" line="33" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="33" bodyend="38"/>
-      </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a2de1158d91abbd78cc0227c7ddcd6960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
         <definition>base::Logger sgns::GeniusNodeLogger</definition>

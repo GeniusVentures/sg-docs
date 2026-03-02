@@ -6,7 +6,6 @@
     <includedby refid="d0/d58/_account_messenger_8cpp" local="yes">src/account/AccountMessenger.cpp</includedby>
     <includedby refid="d5/dab/_escrow_release_transaction_8cpp" local="yes">src/account/EscrowReleaseTransaction.cpp</includedby>
     <includedby refid="d7/d12/_escrow_transaction_8cpp" local="yes">src/account/EscrowTransaction.cpp</includedby>
-    <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">src/account/GeniusAccount.cpp</includedby>
     <includedby refid="d3/d63/_genius_node_8hpp" local="yes">src/account/GeniusNode.hpp</includedby>
     <includedby refid="da/dcc/_i_genius_transactions_8cpp" local="yes">src/account/IGeniusTransactions.cpp</includedby>
     <includedby refid="d8/d70/_mint_transaction_8cpp" local="yes">src/account/MintTransaction.cpp</includedby>
@@ -109,37 +108,33 @@
         <label>src/account/EscrowTransaction.cpp</label>
         <link refid="d7/d12/_escrow_transaction_8cpp"/>
       </node>
-      <node id="5">
-        <label>src/account/GeniusAccount.cpp</label>
-        <link refid="dd/dd9/_genius_account_8cpp"/>
-      </node>
-      <node id="7">
+      <node id="6">
         <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
-      <node id="6">
+      <node id="5">
         <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
         <label>src/account/IGeniusTransactions.cpp</label>
         <link refid="da/dcc/_i_genius_transactions_8cpp"/>
       </node>
-      <node id="9">
+      <node id="8">
         <label>src/account/MintTransaction.cpp</label>
         <link refid="d8/d70/_mint_transaction_8cpp"/>
       </node>
-      <node id="10">
+      <node id="9">
         <label>src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
       </node>
-      <node id="11">
+      <node id="10">
         <label>src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
-      <node id="12">
+      <node id="11">
         <label>src/crypto/hasher/hasher_impl.cpp</label>
         <link refid="d3/d84/hasher__impl_8cpp"/>
       </node>
@@ -154,7 +149,7 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -168,14 +163,12 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
       </node>
-      <node id="13">
+      <node id="12">
         <label>src/local_secure_storage/impl/Linux.cpp</label>
         <link refid="de/d39/_linux_8cpp"/>
       </node>
-      <node id="14">
+      <node id="13">
         <label>src/runtime/binaryen/runtime_manager.cpp</label>
         <link refid="da/dc5/runtime__manager_8cpp"/>
       </node>

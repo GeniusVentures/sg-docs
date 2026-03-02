@@ -1476,6 +1476,10 @@
     <member refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a52c8b9b3f00e5e2b5db3c4b38b52734e" kind="function"><name>CrdtSet</name></member>
     <member refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a81c984334a19e54921b3f5b97c7d35a3" kind="function"><name>PrintTombs</name></member>
   </compound>
+  <compound refid="d7/d3e/structsgns_1_1_genius_account_1_1_credentials" kind="struct"><name>sgns::GeniusAccount::Credentials</name>
+    <member refid="d7/d3e/structsgns_1_1_genius_account_1_1_credentials_1a19ed5f828ed4456468a9afb99d852cae" kind="variable"><name>email</name></member>
+    <member refid="d7/d3e/structsgns_1_1_genius_account_1_1_credentials_1a8fd181af7f65955c4e39ad0c0caa5805" kind="variable"><name>password</name></member>
+  </compound>
   <compound refid="da/d52/classsgns_1_1crypto_1_1_crypto_store" kind="class"><name>sgns::crypto::CryptoStore</name>
     <member refid="da/d52/classsgns_1_1crypto_1_1_crypto_store_1a0e4314ce82cfcde206e5d1fc17fdc3af" kind="typedef"><name>Path</name></member>
     <member refid="da/d52/classsgns_1_1crypto_1_1_crypto_store_1aee2cc68cf7941dc6b99fdb74d18b5225" kind="typedef"><name>ED25519Keys</name></member>
@@ -1840,6 +1844,7 @@
   <compound refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage" kind="struct"><name>sgns::storage::face::GenericStorage</name>
   </compound>
   <compound refid="dc/d64/classsgns_1_1_genius_account" kind="class"><name>sgns::GeniusAccount</name>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ada9b0c2374ac9971bbd3f65b482a3713" kind="typedef"><name>StorageWithAddress</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a4e32e410be028c56f0ef006b69b25657" kind="variable"><name>ELGAMAL_PUBKEY_PREDEFINED</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a62bde34db8bf8a1e2e775230599441ca" kind="variable"><name>NONCE_CACHE_DURATION_MS</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a8db2b3749abc91927de305b50eb1d4e7" kind="friend"><name>Blockchain</name></member>
@@ -1862,9 +1867,12 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1a5020ba8817e51460a62cfaa46dc976bc" kind="variable"><name>get_cids_mutex_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a517a74935afb3f1777b4196199ad3aea" kind="variable"><name>get_cids_method_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ad4629f30bcf19864375d5260e6bd07de" kind="variable"><name>has_cid_method_</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1a895d0193a6ddafc3aba9c482b784710b" kind="function"><name>New</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ad67b73108af7b65d2c4c61c80e05b6c2" kind="function"><name>New</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a76ade584c4f970df8ff1f61630a8a45c" kind="function"><name>New</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ad1e69568ef50036f8be13c8590438d91" kind="function"><name>New</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a0a0b690a932bf82303b3b27aeeca919d" kind="function"><name>VerifySignature</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1a89872560b5ed0240626fac5a7adb1634" kind="function"><name>GenerateGeniusAddress</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a17310b389bbed7fa19000064e559b785" kind="function"><name>GenerateGeniusAddress</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1aa14672d15a0f3fd66fb9e63ee663746b" kind="function"><name>GenerateGeniusAddress</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a2d368e46a92a458ad612e4d382c9088d" kind="function"><name>InitMessenger</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ace3a92965977c4f20cc74c0b2a6ad2f4" kind="function"><name>ConfigureMessengerHandlers</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a21d34d3ab4bf2e3ea1d952e4a0cd2721" kind="function"><name>~GeniusAccount</name></member>
@@ -1873,9 +1881,9 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1abc13369957891ceff78008a36cec183c" kind="function"><name>GetNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a5185e87b964aaca973c332a394c68827" kind="function"><name>Sign</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a2c4ce679cb7b6c8ace526602524060c5" kind="function"><name>SetLocalConfirmedNonce</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1adcffe52fec21aaf40b9d1c2ac519317a" kind="function"><name>SetPeerConfirmedNonce</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1a4801d79eaba4a5f41c22106847c8e001" kind="function"><name>RollBackPeerConfirmedNonce</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1a55f7f401963c9bc8e2240ede6a4a56ff" kind="function"><name>GetPeerNonce</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a965168eb86754a1ad41ff2b377563a77" kind="function"><name>SetPeerConfirmedNonce</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a3f91917209229d8306d9b64b4cc59c47" kind="function"><name>RollBackPeerConfirmedNonce</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1aa4da5c19a47e40c12fb24d8aeb5ef76e" kind="function"><name>GetPeerNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1acd8500e0f5cde61003ea3bc7b252a3f1" kind="function"><name>GetLocalConfirmedNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a140c82ff3bedfe66ebb0325294b68b52" kind="function"><name>GetConfirmedNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a179e7366b3c626f4e9f8d30b3d3012f3" kind="function"><name>GetProposedNonce</name></member>
@@ -1889,6 +1897,8 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1a232ce2bb40863b691afcd57cc6bf8b35" kind="function"><name>ClearGetBlockChainCIDMethod</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a9bd6306a491016b3fdb96dd0b810f7fa" kind="function"><name>SetHasBlockCidMethod</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a9d77f47e29e9a58702737f752de75e07" kind="function"><name>ClearHasBlockCidMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ae747d377965085cc14266fc700f061eb" kind="function"><name>LoadGeniusAccount</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a6e9743ff91af975f0f3d241d5f4127f3" kind="function"><name>CreateInstanceFromResponse</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ae72400a6e7031c212f4670e7830bfea6" kind="function"><name>GetNextNonceLocked</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" kind="function"><name>GeniusAccount</name></member>
   </compound>
@@ -5477,7 +5487,6 @@
     <member refid="d2/d2b/namespacesgns_1a1393d49beee235b599e89a325e914803" kind="typedef"><name>tcp_endpoint</name></member>
     <member refid="d2/d2b/namespacesgns_1a1a0b3c97c07375bd3f9dc07e1f832177" kind="typedef"><name>ipfs_dbi</name></member>
     <member refid="d2/d2b/namespacesgns_1aa3452b68fa5043a4b7cd36d669923882" kind="typedef"><name>ipfs_val</name></member>
-    <member refid="d2/d2b/namespacesgns_1a70063e3482afed9e184834124df30e6d" kind="function"><name>genius_account_logger</name></member>
     <member refid="d2/d2b/namespacesgns_1a2de1158d91abbd78cc0227c7ddcd6960" kind="function"><name>GeniusNodeLogger</name></member>
     <member refid="d2/d2b/namespacesgns_1a22da46e7b9a50eec8f2229e2322f48c0" kind="function"><name>generate_uuid_with_ipfs_id</name></member>
     <member refid="d2/d2b/namespacesgns_1aa528beacefda8b0a1c432a7d0afda122" kind="function"><name>operator&lt;&lt;</name></member>
@@ -6196,7 +6205,6 @@
   <compound refid="df/df3/_escrow_transaction_8hpp" kind="file"><name>EscrowTransaction.hpp</name>
   </compound>
   <compound refid="dd/dd9/_genius_account_8cpp" kind="file"><name>GeniusAccount.cpp</name>
-    <member refid="d2/d2b/namespacesgns_1a70063e3482afed9e184834124df30e6d" kind="function"><name>genius_account_logger</name></member>
   </compound>
   <compound refid="d0/dad/_genius_account_8hpp" kind="file"><name>GeniusAccount.hpp</name>
   </compound>
