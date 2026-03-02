@@ -43,25 +43,15 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Header file for creating a processing task queue <simplesect kind="author"><para>????? Updated by:Justin Church</para>
-</simplesect>
-Header file for the distrubuted processing Room <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for the distributed processing Room <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for the distrubuted processing node <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for the distributed subtasks queue <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for subtask queue accessor interface <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for subtask queue accessor implementation <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for subtask queue channel interface <simplesect kind="author"><para>creativeid00</para>
-</simplesect>
-Header file for the distributed subtasks queue <simplesect kind="author"><para>SuperGenius/Creative00 </para>
-</simplesect>
-</para>
+<para>Header file for creating a processing task queue ????? Updated by:Justin Church</para>
+<para>Header file for the distrubuted processing Room creativeid00</para>
+<para>Header file for the distributed processing Room creativeid00</para>
+<para>Header file for the distrubuted processing node creativeid00</para>
+<para>Header file for the distributed subtasks queue creativeid00</para>
+<para>Header file for subtask queue accessor interface creativeid00</para>
+<para>Header file for subtask queue accessor implementation creativeid00</para>
+<para>Header file for subtask queue channel interface creativeid00</para>
+<para>Header file for the distributed subtasks queue SuperGenius/Creative00 </para>
     </detaileddescription>
     <location file="src/processing/impl/processing_core_impl.cpp" line="24" column="1"/>
   </compounddef>

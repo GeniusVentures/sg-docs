@@ -802,9 +802,7 @@
 <para>Header file for the Blockchain class, which provides an interface for block storage operations. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2025-10-28 </para>
-</simplesect>
-<simplesect kind="author"><para>Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
+<para><simplesect kind="date"><para>2025-10-28 Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
 </simplesect>
 </para>
     </detaileddescription>

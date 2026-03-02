@@ -187,9 +187,7 @@
 <para>Header file of the assigner from bytecode to circuit. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2024-09-09 </para>
-</simplesect>
-<simplesect kind="author"><para>Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
+<para><simplesect kind="date"><para>2024-09-09 Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
 </simplesect>
 </para>
     </detaileddescription>

@@ -925,11 +925,7 @@
 <para>Implementation of MigrationManager and migration steps. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2025-05-29 </para>
-</simplesect>
-<simplesect kind="author"><para>Luiz Guilherme Rizzatto Zucchi </para>
-</simplesect>
-<simplesect kind="author"><para>Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
+<para><simplesect kind="date"><para>2025-05-29 Luiz Guilherme Rizzatto Zucchi Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
 </simplesect>
 </para>
     </detaileddescription>

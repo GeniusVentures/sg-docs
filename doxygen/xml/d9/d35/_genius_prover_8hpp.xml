@@ -294,9 +294,7 @@
 <para>Header file of the prover from circuit to zkproof. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2024-09-13 </para>
-</simplesect>
-<simplesect kind="author"><para>Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
+<para><simplesect kind="date"><para>2024-09-13 Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
 </simplesect>
 </para>
     </detaileddescription>

@@ -105,9 +105,7 @@
 <para>CRDT callback manager header for when an element gets added/removed. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2025-09-06 </para>
-</simplesect>
-<simplesect kind="author"><para>Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
+<para><simplesect kind="date"><para>2025-09-06 Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) </para>
 </simplesect>
 </para>
     </detaileddescription>

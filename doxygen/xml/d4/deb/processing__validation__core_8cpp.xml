@@ -146,9 +146,7 @@
 <para>Source file of core implementation of processing task results validation. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="date"><para>2022-05-08 </para>
-</simplesect>
-<simplesect kind="author"><para>creativeid00 </para>
+<para><simplesect kind="date"><para>2022-05-08 creativeid00 </para>
 </simplesect>
 <simplesect kind="note"><para>This was mostly rewritten by Henrique A. Klein (<ulink url="mailto:hklein@gnus.ai">hklein@gnus.ai</ulink>) and Justin Church (<ulink url="mailto:jchurch@gnus.ai">jchurch@gnus.ai</ulink>) </para>
 </simplesect>

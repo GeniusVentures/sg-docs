@@ -64,9 +64,7 @@
 <para>Utilities for decimal arithmetic using scaled integers. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="author"><para>Luiz Guilherme Rizzatto Zucchi (<ulink url="mailto:luizgrz@gmail.com">luizgrz@gmail.com</ulink>) </para>
-</simplesect>
-<simplesect kind="version"><para>1.1 </para>
+<para>Luiz Guilherme Rizzatto Zucchi (<ulink url="mailto:luizgrz@gmail.com">luizgrz@gmail.com</ulink>) <simplesect kind="version"><para>1.1 </para>
 </simplesect>
 <simplesect kind="date"><para>2025-06-10 </para>
 </simplesect>
