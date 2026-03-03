@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" line="17" column="8"/>
+        <location file="src/application/key_storage.hpp" line="17" column="8"/>
       </memberdef>
       <memberdef kind="function" id="d5/ddb/classsgns_1_1application_1_1_key_storage_1a7f4b6ea447bbd972bfb3f163db7e4233" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="d0/d20/structsgns_1_1crypto_1_1_s_r25519_keypair" kindref="compound">crypto::SR25519Keypair</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" line="22" column="40"/>
+        <location file="src/application/key_storage.hpp" line="22" column="40"/>
       </memberdef>
       <memberdef kind="function" id="d5/ddb/classsgns_1_1application_1_1_key_storage_1aa15d8a5e01876b744db7cddf4ffd12e3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair" kindref="compound">crypto::ED25519Keypair</ref></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" line="27" column="40"/>
+        <location file="src/application/key_storage.hpp" line="27" column="40"/>
       </memberdef>
       <memberdef kind="function" id="d5/ddb/classsgns_1_1application_1_1_key_storage_1a4d5b1374b58d285d709fe2388d1661b0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>libp2p::crypto::KeyPair</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" line="32" column="41"/>
+        <location file="src/application/key_storage.hpp" line="32" column="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -104,7 +104,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp" bodystart="15" bodyend="33"/>
+    <location file="src/application/key_storage.hpp" line="15" column="3" bodyfile="src/application/key_storage.hpp" bodystart="15" bodyend="33"/>
     <listofallmembers>
       <member refid="d5/ddb/classsgns_1_1application_1_1_key_storage_1aa15d8a5e01876b744db7cddf4ffd12e3" prot="public" virt="pure-virtual"><scope>sgns::application::KeyStorage</scope><name>getLocalEd25519Keypair</name></member>
       <member refid="d5/ddb/classsgns_1_1application_1_1_key_storage_1a7f4b6ea447bbd972bfb3f163db7e4233" prot="public" virt="pure-virtual"><scope>sgns::application::KeyStorage</scope><name>getLocalSr25519Keypair</name></member>

@@ -6,8 +6,8 @@
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="dd/d8f/atomic__transaction_8hpp" local="yes">crdt/atomic_transaction.hpp</includes>
     <includes local="no">list</includes>
-    <includedby refid="d2/d76/processing__task__queue__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.hpp</includedby>
-    <includedby refid="df/d39/processing__subtask__enqueuer__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.hpp</includedby>
+    <includedby refid="d2/d76/processing__task__queue__impl_8hpp" local="yes">src/processing/impl/processing_task_queue_impl.hpp</includedby>
+    <includedby refid="df/d39/processing__subtask__enqueuer__impl_8hpp" local="yes">src/processing/processing_subtask_enqueuer_impl.hpp</includedby>
     <incdepgraph>
       <node id="6">
         <label>base/buffer.hpp</label>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_task_queue.hpp</label>
+        <label>src/processing/processing_task_queue.hpp</label>
         <link refid="d1/d7c/processing__task__queue_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -118,21 +118,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.cpp</label>
+        <label>src/processing/impl/processing_task_queue_impl.cpp</label>
         <link refid="d1/dff/processing__task__queue__impl_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.hpp</label>
+        <label>src/processing/impl/processing_task_queue_impl.hpp</label>
         <link refid="d2/d76/processing__task__queue__impl_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -140,11 +140,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.cpp</label>
+        <label>src/processing/processing_subtask_enqueuer_impl.cpp</label>
         <link refid="dd/d16/processing__subtask__enqueuer__impl_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.hpp</label>
+        <label>src/processing/processing_subtask_enqueuer_impl.hpp</label>
         <link refid="df/d39/processing__subtask__enqueuer__impl_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -152,7 +152,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_task_queue.hpp</label>
+        <label>src/processing/processing_task_queue.hpp</label>
         <link refid="d1/d7c/processing__task__queue_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -201,6 +201,6 @@
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>GRPC_FOR_SUPERGENIUS_PROCESSING_TASK_QUEUE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_task_queue.hpp"/>
+    <location file="src/processing/processing_task_queue.hpp"/>
   </compounddef>
 </doxygen>

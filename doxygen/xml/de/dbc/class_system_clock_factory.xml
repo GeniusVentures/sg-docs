@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" line="16" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" bodystart="16" bodyend="19"/>
+        <location file="app/integration/SystemClockFactory.hpp" line="16" column="28" bodyfile="app/integration/SystemClockFactory.hpp" bodystart="16" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="de/dbc/class_system_clock_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" bodystart="14" bodyend="20"/>
+    <location file="app/integration/SystemClockFactory.hpp" line="13" column="1" bodyfile="app/integration/SystemClockFactory.hpp" bodystart="14" bodyend="20"/>
     <listofallmembers>
       <member refid="de/dbc/class_system_clock_factory_1a9343ef358369dbaf8dcfa31574c4606b" prot="public" virt="non-virtual"><scope>SystemClockFactory</scope><name>create</name></member>
     </listofallmembers>

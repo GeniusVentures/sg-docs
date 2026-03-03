@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" bodystart="19" bodyend="25"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="19" column="5" bodyfile="src/storage/trie/serialization/supergenius_codec.hpp" bodystart="19" bodyend="25"/>
       </memberdef>
       <memberdef kind="typedef" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" prot="public" static="no">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">sgns::base::Buffer</ref></type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" bodystart="17" bodyend="-1"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="17" column="5" bodyfile="src/storage/trie/serialization/supergenius_codec.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="27" column="5"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="27" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1ac09653f49001069470548f98f9f35e99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" kindref="member">Buffer</ref> &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="29" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="100" bodyend="114"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="29" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="100" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a69e1cc116fe836842320b9dfd61ae512" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d4/d79/structsgns_1_1storage_1_1trie_1_1_node" kindref="compound">Node</ref> &gt; &gt;</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="31" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="212" bodyend="234"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="31" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="212" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a1e7229aabb71f9c7e29c2748097ba64d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="34" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="78" bodyend="86"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="34" column="18" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="78" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a00e6e53e7fca6f8e46c5a498d80805bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="36" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="88" bodyend="98"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="36" column="19" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="88" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a7b20cf61c8e8039cb18606f90e8d4ea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="38" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" bodystart="38" bodyend="41"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="38" column="17" bodyfile="src/storage/trie/serialization/supergenius_codec.hpp" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a81b65fa4b086ce6f7a469e8049211f99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" kindref="member">Buffer</ref> &gt;</type>
@@ -253,7 +253,7 @@
 <para>for last byte</para>
 <para>fill array with 255</para>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="58" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="116" bodyend="159"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="58" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="116" bodyend="159"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="47" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="60" bodyend="76"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="47" column="23" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="60" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a6c6e1a6f7e224383920923d5ec8913a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" kindref="member">Buffer</ref></type>
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="52" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="43" bodyend="58"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="52" column="19" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="43" bodyend="58"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="61" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="161" bodyend="195"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="61" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="161" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1abf736a6cd84336acd9d4d5c5bcf16806" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" kindref="member">Buffer</ref> &gt;</type>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="62" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="197" bodyend="210"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="62" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="197" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a529e908b429d93577b4922a9a0aca46f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::pair&lt; <ref refid="d5/d97/structsgns_1_1storage_1_1trie_1_1_super_genius_node_1a8e6ad7aafff6f51af4b80b396d6c8c2a" kindref="member">SuperGeniusNode::Type</ref>, size_t &gt; &gt;</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="64" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="237" bodyend="262"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="64" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="237" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a763a551fd4755a66b8342b1677da152c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d0/d73/structsgns_1_1storage_1_1trie_1_1_key_nibbles" kindref="compound">KeyNibbles</ref> &gt;</type>
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="67" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="264" bodyend="283"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="67" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="264" bodyend="283"/>
       </memberdef>
       <memberdef kind="function" id="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1acca06fed719d72b26be5563eaef31d79" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d4/d79/structsgns_1_1storage_1_1trie_1_1_node" kindref="compound">Node</ref> &gt; &gt;</type>
@@ -397,7 +397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="70" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.cpp" bodystart="285" bodyend="331"/>
+        <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="70" column="21" bodyfile="src/storage/trie/serialization/supergenius_codec.cpp" bodystart="285" bodyend="331"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -440,7 +440,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/supergenius_codec.hpp" bodystart="15" bodyend="74"/>
+    <location file="src/storage/trie/serialization/supergenius_codec.hpp" line="15" column="3" bodyfile="src/storage/trie/serialization/supergenius_codec.hpp" bodystart="15" bodyend="74"/>
     <listofallmembers>
       <member refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a8597ede240a400bc63e03b2260d5f158" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusCodec</scope><name>Buffer</name></member>
       <member refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1acca06fed719d72b26be5563eaef31d79" prot="private" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusCodec</scope><name>decodeBranch</name></member>

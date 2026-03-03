@@ -162,7 +162,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp</label>
+        <label>src/account/MintTransaction.cpp</label>
         <link refid="d8/d70/_mint_transaction_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -464,6 +464,6 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp"/>
+    <location file="src/account/MintTransaction.cpp"/>
   </compounddef>
 </doxygen>

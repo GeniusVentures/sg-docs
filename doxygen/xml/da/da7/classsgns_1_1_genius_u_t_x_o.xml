@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="58" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="58" bodyend="-1"/>
+        <location file="src/account/GeniusUTXO.hpp" line="58" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/da7/classsgns_1_1_genius_u_t_x_o_1ac045d807410b08b2bbab1592f2560873" prot="private" static="no" mutable="no">
         <type>uint32_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="59" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="59" bodyend="-1"/>
+        <location file="src/account/GeniusUTXO.hpp" line="59" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a77a07686b62db8d0d290c52c54c60a60" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="60" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="60" bodyend="-1"/>
+        <location file="src/account/GeniusUTXO.hpp" line="60" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a8dd084b9c6a406a7a81b177559704a90" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="61" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="61" bodyend="-1"/>
+        <location file="src/account/GeniusUTXO.hpp" line="61" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/da7/classsgns_1_1_genius_u_t_x_o_1aa2c27028a6e1b45aeff17647e9d5b441" prot="private" static="no" mutable="no">
         <type><ref refid="d9/dd1/classsgns_1_1_token_i_d" kindref="compound">TokenID</ref></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="62" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="62" bodyend="-1"/>
+        <location file="src/account/GeniusUTXO.hpp" line="62" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="18" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="18" bodyend="25"/>
+        <location file="src/account/GeniusUTXO.hpp" line="18" column="9" bodyfile="src/account/GeniusUTXO.hpp" bodystart="18" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a6e6d0975714bf710a158fbff943ad018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="27" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="27" bodyend="30"/>
+        <location file="src/account/GeniusUTXO.hpp" line="27" column="14" bodyfile="src/account/GeniusUTXO.hpp" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1ae332a1876a533f782928231a6c5664d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="32" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="32" bodyend="35"/>
+        <location file="src/account/GeniusUTXO.hpp" line="32" column="23" bodyfile="src/account/GeniusUTXO.hpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a3e21557e65af625a498c16a816dfb6a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="37" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="37" bodyend="40"/>
+        <location file="src/account/GeniusUTXO.hpp" line="37" column="18" bodyfile="src/account/GeniusUTXO.hpp" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a6e6a84687b1b30de698cf002c428cada" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>uint64_t</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="42" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="42" bodyend="45"/>
+        <location file="src/account/GeniusUTXO.hpp" line="42" column="18" bodyfile="src/account/GeniusUTXO.hpp" bodystart="42" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1adf69042be30fc4aacc0f57b726c450bf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="47" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="47" bodyend="50"/>
+        <location file="src/account/GeniusUTXO.hpp" line="47" column="14" bodyfile="src/account/GeniusUTXO.hpp" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="da/da7/classsgns_1_1_genius_u_t_x_o_1a8757668a30c7397e24580df4a99fc372" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dd1/classsgns_1_1_token_i_d" kindref="compound">TokenID</ref></type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="52" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="52" bodyend="55"/>
+        <location file="src/account/GeniusUTXO.hpp" line="52" column="17" bodyfile="src/account/GeniusUTXO.hpp" bodystart="52" bodyend="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -230,7 +230,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp" bodystart="16" bodyend="63"/>
+    <location file="src/account/GeniusUTXO.hpp" line="15" column="5" bodyfile="src/account/GeniusUTXO.hpp" bodystart="16" bodyend="63"/>
     <listofallmembers>
       <member refid="da/da7/classsgns_1_1_genius_u_t_x_o_1a77a07686b62db8d0d290c52c54c60a60" prot="private" virt="non-virtual"><scope>sgns::GeniusUTXO</scope><name>amount_</name></member>
       <member refid="da/da7/classsgns_1_1_genius_u_t_x_o_1a86d73aff76e66608d77ac1bb13711ed0" prot="public" virt="non-virtual"><scope>sgns::GeniusUTXO</scope><name>GeniusUTXO</name></member>

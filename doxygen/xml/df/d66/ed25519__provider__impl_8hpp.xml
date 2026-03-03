@@ -3,8 +3,8 @@
   <compounddef id="df/d66/ed25519__provider__impl_8hpp" kind="file" language="C++">
     <compoundname>ed25519_provider_impl.hpp</compoundname>
     <includes refid="d0/d2a/ed25519__provider_8hpp" local="yes">crypto/ed25519_provider.hpp</includes>
-    <includedby refid="d0/d53/_e_d25519_provider_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp</includedby>
-    <includedby refid="d0/d42/ed25519__provider__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp</includedby>
+    <includedby refid="d0/d53/_e_d25519_provider_factory_8hpp" local="yes">app/integration/ED25519ProviderFactory.hpp</includedby>
+    <includedby refid="d0/d42/ed25519__provider__impl_8cpp" local="yes">src/crypto/ed25519/ed25519_provider_impl.cpp</includedby>
     <incdepgraph>
       <node id="8">
         <label>base/blob.hpp</label>
@@ -33,7 +33,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.hpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.hpp</label>
         <link refid="df/d66/ed25519__provider__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -105,21 +105,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp</label>
+        <label>app/integration/ED25519ProviderFactory.hpp</label>
         <link refid="d0/d53/_e_d25519_provider_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.cpp</label>
         <link refid="d0/d42/ed25519__provider__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.hpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.hpp</label>
         <link refid="df/d66/ed25519__provider__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -168,6 +168,6 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.hpp"/>
+    <location file="src/crypto/ed25519/ed25519_provider_impl.hpp"/>
   </compounddef>
 </doxygen>

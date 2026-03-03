@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/JRpcServerFactory.hpp" line="17" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/JRpcServerFactory.hpp" bodystart="17" bodyend="20"/>
+        <location file="app/integration/JRpcServerFactory.hpp" line="17" column="25" bodyfile="app/integration/JRpcServerFactory.hpp" bodystart="17" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="da/d07/classsgns_1_1_j_rpc_server_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/JRpcServerFactory.hpp" line="14" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/JRpcServerFactory.hpp" bodystart="15" bodyend="21"/>
+    <location file="app/integration/JRpcServerFactory.hpp" line="14" column="5" bodyfile="app/integration/JRpcServerFactory.hpp" bodystart="15" bodyend="21"/>
     <listofallmembers>
       <member refid="da/d07/classsgns_1_1_j_rpc_server_factory_1ad55ffab4a66997711f9982630de66803" prot="public" virt="non-virtual"><scope>sgns::JRpcServerFactory</scope><name>create</name></member>
     </listofallmembers>

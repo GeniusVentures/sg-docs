@@ -7,11 +7,11 @@
     <includes refid="d6/dce/validating__node__application_8hpp" local="yes">application/impl/validating_node_application.hpp</includes>
     <includes refid="d3/dde/syncing__node__application_8hpp" local="yes">application/impl/syncing_node_application.hpp</includes>
     <includes refid="de/d54/bridging__node__application_8hpp" local="yes">application/impl/bridging_node_application.hpp</includes>
-    <includedby refid="dd/d41/_super_genius_demo_app_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp</includedby>
-    <includedby refid="d2/de6/runner_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/runner.cpp</includedby>
+    <includedby refid="dd/d41/_super_genius_demo_app_8cpp" local="yes">app/SuperGeniusDemoApp.cpp</includedby>
+    <includedby refid="d2/de6/runner_8cpp" local="yes">app/runner.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp</label>
+        <label>app/SuperGeniusDemoApp.hpp</label>
         <link refid="d7/d0a/_super_genius_demo_app_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -319,11 +319,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp</label>
+        <label>app/SuperGeniusDemoApp.cpp</label>
         <link refid="dd/d41/_super_genius_demo_app_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp</label>
+        <label>app/SuperGeniusDemoApp.hpp</label>
         <link refid="d7/d0a/_super_genius_demo_app_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -331,7 +331,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/runner.cpp</label>
+        <label>app/runner.cpp</label>
         <link refid="d2/de6/runner_8cpp"/>
       </node>
     </invincdepgraph>
@@ -374,6 +374,6 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp"/>
+    <location file="app/SuperGeniusDemoApp.hpp"/>
   </compounddef>
 </doxygen>

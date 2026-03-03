@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="9" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="9" bodyend="-1"/>
+        <location file="src/primitives/scheduled_change.hpp" line="9" column="14" bodyfile="src/primitives/scheduled_change.hpp" bodystart="9" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="11" column="5"/>
+        <location file="src/primitives/scheduled_change.hpp" line="11" column="5"/>
       </memberdef>
       <memberdef kind="function" id="da/d18/structsgns_1_1primitives_1_1_delay_in_chain_1a233e221686191d3c3aff707080d66088" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="12" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="12" bodyend="12"/>
+        <location file="src/primitives/scheduled_change.hpp" line="12" column="14" bodyfile="src/primitives/scheduled_change.hpp" bodystart="12" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="da/d18/structsgns_1_1primitives_1_1_delay_in_chain_1a35e3dcde4b09550da116f08bf2087b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="13" column="13"/>
+        <location file="src/primitives/scheduled_change.hpp" line="13" column="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -98,7 +98,7 @@
         <link refid="da/d18/structsgns_1_1primitives_1_1_delay_in_chain"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="8" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="8" bodyend="14"/>
+    <location file="src/primitives/scheduled_change.hpp" line="8" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="8" bodyend="14"/>
     <listofallmembers>
       <member refid="da/d18/structsgns_1_1primitives_1_1_delay_in_chain_1a63b5b6cb3b7edada7397111664cbfc50" prot="public" virt="non-virtual"><scope>sgns::primitives::DelayInChain</scope><name>DelayInChain</name></member>
       <member refid="da/d18/structsgns_1_1primitives_1_1_delay_in_chain_1a233e221686191d3c3aff707080d66088" prot="public" virt="non-virtual"><scope>sgns::primitives::DelayInChain</scope><name>DelayInChain</name></member>

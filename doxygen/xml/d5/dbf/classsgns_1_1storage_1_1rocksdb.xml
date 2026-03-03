@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="26" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="26" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a468da9bdf288ed7ca5a9e91dd0c60480" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::Options</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="27" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="27" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="27" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a407019abe6ea6dcf20c8941909512967" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::ReadOptions</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="28" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="28" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="28" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a301a7c55b4016f3bc36e6e6a00fb68c8" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::WriteOptions</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="29" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="29" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="29" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a637f04462eed6959d2de4d3ef6f44f19" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::DB</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="30" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="30" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="30" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a0c62d4a12443a094d04b1f1c9c84d7b9" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::Status</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="31" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="31" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="31" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a1492da459c197a6587932a81c3f48423" prot="public" static="no">
         <type>::ROCKSDB_NAMESPACE::Slice</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="32" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="32" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="32" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2c93b11da8a6ebd31ca7512ca2c86b41" prot="public" static="no">
         <type>std::map&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref>, <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="33" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="33" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="33" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1acad76d16fd17bc57044d10d18b36bb9a" prot="public" static="no">
         <type>std::pair&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref>, <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="34" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="34" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="34" column="9" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="111" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="111" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="111" column="30" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1ac3d098c7e87bca4776b0119df74bd0fd" prot="private" static="no" mutable="no">
         <type><ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a407019abe6ea6dcf20c8941909512967" kindref="member">ReadOptions</ref></type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="112" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="112" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="112" column="34" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2e7539a5d303bd280dd8a574f6604678" prot="private" static="no" mutable="no">
         <type><ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a301a7c55b4016f3bc36e6e6a00fb68c8" kindref="member">WriteOptions</ref></type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="113" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="113" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="113" column="34" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a887ed6aacb28210b454f71acc859fa43" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="114" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="114" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="114" column="34" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1af7364bd0d13b6553b5e512ec47184980" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a468da9bdf288ed7ca5a9e91dd0c60480" kindref="member">Options</ref> &gt;</type>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="115" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="115" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="115" column="25" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a1b18fe835b15b5d5aa30ced2d5513ceb" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="116" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="116" bodyend="-1"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="116" column="34" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="116" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -233,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="36" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="20" bodyend="20"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="36" column="9" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="20" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a718f819cbcb72a4c918d331e14fa7dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="57" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="102" bodyend="105"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="57" column="14" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a913015f58da9a0c0150f150ee4a41133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="63" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="107" bodyend="110"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="63" column="14" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="107" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a8c990ea95ebeee5fd0abf5b1ecd65456" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d0/dbf/namespacesgns_1_1storage_1af3943c7b4511cc2ca91cfcac7f94fac3" kindref="member">BufferMapCursor</ref> &gt;</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="65" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="91" bodyend="95"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="65" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="91" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a255eca48e3786f29e7aad0ae1879a2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d0/dbf/namespacesgns_1_1storage_1a5919619e4b0d178dbbbffbc8bcf1fb7d" kindref="member">BufferBatch</ref> &gt;</type>
@@ -330,7 +330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="67" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="97" bodyend="100"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="67" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1abbd51767a3338a64b3db846bf3a22c16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt;</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="69" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="112" bodyend="129"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="69" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="112" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a641035624043197b9baf08b3a36beaf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2c93b11da8a6ebd31ca7512ca2c86b41" kindref="member">QueryResult</ref> &gt;</type>
@@ -380,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="71" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="131" bodyend="154"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="71" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="131" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2e369bf0cf319362e98153558f41eb61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2c93b11da8a6ebd31ca7512ca2c86b41" kindref="member">QueryResult</ref> &gt;</type>
@@ -435,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="80" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="156" bodyend="207"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="80" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="156" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1ac97834c7ce02ce1fe31f220b90d91ff1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -467,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="84" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="209" bodyend="214"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="84" column="15" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="209" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1acd1731393890033964295c54c938cff7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="86" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="216" bodyend="221"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="86" column="14" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="216" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1adb3aff8f23568bd166c2df9e70a2f1d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -527,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="88" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="223" bodyend="232"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="88" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="223" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1af6c5466057458531799d25a412c34b98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -549,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="91" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="234" bodyend="238"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="91" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="234" bodyend="238"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1aa08bc5bf21f634b350ce1242a9eefbe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -581,7 +581,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="93" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="240" bodyend="249"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="93" column="25" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="240" bodyend="249"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a23b9b096bd601ab101803431eb352b0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -596,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="95" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="95" bodyend="98"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="95" column="21" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="95" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1aaeae841cf8fede555c24860863c47ffb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a637f04462eed6959d2de4d3ef6f44f19" kindref="member">DB</ref> &gt;</type>
@@ -610,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="100" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="100" bodyend="103"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="100" column="26" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a9f6c4fbbc1cf26decf452d1a99d2b8a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1acad76d16fd17bc57044d10d18b36bb9a" kindref="member">KeyValuePair</ref> &gt;</type>
@@ -625,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="108" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="251" bodyend="266"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="108" column="21" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="251" bodyend="266"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -671,7 +671,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="44" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="22" bodyend="76"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="44" column="32" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="22" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a573ccf7ca5216eb8e157f063df8f7c4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb" kindref="compound">rocksdb</ref> &gt; &gt;</type>
@@ -700,7 +700,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="51" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp" bodystart="78" bodyend="89"/>
+        <location file="src/storage/rocksdb/rocksdb.hpp" line="51" column="32" bodyfile="src/storage/rocksdb/rocksdb.cpp" bodystart="78" bodyend="89"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1039,7 +1039,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.hpp" bodystart="21" bodyend="117"/>
+    <location file="src/storage/rocksdb/rocksdb.hpp" line="20" column="5" bodyfile="src/storage/rocksdb/rocksdb.hpp" bodystart="21" bodyend="117"/>
     <listofallmembers>
       <member refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a255eca48e3786f29e7aad0ae1879a2af" prot="public" virt="virtual"><scope>sgns::storage::rocksdb</scope><name>batch</name></member>
       <member refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1ac97834c7ce02ce1fe31f220b90d91ff1" prot="public" virt="virtual"><scope>sgns::storage::rocksdb</scope><name>contains</name></member>

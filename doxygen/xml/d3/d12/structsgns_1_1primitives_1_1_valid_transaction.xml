@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="26" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="26" bodyend="26"/>
+        <location file="src/primitives/transaction_validity.hpp" line="26" column="27" bodyfile="src/primitives/transaction_validity.hpp" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a65b93aa3da77779441d1fc4f22753b5b" prot="public" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="d6/d60/structsgns_1_1primitives_1_1_transaction_1a80d2067e3e6f7aafe2f6bb869682672c" kindref="member">Transaction::Tag</ref> &gt;</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="43" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/primitives/transaction_validity.hpp" line="43" column="17" bodyfile="src/primitives/transaction_validity.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a526065a050b3fe0a95edb3a67de4bec9" prot="public" static="no" mutable="no">
         <type><ref refid="d6/d60/structsgns_1_1primitives_1_1_transaction_1a40bf45f7bcb79bffcbecdca3b935a747" kindref="member">Transaction::Longevity</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="51" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="51" bodyend="51"/>
+        <location file="src/primitives/transaction_validity.hpp" line="51" column="28" bodyfile="src/primitives/transaction_validity.hpp" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a8f9689a5e657128b098f33b1a07eb9e2" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="59" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="59" bodyend="59"/>
+        <location file="src/primitives/transaction_validity.hpp" line="59" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="59" bodyend="59"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="61" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="61" bodyend="65"/>
+        <location file="src/primitives/transaction_validity.hpp" line="61" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="61" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a3759ffbef28fd75f703ac8652bbbdbba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="67" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="67" bodyend="69"/>
+        <location file="src/primitives/transaction_validity.hpp" line="67" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="67" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="71" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="71" bodyend="87"/>
+        <location file="src/primitives/transaction_validity.hpp" line="71" column="12" bodyfile="src/primitives/transaction_validity.hpp" bodystart="71" bodyend="87"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -169,7 +169,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="20" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="20" bodyend="89"/>
+    <location file="src/primitives/transaction_validity.hpp" line="20" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="20" bodyend="89"/>
     <listofallmembers>
       <member refid="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a526065a050b3fe0a95edb3a67de4bec9" prot="public" virt="non-virtual"><scope>sgns::primitives::ValidTransaction</scope><name>longevity</name></member>
       <member refid="d3/d12/structsgns_1_1primitives_1_1_valid_transaction_1a3759ffbef28fd75f703ac8652bbbdbba" prot="public" virt="non-virtual"><scope>sgns::primitives::ValidTransaction</scope><name>operator!=</name></member>

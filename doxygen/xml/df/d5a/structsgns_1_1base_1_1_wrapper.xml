@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="38" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/base/wrapper.hpp" line="38" column="7" bodyfile="src/base/wrapper.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="19" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="19" bodyend="19"/>
+        <location file="src/base/wrapper.hpp" line="19" column="14" bodyfile="src/base/wrapper.hpp" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="df/d5a/structsgns_1_1base_1_1_wrapper_1a74486f8923a1f3394443afb73390d231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="21" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="21" bodyend="23"/>
+        <location file="src/base/wrapper.hpp" line="21" column="7" bodyfile="src/base/wrapper.hpp" bodystart="21" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="df/d5a/structsgns_1_1base_1_1_wrapper_1a760c9d39c5c48eba2c0b2467b9ef56a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const T &amp;</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="25" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="25" bodyend="27"/>
+        <location file="src/base/wrapper.hpp" line="25" column="13" bodyfile="src/base/wrapper.hpp" bodystart="25" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="df/d5a/structsgns_1_1base_1_1_wrapper_1a47e1ed67e9b7882b5c8e51820ddccdd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T &amp;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="29" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="29" bodyend="31"/>
+        <location file="src/base/wrapper.hpp" line="29" column="7" bodyfile="src/base/wrapper.hpp" bodystart="29" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="df/d5a/structsgns_1_1base_1_1_wrapper_1ab82855e72762a8662bb1dbd248fdf6bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="33" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="33" bodyend="35"/>
+        <location file="src/base/wrapper.hpp" line="33" column="10" bodyfile="src/base/wrapper.hpp" bodystart="33" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -136,7 +136,7 @@
         <link refid="df/d5a/structsgns_1_1base_1_1_wrapper"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" line="18" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/wrapper.hpp" bodystart="18" bodyend="39"/>
+    <location file="src/base/wrapper.hpp" line="18" column="3" bodyfile="src/base/wrapper.hpp" bodystart="18" bodyend="39"/>
     <listofallmembers>
       <member refid="df/d5a/structsgns_1_1base_1_1_wrapper_1a671e58ba8d9daca1de5d7bc59556c1d4" prot="private" virt="non-virtual"><scope>sgns::base::Wrapper</scope><name>data_</name></member>
       <member refid="df/d5a/structsgns_1_1base_1_1_wrapper_1ab82855e72762a8662bb1dbd248fdf6bb" prot="public" virt="non-virtual"><scope>sgns::base::Wrapper</scope><name>operator==</name></member>

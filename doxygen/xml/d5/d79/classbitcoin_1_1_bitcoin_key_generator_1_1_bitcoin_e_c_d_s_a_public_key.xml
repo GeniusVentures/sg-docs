@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="125" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="125" bodyend="129"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="125" column="25" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="125" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="119" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="25" bodyend="31"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="119" column="13" bodyfile="ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="25" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -126,7 +126,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="117" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="118" bodyend="130"/>
+    <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="117" column="9" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="118" bodyend="130"/>
     <listofallmembers>
       <member refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1ade96cf408b5f5aaabdeb2d3b2292689e" prot="private" virt="virtual"><scope>bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</scope><name>CalcPubkeyUsedValue</name></member>
       <member refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</scope><name>ECDSAPublicKey</name></member>

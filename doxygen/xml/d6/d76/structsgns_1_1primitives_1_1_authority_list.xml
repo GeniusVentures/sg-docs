@@ -37,7 +37,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="117" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="117" bodyend="121"/>
+    <location file="src/primitives/authority.hpp" line="117" column="3" bodyfile="src/primitives/authority.hpp" bodystart="117" bodyend="121"/>
     <listofallmembers>
       <member refid="dd/d4e/classstd_1_1vector_1a2396209900e8f592db1f0b2467f7d899" prot="public" virt="non-virtual"><scope>sgns::primitives::AuthorityList</scope><name>elements</name></member>
     </listofallmembers>

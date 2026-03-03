@@ -5,13 +5,13 @@
     <includes local="no">string</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
-    <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</includedby>
-    <includedby refid="d0/dad/_genius_account_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</includedby>
-    <includedby refid="d9/d5a/_j_s_o_n_backend_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp</includedby>
-    <includedby refid="d3/dfa/_j_s_o_n_secure_storage_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/json/JSONSecureStorage.hpp</includedby>
+    <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">src/account/GeniusAccount.cpp</includedby>
+    <includedby refid="d0/dad/_genius_account_8hpp" local="yes">src/account/GeniusAccount.hpp</includedby>
+    <includedby refid="d9/d5a/_j_s_o_n_backend_8hpp" local="yes">src/local_secure_storage/impl/JSONBackend.hpp</includedby>
+    <includedby refid="d3/dfa/_j_s_o_n_secure_storage_8hpp" local="yes">src/local_secure_storage/impl/json/JSONSecureStorage.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/ISecureStorage.hpp</label>
+        <label>src/local_secure_storage/ISecureStorage.hpp</label>
         <link refid="dd/d1a/_i_secure_storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -41,11 +41,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.cpp</label>
+        <label>src/account/EscrowReleaseTransaction.cpp</label>
         <link refid="d5/dab/_escrow_release_transaction_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.hpp</label>
+        <label>src/account/EscrowReleaseTransaction.hpp</label>
         <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -59,11 +59,11 @@
         </childnode>
       </node>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</label>
+        <label>src/account/EscrowTransaction.cpp</label>
         <link refid="d7/d12/_escrow_transaction_8cpp"/>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
+        <label>src/account/EscrowTransaction.hpp</label>
         <link refid="df/df3/_escrow_transaction_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -71,11 +71,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</label>
+        <label>src/account/GeniusAccount.cpp</label>
         <link refid="dd/dd9/_genius_account_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</label>
+        <label>src/account/GeniusAccount.hpp</label>
         <link refid="d0/dad/_genius_account_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -93,21 +93,21 @@
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="15">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp</label>
+        <label>src/account/IGeniusTransactions.cpp</label>
         <link refid="da/dcc/_i_genius_transactions_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp</label>
+        <label>src/account/IGeniusTransactions.hpp</label>
         <link refid="db/d3c/_i_genius_transactions_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -125,15 +125,15 @@
         </childnode>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="25">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -141,11 +141,11 @@
         </childnode>
       </node>
       <node id="21">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
       <node id="40">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.hpp</label>
         <link refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp"/>
         <childnode refid="21" relation="include">
         </childnode>
@@ -153,19 +153,19 @@
         </childnode>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="26">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
+        <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
       <node id="17">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp</label>
+        <label>src/account/MintTransaction.cpp</label>
         <link refid="d8/d70/_mint_transaction_8cpp"/>
       </node>
       <node id="16">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.hpp</label>
+        <label>src/account/MintTransaction.hpp</label>
         <link refid="d2/d0f/_mint_transaction_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -175,21 +175,21 @@
         </childnode>
       </node>
       <node id="19">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp</label>
+        <label>src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
       </node>
       <node id="18">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.hpp</label>
+        <label>src/account/ProcessingTransaction.hpp</label>
         <link refid="d4/dec/_processing_transaction_8hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="20">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
+        <label>src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -205,11 +205,11 @@
         </childnode>
       </node>
       <node id="23">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.cpp</label>
+        <label>src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
       <node id="22">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.hpp</label>
+        <label>src/account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -223,7 +223,7 @@
         </childnode>
       </node>
       <node id="24">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp</label>
+        <label>src/blockchain/Blockchain.hpp</label>
         <link refid="dc/d59/_blockchain_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -235,15 +235,15 @@
         </childnode>
       </node>
       <node id="28">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
+        <label>src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
       <node id="27">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
+        <label>src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/ISecureStorage.hpp</label>
+        <label>src/local_secure_storage/ISecureStorage.hpp</label>
         <link refid="dd/d1a/_i_secure_storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -255,31 +255,31 @@
         </childnode>
       </node>
       <node id="31">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp</label>
+        <label>src/local_secure_storage/impl/Android.cpp</label>
         <link refid="dc/dbd/_android_8cpp"/>
       </node>
       <node id="30">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp</label>
+        <label>src/local_secure_storage/impl/Android.hpp</label>
         <link refid="de/d2b/_android_8hpp"/>
         <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="33">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Apple.cpp</label>
+        <label>src/local_secure_storage/impl/Apple.cpp</label>
         <link refid="dd/dfb/_apple_8cpp"/>
       </node>
       <node id="32">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Apple.hpp</label>
+        <label>src/local_secure_storage/impl/Apple.hpp</label>
         <link refid="d1/dc4/_apple_8hpp"/>
         <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="34">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp</label>
+        <label>src/local_secure_storage/impl/JSONBackend.cpp</label>
         <link refid="d9/d83/_j_s_o_n_backend_8cpp"/>
       </node>
       <node id="29">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp</label>
+        <label>src/local_secure_storage/impl/JSONBackend.hpp</label>
         <link refid="d9/d5a/_j_s_o_n_backend_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
@@ -293,31 +293,31 @@
         </childnode>
       </node>
       <node id="36">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.cpp</label>
+        <label>src/local_secure_storage/impl/Linux.cpp</label>
         <link refid="de/d39/_linux_8cpp"/>
       </node>
       <node id="35">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp</label>
+        <label>src/local_secure_storage/impl/Linux.hpp</label>
         <link refid="d8/db4/_linux_8hpp"/>
         <childnode refid="36" relation="include">
         </childnode>
       </node>
       <node id="38">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Windows.cpp</label>
+        <label>src/local_secure_storage/impl/Windows.cpp</label>
         <link refid="d4/d9f/_windows_8cpp"/>
       </node>
       <node id="37">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Windows.hpp</label>
+        <label>src/local_secure_storage/impl/Windows.hpp</label>
         <link refid="db/d97/_windows_8hpp"/>
         <childnode refid="38" relation="include">
         </childnode>
       </node>
       <node id="41">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/json/JSONSecureStorage.cpp</label>
+        <label>src/local_secure_storage/impl/json/JSONSecureStorage.cpp</label>
         <link refid="d7/d37/_j_s_o_n_secure_storage_8cpp"/>
       </node>
       <node id="39">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/json/JSONSecureStorage.hpp</label>
+        <label>src/local_secure_storage/impl/json/JSONSecureStorage.hpp</label>
         <link refid="d3/dfa/_j_s_o_n_secure_storage_8hpp"/>
         <childnode refid="40" relation="include">
         </childnode>
@@ -363,6 +363,6 @@
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/ISecureStorage.hpp"/>
+    <location file="src/local_secure_storage/ISecureStorage.hpp"/>
   </compounddef>
 </doxygen>

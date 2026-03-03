@@ -5,8 +5,8 @@
     <includes local="yes">processing/proto/SGProcessing.pb.h</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes local="no">boost/asio/io_context.hpp</includes>
-    <includedby refid="dd/da6/processing__core__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp</includedby>
-    <includedby refid="d3/d33/processing__engine_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_engine.hpp</includedby>
+    <includedby refid="dd/da6/processing__core__impl_8hpp" local="yes">src/processing/impl/processing_core_impl.hpp</includedby>
+    <includedby refid="d3/d33/processing__engine_8hpp" local="yes">src/processing/processing_engine.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>outcome/outcome.hpp</label>
@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_core.hpp</label>
+        <label>src/processing/processing_core.hpp</label>
         <link refid="df/d22/processing__core_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,21 +36,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp</label>
+        <label>src/processing/impl/processing_core_impl.cpp</label>
         <link refid="db/d83/processing__core__impl_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp</label>
+        <label>src/processing/impl/processing_core_impl.hpp</label>
         <link refid="dd/da6/processing__core__impl_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -58,7 +58,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_core.hpp</label>
+        <label>src/processing/processing_core.hpp</label>
         <link refid="df/d22/processing__core_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -66,11 +66,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_engine.cpp</label>
+        <label>src/processing/processing_engine.cpp</label>
         <link refid="df/d3c/processing__engine_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_engine.hpp</label>
+        <label>src/processing/processing_engine.hpp</label>
         <link refid="d3/d33/processing__engine_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -78,11 +78,11 @@
         </childnode>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp</label>
+        <label>src/processing/processing_node.cpp</label>
         <link refid="de/d98/processing__node_8cpp"/>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp</label>
+        <label>src/processing/processing_node.hpp</label>
         <link refid="df/dac/processing__node_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -90,11 +90,11 @@
         </childnode>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_service.cpp</label>
+        <label>src/processing/processing_service.cpp</label>
         <link refid="d3/d3a/processing__service_8cpp"/>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_service.hpp</label>
+        <label>src/processing/processing_service.hpp</label>
         <link refid="d5/d37/processing__service_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -135,6 +135,6 @@
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>GRPC_FOR_SUPERGENIUS_PROCESSING_CORE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_core.hpp"/>
+    <location file="src/processing/processing_core.hpp"/>
   </compounddef>
 </doxygen>

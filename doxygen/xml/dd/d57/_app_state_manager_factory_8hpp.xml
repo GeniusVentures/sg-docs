@@ -3,10 +3,10 @@
   <compounddef id="dd/d57/_app_state_manager_factory_8hpp" kind="file" language="C++">
     <compoundname>AppStateManagerFactory.hpp</compoundname>
     <includes refid="db/df6/app__state__manager__impl_8hpp" local="yes">application/impl/app_state_manager_impl.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp</label>
+        <label>app/integration/AppStateManagerFactory.hpp</label>
         <link refid="dd/d57/_app_state_manager_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -86,13 +86,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp</label>
+        <label>app/integration/AppStateManagerFactory.hpp</label>
         <link refid="dd/d57/_app_state_manager_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -124,6 +124,6 @@
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp"/>
+    <location file="app/integration/AppStateManagerFactory.hpp"/>
   </compounddef>
 </doxygen>

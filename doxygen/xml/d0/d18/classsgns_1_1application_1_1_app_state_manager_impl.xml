@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="54" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="54" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="54" column="30" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="57" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="57" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="57" column="22" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ac4696eeb8f757b27135d353611ed8c2d" prot="private" static="no" mutable="no">
         <type><ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1a92bffe78275c219ab93baf0d35eb6027" kindref="member">State</ref></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="59" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="59" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="59" column="15" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a5a0fd642af8902c2c659ed0dffa39665" prot="private" static="no" mutable="no">
         <type>std::recursive_mutex</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="61" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="61" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="61" column="30" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a130cfe883a525cb76460b70f52ecd496" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="63" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="63" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="63" column="33" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a28b5e4129a1600b8f0376e9945bf3522" prot="private" static="no" mutable="no">
         <type>std::condition_variable</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="64" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="64" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="64" column="33" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a57e97ebc55a80904437b73f3a29e2e88" prot="private" static="no" mutable="no">
         <type>std::queue&lt; <ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1a08df4d681f2b9624643ed6097e6882ed" kindref="member">OnPrepare</ref> &gt;</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="66" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="66" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="66" column="21" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a45079659da731c8e49971a9e4132edd1" prot="private" static="no" mutable="no">
         <type>std::queue&lt; <ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1ae45dfda2273189f37c3ae7a904597c8a" kindref="member">OnLaunch</ref> &gt;</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="67" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="67" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="67" column="22" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a9b560a7f46623d22fc6380fa4e516219" prot="private" static="no" mutable="no">
         <type>std::queue&lt; <ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1aeedbe0b01ca92bbd2032cd6f5628a7cd" kindref="member">OnShutdown</ref> &gt;</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="68" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="68" bodyend="-1"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="68" column="20" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ac4a934063af24571f4e74fc67271460d" prot="private" static="no" mutable="no">
         <type>std::atomic_bool</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="70" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="70" bodyend="70"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="70" column="26" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="70" bodyend="70"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="20" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="17" bodyend="34"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="20" column="9" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="17" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ace56156f4a29a8f656721a37e8350885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="21" column="9"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="21" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a6fab1aa995be8785ce228af3b34d740a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="22" column="9"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="22" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ad26a9ce4d9683b4c22a5e5406a2d782d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="24" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="36" bodyend="51"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="24" column="9" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="36" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a9fe5c13b90e9b620ff886c012052ce77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a1c6c1ba1e59aecbb6923f6f90bdbdf38" kindref="member">AppStateManagerImpl</ref> &amp;</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="26" column="29"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="26" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a5a2b829a771ba5088bc8261766ba1a09" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a1c6c1ba1e59aecbb6923f6f90bdbdf38" kindref="member">AppStateManagerImpl</ref> &amp;</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="27" column="29"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="27" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ae2896612532647bc06674852d206daaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="29" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="71" bodyend="77"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="29" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="71" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1aa7996ec25bdd26404cac20f0a5946140" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="30" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="79" bodyend="85"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="30" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="79" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1afd139d6c6281c37751244c47a0791a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="31" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="87" bodyend="93"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="31" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="87" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a92fe06ab3d4fd6fce24c23c4e0bde8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="33" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="172" bodyend="189"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="33" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="172" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1af981827ba7adf78004b97be0f5c95955" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -367,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="34" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="191" bodyend="195"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="34" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="191" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1afd0205cea0c776511839460fb50b123f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1a92bffe78275c219ab93baf0d35eb6027" kindref="member">State</ref></type>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="36" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="36" bodyend="39"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="36" column="15" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="36" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ae298b89a2a868c8eda513383d1cfae7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="40" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="40" bodyend="43"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="40" column="21" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="40" bodyend="43"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="47" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="53" bodyend="69"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="47" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="53" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ac0aef26de9df110878056b5e13f1969a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="49" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="95" bodyend="118"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="49" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="95" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a41123b1308318ebe4c1078af704c334a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="50" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="120" bodyend="143"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="50" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="120" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a966b5172322bc04df4d475c9bff3c5bc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="51" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="145" bodyend="170"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="51" column="14" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="145" bodyend="170"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -478,7 +478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="55" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.cpp" bodystart="11" bodyend="15"/>
+        <location file="src/application/impl/app_state_manager_impl.hpp" line="55" column="47" bodyfile="src/application/impl/app_state_manager_impl.cpp" bodystart="11" bodyend="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -612,7 +612,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_state_manager_impl.hpp" bodystart="18" bodyend="71"/>
+    <location file="src/application/impl/app_state_manager_impl.hpp" line="17" column="5" bodyfile="src/application/impl/app_state_manager_impl.hpp" bodystart="18" bodyend="71"/>
     <listofallmembers>
       <member refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a1c6c1ba1e59aecbb6923f6f90bdbdf38" prot="public" virt="non-virtual"><scope>sgns::application::AppStateManagerImpl</scope><name>AppStateManagerImpl</name></member>
       <member refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1ace56156f4a29a8f656721a37e8350885" prot="public" virt="non-virtual"><scope>sgns::application::AppStateManagerImpl</scope><name>AppStateManagerImpl</name></member>

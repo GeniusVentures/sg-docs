@@ -11,7 +11,7 @@
     <includes refid="da/df1/random__generator_8hpp" local="yes">crypto/random_generator.hpp</includes>
     <includes refid="d2/d17/secp256k1__provider_8hpp" local="yes">crypto/secp256k1_provider.hpp</includes>
     <includes refid="d2/dbb/sr25519__provider_8hpp" local="yes">crypto/sr25519_provider.hpp</includes>
-    <includedby refid="dd/d14/crypto__store__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.cpp</includedby>
+    <includedby refid="dd/d14/crypto__store__impl_8cpp" local="yes">src/crypto/crypto_store/crypto_store_impl.cpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>base/blob.hpp</label>
@@ -92,7 +92,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
         <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -265,11 +265,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.cpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
         <link refid="dd/d14/crypto__store__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
         <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -304,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="21" bodyend="21"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="21" column="5" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="21" bodyend="21"/>
       </memberdef>
       <memberdef kind="enum" id="df/d6e/namespacesgns_1_1crypto_1a4d550f469256ec94e9df388bb42b90d5" prot="public" static="no" strong="yes">
         <type></type>
@@ -401,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="24" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="24" bodyend="37"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="24" column="3" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="24" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="16" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="16" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="16" column="5" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dc/d16/namespacesgns_1_1crypto_1_1store_1a60db0e724dec483aa58ce9bc9691e83c" prot="public" static="no">
         <type>base::Blob&lt; 32 &gt;</type>
@@ -431,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="17" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="17" column="5" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dc/d16/namespacesgns_1_1crypto_1_1store_1a86c9a46bdc7c1fd42de20dd4f69546ac" prot="public" static="no">
         <type><ref refid="de/d1b/key__value__block__header__repository_8cpp_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -445,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="18" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="18" column="5" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -469,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="39" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="39" bodyend="42"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="39" column="10" bodyfile="src/crypto/crypto_store/crypto_store_impl.hpp" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="d4/d05/crypto__store__impl_8hpp_1a8f79d907716dd9dd0edf395265e1ee74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -488,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" line="115" column="1" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp" declline="115" declcolumn="1"/>
+        <location file="src/crypto/crypto_store/crypto_store_impl.hpp" line="115" column="1" declfile="src/crypto/crypto_store/crypto_store_impl.hpp" declline="115" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -609,6 +609,6 @@
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_CRYPTO_STORE_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp"/>
+    <location file="src/crypto/crypto_store/crypto_store_impl.hpp"/>
   </compounddef>
 </doxygen>

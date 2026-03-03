@@ -31,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.cpp</label>
         <link refid="d0/d42/ed25519__provider__impl_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp" line="119" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp" bodystart="119" bodyend="130"/>
+        <location file="src/crypto/ed25519/ed25519_provider_impl.cpp" line="119" column="1" bodyfile="src/crypto/ed25519/ed25519_provider_impl.cpp" bodystart="119" bodyend="130"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -154,10 +154,10 @@
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>priv_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(private_key_low.data,</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pub_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(public_key_low.data,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;private_key_high<sp/>=<sp/><ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a428f9ec629f74701ccd21d6ceb642d91" kindref="member">ED25519PrivateKey::fromSpan</ref>(priv_span);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!private_key_high)<sp/>{</highlight></codeline>
@@ -182,7 +182,7 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>ed25519_derive_public_key(&amp;private_key_low,<sp/>&amp;public_key_low);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d6e/namespacesgns_1_1crypto_1a1cc4b7c855b0b88eef1bfebf6c800a4c" kindref="member">ED25519PrivateKey</ref><sp/>privateKey{seed};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pub_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(public_key_low.data,</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;public_key_high<sp/>=<sp/><ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a428f9ec629f74701ccd21d6ceb642d91" kindref="member">ED25519PublicKey::fromSpan</ref>(pub_span);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!public_key_high)<sp/>{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>BOOST_UNREACHABLE_RETURN(<ref refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair" kindref="compound">ED25519Keypair</ref>{});</highlight></codeline>
@@ -197,14 +197,14 @@
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>public_key_t<sp/>public_key{};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>private_key_t<sp/>private_key{};</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>private_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>private_key.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>private_key.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>public_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(public_key.data,</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::copy_n(keypair.<ref refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1acf091e8afa5d425b1e695fd0841d9042" kindref="member">private_key</ref>.begin(),</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280ae6872b1afeb949f2bbfa3d970e428637" kindref="member">constants::ed25519::PRIVKEY_SIZE</ref>,</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>private_span.begin());</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::copy_n(keypair.<ref refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1a3196dcc90db98ce155a80322007f1df7" kindref="member">public_key</ref>.begin(),</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>,</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public_span.begin());</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -219,9 +219,9 @@
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d6e/namespacesgns_1_1crypto_1a82ea8f150548110e620c0d92549ffb32" kindref="member">ED25519Signature</ref><sp/>signature{};</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>signature_span<sp/>=<sp/>gsl::make_span&lt;uint8_t&gt;(</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature_low.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature_low.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>std::copy_n(signature_span.begin(),</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>,</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature.begin());</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>signature;</highlight></codeline>
@@ -234,16 +234,16 @@
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>public_key_t<sp/>public_key_low{};</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>signature_t<sp/>signature_low{};</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>public_span<sp/>=<sp/>gsl::span&lt;uint8_t&gt;(public_key_low.data,</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>signature_span<sp/>=<sp/>gsl::span&lt;uint8_t&gt;(</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature_low.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature_low.data,<sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>std::copy_n(signature.data(),</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kindref="member">constants::ed25519::SIGNATURE_SIZE</ref>,</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signature_low.data);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>std::copy_n(public_key.data(),</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kindref="member">constants::ed25519::PUBKEY_SIZE</ref>,</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>public_key_low.data);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -269,6 +269,6 @@
 <codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>SR25519ProviderError&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp"/>
+    <location file="src/crypto/ed25519/ed25519_provider_impl.cpp"/>
   </compounddef>
 </doxygen>

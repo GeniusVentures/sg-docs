@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp" line="20" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp" bodystart="20" bodyend="77"/>
+        <location file="app/integration/BlockTreeFactory.hpp" line="20" column="28" bodyfile="app/integration/BlockTreeFactory.hpp" bodystart="20" bodyend="77"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d4/d27/class_block_tree_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp" line="17" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp" bodystart="18" bodyend="78"/>
+    <location file="app/integration/BlockTreeFactory.hpp" line="17" column="1" bodyfile="app/integration/BlockTreeFactory.hpp" bodystart="18" bodyend="78"/>
     <listofallmembers>
       <member refid="d4/d27/class_block_tree_factory_1a9d30e30a34285ee2661d22d7154f3bca" prot="public" virt="non-virtual"><scope>BlockTreeFactory</scope><name>create</name></member>
     </listofallmembers>

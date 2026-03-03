@@ -4,8 +4,8 @@
     <compoundname>secp256k1_provider.hpp</compoundname>
     <includes refid="d9/d49/secp256k1__types_8hpp" local="yes">crypto/secp256k1_types.hpp</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
-    <includedby refid="d3/ddb/secp256k1__provider__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1/secp256k1_provider_impl.hpp</includedby>
+    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
+    <includedby refid="d3/ddb/secp256k1__provider__impl_8hpp" local="yes">src/crypto/secp256k1/secp256k1_provider_impl.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>base/blob.hpp</label>
@@ -34,7 +34,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1_provider.hpp</label>
+        <label>src/crypto/secp256k1_provider.hpp</label>
         <link refid="d2/d17/secp256k1__provider_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -80,27 +80,27 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.cpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
         <link refid="dd/d14/crypto__store__impl_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
         <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1/secp256k1_provider_impl.cpp</label>
+        <label>src/crypto/secp256k1/secp256k1_provider_impl.cpp</label>
         <link refid="d5/db3/secp256k1__provider__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1/secp256k1_provider_impl.hpp</label>
+        <label>src/crypto/secp256k1/secp256k1_provider_impl.hpp</label>
         <link refid="d3/ddb/secp256k1__provider__impl_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1_provider.hpp</label>
+        <label>src/crypto/secp256k1_provider.hpp</label>
         <link refid="d2/d17/secp256k1__provider_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -142,6 +142,6 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1_provider.hpp"/>
+    <location file="src/crypto/secp256k1_provider.hpp"/>
   </compounddef>
 </doxygen>

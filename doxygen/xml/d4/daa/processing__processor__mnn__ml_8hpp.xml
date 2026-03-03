@@ -9,7 +9,7 @@
     <includes local="no">MNN/Interpreter.hpp</includes>
     <includes refid="db/df8/processing__processor_8hpp" local="yes">processing_processor.hpp</includes>
     <includes local="no">MNN/AutoTime.hpp</includes>
-    <includedby refid="d1/dad/processing__processor__mnn__ml_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</includedby>
+    <includedby refid="d1/dad/processing__processor__mnn__ml_8cpp" local="yes">SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</includedby>
     <incdepgraph>
       <node id="7">
         <label>processing_processor.hpp</label>
@@ -26,7 +26,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
         <link refid="d4/daa/processing__processor__mnn__ml_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -81,13 +81,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
         <link refid="d4/daa/processing__processor__mnn__ml_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</label>
         <link refid="d1/dad/processing__processor__mnn__ml_8cpp"/>
       </node>
     </invincdepgraph>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="13" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" bodystart="13" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="13" column="12" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -163,6 +163,6 @@
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp"/>
+    <location file="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp"/>
   </compounddef>
 </doxygen>

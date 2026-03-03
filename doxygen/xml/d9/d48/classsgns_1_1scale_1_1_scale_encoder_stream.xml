@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="24" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="24" column="27" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="278" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="278" bodyend="-1"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="278" column="16" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="278" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="30" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.cpp" bodystart="119" bodyend="127"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="30" column="17" bodyfile="src/scale/scale_encoder_stream.cpp" bodystart="119" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1aad63a0fb2f27e82477c36c89dd90f59e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="40" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="40" bodyend="42"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="40" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="40" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a6510baf2aafc0e95a8b79098d2766a8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="51" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="51" bodyend="56"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="51" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="51" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a18ea2fa104429b362c0dcd38c25eae28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="65" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="65" bodyend="68"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="65" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="65" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1ab56404152705427f6abb44a118189874" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="77" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="77" bodyend="82"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="77" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="77" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a776762cdc6596ceb79ec61fd2ebe956d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="91" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="91" bodyend="96"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="91" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="91" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a96864cc83808ab82509ea06786ea0bb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="105" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="105" bodyend="107"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="105" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="105" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a0e365ea5c03c8685b384c8ee715f70af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="116" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="116" bodyend="118"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="116" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="116" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a7023b3c9ec18622e06ef08459d0ab2fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="127" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="127" bodyend="138"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="127" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="127" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1afdee4afedcd9bd07f03deec21a1b092f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="146" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="146" bodyend="148"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="146" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="146" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a0bcb7c8e19f3b4e342e83e676064f291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -522,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="158" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="158" bodyend="162"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="158" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="158" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1aac86c1010be679383f5a23178841b3b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream" kindref="compound">ScaleEncoderStream</ref> &amp;</type>
@@ -553,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="169" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="169" bodyend="172"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="169" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="169" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1ac9c9ce014362bed0d551a535ffd57918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -598,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="181" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="181" bodyend="183"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="181" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="181" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a28f02b0553f540eaea96f48e4e63cff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream" kindref="compound">ScaleEncoderStream</ref> &amp;</type>
@@ -629,7 +629,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="190" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="190" bodyend="192"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="190" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="190" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a76426e09fd4f9261895d222ea1513abe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -682,7 +682,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="201" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="201" bodyend="218"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="201" column="5" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="201" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a7b8c0f4cedfeebcac0de66649e627575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream" kindref="compound">ScaleEncoderStream</ref> &amp;</type>
@@ -713,7 +713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="225" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.cpp" bodystart="134" bodyend="137"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="225" column="5" bodyfile="src/scale/scale_encoder_stream.cpp" bodystart="134" bodyend="137"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -745,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="229" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="229" bodyend="234"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="229" column="10" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="229" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a2611c0349d927a511ccc7f7abff6ccf6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -775,7 +775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="237" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="237" bodyend="246"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="237" column="10" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="237" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1aa07d7a5210e31774dae827564a2c482d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -844,7 +844,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="257" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="257" bodyend="266"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="257" column="24" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="257" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a7a85365d5e404c47f5471313f2d4a662" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream" kindref="compound">ScaleEncoderStream</ref> &amp;</type>
@@ -875,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="274" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.cpp" bodystart="129" bodyend="132"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="274" column="24" bodyfile="src/scale/scale_encoder_stream.cpp" bodystart="129" bodyend="132"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -895,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="277" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.cpp" bodystart="139" bodyend="150"/>
+        <location file="src/scale/scale_encoder_stream.hpp" line="277" column="24" bodyfile="src/scale/scale_encoder_stream.cpp" bodystart="139" bodyend="150"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -927,7 +927,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" line="21" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_encoder_stream.hpp" bodystart="21" bodyend="279"/>
+    <location file="src/scale/scale_encoder_stream.hpp" line="21" column="3" bodyfile="src/scale/scale_encoder_stream.hpp" bodystart="21" bodyend="279"/>
     <listofallmembers>
       <member refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1a638d2a4efec1d78eeb79475869f55409" prot="public" virt="non-virtual"><scope>sgns::scale::ScaleEncoderStream</scope><name>data</name></member>
       <member refid="d9/d48/classsgns_1_1scale_1_1_scale_encoder_stream_1aa07d7a5210e31774dae827564a2c482d" prot="protected" virt="non-virtual"><scope>sgns::scale::ScaleEncoderStream</scope><name>encodeCollection</name></member>

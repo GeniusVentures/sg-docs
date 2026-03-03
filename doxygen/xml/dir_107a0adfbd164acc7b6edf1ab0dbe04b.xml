@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_107a0adfbd164acc7b6edf1ab0dbe04b" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase</compoundname>
+    <compoundname>SGProcessingManager/src/processingbase</compoundname>
     <innerfile refid="d8/d50/_processing_manager_8cpp">ProcessingManager.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/"/>
+    <location file="SGProcessingManager/src/processingbase/"/>
   </compounddef>
 </doxygen>

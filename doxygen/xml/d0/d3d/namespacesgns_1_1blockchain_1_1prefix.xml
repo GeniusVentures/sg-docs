@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" bodystart="20" bodyend="35"/>
+        <location file="src/blockchain/impl/storage_util.hpp" line="20" column="5" bodyfile="src/blockchain/impl/storage_util.hpp" bodystart="20" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -61,6 +61,6 @@
     <detaileddescription>
 <para>Storage has only one key space, prefixes are used to divide it </para>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" line="19" column="3"/>
+    <location file="src/blockchain/impl/storage_util.hpp" line="19" column="3"/>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519KeypairFactory.hpp" line="18" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519KeypairFactory.hpp" bodystart="18" bodyend="21"/>
+        <location file="app/integration/SR25519KeypairFactory.hpp" line="18" column="25" bodyfile="app/integration/SR25519KeypairFactory.hpp" bodystart="18" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d6/d98/classsgns_1_1_s_r25519_keypair_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519KeypairFactory.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519KeypairFactory.hpp" bodystart="16" bodyend="22"/>
+    <location file="app/integration/SR25519KeypairFactory.hpp" line="15" column="5" bodyfile="app/integration/SR25519KeypairFactory.hpp" bodystart="16" bodyend="22"/>
     <listofallmembers>
       <member refid="d6/d98/classsgns_1_1_s_r25519_keypair_factory_1ae9b97a9f5836d0a68547ba50dfa581c9" prot="public" virt="non-virtual"><scope>sgns::SR25519KeypairFactory</scope><name>create</name></member>
     </listofallmembers>

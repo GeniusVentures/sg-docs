@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="21" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="21" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a163af5702a6f66a5777a4187c0745a73" prot="public" static="no">
         <type>boost::asio::strand&lt; boost::asio::io_context::executor_type &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="22" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="22" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a1e9dec2fa141a532843c2b55d08b56f4" prot="public" static="no">
         <type>boost::asio::basic_stream_socket&lt; boost::asio::ip::tcp &gt;</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="25" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="25" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ac740cb9f709e7a5df844a0914f2b30b6" prot="public" static="no">
         <type>boost::beast::websocket::stream&lt; <ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a1e9dec2fa141a532843c2b55d08b56f4" kindref="member">StreamSocket</ref> &gt;</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="26" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ad2ce0ab4cd62e074805f163253ddf3b4" prot="public" static="no">
         <type>boost::beast::ssl_stream&lt; <ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a1e9dec2fa141a532843c2b55d08b56f4" kindref="member">StreamSocket</ref> &gt;</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="27" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="27" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ac2ae6080397f68efe3d6295e343b5877" prot="public" static="no">
         <type>boost::beast::websocket::stream&lt; <ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ad2ce0ab4cd62e074805f163253ddf3b4" kindref="member">SSLStream</ref> &gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="28" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="28" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="45" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="45" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="45" column="19" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a12519986f5bde0ab880aef7ffb2411c5" prot="private" static="no" mutable="no">
         <type>std::optional&lt; std::variant&lt; <ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ac740cb9f709e7a5df844a0914f2b30b6" kindref="member">PlainWebSocketStream</ref>, <ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ac2ae6080397f68efe3d6295e343b5877" kindref="member">SecureWebSocketStream</ref> &gt; &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="46" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="46" column="19" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a05f0ed7d4a7f4b3f58c24b8911a35238" prot="private" static="no" mutable="no">
         <type><ref refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a163af5702a6f66a5777a4187c0745a73" kindref="member">ExecutorType</ref></type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="47" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="47" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="47" column="18" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a4e7af2c53d534591f10f14f426592f19" prot="private" static="no" mutable="no">
         <type>boost::asio::ip::tcp::resolver</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="48" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="48" column="36" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1af4b8c7c5b050958055a207a61227bd20" prot="private" static="no" mutable="no">
         <type>boost::beast::flat_buffer</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="50" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="50" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="50" column="31" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1adc4293dd5d24d55c710ad2d5819a3641" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="52" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="52" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="52" column="17" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a96d7d1cfd68faed873afef0fbfff45bd" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="53" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="53" column="17" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1adf1a497bf9a6862b8c3ac59e93c31db6" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="54" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="54" bodyend="-1"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="54" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="27" bodyend="56"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="30" column="5" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="27" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a9e1fae2305f241329f14dccbbc76fbee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="33" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="58" bodyend="128"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="33" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="58" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1adea60d0a5bfd66831a226e9c54a7cccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="36" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="151" bodyend="171"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="36" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="151" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1aa56eca55d4b874a4ab1ff2d5d453df49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="39" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="173" bodyend="189"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="39" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="173" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ae5831833ea0b547305ae64323d4dbaa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="42" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="191" bodyend="208"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="42" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="191" bodyend="208"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="57" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="7" bodyend="25"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="57" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="7" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1ade09e138d03ad237aab9b6296a8ce2cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="60" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="130" bodyend="149"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="60" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="130" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a97341c1ffaf4d698826e76f0adc7ca34" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="63" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="210" bodyend="212"/>
+        <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="63" column="10" bodyfile="src/api/transport/impl/ws/ws_client_impl.cpp" bodystart="210" bodyend="212"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -398,7 +398,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" line="18" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="18" bodyend="64"/>
+    <location file="src/api/transport/impl/ws/ws_client_impl.hpp" line="18" column="1" bodyfile="src/api/transport/impl/ws/ws_client_impl.hpp" bodystart="18" bodyend="64"/>
     <listofallmembers>
       <member refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1af4b8c7c5b050958055a207a61227bd20" prot="private" virt="non-virtual"><scope>sgns::api::WsClientImpl</scope><name>buffer</name></member>
       <member refid="d2/d26/classsgns_1_1api_1_1_ws_client_impl_1a26d95425a6d2dab3ea19c2f5ee89a24d" prot="public" virt="non-virtual"><scope>sgns::api::WsClientImpl</scope><name>Context</name></member>

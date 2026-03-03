@@ -7,7 +7,7 @@
     <includes local="no">iostream</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer.cpp</label>
+        <label>src/base/buffer.cpp</label>
         <link refid="dd/d85/buffer_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer.cpp" line="188" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer.cpp" bodystart="188" bodyend="190" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer.hpp" declline="283" declcolumn="3"/>
+        <location file="src/base/buffer.cpp" line="188" column="3" bodyfile="src/base/buffer.cpp" bodystart="188" bodyend="190" declfile="src/base/buffer.hpp" declline="283" declcolumn="3"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -296,6 +296,6 @@
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::base</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer.cpp"/>
+    <location file="src/base/buffer.cpp"/>
   </compounddef>
 </doxygen>

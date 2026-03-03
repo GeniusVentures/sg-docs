@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ApiServiceFactory.hpp" line="24" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ApiServiceFactory.hpp" bodystart="24" bodyend="114"/>
+        <location file="app/integration/ApiServiceFactory.hpp" line="24" column="25" bodyfile="app/integration/ApiServiceFactory.hpp" bodystart="24" bodyend="114"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d4/da3/classsgns_1_1_api_service_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ApiServiceFactory.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ApiServiceFactory.hpp" bodystart="22" bodyend="115"/>
+    <location file="app/integration/ApiServiceFactory.hpp" line="21" column="5" bodyfile="app/integration/ApiServiceFactory.hpp" bodystart="22" bodyend="115"/>
     <listofallmembers>
       <member refid="d4/da3/classsgns_1_1_api_service_factory_1adc342aa5411241249019c99dc9a97f4a" prot="public" virt="non-virtual"><scope>sgns::ApiServiceFactory</scope><name>create</name></member>
     </listofallmembers>

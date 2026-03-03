@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="214" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="214" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="212" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="212" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae012d8e5d3a223ae5998baefd6d04c73" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="215" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="215" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="213" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="213" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a770980f71a19d80d20fe4dcee4d785e4" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="216" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="216" bodyend="216"/>
+        <location file="src/account/AccountMessenger.hpp" line="214" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="214" bodyend="214"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a9e4c173d706a388dd1555030705d5ac1" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="217" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="217" bodyend="217"/>
+        <location file="src/account/AccountMessenger.hpp" line="215" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="215" bodyend="215"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ab6a572e5b47db868b48fb033259a4ea8" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="218" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="218" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="216" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="216" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a346a9ba052b0e713364fbb0421701b68" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(outcome::result&lt; std::string &gt;)&gt;</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="219" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="219" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="217" column="27" bodyfile="src/account/AccountMessenger.hpp" bodystart="217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a8d58681dded0ae650080346b3fca863d" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="220" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="220" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="218" column="29" bodyfile="src/account/AccountMessenger.hpp" bodystart="218" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -143,7 +143,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="212" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="213" bodyend="221"/>
+    <location file="src/account/AccountMessenger.hpp" line="210" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="211" bodyend="219"/>
     <listofallmembers>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a9e4c173d706a388dd1555030705d5ac1" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>block_index</name></member>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a346a9ba052b0e713364fbb0421701b68" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>callback</name></member>

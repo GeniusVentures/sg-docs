@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="37" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="37" bodyend="-1"/>
+        <location file="src/account/GeniusNode.hpp" line="37" column="17" bodyfile="src/account/GeniusNode.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d39/struct_dev_config_1a8e0f49c7fa09c9df7f7581423be8340c" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="38" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/account/GeniusNode.hpp" line="38" column="17" bodyfile="src/account/GeniusNode.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d39/struct_dev_config_1ad06870bef7bf0f63934a35da3e32a005" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="39" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/account/GeniusNode.hpp" line="39" column="17" bodyfile="src/account/GeniusNode.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d39/struct_dev_config_1af5f0aa58c78092a42f249c1b1b1c5aa0" prot="public" static="no" mutable="no">
         <type>TokenID</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="40" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/account/GeniusNode.hpp" line="40" column="17" bodyfile="src/account/GeniusNode.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d39/struct_dev_config_1a9f333ae354d8ea510e261bb6d97342d0" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="41" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/account/GeniusNode.hpp" line="41" column="17" bodyfile="src/account/GeniusNode.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" line="35" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp" bodystart="36" bodyend="42"/>
+    <location file="src/account/GeniusNode.hpp" line="35" column="1" bodyfile="src/account/GeniusNode.hpp" bodystart="36" bodyend="42"/>
     <listofallmembers>
       <member refid="de/d39/struct_dev_config_1a7f5f6744f3a790c114bf637d0d4b2694" prot="public" virt="non-virtual"><scope>DevConfig</scope><name>Addr</name></member>
       <member refid="de/d39/struct_dev_config_1a9f333ae354d8ea510e261bb6d97342d0" prot="public" virt="non-virtual"><scope>DevConfig</scope><name>BaseWritePath</name></member>

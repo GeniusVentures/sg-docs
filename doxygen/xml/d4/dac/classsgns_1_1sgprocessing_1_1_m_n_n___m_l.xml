@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="39" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp" bodystart="9" bodyend="33"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="39" column="21" bodyfile="SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp" bodystart="9" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="56" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp" bodystart="35" bodyend="44"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="56" column="25" bodyfile="SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp" bodystart="35" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -199,7 +199,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" bodystart="21" bodyend="66"/>
+    <location file="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" line="20" column="5" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp" bodystart="21" bodyend="66"/>
     <listofallmembers>
       <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a73b33be6cd8f152ae11beb0bd076f1c0" prot="public" virt="virtual"><scope>sgns::sgprocessing::MNN_ML</scope><name>GetProgress</name></member>
       <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a66a75161bd7833fc9f8cd9639a161519" prot="protected" virt="non-virtual"><scope>sgns::sgprocessing::MNN_ML</scope><name>m_logger</name></member>

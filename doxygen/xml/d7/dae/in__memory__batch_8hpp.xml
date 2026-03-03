@@ -4,7 +4,7 @@
     <compoundname>in_memory_batch.hpp</compoundname>
     <includes refid="da/d1d/buffer_8hpp" local="yes">base/buffer.hpp</includes>
     <includes refid="d0/d03/in__memory__storage_8hpp" local="yes">storage/in_memory/in_memory_storage.hpp</includes>
-    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</includedby>
+    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">src/storage/in_memory/in_memory_storage.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>base/buffer.hpp</label>
@@ -107,7 +107,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_batch.hpp</label>
+        <label>src/storage/in_memory/in_memory_batch.hpp</label>
         <link refid="d7/dae/in__memory__batch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -158,13 +158,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_batch.hpp</label>
+        <label>src/storage/in_memory/in_memory_batch.hpp</label>
         <link refid="d7/dae/in__memory__batch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</label>
+        <label>src/storage/in_memory/in_memory_storage.cpp</label>
         <link refid="d2/dba/in__memory__storage_8cpp"/>
       </node>
     </invincdepgraph>
@@ -231,6 +231,6 @@
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_IN_MEMORY_BATCH_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_batch.hpp"/>
+    <location file="src/storage/in_memory/in_memory_batch.hpp"/>
   </compounddef>
 </doxygen>

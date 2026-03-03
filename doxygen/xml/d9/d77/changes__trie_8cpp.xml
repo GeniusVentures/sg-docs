@@ -202,7 +202,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.cpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.cpp</label>
         <link refid="d9/d77/changes__trie_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -483,6 +483,6 @@
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::storage::changes_trie</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.cpp"/>
+    <location file="src/storage/changes_trie/impl/changes_trie.cpp"/>
   </compounddef>
 </doxygen>

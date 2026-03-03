@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="262" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="262" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="262" column="25" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="262" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/d23/structsgns_1_1crdt_1_1_crdt_datastore_1_1_dag_worker_1a35a72a44b7bebf06d52925078f822ac8" prot="public" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="263" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="263" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="263" column="25" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="263" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -63,7 +63,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="260" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="261" bodyend="264"/>
+    <location file="src/crdt/crdt_datastore.hpp" line="260" column="9" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="261" bodyend="264"/>
     <listofallmembers>
       <member refid="db/d23/structsgns_1_1crdt_1_1_crdt_datastore_1_1_dag_worker_1a42fc9d4d3ea41e0d3ba29f2c9f7d74b6" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore::DagWorker</scope><name>dagWorkerFuture_</name></member>
       <member refid="db/d23/structsgns_1_1crdt_1_1_crdt_datastore_1_1_dag_worker_1a35a72a44b7bebf06d52925078f822ac8" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore::DagWorker</scope><name>dagWorkerThreadRunning_</name></member>

@@ -4,17 +4,17 @@
     <compoundname>database_error.hpp</compoundname>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes local="no">rocksdb/status.h</includes>
-    <includedby refid="dc/d76/_u_t_x_o_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOManager.cpp</includedby>
-    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</includedby>
-    <includedby refid="de/de9/key__value__block__storage_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.cpp</includedby>
-    <includedby refid="d3/d2f/storage__util_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp</includedby>
-    <includedby refid="d9/d51/crdt__datastore_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp</includedby>
-    <includedby refid="d1/de6/crdt__heads_8cpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_heads.cpp</includedby>
-    <includedby refid="d4/d84/crdt__set_8cpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp</includedby>
-    <includedby refid="dd/d5f/database__error_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.cpp</includedby>
-    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</includedby>
-    <includedby refid="dc/d6d/rocksdb_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp</includedby>
-    <includedby refid="d8/d00/rocksdb__util_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb_util.hpp</includedby>
+    <includedby refid="dc/d76/_u_t_x_o_manager_8cpp" local="yes">src/account/UTXOManager.cpp</includedby>
+    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">src/blockchain/impl/block_tree_impl.cpp</includedby>
+    <includedby refid="de/de9/key__value__block__storage_8cpp" local="yes">src/blockchain/impl/key_value_block_storage.cpp</includedby>
+    <includedby refid="d3/d2f/storage__util_8cpp" local="yes">src/blockchain/impl/storage_util.cpp</includedby>
+    <includedby refid="d9/d51/crdt__datastore_8cpp" local="yes">src/crdt/impl/crdt_datastore.cpp</includedby>
+    <includedby refid="d1/de6/crdt__heads_8cpp" local="no">src/crdt/impl/crdt_heads.cpp</includedby>
+    <includedby refid="d4/d84/crdt__set_8cpp" local="no">src/crdt/impl/crdt_set.cpp</includedby>
+    <includedby refid="dd/d5f/database__error_8cpp" local="yes">src/storage/database_error.cpp</includedby>
+    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">src/storage/in_memory/in_memory_storage.cpp</includedby>
+    <includedby refid="dc/d6d/rocksdb_8cpp" local="yes">src/storage/rocksdb/rocksdb.cpp</includedby>
+    <includedby refid="d8/d00/rocksdb__util_8hpp" local="yes">src/storage/rocksdb/rocksdb_util.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>outcome/outcome.hpp</label>
@@ -23,7 +23,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp</label>
+        <label>src/storage/database_error.hpp</label>
         <link refid="d9/da2/database__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -39,39 +39,39 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOManager.cpp</label>
+        <label>src/account/UTXOManager.cpp</label>
         <link refid="dc/d76/_u_t_x_o_manager_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
+        <label>src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.cpp</label>
+        <label>src/blockchain/impl/key_value_block_storage.cpp</label>
         <link refid="de/de9/key__value__block__storage_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp</label>
+        <label>src/blockchain/impl/storage_util.cpp</label>
         <link refid="d3/d2f/storage__util_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp</label>
+        <label>src/crdt/impl/crdt_datastore.cpp</label>
         <link refid="d9/d51/crdt__datastore_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_heads.cpp</label>
+        <label>src/crdt/impl/crdt_heads.cpp</label>
         <link refid="d1/de6/crdt__heads_8cpp"/>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp</label>
+        <label>src/crdt/impl/crdt_set.cpp</label>
         <link refid="d4/d84/crdt__set_8cpp"/>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.cpp</label>
+        <label>src/storage/database_error.cpp</label>
         <link refid="dd/d5f/database__error_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp</label>
+        <label>src/storage/database_error.hpp</label>
         <link refid="d9/da2/database__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -97,23 +97,23 @@
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</label>
+        <label>src/storage/in_memory/in_memory_storage.cpp</label>
         <link refid="d2/dba/in__memory__storage_8cpp"/>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb.cpp</label>
+        <label>src/storage/rocksdb/rocksdb.cpp</label>
         <link refid="dc/d6d/rocksdb_8cpp"/>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb_batch.cpp</label>
+        <label>src/storage/rocksdb/rocksdb_batch.cpp</label>
         <link refid="d6/d9a/rocksdb__batch_8cpp"/>
       </node>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb_cursor.cpp</label>
+        <label>src/storage/rocksdb/rocksdb_cursor.cpp</label>
         <link refid="da/dd7/rocksdb__cursor_8cpp"/>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb/rocksdb_util.hpp</label>
+        <label>src/storage/rocksdb/rocksdb_util.hpp</label>
         <link refid="d8/d00/rocksdb__util_8hpp"/>
         <childnode refid="11" relation="include">
         </childnode>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp" line="12" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp" bodystart="13" bodyend="32"/>
+        <location file="src/storage/database_error.hpp" line="12" column="5" bodyfile="src/storage/database_error.hpp" bodystart="13" bodyend="32"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.cpp" line="52" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.cpp" bodystart="52" bodyend="95" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp" declline="34" declcolumn="19"/>
+        <location file="src/storage/database_error.cpp" line="52" column="19" bodyfile="src/storage/database_error.cpp" bodystart="52" bodyend="95" declfile="src/storage/database_error.hpp" declline="34" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/da2/database__error_8hpp_1a5d750cdb491d9562825bf5ab4ef1ddb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp" line="37" column="1" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp" declline="37" declcolumn="1"/>
+        <location file="src/storage/database_error.hpp" line="37" column="1" declfile="src/storage/database_error.hpp" declline="37" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -345,6 +345,6 @@
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="d9/da2/database__error_8hpp_1a5d750cdb491d9562825bf5ab4ef1ddb2" refkind="member"><highlight class="normal"><ref refid="d9/da2/database__error_8hpp_1a5d750cdb491d9562825bf5ab4ef1ddb2" kindref="member">OUTCOME_HPP_DECLARE_ERROR_2</ref>(<sp/><ref refid="d0/dbf/namespacesgns_1_1storage" kindref="compound">sgns::storage</ref>,<sp/>DatabaseError<sp/>);</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/database_error.hpp"/>
+    <location file="src/storage/database_error.hpp"/>
   </compounddef>
 </doxygen>

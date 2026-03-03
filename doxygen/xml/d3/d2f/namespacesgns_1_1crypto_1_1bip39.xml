@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.hpp" bodystart="13" bodyend="15"/>
+        <location file="src/crypto/bip39/dictionary.hpp" line="13" column="3" bodyfile="src/crypto/bip39/dictionary.hpp" bodystart="13" bodyend="15"/>
       </memberdef>
       <memberdef kind="enum" id="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1ab468043ad272fcbcecb59dd7f98861d1" prot="public" static="no" strong="yes">
         <type></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" bodystart="13" bodyend="17"/>
+        <location file="src/crypto/bip39/entropy_accumulator.hpp" line="13" column="3" bodyfile="src/crypto/bip39/entropy_accumulator.hpp" bodystart="13" bodyend="17"/>
       </memberdef>
       <memberdef kind="enum" id="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1a4df32edb3ccef5dcd9d90b971e1cbe4c" prot="public" static="no" strong="yes">
         <type></type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.hpp" bodystart="12" bodyend="14"/>
+        <location file="src/crypto/bip39/mnemonic.hpp" line="12" column="3" bodyfile="src/crypto/bip39/mnemonic.hpp" bodystart="12" bodyend="14"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -97,13 +97,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_types.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_types.hpp" bodystart="13" bodyend="-1"/>
+        <location file="src/crypto/bip39/bip39_types.hpp" line="13" column="3" bodyfile="src/crypto/bip39/bip39_types.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_types.hpp" line="8" column="1"/>
+    <location file="src/crypto/bip39/bip39_types.hpp" line="8" column="1"/>
   </compounddef>
 </doxygen>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="19" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="19" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="19" column="9" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a0e0add155704825bbd0f402b04d3fd5b" prot="private" static="no">
         <type>verification::finality::Finality</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="20" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="20" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="20" column="9" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="35" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="35" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="35" column="25" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a7ce025f8ddf19f1925f1b4d29133ebc1" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; boost::asio::io_context &gt;</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="37" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="37" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="37" column="25" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a50bb9d78cc46fa380cb0beca2cc96581" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d7/de2/classsgns_1_1application_1_1_configuration_storage" kindref="compound">ConfigurationStorage</ref> &gt;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="39" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="39" column="25" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a30a5a6b7020908837331a8549af6ab77" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d5/ddb/classsgns_1_1application_1_1_key_storage" kindref="compound">KeyStorage</ref> &gt;</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="40" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="40" column="35" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1aa7414fb2cc03617f99423031262f039f" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; clock::SystemClock &gt;</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="41" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="41" column="27" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1ac1c0e9f58ce736d815cdfb0ebfbe7b8e" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1a29a04337fa033834824df435ed9c7f21" kindref="member">Production</ref> &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="42" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="42" column="35" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a6682b5c7976079354b49e62cc2569254" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1a0e0add155704825bbd0f402b04d3fd5b" kindref="member">Finality</ref> &gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="43" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="43" column="37" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a2562928a2a55027fb03b534e95aca703" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; network::Router &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="44" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="44" column="30" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1af18eadc8063d7c32b076a7e870b02162" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; api::ApiService &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="46" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="46" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="46" column="25" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a39b0a97ec174980c882f44b641062508" prot="private" static="no" mutable="no">
         <type>Production::ExecutionStrategy</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="48" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="48" column="39" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a554411b1506cecc77894f1f8c8ba1f95" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="50" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="50" bodyend="-1"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="50" column="22" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="23" column="9"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="23" column="9"/>
       </memberdef>
       <memberdef kind="function" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1a008fccfb7387d7b7e65fc3d941725fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="28" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp" bodystart="66" bodyend="201"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="28" column="9" bodyfile="src/application/impl/validating_node_application.cpp" bodystart="66" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="de/de2/classsgns_1_1application_1_1_validating_node_application_1aff4325a699ba31ed368f697896f90cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="30" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp" bodystart="203" bodyend="251"/>
+        <location file="src/application/impl/validating_node_application.hpp" line="30" column="14" bodyfile="src/application/impl/validating_node_application.cpp" bodystart="203" bodyend="251"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -413,7 +413,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp" bodystart="18" bodyend="51"/>
+    <location file="src/application/impl/validating_node_application.hpp" line="17" column="5" bodyfile="src/application/impl/validating_node_application.hpp" bodystart="18" bodyend="51"/>
     <listofallmembers>
       <member refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1a17a7fd6db7aaacf9ff2029bd122cdf90" prot="private" virt="non-virtual"><scope>sgns::application::ValidatingNodeApplication</scope><name>app_state_manager_</name></member>
       <member refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1aa7414fb2cc03617f99423031262f039f" prot="private" virt="non-virtual"><scope>sgns::application::ValidatingNodeApplication</scope><name>clock_</name></member>

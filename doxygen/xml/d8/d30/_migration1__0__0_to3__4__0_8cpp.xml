@@ -18,7 +18,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration1_0_0To3_4_0.cpp</label>
+        <label>src/account/Migration1_0_0To3_4_0.cpp</label>
         <link refid="d8/d30/_migration1__0__0_to3__4__0_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -856,6 +856,6 @@
 <codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="271"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration1_0_0To3_4_0.cpp"/>
+    <location file="src/account/Migration1_0_0To3_4_0.cpp"/>
   </compounddef>
 </doxygen>

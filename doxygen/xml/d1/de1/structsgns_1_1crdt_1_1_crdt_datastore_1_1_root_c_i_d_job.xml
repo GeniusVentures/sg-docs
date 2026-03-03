@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="253" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="253" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="253" column="29" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1a80b27f673b5cd9ce81fde12e5215202a" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ac6a08d717cc5d183a758a141e26facec" kindref="member">IPLDNode</ref> &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="254" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="254" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="254" column="29" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="254" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1a1d926cc3a98c021396028b9b191f72ab" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="255" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="255" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="255" column="39" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="255" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -79,7 +79,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" line="251" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_datastore.hpp" bodystart="252" bodyend="256"/>
+    <location file="src/crdt/crdt_datastore.hpp" line="251" column="9" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="252" bodyend="256"/>
     <listofallmembers>
       <member refid="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1a1d926cc3a98c021396028b9b191f72ab" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore::RootCIDJob</scope><name>created_by_self_</name></member>
       <member refid="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1ae4a9fd080405f6cf4ffe3f61c3184208" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore::RootCIDJob</scope><name>node_</name></member>

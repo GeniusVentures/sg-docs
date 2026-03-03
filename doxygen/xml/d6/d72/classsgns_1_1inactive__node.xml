@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" line="59" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" bodystart="59" bodyend="-1"/>
+        <location file="node/node.hpp" line="59" column="17" bodyfile="node/node.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" line="54" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.cpp" bodystart="287" bodyend="320"/>
+        <location file="node/node.hpp" line="54" column="1" bodyfile="node/node.cpp" bodystart="287" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="d6/d72/classsgns_1_1inactive__node_1a14905336c536d2d9ceb65bb2fb6b5d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" line="55" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.cpp" bodystart="322" bodyend="325"/>
+        <location file="node/node.hpp" line="55" column="1" bodyfile="node/node.cpp" bodystart="322" bodyend="325"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -229,7 +229,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" line="51" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp" bodystart="52" bodyend="60"/>
+    <location file="node/node.hpp" line="51" column="1" bodyfile="node/node.hpp" bodystart="52" bodyend="60"/>
     <listofallmembers>
       <member refid="d6/d72/classsgns_1_1inactive__node_1a48eddcb791b6f67766d2c25394cf1c6a" prot="public" virt="non-virtual"><scope>sgns::inactive_node</scope><name>inactive_node</name></member>
       <member refid="d6/d72/classsgns_1_1inactive__node_1aeb0fee56c245d1cd284cbc9cd4496225" prot="public" virt="non-virtual"><scope>sgns::inactive_node</scope><name>node</name></member>

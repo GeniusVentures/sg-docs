@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" line="30" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" bodystart="30" bodyend="-1"/>
+        <location file="src/scale/types.hpp" line="30" column="29" bodyfile="src/scale/types.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1a17b2ab4099965fd26ed3dfefc13f9896" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>size_t</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" line="32" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" bodystart="32" bodyend="-1"/>
+        <location file="src/scale/types.hpp" line="32" column="29" bodyfile="src/scale/types.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1ab54259e49414282861eba1837b9af7ae" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>size_t</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" line="34" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" bodystart="34" bodyend="-1"/>
+        <location file="src/scale/types.hpp" line="34" column="29" bodyfile="src/scale/types.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -61,7 +61,7 @@
         <link refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" line="28" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/types.hpp" bodystart="28" bodyend="35"/>
+    <location file="src/scale/types.hpp" line="28" column="3" bodyfile="src/scale/types.hpp" bodystart="28" bodyend="35"/>
     <listofallmembers>
       <member refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1ab54259e49414282861eba1837b9af7ae" prot="public" virt="non-virtual"><scope>sgns::scale::compact::EncodingCategoryLimits</scope><name>kMinBigInteger</name></member>
       <member refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1a5e505e1cb300b37c9bcdb76aca89e9a7" prot="public" virt="non-virtual"><scope>sgns::scale::compact::EncodingCategoryLimits</scope><name>kMinUint16</name></member>

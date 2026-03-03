@@ -15,7 +15,7 @@
     <includes local="no">boost/log/sinks/syslog_backend.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp</label>
+        <label>node/logging.cpp</label>
         <link refid="dd/daf/logging_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp" line="16" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp" bodystart="16" bodyend="-1"/>
+        <location file="node/logging.cpp" line="16" column="10" bodyfile="node/logging.cpp" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp" line="23" column="55" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp" bodystart="23" bodyend="-1"/>
+        <location file="node/logging.cpp" line="23" column="55" bodyfile="node/logging.cpp" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -560,6 +560,6 @@
 <codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dd/d29/classsgns_1_1logging_1aa506cb18feb0be41d2fc17874b9750ec" kindref="member">single_line_record_value</ref>;</highlight></codeline>
 <codeline lineno="422"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp"/>
+    <location file="node/logging.cpp"/>
   </compounddef>
 </doxygen>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="63" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="63" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="63" column="26" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="83" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="83" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="83" column="16" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="83" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="65" column="5"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="65" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1ac418cdfcec264552eab9de0af2992b7f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="66" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="66" bodyend="68"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="66" column="14" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="66" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1af86503fd31e5161b3de09c97782ed54c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="70" column="5"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="70" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1a1aa7404d04e729bd3350c36c5c956d40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="72" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="72" bodyend="74"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="72" column="10" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="72" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1ae211e35cf0c6f9ffaea2da783e8c4d5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="75" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="7" bodyend="10"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="75" column="9" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="7" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1a0e2a90616678272fb525718153f01b83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="77" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="12" bodyend="20"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="77" column="14" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="12" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1aa4c1c75f6d0b2c6140e73a9b6e0de618" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="78" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="22" bodyend="27"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="78" column="13" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="22" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -267,7 +267,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="62" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="62" bodyend="84"/>
+    <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="62" column="3" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="62" bodyend="84"/>
     <listofallmembers>
       <member refid="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1a9cbdac8fcd5280019ae5b3ffb9e33a82" prot="public" virt="non-virtual"><scope>sgns::storage::trie::BranchNode</scope><name>BranchNode</name></member>
       <member refid="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1ac418cdfcec264552eab9de0af2992b7f" prot="public" virt="non-virtual"><scope>sgns::storage::trie::BranchNode</scope><name>BranchNode</name></member>

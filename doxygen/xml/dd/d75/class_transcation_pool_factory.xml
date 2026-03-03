@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" line="19" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" bodystart="19" bodyend="42"/>
+        <location file="app/integration/TranscationPoolFactory.hpp" line="19" column="28" bodyfile="app/integration/TranscationPoolFactory.hpp" bodystart="19" bodyend="42"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="dd/d75/class_transcation_pool_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" line="15" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" bodystart="16" bodyend="43"/>
+    <location file="app/integration/TranscationPoolFactory.hpp" line="15" column="1" bodyfile="app/integration/TranscationPoolFactory.hpp" bodystart="16" bodyend="43"/>
     <listofallmembers>
       <member refid="dd/d75/class_transcation_pool_factory_1aa93a418d88d7363fb13dc53705a7137d" prot="public" virt="non-virtual"><scope>TranscationPoolFactory</scope><name>create</name></member>
     </listofallmembers>

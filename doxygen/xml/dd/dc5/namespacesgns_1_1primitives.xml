@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="10" bodyend="10"/>
+        <location file="src/primitives/apply_result.hpp" line="10" column="3" bodyfile="src/primitives/apply_result.hpp" bodystart="10" bodyend="10"/>
       </memberdef>
       <memberdef kind="enum" id="dd/dc5/namespacesgns_1_1primitives_1a460aa4ba1c4c226a9999a737a5fdd06e" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="28" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="28" bodyend="39"/>
+        <location file="src/primitives/apply_result.hpp" line="28" column="3" bodyfile="src/primitives/apply_result.hpp" bodystart="28" bodyend="39"/>
       </memberdef>
       <memberdef kind="enum" id="dd/dc5/namespacesgns_1_1primitives_1a110a7031fbceb91e044a64c51d0279dd" prot="public" static="no" strong="yes">
         <type></type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="21" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="21" bodyend="24"/>
+        <location file="src/primitives/inherent_data.hpp" line="21" column="3" bodyfile="src/primitives/inherent_data.hpp" bodystart="21" bodyend="24"/>
       </memberdef>
       <memberdef kind="enum" id="dd/dc5/namespacesgns_1_1primitives_1aec2a143154e31796fa584017229720c8" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="92" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="92" bodyend="115"/>
+        <location file="src/primitives/transaction_validity.hpp" line="92" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="92" bodyend="115"/>
       </memberdef>
       <memberdef kind="enum" id="dd/dc5/namespacesgns_1_1primitives_1a2acd57959b0142a6e26ae0373efc2f37" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="145" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="145" bodyend="153"/>
+        <location file="src/primitives/transaction_validity.hpp" line="145" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="145" bodyend="153"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="57" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="57" bodyend="-1"/>
+        <location file="src/primitives/apply_result.hpp" line="57" column="3" bodyfile="src/primitives/apply_result.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a0cc2548d85f1c749341c8ea228d1168e" prot="public" static="no">
         <type>uint64_t</type>
@@ -290,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" line="19" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" bodystart="19" bodyend="-1"/>
+        <location file="src/primitives/author_api_primitives.hpp" line="19" column="3" bodyfile="src/primitives/author_api_primitives.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a6810bd3ee844fca6a87654eef0c0c364" prot="public" static="no">
         <type>boost::optional&lt; std::shared_ptr&lt; <ref refid="de/d40/structsgns_1_1primitives_1_1_session" kindref="compound">Session</ref> &gt; &gt;</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" line="32" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" bodystart="32" bodyend="-1"/>
+        <location file="src/primitives/author_api_primitives.hpp" line="32" column="3" bodyfile="src/primitives/author_api_primitives.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1aab37b377ae4dffc3684935d305830ea4" prot="public" static="no">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" line="44" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/primitives/author_api_primitives.hpp" line="44" column="3" bodyfile="src/primitives/author_api_primitives.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a76ed3e049cb541757b4d386684854111" prot="public" static="no">
         <type>uint64_t</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="10" bodyend="-1"/>
+        <location file="src/primitives/authority.hpp" line="10" column="3" bodyfile="src/primitives/authority.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a2b73f06e6dcbc9302a94f7a9c6ed58e5" prot="public" static="no">
         <type>uint64_t</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="41" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/primitives/authority.hpp" line="41" column="3" bodyfile="src/primitives/authority.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a016631413654509e31b54b0d3ac7f865" prot="public" static="no">
         <type>std::vector&lt; <ref refid="d2/d62/structsgns_1_1primitives_1_1_extrinsic" kindref="compound">Extrinsic</ref> &gt;</type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" bodystart="10" bodyend="-1"/>
+        <location file="src/primitives/block.hpp" line="10" column="3" bodyfile="src/primitives/block.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1ae057aa4874931946d3b10aae197f9247" prot="public" static="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_id.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_id.hpp" bodystart="11" bodyend="-1"/>
+        <location file="src/primitives/block_id.hpp" line="11" column="3" bodyfile="src/primitives/block_id.hpp" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a8ff366c722ebc39b0e728102c3a55abf" prot="public" static="no">
         <type>boost::variant&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1ae057aa4874931946d3b10aae197f9247" kindref="member">BlockHash</ref>, <ref refid="dd/dc5/namespacesgns_1_1primitives_1a4d41d58038f35d095940e2f3660d7381" kindref="member">BlockNumber</ref> &gt;</type>
@@ -392,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_id.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_id.hpp" bodystart="14" bodyend="-1"/>
+        <location file="src/primitives/block_id.hpp" line="14" column="3" bodyfile="src/primitives/block_id.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a954eb70f75996eae737945e62fec4e2e" prot="public" static="no">
         <type>uint64_t</type>
@@ -406,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" bodystart="10" bodyend="-1"/>
+        <location file="src/primitives/common.hpp" line="10" column="3" bodyfile="src/primitives/common.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a4d41d58038f35d095940e2f3660d7381" prot="public" static="no">
         <type>uint64_t</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" bodystart="12" bodyend="-1"/>
+        <location file="src/primitives/common.hpp" line="12" column="3" bodyfile="src/primitives/common.hpp" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a49e00cc8ea1725af2bb470e0eee60109" prot="public" static="no">
         <type><ref refid="de/d12/structsgns_1_1primitives_1_1detail_1_1_block_info_t" kindref="compound">detail::BlockInfoT</ref>&lt; struct BlockInfoTag &gt;</type>
@@ -434,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" line="49" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/common.hpp" bodystart="49" bodyend="-1"/>
+        <location file="src/primitives/common.hpp" line="49" column="3" bodyfile="src/primitives/common.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a5750bd8cf94be5a476bd9da95a34aaba" prot="public" static="no">
         <type><ref refid="d1/d56/namespacesgns_1_1scale_1ac1997d51bb44310de23a0fd42d42aac0" kindref="member">scale::CompactInteger</ref></type>
@@ -448,7 +448,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/compact_integer.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/compact_integer.hpp" bodystart="10" bodyend="-1"/>
+        <location file="src/primitives/compact_integer.hpp" line="10" column="3" bodyfile="src/primitives/compact_integer.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a35bb0713379fbbf57b9dcd3704b53596" prot="public" static="no">
         <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; 4 &gt;</type>
@@ -463,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="11" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="11" column="3" bodyfile="src/primitives/digest.hpp" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1af13b68eef7bd75c3c56b1fcb0a46d3c7" prot="public" static="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -478,7 +478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="23" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="23" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="23" column="3" bodyfile="src/primitives/digest.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1abd516d84b76367cf16186753fc895890" prot="public" static="no">
         <type>boost::variant&lt; <ref refid="da/dac/structsgns_1_1_unused" kindref="compound">Unused</ref>&lt; 0 &gt;, <ref refid="da/dac/structsgns_1_1_unused" kindref="compound">Unused</ref>&lt; 1 &gt;, <ref refid="dd/dc5/namespacesgns_1_1primitives_1af13b68eef7bd75c3c56b1fcb0a46d3c7" kindref="member">ChangesTrieRoot</ref>, <ref refid="da/dac/structsgns_1_1_unused" kindref="compound">Unused</ref>&lt; 3 &gt;, <ref refid="d5/de0/structsgns_1_1primitives_1_1_verification" kindref="compound">Verification</ref>, <ref refid="d9/df8/structsgns_1_1primitives_1_1_seal" kindref="compound">Seal</ref>, <ref refid="d7/dcf/structsgns_1_1primitives_1_1_pre_runtime" kindref="compound">PreRuntime</ref> &gt;</type>
@@ -499,7 +499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="91" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="91" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="91" column="3" bodyfile="src/primitives/digest.hpp" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1ab8880d489009bfb6d376eb6dc0c1a855" prot="public" static="no">
         <type>std::vector&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1abd516d84b76367cf16186753fc895890" kindref="member">DigestItem</ref> &gt;</type>
@@ -514,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="103" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="103" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="103" column="3" bodyfile="src/primitives/digest.hpp" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1abd2964ee5c750201a675543e026ad732" prot="public" static="no">
         <type>uint32_t</type>
@@ -529,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="13" bodyend="-1"/>
+        <location file="src/primitives/extrinsic.hpp" line="13" column="3" bodyfile="src/primitives/extrinsic.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a8422e89a738f542cf8371df481a9dcdb" prot="public" static="no">
         <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; 8u &gt;</type>
@@ -543,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="30" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="30" bodyend="-1"/>
+        <location file="src/primitives/inherent_data.hpp" line="30" column="3" bodyfile="src/primitives/inherent_data.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a6eb0f88a12597cb3e901560eef802d27" prot="public" static="no">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/opaque_metadata.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/opaque_metadata.hpp" bodystart="13" bodyend="-1"/>
+        <location file="src/primitives/opaque_metadata.hpp" line="13" column="3" bodyfile="src/primitives/opaque_metadata.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a9cddd982f876ce09ce9ef308479611c9" prot="public" static="no">
         <type>uint64_t</type>
@@ -572,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="13" bodyend="-1"/>
+        <location file="src/primitives/production_configuration.hpp" line="13" column="3" bodyfile="src/primitives/production_configuration.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a38ef7c6193dcebc37fcba10a1c6c7ed4" prot="public" static="no">
         <type>clock::SystemClock</type>
@@ -586,7 +586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="14" bodyend="-1"/>
+        <location file="src/primitives/production_configuration.hpp" line="14" column="3" bodyfile="src/primitives/production_configuration.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a7e9830ecb34f6b06f932a3ad23b2fb63" prot="public" static="no">
         <type>ProductionClock::Duration</type>
@@ -600,10 +600,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="15" bodyend="-1"/>
+        <location file="src/primitives/production_configuration.hpp" line="15" column="3" bodyfile="src/primitives/production_configuration.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a66f7254721d2a6e72bb6c5cfe999bb3a" prot="public" static="no">
-        <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; <ref refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664ceca187d6c92af680abedbe2346f446055f8" kindref="member">crypto::constants::sr25519::vrf::OUTPUT_SIZE</ref> &gt;</type>
+        <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; <ref refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5a187d6c92af680abedbe2346f446055f8" kindref="member">crypto::constants::sr25519::vrf::OUTPUT_SIZE</ref> &gt;</type>
         <definition>using sgns::primitives::Randomness = base::Blob&lt;crypto::constants::sr25519::vrf::OUTPUT_SIZE&gt;</definition>
         <argsstring></argsstring>
         <name>Randomness</name>
@@ -614,7 +614,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="16" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="16" bodyend="-1"/>
+        <location file="src/primitives/production_configuration.hpp" line="16" column="3" bodyfile="src/primitives/production_configuration.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1ad392b4e4cac3ce9aea0bd7386ed8d7d9" prot="public" static="no">
         <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; 32 &gt;</type>
@@ -628,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp" bodystart="10" bodyend="-1"/>
+        <location file="src/primitives/session_key.hpp" line="10" column="3" bodyfile="src/primitives/session_key.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a08446031cdcbf0b8417d6a36fdf0f192" prot="public" static="no">
         <type>boost::variant&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1aec2a143154e31796fa584017229720c8" kindref="member">InvalidTransaction</ref>, <ref refid="dd/dc5/namespacesgns_1_1primitives_1a2acd57959b0142a6e26ae0373efc2f37" kindref="member">UnknownTransaction</ref> &gt;</type>
@@ -643,7 +643,7 @@ boost::variant&lt;InvalidTransaction, UnknownTransaction&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="182" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="182" bodyend="-1"/>
+        <location file="src/primitives/transaction_validity.hpp" line="182" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a9bb55b15560eee3089114cc1b52b30c6" prot="public" static="no">
         <type>boost::variant&lt; <ref refid="d3/d12/structsgns_1_1primitives_1_1_valid_transaction" kindref="compound">ValidTransaction</ref>, <ref refid="dd/dc5/namespacesgns_1_1primitives_1a08446031cdcbf0b8417d6a36fdf0f192" kindref="member">TransactionValidityError</ref> &gt;</type>
@@ -659,7 +659,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="189" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="189" bodyend="-1"/>
+        <location file="src/primitives/transaction_validity.hpp" line="189" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1a7e52bb4e7c7894974e6ccf11be227f82" prot="public" static="no">
         <type><ref refid="d4/dc6/classsgns_1_1base_1_1_blob" kindref="compound">base::Blob</ref>&lt; 8u &gt;</type>
@@ -675,7 +675,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" line="20" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" bodystart="20" bodyend="-1"/>
+        <location file="src/primitives/version.hpp" line="20" column="3" bodyfile="src/primitives/version.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1af0e4c5578f14a6235ef780e36ec82dc1" prot="public" static="no">
         <type>std::pair&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1a7e52bb4e7c7894974e6ccf11be227f82" kindref="member">ApiId</ref>, uint32_t &gt;</type>
@@ -690,7 +690,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" line="25" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" bodystart="25" bodyend="-1"/>
+        <location file="src/primitives/version.hpp" line="25" column="3" bodyfile="src/primitives/version.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/dc5/namespacesgns_1_1primitives_1ad41a35e4207250aa9f1d43e1284638cc" prot="public" static="no">
         <type>std::vector&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1af0e4c5578f14a6235ef780e36ec82dc1" kindref="member">Api</ref> &gt;</type>
@@ -705,7 +705,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" line="30" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" bodystart="30" bodyend="-1"/>
+        <location file="src/primitives/version.hpp" line="30" column="3" bodyfile="src/primitives/version.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -723,7 +723,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="14" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="14" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="14" column="21" bodyfile="src/primitives/digest.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dc5/namespacesgns_1_1primitives_1a24e46f3ddce08feb565cf74555ac5374" prot="public" static="no" mutable="no">
         <type>const auto</type>
@@ -739,7 +739,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="17" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="17" bodyend="-1"/>
+        <location file="src/primitives/digest.hpp" line="17" column="21" bodyfile="src/primitives/digest.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -772,7 +772,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="14" bodyend="17"/>
+        <location file="src/primitives/apply_result.hpp" line="14" column="3" bodyfile="src/primitives/apply_result.hpp" bodystart="14" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ad81f5c71cc280996afab56bb8b0a452c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -803,7 +803,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="21" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="21" bodyend="26"/>
+        <location file="src/primitives/apply_result.hpp" line="21" column="10" bodyfile="src/primitives/apply_result.hpp" bodystart="21" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a8d56ad9a563e42af65a83bae6e62456f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -834,7 +834,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="43" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="43" bodyend="46"/>
+        <location file="src/primitives/apply_result.hpp" line="43" column="3" bodyfile="src/primitives/apply_result.hpp" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a191a18428a6d16fa57224e5744af1c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -865,7 +865,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="50" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" bodystart="50" bodyend="55"/>
+        <location file="src/primitives/apply_result.hpp" line="50" column="10" bodyfile="src/primitives/apply_result.hpp" bodystart="50" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a415abc2388c20aa55f43d96cd3166d0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -887,7 +887,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="34" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="34" bodyend="36"/>
+        <location file="src/primitives/authority.hpp" line="34" column="10" bodyfile="src/primitives/authority.hpp" bodystart="34" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1aadff018f17528e172827ed318122ce9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -948,7 +948,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="73" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="73" bodyend="75"/>
+        <location file="src/primitives/authority.hpp" line="73" column="3" bodyfile="src/primitives/authority.hpp" bodystart="73" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ac0030967cb04c52a721dac1c191a8916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1009,7 +1009,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="86" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="86" bodyend="88"/>
+        <location file="src/primitives/authority.hpp" line="86" column="10" bodyfile="src/primitives/authority.hpp" bodystart="86" bodyend="88"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a1f8f4f588dfbacafee3722ec9859515d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1070,7 +1070,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="99" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="99" bodyend="101"/>
+        <location file="src/primitives/authority.hpp" line="99" column="3" bodyfile="src/primitives/authority.hpp" bodystart="99" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a9f8331b1e0fb54631d5e6e71cf6159a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1131,7 +1131,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="112" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="112" bodyend="114"/>
+        <location file="src/primitives/authority.hpp" line="112" column="10" bodyfile="src/primitives/authority.hpp" bodystart="112" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a4317e29c3498431fe39ba949cdfa2393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1192,7 +1192,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" line="49" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" bodystart="49" bodyend="51"/>
+        <location file="src/primitives/block.hpp" line="49" column="3" bodyfile="src/primitives/block.hpp" bodystart="49" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a5378f642772dcdacc284d64975fd9b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1253,7 +1253,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" line="62" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp" bodystart="62" bodyend="64"/>
+        <location file="src/primitives/block.hpp" line="62" column="10" bodyfile="src/primitives/block.hpp" bodystart="62" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a9859294b882a3e3177f976669af7fdd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1296,7 +1296,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" line="45" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" bodystart="45" bodyend="50"/>
+        <location file="src/primitives/block_data.hpp" line="45" column="15" bodyfile="src/primitives/block_data.hpp" bodystart="45" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a176a8ea826c23fb40a95eb355f959396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1357,7 +1357,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" line="61" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" bodystart="61" bodyend="64"/>
+        <location file="src/primitives/block_data.hpp" line="61" column="3" bodyfile="src/primitives/block_data.hpp" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1aef8789af33f68e4c0768795b0c2aa980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1418,7 +1418,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" line="75" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp" bodystart="75" bodyend="78"/>
+        <location file="src/primitives/block_data.hpp" line="75" column="10" bodyfile="src/primitives/block_data.hpp" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a5725390f463818dabfae9642f7853c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1479,7 +1479,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_header.hpp" line="63" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_header.hpp" bodystart="63" bodyend="66"/>
+        <location file="src/primitives/block_header.hpp" line="63" column="5" bodyfile="src/primitives/block_header.hpp" bodystart="63" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a30d14c3a479947fc26208147003a6e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1540,7 +1540,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_header.hpp" line="76" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_header.hpp" bodystart="76" bodyend="82"/>
+        <location file="src/primitives/block_header.hpp" line="76" column="12" bodyfile="src/primitives/block_header.hpp" bodystart="76" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1af47e0e1f58f49caad7edfe379ddbc9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1571,7 +1571,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" line="23" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" bodystart="23" bodyend="25"/>
+        <location file="src/primitives/check_inherents_result.hpp" line="23" column="10" bodyfile="src/primitives/check_inherents_result.hpp" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1abe68372600d3ac5733e49f124d52c525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1602,7 +1602,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="78" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="78" bodyend="80"/>
+        <location file="src/primitives/digest.hpp" line="78" column="3" bodyfile="src/primitives/digest.hpp" bodystart="78" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a7e0efbb621673822a9cd65938df4a9df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1633,7 +1633,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="84" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="84" bodyend="86"/>
+        <location file="src/primitives/digest.hpp" line="84" column="10" bodyfile="src/primitives/digest.hpp" bodystart="84" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a379f9d592171310083c4453b2ea74ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1694,7 +1694,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="41" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="41" bodyend="43"/>
+        <location file="src/primitives/extrinsic.hpp" line="41" column="3" bodyfile="src/primitives/extrinsic.hpp" bodystart="41" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a24a82a11735c77f62c80d0b482764442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1755,7 +1755,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="54" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="54" bodyend="56"/>
+        <location file="src/primitives/extrinsic.hpp" line="54" column="10" bodyfile="src/primitives/extrinsic.hpp" bodystart="54" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a7b41f090a462e8b797c2fda3ff3a2178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1816,7 +1816,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="108" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="108" bodyend="117"/>
+        <location file="src/primitives/inherent_data.hpp" line="108" column="3" bodyfile="src/primitives/inherent_data.hpp" bodystart="108" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a28140ccc44e232ce355761c2e6b6a225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1877,7 +1877,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="128" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="128" bodyend="141"/>
+        <location file="src/primitives/inherent_data.hpp" line="128" column="10" bodyfile="src/primitives/inherent_data.hpp" bodystart="128" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a3267848202a494d6306e202d5ba2c93a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1920,7 +1920,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" line="28" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" bodystart="28" bodyend="30"/>
+        <location file="src/primitives/justification.hpp" line="28" column="15" bodyfile="src/primitives/justification.hpp" bodystart="28" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a770ffce85eab38e7c9fb7034ef692aed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1981,7 +1981,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" line="41" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" bodystart="41" bodyend="43"/>
+        <location file="src/primitives/justification.hpp" line="41" column="3" bodyfile="src/primitives/justification.hpp" bodystart="41" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a77841998a98eedcfa266684060c7dfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2042,7 +2042,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" line="54" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/justification.hpp" bodystart="54" bodyend="56"/>
+        <location file="src/primitives/justification.hpp" line="54" column="10" bodyfile="src/primitives/justification.hpp" bodystart="54" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a5d917bba5ecd136b1b6080dfa94b71b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2073,7 +2073,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="50" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="50" bodyend="58"/>
+        <location file="src/primitives/production_configuration.hpp" line="50" column="3" bodyfile="src/primitives/production_configuration.hpp" bodystart="50" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a6e43e6c408cc5ee45e09faa236bcb6e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2104,7 +2104,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" line="62" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp" bodystart="62" bodyend="68"/>
+        <location file="src/primitives/production_configuration.hpp" line="62" column="10" bodyfile="src/primitives/production_configuration.hpp" bodystart="62" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ac34ce93b11b0d4903de03d7e9e620b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2131,7 +2131,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="43" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="43" bodyend="45"/>
+        <location file="src/primitives/scheduled_change.hpp" line="43" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="43" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a4c6aa3dd1fe2b9d28191c0a1ebd50143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2158,7 +2158,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="48" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="48" bodyend="50"/>
+        <location file="src/primitives/scheduled_change.hpp" line="48" column="10" bodyfile="src/primitives/scheduled_change.hpp" bodystart="48" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a76e894720aab1b9d614bbed4ede4b262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2185,7 +2185,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="53" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="53" bodyend="55"/>
+        <location file="src/primitives/scheduled_change.hpp" line="53" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="53" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1afabc5eaf5bacd6f25515ad940094117e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2212,7 +2212,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="58" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="58" bodyend="60"/>
+        <location file="src/primitives/scheduled_change.hpp" line="58" column="10" bodyfile="src/primitives/scheduled_change.hpp" bodystart="58" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1abc8478cbad2ab9aefd2952dd64473c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2239,7 +2239,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="63" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="63" bodyend="65"/>
+        <location file="src/primitives/scheduled_change.hpp" line="63" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="63" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ac42e6e22e34121d093525aec01711bd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2266,7 +2266,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="68" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="68" bodyend="70"/>
+        <location file="src/primitives/scheduled_change.hpp" line="68" column="10" bodyfile="src/primitives/scheduled_change.hpp" bodystart="68" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1af1b123c2418820ff203128a251c255ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -2288,7 +2288,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction.hpp" line="60" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction.hpp" bodystart="60" bodyend="65"/>
+        <location file="src/primitives/transaction.hpp" line="60" column="15" bodyfile="src/primitives/transaction.hpp" bodystart="60" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a8e7c96ac8ef4550d539941f674c0adf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2319,7 +2319,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="119" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="119" bodyend="124"/>
+        <location file="src/primitives/transaction_validity.hpp" line="119" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="119" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1abd7eda4e703ff651ea2ad9848d914135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2350,7 +2350,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="128" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="128" bodyend="142"/>
+        <location file="src/primitives/transaction_validity.hpp" line="128" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="128" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ad6625c76b870728d6d81808c1c75dbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2381,7 +2381,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="157" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="157" bodyend="162"/>
+        <location file="src/primitives/transaction_validity.hpp" line="157" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="157" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1ab1b06cc3310604f0b1ad8db234173808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2412,7 +2412,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="166" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="166" bodyend="180"/>
+        <location file="src/primitives/transaction_validity.hpp" line="166" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="166" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1aa219894b3f9fef77735045530ca7cc3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2473,7 +2473,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="201" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="201" bodyend="204"/>
+        <location file="src/primitives/transaction_validity.hpp" line="201" column="3" bodyfile="src/primitives/transaction_validity.hpp" bodystart="201" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a331b35436bc6af42a30e13d065b65248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2534,7 +2534,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" line="214" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp" bodystart="214" bodyend="217"/>
+        <location file="src/primitives/transaction_validity.hpp" line="214" column="10" bodyfile="src/primitives/transaction_validity.hpp" bodystart="214" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a90e57a54cda9314ecad309d7bcef252f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2595,7 +2595,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" line="103" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" bodystart="103" bodyend="106"/>
+        <location file="src/primitives/version.hpp" line="103" column="3" bodyfile="src/primitives/version.hpp" bodystart="103" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a5618946e6340ec413db771a5662caec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -2656,7 +2656,7 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" line="117" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/version.hpp" bodystart="117" bodyend="120"/>
+        <location file="src/primitives/version.hpp" line="117" column="10" bodyfile="src/primitives/version.hpp" bodystart="117" bodyend="120"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2664,6 +2664,6 @@ boost::variant&lt;ValidTransaction, TransactionValidityError&gt;</definition>
     <detaileddescription>
 <para>Authoring api primitives </para>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/apply_result.hpp" line="8" column="1"/>
+    <location file="src/primitives/apply_result.hpp" line="8" column="1"/>
   </compounddef>
 </doxygen>

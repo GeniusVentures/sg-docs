@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="59" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="59" bodyend="59"/>
+        <location file="src/primitives/digest.hpp" line="59" column="9" bodyfile="src/primitives/digest.hpp" bodystart="59" bodyend="59"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="61" column="5"/>
+        <location file="src/primitives/digest.hpp" line="61" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d5/de0/structsgns_1_1primitives_1_1_verification_1a9d8d55821ae3a75c806b7c00b781d5a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="65" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="65" bodyend="65"/>
+        <location file="src/primitives/digest.hpp" line="65" column="5" bodyfile="src/primitives/digest.hpp" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="d5/de0/structsgns_1_1primitives_1_1_verification_1ae8b905df9082b6cf01672c6aee30cdff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="69" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="69" bodyend="69"/>
+        <location file="src/primitives/digest.hpp" line="69" column="5" bodyfile="src/primitives/digest.hpp" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -184,7 +184,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="52" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="52" bodyend="70"/>
+    <location file="src/primitives/digest.hpp" line="52" column="3" bodyfile="src/primitives/digest.hpp" bodystart="52" bodyend="70"/>
     <listofallmembers>
       <member refid="df/db0/structsgns_1_1primitives_1_1detail_1_1_digest_item_common_1a5f2daabc089b61b10fe91ce0d3a5772a" prot="public" virt="non-virtual"><scope>sgns::primitives::Verification</scope><name>data</name></member>
       <member refid="df/db0/structsgns_1_1primitives_1_1detail_1_1_digest_item_common_1a6602c67d6361fb77b3ac7cbcebd11ad3" prot="public" virt="non-virtual"><scope>sgns::primitives::Verification</scope><name>operator!=</name></member>

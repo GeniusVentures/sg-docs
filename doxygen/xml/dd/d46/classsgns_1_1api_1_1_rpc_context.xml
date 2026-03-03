@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_io_context.hpp" line="14" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_io_context.hpp" bodystart="14" bodyend="17"/>
+        <location file="src/api/transport/rpc_io_context.hpp" line="14" column="17" bodyfile="src/api/transport/rpc_io_context.hpp" bodystart="14" bodyend="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -60,7 +60,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_io_context.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_io_context.hpp" bodystart="10" bodyend="18"/>
+    <location file="src/api/transport/rpc_io_context.hpp" line="10" column="3" bodyfile="src/api/transport/rpc_io_context.hpp" bodystart="10" bodyend="18"/>
     <listofallmembers>
       <member refid="dd/d46/classsgns_1_1api_1_1_rpc_context_1aab6adfdc1ba87d4b3687809bcbabf359" prot="public" virt="virtual"><scope>sgns::api::RpcContext</scope><name>GetName</name></member>
       <member refid="d1/dbf/class_i_component_1ab1a616cdfb3812f3aabdb97666c71116" prot="public" virt="virtual"><scope>sgns::api::RpcContext</scope><name>~IComponent</name></member>

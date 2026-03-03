@@ -64,7 +64,7 @@
         <label>std::true_type</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/type_traits.hpp" line="24" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/type_traits.hpp" bodystart="24" bodyend="24"/>
+    <location file="src/base/type_traits.hpp" line="24" column="3" bodyfile="src/base/type_traits.hpp" bodystart="24" bodyend="24"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_41866827cbe4fc1fa31e11cc42d77a61" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb</compoundname>
+    <compoundname>src/crdt/globaldb</compoundname>
     <innerfile refid="d6/de2/globaldb_8cpp">globaldb.cpp</innerfile>
     <innerfile refid="d0/d0e/globaldb_8hpp">globaldb.hpp</innerfile>
     <innerfile refid="d7/dda/keypair__file__storage_8cpp">keypair_file_storage.cpp</innerfile>
@@ -14,6 +14,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/"/>
+    <location file="src/crdt/globaldb/"/>
   </compounddef>
 </doxygen>

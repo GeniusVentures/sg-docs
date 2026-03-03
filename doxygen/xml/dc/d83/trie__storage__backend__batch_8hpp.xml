@@ -4,8 +4,8 @@
     <compoundname>trie_storage_backend_batch.hpp</compoundname>
     <includes refid="da/d1d/buffer_8hpp" local="yes">base/buffer.hpp</includes>
     <includes refid="d2/d76/write__batch_8hpp" local="yes">storage/face/write_batch.hpp</includes>
-    <includedby refid="d6/d01/trie__storage__backend__batch_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_batch.cpp</includedby>
-    <includedby refid="de/db2/trie__storage__backend__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_impl.cpp</includedby>
+    <includedby refid="d6/d01/trie__storage__backend__batch_8cpp" local="yes">src/storage/trie/impl/trie_storage_backend_batch.cpp</includedby>
+    <includedby refid="de/db2/trie__storage__backend__impl_8cpp" local="yes">src/storage/trie/impl/trie_storage_backend_impl.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>base/buffer.hpp</label>
@@ -42,7 +42,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_batch.hpp</label>
+        <label>src/storage/trie/impl/trie_storage_backend_batch.hpp</label>
         <link refid="dc/d83/trie__storage__backend__batch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -70,11 +70,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_batch.cpp</label>
+        <label>src/storage/trie/impl/trie_storage_backend_batch.cpp</label>
         <link refid="d6/d01/trie__storage__backend__batch_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_batch.hpp</label>
+        <label>src/storage/trie/impl/trie_storage_backend_batch.hpp</label>
         <link refid="dc/d83/trie__storage__backend__batch_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -82,7 +82,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_impl.cpp</label>
+        <label>src/storage/trie/impl/trie_storage_backend_impl.cpp</label>
         <link refid="de/db2/trie__storage__backend__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -137,6 +137,6 @@
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_TRIE_IMPL_TRIE_STORAGE_BACKEND_BATCH</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_backend_batch.hpp"/>
+    <location file="src/storage/trie/impl/trie_storage_backend_batch.hpp"/>
   </compounddef>
 </doxygen>

@@ -12,8 +12,8 @@
     <includes refid="da/d9b/changes__trie__config_8hpp" local="yes">storage/changes_trie/changes_trie_config.hpp</includes>
     <includes refid="d6/d58/codec_8hpp" local="yes">storage/trie/codec.hpp</includes>
     <includes refid="dc/dc9/supergenius__trie__factory_8hpp" local="yes">storage/trie/supergenius_trie/supergenius_trie_factory.hpp</includes>
-    <includedby refid="d9/d77/changes__trie_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.cpp</includedby>
-    <includedby refid="d8/d2c/storage__changes__tracker__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</includedby>
+    <includedby refid="d9/d77/changes__trie_8cpp" local="yes">src/storage/changes_trie/impl/changes_trie.cpp</includedby>
+    <includedby refid="d8/d2c/storage__changes__tracker__impl_8cpp" local="yes">src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</includedby>
     <incdepgraph>
       <node id="19">
         <label>base/blob.hpp</label>
@@ -108,7 +108,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.hpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.hpp</label>
         <link refid="d1/dfb/changes__trie_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -290,11 +290,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.cpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.cpp</label>
         <link refid="d9/d77/changes__trie_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.hpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.hpp</label>
         <link refid="d1/dfb/changes__trie_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -302,7 +302,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</label>
+        <label>src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</label>
         <link refid="d8/d2c/storage__changes__tracker__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -396,6 +396,6 @@
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_STORAGE_CHANGES_TRIE_IMPL_CHANGES_TRIE</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.hpp"/>
+    <location file="src/storage/changes_trie/impl/changes_trie.hpp"/>
   </compounddef>
 </doxygen>

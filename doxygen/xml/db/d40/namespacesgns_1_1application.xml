@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader/error.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader/error.hpp" bodystart="12" bodyend="16"/>
+        <location file="src/application/impl/config_reader/error.hpp" line="12" column="3" bodyfile="src/application/impl/config_reader/error.hpp" bodystart="12" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_config.hpp" line="71" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_config.hpp" bodystart="71" bodyend="-1"/>
+        <location file="src/application/app_config.hpp" line="71" column="5" bodyfile="src/application/app_config.hpp" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="db/d40/namespacesgns_1_1application_1a8d33b5b411fb63cf4d022159053924a5" prot="public" static="no">
         <type>std::vector&lt; std::pair&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref>, <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt; &gt;</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/genesis_raw_config.hpp" line="9" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/genesis_raw_config.hpp" bodystart="9" bodyend="-1"/>
+        <location file="src/application/genesis_raw_config.hpp" line="9" column="3" bodyfile="src/application/genesis_raw_config.hpp" bodystart="9" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" line="8" column="17" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" declline="8" declcolumn="17"/>
+        <location file="src/application/impl/bridging_node_application.cpp" line="8" column="17" declfile="src/application/impl/bridging_node_application.cpp" declline="8" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="db/d40/namespacesgns_1_1application_1a61e5b8bd4b991e1471ecdf865f9b9a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" line="10" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="10" bodyend="13"/>
+        <location file="src/application/impl/bridging_node_application.cpp" line="10" column="10" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="10" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="db/d40/namespacesgns_1_1application_1a49ae73e9d46b7a0ffef07588e58aca58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" line="15" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="15" bodyend="18"/>
+        <location file="src/application/impl/bridging_node_application.cpp" line="15" column="10" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="db/d40/namespacesgns_1_1application_1a6d5311b61c66f5458485c4f90eb9d69f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -158,13 +158,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader/pt_util.hpp" line="11" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader/pt_util.hpp" bodystart="11" bodyend="16"/>
+        <location file="src/application/impl/config_reader/pt_util.hpp" line="11" column="19" bodyfile="src/application/impl/config_reader/pt_util.hpp" bodystart="11" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_config.hpp" line="10" column="1"/>
+    <location file="src/application/app_config.hpp" line="10" column="1"/>
   </compounddef>
 </doxygen>

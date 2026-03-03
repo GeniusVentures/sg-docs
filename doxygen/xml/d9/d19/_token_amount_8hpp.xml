@@ -5,12 +5,12 @@
     <includes local="no">string</includes>
     <includes local="no">memory</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="df/de0/_genius_node_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</includedby>
-    <includedby refid="d2/d28/_token_amount_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp</includedby>
-    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</includedby>
+    <includedby refid="df/de0/_genius_node_8cpp" local="yes">src/account/GeniusNode.cpp</includedby>
+    <includedby refid="d2/d28/_token_amount_8cpp" local="yes">src/account/TokenAmount.cpp</includedby>
+    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp</label>
+        <label>src/account/TokenAmount.hpp</label>
         <link refid="d9/d19/_token_amount_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -37,15 +37,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp</label>
+        <label>src/account/TokenAmount.cpp</label>
         <link refid="d2/d28/_token_amount_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp</label>
+        <label>src/account/TokenAmount.hpp</label>
         <link refid="d9/d19/_token_amount_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -55,7 +55,7 @@
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
     </invincdepgraph>
@@ -122,6 +122,6 @@
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp"/>
+    <location file="src/account/TokenAmount.hpp"/>
   </compounddef>
 </doxygen>

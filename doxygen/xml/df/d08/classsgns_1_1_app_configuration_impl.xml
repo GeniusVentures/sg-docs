@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="37" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="37" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="37" column="5" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="57" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="57" bodyend="64"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="57" column="16" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="57" bodyend="64"/>
       </memberdef>
       <memberdef kind="variable" id="df/d08/classsgns_1_1_app_configuration_impl_1a66b3a93366d564191a3d4042e68b4ed3" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">sgns::base::Logger</ref></type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="67" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="67" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="67" column="24" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d08/classsgns_1_1_app_configuration_impl_1a8f9269df851ab22c056e0406763530aa" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="68" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="68" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="68" column="17" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d08/classsgns_1_1_app_configuration_impl_1aafce89a5ac7b3d6e0b76715dea8ffdc8" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="69" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="69" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="69" column="17" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d08/classsgns_1_1_app_configuration_impl_1a8b489be4b3905956ecc392066f34ee3d" prot="private" static="no" mutable="no">
         <type>uint16_t</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="70" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="70" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="70" column="14" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d08/classsgns_1_1_app_configuration_impl_1a077b153d5c0588fd3e8c44032a1fe672" prot="private" static="no" mutable="no">
         <type>uint16_t</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="71" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="71" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="71" column="14" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="71" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="40" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="88" bodyend="92"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="40" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="88" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a58bbbbde7f6990429f2d3bb4d977e234" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="41" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="94" bodyend="96"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="41" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="94" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a89b4bded531cd93bf50614c35865af0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="42" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="98" bodyend="100"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="42" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="98" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a968ecdb40f722a3a6d95cbf29aa1c146" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="43" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="102" bodyend="104"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="43" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="102" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ae2817c4c9819c38e366736f12658dfe5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="44" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="106" bodyend="112"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="44" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="106" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a9dd06ed0f29b75e36381420f8c4e2610" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="45" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="114" bodyend="116"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="45" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="114" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a6587b8d06d21c70f4fc0e39fd65c2def" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="83" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="118" bodyend="153"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="83" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="118" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a6cc7f7040f043eb8af2898972a14f462" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="84" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="155" bodyend="187"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="84" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="155" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a96c830542a58e4dda5eb0e2ab1d16db0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>boost::asio::ip::tcp::endpoint</type>
@@ -280,7 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="90" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="189" bodyend="202"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="90" column="36" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="189" bodyend="202"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="86" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="50" bodyend="59"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="86" column="17" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="50" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ad4cde05b00c1da654d3bf47f465da26b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="87" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="72" bodyend="86"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="87" column="17" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="72" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ad799632c1a656c79b48cb55b822fbf07" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -360,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="88" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="61" bodyend="70"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="88" column="17" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="61" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1aa604f51e7f7a333594331adab86561c5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="df/d08/classsgns_1_1_app_configuration_impl_1ac9062a56a03b8f4b6b560ee4534e687e" kindref="member">FilePtr</ref></type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="93" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="44" bodyend="48"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="93" column="20" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="44" bodyend="48"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="96" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="34" bodyend="42"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="96" column="14" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="34" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a21a8c1cb17b35aa69f2592566260ea0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="99" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="99" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ac133fe082a4871466b1fd055378141e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="102" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="102" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a7d69a1a672499efdd66d722f0c77791d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="97" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="97" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ab9401a30393d2f05fdb50f18b2124c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="df/d08/classsgns_1_1_app_configuration_impl_1af47ad0c0d6bbe18536f818e1f405efdf" kindref="member">AppConfigurationImpl</ref> &amp;</type>
@@ -463,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="100" column="26"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="100" column="26"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1af9b5eb03421d211673429276b1025575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="df/d08/classsgns_1_1_app_configuration_impl_1af47ad0c0d6bbe18536f818e1f405efdf" kindref="member">AppConfigurationImpl</ref> &amp;</type>
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="103" column="26"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="103" column="26"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1aab5d82b4fe1aad9c4cef7d6fde5d5195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -507,7 +507,7 @@
         <inbodydescription>
 <para>aggregate data from command line args</para>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="105" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp" bodystart="204" bodyend="326"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="105" column="10" bodyfile="src/application/impl/app_config_impl.cpp" bodystart="204" bodyend="326"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a0b4ee629da829b54e2f9aa6bad3edc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -527,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="109" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="109" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a7a5c6624277d40f79bb37dd7a015aa81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -547,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="110" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="110" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a24591be458faeb58e1557538e72189c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -567,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="111" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="111" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a2756ad28ebee7c5358f0221ed6b0ce75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -587,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="112" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="112" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a1d35f819b5224d8f2439ad357a760cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -607,7 +607,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="113" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="113" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a2a3c8b5ef49317e68b2f0cb332cd4619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="114" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="114" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1ad49814bee57c5bcff0cf27c227db2200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -647,7 +647,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="115" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="115" column="5"/>
       </memberdef>
       <memberdef kind="function" id="df/d08/classsgns_1_1_app_configuration_impl_1a796e6322104beb9e6a2abaf5483cd4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -667,7 +667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="116" column="5"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="116" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -750,7 +750,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="36" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="36" bodyend="117"/>
+    <location file="src/application/impl/app_config_impl.hpp" line="36" column="3" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="36" bodyend="117"/>
     <listofallmembers>
       <member refid="df/d08/classsgns_1_1_app_configuration_impl_1af47ad0c0d6bbe18536f818e1f405efdf" prot="public" virt="non-virtual"><scope>sgns::AppConfigurationImpl</scope><name>AppConfigurationImpl</name></member>
       <member refid="df/d08/classsgns_1_1_app_configuration_impl_1a21a8c1cb17b35aa69f2592566260ea0a" prot="public" virt="non-virtual"><scope>sgns::AppConfigurationImpl</scope><name>AppConfigurationImpl</name></member>

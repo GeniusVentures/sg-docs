@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="22" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp" bodystart="15" bodyend="38"/>
+        <location file="node/cli.hpp" line="22" column="15" bodyfile="node/cli.cpp" bodystart="15" bodyend="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -47,7 +47,7 @@
         <link refid="db/d30/classsgns_1_1error__cli__messages"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="15" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" bodystart="15" bodyend="23"/>
+    <location file="node/cli.hpp" line="15" column="1" bodyfile="node/cli.hpp" bodystart="15" bodyend="23"/>
     <listofallmembers>
       <member refid="db/d30/classsgns_1_1error__cli__messages_1a6ef199c65a3893287b4b7c4627de1552" prot="public" virt="non-virtual"><scope>sgns::error_cli_messages</scope><name>message</name></member>
     </listofallmembers>

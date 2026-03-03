@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp" line="20" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp" bodystart="20" bodyend="65"/>
+        <location file="app/integration/ListenerFactory.hpp" line="20" column="25" bodyfile="app/integration/ListenerFactory.hpp" bodystart="20" bodyend="65"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -37,7 +37,7 @@
         <link refid="d9/da5/classsgns_1_1_listener_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp" bodystart="18" bodyend="66"/>
+    <location file="app/integration/ListenerFactory.hpp" line="17" column="5" bodyfile="app/integration/ListenerFactory.hpp" bodystart="18" bodyend="66"/>
     <listofallmembers>
       <member refid="d9/da5/classsgns_1_1_listener_factory_1a1b274e58b76900f07edfe8100c0f9136" prot="public" virt="non-virtual"><scope>sgns::ListenerFactory</scope><name>create</name></member>
     </listofallmembers>

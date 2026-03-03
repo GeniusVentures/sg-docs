@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.hpp" line="23" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.cpp" bodystart="16" bodyend="18"/>
+        <location file="src/processing/processing_tasksplit.hpp" line="23" column="13" bodyfile="src/processing/processing_tasksplit.cpp" bodystart="16" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="d7/de8/classsgns_1_1processing_1_1_process_task_splitter_1a714e5c786124cf43279afd57f595cccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.hpp" line="25" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.cpp" bodystart="43" bodyend="97"/>
+        <location file="src/processing/processing_tasksplit.hpp" line="25" column="18" bodyfile="src/processing/processing_tasksplit.cpp" bodystart="43" bodyend="97"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         <link refid="d7/de8/classsgns_1_1processing_1_1_process_task_splitter"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.hpp" line="20" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_tasksplit.hpp" bodystart="21" bodyend="31"/>
+    <location file="src/processing/processing_tasksplit.hpp" line="20" column="9" bodyfile="src/processing/processing_tasksplit.hpp" bodystart="21" bodyend="31"/>
     <listofallmembers>
       <member refid="d7/de8/classsgns_1_1processing_1_1_process_task_splitter_1afdd1cb934c96f093bae19f562b1d229d" prot="public" virt="non-virtual"><scope>sgns::processing::ProcessTaskSplitter</scope><name>ProcessTaskSplitter</name></member>
       <member refid="d7/de8/classsgns_1_1processing_1_1_process_task_splitter_1a714e5c786124cf43279afd57f595cccc" prot="public" virt="non-virtual"><scope>sgns::processing::ProcessTaskSplitter</scope><name>SplitTask</name></member>

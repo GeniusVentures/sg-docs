@@ -7,10 +7,10 @@
     <includes refid="d2/d0a/block__tree_8hpp" local="yes">blockchain/block_tree.hpp</includes>
     <includes refid="d6/d4c/block__header__repository_8hpp" local="yes">blockchain/block_header_repository.hpp</includes>
     <includes local="yes">verification/finality/gossiper.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</label>
+        <label>app/integration/EnvironmentFactory.hpp</label>
         <link refid="d8/db8/_environment_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -312,13 +312,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</label>
+        <label>app/integration/EnvironmentFactory.hpp</label>
         <link refid="d8/db8/_environment_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -384,6 +384,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp"/>
+    <location file="app/integration/EnvironmentFactory.hpp"/>
   </compounddef>
 </doxygen>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="51" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" bodystart="51" bodyend="51"/>
+        <location file="src/crypto/sr25519_types.hpp" line="51" column="18" bodyfile="src/crypto/sr25519_types.hpp" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d8e/structsgns_1_1crypto_1_1_v_r_f_output_1a78ff4c62a423d02615124bbff46d95be" prot="public" static="no" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1a89d6cd58cac07dcde92ca7c1575c6600" kindref="member">VRFProof</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="53" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" bodystart="53" bodyend="53"/>
+        <location file="src/crypto/sr25519_types.hpp" line="53" column="14" bodyfile="src/crypto/sr25519_types.hpp" bodystart="53" bodyend="53"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="55" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.cpp" bodystart="5" bodyend="7"/>
+        <location file="src/crypto/sr25519_types.hpp" line="55" column="10" bodyfile="src/crypto/sr25519_types.cpp" bodystart="5" bodyend="7"/>
       </memberdef>
       <memberdef kind="function" id="d0/d8e/structsgns_1_1crypto_1_1_v_r_f_output_1acb1324a6a9e83699206301e6e698b4af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="56" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.cpp" bodystart="8" bodyend="10"/>
+        <location file="src/crypto/sr25519_types.hpp" line="56" column="10" bodyfile="src/crypto/sr25519_types.cpp" bodystart="8" bodyend="10"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="58" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" bodystart="58" bodyend="72"/>
+        <location file="src/crypto/sr25519_types.hpp" line="58" column="12" bodyfile="src/crypto/sr25519_types.hpp" bodystart="58" bodyend="72"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -135,7 +135,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" line="49" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519_types.hpp" bodystart="49" bodyend="74"/>
+    <location file="src/crypto/sr25519_types.hpp" line="49" column="3" bodyfile="src/crypto/sr25519_types.hpp" bodystart="49" bodyend="74"/>
     <listofallmembers>
       <member refid="d0/d8e/structsgns_1_1crypto_1_1_v_r_f_output_1acb1324a6a9e83699206301e6e698b4af" prot="public" virt="non-virtual"><scope>sgns::crypto::VRFOutput</scope><name>operator!=</name></member>
       <member refid="d0/d8e/structsgns_1_1crypto_1_1_v_r_f_output_1a4af49ba9a7d4e85dcaff26b66152f166" prot="public" virt="non-virtual"><scope>sgns::crypto::VRFOutput</scope><name>operator&lt;&lt;</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="19" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="19" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a3a391f41ded00d9a89b0a1aa7edaa406" prot="public" static="no">
         <type>typename <ref refid="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" kindref="member">ecdsa_t::base_field_type</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="20" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="20" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a0cd6dda4a2db00fde260d070dbe1018f" prot="public" static="no">
         <type>typename <ref refid="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" kindref="member">ecdsa_t::scalar_field_type</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="21" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="21" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" prot="public" static="no">
         <type>typename <ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">ecdsa_t::scalar_field_value_type</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="22" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="22" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" kindref="member">ecdsa_t::random_generator_type</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="23" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="23" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1ab9f19a39a9c332fc633c429c702dfc06" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kindref="member">ecdsa_t::hash_type</ref></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="24" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="24" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a8f463d8af7af8eb7d4bc71d97fa0c9c0" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">ecdsa_t::generator_type</ref></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="25" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="25" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1ae0202f39085a20570324cfe29f1b4e8d" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">ecdsa_t::padding_policy</ref></type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="26" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="26" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" kindref="member">ecdsa_t::policy_type</ref></type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="27" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="27" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a1f3939e0e12e4e1efc0254d41726045e" prot="public" static="no">
         <type><ref refid="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" kindref="member">ecdsa_t::signature_type</ref></type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="28" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="28" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dc1/namespaceethereum_1a949fd48224fcb0964e1cc16a9c559cdb" prot="public" static="no">
         <type>hashes::keccak_1600&lt; 256 &gt;</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="29" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" line="29" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="47" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="54" bodyend="69"/>
+        <location file="ProofSystem/src/EthereumKeyGenerator.cpp" line="47" column="21" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="54" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -209,13 +209,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="71" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="72" bodyend="86"/>
+        <location file="ProofSystem/src/EthereumKeyGenerator.cpp" line="71" column="5" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="72" bodyend="86"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="18" column="1"/>
+    <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="18" column="1"/>
   </compounddef>
 </doxygen>

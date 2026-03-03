@@ -4,11 +4,11 @@
     <compoundname>app_delegate.hpp</compoundname>
     <includes local="no">boost/program_options.hpp</includes>
     <includes local="no">iostream</includes>
-    <includedby refid="d5/df0/app__delegate_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.cpp</includedby>
-    <includedby refid="d2/dd2/entry_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/entry.cpp</includedby>
+    <includedby refid="d5/df0/app__delegate_8cpp" local="yes">node/app_delegate.cpp</includedby>
+    <includedby refid="d2/dd2/entry_8cpp" local="yes">node/entry.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.hpp</label>
+        <label>node/app_delegate.hpp</label>
         <link refid="d7/d49/app__delegate_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,11 +24,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.cpp</label>
+        <label>node/app_delegate.cpp</label>
         <link refid="d5/df0/app__delegate_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.hpp</label>
+        <label>node/app_delegate.hpp</label>
         <link refid="d7/d49/app__delegate_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/entry.cpp</label>
+        <label>node/entry.cpp</label>
         <link refid="d2/dd2/entry_8cpp"/>
       </node>
     </invincdepgraph>
@@ -97,6 +97,6 @@
 <codeline lineno="68"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.hpp"/>
+    <location file="node/app_delegate.hpp"/>
   </compounddef>
 </doxygen>

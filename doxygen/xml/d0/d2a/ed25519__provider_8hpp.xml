@@ -6,9 +6,9 @@
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="d4/d6e/ed25519__types_8hpp" local="yes">crypto/ed25519_types.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
-    <includedby refid="d7/dea/_finality_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp</includedby>
-    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
-    <includedby refid="df/d66/ed25519__provider__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.hpp</includedby>
+    <includedby refid="d7/dea/_finality_factory_8hpp" local="yes">app/integration/FinalityFactory.hpp</includedby>
+    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
+    <includedby refid="df/d66/ed25519__provider__impl_8hpp" local="yes">src/crypto/ed25519/ed25519_provider_impl.hpp</includedby>
     <incdepgraph>
       <node id="7">
         <label>base/blob.hpp</label>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519_provider.hpp</label>
+        <label>src/crypto/ed25519_provider.hpp</label>
         <link refid="d0/d2a/ed25519__provider_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,37 +103,37 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp</label>
+        <label>app/integration/ED25519ProviderFactory.hpp</label>
         <link refid="d0/d53/_e_d25519_provider_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp</label>
+        <label>app/integration/FinalityFactory.hpp</label>
         <link refid="d7/dea/_finality_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.cpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
         <link refid="dd/d14/crypto__store__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
         <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.cpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.cpp</label>
         <link refid="d0/d42/ed25519__provider__impl_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519/ed25519_provider_impl.hpp</label>
+        <label>src/crypto/ed25519/ed25519_provider_impl.hpp</label>
         <link refid="df/d66/ed25519__provider__impl_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -141,7 +141,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519_provider.hpp</label>
+        <label>src/crypto/ed25519_provider.hpp</label>
         <link refid="d0/d2a/ed25519__provider_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519_provider.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519_provider.hpp" bodystart="10" bodyend="16"/>
+        <location file="src/crypto/ed25519_provider.hpp" line="10" column="3" bodyfile="src/crypto/ed25519_provider.hpp" bodystart="10" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -234,6 +234,6 @@
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519_provider.hpp"/>
+    <location file="src/crypto/ed25519_provider.hpp"/>
   </compounddef>
 </doxygen>

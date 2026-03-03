@@ -119,8 +119,6 @@
         <link refid="d8/d7a/_account_messenger_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -129,13 +127,11 @@
         </childnode>
         <childnode refid="66" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
-        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
+        <childnode refid="68" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -147,17 +143,17 @@
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="64" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="73" relation="include">
+        <childnode refid="72" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</label>
+        <label>src/account/GeniusAccount.cpp</label>
         <link refid="dd/dd9/_genius_account_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -189,13 +185,13 @@
         </childnode>
         <childnode refid="65" relation="include">
         </childnode>
-        <childnode refid="74" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
-        <childnode refid="121" relation="include">
+        <childnode refid="120" relation="include">
         </childnode>
-        <childnode refid="125" relation="include">
+        <childnode refid="124" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
+        <childnode refid="88" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -260,16 +256,16 @@
         <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="84">
+      <node id="83">
         <label>base/buffer.hpp</label>
         <link refid="da/d1d/buffer_8hpp"/>
         <childnode refid="57" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="85" relation="include">
+        <childnode refid="84" relation="include">
         </childnode>
-        <childnode refid="86" relation="include">
+        <childnode refid="85" relation="include">
         </childnode>
         <childnode refid="58" relation="include">
         </childnode>
@@ -288,26 +284,26 @@
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="70">
+      <node id="69">
         <label>base/logger.hpp</label>
         <link refid="d6/da3/logger_8hpp"/>
+        <childnode refid="70" relation="include">
+        </childnode>
         <childnode refid="71" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
-        </childnode>
       </node>
-      <node id="83">
+      <node id="82">
         <label>crdt/atomic_transaction.hpp</label>
         <link refid="dd/d8f/atomic__transaction_8hpp"/>
-        <childnode refid="84" relation="include">
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
         </childnode>
         <childnode refid="87" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
-        </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
+        <childnode refid="88" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -318,23 +314,23 @@
         <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="111">
+      <node id="110">
         <label>crdt/broadcaster.hpp</label>
         <link refid="d9/d25/broadcaster_8hpp"/>
-        <childnode refid="84" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="112" relation="include">
+        <childnode refid="111" relation="include">
         </childnode>
         <childnode refid="61" relation="include">
         </childnode>
-        <childnode refid="113" relation="include">
+        <childnode refid="112" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="119">
+      <node id="118">
         <label>crdt/crdt_callback_manager.hpp</label>
         <link refid="dc/d0f/crdt__callback__manager_8hpp"/>
         <childnode refid="11" relation="include">
@@ -345,12 +341,12 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
       </node>
-      <node id="117">
+      <node id="116">
         <label>crdt/crdt_data_filter.hpp</label>
         <link refid="d9/dc5/crdt__data__filter_8hpp"/>
         <childnode refid="19" relation="include">
@@ -361,121 +357,123 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="118" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="87" relation="include">
         </childnode>
       </node>
-      <node id="90">
+      <node id="89">
         <label>crdt/crdt_datastore.hpp</label>
         <link refid="d5/d29/crdt__datastore_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="91" relation="include">
+        <childnode refid="90" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
         <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="93" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="109" relation="include">
         </childnode>
         <childnode refid="110" relation="include">
         </childnode>
-        <childnode refid="111" relation="include">
+        <childnode refid="113" relation="include">
         </childnode>
-        <childnode refid="114" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
         <childnode refid="116" relation="include">
         </childnode>
-        <childnode refid="117" relation="include">
+        <childnode refid="118" relation="include">
         </childnode>
-        <childnode refid="119" relation="include">
-        </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="94" relation="include">
         </childnode>
       </node>
-      <node id="110">
+      <node id="109">
         <label>crdt/crdt_heads.hpp</label>
         <link refid="dc/d76/crdt__heads_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="91" relation="include">
+        <childnode refid="90" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="94" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
-        <childnode refid="87" relation="include">
-        </childnode>
-        <childnode refid="89" relation="include">
-        </childnode>
-      </node>
-      <node id="116">
-        <label>crdt/crdt_options.hpp</label>
-        <link refid="d0/d2d/crdt__options_8hpp"/>
-        <childnode refid="84" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-        <childnode refid="87" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-      </node>
-      <node id="94">
-        <label>crdt/crdt_set.hpp</label>
-        <link refid="d4/d2e/crdt__set_8hpp"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="95" relation="include">
-        </childnode>
-        <childnode refid="87" relation="include">
+        <childnode refid="86" relation="include">
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
       </node>
-      <node id="114">
+      <node id="115">
+        <label>crdt/crdt_options.hpp</label>
+        <link refid="d0/d2d/crdt__options_8hpp"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>crdt/crdt_set.hpp</label>
+        <link refid="d4/d2e/crdt__set_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
         <label>crdt/dagsyncer.hpp</label>
         <link refid="d5/db5/dagsyncer_8hpp"/>
-        <childnode refid="89" relation="include">
+        <childnode refid="88" relation="include">
         </childnode>
-        <childnode refid="115" relation="include">
+        <childnode refid="114" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="74">
+      <node id="73">
         <label>crdt/globaldb/globaldb.hpp</label>
         <link refid="d0/d0e/globaldb_8hpp"/>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="75" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
         </childnode>
         <childnode refid="76" relation="include">
         </childnode>
@@ -491,37 +489,35 @@
         </childnode>
         <childnode refid="82" relation="include">
         </childnode>
-        <childnode refid="83" relation="include">
+        <childnode refid="89" relation="include">
         </childnode>
-        <childnode refid="90" relation="include">
-        </childnode>
-        <childnode refid="116" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="120" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
       </node>
-      <node id="120">
+      <node id="119">
         <label>pubsub_broadcaster_ext.hpp</label>
         <link refid="d7/db9/pubsub__broadcaster__ext_8hpp"/>
-        <childnode refid="111" relation="include">
+        <childnode refid="110" relation="include">
         </childnode>
-        <childnode refid="121" relation="include">
+        <childnode refid="120" relation="include">
         </childnode>
-        <childnode refid="90" relation="include">
+        <childnode refid="89" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
-        <childnode refid="78" relation="include">
+        <childnode refid="77" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
-        <childnode refid="113" relation="include">
+        <childnode refid="112" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
@@ -532,25 +528,25 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="121">
+      <node id="120">
         <label>crdt/graphsync_dagsyncer.hpp</label>
         <link refid="d6/dea/graphsync__dagsyncer_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="114" relation="include">
+        <childnode refid="113" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
         </childnode>
         <childnode refid="122" relation="include">
         </childnode>
         <childnode refid="123" relation="include">
         </childnode>
-        <childnode refid="124" relation="include">
-        </childnode>
       </node>
-      <node id="87">
+      <node id="86">
         <label>crdt/hierarchical_key.hpp</label>
         <link refid="d5/dc7/hierarchical__key_8hpp"/>
         <childnode refid="5" relation="include">
@@ -568,7 +564,7 @@
         <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="125">
+      <node id="124">
         <label>local_secure_storage/SecureStorage.hpp</label>
         <link refid="da/d8f/_secure_storage_8hpp"/>
       </node>
@@ -610,81 +606,83 @@
         <label>singleton/Singleton.hpp</label>
         <link refid="d3/d91/_singleton_8hpp"/>
       </node>
-      <node id="101">
+      <node id="100">
         <label>storage/buffer_map_types.hpp</label>
         <link refid="d8/dcc/buffer__map__types_8hpp"/>
         <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="102" relation="include">
+        <childnode refid="101" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
+        <childnode refid="104" relation="include">
         </childnode>
       </node>
-      <node id="104">
+      <node id="103">
         <label>storage/face/batchable.hpp</label>
         <link refid="de/d87/batchable_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
-        </childnode>
-      </node>
-      <node id="103">
-        <label>storage/face/generic_maps.hpp</label>
-        <link refid="d9/daa/generic__maps_8hpp"/>
         <childnode refid="104" relation="include">
-        </childnode>
-        <childnode refid="107" relation="include">
-        </childnode>
-        <childnode refid="109" relation="include">
-        </childnode>
-        <childnode refid="106" relation="include">
         </childnode>
       </node>
       <node id="102">
+        <label>storage/face/generic_maps.hpp</label>
+        <link refid="d9/daa/generic__maps_8hpp"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
         <label>storage/face/generic_storage.hpp</label>
         <link refid="d6/d4e/generic__storage_8hpp"/>
-        <childnode refid="103" relation="include">
+        <childnode refid="102" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="107">
+      <node id="106">
         <label>storage/face/iterable.hpp</label>
         <link refid="db/d3e/iterable_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="108" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
       </node>
-      <node id="108">
+      <node id="107">
         <label>storage/face/map_cursor.hpp</label>
         <link refid="d9/d4b/map__cursor_8hpp"/>
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="109">
+      <node id="108">
         <label>storage/face/readable.hpp</label>
         <link refid="d5/dd2/readable_8hpp"/>
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="105">
+      <node id="104">
         <label>storage/face/write_batch.hpp</label>
         <link refid="d2/d76/write__batch_8hpp"/>
-        <childnode refid="106" relation="include">
+        <childnode refid="105" relation="include">
         </childnode>
       </node>
-      <node id="106">
+      <node id="105">
         <label>storage/face/writeable.hpp</label>
         <link refid="dc/da4/writeable_8hpp"/>
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="95">
+      <node id="94">
         <label>storage/rocksdb/rocksdb.hpp</label>
         <link refid="d1/d07/rocksdb_8hpp"/>
+        <childnode refid="95" relation="include">
+        </childnode>
         <childnode refid="96" relation="include">
         </childnode>
         <childnode refid="97" relation="include">
@@ -693,11 +691,9 @@
         </childnode>
         <childnode refid="99" relation="include">
         </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
         <childnode refid="100" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-        <childnode refid="101" relation="include">
         </childnode>
       </node>
       <node id="55">
@@ -706,7 +702,7 @@
       <node id="63">
         <label>WalletCore/PrivateKey.h</label>
       </node>
-      <node id="73">
+      <node id="72">
         <label>account/proto/SGAccountComm.pb.h</label>
       </node>
       <node id="36">
@@ -715,16 +711,16 @@
       <node id="3">
         <label>array</label>
       </node>
-      <node id="69">
+      <node id="68">
         <label>atomic</label>
       </node>
-      <node id="75">
+      <node id="74">
         <label>boost/asio/io_context.hpp</label>
       </node>
-      <node id="92">
+      <node id="91">
         <label>boost/asio/steady_timer.hpp</label>
       </node>
-      <node id="85">
+      <node id="84">
         <label>boost/container_hash/hash.hpp</label>
       </node>
       <node id="48">
@@ -736,7 +732,7 @@
       <node id="14">
         <label>boost/multiprecision/cpp_int.hpp</label>
       </node>
-      <node id="86">
+      <node id="85">
         <label>boost/operators.hpp</label>
       </node>
       <node id="61">
@@ -748,14 +744,11 @@
       <node id="9">
         <label>condition_variable</label>
       </node>
-      <node id="88">
+      <node id="87">
         <label>crdt/proto/delta.pb.h</label>
       </node>
       <node id="37">
         <label>cstdint</label>
-      </node>
-      <node id="66">
-        <label>cstdlib</label>
       </node>
       <node id="39">
         <label>cstring</label>
@@ -766,7 +759,7 @@
       <node id="11">
         <label>functional</label>
       </node>
-      <node id="67">
+      <node id="66">
         <label>future</label>
       </node>
       <node id="58">
@@ -775,55 +768,55 @@
       <node id="40">
         <label>iomanip</label>
       </node>
-      <node id="76">
+      <node id="75">
         <label>ipfs_lite/ipfs/graphsync/impl/graphsync_impl.hpp</label>
       </node>
-      <node id="77">
+      <node id="76">
         <label>ipfs_lite/ipfs/graphsync/impl/local_requests.hpp</label>
       </node>
-      <node id="122">
+      <node id="121">
         <label>ipfs_lite/ipfs/graphsync/impl/merkledag_bridge_impl.hpp</label>
       </node>
-      <node id="123">
+      <node id="122">
         <label>ipfs_lite/ipfs/merkledag/impl/merkledag_service_impl.hpp</label>
       </node>
-      <node id="115">
+      <node id="114">
         <label>ipfs_lite/ipfs/merkledag/merkledag_service.hpp</label>
       </node>
-      <node id="93">
+      <node id="92">
         <label>ipfs_lite/ipld/ipld_node.hpp</label>
       </node>
       <node id="64">
         <label>ipfs_pubsub/gossip_pubsub.hpp</label>
       </node>
-      <node id="78">
+      <node id="77">
         <label>ipfs_pubsub/gossip_pubsub_topic.hpp</label>
       </node>
-      <node id="124">
+      <node id="123">
         <label>libp2p/host/host.hpp</label>
       </node>
       <node id="44">
         <label>libp2p/outcome/outcome.hpp</label>
       </node>
-      <node id="112">
+      <node id="111">
         <label>libp2p/peer/peer_info.hpp</label>
       </node>
-      <node id="79">
+      <node id="78">
         <label>libp2p/protocol/autonat/autonat.hpp</label>
       </node>
-      <node id="80">
+      <node id="79">
         <label>libp2p/protocol/holepunch/holepunch_client.hpp</label>
       </node>
-      <node id="81">
+      <node id="80">
         <label>libp2p/protocol/holepunch/holepunch_server.hpp</label>
       </node>
-      <node id="82">
+      <node id="81">
         <label>libp2p/protocol/identify/identify.hpp</label>
       </node>
       <node id="49">
         <label>limits</label>
       </node>
-      <node id="91">
+      <node id="90">
         <label>map</label>
       </node>
       <node id="4">
@@ -877,31 +870,31 @@
       <node id="12">
         <label>optional</label>
       </node>
-      <node id="89">
+      <node id="88">
         <label>primitives/cid/cid.hpp</label>
       </node>
-      <node id="68">
+      <node id="67">
         <label>queue</label>
       </node>
       <node id="54">
         <label>random</label>
       </node>
-      <node id="118">
+      <node id="117">
         <label>regex</label>
       </node>
-      <node id="97">
+      <node id="96">
         <label>rocksdb/db.h</label>
       </node>
-      <node id="99">
+      <node id="98">
         <label>rocksdb/options.h</label>
       </node>
-      <node id="96">
+      <node id="95">
         <label>rocksdb/rocksdb_namespace.h</label>
       </node>
-      <node id="98">
+      <node id="97">
         <label>rocksdb/slice.h</label>
       </node>
-      <node id="100">
+      <node id="99">
         <label>rocksdb/write_batch.h</label>
       </node>
       <node id="13">
@@ -910,10 +903,10 @@
       <node id="7">
         <label>shared_mutex</label>
       </node>
-      <node id="71">
+      <node id="70">
         <label>spdlog/fmt/ostr.h</label>
       </node>
-      <node id="72">
+      <node id="71">
         <label>spdlog/spdlog.h</label>
       </node>
       <node id="41">
@@ -925,7 +918,7 @@
       <node id="57">
         <label>string_view</label>
       </node>
-      <node id="113">
+      <node id="112">
         <label>tuple</label>
       </node>
       <node id="19">
@@ -1741,6 +1734,6 @@
 <codeline lineno="792"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="793"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp"/>
+    <location file="src/account/GeniusAccount.cpp"/>
   </compounddef>
 </doxygen>

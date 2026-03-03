@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="21" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="21" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1a2aa907ce0c3c48b2e464b838ef38fc7b" prot="private" static="no">
         <templateparamlist>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="24" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1a7a0afeb911541d877638a5b8705f8cbb" prot="private" static="no">
         <type>boost::beast::http::string_body</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="26" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1adb770088731beefcb38650223714484e" prot="private" static="no">
         <templateparamlist>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="29" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="29" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1ae9ff1fd110fcb9cd5d0da5cd948e6f7a" prot="private" static="no">
         <type>boost::beast::http::field</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="31" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="31" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1a60c194d11c373c1a4dc76558a10f9314" prot="private" static="no">
         <type>boost::beast::http::error</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="33" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="33" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="33" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="de/d31/classsgns_1_1api_1_1_http_session_1af652770da103c839cac6c7ba5606ab02" prot="private" static="no">
         <type><ref refid="de/d31/classsgns_1_1api_1_1_http_session_1adb770088731beefcb38650223714484e" kindref="member">RequestParser</ref>&lt; <ref refid="de/d31/classsgns_1_1api_1_1_http_session_1a7a0afeb911541d877638a5b8705f8cbb" kindref="member">StringBody</ref> &gt;</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="150" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="150" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="150" column="5" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="150" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="138" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="138" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="138" column="48" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="138" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="141" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="141" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="141" column="25" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d31/classsgns_1_1api_1_1_http_session_1aec13736742fbcb010f7e457ee3740b08" prot="private" static="no" mutable="no">
         <type><ref refid="d9/ddf/structsgns_1_1api_1_1_http_session_1_1_configuration" kindref="compound">Configuration</ref></type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="143" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="143" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="143" column="19" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d31/classsgns_1_1api_1_1_http_session_1a8d8fbddfb3e5b5abe5ea160d948cb2b6" prot="private" static="no" mutable="no">
         <type>boost::beast::tcp_stream</type>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="144" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="144" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="144" column="30" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d31/classsgns_1_1api_1_1_http_session_1a1dcc27f8331a951131c6d75b7f167d63" prot="private" static="no" mutable="no">
         <type>boost::beast::flat_buffer</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="145" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="145" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="145" column="31" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d31/classsgns_1_1api_1_1_http_session_1a2e62f795014de2f646a5ade12753f05f" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="de/d31/classsgns_1_1api_1_1_http_session_1af652770da103c839cac6c7ba5606ab02" kindref="member">Parser</ref> &gt;</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="152" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="152" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="152" column="21" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d31/classsgns_1_1api_1_1_http_session_1a2849f4c59aa3a5d97cae1a34991214f6" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="153" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="153" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="153" column="18" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="153" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -244,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="44" column="5"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="44" column="5"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1acb63711c01fb7d42bf39fdb26e7d88b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="51" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="9" bodyend="12"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="51" column="5" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="9" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a393470096225d90e083ae5923ac9beb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="db/d02/classsgns_1_1api_1_1_session_1a283ab2019b76debbb9301e27b4a64d53" kindref="member">Socket</ref> &amp;</type>
@@ -300,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="53" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="53" bodyend="55"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="53" column="12" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="53" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1aed2220fb92785c7bbc22dbe7079cf9d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="60" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="14" bodyend="16"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="60" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="14" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a1985cae9f5296bbe722a9fc5fcaf3b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -346,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="66" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="77" bodyend="92"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="66" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="77" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a210901c3d1d584eb0e059eb1f0a4a976" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="db/d02/classsgns_1_1api_1_1_session_1aa68e294d772e90f0c69e8b8cd1d79d64" kindref="member">SessionId</ref></type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="72" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="72" bodyend="74"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="72" column="15" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="72" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1abb1bcf74f369fce6b7832118fcce3dc7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="df/d66/namespacesgns_1_1api_1a581f7e82b9cfa3fb5262a71984f54a1f" kindref="member">SessionType</ref></type>
@@ -384,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="80" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="80" bodyend="82"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="80" column="17" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="80" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1aba0404395beef8b134e64553095a8f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" line="37" column="8" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="37" bodyend="45"/>
+        <location file="src/api/transport/impl/http/http_session.cpp" line="37" column="8" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="37" bodyend="45"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -424,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="88" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="18" bodyend="22"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="88" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="18" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1ae542bf5f6212cfe49b702ccc8c52d921" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -467,7 +467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="96" column="10"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="96" column="10"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a1822a27ceb629ea5b0195cae4f6aa656" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -482,7 +482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="101" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="47" bodyend="61"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="101" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="47" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a2e31f8394a2d75f08125299b4ef0e90a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -525,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="109" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="64" bodyend="75"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="109" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="64" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a8da8a5557b22eaceba1c2ecc43579cf7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="114" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="94" bodyend="104"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="114" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="94" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1ab0392341545648b4a6a3fd33c871d3f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -574,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="119" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="106" bodyend="120"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="119" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="106" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="de/d31/classsgns_1_1api_1_1_http_session_1a9d0eba73a3e695c5da5d64c48c3054d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -615,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="136" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="122" bodyend="125"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="136" column="10" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="122" bodyend="125"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -672,7 +672,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="129" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp" bodystart="24" bodyend="34"/>
+        <location file="src/api/transport/impl/http/http_session.hpp" line="129" column="17" bodyfile="src/api/transport/impl/http/http_session.cpp" bodystart="24" bodyend="34"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -754,7 +754,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" line="18" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp" bodystart="19" bodyend="154"/>
+    <location file="src/api/transport/impl/http/http_session.hpp" line="18" column="3" bodyfile="src/api/transport/impl/http/http_session.hpp" bodystart="19" bodyend="154"/>
     <listofallmembers>
       <member refid="de/d31/classsgns_1_1api_1_1_http_session_1a1822a27ceb629ea5b0195cae4f6aa656" prot="private" virt="non-virtual"><scope>sgns::api::HttpSession</scope><name>asyncRead</name></member>
       <member refid="de/d31/classsgns_1_1api_1_1_http_session_1a2e31f8394a2d75f08125299b4ef0e90a" prot="private" virt="non-virtual"><scope>sgns::api::HttpSession</scope><name>asyncWrite</name></member>

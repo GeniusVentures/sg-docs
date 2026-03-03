@@ -11,17 +11,17 @@
     <includes refid="d4/d26/src_2primitives_2common_8hpp" local="yes">primitives/common.hpp</includes>
     <includes refid="d6/ddd/justification_8hpp" local="yes">primitives/justification.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
-    <includedby refid="db/db0/_authority_manager_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityManagerFactory.hpp</includedby>
-    <includedby refid="d4/d12/_authority_update_observer_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityUpdateObserverFactory.hpp</includedby>
-    <includedby refid="d3/db2/_block_executor_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockExecutorFactory.hpp</includedby>
-    <includedby refid="d2/d92/_block_validator_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp</includedby>
-    <includedby refid="d4/d85/_chain_api_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ChainApiFactory.hpp</includedby>
-    <includedby refid="d8/db8/_environment_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</includedby>
-    <includedby refid="dc/d0c/_production_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionFactory.hpp</includedby>
-    <includedby refid="d0/d1c/_production_synchronizer_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionSynchronizerFactory.hpp</includedby>
-    <includedby refid="d6/d59/_state_api_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/StateApiFactory.hpp</includedby>
-    <includedby refid="df/d76/_system_api_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp</includedby>
-    <includedby refid="d7/d87/block__tree__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</includedby>
+    <includedby refid="db/db0/_authority_manager_factory_8hpp" local="yes">app/integration/AuthorityManagerFactory.hpp</includedby>
+    <includedby refid="d4/d12/_authority_update_observer_factory_8hpp" local="yes">app/integration/AuthorityUpdateObserverFactory.hpp</includedby>
+    <includedby refid="d3/db2/_block_executor_factory_8hpp" local="yes">app/integration/BlockExecutorFactory.hpp</includedby>
+    <includedby refid="d2/d92/_block_validator_factory_8hpp" local="yes">app/integration/BlockValidatorFactory.hpp</includedby>
+    <includedby refid="d4/d85/_chain_api_factory_8hpp" local="yes">app/integration/ChainApiFactory.hpp</includedby>
+    <includedby refid="d8/db8/_environment_factory_8hpp" local="yes">app/integration/EnvironmentFactory.hpp</includedby>
+    <includedby refid="dc/d0c/_production_factory_8hpp" local="yes">app/integration/ProductionFactory.hpp</includedby>
+    <includedby refid="d0/d1c/_production_synchronizer_factory_8hpp" local="yes">app/integration/ProductionSynchronizerFactory.hpp</includedby>
+    <includedby refid="d6/d59/_state_api_factory_8hpp" local="yes">app/integration/StateApiFactory.hpp</includedby>
+    <includedby refid="df/d76/_system_api_factory_8hpp" local="yes">app/integration/SystemApiFactory.hpp</includedby>
+    <includedby refid="d7/d87/block__tree__impl_8hpp" local="yes">src/blockchain/impl/block_tree_impl.hpp</includedby>
     <incdepgraph>
       <node id="11">
         <label>base/blob.hpp</label>
@@ -72,7 +72,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree.hpp</label>
+        <label>src/blockchain/block_tree.hpp</label>
         <link refid="d2/d0a/block__tree_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -260,77 +260,77 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityManagerFactory.hpp</label>
+        <label>app/integration/AuthorityManagerFactory.hpp</label>
         <link refid="db/db0/_authority_manager_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityUpdateObserverFactory.hpp</label>
+        <label>app/integration/AuthorityUpdateObserverFactory.hpp</label>
         <link refid="d4/d12/_authority_update_observer_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockExecutorFactory.hpp</label>
+        <label>app/integration/BlockExecutorFactory.hpp</label>
         <link refid="d3/db2/_block_executor_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <label>app/integration/BlockTreeFactory.hpp</label>
         <link refid="d1/d14/_block_tree_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp</label>
+        <label>app/integration/BlockValidatorFactory.hpp</label>
         <link refid="d2/d92/_block_validator_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ChainApiFactory.hpp</label>
+        <label>app/integration/ChainApiFactory.hpp</label>
         <link refid="d4/d85/_chain_api_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</label>
+        <label>app/integration/EnvironmentFactory.hpp</label>
         <link refid="d8/db8/_environment_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionFactory.hpp</label>
+        <label>app/integration/ProductionFactory.hpp</label>
         <link refid="dc/d0c/_production_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionSynchronizerFactory.hpp</label>
+        <label>app/integration/ProductionSynchronizerFactory.hpp</label>
         <link refid="d0/d1c/_production_synchronizer_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/StateApiFactory.hpp</label>
+        <label>app/integration/StateApiFactory.hpp</label>
         <link refid="d6/d59/_state_api_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp</label>
+        <label>app/integration/SystemApiFactory.hpp</label>
         <link refid="df/d76/_system_api_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree.hpp</label>
+        <label>src/blockchain/block_tree.hpp</label>
         <link refid="d2/d0a/block__tree_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -356,11 +356,11 @@
         </childnode>
       </node>
       <node id="15">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
+        <label>src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</label>
+        <label>src/blockchain/impl/block_tree_impl.hpp</label>
         <link refid="d7/d87/block__tree__impl_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -451,6 +451,6 @@
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_BLOCK_TREE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree.hpp"/>
+    <location file="src/blockchain/block_tree.hpp"/>
   </compounddef>
 </doxygen>

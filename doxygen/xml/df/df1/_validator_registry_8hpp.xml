@@ -19,9 +19,9 @@
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="d0/d0e/globaldb_8hpp" local="yes">crdt/globaldb/globaldb.hpp</includes>
     <includes local="yes">primitives/cid/cid.hpp</includes>
-    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</includedby>
-    <includedby refid="df/d00/_validator_registry_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</includedby>
-    <includedby refid="da/d8c/_blockchain_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</includedby>
+    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">src/account/Migration3_5_1To3_6_0.cpp</includedby>
+    <includedby refid="df/d00/_validator_registry_8cpp" local="yes">src/blockchain/ValidatorRegistry.cpp</includedby>
+    <includedby refid="da/d8c/_blockchain_8cpp" local="yes">src/blockchain/impl/Blockchain.cpp</includedby>
     <incdepgraph>
       <node id="11">
         <label>base/buffer.hpp</label>
@@ -48,7 +48,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp</label>
+        <label>src/blockchain/ValidatorRegistry.hpp</label>
         <link refid="df/df1/_validator_registry_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -602,15 +602,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
+        <label>src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp</label>
+        <label>src/blockchain/ValidatorRegistry.hpp</label>
         <link refid="df/df1/_validator_registry_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -620,7 +620,7 @@
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
+        <label>src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
     </invincdepgraph>
@@ -744,13 +744,13 @@
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" kindref="member">InitCallback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>init_callback<sp/>);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::optional&lt;std::vector&lt;crdt::pb::Element&gt;&gt;<sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a2a21c9c6ad154dac933c817fcd15193b" kindref="member">FilterRegistryUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>crdt::pb::Element<sp/>&amp;element<sp/>);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aefd389b1385f04e90af35b920f483ca7" kindref="member">RegistryUpdateReceived</ref>(<sp/><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref><sp/>new_data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;cid<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a15e7f27bad971a98917861da7d0e1df3" kindref="member">RegistryUpdateReceived</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref><sp/>&amp;new_data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;cid<sp/>);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outcome::result&lt;std::vector&lt;uint8_t&gt;&gt;<sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad569a5eb3b3cdf2cab604a9cf82ac387" kindref="member">ComputeUpdateSigningBytes</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref><sp/>&amp;update<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a701a0469bc05b3f070bce256b34ce5cf" kindref="member">VerifyUpdate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref><sp/>&amp;update,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref><sp/>*current_registry<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab1f807a82389de5f5e2c83d578292c55" kindref="member">ValidatorEntry</ref><sp/>*<ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0de727b99aaf0e06f9040625fec5702" kindref="member">FindValidator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref><sp/>&amp;registry,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;validator_id<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aed2e7a4f18eb200660badc156ec93a2a" kindref="member">InitializeCache</ref>();</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad5232d6a8ccb6cf61ad3a6d0913e4054" kindref="member">NotifyInitialized</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success<sp/>);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9474ee2b84233b21502145f62b412fa3" kindref="member">PersistLocalState</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;cid<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a715f878b26779c5155c3bb8ffa66b0c0" kindref="member">NotifyInitialized</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a06dbf5010dc0cda9b36c7db3d12738b3" kindref="member">PersistLocalState</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;cid<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a5b154349dac731c824703580115ac5f3" kindref="member">RequestHeadCids</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::set&lt;CID&gt;<sp/>&amp;cids<sp/>);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab73edbca07efe223d512b3b3d6cfec6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;crdt::GlobalDB&gt;<sp/><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab73edbca07efe223d512b3b3d6cfec6f" kindref="member">db_</ref>;</highlight></codeline>
@@ -772,6 +772,6 @@
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp"/>
+    <location file="src/blockchain/ValidatorRegistry.hpp"/>
   </compounddef>
 </doxygen>

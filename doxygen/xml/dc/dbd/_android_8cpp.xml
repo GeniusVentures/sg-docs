@@ -21,7 +21,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp</label>
+        <label>src/local_secure_storage/impl/Android.cpp</label>
         <link refid="dc/dbd/_android_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" line="12" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="12" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.cpp" line="12" column="9" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dc/dbd/_android_8cpp_1a5512e59d578a380a441a70256af997d0" prot="public" static="no">
         <name>LOGI</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" line="13" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="13" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.cpp" line="13" column="9" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="dc/dbd/_android_8cpp_1ae02538a80ad5fc009caec73487d11a8d" prot="public" static="no">
         <name>LOGE</name>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" line="14" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="14" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.cpp" line="14" column="9" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="14" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" line="21" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="21" bodyend="36"/>
+        <location file="src/local_secure_storage/impl/Android.cpp" line="21" column="35" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="21" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -367,6 +367,6 @@
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="206"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp"/>
+    <location file="src/local_secure_storage/impl/Android.cpp"/>
   </compounddef>
 </doxygen>

@@ -8,14 +8,14 @@
     <includes local="no">nil/crypto3/hash/sha2.hpp</includes>
     <includes local="no">nil/crypto3/pkpad/emsa/emsa1.hpp</includes>
     <includes local="no">nil/crypto3/random/rfc6979.hpp</includes>
-    <includedby refid="da/d4f/_bitcoin_key_pair_params_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyPairParams.hpp</includedby>
-    <includedby refid="d4/df8/_e_c_d_h_encryption_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp</includedby>
-    <includedby refid="d7/d68/_e_c_el_gamal_key_generator_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp</includedby>
-    <includedby refid="dc/d35/_ethereum_key_pair_params_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp</includedby>
-    <includedby refid="d1/dec/_k_d_f_generator_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp</includedby>
+    <includedby refid="da/d4f/_bitcoin_key_pair_params_8hpp" local="yes">ProofSystem/include/ProofSystem/BitcoinKeyPairParams.hpp</includedby>
+    <includedby refid="d4/df8/_e_c_d_h_encryption_8hpp" local="yes">ProofSystem/include/ProofSystem/ECDHEncryption.hpp</includedby>
+    <includedby refid="d7/d68/_e_c_el_gamal_key_generator_8hpp" local="yes">ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp</includedby>
+    <includedby refid="dc/d35/_ethereum_key_pair_params_8hpp" local="yes">ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp</includedby>
+    <includedby refid="d1/dec/_k_d_f_generator_8hpp" local="yes">ProofSystem/include/ProofSystem/KDFGenerator.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp</label>
+        <label>ProofSystem/include/ProofSystem/ECDSATypes.hpp</label>
         <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -51,25 +51,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
         <link refid="dd/dd3/_bitcoin_key_generator_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyPairParams.hpp</label>
+        <label>ProofSystem/include/ProofSystem/BitcoinKeyPairParams.hpp</label>
         <link refid="da/d4f/_bitcoin_key_pair_params_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp</label>
+        <label>ProofSystem/include/ProofSystem/ECDHEncryption.hpp</label>
         <link refid="d4/df8/_e_c_d_h_encryption_8hpp"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp</label>
+        <label>ProofSystem/include/ProofSystem/ECDSATypes.hpp</label>
         <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -83,11 +83,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp</label>
         <link refid="d7/d68/_e_c_el_gamal_key_generator_8hpp"/>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp</label>
         <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -95,7 +95,7 @@
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp</label>
+        <label>ProofSystem/include/ProofSystem/EthereumKeyPairParams.hpp</label>
         <link refid="dc/d35/_ethereum_key_pair_params_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -103,23 +103,23 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/KDFGenerator.hpp</label>
         <link refid="d1/dec/_k_d_f_generator_8hpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp</label>
+        <label>ProofSystem/src/BitcoinKeyGenerator.cpp</label>
         <link refid="d1/d46/_bitcoin_key_generator_8cpp"/>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp</label>
+        <label>ProofSystem/src/EthereumKeyGenerator.cpp</label>
         <link refid="da/d43/_ethereum_key_generator_8cpp"/>
       </node>
       <node id="17">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.cpp</label>
+        <label>src/account/EscrowReleaseTransaction.cpp</label>
         <link refid="d5/dab/_escrow_release_transaction_8cpp"/>
       </node>
       <node id="16">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.hpp</label>
+        <label>src/account/EscrowReleaseTransaction.hpp</label>
         <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
         <childnode refid="17" relation="include">
         </childnode>
@@ -133,11 +133,11 @@
         </childnode>
       </node>
       <node id="23">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</label>
+        <label>src/account/EscrowTransaction.cpp</label>
         <link refid="d7/d12/_escrow_transaction_8cpp"/>
       </node>
       <node id="22">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
+        <label>src/account/EscrowTransaction.hpp</label>
         <link refid="df/df3/_escrow_transaction_8hpp"/>
         <childnode refid="23" relation="include">
         </childnode>
@@ -145,11 +145,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</label>
+        <label>src/account/GeniusAccount.cpp</label>
         <link refid="dd/dd9/_genius_account_8cpp"/>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</label>
+        <label>src/account/GeniusAccount.hpp</label>
         <link refid="d0/dad/_genius_account_8hpp"/>
         <childnode refid="12" relation="include">
         </childnode>
@@ -167,21 +167,21 @@
         </childnode>
       </node>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="24">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp</label>
+        <label>src/account/IGeniusTransactions.cpp</label>
         <link refid="da/dcc/_i_genius_transactions_8cpp"/>
       </node>
       <node id="15">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp</label>
+        <label>src/account/IGeniusTransactions.hpp</label>
         <link refid="db/d3c/_i_genius_transactions_8hpp"/>
         <childnode refid="16" relation="include">
         </childnode>
@@ -199,15 +199,15 @@
         </childnode>
       </node>
       <node id="18">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="19">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="34">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
@@ -215,23 +215,23 @@
         </childnode>
       </node>
       <node id="30">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
       <node id="20">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="35">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
+        <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
       <node id="26">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp</label>
+        <label>src/account/MintTransaction.cpp</label>
         <link refid="d8/d70/_mint_transaction_8cpp"/>
       </node>
       <node id="25">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.hpp</label>
+        <label>src/account/MintTransaction.hpp</label>
         <link refid="d2/d0f/_mint_transaction_8hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
@@ -241,21 +241,21 @@
         </childnode>
       </node>
       <node id="28">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp</label>
+        <label>src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
       </node>
       <node id="27">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.hpp</label>
+        <label>src/account/ProcessingTransaction.hpp</label>
         <link refid="d4/dec/_processing_transaction_8hpp"/>
         <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="21">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="29">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
+        <label>src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
         <childnode refid="13" relation="include">
         </childnode>
@@ -271,11 +271,11 @@
         </childnode>
       </node>
       <node id="32">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.cpp</label>
+        <label>src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
       <node id="31">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.hpp</label>
+        <label>src/account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
         <childnode refid="18" relation="include">
         </childnode>
@@ -289,7 +289,7 @@
         </childnode>
       </node>
       <node id="33">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp</label>
+        <label>src/blockchain/Blockchain.hpp</label>
         <link refid="dc/d59/_blockchain_8hpp"/>
         <childnode refid="13" relation="include">
         </childnode>
@@ -301,11 +301,11 @@
         </childnode>
       </node>
       <node id="37">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
+        <label>src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
       <node id="36">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
+        <label>src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
     </invincdepgraph>
@@ -324,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="22" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="22" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" prot="public" static="no">
         <type>typename CurveType::base_field_type</type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="23" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="23" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" prot="public" static="no">
         <type>typename CurveType::scalar_field_type</type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="24" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="24" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" prot="public" static="no">
         <type>typename scalar_field_type::value_type</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="25" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="25" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" prot="public" static="no">
         <type>random::algebraic_random_device&lt; scalar_field_type &gt;</type>
@@ -384,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="26" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="26" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" prot="public" static="no">
         <type>hashes::sha2&lt; 256 &gt;</type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="27" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="27" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" prot="public" static="no">
         <type>random::rfc6979&lt; scalar_field_value_type, hash_type &gt;</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="28" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="28" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" prot="public" static="no">
         <type>pubkey::padding::emsa1&lt; scalar_field_value_type, hash_type &gt;</type>
@@ -429,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="29" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="29" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" prot="public" static="no">
         <type>pubkey::ecdsa&lt; CurveType, padding_policy, generator_type &gt;</type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="30" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="30" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" prot="public" static="no">
         <type>typename pubkey::public_key&lt; policy_type &gt;::signature_type</type>
@@ -458,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="31" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="31" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -500,6 +500,6 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//_ECDSA_TYPES_HPP_</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp"/>
+    <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp"/>
   </compounddef>
 </doxygen>

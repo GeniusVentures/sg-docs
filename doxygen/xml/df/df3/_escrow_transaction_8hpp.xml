@@ -5,8 +5,8 @@
     <includes local="no">string</includes>
     <includes refid="db/d3c/_i_genius_transactions_8hpp" local="yes">account/IGeniusTransactions.hpp</includes>
     <includes refid="d1/dd1/_u_t_x_o_structs_8hpp" local="yes">UTXOStructs.hpp</includes>
-    <includedby refid="d7/d12/_escrow_transaction_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</includedby>
-    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</includedby>
+    <includedby refid="d7/d12/_escrow_transaction_8cpp" local="yes">src/account/EscrowTransaction.cpp</includedby>
+    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
     <incdepgraph>
       <node id="39">
         <label>ProofSystem/ECDSAPublicKey.hpp</label>
@@ -101,7 +101,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
+        <label>src/account/EscrowTransaction.hpp</label>
         <link refid="df/df3/_escrow_transaction_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -374,11 +374,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</label>
+        <label>src/account/EscrowTransaction.cpp</label>
         <link refid="d7/d12/_escrow_transaction_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
+        <label>src/account/EscrowTransaction.hpp</label>
         <link refid="df/df3/_escrow_transaction_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -386,7 +386,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
     </invincdepgraph>
@@ -475,6 +475,6 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp"/>
+    <location file="src/account/EscrowTransaction.hpp"/>
   </compounddef>
 </doxygen>

@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="32" bodyend="34"/>
+        <location file="src/base/blob.hpp" line="32" column="5" bodyfile="src/base/blob.hpp" bodystart="32" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1a5467da403e67640ab0af7a59006232f0" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>constexpr</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="40" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="40" bodyend="43"/>
+        <location file="src/base/blob.hpp" line="40" column="24" bodyfile="src/base/blob.hpp" bodystart="40" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1ada994bd0f5bb69baef98d7464f17db84" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::string</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="55" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="55" bodyend="58"/>
+        <location file="src/base/blob.hpp" line="55" column="18" bodyfile="src/base/blob.hpp" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1aade95964a4b787ba706da39910584676" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::string</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="63" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="63" bodyend="75"/>
+        <location file="src/base/blob.hpp" line="63" column="18" bodyfile="src/base/blob.hpp" bodystart="63" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1a395067a08c7ce0f0a4fb47c9915f889a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>std::string</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="80" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="80" bodyend="84"/>
+        <location file="src/base/blob.hpp" line="80" column="18" bodyfile="src/base/blob.hpp" bodystart="80" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1aa69d2e39d2ff9a46ff5876d7da12cde0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="159" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="159" bodyend="162"/>
+        <location file="src/base/blob.hpp" line="159" column="18" bodyfile="src/base/blob.hpp" bodystart="159" bodyend="162"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="48" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="48" bodyend="50"/>
+        <location file="src/base/blob.hpp" line="48" column="29" bodyfile="src/base/blob.hpp" bodystart="48" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1a643cf089a58a27c7e61dc3f326b51679" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" kindref="member">Blob</ref>&lt; size_ &gt; &gt;</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="91" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="91" bodyend="100"/>
+        <location file="src/base/blob.hpp" line="91" column="28" bodyfile="src/base/blob.hpp" bodystart="91" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1ae3e36a9739fd570dc27f57d468dbd779" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" kindref="member">Blob</ref>&lt; size_ &gt; &gt;</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="103" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="103" bodyend="118"/>
+        <location file="src/base/blob.hpp" line="103" column="28" bodyfile="src/base/blob.hpp" bodystart="103" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1ad940d13e17cbe0c3f423696db93ca2e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" kindref="member">Blob</ref>&lt; size_ &gt; &gt;</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="126" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="126" bodyend="129"/>
+        <location file="src/base/blob.hpp" line="126" column="28" bodyfile="src/base/blob.hpp" bodystart="126" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1a06a40939d60faf6d1623ef9731d8e1e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" kindref="member">Blob</ref>&lt; size_ &gt; &gt;</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="137" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="137" bodyend="141"/>
+        <location file="src/base/blob.hpp" line="137" column="28" bodyfile="src/base/blob.hpp" bodystart="137" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1base_1_1_blob_1a428f9ec629f74701ccd21d6ceb642d91" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" kindref="member">Blob</ref>&lt; size_ &gt; &gt;</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="148" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="148" bodyend="157"/>
+        <location file="src/base/blob.hpp" line="148" column="28" bodyfile="src/base/blob.hpp" bodystart="148" bodyend="157"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -439,7 +439,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="27" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="27" bodyend="163"/>
+    <location file="src/base/blob.hpp" line="27" column="3" bodyfile="src/base/blob.hpp" bodystart="27" bodyend="163"/>
     <listofallmembers>
       <member refid="d4/dc6/classsgns_1_1base_1_1_blob_1a0cd4b3b11db423242759121e42027ffc" prot="public" virt="non-virtual"><scope>sgns::base::Blob</scope><name>Blob</name></member>
       <member refid="d4/dc6/classsgns_1_1base_1_1_blob_1a5467da403e67640ab0af7a59006232f0" prot="public" virt="non-virtual"><scope>sgns::base::Blob</scope><name>Blob</name></member>

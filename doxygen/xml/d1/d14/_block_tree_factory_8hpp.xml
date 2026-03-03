@@ -9,10 +9,10 @@
     <includes local="yes">network/extrinsic_observer.hpp</includes>
     <includes refid="da/d6b/hasher_8hpp" local="yes">crypto/hasher.hpp</includes>
     <includes refid="d6/d8d/outcome__throw_8hpp" local="yes">base/outcome_throw.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <label>app/integration/BlockTreeFactory.hpp</label>
         <link refid="d1/d14/_block_tree_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -405,13 +405,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <label>app/integration/BlockTreeFactory.hpp</label>
         <link refid="d1/d14/_block_tree_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -501,6 +501,6 @@
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp"/>
+    <location file="app/integration/BlockTreeFactory.hpp"/>
   </compounddef>
 </doxygen>

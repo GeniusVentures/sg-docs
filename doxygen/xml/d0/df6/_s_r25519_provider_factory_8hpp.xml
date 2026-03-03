@@ -4,10 +4,10 @@
     <compoundname>SR25519ProviderFactory.hpp</compoundname>
     <includes refid="d7/d0b/sr25519__provider__impl_8hpp" local="yes">crypto/sr25519/sr25519_provider_impl.hpp</includes>
     <includes refid="d5/dca/boost__generator_8hpp" local="yes">crypto/random_generator/boost_generator.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp</label>
+        <label>app/integration/SR25519ProviderFactory.hpp</label>
         <link refid="d0/df6/_s_r25519_provider_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -129,13 +129,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp</label>
+        <label>app/integration/SR25519ProviderFactory.hpp</label>
         <link refid="d0/df6/_s_r25519_provider_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -167,6 +167,6 @@
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp"/>
+    <location file="app/integration/SR25519ProviderFactory.hpp"/>
   </compounddef>
 </doxygen>

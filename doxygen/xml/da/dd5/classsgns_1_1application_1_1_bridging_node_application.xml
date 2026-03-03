@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="26" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="26" column="25" bodyfile="src/application/impl/bridging_node_application.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1acfbfb4084c4ac2780cca14e314cba804" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; WsContext &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="27" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" bodystart="27" bodyend="-1"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="27" column="25" bodyfile="src/application/impl/bridging_node_application.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a2da039c265e6620fd0f1d4374b91d898" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; WsThreadPool &gt;</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="28" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" bodystart="28" bodyend="-1"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="28" column="25" bodyfile="src/application/impl/bridging_node_application.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1aa50f67f7ee586ec611e7d41e3e06e789" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; RpcService &gt;</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="29" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" bodystart="29" bodyend="-1"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="29" column="25" bodyfile="src/application/impl/bridging_node_application.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="12" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="20" bodyend="35"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="12" column="9" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="20" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1ab0849b1c3536f861b7dcb2ed9291fdca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="15" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="37" bodyend="72"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="15" column="14" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="37" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a417f9b623dc5ebcf104f9d4d0a32a8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="17" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="74" bodyend="84"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="17" column="14" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="74" bodyend="84"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="20" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="86" bodyend="96"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="20" column="14" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="86" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a808555ac994d602fb30ad65709253560" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="22" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="98" bodyend="108"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="22" column="14" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="98" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a77bee7e80e92d15c1a5bcf4b1b39e329" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="24" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.cpp" bodystart="110" bodyend="113"/>
+        <location file="src/application/impl/bridging_node_application.hpp" line="24" column="14" bodyfile="src/application/impl/bridging_node_application.cpp" bodystart="110" bodyend="113"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,7 +243,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" line="10" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp" bodystart="10" bodyend="30"/>
+    <location file="src/application/impl/bridging_node_application.hpp" line="10" column="5" bodyfile="src/application/impl/bridging_node_application.hpp" bodystart="10" bodyend="30"/>
     <listofallmembers>
       <member refid="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a2f15bed2868f186ecf3c0ca25122ae55" prot="public" virt="non-virtual"><scope>sgns::application::BridgingNodeApplication</scope><name>BridgingNodeApplication</name></member>
       <member refid="da/dd5/classsgns_1_1application_1_1_bridging_node_application_1a68a56980f0fa27dc566006bcfdafe266" prot="private" virt="non-virtual"><scope>sgns::application::BridgingNodeApplication</scope><name>evmWatcher</name></member>

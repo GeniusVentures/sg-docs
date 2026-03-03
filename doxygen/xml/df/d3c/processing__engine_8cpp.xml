@@ -32,7 +32,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_engine.cpp</label>
+        <label>src/processing/processing_engine.cpp</label>
         <link refid="df/d3c/processing__engine_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -264,6 +264,6 @@
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
 <codeline lineno="162"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_engine.cpp"/>
+    <location file="src/processing/processing_engine.cpp"/>
   </compounddef>
 </doxygen>

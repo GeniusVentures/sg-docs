@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="156" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="156" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="156" column="23" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a8ff3900c19da8d1104996bb55beee80b" prot="public" static="no">
         <type>CurveType</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="158" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="158" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="158" column="41" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a97594b171aec36493deb23a5d0e33ac6" prot="public" static="no">
         <type>Padding</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="159" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="159" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="159" column="41" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a3f05d19698f138a0cb7f0534d5211c55" prot="public" static="no">
         <type>GeneratorType</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="160" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="160" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="160" column="41" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a9d89b519965720efca0e13192c1bd8be" prot="public" static="no">
         <type>DistributionType</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="161" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="161" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="161" column="41" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1aa8c5a61fcc3a868883bf0ee917a87c97" prot="public" static="no">
         <type>Padding::hash_type</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="162" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="162" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="162" column="41" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a7b985e51be91cfc7b351ec12c0ed130d" prot="public" static="no">
         <type>nil::crypto3::pubkey::padding::encoding_accumulator_set&lt; <ref refid="d9/dc0/struct_private_key_1a97594b171aec36493deb23a5d0e33ac6" kindref="member">padding_policy</ref> &gt;</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="164" column="69" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="164" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="164" column="69" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1afd39cc3b84bd0b38ba66e6c7f3e3ac98" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" kindref="member">base_type::scalar_field_value_type</ref></type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="166" column="57" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="166" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="166" column="57" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1ad9b6b21a6f37d6e6fc37193bd85dbb77" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1af089e3006308e553d06fbd28dd7f7bbc" kindref="member">base_type::g1_value_type</ref></type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="167" column="57" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="167" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="167" column="57" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1abe99aaf8e83cf3aa63aa1a491a13f34c" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1a4535182582bafa1c99dfbb58259e1b0d" kindref="member">base_type::base_integral_type</ref></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="168" column="57" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="168" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="168" column="57" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1af2b96a2b68ca1741b91f0fe8d579f872" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1a708856c77f4f28df9f1bf711286aafba" kindref="member">base_type::scalar_modular_type</ref></type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="169" column="57" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="169" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="169" column="57" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a98eba0629f9cc4e1a4ce9cf8f8f31ff4" prot="public" static="no">
         <type><ref refid="d9/dc0/struct_private_key_1afd39cc3b84bd0b38ba66e6c7f3e3ac98" kindref="member">scalar_field_value_type</ref></type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="171" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="171" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="171" column="49" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a412056b93b20734e7e9465035fb18681" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" kindref="member">base_type::public_key_type</ref></type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="172" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="172" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="172" column="49" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dc0/struct_private_key_1a03effd28dc36379be23e02a70059d6e8" prot="public" static="no">
         <type><ref refid="d5/dd7/struct_public_key_1a81f3d837c964a781ffc46fa84c626341" kindref="member">base_type::signature_type</ref></type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="173" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="173" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="173" column="49" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="173" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="191" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="191" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="191" column="22" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="191" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="175" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="175" bodyend="178"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="175" column="5" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="175" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="d9/dc0/struct_private_key_1a2932c06f8b90dbf4df29640dc8bd746f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="d9/dc0/struct_private_key_1a98eba0629f9cc4e1a4ce9cf8f8f31ff4" kindref="member">private_key_type</ref></type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="185" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="185" bodyend="188"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="185" column="28" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="185" bodyend="188"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="180" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="180" bodyend="183"/>
+        <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="180" column="35" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="180" bodyend="183"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -336,7 +336,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="154" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="155" bodyend="192"/>
+    <location file="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="154" column="1" bodyfile="ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="155" bodyend="192"/>
     <listofallmembers>
       <member refid="d9/dc0/struct_private_key_1abe99aaf8e83cf3aa63aa1a491a13f34c" prot="public" virt="non-virtual"><scope>PrivateKey</scope><name>base_integral_type</name></member>
       <member refid="d9/dc0/struct_private_key_1adcd49bf6261d50ee2bf1b090105fff3d" prot="public" virt="non-virtual"><scope>PrivateKey</scope><name>base_type</name></member>

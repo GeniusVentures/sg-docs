@@ -8,11 +8,11 @@
     <includes local="no">atomic</includes>
     <includes local="no">chrono</includes>
     <includes local="no">cstdint</includes>
-    <includedby refid="dd/daf/logging_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp</includedby>
-    <includedby refid="d5/d60/node__config_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_config.hpp</includedby>
+    <includedby refid="dd/daf/logging_8cpp" local="yes">node/logging.cpp</includedby>
+    <includedby refid="d5/d60/node__config_8hpp" local="yes">node/node_config.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.hpp</label>
+        <label>node/logging.hpp</label>
         <link refid="d0/da9/logging_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -48,25 +48,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp</label>
+        <label>node/cli.cpp</label>
         <link refid="dd/d48/cli_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp</label>
+        <label>node/cli.hpp</label>
         <link refid="d3/db5/cli_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp</label>
+        <label>node/daemonconfig.hpp</label>
         <link refid="da/d4f/daemonconfig_8hpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.cpp</label>
+        <label>node/logging.cpp</label>
         <link refid="dd/daf/logging_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.hpp</label>
+        <label>node/logging.hpp</label>
         <link refid="d0/da9/logging_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -74,11 +74,11 @@
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.cpp</label>
+        <label>node/node.cpp</label>
         <link refid="d7/d70/node_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp</label>
+        <label>node/node.hpp</label>
         <link refid="dc/d78/node_2node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -86,11 +86,11 @@
         </childnode>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_config.cpp</label>
+        <label>node/node_config.cpp</label>
         <link refid="d6/d64/node__config_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_config.hpp</label>
+        <label>node/node_config.hpp</label>
         <link refid="d5/d60/node__config_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.hpp" line="12" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.hpp" bodystart="12" bodyend="-1"/>
+        <location file="node/logging.hpp" line="12" column="9" bodyfile="node/logging.hpp" bodystart="12" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -233,6 +233,6 @@
 <codeline lineno="106"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/logging.hpp"/>
+    <location file="node/logging.hpp"/>
   </compounddef>
 </doxygen>

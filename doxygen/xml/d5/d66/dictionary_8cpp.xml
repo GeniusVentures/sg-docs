@@ -8,7 +8,7 @@
     <includes refid="d1/d00/english_8hpp" local="yes">crypto/bip39/wordlist/english.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp</label>
+        <label>src/crypto/bip39/dictionary.cpp</label>
         <link refid="d5/d66/dictionary_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp" line="30" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp" bodystart="30" bodyend="37"/>
+        <location file="src/crypto/bip39/dictionary.cpp" line="30" column="1" bodyfile="src/crypto/bip39/dictionary.cpp" bodystart="30" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -145,6 +145,6 @@
 <codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>DictionaryError<sp/>error&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp"/>
+    <location file="src/crypto/bip39/dictionary.cpp"/>
   </compounddef>
 </doxygen>

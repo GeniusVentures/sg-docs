@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="22" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="22" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" prot="public" static="no">
         <type>typename CurveType::base_field_type</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="23" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="23" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" prot="public" static="no">
         <type>typename CurveType::scalar_field_type</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="24" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="24" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" prot="public" static="no">
         <type>typename scalar_field_type::value_type</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="25" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="25" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" prot="public" static="no">
         <type>random::algebraic_random_device&lt; <ref refid="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" kindref="member">scalar_field_type</ref> &gt;</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="26" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="26" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" prot="public" static="no">
         <type>hashes::sha2&lt; 256 &gt;</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="27" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="27" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" prot="public" static="no">
         <type>random::rfc6979&lt; <ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">scalar_field_value_type</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kindref="member">hash_type</ref> &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="28" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="28" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" prot="public" static="no">
         <type>pubkey::padding::emsa1&lt; <ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">scalar_field_value_type</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kindref="member">hash_type</ref> &gt;</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="29" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="29" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" prot="public" static="no">
         <type>pubkey::ecdsa&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">CurveType</ref>, <ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">padding_policy</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">generator_type</ref> &gt;</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="30" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="30" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" prot="public" static="no">
         <type>typename pubkey::public_key&lt; <ref refid="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" kindref="member">policy_type</ref> &gt;::signature_type</type>
@@ -150,13 +150,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="31" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="31" column="5" bodyfile="ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="18" column="1"/>
+    <location file="ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="18" column="1"/>
   </compounddef>
 </doxygen>

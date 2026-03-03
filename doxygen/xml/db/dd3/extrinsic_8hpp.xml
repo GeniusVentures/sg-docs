@@ -3,13 +3,13 @@
   <compounddef id="db/dd3/extrinsic_8hpp" kind="file" language="C++">
     <compoundname>extrinsic.hpp</compoundname>
     <includes refid="da/d1d/buffer_8hpp" local="yes">base/buffer.hpp</includes>
-    <includedby refid="d8/dd1/author__api_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author/author_api.hpp</includedby>
-    <includedby refid="d9/db2/block_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp</includedby>
-    <includedby refid="d5/d61/transaction_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction.hpp</includedby>
-    <includedby refid="d7/d89/block__builder_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/block_builder.hpp</includedby>
-    <includedby refid="d9/dcb/tagged__transaction__queue_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/tagged_transaction_queue.hpp</includedby>
-    <includedby refid="d1/dfb/changes__trie_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.hpp</includedby>
-    <includedby refid="d7/d4b/storage__changes__tracker__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp</includedby>
+    <includedby refid="d8/dd1/author__api_8hpp" local="yes">src/api/service/author/author_api.hpp</includedby>
+    <includedby refid="d9/db2/block_8hpp" local="yes">src/primitives/block.hpp</includedby>
+    <includedby refid="d5/d61/transaction_8hpp" local="yes">src/primitives/transaction.hpp</includedby>
+    <includedby refid="d7/d89/block__builder_8hpp" local="yes">src/runtime/block_builder.hpp</includedby>
+    <includedby refid="d9/dcb/tagged__transaction__queue_8hpp" local="yes">src/runtime/tagged_transaction_queue.hpp</includedby>
+    <includedby refid="d1/dfb/changes__trie_8hpp" local="yes">src/storage/changes_trie/impl/changes_trie.hpp</includedby>
+    <includedby refid="d7/d4b/storage__changes__tracker__impl_8hpp" local="yes">src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>base/buffer.hpp</label>
@@ -34,7 +34,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp</label>
+        <label>src/primitives/extrinsic.hpp</label>
         <link refid="db/dd3/extrinsic_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -60,101 +60,101 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityManagerFactory.hpp</label>
+        <label>app/integration/AuthorityManagerFactory.hpp</label>
         <link refid="db/db0/_authority_manager_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="15">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityUpdateObserverFactory.hpp</label>
+        <label>app/integration/AuthorityUpdateObserverFactory.hpp</label>
         <link refid="d4/d12/_authority_update_observer_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="16">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockExecutorFactory.hpp</label>
+        <label>app/integration/BlockExecutorFactory.hpp</label>
         <link refid="d3/db2/_block_executor_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp</label>
+        <label>app/integration/BlockStorageFactory.hpp</label>
         <link refid="dd/d97/_block_storage_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <label>app/integration/BlockTreeFactory.hpp</label>
         <link refid="d1/d14/_block_tree_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="17">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp</label>
+        <label>app/integration/BlockValidatorFactory.hpp</label>
         <link refid="d2/d92/_block_validator_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="18">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ChainApiFactory.hpp</label>
+        <label>app/integration/ChainApiFactory.hpp</label>
         <link refid="d4/d85/_chain_api_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="19">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</label>
+        <label>app/integration/EnvironmentFactory.hpp</label>
         <link refid="d8/db8/_environment_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp</label>
+        <label>app/integration/ExtrinsicObserverFactory.hpp</label>
         <link refid="d3/d92/_extrinsic_observer_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="20">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionFactory.hpp</label>
+        <label>app/integration/ProductionFactory.hpp</label>
         <link refid="dc/d0c/_production_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="21">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionSynchronizerFactory.hpp</label>
+        <label>app/integration/ProductionSynchronizerFactory.hpp</label>
         <link refid="d0/d1c/_production_synchronizer_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="22">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/StateApiFactory.hpp</label>
+        <label>app/integration/StateApiFactory.hpp</label>
         <link refid="d6/d59/_state_api_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="44">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/StorageChangesTrackerFactory.hpp</label>
+        <label>app/integration/StorageChangesTrackerFactory.hpp</label>
         <link refid="d1/d4b/_storage_changes_tracker_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="23">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp</label>
+        <label>app/integration/SystemApiFactory.hpp</label>
         <link refid="df/d76/_system_api_factory_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author/author_api.hpp</label>
+        <label>src/api/service/author/author_api.hpp</label>
         <link refid="d8/dd1/author__api_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_storage.hpp</label>
+        <label>src/blockchain/block_storage.hpp</label>
         <link refid="d4/d5d/block__storage_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -166,7 +166,7 @@
         </childnode>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree.hpp</label>
+        <label>src/blockchain/block_tree.hpp</label>
         <link refid="d2/d0a/block__tree_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -192,11 +192,11 @@
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
+        <label>src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</label>
+        <label>src/blockchain/impl/block_tree_impl.hpp</label>
         <link refid="d7/d87/block__tree__impl_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -204,11 +204,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.cpp</label>
+        <label>src/blockchain/impl/key_value_block_storage.cpp</label>
         <link refid="de/de9/key__value__block__storage_8cpp"/>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.hpp</label>
+        <label>src/blockchain/impl/key_value_block_storage.hpp</label>
         <link refid="d4/d6b/key__value__block__storage_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -216,7 +216,7 @@
         </childnode>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp</label>
+        <label>src/primitives/block.hpp</label>
         <link refid="d9/db2/block_8hpp"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -230,13 +230,13 @@
         </childnode>
       </node>
       <node id="24">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp</label>
+        <label>src/primitives/block_data.hpp</label>
         <link refid="d1/dce/block__data_8hpp"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp</label>
+        <label>src/primitives/extrinsic.hpp</label>
         <link refid="db/dd3/extrinsic_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -254,17 +254,17 @@
         </childnode>
       </node>
       <node id="34">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction.hpp</label>
+        <label>src/primitives/transaction.hpp</label>
         <link refid="d5/d61/transaction_8hpp"/>
         <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="36">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp</label>
+        <label>src/primitives/transaction_validity.cpp</label>
         <link refid="d6/dd7/transaction__validity_8cpp"/>
       </node>
       <node id="35">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.hpp</label>
+        <label>src/primitives/transaction_validity.hpp</label>
         <link refid="d0/d4b/transaction__validity_8hpp"/>
         <childnode refid="36" relation="include">
         </childnode>
@@ -274,31 +274,31 @@
         </childnode>
       </node>
       <node id="27">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/block_builder_impl.cpp</label>
+        <label>src/runtime/binaryen/runtime_api/block_builder_impl.cpp</label>
         <link refid="d7/d6b/block__builder__impl_8cpp"/>
       </node>
       <node id="26">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/block_builder_impl.hpp</label>
+        <label>src/runtime/binaryen/runtime_api/block_builder_impl.hpp</label>
         <link refid="d3/d95/block__builder__impl_8hpp"/>
         <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="30">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.cpp</label>
+        <label>src/runtime/binaryen/runtime_api/core_factory_impl.cpp</label>
         <link refid="de/d5e/core__factory__impl_8cpp"/>
       </node>
       <node id="33">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp</label>
+        <label>src/runtime/binaryen/runtime_api/core_factory_impl.hpp</label>
         <link refid="d7/de4/core__factory__impl_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="31">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp</label>
+        <label>src/runtime/binaryen/runtime_api/core_impl.cpp</label>
         <link refid="dc/d7c/core__impl_8cpp"/>
       </node>
       <node id="29">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp</label>
+        <label>src/runtime/binaryen/runtime_api/core_impl.hpp</label>
         <link refid="d7/dbc/core__impl_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
@@ -306,23 +306,23 @@
         </childnode>
       </node>
       <node id="39">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/tagged_transaction_queue_impl.cpp</label>
+        <label>src/runtime/binaryen/runtime_api/tagged_transaction_queue_impl.cpp</label>
         <link refid="db/d63/tagged__transaction__queue__impl_8cpp"/>
       </node>
       <node id="38">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/tagged_transaction_queue_impl.hpp</label>
+        <label>src/runtime/binaryen/runtime_api/tagged_transaction_queue_impl.hpp</label>
         <link refid="d4/d66/tagged__transaction__queue__impl_8hpp"/>
         <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="25">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/block_builder.hpp</label>
+        <label>src/runtime/block_builder.hpp</label>
         <link refid="d7/d89/block__builder_8hpp"/>
         <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="28">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp</label>
+        <label>src/runtime/core.hpp</label>
         <link refid="da/d47/core_8hpp"/>
         <childnode refid="29" relation="include">
         </childnode>
@@ -330,23 +330,23 @@
         </childnode>
       </node>
       <node id="32">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp</label>
+        <label>src/runtime/core_factory.hpp</label>
         <link refid="da/d13/core__factory_8hpp"/>
         <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="37">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/tagged_transaction_queue.hpp</label>
+        <label>src/runtime/tagged_transaction_queue.hpp</label>
         <link refid="d9/dcb/tagged__transaction__queue_8hpp"/>
         <childnode refid="38" relation="include">
         </childnode>
       </node>
       <node id="41">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.cpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.cpp</label>
         <link refid="d9/d77/changes__trie_8cpp"/>
       </node>
       <node id="40">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/changes_trie.hpp</label>
+        <label>src/storage/changes_trie/impl/changes_trie.hpp</label>
         <link refid="d1/dfb/changes__trie_8hpp"/>
         <childnode refid="41" relation="include">
         </childnode>
@@ -354,11 +354,11 @@
         </childnode>
       </node>
       <node id="42">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</label>
+        <label>src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp</label>
         <link refid="d8/d2c/storage__changes__tracker__impl_8cpp"/>
       </node>
       <node id="43">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp</label>
+        <label>src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp</label>
         <link refid="d7/d4b/storage__changes__tracker__impl_8hpp"/>
         <childnode refid="44" relation="include">
         </childnode>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="13" bodyend="-1"/>
+        <location file="src/primitives/extrinsic.hpp" line="13" column="3" bodyfile="src/primitives/extrinsic.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="41" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="41" bodyend="43"/>
+        <location file="src/primitives/extrinsic.hpp" line="41" column="3" bodyfile="src/primitives/extrinsic.hpp" bodystart="41" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="dd/dc5/namespacesgns_1_1primitives_1a24a82a11735c77f62c80d0b482764442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -507,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" line="54" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp" bodystart="54" bodyend="56"/>
+        <location file="src/primitives/extrinsic.hpp" line="54" column="10" bodyfile="src/primitives/extrinsic.hpp" bodystart="54" bodyend="56"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -555,6 +555,6 @@
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_PRIMITIVES_EXTRINSIC_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/extrinsic.hpp"/>
+    <location file="src/primitives/extrinsic.hpp"/>
   </compounddef>
 </doxygen>

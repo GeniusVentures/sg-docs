@@ -26,7 +26,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp</label>
+        <label>src/crdt/globaldb/keypair_file_storage.cpp</label>
         <link refid="d7/dda/keypair__file__storage_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" bodystart="20" bodyend="-1"/>
+        <location file="src/crdt/globaldb/keypair_file_storage.cpp" line="20" column="5" bodyfile="src/crdt/globaldb/keypair_file_storage.cpp" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d4/dd0/namespacesgns_1_1crdt_1a9204c704939b1de2f9206c2a603b82c3" prot="public" static="no">
         <type>libp2p::crypto::marshaller::KeyMarshallerImpl</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" bodystart="22" bodyend="-1"/>
+        <location file="src/crdt/globaldb/keypair_file_storage.cpp" line="22" column="5" bodyfile="src/crdt/globaldb/keypair_file_storage.cpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d4/dd0/namespacesgns_1_1crdt_1ae1b7a7dafdb55ca9bffcc3fe149f8505" prot="public" static="no">
         <type>libp2p::crypto::validator::KeyValidatorImpl</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp" bodystart="23" bodyend="-1"/>
+        <location file="src/crdt/globaldb/keypair_file_storage.cpp" line="23" column="5" bodyfile="src/crdt/globaldb/keypair_file_storage.cpp" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -328,6 +328,6 @@
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="146"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb/keypair_file_storage.cpp"/>
+    <location file="src/crdt/globaldb/keypair_file_storage.cpp"/>
   </compounddef>
 </doxygen>

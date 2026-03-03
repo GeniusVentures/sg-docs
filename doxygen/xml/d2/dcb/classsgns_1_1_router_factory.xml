@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RouterFactory.hpp" line="26" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RouterFactory.hpp" bodystart="26" bodyend="92"/>
+        <location file="app/integration/RouterFactory.hpp" line="26" column="25" bodyfile="app/integration/RouterFactory.hpp" bodystart="26" bodyend="92"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d2/dcb/classsgns_1_1_router_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RouterFactory.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RouterFactory.hpp" bodystart="24" bodyend="93"/>
+    <location file="app/integration/RouterFactory.hpp" line="23" column="5" bodyfile="app/integration/RouterFactory.hpp" bodystart="24" bodyend="93"/>
     <listofallmembers>
       <member refid="d2/dcb/classsgns_1_1_router_factory_1abc02b3df93822c1818596aa4570b98e3" prot="public" virt="non-virtual"><scope>sgns::RouterFactory</scope><name>create</name></member>
     </listofallmembers>

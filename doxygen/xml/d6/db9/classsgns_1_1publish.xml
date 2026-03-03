@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="300" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="300" bodyend="-1"/>
+        <location file="node/common.hpp" line="300" column="17" bodyfile="node/common.hpp" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/db9/classsgns_1_1publish_1a8cf39e2c803496dcbe1a400328e354ed" prot="public" static="no" mutable="no">
         <type>sgns::uint128_t</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="301" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="301" bodyend="301"/>
+        <location file="node/common.hpp" line="301" column="17" bodyfile="node/common.hpp" bodystart="301" bodyend="301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="294" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="615" bodyend="623"/>
+        <location file="node/common.hpp" line="294" column="1" bodyfile="node/common.cpp" bodystart="615" bodyend="623"/>
       </memberdef>
       <memberdef kind="function" id="d6/db9/classsgns_1_1publish_1a0dcfdf158511fa000dcdb461a1c26191" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="295" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="625" bodyend="630"/>
+        <location file="node/common.hpp" line="295" column="10" bodyfile="node/common.cpp" bodystart="625" bodyend="630"/>
       </memberdef>
       <memberdef kind="function" id="d6/db9/classsgns_1_1publish_1acd98fc9362b02d2b80dd90c91b830295" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="296" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="647" bodyend="650"/>
+        <location file="node/common.hpp" line="296" column="6" bodyfile="node/common.cpp" bodystart="647" bodyend="650"/>
       </memberdef>
       <memberdef kind="function" id="d6/db9/classsgns_1_1publish_1a3da09685ca4d94e698fad89d05d3feb7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="297" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="632" bodyend="637"/>
+        <location file="node/common.hpp" line="297" column="6" bodyfile="node/common.cpp" bodystart="632" bodyend="637"/>
       </memberdef>
       <memberdef kind="function" id="d6/db9/classsgns_1_1publish_1a15a39802f5d0ff029b34812e46b8a72d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="298" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="639" bodyend="645"/>
+        <location file="node/common.hpp" line="298" column="6" bodyfile="node/common.cpp" bodystart="639" bodyend="645"/>
       </memberdef>
       <memberdef kind="function" id="d6/db9/classsgns_1_1publish_1a5f36a6d635be170f2746dd9c0023861b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="299" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="652" bodyend="655"/>
+        <location file="node/common.hpp" line="299" column="6" bodyfile="node/common.cpp" bodystart="652" bodyend="655"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -241,7 +241,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="291" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="292" bodyend="302"/>
+    <location file="node/common.hpp" line="291" column="1" bodyfile="node/common.hpp" bodystart="292" bodyend="302"/>
     <listofallmembers>
       <member refid="d6/db9/classsgns_1_1publish_1a1a50003228d068a06251939274cc3d85" prot="public" virt="non-virtual"><scope>sgns::publish</scope><name>block</name></member>
       <member refid="d6/db9/classsgns_1_1publish_1a15a39802f5d0ff029b34812e46b8a72d" prot="public" virt="non-virtual"><scope>sgns::publish</scope><name>deserialize</name></member>

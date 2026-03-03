@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="478" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="478" bodyend="478"/>
+        <location file="node/common.hpp" line="478" column="39" bodyfile="node/common.hpp" bodystart="478" bodyend="478"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d44/classsgns_1_1telemetry__cache__cutoffs_1ae942ba3979cc7c986567ed9fd6b54f59" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::seconds constexpr</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="479" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="479" bodyend="479"/>
+        <location file="node/common.hpp" line="479" column="39" bodyfile="node/common.hpp" bodystart="479" bodyend="479"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d44/classsgns_1_1telemetry__cache__cutoffs_1a2c40bef8af2ee1dc8c9ef6e06cd94428" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::seconds constexpr</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="480" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="480" bodyend="480"/>
+        <location file="node/common.hpp" line="480" column="39" bodyfile="node/common.hpp" bodystart="480" bodyend="480"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="482" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1525" bodyend="1528"/>
+        <location file="node/common.hpp" line="482" column="29" bodyfile="node/common.cpp" bodystart="1525" bodyend="1528"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -80,7 +80,7 @@
         <link refid="d8/d44/classsgns_1_1telemetry__cache__cutoffs"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="475" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="476" bodyend="483"/>
+    <location file="node/common.hpp" line="475" column="1" bodyfile="node/common.hpp" bodystart="476" bodyend="483"/>
     <listofallmembers>
       <member refid="d8/d44/classsgns_1_1telemetry__cache__cutoffs_1ae942ba3979cc7c986567ed9fd6b54f59" prot="public" virt="non-virtual"><scope>sgns::telemetry_cache_cutoffs</scope><name>beta</name></member>
       <member refid="d8/d44/classsgns_1_1telemetry__cache__cutoffs_1a2c40bef8af2ee1dc8c9ef6e06cd94428" prot="public" virt="non-virtual"><scope>sgns::telemetry_cache_cutoffs</scope><name>live</name></member>

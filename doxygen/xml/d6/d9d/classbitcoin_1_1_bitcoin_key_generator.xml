@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="32" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="32" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="32" column="9" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="110" column="63" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="110" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="110" column="63" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a526f0d4938c9e44b0bae7a6edaff120e" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::uint8_t</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="135" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="135" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="135" column="39" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8c3e098d55f3002c183e15b5564a0797" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::uint8_t</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="136" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="136" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="136" column="39" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a410d091c283ef61803b3fb466e2454c8" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::uint8_t</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="137" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="137" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="137" column="39" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a38deb9b3979673b48a689a42d1bd3b51" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::uint8_t</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="138" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="138" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="138" column="39" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="138" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="111" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="111" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="111" column="25" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; pubkey::public_key&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &gt;</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="112" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="112" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="112" column="30" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a6d3fe595562871a00dd5f1712b48162a" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key" kindref="compound">BitcoinECDSAPublicKey</ref> &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="132" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="132" column="25" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="133" column="63" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="133" column="63" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="37" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="27" bodyend="33"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="37" column="9" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="27" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a598fc5b8c126709b814887ee687f1612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="42" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="35" bodyend="48"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="42" column="9" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="35" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a3e8be5c00825e764414be31bb121b032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="47" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="49" bodyend="56"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="47" column="9" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="49" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a110454474b9f396ae46984701266f12a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &amp;</type>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="52" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="52" bodyend="55"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="52" column="39" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ab9d7db898f075cc719d7b8d65817172a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const pubkey::public_key&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &amp;</type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="60" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="60" bodyend="63"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="60" column="34" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a0edf1d76a95cbd1d0e9d3e35da6ad190" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="68" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="68" bodyend="71"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="68" column="27" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8e57c6809756bec840d4095f26a7e9b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="76" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="76" bodyend="79"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="76" column="27" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="76" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a193e11f52b3f961f7e500071146f9684" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string</type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="84" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="84" bodyend="87"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="84" column="27" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="84" bodyend="87"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="94" column="18"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="94" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a06d2e40d188bf4deb26fd9ad6e3d7870" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -396,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="101" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="97" bodyend="114"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="101" column="28" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="97" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &gt;</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="107" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="58" bodyend="61"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="107" column="32" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="58" bodyend="61"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -437,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="144" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="116" bodyend="122"/>
+        <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="144" column="21" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="116" bodyend="122"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -546,7 +546,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="30" bodyend="145"/>
+    <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="29" column="5" bodyfile="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="30" bodyend="145"/>
     <listofallmembers>
       <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>address</name></member>
       <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>BitcoinKeyGenerator</name></member>

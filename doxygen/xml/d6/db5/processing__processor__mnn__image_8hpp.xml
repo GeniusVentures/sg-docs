@@ -9,8 +9,8 @@
     <includes local="no">MNN/Interpreter.hpp</includes>
     <includes refid="db/df8/processing__processor_8hpp" local="yes">processing_processor.hpp</includes>
     <includes local="no">MNN/AutoTime.hpp</includes>
-    <includedby refid="d9/dcf/_processing_manager_8hpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp</includedby>
-    <includedby refid="d2/d49/processing__processor__mnn__image_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</includedby>
+    <includedby refid="d9/dcf/_processing_manager_8hpp" local="no">SGProcessingManager/include/processingbase/ProcessingManager.hpp</includedby>
+    <includedby refid="d2/d49/processing__processor__mnn__image_8cpp" local="yes">SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</includedby>
     <incdepgraph>
       <node id="7">
         <label>processing_processor.hpp</label>
@@ -27,7 +27,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
         <link refid="d6/db5/processing__processor__mnn__image_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -82,7 +82,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp</label>
+        <label>SGProcessingManager/include/processingbase/ProcessingManager.hpp</label>
         <link refid="d9/dcf/_processing_manager_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -94,7 +94,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
         <link refid="d6/db5/processing__processor__mnn__image_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -102,29 +102,29 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp</label>
+        <label>SGProcessingManager/src/processingbase/ProcessingManager.cpp</label>
         <link refid="d8/d50/_processing_manager_8cpp"/>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</label>
         <link refid="d2/d49/processing__processor__mnn__image_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp</label>
+        <label>src/processing/impl/processing_core_impl.cpp</label>
         <link refid="db/d83/processing__core__impl_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.cpp</label>
+        <label>src/processing/impl/processing_task_queue_impl.cpp</label>
         <link refid="d1/dff/processing__task__queue__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="13" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="13" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="13" column="12" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a0044fbbf60898ec6ad9600feb4f4c428" prot="public" static="no">
         <name>MODEL_IMAGE_SIZE</name>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="17" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="17" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="17" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a6e75115ecc9a823bd995a254d50626e6" prot="public" static="no">
         <name>OUTPUT_STRIDE</name>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="18" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="18" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="18" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a1cd7845cbd99ca49e549384f4ddd62d5" prot="public" static="no">
         <name>MAX_POSE_DETECTIONS</name>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="20" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="20" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="20" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a4466d72aa73b8a5a4659542157853e13" prot="public" static="no">
         <name>NUM_KEYPOINTS</name>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="21" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="21" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="21" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1aa17a0d79991b9f667cf1f8fb04e26946" prot="public" static="no">
         <name>SCORE_THRESHOLD</name>
@@ -196,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="22" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="22" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="22" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1acae53885b2c89e2175470e124d15661c" prot="public" static="no">
         <name>MIN_POSE_SCORE</name>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="23" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="23" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="23" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1aafee7e08a6156810e671aeceef84aaa3" prot="public" static="no">
         <name>NMS_RADIUS</name>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="24" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="24" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="24" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a4af66ee44a7c5108da2e9c2938a35b16" prot="public" static="no">
         <name>LOCAL_MAXIMUM_RADIUS</name>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="25" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="25" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="25" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a0013ea01f55f20ba3d8c3875bc3384cc" prot="public" static="no">
         <name>OFFSET_NODE_NAME</name>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="27" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="27" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="27" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1ae69f5a5fbc656b119a781d0b1d992868" prot="public" static="no">
         <name>DISPLACE_FWD_NODE_NAME</name>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="28" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="28" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="28" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a04891cb3bbc99446b77815082b6aafc7" prot="public" static="no">
         <name>DISPLACE_BWD_NODE_NAME</name>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="29" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="29" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="29" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a17bb85f4cf6494d4e859fe211f7b73ac" prot="public" static="no">
         <name>HEATMAPS</name>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="30" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="30" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="30" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d6/db5/processing__processor__mnn__image_8hpp_1a6b8b23eed4e4f833716ae707e231b19a" prot="public" static="no">
         <name>CIRCLE_RADIUS</name>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="32" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="32" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" line="32" column="9" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -361,6 +361,6 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp"/>
+    <location file="SGProcessingManager/include/processors/processing_processor_mnn_image.hpp"/>
   </compounddef>
 </doxygen>

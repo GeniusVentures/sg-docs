@@ -10,11 +10,11 @@
     <includes local="no">boost/json.hpp</includes>
     <includes local="yes">proof/proto/SGProof.pb.h</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</includedby>
-    <includedby refid="dc/d19/_i_basic_proof_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp</includedby>
-    <includedby refid="d8/d51/_processing_proof_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.hpp</includedby>
-    <includedby refid="d7/d6d/_recursive_transfer_proof_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp</includedby>
-    <includedby refid="d5/d20/_transfer_proof_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.hpp</includedby>
+    <includedby refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp" local="yes">src/account/Migration0_2_0To1_0_0.cpp</includedby>
+    <includedby refid="dc/d19/_i_basic_proof_8cpp" local="yes">src/proof/IBasicProof.cpp</includedby>
+    <includedby refid="d8/d51/_processing_proof_8hpp" local="yes">src/proof/ProcessingProof.hpp</includedby>
+    <includedby refid="d7/d6d/_recursive_transfer_proof_8hpp" local="yes">src/proof/RecursiveTransferProof.hpp</includedby>
+    <includedby refid="d5/d20/_transfer_proof_8hpp" local="yes">src/proof/TransferProof.hpp</includedby>
     <incdepgraph>
       <node id="9">
         <label>outcome/outcome.hpp</label>
@@ -23,7 +23,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp</label>
+        <label>src/proof/IBasicProof.hpp</label>
         <link refid="de/d4a/_i_basic_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -69,19 +69,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp</label>
+        <label>src/proof/IBasicProof.cpp</label>
         <link refid="dc/d19/_i_basic_proof_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp</label>
+        <label>src/proof/IBasicProof.hpp</label>
         <link refid="de/d4a/_i_basic_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -95,11 +95,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.cpp</label>
+        <label>src/proof/ProcessingProof.cpp</label>
         <link refid="dc/dc6/_processing_proof_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.hpp</label>
+        <label>src/proof/ProcessingProof.hpp</label>
         <link refid="d8/d51/_processing_proof_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -107,24 +107,22 @@
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp</label>
+        <label>src/proof/RecursiveTransferProof.cpp</label>
         <link refid="df/db6/_recursive_transfer_proof_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp</label>
+        <label>src/proof/RecursiveTransferProof.hpp</label>
         <link refid="d7/d6d/_recursive_transfer_proof_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.cpp</label>
+        <label>src/proof/TransferProof.cpp</label>
         <link refid="d5/dcb/_transfer_proof_8cpp"/>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.hpp</label>
+        <label>src/proof/TransferProof.hpp</label>
         <link refid="d5/d20/_transfer_proof_8hpp"/>
-        <childnode refid="5" relation="include">
-        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -152,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="196" column="1" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" declline="196" declcolumn="1"/>
+        <location file="src/proof/IBasicProof.hpp" line="193" column="1" declfile="src/proof/IBasicProof.hpp" declline="193" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -236,35 +234,32 @@
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="138" refid="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>std::string&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" kindref="member">ByteCodeMap</ref>;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a82b0e6eb12aa407abab8cc96f4d7831c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a82b0e6eb12aa407abab8cc96f4d7831c" kindref="member">RegisterDeserializer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;proof_type,<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a74208ca07598e6fd7fa8b567a7004bfb" kindref="member">PublicParamDeserializeFn</ref><sp/>fn<sp/>)</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a077fa173ca9162040ca0cb0ca2f15574" kindref="member">PublicParamDeSerializers</ref>[proof_type]<sp/>=<sp/>fn;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8760ff952add694d3862deaa3891e3b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8760ff952add694d3862deaa3891e3b7" kindref="member">RegisterBytecode</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;proof_type,<sp/>std::string<sp/>bytecode<sp/>)</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" kindref="member">ByteCodeMap</ref>[proof_type]<sp/>=<sp/>std::move(<sp/>bytecode<sp/>);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>outcome::result&lt;SGProof::BaseProofProto&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a9221a9e975019db2217f75fbe514ad3f" kindref="member">DeSerializeBaseProof</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;proof_data<sp/>);</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a329ea45325ebab559f33ceb169ebc912" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>outcome::result&lt;std::vector&lt;uint8_t&gt;&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a329ea45325ebab559f33ceb169ebc912" kindref="member">SerializeFullProof</ref>(</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SGProof::BaseProofData<sp/>&amp;base_proof_data<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a6e3686850ae32af4218e60e289805aef" kindref="member">RegisterDeserializer</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;proof_type,<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a74208ca07598e6fd7fa8b567a7004bfb" kindref="member">PublicParamDeserializeFn</ref><sp/>fn<sp/>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8760ff952add694d3862deaa3891e3b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8760ff952add694d3862deaa3891e3b7" kindref="member">RegisterBytecode</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;proof_type,<sp/>std::string<sp/>bytecode<sp/>)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" kindref="member">ByteCodeMap</ref>[proof_type]<sp/>=<sp/>std::move(<sp/>bytecode<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>outcome::result&lt;SGProof::BaseProofProto&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a9221a9e975019db2217f75fbe514ad3f" kindref="member">DeSerializeBaseProof</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;proof_data<sp/>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a329ea45325ebab559f33ceb169ebc912" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>outcome::result&lt;std::vector&lt;uint8_t&gt;&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a329ea45325ebab559f33ceb169ebc912" kindref="member">SerializeFullProof</ref>(</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SGProof::BaseProofData<sp/>&amp;base_proof_data<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="173" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a0762b077de0f8d7b2bb7a4322bf9f4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a0762b077de0f8d7b2bb7a4322bf9f4c2" kindref="member">bytecode_payload_</ref>;<sp/></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="176" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a0762b077de0f8d7b2bb7a4322bf9f4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a0762b077de0f8d7b2bb7a4322bf9f4c2" kindref="member">bytecode_payload_</ref>;<sp/></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outcome::result&lt;SGProof::BaseProofData&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a53df433895b3d36b0b5c05c928017ea0" kindref="member">GenerateProof</ref>();</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8d7ebf750ea2dd2cc29af2cc71a8f636" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::pair&lt;boost::json::array,<sp/>boost::json::array&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8d7ebf750ea2dd2cc29af2cc71a8f636" kindref="member">GenerateJsonParameters</ref>()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="de/d4a/_i_basic_proof_8hpp_1aaee5715a5cdab16ba7faf5e9538bcb7b" refkind="member"><highlight class="normal"><ref refid="de/d4a/_i_basic_proof_8hpp_1aaee5715a5cdab16ba7faf5e9538bcb7b" kindref="member">OUTCOME_HPP_DECLARE_ERROR_2</ref>(<sp/><ref refid="d2/d2b/namespacesgns" kindref="compound">sgns</ref>,<sp/>IBasicProof::Error<sp/>);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outcome::result&lt;SGProof::BaseProofData&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a53df433895b3d36b0b5c05c928017ea0" kindref="member">GenerateProof</ref>();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8d7ebf750ea2dd2cc29af2cc71a8f636" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::pair&lt;boost::json::array,<sp/>boost::json::array&gt;<sp/><ref refid="d9/dbe/classsgns_1_1_i_basic_proof_1a8d7ebf750ea2dd2cc29af2cc71a8f636" kindref="member">GenerateJsonParameters</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="de/d4a/_i_basic_proof_8hpp_1aaee5715a5cdab16ba7faf5e9538bcb7b" refkind="member"><highlight class="normal"><ref refid="de/d4a/_i_basic_proof_8hpp_1aaee5715a5cdab16ba7faf5e9538bcb7b" kindref="member">OUTCOME_HPP_DECLARE_ERROR_2</ref>(<sp/><ref refid="d2/d2b/namespacesgns" kindref="compound">sgns</ref>,<sp/>IBasicProof::Error<sp/>);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp"/>
+    <location file="src/proof/IBasicProof.hpp"/>
   </compounddef>
 </doxygen>

@@ -7,7 +7,7 @@
     <includes local="no">vector</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp</label>
+        <label>node/daemonconfig.hpp</label>
         <link refid="da/d4f/daemonconfig_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp" line="38" column="16" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp" declline="38" declcolumn="16"/>
+        <location file="node/daemonconfig.hpp" line="38" column="16" declfile="node/daemonconfig.hpp" declline="38" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a456c8c0e2bd1fe37d886d53f73614fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>::sgns::error_</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp" line="39" column="16" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp" declline="39" declcolumn="16"/>
+        <location file="node/daemonconfig.hpp" line="39" column="16" declfile="node/daemonconfig.hpp" declline="39" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -194,6 +194,6 @@
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/daemonconfig.hpp"/>
+    <location file="node/daemonconfig.hpp"/>
   </compounddef>
 </doxygen>

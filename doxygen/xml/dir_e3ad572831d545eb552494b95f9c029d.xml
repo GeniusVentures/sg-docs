@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_e3ad572831d545eb552494b95f9c029d" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale</compoundname>
-    <innerdir refid="dir_0bac89866673b9346e6f1bef0c671d78">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail</innerdir>
+    <compoundname>src/scale</compoundname>
+    <innerdir refid="dir_0bac89866673b9346e6f1bef0c671d78">src/scale/detail</innerdir>
     <innerfile refid="db/d80/scale_8hpp">scale.hpp</innerfile>
     <innerfile refid="da/d0f/scale__decoder__stream_8cpp">scale_decoder_stream.cpp</innerfile>
     <innerfile refid="de/dab/scale__decoder__stream_8hpp">scale_decoder_stream.hpp</innerfile>
@@ -147,6 +147,6 @@
 </programlisting> </para>
 </sect1>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/"/>
+    <location file="src/scale/"/>
   </compounddef>
 </doxygen>

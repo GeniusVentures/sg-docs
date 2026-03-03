@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_c56d198fa588e71da7ab4334564c4fd0" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account</compoundname>
+    <compoundname>src/account</compoundname>
     <innerfile refid="d0/d58/_account_messenger_8cpp">AccountMessenger.cpp</innerfile>
     <innerfile refid="d8/d7a/_account_messenger_8hpp">AccountMessenger.hpp</innerfile>
     <innerfile refid="d5/dab/_escrow_release_transaction_8cpp">EscrowReleaseTransaction.cpp</innerfile>
@@ -47,6 +47,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/"/>
+    <location file="src/account/"/>
   </compounddef>
 </doxygen>

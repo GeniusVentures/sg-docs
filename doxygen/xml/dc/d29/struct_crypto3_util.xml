@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="14" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="14" bodyend="23"/>
+        <location file="ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="14" column="50" bodyfile="ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="14" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::vector&lt; std::uint8_t &gt;</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="24" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="24" bodyend="34"/>
+        <location file="ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="24" column="24" bodyfile="ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="24" bodyend="34"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -51,7 +51,7 @@
         <link refid="dc/d29/struct_crypto3_util"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="11" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="12" bodyend="35"/>
+    <location file="ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="11" column="1" bodyfile="ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="12" bodyend="35"/>
     <listofallmembers>
       <member refid="dc/d29/struct_crypto3_util_1a402ddc1f85f4cd6208deea09658e9592" prot="public" virt="non-virtual"><scope>Crypto3Util</scope><name>BytesToCppInt</name></member>
       <member refid="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" prot="public" virt="non-virtual"><scope>Crypto3Util</scope><name>CppIntToBytes</name></member>

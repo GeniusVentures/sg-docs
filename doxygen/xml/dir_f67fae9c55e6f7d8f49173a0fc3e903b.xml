@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_f67fae9c55e6f7d8f49173a0fc3e903b" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem</compoundname>
+    <compoundname>ProofSystem/include/ProofSystem</compoundname>
     <innerfile refid="db/d6c/_a_e_s_encryption_8hpp">AESEncryption.hpp</innerfile>
     <innerfile refid="dd/dd3/_bitcoin_key_generator_8hpp">BitcoinKeyGenerator.hpp</innerfile>
     <innerfile refid="da/d4f/_bitcoin_key_pair_params_8hpp">BitcoinKeyPairParams.hpp</innerfile>
@@ -24,6 +24,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/"/>
+    <location file="ProofSystem/include/ProofSystem/"/>
   </compounddef>
 </doxygen>

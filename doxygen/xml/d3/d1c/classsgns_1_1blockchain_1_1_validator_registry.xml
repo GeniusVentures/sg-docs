@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="38" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="38" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" prot="public" static="no">
         <type>validator::Registry</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="39" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="39" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac318a7a8f3fa8bfb1d802138609ee6e4" prot="public" static="no">
         <type>validator::SignatureEntry</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="40" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="40" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" prot="public" static="no">
         <type>validator::RegistryUpdate</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="41" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="41" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aa10e589f38c27335fa6462699b5ff331" prot="public" static="no">
         <type>validator::Role</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="42" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="42" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9ab997dbfe67998930aba81579b26e14" prot="public" static="no">
         <type>validator::Status</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="43" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="43" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" prot="public" static="no">
         <type>std::function&lt; void(bool)&gt;</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="44" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="44" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="44" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a096a515e35e5793ae0ce0e07b22584f6" prot="public" static="no">
         <type>std::function&lt; void(const std::string &amp;, std::function&lt; void(outcome::result&lt; std::string &gt;)&gt;)&gt;</type>
@@ -117,7 +117,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="45" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="45" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="45" column="9" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -136,7 +136,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="98" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="98" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="98" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="98" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -152,7 +152,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="122" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="122" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="122" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac3b9f94413153fe05f08a648b399c86c" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -166,7 +166,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="123" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="123" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="123" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae028a0db293dde1ad7f422588271ea78" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -180,7 +180,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="124" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="124" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="124" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a441f5c958857a9efa133279adaf60e88" prot="private" static="no" mutable="no">
         <type><ref refid="da/dc2/structsgns_1_1blockchain_1_1_validator_registry_1_1_weight_config" kindref="compound">WeightConfig</ref></type>
@@ -194,7 +194,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="125" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="125" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="125" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1db97a8a67d2a4324af111f811421ef7" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -208,7 +208,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="126" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="126" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="126" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1b4a510c8009ceedf77039d40eab51ea" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -223,7 +223,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="127" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="127" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="127" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad9c9c2b9c965b6fbec6d48c422718af0" prot="private" static="no" mutable="yes">
         <type>std::shared_mutex</type>
@@ -237,7 +237,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="128" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="128" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="128" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad13e457e668e7ab795e1fb93ccab1a2f" prot="private" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref> &gt;</type>
@@ -251,7 +251,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="129" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="129" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="129" column="31" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1dc0f42a37592af189bf1abc41a7e397" prot="private" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref> &gt;</type>
@@ -265,7 +265,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="130" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="130" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="130" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ada545c8a9cc8a0a376b5309116a823f2" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -279,7 +279,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="131" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="131" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="131" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a68adf4cdce61ed617d0ccfbece2d034d" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -294,7 +294,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="132" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="132" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="132" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a0defd94e71d7af6f75cf310b4b82a001" prot="private" static="no" mutable="no">
         <type><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" kindref="member">InitCallback</ref></type>
@@ -308,7 +308,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="134" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="134" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="134" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a01ab382de40f9f40e57163b7088fb610" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(const std::string &amp;cid, std::function&lt; void(outcome::result&lt; std::string &gt;)&gt; callback)&gt;</type>
@@ -322,7 +322,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="136" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="136" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="136" column="13" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="136" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -367,7 +367,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="57" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="77" bodyend="120"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="57" column="32" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="77" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a8142c816913c19889d066a5b0c5581be" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string_view</type>
@@ -381,7 +381,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="82" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="82" bodyend="85"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="82" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="82" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1b6b5028d9f8740da59c415e5106e06c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string_view</type>
@@ -395,7 +395,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="87" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="87" bodyend="90"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="87" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a3b865533ca84e596a2874fd007306361" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string_view</type>
@@ -409,7 +409,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="92" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="92" bodyend="95"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="92" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="92" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -429,7 +429,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="65" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="201" bodyend="240"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="65" column="18" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="201" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a0827c6c8614a41fe65ab992f1c2cd51b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -447,7 +447,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="66" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="242" bodyend="256"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="66" column="18" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="242" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a97fa7116a0fb18a80f0281310362b752" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -465,7 +465,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="67" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="258" bodyend="270"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="67" column="18" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="258" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a4f61918d7daf4d4910acbb3c6700e6de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -487,7 +487,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="68" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="272" bodyend="278"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="68" column="18" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="272" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a4268235f00a7a6bbdf8b77d2a73e1d7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref></type>
@@ -505,7 +505,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="70" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="280" bodyend="293"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="70" column="41" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="280" bodyend="293"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a47f758e7e8a08f667dd5ea16a5050e98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -527,7 +527,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="71" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="350" bodyend="419"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="71" column="35" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="350" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a09391cdbb6d2b9df7e3fa60c6387a9aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref> &gt;</type>
@@ -541,7 +541,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="73" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="421" bodyend="441"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="73" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="421" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0c8c06a5bbb2394e6f20bd4d8566423" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref> &gt;</type>
@@ -555,7 +555,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="74" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="443" bodyend="457"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="74" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="443" bodyend="457"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1adf78a171902d6ea39ef11ad21df4e480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -569,7 +569,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="75" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="459" bodyend="489"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="75" column="41" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="459" bodyend="489"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aca9f4ef9e1834a8fbcd837d0ccf0b3fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -587,7 +587,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="77" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="295" bodyend="306"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="77" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="295" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1d88c4b1391f9220bb87a23584d5da46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref> &gt;</type>
@@ -605,7 +605,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="78" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="308" bodyend="320"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="78" column="37" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="308" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae1bbbcae5d4aa278c32202514b150741" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -623,7 +623,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="79" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="322" bodyend="334"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="79" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="322" bodyend="334"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab7083c95c7f2102670dc3351711019a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref> &gt;</type>
@@ -641,7 +641,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="80" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="336" bodyend="348"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="80" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="336" bodyend="348"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-func">
@@ -665,7 +665,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="100" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="122" bodyend="199"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="100" column="32" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="122" bodyend="199"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -709,7 +709,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="104" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="59" bodyend="75"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="104" column="9" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="59" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a2a21c9c6ad154dac933c817fcd15193b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -727,16 +727,16 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="112" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="491" bodyend="522"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="112" column="23" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="491" bodyend="522"/>
       </memberdef>
-      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aefd389b1385f04e90af35b920f483ca7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a15e7f27bad971a98917861da7d0e1df3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sgns::blockchain::ValidatorRegistry::RegistryUpdateReceived</definition>
-        <argsstring>(crdt::CRDTCallbackManager::NewDataPair new_data, const std::string &amp;cid)</argsstring>
+        <argsstring>(const crdt::CRDTCallbackManager::NewDataPair &amp;new_data, const std::string &amp;cid)</argsstring>
         <name>RegistryUpdateReceived</name>
         <qualifiedname>sgns::blockchain::ValidatorRegistry::RegistryUpdateReceived</qualifiedname>
         <param>
-          <type><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref></type>
+          <type>const <ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref> &amp;</type>
           <declname>new_data</declname>
         </param>
         <param>
@@ -749,7 +749,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="113" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="524" bodyend="548"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="113" column="14" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="524" bodyend="547"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad569a5eb3b3cdf2cab604a9cf82ac387" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -767,7 +767,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="114" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="550" bodyend="567"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="114" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="549" bodyend="566"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a701a0469bc05b3f070bce256b34ce5cf" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -789,7 +789,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="115" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="569" bodyend="662"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="115" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="568" bodyend="661"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0de727b99aaf0e06f9040625fec5702" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab1f807a82389de5f5e2c83d578292c55" kindref="member">ValidatorEntry</ref> *</type>
@@ -811,7 +811,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="116" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="664" bodyend="678"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="116" column="30" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="663" bodyend="677"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aed2e7a4f18eb200660badc156ec93a2a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -825,12 +825,12 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="117" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="680" bodyend="751"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="117" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="679" bodyend="749"/>
       </memberdef>
-      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad5232d6a8ccb6cf61ad3a6d0913e4054" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a715f878b26779c5155c3bb8ffa66b0c0" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sgns::blockchain::ValidatorRegistry::NotifyInitialized</definition>
-        <argsstring>(bool success)</argsstring>
+        <argsstring>(bool success) const</argsstring>
         <name>NotifyInitialized</name>
         <qualifiedname>sgns::blockchain::ValidatorRegistry::NotifyInitialized</qualifiedname>
         <param>
@@ -843,12 +843,12 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="118" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="823" bodyend="835"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="118" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="821" bodyend="833"/>
       </memberdef>
-      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9474ee2b84233b21502145f62b412fa3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a06dbf5010dc0cda9b36c7db3d12738b3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sgns::blockchain::ValidatorRegistry::PersistLocalState</definition>
-        <argsstring>(const std::string &amp;cid)</argsstring>
+        <argsstring>(const std::string &amp;cid) const</argsstring>
         <name>PersistLocalState</name>
         <qualifiedname>sgns::blockchain::ValidatorRegistry::PersistLocalState</qualifiedname>
         <param>
@@ -861,7 +861,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="119" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="753" bodyend="762"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="119" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="751" bodyend="760"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a5b154349dac731c824703580115ac5f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -879,7 +879,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="120" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp" bodystart="764" bodyend="821"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="120" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="762" bodyend="819"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1925,7 +1925,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" line="35" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp" bodystart="36" bodyend="137"/>
+    <location file="src/blockchain/ValidatorRegistry.hpp" line="35" column="5" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="36" bodyend="137"/>
     <listofallmembers>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a096a515e35e5793ae0ce0e07b22584f6" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>BlockRequestMethod</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a68adf4cdce61ed617d0ccfbece2d034d" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>cache_initialized_</name></member>
@@ -1951,8 +1951,8 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1b4a510c8009ceedf77039d40eab51ea" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>logger_</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a91448b8cf1eb60dbc978517234ee2630" prot="protected" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>MigrateCids</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aed90a1bb0c62a300ad08f5975d6cccdc" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>New</name></member>
-      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad5232d6a8ccb6cf61ad3a6d0913e4054" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>NotifyInitialized</name></member>
-      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9474ee2b84233b21502145f62b412fa3" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>PersistLocalState</name></member>
+      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a715f878b26779c5155c3bb8ffa66b0c0" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>NotifyInitialized</name></member>
+      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a06dbf5010dc0cda9b36c7db3d12738b3" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>PersistLocalState</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae028a0db293dde1ad7f422588271ea78" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>quorum_denominator_</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac3b9f94413153fe05f08a648b399c86c" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>quorum_numerator_</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a97fa7116a0fb18a80f0281310362b752" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>QuorumThreshold</name></member>
@@ -1961,7 +1961,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a3b865533ca84e596a2874fd007306361" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RegistryCidKey</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a8142c816913c19889d066a5b0c5581be" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RegistryKey</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RegistryUpdate</name></member>
-      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aefd389b1385f04e90af35b920f483ca7" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RegistryUpdateReceived</name></member>
+      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a15e7f27bad971a98917861da7d0e1df3" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RegistryUpdateReceived</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a01ab382de40f9f40e57163b7088fb610" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>request_block_by_cid_</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a5b154349dac731c824703580115ac5f3" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>RequestHeadCids</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aa10e589f38c27335fa6462699b5ff331" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>Role</name></member>

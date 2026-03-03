@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" line="17" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" bodystart="17" bodyend="37"/>
+        <location file="app/integration/ProductionLotteryFactory.hpp" line="17" column="28" bodyfile="app/integration/ProductionLotteryFactory.hpp" bodystart="17" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d2/d62/class_production_lottery_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" line="14" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" bodystart="15" bodyend="38"/>
+    <location file="app/integration/ProductionLotteryFactory.hpp" line="14" column="1" bodyfile="app/integration/ProductionLotteryFactory.hpp" bodystart="15" bodyend="38"/>
     <listofallmembers>
       <member refid="d2/d62/class_production_lottery_factory_1a6ad4179a7f22b877cef31e8c662e99da" prot="public" virt="non-virtual"><scope>ProductionLotteryFactory</scope><name>create</name></member>
     </listofallmembers>

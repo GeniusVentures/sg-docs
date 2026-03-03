@@ -12,7 +12,7 @@
     <includes local="yes">primitives/cid/cid.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp</label>
+        <label>src/account/AccountMessenger.cpp</label>
         <link refid="d0/d58/_account_messenger_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,11 +24,11 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -42,11 +42,11 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -62,173 +62,166 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
       </node>
-      <node id="31">
+      <node id="30">
         <label>base/blob.hpp</label>
         <link refid="d4/d16/blob_8hpp"/>
+        <childnode refid="31" relation="include">
+        </childnode>
         <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-      </node>
-      <node id="35">
-        <label>base/hexutil.hpp</label>
-        <link refid="df/d28/hexutil_8hpp"/>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
       </node>
-      <node id="21">
-        <label>base/logger.hpp</label>
-        <link refid="d6/da3/logger_8hpp"/>
-        <childnode refid="22" relation="include">
+      <node id="34">
+        <label>base/hexutil.hpp</label>
+        <link refid="df/d28/hexutil_8hpp"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="19">
+        <label>base/logger.hpp</label>
+        <link refid="d6/da3/logger_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>base/sgns_version.hpp</label>
         <link refid="de/d68/sgns__version_8hpp"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="29">
         <label>crypto/hasher.hpp</label>
         <link refid="da/d6b/hasher_8hpp"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>crypto/hasher/hasher_impl.hpp</label>
-        <link refid="d0/d62/hasher__impl_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="25">
-        <label>outcome/outcome.hpp</label>
-        <link refid="d5/dda/outcome_8hpp"/>
-        <childnode refid="26" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="28">
+        <label>crypto/hasher/hasher_impl.hpp</label>
+        <link refid="d0/d62/hasher__impl_8hpp"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>outcome/outcome.hpp</label>
+        <link refid="d5/dda/outcome_8hpp"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
         <label>singleton/IComponent.hpp</label>
         <link refid="df/dec/_i_component_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="25">
         <label>account/proto/SGAccountComm.pb.h</label>
       </node>
-      <node id="33">
+      <node id="32">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="13">
         <label>atomic</label>
       </node>
       <node id="4">
         <label>boost/format.hpp</label>
       </node>
-      <node id="34">
+      <node id="33">
         <label>boost/functional/hash.hpp</label>
       </node>
-      <node id="20">
+      <node id="18">
         <label>boost/optional.hpp</label>
       </node>
-      <node id="19">
+      <node id="17">
         <label>chrono</label>
       </node>
-      <node id="13">
+      <node id="11">
         <label>condition_variable</label>
       </node>
-      <node id="32">
+      <node id="31">
         <label>cstddef</label>
       </node>
-      <node id="8">
+      <node id="27">
         <label>cstdint</label>
       </node>
-      <node id="12">
-        <label>cstdlib</label>
-      </node>
-      <node id="10">
+      <node id="9">
         <label>functional</label>
       </node>
       <node id="5">
         <label>future</label>
       </node>
-      <node id="37">
+      <node id="36">
         <label>gsl/span</label>
       </node>
-      <node id="38">
+      <node id="37">
         <label>iostream</label>
       </node>
-      <node id="24">
+      <node id="22">
         <label>ipfs_pubsub/gossip_pubsub.hpp</label>
       </node>
-      <node id="26">
+      <node id="24">
         <label>libp2p/outcome/outcome.hpp</label>
       </node>
-      <node id="9">
+      <node id="8">
         <label>memory</label>
       </node>
-      <node id="16">
+      <node id="14">
         <label>mutex</label>
       </node>
-      <node id="40">
+      <node id="39">
         <label>primitives/cid/cid.hpp</label>
       </node>
-      <node id="14">
+      <node id="12">
         <label>queue</label>
       </node>
       <node id="3">
         <label>random</label>
       </node>
-      <node id="22">
+      <node id="20">
         <label>spdlog/fmt/ostr.h</label>
       </node>
-      <node id="23">
+      <node id="21">
         <label>spdlog/spdlog.h</label>
       </node>
       <node id="7">
         <label>string</label>
       </node>
-      <node id="36">
+      <node id="35">
         <label>string_view</label>
       </node>
       <node id="2">
         <label>thread</label>
       </node>
-      <node id="17">
+      <node id="15">
         <label>unordered_map</label>
       </node>
-      <node id="18">
+      <node id="16">
         <label>unordered_set</label>
       </node>
-      <node id="11">
+      <node id="10">
         <label>vector</label>
       </node>
     </incdepgraph>
@@ -254,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" line="16" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="16" bodyend="37"/>
+        <location file="src/account/AccountMessenger.cpp" line="16" column="1" bodyfile="src/account/AccountMessenger.cpp" bodystart="16" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1611,6 +1604,6 @@
 <codeline lineno="1349"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1350"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp"/>
+    <location file="src/account/AccountMessenger.cpp"/>
   </compounddef>
 </doxygen>

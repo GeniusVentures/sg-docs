@@ -10,8 +10,8 @@
     <includes refid="d0/d0e/globaldb_8hpp" local="yes">crdt/globaldb/globaldb.hpp</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
-    <includedby refid="d6/d71/_migration3__4__0_to3__5__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</includedby>
-    <includedby refid="d2/d4b/_migration_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</includedby>
+    <includedby refid="d6/d71/_migration3__4__0_to3__5__0_8cpp" local="yes">src/account/Migration3_4_0To3_5_0.cpp</includedby>
+    <includedby refid="d2/d4b/_migration_manager_8cpp" local="yes">src/account/MigrationManager.cpp</includedby>
     <incdepgraph>
       <node id="103">
         <label>ProofSystem/ECDSAPublicKey.hpp</label>
@@ -162,7 +162,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -856,11 +856,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -868,7 +868,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
+        <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
     </invincdepgraph>
@@ -950,6 +950,6 @@
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp"/>
+    <location file="src/account/Migration3_4_0To3_5_0.hpp"/>
   </compounddef>
 </doxygen>

@@ -97,7 +97,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" line="74" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp" bodystart="74" bodyend="74"/>
+    <location file="src/primitives/digest.hpp" line="74" column="3" bodyfile="src/primitives/digest.hpp" bodystart="74" bodyend="74"/>
     <listofallmembers>
       <member refid="df/db0/structsgns_1_1primitives_1_1detail_1_1_digest_item_common_1a5f2daabc089b61b10fe91ce0d3a5772a" prot="public" virt="non-virtual"><scope>sgns::primitives::Seal</scope><name>data</name></member>
       <member refid="df/db0/structsgns_1_1primitives_1_1detail_1_1_digest_item_common_1a6602c67d6361fb77b3ac7cbcebd11ad3" prot="public" virt="non-virtual"><scope>sgns::primitives::Seal</scope><name>operator!=</name></member>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_fe7020b7a4ea20c30637fe5beb573702" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src</compoundname>
+    <compoundname>ProofSystem/src</compoundname>
     <innerfile refid="d1/d46/_bitcoin_key_generator_8cpp">BitcoinKeyGenerator.cpp</innerfile>
     <innerfile refid="d6/dff/_el_gamal_key_generator_8cpp">ElGamalKeyGenerator.cpp</innerfile>
     <innerfile refid="da/d43/_ethereum_key_generator_8cpp">EthereumKeyGenerator.cpp</innerfile>
@@ -10,6 +10,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/"/>
+    <location file="ProofSystem/src/"/>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="18" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="18" bodyend="-1"/>
+        <location file="src/primitives/authority.hpp" line="18" column="16" bodyfile="src/primitives/authority.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="20" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="20" bodyend="22"/>
+        <location file="src/primitives/authority.hpp" line="20" column="10" bodyfile="src/primitives/authority.hpp" bodystart="20" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="db/d9a/structsgns_1_1primitives_1_1_authority_id_1a4294115f79d3dd5fb14921f00da18e7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="23" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="23" bodyend="25"/>
+        <location file="src/primitives/authority.hpp" line="23" column="10" bodyfile="src/primitives/authority.hpp" bodystart="23" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="27" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="27" bodyend="30"/>
+        <location file="src/primitives/authority.hpp" line="27" column="12" bodyfile="src/primitives/authority.hpp" bodystart="27" bodyend="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -119,7 +119,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp" bodystart="15" bodyend="32"/>
+    <location file="src/primitives/authority.hpp" line="15" column="3" bodyfile="src/primitives/authority.hpp" bodystart="15" bodyend="32"/>
     <listofallmembers>
       <member refid="db/d9a/structsgns_1_1primitives_1_1_authority_id_1a143d23a6b511f85a8fc3cb8b6b19d491" prot="public" virt="non-virtual"><scope>sgns::primitives::AuthorityId</scope><name>id</name></member>
       <member refid="db/d9a/structsgns_1_1primitives_1_1_authority_id_1a4294115f79d3dd5fb14921f00da18e7b" prot="public" virt="non-virtual"><scope>sgns::primitives::AuthorityId</scope><name>operator!=</name></member>

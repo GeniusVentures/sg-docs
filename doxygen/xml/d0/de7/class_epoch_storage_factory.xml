@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EpochStorageFactory.hpp" line="16" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EpochStorageFactory.hpp" bodystart="16" bodyend="29"/>
+        <location file="app/integration/EpochStorageFactory.hpp" line="16" column="28" bodyfile="app/integration/EpochStorageFactory.hpp" bodystart="16" bodyend="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d0/de7/class_epoch_storage_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EpochStorageFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EpochStorageFactory.hpp" bodystart="14" bodyend="30"/>
+    <location file="app/integration/EpochStorageFactory.hpp" line="13" column="1" bodyfile="app/integration/EpochStorageFactory.hpp" bodystart="14" bodyend="30"/>
     <listofallmembers>
       <member refid="d0/de7/class_epoch_storage_factory_1a5958b0be4383cde0efb0d482d50a0afe" prot="public" virt="non-virtual"><scope>EpochStorageFactory</scope><name>create</name></member>
     </listofallmembers>

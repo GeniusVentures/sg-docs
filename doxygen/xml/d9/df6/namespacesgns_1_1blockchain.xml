@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_header_repository.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_header_repository.hpp" bodystart="16" bodyend="19"/>
+        <location file="src/blockchain/block_header_repository.hpp" line="15" column="5" bodyfile="src/blockchain/block_header_repository.hpp" bodystart="16" bodyend="19"/>
       </memberdef>
       <memberdef kind="enum" id="d9/df6/namespacesgns_1_1blockchain_1a61c1a0b749a99e37658dbab4f90c3027" prot="public" static="no" strong="yes">
         <type></type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp" bodystart="11" bodyend="19"/>
+        <location file="src/blockchain/block_tree_error.hpp" line="11" column="3" bodyfile="src/blockchain/block_tree_error.hpp" bodystart="11" bodyend="19"/>
       </memberdef>
       <memberdef kind="enum" id="d9/df6/namespacesgns_1_1blockchain_1a2be80d78670f65f34025631edcc0daaa" prot="public" static="no" strong="yes">
         <type></type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" bodystart="14" bodyend="19"/>
+        <location file="src/blockchain/impl/common.hpp" line="14" column="3" bodyfile="src/blockchain/impl/common.hpp" bodystart="14" bodyend="19"/>
       </memberdef>
       <memberdef kind="enum" id="d9/df6/namespacesgns_1_1blockchain_1a11590769a0031f7c9d4250b51039fc2c" prot="public" static="no" strong="yes">
         <type></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" line="41" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" bodystart="41" bodyend="41"/>
+        <location file="src/blockchain/impl/storage_util.hpp" line="41" column="3" bodyfile="src/blockchain/impl/storage_util.hpp" bodystart="41" bodyend="41"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" line="26" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" bodystart="26" bodyend="-1"/>
+        <location file="src/blockchain/impl/block_tree_impl.cpp" line="26" column="3" bodyfile="src/blockchain/impl/block_tree_impl.cpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/df6/namespacesgns_1_1blockchain_1aaba78d427dafac87700bec2f596a6bb5" prot="public" static="no">
         <type><ref refid="d0/d3d/namespacesgns_1_1blockchain_1_1prefix_1affebeb618ce26afa1fa4b7deb2d78f8a" kindref="member">prefix::Prefix</ref></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" line="27" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" bodystart="27" bodyend="-1"/>
+        <location file="src/blockchain/impl/block_tree_impl.cpp" line="27" column="3" bodyfile="src/blockchain/impl/block_tree_impl.cpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/df6/namespacesgns_1_1blockchain_1a1328bc2d9067df4de32f6dedec7d6c58" prot="public" static="no">
         <type><ref refid="d0/dbf/namespacesgns_1_1storage_1a8a572a572309a6061c666d6d8b0f4bac" kindref="member">sgns::storage::DatabaseError</ref></type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" line="28" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" bodystart="28" bodyend="-1"/>
+        <location file="src/blockchain/impl/block_tree_impl.cpp" line="28" column="3" bodyfile="src/blockchain/impl/block_tree_impl.cpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/df6/namespacesgns_1_1blockchain_1af3f407d556e737a87e095c01cd79ece1" prot="public" static="no">
         <type><ref refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable" kindref="compound">storage::face::Readable</ref>&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref>, <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt;</type>
@@ -199,7 +199,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" bodystart="11" bodyend="-1"/>
+        <location file="src/blockchain/impl/common.hpp" line="11" column="3" bodyfile="src/blockchain/impl/common.hpp" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/df6/namespacesgns_1_1blockchain_1a8ff366c722ebc39b0e728102c3a55abf" prot="public" static="no">
         <type>boost::variant&lt; BlockHash, <ref refid="de/d1b/key__value__block__header__repository_8cpp_1a4d41d58038f35d095940e2f3660d7381" kindref="member">BlockNumber</ref> &gt;</type>
@@ -214,7 +214,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.cpp" line="34" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_id.hpp" bodystart="14" bodyend="-1"/>
+        <location file="src/blockchain/impl/key_value_block_storage.cpp" line="34" column="5" bodyfile="src/primitives/block_id.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -239,7 +239,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="17" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="17" bodyend="33" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="25" declcolumn="19"/>
+        <location file="src/blockchain/impl/types.cpp" line="17" column="19" bodyfile="src/blockchain/impl/types.cpp" bodystart="17" bodyend="33" declfile="src/blockchain/impl/common.hpp" declline="25" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a6623765be8c42f3dd30e691f8771073b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -262,7 +262,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="35" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="35" bodyend="58" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="31" declcolumn="19"/>
+        <location file="src/blockchain/impl/types.cpp" line="35" column="19" bodyfile="src/blockchain/impl/types.cpp" bodystart="35" bodyend="58" declfile="src/blockchain/impl/common.hpp" declline="31" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a2ce3eb1eda14740c6814ca775fce5f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -292,7 +292,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="60" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="60" bodyend="76" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="38" declcolumn="16"/>
+        <location file="src/blockchain/impl/types.cpp" line="60" column="16" bodyfile="src/blockchain/impl/types.cpp" bodystart="60" bodyend="76" declfile="src/blockchain/impl/common.hpp" declline="38" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a72ab292d3fa6c14625356b54787d38d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -370,7 +370,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="24" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="24" bodyend="39" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="62" declcolumn="19"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="24" column="19" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="24" bodyend="39" declfile="src/blockchain/impl/storage_util.hpp" declline="62" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a3188966fc39fb0c1b0e1bc6b0235af48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt;</type>
@@ -424,7 +424,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="42" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="42" bodyend="48" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="75" declcolumn="19"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="42" column="19" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="42" bodyend="48" declfile="src/blockchain/impl/storage_util.hpp" declline="75" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1ac791bedcf43eee3eda2614fa9f973175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -446,7 +446,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
 <para><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> retval;</para>
 <para>Little endian for ( std::size_t i = 0; i &lt; sizeof(primitives::BlockNumber); ++i ) { retval.putUint8(static_cast&lt;uint8_t&gt;((n &gt;&gt; (i * 8)) &amp; 0xffu)) ; } return retval;</para>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="50" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="50" bodyend="74" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="87" declcolumn="16"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="50" column="16" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="50" bodyend="74" declfile="src/blockchain/impl/storage_util.hpp" declline="87" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1af9080210fd976de8ce559ae6ac63fea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -469,7 +469,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="76" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="76" bodyend="81" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="93" declcolumn="16"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="76" column="16" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="76" bodyend="81" declfile="src/blockchain/impl/storage_util.hpp" declline="93" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a90dacdf2ef655a2abdc41fb7f9d29bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1a4d41d58038f35d095940e2f3660d7381" kindref="member">primitives::BlockNumber</ref> &gt;</type>
@@ -488,7 +488,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="83" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="83" bodyend="107" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="99" declcolumn="19"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="83" column="19" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="83" bodyend="107" declfile="src/blockchain/impl/storage_util.hpp" declline="99" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a0cc1bcbfa6448f544ab785b0bcf44a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -530,7 +530,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="109" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="109" bodyend="115" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="49" declcolumn="16"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="109" column="16" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="109" bodyend="115" declfile="src/blockchain/impl/storage_util.hpp" declline="49" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a342d908db3d7971b1e6ef860b5fc0e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -549,7 +549,7 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" line="117" column="8" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.cpp" bodystart="117" bodyend="123" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/storage_util.hpp" declline="106" declcolumn="8"/>
+        <location file="src/blockchain/impl/storage_util.cpp" line="117" column="8" bodyfile="src/blockchain/impl/storage_util.cpp" bodystart="117" bodyend="123" declfile="src/blockchain/impl/storage_util.hpp" declline="106" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -557,6 +557,6 @@ storage::face::Readable&lt;base::Buffer, base::Buffer&gt;</definition>
     <detaileddescription>
 <para>Auxiliary functions to simplify usage of persistant map based storage as a <ref refid="de/da2/classsgns_1_1_blockchain" kindref="compound">Blockchain</ref> storage </para>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_header_repository.hpp" line="10" column="1"/>
+    <location file="src/blockchain/block_header_repository.hpp" line="10" column="1"/>
   </compounddef>
 </doxygen>

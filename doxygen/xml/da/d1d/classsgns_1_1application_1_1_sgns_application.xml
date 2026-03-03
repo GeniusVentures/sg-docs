@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/sgns_application.hpp" line="15" column="13"/>
+        <location file="src/application/sgns_application.hpp" line="15" column="13"/>
       </memberdef>
       <memberdef kind="function" id="da/d1d/classsgns_1_1application_1_1_sgns_application_1a2314654dc1f566607845a8ab5f427329" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/sgns_application.hpp" line="20" column="18"/>
+        <location file="src/application/sgns_application.hpp" line="20" column="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -84,7 +84,7 @@
         <link refid="da/d1d/classsgns_1_1application_1_1_sgns_application"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/sgns_application.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/sgns_application.hpp" bodystart="13" bodyend="21"/>
+    <location file="src/application/sgns_application.hpp" line="13" column="3" bodyfile="src/application/sgns_application.hpp" bodystart="13" bodyend="21"/>
     <listofallmembers>
       <member refid="da/d1d/classsgns_1_1application_1_1_sgns_application_1a2314654dc1f566607845a8ab5f427329" prot="public" virt="pure-virtual"><scope>sgns::application::SgnsApplication</scope><name>run</name></member>
       <member refid="da/d1d/classsgns_1_1application_1_1_sgns_application_1af6c814f3750d9dccbb78d2c653c3da36" prot="public" virt="virtual"><scope>sgns::application::SgnsApplication</scope><name>~SgnsApplication</name></member>

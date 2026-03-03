@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_0f6c1d22850ba89d47f4ccc2983f8e7e" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws</compoundname>
+    <compoundname>src/api/transport/impl/ws</compoundname>
     <innerfile refid="d7/da8/ws__client__impl_8cpp">ws_client_impl.cpp</innerfile>
     <innerfile refid="d7/d3e/ws__client__impl_8hpp">ws_client_impl.hpp</innerfile>
     <innerfile refid="db/d20/ws__listener__impl_8cpp">ws_listener_impl.cpp</innerfile>
@@ -12,6 +12,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/"/>
+    <location file="src/api/transport/impl/ws/"/>
   </compounddef>
 </doxygen>

@@ -40,7 +40,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.cpp</label>
+        <label>src/crypto/bip39/mnemonic.cpp</label>
         <link refid="d3/d73/mnemonic_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.cpp" line="106" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.cpp" bodystart="106" bodyend="113"/>
+        <location file="src/crypto/bip39/mnemonic.cpp" line="106" column="1" bodyfile="src/crypto/bip39/mnemonic.cpp" bodystart="106" bodyend="113"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -251,6 +251,6 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>MnemonicError&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/mnemonic.cpp"/>
+    <location file="src/crypto/bip39/mnemonic.cpp"/>
   </compounddef>
 </doxygen>

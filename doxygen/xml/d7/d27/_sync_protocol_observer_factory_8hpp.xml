@@ -3,10 +3,10 @@
   <compounddef id="d7/d27/_sync_protocol_observer_factory_8hpp" kind="file" language="C++">
     <compoundname>SyncProtocolObserverFactory.hpp</compoundname>
     <includes local="yes">network/impl/sync_protocol_observer_impl.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SyncProtocolObserverFactory.hpp</label>
+        <label>app/integration/SyncProtocolObserverFactory.hpp</label>
         <link refid="d7/d27/_sync_protocol_observer_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -17,13 +17,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SyncProtocolObserverFactory.hpp</label>
+        <label>app/integration/SyncProtocolObserverFactory.hpp</label>
         <link refid="d7/d27/_sync_protocol_observer_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -77,6 +77,6 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SyncProtocolObserverFactory.hpp"/>
+    <location file="app/integration/SyncProtocolObserverFactory.hpp"/>
   </compounddef>
 </doxygen>

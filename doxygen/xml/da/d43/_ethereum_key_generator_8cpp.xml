@@ -75,7 +75,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp</label>
+        <label>ProofSystem/src/EthereumKeyGenerator.cpp</label>
         <link refid="da/d43/_ethereum_key_generator_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="47" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="54" bodyend="69"/>
+        <location file="ProofSystem/src/EthereumKeyGenerator.cpp" line="47" column="21" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="54" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="71" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="72" bodyend="86"/>
+        <location file="ProofSystem/src/EthereumKeyGenerator.cpp" line="71" column="5" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="72" bodyend="86"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -319,6 +319,6 @@
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp"/>
+    <location file="ProofSystem/src/EthereumKeyGenerator.cpp"/>
   </compounddef>
 </doxygen>

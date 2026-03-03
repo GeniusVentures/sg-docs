@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="28" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="28" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="28" column="16" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d83/classsgns_1_1_android_secure_storage_1ac34be7785ec5c795577de8b2c4fcefc5" prot="private" static="no" mutable="no">
         <type>jclass</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="29" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="29" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="29" column="17" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d83/classsgns_1_1_android_secure_storage_1a408034922d9c6e73363f9063265184de" prot="private" static="no" mutable="no">
         <type>jmethodID</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="31" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="31" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="31" column="19" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d83/classsgns_1_1_android_secure_storage_1aba7773ebbed2be947bc4630126df08e0" prot="private" static="no" mutable="no">
         <type>jmethodID</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="32" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="32" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="32" column="19" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d83/classsgns_1_1_android_secure_storage_1a8b5e5a3a1c61bf22784cbed06f611223" prot="private" static="no" mutable="no">
         <type>jmethodID</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="33" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="33" bodyend="-1"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="33" column="19" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="12" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="42" bodyend="82"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="12" column="18" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="42" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="d5/d83/classsgns_1_1_android_secure_storage_1afdac784a393c600c9fc90016d8e932ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="14" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="84" bodyend="95"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="14" column="9" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="84" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="d5/d83/classsgns_1_1_android_secure_storage_1a43ba4764dc2432caaa1ce52aa75ee19e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="16" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="16" bodyend="19"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="16" column="21" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="16" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="d5/d83/classsgns_1_1_android_secure_storage_1a1a855c2314c40dbe447d53cf4f5f4140" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; rapidjson::Document &gt;</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="21" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="97" bodyend="141"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="21" column="25" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="97" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="d5/d83/classsgns_1_1_android_secure_storage_1a48a47b909539147f6ddb36c45d906ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="23" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="143" bodyend="182"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="23" column="25" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="143" bodyend="182"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="26" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp" bodystart="184" bodyend="205"/>
+        <location file="src/local_secure_storage/impl/Android.hpp" line="26" column="16" bodyfile="src/local_secure_storage/impl/Android.cpp" bodystart="184" bodyend="205"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -242,7 +242,7 @@
         <label>std::enable_shared_from_this&lt; ISecureStorage &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" line="9" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp" bodystart="10" bodyend="34"/>
+    <location file="src/local_secure_storage/impl/Android.hpp" line="9" column="5" bodyfile="src/local_secure_storage/impl/Android.hpp" bodystart="10" bodyend="34"/>
     <listofallmembers>
       <member refid="d5/d83/classsgns_1_1_android_secure_storage_1a66d7a764a65b2e8697ed648d9ef8e417" prot="public" virt="non-virtual"><scope>sgns::AndroidSecureStorage</scope><name>AndroidSecureStorage</name></member>
       <member refid="d5/d83/classsgns_1_1_android_secure_storage_1a8b5e5a3a1c61bf22784cbed06f611223" prot="private" virt="non-virtual"><scope>sgns::AndroidSecureStorage</scope><name>delete_method_</name></member>

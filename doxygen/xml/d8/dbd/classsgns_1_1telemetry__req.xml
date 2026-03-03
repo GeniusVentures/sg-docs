@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="383" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1074" bodyend="1077"/>
+        <location file="node/common.hpp" line="383" column="1" bodyfile="node/common.cpp" bodystart="1074" bodyend="1077"/>
       </memberdef>
       <memberdef kind="function" id="d8/dbd/classsgns_1_1telemetry__req_1ab7aa12a6e2b84ac6c08f75b6a5a00e55" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="384" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1079" bodyend="1082"/>
+        <location file="node/common.hpp" line="384" column="10" bodyfile="node/common.cpp" bodystart="1079" bodyend="1082"/>
       </memberdef>
       <memberdef kind="function" id="d8/dbd/classsgns_1_1telemetry__req_1a67e6d2544a1a5ab4ad5399f12c7366fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="385" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1090" bodyend="1093"/>
+        <location file="node/common.hpp" line="385" column="6" bodyfile="node/common.cpp" bodystart="1090" bodyend="1093"/>
       </memberdef>
       <memberdef kind="function" id="d8/dbd/classsgns_1_1telemetry__req_1a46d64059c980c5b50813b8a61a2abc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="386" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1084" bodyend="1088"/>
+        <location file="node/common.hpp" line="386" column="6" bodyfile="node/common.cpp" bodystart="1084" bodyend="1088"/>
       </memberdef>
       <memberdef kind="function" id="d8/dbd/classsgns_1_1telemetry__req_1a53ee14227af3acecec0266bbd7dae9ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="387" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1095" bodyend="1098"/>
+        <location file="node/common.hpp" line="387" column="6" bodyfile="node/common.cpp" bodystart="1095" bodyend="1098"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -147,7 +147,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="380" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="381" bodyend="388"/>
+    <location file="node/common.hpp" line="380" column="1" bodyfile="node/common.hpp" bodystart="381" bodyend="388"/>
     <listofallmembers>
       <member refid="d8/dbd/classsgns_1_1telemetry__req_1a46d64059c980c5b50813b8a61a2abc16" prot="public" virt="non-virtual"><scope>sgns::telemetry_req</scope><name>deserialize</name></member>
       <member refid="db/da6/classsgns_1_1message_1abc0de834dc846d1d86110caec8a4b7db" prot="public" virt="non-virtual"><scope>sgns::telemetry_req</scope><name>header</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="15" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="15" column="5" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="38" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="38" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a86835bf2c465b218e4cd43c47c8eb0b6" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d8/dcd/classsgns_1_1storage_1_1trie_1_1_trie_serializer" kindref="compound">TrieSerializer</ref> &gt;</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="39" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="39" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a2649c400f07c0dc750fed3d1548a5e93" prot="private" static="no" mutable="no">
         <type>boost::optional&lt; std::shared_ptr&lt; <ref refid="d4/d01/classsgns_1_1storage_1_1changes__trie_1_1_changes_tracker" kindref="compound">changes_trie::ChangesTracker</ref> &gt; &gt;</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="40" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="40" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a944f375e7cae4aa03888a5945fe5ca41" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie" kindref="compound">SuperGeniusTrie</ref> &gt;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="41" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="41" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="41" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a346e271aba4482f5f1c95f9d909e490c" prot="private" static="no" mutable="no">
         <type><ref refid="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1aae5db2831febbdff22e8884cf5150401" kindref="member">RootChangedEventHandler</ref></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="42" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="42" bodyend="-1"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="42" column="29" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="19" bodyend="45"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="17" column="5" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="19" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1ae76cc7d9edeb709fceafb8d212e795b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="23" column="5"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="23" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a9c7e947b63951d35327942d3b488ee08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt;</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="25" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="47" bodyend="51"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="25" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="47" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1aec92bdfe519553706a3f47fd7a065dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d2/d7a/classsgns_1_1storage_1_1trie_1_1_topper_trie_batch" kindref="compound">TopperTrieBatch</ref> &gt;</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="26" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="53" bodyend="55"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="26" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="53" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a6870a20efd581632ee1f6bf031c0f342" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt;</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="28" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="57" bodyend="60"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="28" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a67e8d0cf66f03dcc9c4f2815d57d5ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d0/dbf/namespacesgns_1_1storage_1af3943c7b4511cc2ca91cfcac7f94fac3" kindref="member">BufferMapCursor</ref> &gt;</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="29" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="62" bodyend="64"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="29" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="62" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a6e1bf96c765bd1009f95c8ff4b49dffb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -256,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="30" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="66" bodyend="68"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="30" column="10" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="66" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a94168acb03daeef6cb889ee49c0bb76c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="31" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="70" bodyend="72"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="31" column="10" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="70" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a6cedd358357eb0f89acebe2b5c90e0ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="32" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="74" bodyend="78"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="32" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="74" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a4963f2832b0765f607a4bf8418c02155" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -336,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="33" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="80" bodyend="83"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="33" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1aff0d88e618ff0c2b701ae174372a801b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -358,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="34" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="85" bodyend="93"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="34" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="85" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a7b833dbee413838243003052e75d4f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -390,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="35" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="95" bodyend="101"/>
+        <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="35" column="21" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.cpp" bodystart="95" bodyend="101"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -673,7 +673,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="13" bodyend="43"/>
+    <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp" line="13" column="3" bodyfile="src/storage/trie/impl/persistent_trie_batch_impl.hpp" bodystart="13" bodyend="43"/>
     <listofallmembers>
       <member refid="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1aec92bdfe519553706a3f47fd7a065dfd" prot="public" virt="virtual"><scope>sgns::storage::trie::PersistentTrieBatchImpl</scope><name>batchOnTop</name></member>
       <member refid="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a2649c400f07c0dc750fed3d1548a5e93" prot="private" virt="non-virtual"><scope>sgns::storage::trie::PersistentTrieBatchImpl</scope><name>changes_</name></member>

@@ -14,7 +14,7 @@
         <link refid="d9/d91/structsgns_1_1primitives_1_1parachain_1_1_relay"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/parachain_host.hpp" line="27" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/parachain_host.hpp" bodystart="27" bodyend="27"/>
+    <location file="src/primitives/parachain_host.hpp" line="27" column="3" bodyfile="src/primitives/parachain_host.hpp" bodystart="27" bodyend="27"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

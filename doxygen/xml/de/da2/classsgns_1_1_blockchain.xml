@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="42" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="43" bodyend="56"/>
+        <location file="src/blockchain/Blockchain.hpp" line="42" column="9" bodyfile="src/blockchain/Blockchain.hpp" bodystart="43" bodyend="56"/>
       </memberdef>
       <memberdef kind="typedef" id="de/da2/classsgns_1_1_blockchain_1a33656a69def2abe777a01e68e7aeaff5" prot="public" static="no">
         <type>std::function&lt; void(outcome::result&lt; void &gt;)&gt;</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="59" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="59" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="59" column="9" bodyfile="src/blockchain/Blockchain.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="110" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="110" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="110" column="22" bodyfile="src/blockchain/Blockchain.hpp" bodystart="110" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="153" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="153" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="154" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a7633e5f8f427a29a06be03cc9a55be66" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="155" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="155" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="156" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a96fd8f9e3a0941b5bd42637b5e1a08ee" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="157" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="157" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="158" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1afe152e4594a2238e0b22e989f31d4f24" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="158" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="158" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="159" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a7adbb0fdce2c282cad07638198d66910" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -227,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="159" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="159" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="160" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a6f5441e01ca24cd78dcbf8117536df98" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="160" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="160" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="161" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a4184b2ea73368b79aea02025126b7317" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="161" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="161" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="162" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1adaedbc397a91c146f20e6282e9f36165" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="162" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="162" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="163" column="43" bodyfile="src/blockchain/Blockchain.hpp" bodystart="163" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="164" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="164" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="165" column="25" bodyfile="src/blockchain/Blockchain.hpp" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a772437373fd20bec1dadf8e29c100aa7" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account" kindref="compound">GeniusAccount</ref> &gt;</type>
@@ -304,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="165" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="165" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="166" column="26" bodyfile="src/blockchain/Blockchain.hpp" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a6bb517e91b8577b6a1e039d63155b975" prot="private" static="no" mutable="no">
         <type><ref refid="de/da2/classsgns_1_1_blockchain_1a33656a69def2abe777a01e68e7aeaff5" kindref="member">BlockchainCallback</ref></type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="167" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="167" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="168" column="28" bodyfile="src/blockchain/Blockchain.hpp" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a236553ec01dd92c93f14693a11fefd7e" prot="private" static="no" mutable="no">
         <type>sgns::blockchain::GenesisBlock</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="168" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="168" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="169" column="48" bodyfile="src/blockchain/Blockchain.hpp" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a5e038efa62268d52314dfc1514725a6e" prot="private" static="no" mutable="no">
         <type>sgns::blockchain::AccountCreationBlock</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="169" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="169" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="170" column="48" bodyfile="src/blockchain/Blockchain.hpp" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a751beaf30ef0261e3383f84cc1c23006" prot="private" static="no" mutable="no">
         <type><ref refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds" kindref="compound">BlockchainCIDs</ref></type>
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="197" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="197" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="198" column="24" bodyfile="src/blockchain/Blockchain.hpp" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a6a6b01e9e24f372f74c13f48b030fd66" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry" kindref="compound">blockchain::ValidatorRegistry</ref> &gt;</type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="201" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="201" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="202" column="25" bodyfile="src/blockchain/Blockchain.hpp" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1acc4ccb0ddc07f994ce01ac336caa940f" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -393,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="203" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="203" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="204" column="22" bodyfile="src/blockchain/Blockchain.hpp" bodystart="204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a497891bc413225489c8787980f99ef9c" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -408,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="205" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="205" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="206" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="206" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a2abab3423051c4e3e1bf3bca5c5180ec" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -423,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="206" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="206" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="207" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="207" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1ac9e38c9ca0ee5b7a473daa66b18a110d" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -438,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="207" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="207" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="208" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="208" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a518bc4f18aa150cb08679fab1cf06444" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -453,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="208" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="208" bodyend="208"/>
+        <location file="src/blockchain/Blockchain.hpp" line="209" column="21" bodyfile="src/blockchain/Blockchain.hpp" bodystart="209" bodyend="209"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a5354afc30074282ae5ab899e8c5c97f8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -468,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="209" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="209" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="210" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="210" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/da2/classsgns_1_1_blockchain_1a69dc130ff048080b1838fd757aa7cce8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="210" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="210" bodyend="-1"/>
+        <location file="src/blockchain/Blockchain.hpp" line="211" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="211" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -540,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="68" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="64" bodyend="211"/>
+        <location file="src/blockchain/Blockchain.hpp" line="68" column="32" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="66" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1af8a8013dbc62911b05a5eba4e912ba07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -569,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="96" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="307" bodyend="315"/>
+        <location file="src/blockchain/Blockchain.hpp" line="96" column="21" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="309" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a83fea53318aa2cb00403d798166fc3b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -587,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="102" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="317" bodyend="320"/>
+        <location file="src/blockchain/Blockchain.hpp" line="102" column="34" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="319" bodyend="322"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -603,7 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="72" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="301" bodyend="305"/>
+        <location file="src/blockchain/Blockchain.hpp" line="72" column="9" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="303" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a4fba963688673e18232bf167f909c67e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -618,7 +618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="77" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="322" bodyend="488"/>
+        <location file="src/blockchain/Blockchain.hpp" line="77" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="324" bodyend="480"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a45e8c0944de358804eee5b95834e5b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -632,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="78" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1376" bodyend="1381"/>
+        <location file="src/blockchain/Blockchain.hpp" line="78" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1369" bodyend="1374"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1af3ff0b0c7eabf1ea88b5369bd6bea192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -661,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="84" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="586" bodyend="607"/>
+        <location file="src/blockchain/Blockchain.hpp" line="84" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="578" bodyend="599"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a756a34bcc7ddd7b68673ba66ca27d777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -690,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="90" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1093" bodyend="1113"/>
+        <location file="src/blockchain/Blockchain.hpp" line="90" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1086" bodyend="1106"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ac017bd98d6966eb3c95b7f0c5ed4245a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -704,7 +704,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="104" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1471" bodyend="1480"/>
+        <location file="src/blockchain/Blockchain.hpp" line="104" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1461" bodyend="1470"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ae3d4219072806c364ae927210230babf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -718,7 +718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="105" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1482" bodyend="1492"/>
+        <location file="src/blockchain/Blockchain.hpp" line="105" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1472" bodyend="1482"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a58db4e8afc7025bd128cd91596572ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="107" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1494" bodyend="1498"/>
+        <location file="src/blockchain/Blockchain.hpp" line="107" column="14" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1484" bodyend="1488"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-func">
@@ -756,7 +756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="112" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="213" bodyend="288"/>
+        <location file="src/blockchain/Blockchain.hpp" line="112" column="32" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="215" bodyend="290"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -785,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="117" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="291" bodyend="299"/>
+        <location file="src/blockchain/Blockchain.hpp" line="117" column="9" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="293" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ac60e506dab1008d19e914eda526e52a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -799,7 +799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="121" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="490" bodyend="501"/>
+        <location file="src/blockchain/Blockchain.hpp" line="121" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="482" bodyend="493"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1af3ba4f39528fc861341bcbed1c203a1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -817,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="122" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="522" bodyend="538"/>
+        <location file="src/blockchain/Blockchain.hpp" line="122" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="514" bodyend="530"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a506c5f656381e74bf1a4a2a4178b069e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -835,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="123" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="540" bodyend="559"/>
+        <location file="src/blockchain/Blockchain.hpp" line="123" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="532" bodyend="551"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1abbd83fd4642b7e62e13ae401920f3d2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -857,12 +857,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="124" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="561" bodyend="584"/>
+        <location file="src/blockchain/Blockchain.hpp" line="124" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="553" bodyend="576"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a29bebc94373f5b1a2ddbe25d957bccf8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a65a93e0bad4964b7cbd32ddf9eaa0ec9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
         <definition>std::vector&lt; uint8_t &gt; sgns::Blockchain::ComputeSignatureData</definition>
-        <argsstring>(const sgns::blockchain::GenesisBlock &amp;g)</argsstring>
+        <argsstring>(const sgns::blockchain::GenesisBlock &amp;g) const</argsstring>
         <name>ComputeSignatureData</name>
         <qualifiedname>sgns::Blockchain::ComputeSignatureData</qualifiedname>
         <param>
@@ -875,12 +875,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="126" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="934" bodyend="951"/>
+        <location file="src/blockchain/Blockchain.hpp" line="126" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a55c744c1bbfd5d8fc722ebf6810b434f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1aec7915ea11663d7f1f303bbbd742e157" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
         <definition>std::vector&lt; uint8_t &gt; sgns::Blockchain::ComputeSignatureData</definition>
-        <argsstring>(const sgns::blockchain::AccountCreationBlock &amp;ac)</argsstring>
+        <argsstring>(const sgns::blockchain::AccountCreationBlock &amp;ac) const</argsstring>
         <name>ComputeSignatureData</name>
         <qualifiedname>sgns::Blockchain::ComputeSignatureData</qualifiedname>
         <param>
@@ -893,12 +893,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="127" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="953" bodyend="964"/>
+        <location file="src/blockchain/Blockchain.hpp" line="127" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a54fd94a01cf77d23131e843ea158c039" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a49201ce027795dd179d7e32512f4932f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool sgns::Blockchain::VerifySignature</definition>
-        <argsstring>(const sgns::blockchain::GenesisBlock &amp;g)</argsstring>
+        <argsstring>(const sgns::blockchain::GenesisBlock &amp;g) const</argsstring>
         <name>VerifySignature</name>
         <qualifiedname>sgns::Blockchain::VerifySignature</qualifiedname>
         <param>
@@ -911,12 +911,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="128" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="966" bodyend="998"/>
+        <location file="src/blockchain/Blockchain.hpp" line="128" column="30"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1abb4d8b9da8f4c5bdee1dfc52f899f609" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a3964bead631e153d51909689b8da6331" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool sgns::Blockchain::VerifySignature</definition>
-        <argsstring>(const sgns::blockchain::AccountCreationBlock &amp;ac)</argsstring>
+        <argsstring>(const sgns::blockchain::AccountCreationBlock &amp;ac) const</argsstring>
         <name>VerifySignature</name>
         <qualifiedname>sgns::Blockchain::VerifySignature</qualifiedname>
         <param>
@@ -929,7 +929,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="129" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1000" bodyend="1033"/>
+        <location file="src/blockchain/Blockchain.hpp" line="129" column="30"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ab4b2f4ae2b0d7de9cdb66eb3d013d631" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -943,7 +943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="131" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="796" bodyend="888"/>
+        <location file="src/blockchain/Blockchain.hpp" line="131" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="789" bodyend="881"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a8c9a91a218d5f3e9e0267e33d0957d2f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -961,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="132" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="890" bodyend="932"/>
+        <location file="src/blockchain/Blockchain.hpp" line="132" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="883" bodyend="925"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1afad46c5521835c5226a6d3d61e5e4f74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -975,7 +975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="134" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1035" bodyend="1091"/>
+        <location file="src/blockchain/Blockchain.hpp" line="134" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1028" bodyend="1084"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1aa065ef7e2d45ff74625b9aad38077592" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -993,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="135" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1115" bodyend="1162"/>
+        <location file="src/blockchain/Blockchain.hpp" line="135" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1108" bodyend="1155"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a13786ce7b696b968ebf604ad82f80fa9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -1011,7 +1011,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="137" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1164" bodyend="1244"/>
+        <location file="src/blockchain/Blockchain.hpp" line="137" column="23" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1157" bodyend="1237"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a4ee7664f9626b11c4aa2789f17b3978f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -1029,60 +1029,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="138" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1246" bodyend="1354"/>
+        <location file="src/blockchain/Blockchain.hpp" line="138" column="23" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1239" bodyend="1347"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a189805704ad765d8f88cfdd5ae5adc67" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool sgns::Blockchain::ShouldReplaceGenesis</definition>
-        <argsstring>(const sgns::blockchain::GenesisBlock &amp;existing, const sgns::blockchain::GenesisBlock &amp;candidate) const</argsstring>
-        <name>ShouldReplaceGenesis</name>
-        <qualifiedname>sgns::Blockchain::ShouldReplaceGenesis</qualifiedname>
-        <param>
-          <type>const sgns::blockchain::GenesisBlock &amp;</type>
-          <declname>existing</declname>
-        </param>
-        <param>
-          <type>const sgns::blockchain::GenesisBlock &amp;</type>
-          <declname>candidate</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="139" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1356" bodyend="1364"/>
-      </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1af456a6d11355d7d4b0267e0d5af1c987" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool sgns::Blockchain::ShouldReplaceAccountCreation</definition>
-        <argsstring>(const sgns::blockchain::AccountCreationBlock &amp;existing, const sgns::blockchain::AccountCreationBlock &amp;candidate) const</argsstring>
-        <name>ShouldReplaceAccountCreation</name>
-        <qualifiedname>sgns::Blockchain::ShouldReplaceAccountCreation</qualifiedname>
-        <param>
-          <type>const sgns::blockchain::AccountCreationBlock &amp;</type>
-          <declname>existing</declname>
-        </param>
-        <param>
-          <type>const sgns::blockchain::AccountCreationBlock &amp;</type>
-          <declname>candidate</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="141" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1366" bodyend="1374"/>
-      </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a6df223aa19817fcbafca84ea4d16b442" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ac7a507f90b95aa9b070774d14ba18c17" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sgns::Blockchain::GenesisReceivedCallback</definition>
-        <argsstring>(crdt::CRDTCallbackManager::NewDataPair new_data, const std::string &amp;cid)</argsstring>
+        <argsstring>(const crdt::CRDTCallbackManager::NewDataPair &amp;new_data, const std::string &amp;cid)</argsstring>
         <name>GenesisReceivedCallback</name>
         <qualifiedname>sgns::Blockchain::GenesisReceivedCallback</qualifiedname>
         <param>
-          <type><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref></type>
+          <type>const <ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref> &amp;</type>
           <declname>new_data</declname>
         </param>
         <param>
@@ -1095,16 +1051,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="144" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="730" bodyend="794"/>
+        <location file="src/blockchain/Blockchain.hpp" line="145" column="14" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="722" bodyend="787"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a8735226820eedd9f3782bc7dd5ced46a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a2d0765be32f7f550dab9e5b67fa8201f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void sgns::Blockchain::AccountCreationReceivedCallback</definition>
-        <argsstring>(crdt::CRDTCallbackManager::NewDataPair new_data, const std::string &amp;cid)</argsstring>
+        <argsstring>(const crdt::CRDTCallbackManager::NewDataPair &amp;new_data, const std::string &amp;cid)</argsstring>
         <name>AccountCreationReceivedCallback</name>
         <qualifiedname>sgns::Blockchain::AccountCreationReceivedCallback</qualifiedname>
         <param>
-          <type><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref></type>
+          <type>const <ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref> &amp;</type>
           <declname>new_data</declname>
         </param>
         <param>
@@ -1117,12 +1073,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="145" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="1383" bodyend="1469"/>
+        <location file="src/blockchain/Blockchain.hpp" line="146" column="14" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1376" bodyend="1459"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a17291daa8d98578d824a19d3b74da1f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a1256dea60b2da9339a4f5218f6fde6fa" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
         <definition>outcome::result&lt; void &gt; sgns::Blockchain::InformBlockchainResult</definition>
-        <argsstring>(outcome::result&lt; void &gt; result)</argsstring>
+        <argsstring>(outcome::result&lt; void &gt; result) const</argsstring>
         <name>InformBlockchainResult</name>
         <qualifiedname>sgns::Blockchain::InformBlockchainResult</qualifiedname>
         <param>
@@ -1135,7 +1091,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="146" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="609" bodyend="619"/>
+        <location file="src/blockchain/Blockchain.hpp" line="147" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="601" bodyend="611"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a546133dcb2313b865a4cf18b376abded" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1153,7 +1109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="147" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="621" bodyend="636"/>
+        <location file="src/blockchain/Blockchain.hpp" line="148" column="31" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="613" bodyend="628"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a119563452d3ff8709b379c854bd6d92f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1171,7 +1127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="148" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="638" bodyend="656"/>
+        <location file="src/blockchain/Blockchain.hpp" line="149" column="31" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="630" bodyend="648"/>
       </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a90ca30245496e1004fe713b70cb9fe04" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1197,12 +1153,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="149" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="658" bodyend="728"/>
+        <location file="src/blockchain/Blockchain.hpp" line="150" column="31" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="650" bodyend="720"/>
       </memberdef>
-      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a065c70d60384443db8c342b20d412599" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1ad39bdf0a5937ce56742cb96e483e94d3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
         <definition>outcome::result&lt; void &gt; sgns::Blockchain::EnsureValidatorRegistry</definition>
-        <argsstring>()</argsstring>
+        <argsstring>() const</argsstring>
         <name>EnsureValidatorRegistry</name>
         <qualifiedname>sgns::Blockchain::EnsureValidatorRegistry</qualifiedname>
         <briefdescription>
@@ -1211,10 +1167,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="150" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="503" bodyend="520"/>
+        <location file="src/blockchain/Blockchain.hpp" line="151" column="25" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="495" bodyend="512"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a768544609e6a5e9fce4dfda6c5f2c0d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sgns::Blockchain::ShouldReplaceGenesis</definition>
+        <argsstring>(const blockchain::GenesisBlock &amp;existing, const blockchain::GenesisBlock &amp;candidate)</argsstring>
+        <name>ShouldReplaceGenesis</name>
+        <qualifiedname>sgns::Blockchain::ShouldReplaceGenesis</qualifiedname>
+        <param>
+          <type>const blockchain::GenesisBlock &amp;</type>
+          <declname>existing</declname>
+        </param>
+        <param>
+          <type>const blockchain::GenesisBlock &amp;</type>
+          <declname>candidate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/blockchain/Blockchain.hpp" line="140" column="21" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1349" bodyend="1357"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a7701c102b23de8b498924b04b9b73bda" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool sgns::Blockchain::ShouldReplaceAccountCreation</definition>
+        <argsstring>(const blockchain::AccountCreationBlock &amp;existing, const blockchain::AccountCreationBlock &amp;candidate)</argsstring>
+        <name>ShouldReplaceAccountCreation</name>
+        <qualifiedname>sgns::Blockchain::ShouldReplaceAccountCreation</qualifiedname>
+        <param>
+          <type>const blockchain::AccountCreationBlock &amp;</type>
+          <declname>existing</declname>
+        </param>
+        <param>
+          <type>const blockchain::AccountCreationBlock &amp;</type>
+          <declname>candidate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/blockchain/Blockchain.hpp" line="142" column="21" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="1359" bodyend="1367"/>
+      </memberdef>
       <memberdef kind="function" id="de/da2/classsgns_1_1_blockchain_1a406aef94ec64802d67514952d8a67397" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string &amp;</type>
         <definition>std::string &amp; sgns::Blockchain::AuthorizedFullNodeAddressStorage</definition>
@@ -1227,7 +1227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="199" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp" bodystart="58" bodyend="62"/>
+        <location file="src/blockchain/Blockchain.hpp" line="200" column="28" bodyfile="src/blockchain/impl/Blockchain.cpp" bodystart="60" bodyend="64"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2729,14 +2729,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="36" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="37" bodyend="211"/>
+    <location file="src/blockchain/Blockchain.hpp" line="36" column="5" bodyfile="src/blockchain/Blockchain.hpp" bodystart="37" bodyend="212"/>
     <listofallmembers>
       <member refid="de/da2/classsgns_1_1_blockchain_1a772437373fd20bec1dadf8e29c100aa7" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>account_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a5e038efa62268d52314dfc1514725a6e" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>account_creation_block_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a6f5441e01ca24cd78dcbf8117536df98" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ACCOUNT_CREATION_CID_KEY_PREFIX</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a7adbb0fdce2c282cad07638198d66910" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ACCOUNT_CREATION_KEY_PREFIX</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a69dc130ff048080b1838fd757aa7cce8" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>account_creation_ready_</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a8735226820eedd9f3782bc7dd5ced46a" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>AccountCreationReceivedCallback</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a2d0765be32f7f550dab9e5b67fa8201f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>AccountCreationReceivedCallback</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a406aef94ec64802d67514952d8a67397" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>AuthorizedFullNodeAddressStorage</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a953ef50eb58201ac2090901aacbe5888" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>Blockchain</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a6bb517e91b8577b6a1e039d63155b975" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>blockchain_processed_callback_</name></member>
@@ -2744,14 +2744,14 @@
       <member refid="de/da2/classsgns_1_1_blockchain_1a33656a69def2abe777a01e68e7aeaff5" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>BlockchainCallback</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1ac9e38c9ca0ee5b7a473daa66b18a110d" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>callbacks_registered_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a751beaf30ef0261e3383f84cc1c23006" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>cids_</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a29bebc94373f5b1a2ddbe25d957bccf8" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ComputeSignatureData</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a55c744c1bbfd5d8fc722ebf6810b434f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ComputeSignatureData</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a65a93e0bad4964b7cbd32ddf9eaa0ec9" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ComputeSignatureData</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1aec7915ea11663d7f1f303bbbd742e157" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ComputeSignatureData</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1afad46c5521835c5226a6d3d61e5e4f74" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>CreateAccountCreationBlock</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a497891bc413225489c8787980f99ef9c" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>created_successfully_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1ab4b2f4ae2b0d7de9cdb66eb3d013d631" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>CreateGenesisBlock</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a9892fa0578137577a439f0d304aed8b7" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>db_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a7633e5f8f427a29a06be03cc9a55be66" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>DEFAULT_FULL_NODE_PUB_ADDRESS</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a065c70d60384443db8c342b20d412599" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>EnsureValidatorRegistry</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1ad39bdf0a5937ce56742cb96e483e94d3" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>EnsureValidatorRegistry</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a7b8175cc61ed4169a90cf44993ab000e" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>Error</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a4ee7664f9626b11c4aa2789f17b3978f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>FilterAccountCreation</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a13786ce7b696b968ebf604ad82f80fa9" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>FilterGenesis</name></member>
@@ -2760,12 +2760,12 @@
       <member refid="de/da2/classsgns_1_1_blockchain_1afe152e4594a2238e0b22e989f31d4f24" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GENESIS_CID_KEY</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a96fd8f9e3a0941b5bd42637b5e1a08ee" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GENESIS_KEY</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a5354afc30074282ae5ab899e8c5c97f8" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>genesis_ready_</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a6df223aa19817fcbafca84ea4d16b442" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GenesisReceivedCallback</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1ac7a507f90b95aa9b070774d14ba18c17" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GenesisReceivedCallback</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1ae3d4219072806c364ae927210230babf" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GetAccountCreationCID</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a83fea53318aa2cb00403d798166fc3b1" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GetAuthorizedFullNodeAddress</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1ac017bd98d6966eb3c95b7f0c5ed4245a" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>GetGenesisCID</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a119563452d3ff8709b379c854bd6d92f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InformAccountCreationResponse</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a17291daa8d98578d824a19d3b74da1f5" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InformBlockchainResult</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a1256dea60b2da9339a4f5218f6fde6fa" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InformBlockchainResult</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a546133dcb2313b865a4cf18b376abded" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InformGenesisResult</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1af3ba4f39528fc861341bcbed1c203a1d" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InitAccountCreationCID</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1ac60e506dab1008d19e914eda526e52a8" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>InitGenesisCID</name></member>
@@ -2779,8 +2779,8 @@
       <member refid="de/da2/classsgns_1_1_blockchain_1a506c5f656381e74bf1a4a2a4178b069e" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>SaveGenesisCID</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1af8a8013dbc62911b05a5eba4e912ba07" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>SetAuthorizedFullNodeAddress</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a58db4e8afc7025bd128cd91596572ae3" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>SetFullNodeMode</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1af456a6d11355d7d4b0267e0d5af1c987" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ShouldReplaceAccountCreation</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a189805704ad765d8f88cfdd5ae5adc67" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ShouldReplaceGenesis</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a7701c102b23de8b498924b04b9b73bda" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ShouldReplaceAccountCreation</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a768544609e6a5e9fce4dfda6c5f2c0d6" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>ShouldReplaceGenesis</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a4fba963688673e18232bf167f909c67e" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>Start</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a45e8c0944de358804eee5b95834e5b18" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>Stop</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1adaedbc397a91c146f20e6282e9f36165" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>TIMEOUT_ACC_CREATION_BLOCK_MS</name></member>
@@ -2789,8 +2789,8 @@
       <member refid="de/da2/classsgns_1_1_blockchain_1a518bc4f18aa150cb08679fab1cf06444" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>validator_registry_initialized_</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1aa065ef7e2d45ff74625b9aad38077592" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifyAccountCreationBlock</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a8c9a91a218d5f3e9e0267e33d0957d2f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifyGenesisBlock</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1a54fd94a01cf77d23131e843ea158c039" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifySignature</name></member>
-      <member refid="de/da2/classsgns_1_1_blockchain_1abb4d8b9da8f4c5bdee1dfc52f899f609" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifySignature</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a49201ce027795dd179d7e32512f4932f" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifySignature</name></member>
+      <member refid="de/da2/classsgns_1_1_blockchain_1a3964bead631e153d51909689b8da6331" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>VerifySignature</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a90ca30245496e1004fe713b70cb9fe04" prot="private" virt="non-virtual"><scope>sgns::Blockchain</scope><name>WatchCIDDownload</name></member>
       <member refid="de/da2/classsgns_1_1_blockchain_1a3c392f455a2d252808f52d2727983299" prot="public" virt="non-virtual"><scope>sgns::Blockchain</scope><name>~Blockchain</name></member>
     </listofallmembers>

@@ -8,9 +8,9 @@
     <includes local="no">cstdio</includes>
     <includes local="no">memory</includes>
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
-    <includedby refid="df/dae/_app_configuration_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp</includedby>
-    <includedby refid="d5/df0/app__delegate_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.cpp</includedby>
-    <includedby refid="da/de2/app__config__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp</includedby>
+    <includedby refid="df/dae/_app_configuration_factory_8hpp" local="yes">app/integration/AppConfigurationFactory.hpp</includedby>
+    <includedby refid="d5/df0/app__delegate_8cpp" local="yes">node/app_delegate.cpp</includedby>
+    <includedby refid="da/de2/app__config__impl_8cpp" local="yes">src/application/impl/app_config_impl.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>application/app_config.hpp</label>
@@ -25,7 +25,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp</label>
+        <label>src/application/impl/app_config_impl.hpp</label>
         <link refid="d3/d0d/app__config__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -75,25 +75,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp</label>
+        <label>app/SuperGeniusDemoApp.cpp</label>
         <link refid="dd/d41/_super_genius_demo_app_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp</label>
+        <label>app/integration/AppConfigurationFactory.hpp</label>
         <link refid="df/dae/_app_configuration_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.cpp</label>
+        <label>node/app_delegate.cpp</label>
         <link refid="d5/df0/app__delegate_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.cpp</label>
+        <label>src/application/impl/app_config_impl.cpp</label>
         <link refid="da/de2/app__config__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp</label>
+        <label>src/application/impl/app_config_impl.hpp</label>
         <link refid="d3/d0d/app__config__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="6" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="6" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="6" column="9" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d3/d0d/app__config__impl_8hpp_1ae233d22fe0713721915edf26be2090f6" prot="public" static="no">
         <name>DECLARE_PROPERTY</name>
@@ -139,7 +139,7 @@ public:                                                                       \
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="22" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="22" bodyend="32"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="22" column="9" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="22" bodyend="32"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -155,7 +155,7 @@ public:                                                                       \
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="8" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="8" bodyend="-1"/>
+        <location file="src/application/impl/app_config_impl.hpp" line="8" column="3" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="8" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -285,6 +285,6 @@ public:                                                                       \
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_APP_CONFIG_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp"/>
+    <location file="src/application/impl/app_config_impl.hpp"/>
   </compounddef>
 </doxygen>

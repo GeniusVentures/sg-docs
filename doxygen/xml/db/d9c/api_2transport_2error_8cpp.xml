@@ -5,7 +5,7 @@
     <includes refid="d9/d19/api_2transport_2error_8hpp" local="yes">api/transport/error.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp</label>
+        <label>src/api/transport/error.cpp</label>
         <link refid="db/d9c/api_2transport_2error_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp" line="4" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp" bodystart="4" bodyend="17"/>
+        <location file="src/api/transport/error.cpp" line="4" column="1" bodyfile="src/api/transport/error.cpp" bodystart="4" bodyend="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -73,6 +73,6 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>transport<sp/>error&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp"/>
+    <location file="src/api/transport/error.cpp"/>
   </compounddef>
 </doxygen>

@@ -4,12 +4,12 @@
     <compoundname>sgprocmgr-logger.hpp</compoundname>
     <includes local="no">spdlog/fmt/ostr.h</includes>
     <includes local="no">spdlog/spdlog.h</includes>
-    <includedby refid="d9/dcf/_processing_manager_8hpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp</includedby>
-    <includedby refid="db/df8/processing__processor_8hpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp</includedby>
-    <includedby refid="de/d95/sgprocmgr-logger_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp</includedby>
+    <includedby refid="d9/dcf/_processing_manager_8hpp" local="no">SGProcessingManager/include/processingbase/ProcessingManager.hpp</includedby>
+    <includedby refid="db/df8/processing__processor_8hpp" local="no">SGProcessingManager/include/processors/processing_processor.hpp</includedby>
+    <includedby refid="de/d95/sgprocmgr-logger_8cpp" local="yes">SGProcessingManager/src/util/sgprocmgr-logger.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp</label>
+        <label>SGProcessingManager/include/util/sgprocmgr-logger.hpp</label>
         <link refid="d7/d6b/sgprocmgr-logger_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,7 +25,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp</label>
+        <label>SGProcessingManager/include/processingbase/ProcessingManager.hpp</label>
         <link refid="d9/dcf/_processing_manager_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor.hpp</label>
         <link refid="db/df8/processing__processor_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -47,13 +47,13 @@
         </childnode>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
         <link refid="df/d3c/processing__processor__mnn__audio_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_image.hpp</label>
         <link refid="d6/db5/processing__processor__mnn__image_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -61,13 +61,13 @@
         </childnode>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_ml.hpp</label>
         <link refid="d4/daa/processing__processor__mnn__ml_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp</label>
+        <label>SGProcessingManager/include/util/sgprocmgr-logger.hpp</label>
         <link refid="d7/d6b/sgprocmgr-logger_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -77,41 +77,41 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp</label>
+        <label>SGProcessingManager/src/processingbase/ProcessingManager.cpp</label>
         <link refid="d8/d50/_processing_manager_8cpp"/>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</label>
         <link refid="d3/d27/processing__processor__mnn__audio_8cpp"/>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_image.cpp</label>
         <link refid="d2/d49/processing__processor__mnn__image_8cpp"/>
       </node>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_ml.cpp</label>
         <link refid="d1/dad/processing__processor__mnn__ml_8cpp"/>
       </node>
       <node id="15">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp</label>
+        <label>SGProcessingManager/src/util/sgprocmgr-logger.cpp</label>
         <link refid="de/d95/sgprocmgr-logger_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp</label>
+        <label>src/processing/impl/processing_core_impl.cpp</label>
         <link refid="db/d83/processing__core__impl_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.cpp</label>
+        <label>src/processing/impl/processing_task_queue_impl.cpp</label>
         <link refid="d1/dff/processing__task__queue__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" line="13" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" bodystart="13" bodyend="-1"/>
+        <location file="SGProcessingManager/include/util/sgprocmgr-logger.hpp" line="13" column="5" bodyfile="SGProcessingManager/include/util/sgprocmgr-logger.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp" line="54" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp" bodystart="54" bodyend="64" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" declline="20" declcolumn="12"/>
+        <location file="SGProcessingManager/src/util/sgprocmgr-logger.cpp" line="54" column="12" bodyfile="SGProcessingManager/src/util/sgprocmgr-logger.cpp" bodystart="54" bodyend="64" declfile="SGProcessingManager/include/util/sgprocmgr-logger.hpp" declline="20" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -194,6 +194,6 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SGPROCESSINGMANAGER_LOGGER_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp"/>
+    <location file="SGProcessingManager/include/util/sgprocmgr-logger.hpp"/>
   </compounddef>
 </doxygen>

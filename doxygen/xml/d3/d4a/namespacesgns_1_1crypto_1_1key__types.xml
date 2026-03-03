@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="22" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="22" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="22" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1aa7ffea1f1d6969f66139355e8321242a" prot="public" static="yes" constexpr="yes" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1adbc500534ce9a357c84aa35edb18733d" kindref="member">KeyTypeId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="23" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="23" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="23" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1ab87b7a8605de76d0d3a4694a6c119cdf" prot="public" static="yes" constexpr="yes" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1adbc500534ce9a357c84aa35edb18733d" kindref="member">KeyTypeId</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="24" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="24" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1ada21eaf977aa08e5b717bafeba87dc40" prot="public" static="yes" constexpr="yes" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1adbc500534ce9a357c84aa35edb18733d" kindref="member">KeyTypeId</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="25" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="25" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="25" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1a8e939b79ca83eee09cc5977328c0d9a9" prot="public" static="yes" constexpr="yes" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1adbc500534ce9a357c84aa35edb18733d" kindref="member">KeyTypeId</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="26" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="26" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1a975df97c7c813f3366deafea84a4be87" prot="public" static="yes" constexpr="yes" mutable="no">
         <type><ref refid="df/d6e/namespacesgns_1_1crypto_1adbc500534ce9a357c84aa35edb18733d" kindref="member">KeyTypeId</ref></type>
@@ -92,13 +92,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="27" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" bodystart="27" bodyend="-1"/>
+        <location file="src/crypto/crypto_store/key_type.hpp" line="27" column="32" bodyfile="src/crypto/crypto_store/key_type.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/key_type.hpp" line="17" column="3"/>
+    <location file="src/crypto/crypto_store/key_type.hpp" line="17" column="3"/>
   </compounddef>
 </doxygen>

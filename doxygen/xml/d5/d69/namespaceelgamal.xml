@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="23" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="23" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1aae21b13f1f8db21417a9e5f91f4efbb8" prot="public" static="no">
         <type>typename CurveType::base_field_type</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="24" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="24" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" prot="public" static="no">
         <type>typename CurveType::scalar_field_type</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="25" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="25" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" prot="public" static="no">
         <type>typename scalar_field_type::value_type</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="26" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="26" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1af091e1d9b7b668f03e9b6207f99c0dfe" prot="public" static="no">
         <type>random::algebraic_random_device&lt; <ref refid="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" kindref="member">scalar_field_type</ref> &gt;</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="27" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="27" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" prot="public" static="no">
         <type>hashes::sha2&lt; 256 &gt;</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="28" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="28" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" prot="public" static="no">
         <type>random::rfc6979&lt; <ref refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kindref="member">scalar_field_value_type</ref>, <ref refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kindref="member">hash_type</ref> &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="29" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="29" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" prot="public" static="no">
         <type>pubkey::padding::emsa1&lt; <ref refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kindref="member">scalar_field_value_type</ref>, <ref refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kindref="member">hash_type</ref> &gt;</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="30" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="30" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" prot="public" static="no">
         <type>pubkey::ecdsa&lt; <ref refid="d5/d69/namespaceelgamal_1a73ceb6fd41638a4bfd675814b4040f22" kindref="member">CurveType</ref>, <ref refid="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" kindref="member">padding_policy</ref>, <ref refid="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" kindref="member">generator_type</ref> &gt;</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="31" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="31" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a6e9c1894fa1f052015eafb85cff47555" prot="public" static="no">
         <type>typename pubkey::public_key&lt; <ref refid="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" kindref="member">policy_type</ref> &gt;::signature_type</type>
@@ -150,13 +150,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="32" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="32" column="5" bodyfile="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="19" column="1"/>
+    <location file="ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="19" column="1"/>
   </compounddef>
 </doxygen>

@@ -14,7 +14,7 @@
     <includes local="no">numeric</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp</label>
+        <label>node/common.cpp</label>
         <link refid="d9/df9/common_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -1658,6 +1658,6 @@
 <codeline lineno="1532"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1533"><highlight class="normal"></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp"/>
+    <location file="node/common.cpp"/>
   </compounddef>
 </doxygen>

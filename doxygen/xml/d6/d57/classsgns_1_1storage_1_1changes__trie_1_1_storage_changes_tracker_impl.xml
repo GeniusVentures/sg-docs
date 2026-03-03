@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="32" bodyend="35"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="32" column="5" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="32" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-type">
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="23" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="23" column="5" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aaa38f8096da40a127653bc877bc01402" prot="private" static="no">
         <type><ref refid="d7/d3a/classsgns_1_1subscription_1_1_subscription_engine" kindref="compound">subscription::SubscriptionEngine</ref>&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref>, <ref refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a8954a652ca381bc045ba90a9ec0f1d77" kindref="member">SessionPtr</ref>, <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref>, <ref refid="dd/dc5/namespacesgns_1_1primitives_1ae057aa4874931946d3b10aae197f9247" kindref="member">primitives::BlockHash</ref> &gt;</type>
@@ -64,7 +64,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="24" column="5" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a8298b3e42140943daee4d5fdcde45f8a" prot="private" static="no">
         <type>std::shared_ptr&lt; <ref refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aaa38f8096da40a127653bc877bc01402" kindref="member">SubscriptionEngineType</ref> &gt;</type>
@@ -78,7 +78,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="29" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="29" column="5" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -94,7 +94,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="69" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="69" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="69" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a39467eff1c125352fc844fa027139106" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec" kindref="compound">storage::trie::Codec</ref> &gt;</type>
@@ -108,7 +108,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="70" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="70" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="70" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a5263951b6c90046e30b4905cf6463183" prot="private" static="no" mutable="no">
         <type>std::map&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref>, std::vector&lt; <ref refid="dd/dc5/namespacesgns_1_1primitives_1abd2964ee5c750201a675543e026ad732" kindref="member">primitives::ExtrinsicIndex</ref> &gt; &gt;</type>
@@ -122,7 +122,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="73" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="73" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="73" column="9" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aac796d2feda10b42d85b7d49685e358f" prot="private" static="no" mutable="no">
         <type>std::set&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt;</type>
@@ -136,7 +136,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="74" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="74" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="74" column="14" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1afb2db431c31bd355661b954819a52f8e" prot="private" static="no" mutable="no">
         <type><ref refid="dd/dc5/namespacesgns_1_1primitives_1ae057aa4874931946d3b10aae197f9247" kindref="member">primitives::BlockHash</ref></type>
@@ -150,7 +150,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="76" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="76" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="76" column="27" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aa9f3fa5eda9d39902bee9f71d1569c99" prot="private" static="no" mutable="no">
         <type><ref refid="dd/dc5/namespacesgns_1_1primitives_1a4d41d58038f35d095940e2f3660d7381" kindref="member">primitives::BlockNumber</ref></type>
@@ -164,7 +164,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="77" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="77" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="77" column="29" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a47a72f41ffc1628a18247d6d0ff2f823" prot="private" static="no" mutable="no">
         <type><ref refid="d4/d01/classsgns_1_1storage_1_1changes__trie_1_1_changes_tracker_1a506136fb4bfa3050a7a629eb9f970dea" kindref="member">GetExtrinsicIndexDelegate</ref></type>
@@ -178,7 +178,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="78" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="78" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="78" column="31" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a796ad94fa40f1edbe5ce5aefd338c21e" prot="private" static="no" mutable="no">
         <type><ref refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a8298b3e42140943daee4d5fdcde45f8a" kindref="member">SubscriptionEnginePtr</ref></type>
@@ -192,7 +192,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="79" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="79" bodyend="-1"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="79" column="27" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="79" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -220,7 +220,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="37" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="22" bodyend="33"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="37" column="5" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="22" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a856c404ad7742033cb49793236560b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -235,7 +235,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="46" column="5"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="46" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1adb3760bb75bc34c94025540c04f70d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -264,7 +264,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="48" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="46" bodyend="49"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="48" column="10" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a863ba3dfe5b4f557e28626ec34342f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -288,7 +288,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="50" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="35" bodyend="44"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="50" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="35" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1acc7219974f91ce5d6f8da5c3c8315107" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -320,7 +320,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="54" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="51" bodyend="71"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="54" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="51" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a233734877217f62ab7342e7f10c65a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -340,7 +340,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="57" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="73" bodyend="95"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="57" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="73" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aade9566811938db7a1fbd938ad04e917" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref> &gt;</type>
@@ -364,7 +364,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="59" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="98" bodyend="108"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="59" column="21" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.cpp" bodystart="98" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1ab715b9e347c6f0e6262727df63c408bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -379,7 +379,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="63" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="63" bodyend="66"/>
+        <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="63" column="17" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="63" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -585,7 +585,7 @@ subscription::SubscriptionEngine&lt;base::Buffer,
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="22" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="22" bodyend="80"/>
+    <location file="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" line="22" column="3" bodyfile="src/storage/changes_trie/impl/storage_changes_tracker_impl.hpp" bodystart="22" bodyend="80"/>
     <listofallmembers>
       <member refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a39467eff1c125352fc844fa027139106" prot="private" virt="non-virtual"><scope>sgns::storage::changes_trie::StorageChangesTrackerImpl</scope><name>codec_</name></member>
       <member refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1aade9566811938db7a1fbd938ad04e917" prot="public" virt="virtual"><scope>sgns::storage::changes_trie::StorageChangesTrackerImpl</scope><name>constructChangesTrie</name></member>

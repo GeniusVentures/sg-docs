@@ -23,7 +23,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="34" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="34" bodyend="-1"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="34" column="9" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -39,11 +39,11 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="113" column="81" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="113" bodyend="-1"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="98" column="34" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="98" bodyend="-1"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="d1/d07/classsgns_1_1_i_genius_transactions_1a82f860ff9ae3149788d7a31cffc82529" prot="public" static="yes" mutable="no">
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d07/classsgns_1_1_i_genius_transactions_1a82f860ff9ae3149788d7a31cffc82529" prot="private" static="yes" mutable="no">
         <type>std::unordered_map&lt; std::string, <ref refid="d1/d07/classsgns_1_1_i_genius_transactions_1a320ffd126b7cd6483894894bf7147afb" kindref="member">TransactionDeserializeFn</ref> &gt;</type>
         <definition>std::unordered_map&lt;std::string, TransactionDeserializeFn&gt; sgns::IGeniusTransactions::deserializers_map</definition>
         <argsstring></argsstring>
@@ -55,7 +55,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="114" column="42" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="114" bodyend="-1"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="101" column="42" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="101" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -71,7 +71,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="117" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="117" bodyend="-1"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="102" column="81" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="102" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -95,7 +95,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="37" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="37" bodyend="40"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="37" column="9" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a99ca00e5f73c9ea483ebf83513bd8063" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -109,7 +109,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="42" column="17"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="42" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a836b1a1080b24f6f9fd220332b3b5b24" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -123,7 +123,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="44" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="44" bodyend="47"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="44" column="22" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a13a85bfa2911ff2327ffcc81260a9fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -142,7 +142,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="58" column="29"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="58" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a53e60bc5badda3cc6df0c57561e14acb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::string</type>
@@ -161,7 +161,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="60" column="29"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="60" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a47d69eafb82280cd7de3f2c268054494" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -175,7 +175,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="67" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="67" bodyend="70"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="67" column="21" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="67" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1af8cd3ed709b329dfccd519d1bf178424" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -189,7 +189,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="72" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="72" bodyend="75"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="72" column="21" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="72" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a3eaa922b6192d8342a08c7ea66cbafbc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -203,7 +203,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="77" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="77" bodyend="80"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="77" column="21" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1ab78d8716ceaf368ddd888e91ac84deb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -217,7 +217,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="82" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="97" bodyend="100"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="82" column="21" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1aead0ba189578cd0a323ba56b1367f470" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>uint64_t</type>
@@ -231,7 +231,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="84" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="84" bodyend="87"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="84" column="18" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="84" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1aea8074c464dcd1e2e15ac9196a4c9e09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::unordered_set&lt; std::string &gt;</type>
@@ -247,7 +247,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="89" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="102" bodyend="105"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="89" column="36" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a61846445efa8aa09b7291655e981cf65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -261,7 +261,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="106" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="34" bodyend="45"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="91" column="14" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="34" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1ab13efbfe0444411e9d4e19725157de25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -275,7 +275,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="107" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="47" bodyend="60"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="92" column="14" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="47" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a771a632131b46b4a001a5fe829607b18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -293,7 +293,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="109" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="62" bodyend="73"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="94" column="21" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="62" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1af5e62c217af069a76213a9b7812ab626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -307,7 +307,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="110" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="75" bodyend="83"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="95" column="30" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="75" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1acd74bf05f2e8b0123163806c90071c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -321,7 +321,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="111" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="85" bodyend="95"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="96" column="30" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="85" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -341,7 +341,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="49" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="7" bodyend="19"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="49" column="32" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="7" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a884eebd98dc345a622b165f9ce9b60e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; SGTransaction::DAGStruct &gt;</type>
@@ -359,7 +359,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="50" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp" bodystart="21" bodyend="32"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="50" column="32" bodyfile="src/account/IGeniusTransactions.cpp" bodystart="21" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a543616dd7f86c5df91fa91716aca10b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SGTransaction::DAGStruct</type>
@@ -381,7 +381,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="52" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="52" bodyend="56"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="52" column="41" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="52" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a0f2963348939f103af3404a653a9f91b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -399,7 +399,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="62" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="62" bodyend="65"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="62" column="28" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="62" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a773fcfb15ae0aebdf628f8603dc326e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -440,7 +440,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="96" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="96" bodyend="99"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="110" column="21" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="110" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="d1/d07/classsgns_1_1_i_genius_transactions_1a9800478402d0ecbd38493d3b5789f9a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::unordered_map&lt; std::string, <ref refid="d1/d07/classsgns_1_1_i_genius_transactions_1a320ffd126b7cd6483894894bf7147afb" kindref="member">TransactionDeserializeFn</ref> &gt; &amp;</type>
@@ -454,7 +454,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="101" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="101" bodyend="104"/>
+        <location file="src/account/IGeniusTransactions.hpp" line="115" column="35" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="115" bodyend="118"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -508,7 +508,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         <label>sgns::IGeniusTransactions</label>
         <link refid="d1/d07/classsgns_1_1_i_genius_transactions"/>
         <childnode refid="2" relation="usage">
-          <edgelabel>+deserializers_map</edgelabel>
+          <edgelabel>-deserializers_map</edgelabel>
         </childnode>
         <childnode refid="3" relation="usage">
           <edgelabel>-transaction_type</edgelabel>
@@ -541,7 +541,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp" bodystart="29" bodyend="118"/>
+    <location file="src/account/IGeniusTransactions.hpp" line="28" column="5" bodyfile="src/account/IGeniusTransactions.hpp" bodystart="29" bodyend="119"/>
     <listofallmembers>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1acd74bf05f2e8b0123163806c90071c57" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>CheckDAGSignatureLegacy</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1ab13efbfe0444411e9d4e19725157de25" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>CheckHash</name></member>
@@ -549,7 +549,7 @@ std::function&lt;std::shared_ptr&lt;IGeniusTransactions&gt;( const std::vector&l
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a3b9fef5951e36dc7f31128247fdbc59e" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>dag_st</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a7fc888000de3d0c758a125ca485ce4a1" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>DeSerializeDAGStruct</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a884eebd98dc345a622b165f9ce9b60e1" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>DeSerializeDAGStruct</name></member>
-      <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a82f860ff9ae3149788d7a31cffc82529" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>deserializers_map</name></member>
+      <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a82f860ff9ae3149788d7a31cffc82529" prot="private" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>deserializers_map</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a61846445efa8aa09b7291655e981cf65" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>FillHash</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a9800478402d0ecbd38493d3b5789f9a9" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>GetDeSerializers</name></member>
       <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1ab78d8716ceaf368ddd888e91ac84deb3" prot="public" virt="non-virtual"><scope>sgns::IGeniusTransactions</scope><name>GetHash</name></member>

@@ -163,7 +163,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp</label>
+        <label>src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -472,6 +472,6 @@
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp"/>
+    <location file="src/account/ProcessingTransaction.cpp"/>
   </compounddef>
 </doxygen>

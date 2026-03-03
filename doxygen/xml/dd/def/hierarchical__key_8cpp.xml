@@ -14,7 +14,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/hierarchical_key.cpp</label>
+        <label>src/crdt/impl/hierarchical_key.cpp</label>
         <link refid="dd/def/hierarchical__key_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -89,6 +89,6 @@
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/hierarchical_key.cpp"/>
+    <location file="src/crdt/impl/hierarchical_key.cpp"/>
   </compounddef>
 </doxygen>

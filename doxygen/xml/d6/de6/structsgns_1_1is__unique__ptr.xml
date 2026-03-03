@@ -42,7 +42,7 @@
         <label>std::false_type</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/type_traits.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/type_traits.hpp" bodystart="14" bodyend="14"/>
+    <location file="src/base/type_traits.hpp" line="14" column="3" bodyfile="src/base/type_traits.hpp" bodystart="14" bodyend="14"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

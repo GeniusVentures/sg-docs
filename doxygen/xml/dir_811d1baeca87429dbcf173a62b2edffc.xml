@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_811d1baeca87429dbcf173a62b2edffc" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration</compoundname>
+    <compoundname>app/integration</compoundname>
     <innerfile refid="d4/d95/_api_service_factory_8hpp">ApiServiceFactory.hpp</innerfile>
     <innerfile refid="df/dae/_app_configuration_factory_8hpp">AppConfigurationFactory.hpp</innerfile>
     <innerfile refid="dd/d57/_app_state_manager_factory_8hpp">AppStateManagerFactory.hpp</innerfile>
@@ -56,6 +56,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/"/>
+    <location file="app/integration/"/>
   </compounddef>
 </doxygen>

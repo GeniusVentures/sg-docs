@@ -9,8 +9,13 @@ if [[ ! -f "$DOXYFILE" ]]; then
   exit 1
 fi
 
-cd "$ROOT_DIR/docs"
-mkdir -p doxygen
+# Enforce execution from repo root to keep Doxyfile INPUT paths correct
+if [[ "$(pwd)" != "$ROOT_DIR" ]]; then
+  echo "Error: builddoxygen.sh must be run from the repository root: $ROOT_DIR" >&2
+  exit 1
+fi
+
+mkdir -p docs/doxygen
 
 doxygen "$DOXYFILE"
 

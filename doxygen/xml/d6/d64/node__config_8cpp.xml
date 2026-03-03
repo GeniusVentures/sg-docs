@@ -21,7 +21,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_config.cpp</label>
+        <label>node/node_config.cpp</label>
         <link refid="d6/d64/node__config_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -95,6 +95,6 @@
 <codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_config.cpp"/>
+    <location file="node/node_config.cpp"/>
   </compounddef>
 </doxygen>

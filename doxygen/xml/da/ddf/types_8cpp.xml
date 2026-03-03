@@ -93,7 +93,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp</label>
+        <label>src/blockchain/impl/types.cpp</label>
         <link refid="da/ddf/types_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -769,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="7" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="7" bodyend="13"/>
+        <location file="src/blockchain/impl/types.cpp" line="7" column="1" bodyfile="src/blockchain/impl/types.cpp" bodystart="7" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a70e1b00d356a3aac25e2a73cbeac0a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; base::Buffer &gt;</type>
@@ -792,7 +792,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="17" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="17" bodyend="33" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="25" declcolumn="19"/>
+        <location file="src/blockchain/impl/types.cpp" line="17" column="19" bodyfile="src/blockchain/impl/types.cpp" bodystart="17" bodyend="33" declfile="src/blockchain/impl/common.hpp" declline="25" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a6623765be8c42f3dd30e691f8771073b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -815,7 +815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="35" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="35" bodyend="58" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="31" declcolumn="19"/>
+        <location file="src/blockchain/impl/types.cpp" line="35" column="19" bodyfile="src/blockchain/impl/types.cpp" bodystart="35" bodyend="58" declfile="src/blockchain/impl/common.hpp" declline="31" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/df6/namespacesgns_1_1blockchain_1a2ce3eb1eda14740c6814ca775fce5f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>base::Buffer</type>
@@ -845,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" line="60" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp" bodystart="60" bodyend="76" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/common.hpp" declline="38" declcolumn="16"/>
+        <location file="src/blockchain/impl/types.cpp" line="60" column="16" bodyfile="src/blockchain/impl/types.cpp" bodystart="60" bodyend="76" declfile="src/blockchain/impl/common.hpp" declline="38" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -931,6 +931,6 @@
 <codeline lineno="76"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::blockchain</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp"/>
+    <location file="src/blockchain/impl/types.cpp"/>
   </compounddef>
 </doxygen>

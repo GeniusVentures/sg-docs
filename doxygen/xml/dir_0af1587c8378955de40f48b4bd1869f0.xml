@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_0af1587c8378955de40f48b4bd1869f0" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base</compoundname>
+    <compoundname>src/base</compoundname>
     <innerfile refid="dd/dc0/blob_8cpp">blob.cpp</innerfile>
     <innerfile refid="d4/d16/blob_8hpp">blob.hpp</innerfile>
     <innerfile refid="dd/d85/buffer_8cpp">buffer.cpp</innerfile>
@@ -28,6 +28,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/"/>
+    <location file="src/base/"/>
   </compounddef>
 </doxygen>

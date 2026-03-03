@@ -21,12 +21,12 @@
     <includes local="yes">proof/proto/SGProof.pb.h</includes>
     <includes local="yes">processing/proto/SGProcessing.pb.h</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="d3/d63/_genius_node_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</includedby>
-    <includedby refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</includedby>
-    <includedby refid="d6/d71/_migration3__4__0_to3__5__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</includedby>
-    <includedby refid="da/d32/_migration3__5__0_to3__5__1_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</includedby>
-    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</includedby>
-    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</includedby>
+    <includedby refid="d3/d63/_genius_node_8hpp" local="yes">src/account/GeniusNode.hpp</includedby>
+    <includedby refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp" local="yes">src/account/Migration0_2_0To1_0_0.cpp</includedby>
+    <includedby refid="d6/d71/_migration3__4__0_to3__5__0_8cpp" local="yes">src/account/Migration3_4_0To3_5_0.cpp</includedby>
+    <includedby refid="da/d32/_migration3__5__0_to3__5__1_8cpp" local="yes">src/account/Migration3_5_0To3_5_1.cpp</includedby>
+    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">src/account/Migration3_5_1To3_6_0.cpp</includedby>
+    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
     <incdepgraph>
       <node id="116">
         <label>ProofSystem/ECDSAPublicKey.hpp</label>
@@ -211,7 +211,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
+        <label>src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -939,37 +939,37 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
+        <label>src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -987,6 +987,7 @@
     </invincdepgraph>
     <innerclass refid="d2/d58/classsgns_1_1_transaction_manager" prot="public">sgns::TransactionManager</innerclass>
     <innerclass refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx" prot="private">sgns::TransactionManager::TrackedTx</innerclass>
+    <innerclass refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4" prot="public">fmt::formatter&lt; sgns::TransactionManager::State &gt;</innerclass>
     <innernamespace refid="d2/d2b/namespacesgns">sgns</innernamespace>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="d2/d2b/namespacesgns_1a1d57454b26de7668d4a7d1d83b6badfb" prot="public" static="no">
@@ -1001,7 +1002,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="38" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/account/TransactionManager.hpp" line="38" column="5" bodyfile="src/account/TransactionManager.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1054,18 +1055,18 @@
 <codeline lineno="45" refid="d2/d58/classsgns_1_1_transaction_manager_1a4bce899413e008d0a30efdc156cb8f0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a4bce899413e008d0a30efdc156cb8f0c" kindref="member">NONCE_REQUEST_TIMEOUT_MS</ref><sp/>=</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10000;<sp/></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref></highlight></codeline>
+<codeline lineno="51" refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/>:<sp/>uint8_t</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="53" refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea6aa51a91f98b50db5edf13a471e12f17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea6aa51a91f98b50db5edf13a471e12f17" kindref="member">CREATING</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="54" refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea86bf8c89d85949f8f45cde2f73fce113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea86bf8c89d85949f8f45cde2f73fce113" kindref="member">INITIALIZING</ref>,<sp/></highlight></codeline>
-<codeline lineno="55" refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37eaf0be1f77b2d12fe3d6424fbf9eecc109" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37eaf0be1f77b2d12fe3d6424fbf9eecc109" kindref="member">SYNCING</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="56" refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea2baa69eafc7204f3bd8648eba580c489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea2baa69eafc7204f3bd8648eba580c489" kindref="member">READY</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53" refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a6aa51a91f98b50db5edf13a471e12f17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a6aa51a91f98b50db5edf13a471e12f17" kindref="member">CREATING</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="54" refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a86bf8c89d85949f8f45cde2f73fce113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a86bf8c89d85949f8f45cde2f73fce113" kindref="member">INITIALIZING</ref>,<sp/></highlight></codeline>
+<codeline lineno="55" refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0af0be1f77b2d12fe3d6424fbf9eecc109" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0af0be1f77b2d12fe3d6424fbf9eecc109" kindref="member">SYNCING</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56" refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a2baa69eafc7204f3bd8648eba580c489" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a2baa69eafc7204f3bd8648eba580c489" kindref="member">READY</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="d2/d58/classsgns_1_1_transaction_manager_1a52f6ee4ef4b440266baed4ec6c7dcad0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a52f6ee4ef4b440266baed4ec6c7dcad0" kindref="member">TransactionPair</ref><sp/><sp/>=<sp/>std::pair&lt;std::shared_ptr&lt;IGeniusTransactions&gt;,<sp/>std::optional&lt;std::vector&lt;uint8_t&gt;&gt;&gt;;</highlight></codeline>
 <codeline lineno="60" refid="d2/d58/classsgns_1_1_transaction_manager_1a94f34935532a14415253b1d063122d13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a94f34935532a14415253b1d063122d13" kindref="member">TransactionBatch</ref><sp/>=<sp/>std::vector&lt;TransactionPair&gt;;</highlight></codeline>
 <codeline lineno="61" refid="d2/d58/classsgns_1_1_transaction_manager_1ae021b9c1ef26a6b4d22c4dd60c00a939" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae021b9c1ef26a6b4d22c4dd60c00a939" kindref="member">TransactionItem</ref><sp/><sp/>=<sp/>std::pair&lt;TransactionBatch,<sp/>std::optional&lt;std::shared_ptr&lt;crdt::AtomicTransaction&gt;&gt;&gt;;</highlight></codeline>
-<codeline lineno="62" refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" kindref="member">StateChangeCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/>&amp;previous,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/>&amp;current<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="62" refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" kindref="member">StateChangeCallback</ref><sp/>=<sp/>std::function&lt;void(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/>&amp;previous,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/>&amp;current<sp/>)&gt;;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67" refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref><sp/>:<sp/>uint8_t</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -1130,7 +1131,7 @@
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>outcome::result&lt;std::shared_ptr&lt;IGeniusTransactions&gt;&gt;<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a09da7bdef59d0779850dfdb88b7a1aad" kindref="member">DeSerializeTransaction</ref>(</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref><sp/>&amp;tx_data<sp/>);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="d2/d58/classsgns_1_1_transaction_manager_1a16137402d0df51655fe4d3af671349ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a16137402d0df51655fe4d3af671349ba" kindref="member">GetState</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="145" refid="d2/d58/classsgns_1_1_transaction_manager_1a16137402d0df51655fe4d3af671349ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a16137402d0df51655fe4d3af671349ba" kindref="member">GetState</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="146"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" kindref="member">state_m</ref>;</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -1146,17 +1147,17 @@
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a03849780785c6a3c06acd4d91971bde2" kindref="member">RegisterStateChangeCallback</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" kindref="member">StateChangeCallback</ref><sp/>callback<sp/>);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a046cbd3eb8e70c419f0eb5639648040f" kindref="member">UnregisterStateChangeCallback</ref>();</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="d2/d58/classsgns_1_1_transaction_manager_1a3a4f96596f6b1fd47ea1898e8e04a9a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a3a4f96596f6b1fd47ea1898e8e04a9a6" kindref="member">StateToString</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/>state<sp/>)</highlight></codeline>
+<codeline lineno="164" refid="d2/d58/classsgns_1_1_transaction_manager_1a3a4f96596f6b1fd47ea1898e8e04a9a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a3a4f96596f6b1fd47ea1898e8e04a9a6" kindref="member">StateToString</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/>state<sp/>)</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>state<sp/>)</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea6aa51a91f98b50db5edf13a471e12f17" kindref="member">State::CREATING</ref>:</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a6aa51a91f98b50db5edf13a471e12f17" kindref="member">State::CREATING</ref>:</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CREATING&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea86bf8c89d85949f8f45cde2f73fce113" kindref="member">State::INITIALIZING</ref>:</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a86bf8c89d85949f8f45cde2f73fce113" kindref="member">State::INITIALIZING</ref>:</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;INITIALIZING&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37eaf0be1f77b2d12fe3d6424fbf9eecc109" kindref="member">State::SYNCING</ref>:</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0af0be1f77b2d12fe3d6424fbf9eecc109" kindref="member">State::SYNCING</ref>:</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;SYNCING&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37ea2baa69eafc7204f3bd8648eba580c489" kindref="member">State::READY</ref>:</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a2baa69eafc7204f3bd8648eba580c489" kindref="member">State::READY</ref>:</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;READY&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;UNKNOWN&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -1234,7 +1235,7 @@
 <codeline lineno="252" refid="d2/d58/classsgns_1_1_transaction_manager_1a173f73882058236ea17d08f86d285db8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a173f73882058236ea17d08f86d285db8" kindref="member">full_node_m</ref>;</highlight></codeline>
 <codeline lineno="253" refid="d2/d58/classsgns_1_1_transaction_manager_1ac46a13a4aa18ed91fb3759d1480b059d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ac46a13a4aa18ed91fb3759d1480b059d" kindref="member">full_node_topic_m</ref>;<sp/></highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2eb4192556e33182cda4f9970be5c9d9" kindref="member">TickOnce</ref>();</highlight></codeline>
-<codeline lineno="255" refid="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" kindref="member">state_m</ref>;</highlight></codeline>
+<codeline lineno="255" refid="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" kindref="member">state_m</ref>;</highlight></codeline>
 <codeline lineno="256" refid="d2/d58/classsgns_1_1_transaction_manager_1a221d63165e889d597988d85ba40f5c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::mutex<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a221d63165e889d597988d85ba40f5c9e" kindref="member">state_change_callback_mutex_</ref>;</highlight></codeline>
 <codeline lineno="257" refid="d2/d58/classsgns_1_1_transaction_manager_1af81911705a3f86da7e7c1b5af0529941" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" kindref="member">StateChangeCallback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1af81911705a3f86da7e7c1b5af0529941" kindref="member">state_change_callback_</ref>;</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
@@ -1325,12 +1326,18 @@
 <codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a42d3c710542b8d7c0939e446ceee4c8c" kindref="member">NewElementCallback</ref>(<sp/><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref><sp/>new_data<sp/>);</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a8c3264757f37b963c9572a1b1e52307e" kindref="member">DeleteElementCallback</ref>(<sp/>std::string<sp/>deleted_key<sp/>);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a21e0b26dadcbf9915488850eaa90636b" kindref="member">ChangeState</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref><sp/>new_state<sp/>);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a21e0b26dadcbf9915488850eaa90636b" kindref="member">ChangeState</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">State</ref><sp/>new_state<sp/>);</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="348"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="350"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="351" refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">fmt::formatter&lt;<ref refid="d2/d2b/namespacesgns" kindref="compound">sgns</ref>::TransactionManager::State&gt;<sp/>:<sp/>formatter&lt;std::string_view&gt;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>format_context::iterator<sp/><ref refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4_1a007a10b1f4827c6159e0a5f9e887012d" kindref="member">format</ref>(<sp/><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">sgns::TransactionManager::State</ref><sp/>s,<sp/>format_context<sp/>&amp;ctx<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp"/>
+    <location file="src/account/TransactionManager.hpp"/>
   </compounddef>
 </doxygen>

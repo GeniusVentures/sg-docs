@@ -67,7 +67,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp</label>
+        <label>src/primitives/transaction_validity.cpp</label>
         <link refid="d6/dd7/transaction__validity_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp" line="5" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp" bodystart="5" bodyend="31"/>
+        <location file="src/primitives/transaction_validity.cpp" line="5" column="1" bodyfile="src/primitives/transaction_validity.cpp" bodystart="5" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="d6/dd7/transaction__validity_8cpp_1ad5deb40ab94d60ecdb3b3e3570f854c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp" line="33" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp" bodystart="33" bodyend="44"/>
+        <location file="src/primitives/transaction_validity.cpp" line="33" column="1" bodyfile="src/primitives/transaction_validity.cpp" bodystart="33" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,6 +219,6 @@
 <codeline lineno="43"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/transaction_validity.cpp"/>
+    <location file="src/primitives/transaction_validity.cpp"/>
   </compounddef>
 </doxygen>

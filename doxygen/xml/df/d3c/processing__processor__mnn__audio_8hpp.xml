@@ -9,7 +9,7 @@
     <includes local="no">MNN/Interpreter.hpp</includes>
     <includes refid="db/df8/processing__processor_8hpp" local="yes">processing_processor.hpp</includes>
     <includes local="no">MNN/AutoTime.hpp</includes>
-    <includedby refid="d3/d27/processing__processor__mnn__audio_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</includedby>
+    <includedby refid="d3/d27/processing__processor__mnn__audio_8cpp" local="yes">SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</includedby>
     <incdepgraph>
       <node id="7">
         <label>processing_processor.hpp</label>
@@ -26,7 +26,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
         <link refid="df/d3c/processing__processor__mnn__audio_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -81,13 +81,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
+        <label>SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp</label>
         <link refid="df/d3c/processing__processor__mnn__audio_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</label>
+        <label>SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp</label>
         <link refid="d3/d27/processing__processor__mnn__audio_8cpp"/>
       </node>
     </invincdepgraph>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="13" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" bodystart="13" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="13" column="12" bodyfile="SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -164,6 +164,6 @@
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp"/>
+    <location file="SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp"/>
   </compounddef>
 </doxygen>

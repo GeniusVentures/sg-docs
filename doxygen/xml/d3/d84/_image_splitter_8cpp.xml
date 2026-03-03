@@ -17,7 +17,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp</label>
+        <label>SGProcessingManager/src/datasplitter/ImageSplitter.cpp</label>
         <link refid="d3/d84/_image_splitter_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="2" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="2" bodyend="-1"/>
+        <location file="SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="2" column="9" bodyfile="SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="2" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="d3/d84/_image_splitter_8cpp_1aefe397a94e8feddc652f92ef40ce9597" prot="public" static="no">
         <name>STB_IMAGE_WRITE_IMPLEMENTATION</name>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="3" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="3" bodyend="-1"/>
+        <location file="SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="3" column="9" bodyfile="SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="3" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -201,6 +201,6 @@
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp"/>
+    <location file="SGProcessingManager/src/datasplitter/ImageSplitter.cpp"/>
   </compounddef>
 </doxygen>

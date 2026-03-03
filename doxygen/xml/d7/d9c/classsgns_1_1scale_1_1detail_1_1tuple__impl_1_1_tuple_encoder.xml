@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="30" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="30" bodyend="-1"/>
+        <location file="src/scale/detail/tuple.hpp" line="30" column="7" bodyfile="src/scale/detail/tuple.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="39" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="39" bodyend="-1"/>
+        <location file="src/scale/detail/tuple.hpp" line="39" column="26" bodyfile="src/scale/detail/tuple.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d9c/classsgns_1_1scale_1_1detail_1_1tuple__impl_1_1_tuple_encoder_1a316218e468e6b4131a64d9f1d26914a7" prot="private" static="no" mutable="no">
         <type>Stream &amp;</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="40" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="40" bodyend="-1"/>
+        <location file="src/scale/detail/tuple.hpp" line="40" column="14" bodyfile="src/scale/detail/tuple.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="31" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="31" bodyend="31"/>
+        <location file="src/scale/detail/tuple.hpp" line="31" column="7" bodyfile="src/scale/detail/tuple.hpp" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="d7/d9c/classsgns_1_1scale_1_1detail_1_1tuple__impl_1_1_tuple_encoder_1ad906369271965397731ea2dd89a62073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="34" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="34" bodyend="36"/>
+        <location file="src/scale/detail/tuple.hpp" line="34" column="12" bodyfile="src/scale/detail/tuple.hpp" bodystart="34" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -114,7 +114,7 @@
         <link refid="d7/d9c/classsgns_1_1scale_1_1detail_1_1tuple__impl_1_1_tuple_encoder"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="28" bodyend="41"/>
+    <location file="src/scale/detail/tuple.hpp" line="28" column="5" bodyfile="src/scale/detail/tuple.hpp" bodystart="28" bodyend="41"/>
     <listofallmembers>
       <member refid="d7/d9c/classsgns_1_1scale_1_1detail_1_1tuple__impl_1_1_tuple_encoder_1ad906369271965397731ea2dd89a62073" prot="public" virt="non-virtual"><scope>sgns::scale::detail::tuple_impl::TupleEncoder</scope><name>apply</name></member>
       <member refid="d7/d9c/classsgns_1_1scale_1_1detail_1_1tuple__impl_1_1_tuple_encoder_1a316218e468e6b4131a64d9f1d26914a7" prot="private" virt="non-virtual"><scope>sgns::scale::detail::tuple_impl::TupleEncoder</scope><name>s_</name></member>

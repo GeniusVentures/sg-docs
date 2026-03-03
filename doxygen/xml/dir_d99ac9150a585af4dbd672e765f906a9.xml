@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_d99ac9150a585af4dbd672e765f906a9" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util</compoundname>
+    <compoundname>SGProcessingManager/src/util</compoundname>
     <innerfile refid="d3/dfa/_input_types_8cpp">InputTypes.cpp</innerfile>
     <innerfile refid="de/d95/sgprocmgr-logger_8cpp">sgprocmgr-logger.cpp</innerfile>
     <innerfile refid="d4/d0d/_s_g_processing_manager_2src_2util_2sha256_8cpp">sha256.cpp</innerfile>
@@ -9,6 +9,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/"/>
+    <location file="SGProcessingManager/src/util/"/>
   </compounddef>
 </doxygen>

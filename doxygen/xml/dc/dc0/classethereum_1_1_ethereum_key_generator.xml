@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="27" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="27" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="27" column="9" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="105" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="105" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="105" column="48" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="130" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="130" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="130" column="43" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::size_t</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="131" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="131" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="131" column="43" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::size_t</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="132" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="132" column="43" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::size_t</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="133" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="133" column="43" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="107" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="107" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="107" column="25" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &gt;</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="108" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="108" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="108" column="30" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" kindref="compound">EthereumECDSAPublicKey</ref> &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="127" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="127" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="127" column="25" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="128" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="128" bodyend="-1"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="128" column="49" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="128" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="31" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="21" bodyend="24"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="31" column="9" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="21" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a77ac39f7867ed2f6d4a90d7cfcd197fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="36" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="26" bodyend="40"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="36" column="9" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="26" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1af261a9f26fa2e848d8e873fac9787c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="41" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="41" bodyend="45"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="41" column="9" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="46" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="46" bodyend="49"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="46" column="34" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="54" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="54" bodyend="57"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="54" column="29" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="62" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="62" bodyend="65"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="62" column="28" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="62" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="70" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="70" bodyend="73"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="70" column="28" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="70" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="78" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="78" bodyend="81"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="78" column="22" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="78" bodyend="81"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="88" column="18"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="88" column="18"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -396,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="95" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="88" bodyend="111"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="95" column="28" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="88" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &gt;</type>
@@ -414,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="100" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="47" bodyend="50"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="100" column="32" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="47" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="102" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="122" bodyend="135"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="102" column="35" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="122" bodyend="135"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -452,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="138" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="113" bodyend="120"/>
+        <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="138" column="21" bodyfile="ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="113" bodyend="120"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -572,7 +572,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="25" bodyend="139"/>
+    <location file="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="24" column="5" bodyfile="ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="25" bodyend="139"/>
     <listofallmembers>
       <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>address</name></member>
       <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>ADDRESS_HEADER</name></member>

@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="12" column="9"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="12" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a8b69c80e8af12d7c16ada35f6ae2d170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="14" column="9"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="14" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a5e2595afc441ef277e89c6ed13fc3495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="16" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" bodystart="16" bodyend="19"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="16" column="21" bodyfile="src/local_secure_storage/impl/JSONBackend.hpp" bodystart="16" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a40da14b3444d1b03eac8164f59a3c347" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d5/db7/classsgns_1_1_i_secure_storage_1a5a10a540c9551ccad7d9c8e44cfd14d1" kindref="member">SecureBufferType</ref> &gt;</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="21" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp" bodystart="9" bodyend="27"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="21" column="25" bodyfile="src/local_secure_storage/impl/JSONBackend.cpp" bodystart="9" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a00f62ecffae03504a180358b004d61e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="23" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp" bodystart="29" bodyend="45"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="23" column="25" bodyfile="src/local_secure_storage/impl/JSONBackend.cpp" bodystart="29" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a041dd45b9e2196bb757d23d2934876e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="25" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp" bodystart="47" bodyend="56"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="25" column="25" bodyfile="src/local_secure_storage/impl/JSONBackend.cpp" bodystart="47" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1aa20b2995d7c4d206ae8217b08ee94fc1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; rapidjson::Document &gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="27" column="33"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="27" column="33"/>
       </memberdef>
       <memberdef kind="function" id="d9/d71/classsgns_1_1_j_s_o_n_backend_1a7ec4c317139903bcb835bb3d33a4ae07" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="29" column="33"/>
+        <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="29" column="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -230,7 +230,7 @@
         <label>std::enable_shared_from_this&lt; ISecureStorage &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" line="9" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp" bodystart="10" bodyend="30"/>
+    <location file="src/local_secure_storage/impl/JSONBackend.hpp" line="9" column="5" bodyfile="src/local_secure_storage/impl/JSONBackend.hpp" bodystart="10" bodyend="30"/>
     <listofallmembers>
       <member refid="d9/d71/classsgns_1_1_j_s_o_n_backend_1a041dd45b9e2196bb757d23d2934876e4" prot="public" virt="virtual"><scope>sgns::JSONBackend</scope><name>DeleteKey</name></member>
       <member refid="d9/d71/classsgns_1_1_j_s_o_n_backend_1a5e2595afc441ef277e89c6ed13fc3495" prot="public" virt="virtual"><scope>sgns::JSONBackend</scope><name>GetName</name></member>

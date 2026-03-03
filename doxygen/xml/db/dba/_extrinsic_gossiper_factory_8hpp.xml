@@ -5,10 +5,10 @@
     <includes local="yes">network/impl/gossiper_broadcast.hpp</includes>
     <includes local="no">libp2p/injector/host_injector.hpp</includes>
     <includes local="no">libp2p/log/logger.hpp</includes>
-    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</includedby>
+    <includedby refid="d3/d34/validating__node__application_8cpp" local="yes">src/application/impl/validating_node_application.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicGossiperFactory.hpp</label>
+        <label>app/integration/ExtrinsicGossiperFactory.hpp</label>
         <link refid="db/dba/_extrinsic_gossiper_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -29,13 +29,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicGossiperFactory.hpp</label>
+        <label>app/integration/ExtrinsicGossiperFactory.hpp</label>
         <link refid="db/dba/_extrinsic_gossiper_factory_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
@@ -71,6 +71,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicGossiperFactory.hpp"/>
+    <location file="app/integration/ExtrinsicGossiperFactory.hpp"/>
   </compounddef>
 </doxygen>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" line="27" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" bodystart="27" bodyend="-1"/>
+        <location file="src/api/transport/rpc_thread_pool.hpp" line="27" column="14" bodyfile="src/api/transport/rpc_thread_pool.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/d10/structsgns_1_1api_1_1_rpc_thread_pool_1_1_configuration_1a9bc9b97a938f62ad55a91b235053498d" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" line="28" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" bodystart="28" bodyend="-1"/>
+        <location file="src/api/transport/rpc_thread_pool.hpp" line="28" column="14" bodyfile="src/api/transport/rpc_thread_pool.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -45,7 +45,7 @@
         <link refid="da/d10/structsgns_1_1api_1_1_rpc_thread_pool_1_1_configuration"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/rpc_thread_pool.hpp" bodystart="26" bodyend="29"/>
+    <location file="src/api/transport/rpc_thread_pool.hpp" line="26" column="5" bodyfile="src/api/transport/rpc_thread_pool.hpp" bodystart="26" bodyend="29"/>
     <listofallmembers>
       <member refid="da/d10/structsgns_1_1api_1_1_rpc_thread_pool_1_1_configuration_1a9bc9b97a938f62ad55a91b235053498d" prot="public" virt="non-virtual"><scope>sgns::api::RpcThreadPool::Configuration</scope><name>max_thread_number</name></member>
       <member refid="da/d10/structsgns_1_1api_1_1_rpc_thread_pool_1_1_configuration_1a8060fd2b4465266f15743905f4c5c9c3" prot="public" virt="non-virtual"><scope>sgns::api::RpcThreadPool::Configuration</scope><name>min_thread_number</name></member>

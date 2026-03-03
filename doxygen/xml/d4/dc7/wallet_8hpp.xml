@@ -4,12 +4,12 @@
     <compoundname>wallet.hpp</compoundname>
     <includes local="no">secure/blockstore.hpp</includes>
     <includes local="no">secure/common.hpp</includes>
-    <includedby refid="d9/df9/common_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp</includedby>
-    <includedby refid="dc/d78/node_2node_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp</includedby>
-    <includedby refid="d7/de1/wallet_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.cpp</includedby>
+    <includedby refid="d9/df9/common_8cpp" local="yes">node/common.cpp</includedby>
+    <includedby refid="dc/d78/node_2node_8hpp" local="yes">node/node.hpp</includedby>
+    <includedby refid="d7/de1/wallet_8cpp" local="yes">node/wallet.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp</label>
+        <label>node/wallet.hpp</label>
         <link refid="d4/dc7/wallet_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -25,19 +25,19 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp</label>
+        <label>node/cli.cpp</label>
         <link refid="dd/d48/cli_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp</label>
+        <label>node/common.cpp</label>
         <link refid="d9/df9/common_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.cpp</label>
+        <label>node/node.cpp</label>
         <link refid="d7/d70/node_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node.hpp</label>
+        <label>node/node.hpp</label>
         <link refid="dc/d78/node_2node_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -45,11 +45,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.cpp</label>
+        <label>node/wallet.cpp</label>
         <link refid="d7/de1/wallet_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp</label>
+        <label>node/wallet.hpp</label>
         <link refid="d4/dc7/wallet_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="71" column="17" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" declline="71" declcolumn="17"/>
+        <location file="node/wallet.hpp" line="71" column="17" declfile="node/wallet.hpp" declline="71" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -165,6 +165,6 @@
 <codeline lineno="73"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp"/>
+    <location file="node/wallet.hpp"/>
   </compounddef>
 </doxygen>

@@ -6,10 +6,10 @@
     <includes refid="d5/d60/node__config_8hpp" local="yes">node_config.hpp</includes>
     <includes local="no">boost/program_options.hpp</includes>
     <includes local="no">string</includes>
-    <includedby refid="dd/d48/cli_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp</includedby>
+    <includedby refid="dd/d48/cli_8cpp" local="yes">node/cli.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp</label>
+        <label>node/cli.hpp</label>
         <link refid="d3/db5/cli_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -103,11 +103,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp</label>
+        <label>node/cli.cpp</label>
         <link refid="dd/d48/cli_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp</label>
+        <label>node/cli.hpp</label>
         <link refid="d3/db5/cli_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="26" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" bodystart="27" bodyend="36"/>
+        <location file="node/cli.hpp" line="26" column="1" bodyfile="node/cli.hpp" bodystart="27" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="38" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp" bodystart="40" bodyend="81" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" declline="38" declcolumn="6"/>
+        <location file="node/cli.hpp" line="38" column="6" bodyfile="node/cli.cpp" bodystart="40" bodyend="81" declfile="node/cli.hpp" declline="38" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a9dfcf22e4921fa5fd3739ec2a584d97f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="39" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp" bodystart="83" bodyend="109" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" declline="39" declcolumn="6"/>
+        <location file="node/cli.hpp" line="39" column="6" bodyfile="node/cli.cpp" bodystart="83" bodyend="109" declfile="node/cli.hpp" declline="39" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a45b4a27f3fa105eb9d6dce11a070aaf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::error_code</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="40" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp" bodystart="111" bodyend="182" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" declline="40" declcolumn="17"/>
+        <location file="node/cli.hpp" line="40" column="17" bodyfile="node/cli.cpp" bodystart="111" bodyend="182" declfile="node/cli.hpp" declline="40" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1af80db9933af63150be4d951907a32b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::error_code</type>
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" line="41" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp" bodystart="243" bodyend="1091" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp" declline="41" declcolumn="17"/>
+        <location file="node/cli.hpp" line="41" column="17" bodyfile="node/cli.cpp" bodystart="243" bodyend="1091" declfile="node/cli.hpp" declline="41" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -314,6 +314,6 @@
 <codeline lineno="44"><highlight class="normal">REGISTER_ERROR_CODES<sp/>(<ref refid="d2/d2b/namespacesgns" kindref="compound">sgns</ref>,<sp/>error_cli)</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.hpp"/>
+    <location file="node/cli.hpp"/>
   </compounddef>
 </doxygen>

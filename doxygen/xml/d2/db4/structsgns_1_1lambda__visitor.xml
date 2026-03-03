@@ -48,7 +48,7 @@
         <link refid="d2/db4/structsgns_1_1lambda__visitor"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" line="11" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" bodystart="11" bodyend="-1"/>
+    <location file="src/base/visitor.hpp" line="11" column="16" bodyfile="src/base/visitor.hpp" bodystart="11" bodyend="-1"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

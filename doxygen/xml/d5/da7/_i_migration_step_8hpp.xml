@@ -6,15 +6,15 @@
     <includes local="no">tuple</includes>
     <includes local="no">sstream</includes>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="d1/d31/_migration0__2__0_to1__0__0_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.hpp</includedby>
-    <includedby refid="dc/db1/_migration1__0__0_to3__4__0_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration1_0_0To3_4_0.hpp</includedby>
-    <includedby refid="de/d71/_migration3__4__0_to3__5__0_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</includedby>
-    <includedby refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp</includedby>
-    <includedby refid="df/dd5/_migration3__5__1_to3__6__0_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.hpp</includedby>
-    <includedby refid="dc/d31/_migration_manager_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.hpp</includedby>
+    <includedby refid="d1/d31/_migration0__2__0_to1__0__0_8hpp" local="yes">src/account/Migration0_2_0To1_0_0.hpp</includedby>
+    <includedby refid="dc/db1/_migration1__0__0_to3__4__0_8hpp" local="yes">src/account/Migration1_0_0To3_4_0.hpp</includedby>
+    <includedby refid="de/d71/_migration3__4__0_to3__5__0_8hpp" local="yes">src/account/Migration3_4_0To3_5_0.hpp</includedby>
+    <includedby refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp" local="yes">src/account/Migration3_5_0To3_5_1.hpp</includedby>
+    <includedby refid="df/dd5/_migration3__5__1_to3__6__0_8hpp" local="yes">src/account/Migration3_5_1To3_6_0.hpp</includedby>
+    <includedby refid="dc/d31/_migration_manager_8hpp" local="yes">src/account/MigrationManager.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp</label>
+        <label>src/account/IMigrationStep.hpp</label>
         <link refid="d5/da7/_i_migration_step_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -46,11 +46,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="14">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp</label>
+        <label>src/account/IMigrationStep.hpp</label>
         <link refid="d5/da7/_i_migration_step_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -66,11 +66,11 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.hpp</label>
+        <label>src/account/Migration0_2_0To1_0_0.hpp</label>
         <link refid="d1/d31/_migration0__2__0_to1__0__0_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -78,11 +78,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration1_0_0To3_4_0.cpp</label>
+        <label>src/account/Migration1_0_0To3_4_0.cpp</label>
         <link refid="d8/d30/_migration1__0__0_to3__4__0_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration1_0_0To3_4_0.hpp</label>
+        <label>src/account/Migration1_0_0To3_4_0.hpp</label>
         <link refid="dc/db1/_migration1__0__0_to3__4__0_8hpp"/>
         <childnode refid="6" relation="include">
         </childnode>
@@ -90,11 +90,11 @@
         </childnode>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -102,11 +102,11 @@
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp</label>
+        <label>src/account/Migration3_5_0To3_5_1.hpp</label>
         <link refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -114,11 +114,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="11">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.hpp</label>
+        <label>src/account/Migration3_5_1To3_6_0.hpp</label>
         <link refid="df/dd5/_migration3__5__1_to3__6__0_8hpp"/>
         <childnode refid="12" relation="include">
         </childnode>
@@ -126,11 +126,11 @@
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
+        <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
       <node id="13">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.hpp</label>
+        <label>src/account/MigrationManager.hpp</label>
         <link refid="dc/d31/_migration_manager_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -210,6 +210,6 @@
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp"/>
+    <location file="src/account/IMigrationStep.hpp"/>
   </compounddef>
 </doxygen>

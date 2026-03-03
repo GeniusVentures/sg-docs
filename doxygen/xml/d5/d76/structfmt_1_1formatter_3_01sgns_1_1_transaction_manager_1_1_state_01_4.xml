@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>fmt::formatter&lt; sgns::TransactionManager::State &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">formatter&lt; std::string_view &gt;</basecompoundref>
+    <includes refid="de/d54/_transaction_manager_8hpp" local="no">TransactionManager.hpp</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4_1a007a10b1f4827c6159e0a5f9e887012d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>format_context::iterator</type>
+        <definition>fmt::format_context::iterator fmt::formatter&lt; sgns::TransactionManager::State &gt;::format</definition>
+        <argsstring>(sgns::TransactionManager::State s, format_context &amp;ctx) const</argsstring>
+        <name>format</name>
+        <qualifiedname>fmt::formatter&lt; sgns::TransactionManager::State &gt;::format</qualifiedname>
+        <param>
+          <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">sgns::TransactionManager::State</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>format_context &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/TransactionManager.hpp" line="353" column="30" bodyfile="src/account/TransactionManager.cpp" bodystart="2660" bodyend="2685"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>fmt::formatter&lt; sgns::TransactionManager::State &gt;</label>
+        <link refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>formatter&lt; std::string_view &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>fmt::formatter&lt; sgns::TransactionManager::State &gt;</label>
+        <link refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>formatter&lt; std::string_view &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/account/TransactionManager.hpp" line="351" column="1" bodyfile="src/account/TransactionManager.hpp" bodystart="352" bodyend="354"/>
+    <listofallmembers>
+      <member refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4_1a007a10b1f4827c6159e0a5f9e887012d" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; sgns::TransactionManager::State &gt;</scope><name>format</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

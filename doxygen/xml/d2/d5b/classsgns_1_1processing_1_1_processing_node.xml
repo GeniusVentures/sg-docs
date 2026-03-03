@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="115" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="115" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="115" column="9" bodyfile="src/processing/processing_node.hpp" bodystart="115" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="94" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="94" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="94" column="25" bodyfile="src/processing/processing_node.hpp" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a6a95bb5b5a28f52b4efa781d7a2e1ba6" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="96" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="96" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="96" column="47" bodyfile="src/processing/processing_node.hpp" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a14de633e443cdd8eef629a8a05b8af25" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="97" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="97" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="97" column="47" bodyfile="src/processing/processing_node.hpp" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ac07c9b7c2e0dbc901162450e20c31d47" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d6/da7/classsgns_1_1processing_1_1_processing_core" kindref="compound">ProcessingCore</ref> &gt;</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="98" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="98" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="98" column="31" bodyfile="src/processing/processing_node.hpp" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a01a0d41e1448ef4bf97984855bb373b6" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage" kindref="compound">SubTaskResultStorage</ref> &gt;</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="99" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="99" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="99" column="25" bodyfile="src/processing/processing_node.hpp" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ab9b107ab0ac0f3e217acc3e3a65140a2" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d00/classsgns_1_1processing_1_1_processing_engine" kindref="compound">ProcessingEngine</ref> &gt;</type>
@@ -103,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="101" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="101" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="101" column="47" bodyfile="src/processing/processing_node.hpp" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ad93b6c1ca06f2871f51527e4ec99036f" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel" kindref="compound">ProcessingSubTaskQueueChannel</ref> &gt;</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="102" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="102" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="102" column="34" bodyfile="src/processing/processing_node.hpp" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1afb82514dfe129dfc467f4b3fba7214d5" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d4/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_manager" kindref="compound">ProcessingSubTaskQueueManager</ref> &gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="103" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="103" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="103" column="34" bodyfile="src/processing/processing_node.hpp" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a43ea55c96e7d7cccf0d4b03c815a0d71" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dd/d1c/classsgns_1_1processing_1_1_sub_task_queue_accessor" kindref="compound">SubTaskQueueAccessor</ref> &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="104" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="104" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="104" column="43" bodyfile="src/processing/processing_node.hpp" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ac0a493128f4e8ea414341af10130b8cd" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(const SGProcessing::TaskResult &amp;)&gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="105" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="105" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="105" column="23" bodyfile="src/processing/processing_node.hpp" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a0c783c76362727a5235c53e7fdab3a77" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(const std::string &amp;)&gt;</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="106" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="106" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="106" column="36" bodyfile="src/processing/processing_node.hpp" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a74fa7ea85543f6549660f872679c24ae" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(void)&gt;</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="107" column="51" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="107" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="107" column="51" bodyfile="src/processing/processing_node.hpp" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a3710da754be200b21b35375c0eff096b" prot="private" static="no" mutable="no">
         <type>std::chrono::steady_clock::time_point</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="109" column="64" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="109" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="109" column="64" bodyfile="src/processing/processing_node.hpp" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a70939844c2caf6911124281c2637a65d" prot="private" static="no" mutable="no">
         <type>std::chrono::seconds</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="110" column="64" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="110" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="110" column="64" bodyfile="src/processing/processing_node.hpp" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ac38b2bcb68d41efca47785c0aa7c914f" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; boost::asio::steady_timer &gt;</type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="111" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="111" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="111" column="37" bodyfile="src/processing/processing_node.hpp" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a228cc0fe4195daf2d39d1a09decb35d4" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(std::shared_ptr&lt; <ref refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a6423d2f00f5ff1cc96f40d8599d7b97f" kindref="member">ProcessingNode</ref> &gt;)&gt;</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="112" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="112" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="112" column="23" bodyfile="src/processing/processing_node.hpp" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a1a1b9715e1ceaaaffd3be0f3aecc8d8e" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; boost::asio::io_context &gt;</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="114" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="114" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="114" column="25" bodyfile="src/processing/processing_node.hpp" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ad79ce14cc9044bb07c7e773303f6003e" prot="private" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a5525c3bf780d41d30af985c88f25f4d9" kindref="member">WorkGuard</ref> &gt;</type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="116" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="116" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="116" column="23" bodyfile="src/processing/processing_node.hpp" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a7233121bbeaa5ab83d5faaf05f0e045c" prot="private" static="no" mutable="no">
         <type>std::thread</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="117" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="117" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="117" column="34" bodyfile="src/processing/processing_node.hpp" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a214523e31b570369736b2292985037d7" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -300,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="119" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="119" bodyend="-1"/>
+        <location file="src/processing/processing_node.hpp" line="119" column="22" bodyfile="src/processing/processing_node.hpp" bodystart="119" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="43" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="10" bodyend="51"/>
+        <location file="src/processing/processing_node.hpp" line="43" column="32" bodyfile="src/processing/processing_node.cpp" bodystart="10" bodyend="51"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="56" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="82" bodyend="105"/>
+        <location file="src/processing/processing_node.hpp" line="56" column="9" bodyfile="src/processing/processing_node.cpp" bodystart="82" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a02a3f4e4f8c3e88d78300c0462c61752" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -484,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="58" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="194" bodyend="197"/>
+        <location file="src/processing/processing_node.hpp" line="58" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="194" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1ab949f851190d659a0ddd787f13a70f49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -501,7 +501,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="63" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="199" bodyend="205"/>
+        <location file="src/processing/processing_node.hpp" line="63" column="15" bodyfile="src/processing/processing_node.cpp" bodystart="199" bodyend="205"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -615,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="76" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="53" bodyend="80"/>
+        <location file="src/processing/processing_node.hpp" line="76" column="9" bodyfile="src/processing/processing_node.cpp" bodystart="53" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a3749bcaa94bdae6d94cc92724206d182" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -633,7 +633,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="85" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="164" bodyend="186"/>
+        <location file="src/processing/processing_node.hpp" line="85" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="164" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a13446132f03fd0eaf74bc11b915b7084" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -651,7 +651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="86" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="188" bodyend="192"/>
+        <location file="src/processing/processing_node.hpp" line="86" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="188" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a391c987c2692835633e404c8645c5781" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -673,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="87" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="107" bodyend="162"/>
+        <location file="src/processing/processing_node.hpp" line="87" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="107" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1af3964706fe8a6008ff3894712bd597e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -687,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="90" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="207" bodyend="215"/>
+        <location file="src/processing/processing_node.hpp" line="90" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="207" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a17e8a5ec019f1c11aa1c8700a99c7b7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -701,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="91" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="217" bodyend="240"/>
+        <location file="src/processing/processing_node.hpp" line="91" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="217" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="d2/d5b/classsgns_1_1processing_1_1_processing_node_1acb200c73b7d1ef45765ada47159669bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -719,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="92" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp" bodystart="242" bodyend="285"/>
+        <location file="src/processing/processing_node.hpp" line="92" column="14" bodyfile="src/processing/processing_node.cpp" bodystart="242" bodyend="285"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1059,7 +1059,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp" bodystart="27" bodyend="120"/>
+    <location file="src/processing/processing_node.hpp" line="26" column="5" bodyfile="src/processing/processing_node.hpp" bodystart="27" bodyend="120"/>
     <listofallmembers>
       <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a3749bcaa94bdae6d94cc92724206d182" prot="private" virt="non-virtual"><scope>sgns::processing::ProcessingNode</scope><name>AttachTo</name></member>
       <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1acb200c73b7d1ef45765ada47159669bf" prot="private" virt="non-virtual"><scope>sgns::processing::ProcessingNode</scope><name>CheckTTL</name></member>

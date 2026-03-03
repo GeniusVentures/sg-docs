@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_71615b694e57e8e147c90de439ca1dd0" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl</compoundname>
+    <compoundname>src/storage/trie/impl</compoundname>
     <innerfile refid="db/d7d/ephemeral__trie__batch__impl_8cpp">ephemeral_trie_batch_impl.cpp</innerfile>
     <innerfile refid="d9/d3e/ephemeral__trie__batch__impl_8hpp">ephemeral_trie_batch_impl.hpp</innerfile>
     <innerfile refid="dd/dda/persistent__trie__batch__impl_8cpp">persistent_trie_batch_impl.cpp</innerfile>
@@ -18,6 +18,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/"/>
+    <location file="src/storage/trie/impl/"/>
   </compounddef>
 </doxygen>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_d422163b96683743ed3963d4aac17747" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app</compoundname>
-    <innerdir refid="dir_811d1baeca87429dbcf173a62b2edffc">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration</innerdir>
+    <compoundname>app</compoundname>
+    <innerdir refid="dir_811d1baeca87429dbcf173a62b2edffc">app/integration</innerdir>
     <innerfile refid="d2/de6/runner_8cpp">runner.cpp</innerfile>
     <innerfile refid="dd/d41/_super_genius_demo_app_8cpp">SuperGeniusDemoApp.cpp</innerfile>
     <innerfile refid="d7/d0a/_super_genius_demo_app_8hpp">SuperGeniusDemoApp.hpp</innerfile>
@@ -10,6 +10,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/"/>
+    <location file="app/"/>
   </compounddef>
 </doxygen>

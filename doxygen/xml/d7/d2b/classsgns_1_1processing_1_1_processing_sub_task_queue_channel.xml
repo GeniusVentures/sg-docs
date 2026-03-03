@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="23" column="13"/>
+        <location file="src/processing/processing_subtask_queue_channel.hpp" line="23" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1a86d1536ac372b9d6875a9d1dd38ac0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="28" column="18"/>
+        <location file="src/processing/processing_subtask_queue_channel.hpp" line="28" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1a8edd64eb53b6f4302eb7a47a4699dbf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="33" column="18"/>
+        <location file="src/processing/processing_subtask_queue_channel.hpp" line="33" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1ab9e2b977c54c360e32471cda0bc2f363" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>size_t</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="39" column="20"/>
+        <location file="src/processing/processing_subtask_queue_channel.hpp" line="39" column="20"/>
       </memberdef>
       <memberdef kind="function" id="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1a3a4186e2808764c2f542cdac17f2e842" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::vector&lt; libp2p::peer::PeerId &gt;</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="45" column="25"/>
+        <location file="src/processing/processing_subtask_queue_channel.hpp" line="45" column="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -119,7 +119,7 @@
         <link refid="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" line="20" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue_channel.hpp" bodystart="21" bodyend="46"/>
+    <location file="src/processing/processing_subtask_queue_channel.hpp" line="20" column="1" bodyfile="src/processing/processing_subtask_queue_channel.hpp" bodystart="21" bodyend="46"/>
     <listofallmembers>
       <member refid="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1a3a4186e2808764c2f542cdac17f2e842" prot="public" virt="pure-virtual"><scope>sgns::processing::ProcessingSubTaskQueueChannel</scope><name>GetActiveNodes</name></member>
       <member refid="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel_1ab9e2b977c54c360e32471cda0bc2f363" prot="public" virt="pure-virtual"><scope>sgns::processing::ProcessingSubTaskQueueChannel</scope><name>GetActiveNodesCount</name></member>

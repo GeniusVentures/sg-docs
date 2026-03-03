@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="24" bodyend="24"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="24" column="5" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="typedef" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1ad41b4148bb37f162055f5c5e0f29efdb" prot="public" static="no">
         <type>std::function&lt; outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;(<ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a05a28686a4c57ae5c77a5f286343f695" kindref="member">BranchPtr</ref>, uint8_t)&gt;</type>
@@ -38,7 +38,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="21" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="21" column="5" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -54,7 +54,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="92" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="92" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="92" column="26" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a8343470870c46ef65e8eeb2c2785304b" prot="private" static="no" mutable="no">
         <type><ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref></type>
@@ -68,7 +68,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="93" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="93" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="93" column="13" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -92,7 +92,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="15" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="15" bodyend="18"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="15" column="28" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a3e5377eeaf28a1b6643fac75839dd9d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -114,7 +114,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="87" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="407" bodyend="423"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="87" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="407" bodyend="423"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -145,7 +145,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="32" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="23" bodyend="26"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="32" column="14" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a2292b1e026aeb11fa1cb4d523c167726" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -168,7 +168,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="35" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="28" bodyend="31"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="35" column="14" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1ae6802bebd2e3d3365e41332ad31c63c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref></type>
@@ -186,7 +186,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="38" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="39" bodyend="41"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="38" column="13" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="39" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a3e76cc98f95150694b2c822a80ec3c89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -218,7 +218,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="40" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="188" bodyend="218"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="40" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="188" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a98c60d50e89ea5d28e36096da3d6c48d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; std::list&lt; std::pair&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a05a28686a4c57ae5c77a5f286343f695" kindref="member">BranchPtr</ref>, uint8_t &gt; &gt; &gt;</type>
@@ -250,7 +250,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="43" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="221" bodyend="254"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="43" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="221" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1ad031e99bbcc8a14f148f08cf023e749a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -270,7 +270,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="49" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="59" bodyend="69"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="49" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="59" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a3a6142bf46e08edc38a7cae137c2e158" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -314,7 +314,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="52" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="33" bodyend="37"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="52" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="33" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1aaad68a2461dc495787030c39e41825a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -336,7 +336,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="55" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="43" bodyend="57"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="55" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="43" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1af84499573d15bfd9d1cf086b775ce0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -368,7 +368,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="58" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="274" bodyend="285"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="58" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="274" bodyend="285"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a82ee7cadb6ac656c87ae7dc02d72b67c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt;</type>
@@ -400,7 +400,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="60" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="175" bodyend="186"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="60" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="175" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a2e28a4d5dce11445c392ecf9bd06602b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d0/dbf/namespacesgns_1_1storage_1af3943c7b4511cc2ca91cfcac7f94fac3" kindref="member">BufferMapCursor</ref> &gt;</type>
@@ -419,7 +419,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="63" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="256" bodyend="258"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="63" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="256" bodyend="258"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1abcff796f44090180ca055b9aa4e4c18e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -451,7 +451,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="65" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="260" bodyend="268"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="65" column="10" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="260" bodyend="268"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a0ff5c8b84693f8bf9890ed18a522ed52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -467,7 +467,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="67" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="270" bodyend="272"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="67" column="10" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="270" bodyend="272"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -495,7 +495,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="70" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="71" bodyend="135"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="70" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="71" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a4c7c0fab10afb91682a2ca709ef30eb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -521,7 +521,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="74" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="137" bodyend="173"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="74" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="137" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a8d0b1b733bd79f1210adf5b0f678a852" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -543,7 +543,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="78" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="287" bodyend="320"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="78" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="287" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1aea1034b300e4847f55278f300568d284" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -569,7 +569,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="80" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="322" bodyend="365"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="80" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="322" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1a235b078fe06107a66c52fd2c81b906d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -591,7 +591,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="84" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="367" bodyend="400"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="84" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="367" bodyend="400"/>
       </memberdef>
       <memberdef kind="function" id="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1abc5315ba46784e7df9a479f15c4e207e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a1b60f029e681ccadc921629dc417fde7" kindref="member">NodePtr</ref> &gt;</type>
@@ -634,7 +634,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="89" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="402" bodyend="405"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="89" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp" bodystart="402" bodyend="405"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -851,7 +851,7 @@ std::function&lt;outcome::result&lt;NodePtr&gt;(BranchPtr, uint8_t)&gt;</definit
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="12" bodyend="94"/>
+    <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="12" column="3" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" bodystart="12" bodyend="94"/>
     <listofallmembers>
       <member refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_1a05a28686a4c57ae5c77a5f286343f695" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusTrieImpl</scope><name>BranchPtr</name></member>
       <member refid="df/dfd/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_impl_1ad41b4148bb37f162055f5c5e0f29efdb" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusTrieImpl</scope><name>ChildRetrieveFunctor</name></member>

@@ -4,8 +4,8 @@
     <compoundname>processing_subtask_result_storage_impl.hpp</compoundname>
     <includes refid="d9/de8/processing__subtask__result__storage_8hpp" local="yes">processing/processing_subtask_result_storage.hpp</includes>
     <includes refid="d0/d0e/globaldb_8hpp" local="yes">crdt/globaldb/globaldb.hpp</includes>
-    <includedby refid="d3/d63/_genius_node_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</includedby>
-    <includedby refid="d5/d95/processing__subtask__result__storage__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_subtask_result_storage_impl.cpp</includedby>
+    <includedby refid="d3/d63/_genius_node_8hpp" local="yes">src/account/GeniusNode.hpp</includedby>
+    <includedby refid="d5/d95/processing__subtask__result__storage__impl_8cpp" local="yes">src/processing/impl/processing_subtask_result_storage_impl.cpp</includedby>
     <incdepgraph>
       <node id="16">
         <label>base/buffer.hpp</label>
@@ -300,7 +300,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_subtask_result_storage_impl.hpp</label>
+        <label>src/processing/impl/processing_subtask_result_storage_impl.hpp</label>
         <link refid="d6/dd6/processing__subtask__result__storage__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -559,21 +559,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_subtask_result_storage_impl.cpp</label>
+        <label>src/processing/impl/processing_subtask_result_storage_impl.cpp</label>
         <link refid="d5/d95/processing__subtask__result__storage__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_subtask_result_storage_impl.hpp</label>
+        <label>src/processing/impl/processing_subtask_result_storage_impl.hpp</label>
         <link refid="d6/dd6/processing__subtask__result__storage__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -618,6 +618,6 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>GRPC_FOR_SUPERGENIUS_PROCESSING_SUBTASK_RESULT_STORAGE_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_subtask_result_storage_impl.hpp"/>
+    <location file="src/processing/impl/processing_subtask_result_storage_impl.hpp"/>
   </compounddef>
 </doxygen>

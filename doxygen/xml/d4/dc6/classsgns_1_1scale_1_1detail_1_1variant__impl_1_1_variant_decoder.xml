@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="66" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="66" bodyend="-1"/>
+        <location file="src/scale/detail/variant.hpp" line="66" column="15" bodyfile="src/scale/detail/variant.hpp" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder_1ad3c732cb77eb09837c32e2945473fb77" prot="private" static="no" mutable="no">
         <type>boost::variant&lt; T... &gt; &amp;</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="67" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="67" bodyend="-1"/>
+        <location file="src/scale/detail/variant.hpp" line="67" column="22" bodyfile="src/scale/detail/variant.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder_1afd6382cfb69172aa6eb4000a741b4c94" prot="private" static="no" mutable="no">
         <type>Stream &amp;</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="68" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="68" bodyend="-1"/>
+        <location file="src/scale/detail/variant.hpp" line="68" column="14" bodyfile="src/scale/detail/variant.hpp" bodystart="68" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="53" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="53" bodyend="54"/>
+        <location file="src/scale/detail/variant.hpp" line="53" column="7" bodyfile="src/scale/detail/variant.hpp" bodystart="53" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder_1a73145edd75c1969402cbbc253c8e9756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="57" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="57" bodyend="63"/>
+        <location file="src/scale/detail/variant.hpp" line="57" column="12" bodyfile="src/scale/detail/variant.hpp" bodystart="57" bodyend="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -118,7 +118,7 @@
         <link refid="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" line="51" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/variant.hpp" bodystart="51" bodyend="69"/>
+    <location file="src/scale/detail/variant.hpp" line="51" column="5" bodyfile="src/scale/detail/variant.hpp" bodystart="51" bodyend="69"/>
     <listofallmembers>
       <member refid="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder_1a73145edd75c1969402cbbc253c8e9756" prot="public" virt="non-virtual"><scope>sgns::scale::detail::variant_impl::VariantDecoder</scope><name>apply</name></member>
       <member refid="d4/dc6/classsgns_1_1scale_1_1detail_1_1variant__impl_1_1_variant_decoder_1ad3c732cb77eb09837c32e2945473fb77" prot="private" virt="non-virtual"><scope>sgns::scale::detail::variant_impl::VariantDecoder</scope><name>r_</name></member>

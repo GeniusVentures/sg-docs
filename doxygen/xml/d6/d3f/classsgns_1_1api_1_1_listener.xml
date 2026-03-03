@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" bodystart="18" bodyend="-1"/>
+        <location file="src/api/transport/listener.hpp" line="18" column="5" bodyfile="src/api/transport/listener.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d3f/classsgns_1_1api_1_1_listener_1a7e388013a06677841216e4f837a2345b" prot="protected" static="no">
         <type>boost::asio::ip::tcp::endpoint</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" bodystart="19" bodyend="-1"/>
+        <location file="src/api/transport/listener.hpp" line="19" column="5" bodyfile="src/api/transport/listener.hpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d3f/classsgns_1_1api_1_1_listener_1a46eee029b2ad2b539a0a22182adf9370" prot="protected" static="no">
         <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="db/d02/classsgns_1_1api_1_1_session" kindref="compound">Session</ref> &gt; &amp;)&gt;</type>
@@ -49,7 +49,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" bodystart="20" bodyend="-1"/>
+        <location file="src/api/transport/listener.hpp" line="20" column="5" bodyfile="src/api/transport/listener.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-type">
@@ -65,7 +65,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/api/transport/listener.hpp" line="24" column="5" bodyfile="src/api/transport/listener.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -81,7 +81,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="34" column="5"/>
+        <location file="src/api/transport/listener.hpp" line="34" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d6/d3f/classsgns_1_1api_1_1_listener_1a1d47e7a8d44c673ed0e47d9e09a742d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -101,7 +101,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="40" column="18"/>
+        <location file="src/api/transport/listener.hpp" line="40" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d6/d3f/classsgns_1_1api_1_1_listener_1a430c88059890b2e419fd3b422015a0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -121,7 +121,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="46" column="18"/>
+        <location file="src/api/transport/listener.hpp" line="46" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d6/d3f/classsgns_1_1api_1_1_listener_1a7298bee38d86730d76a47eb10cab6d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -141,7 +141,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="52" column="18"/>
+        <location file="src/api/transport/listener.hpp" line="52" column="18"/>
       </memberdef>
       <memberdef kind="function" id="d6/d3f/classsgns_1_1api_1_1_listener_1a2c447262ee5e172d5f2df0a21fde29e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -162,7 +162,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="55" column="18"/>
+        <location file="src/api/transport/listener.hpp" line="55" column="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -181,7 +181,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="60" column="18"/>
+        <location file="src/api/transport/listener.hpp" line="60" column="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -225,7 +225,7 @@ std::function&lt;void(const std::shared_ptr&lt;Session&gt; &amp;)&gt;</definitio
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" line="16" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp" bodystart="16" bodyend="61"/>
+    <location file="src/api/transport/listener.hpp" line="16" column="3" bodyfile="src/api/transport/listener.hpp" bodystart="16" bodyend="61"/>
     <listofallmembers>
       <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1af52c93d1a241869ee003044a786b5eda" prot="protected" virt="pure-virtual"><scope>sgns::api::Listener</scope><name>acceptOnce</name></member>
       <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1afe8587bdb42a214eb13ca6a0c4f7cb66" prot="protected" virt="non-virtual"><scope>sgns::api::Listener</scope><name>Acceptor</name></member>

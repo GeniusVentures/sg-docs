@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_d458887c1254e5b4eec70c3ee6399116" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors</compoundname>
+    <compoundname>SGProcessingManager/src/processors</compoundname>
     <innerfile refid="d3/d27/processing__processor__mnn__audio_8cpp">processing_processor_mnn_audio.cpp</innerfile>
     <innerfile refid="d2/d49/processing__processor__mnn__image_8cpp">processing_processor_mnn_image.cpp</innerfile>
     <innerfile refid="d1/dad/processing__processor__mnn__ml_8cpp">processing_processor_mnn_ml.cpp</innerfile>
@@ -9,6 +9,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/"/>
+    <location file="SGProcessingManager/src/processors/"/>
   </compounddef>
 </doxygen>

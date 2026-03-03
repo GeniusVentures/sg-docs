@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" line="19" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" bodystart="19" bodyend="21"/>
+        <location file="src/base/visitor.hpp" line="19" column="9" bodyfile="src/base/visitor.hpp" bodystart="19" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -97,7 +97,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" line="14" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/visitor.hpp" bodystart="15" bodyend="22"/>
+    <location file="src/base/visitor.hpp" line="14" column="5" bodyfile="src/base/visitor.hpp" bodystart="15" bodyend="22"/>
     <listofallmembers>
       <member refid="d2/d5d/structsgns_1_1lambda__visitor_3_01_lambda_00_01_lambdas_8_8_8_01_4_1aec6c27b247a3c70f8ece8651dd449e40" prot="public" virt="non-virtual"><scope>sgns::lambda_visitor&lt; Lambda, Lambdas... &gt;</scope><name>lambda_visitor</name></member>
     </listofallmembers>

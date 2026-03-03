@@ -3,10 +3,10 @@
   <compounddef id="d6/d9f/_transaction_verifier_circuit_8hpp" kind="file" language="C++">
     <compoundname>TransactionVerifierCircuit.hpp</compoundname>
     <includes local="no">string_view</includes>
-    <includedby refid="d5/d20/_transfer_proof_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.hpp</includedby>
+    <includedby refid="d5/d20/_transfer_proof_8hpp" local="yes">src/proof/TransferProof.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp</label>
+        <label>src/proof/circuits/TransactionVerifierCircuit.hpp</label>
         <link refid="d6/d9f/_transaction_verifier_circuit_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -16,36 +16,30 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
-        <link refid="d0/dcc/_transaction_manager_8cpp"/>
-      </node>
-      <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp</label>
+      <node id="4">
+        <label>src/proof/RecursiveTransferProof.cpp</label>
         <link refid="df/db6/_recursive_transfer_proof_8cpp"/>
       </node>
-      <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp</label>
+      <node id="3">
+        <label>src/proof/RecursiveTransferProof.hpp</label>
         <link refid="d7/d6d/_recursive_transfer_proof_8hpp"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.cpp</label>
+      <node id="5">
+        <label>src/proof/TransferProof.cpp</label>
         <link refid="d5/dcb/_transfer_proof_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/TransferProof.hpp</label>
+        <label>src/proof/TransferProof.hpp</label>
         <link refid="d5/d20/_transfer_proof_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp</label>
+        <label>src/proof/circuits/TransactionVerifierCircuit.hpp</label>
         <link refid="d6/d9f/_transaction_verifier_circuit_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -63,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp" line="12" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp" bodystart="12" bodyend="-1"/>
+        <location file="src/proof/circuits/TransactionVerifierCircuit.hpp" line="12" column="41" bodyfile="src/proof/circuits/TransactionVerifierCircuit.hpp" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d9f/_transaction_verifier_circuit_8hpp_1ab7376bcadd0b1015d6a6509e98e6e5f5" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>const std::string_view</type>
@@ -76,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp" line="398" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp" bodystart="398" bodyend="-1"/>
+        <location file="src/proof/circuits/TransactionVerifierCircuit.hpp" line="398" column="41" bodyfile="src/proof/circuits/TransactionVerifierCircuit.hpp" bodystart="398" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -890,6 +884,6 @@ R&quot;TRANSACTION(</highlight></codeline>
 <codeline lineno="805"><highlight class="normal"></highlight></codeline>
 <codeline lineno="806"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits/TransactionVerifierCircuit.hpp"/>
+    <location file="src/proof/circuits/TransactionVerifierCircuit.hpp"/>
   </compounddef>
 </doxygen>

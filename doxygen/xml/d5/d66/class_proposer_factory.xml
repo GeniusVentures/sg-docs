@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" line="17" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" bodystart="17" bodyend="37"/>
+        <location file="app/integration/ProposerFactory.hpp" line="17" column="28" bodyfile="app/integration/ProposerFactory.hpp" bodystart="17" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d5/d66/class_proposer_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" line="14" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" bodystart="15" bodyend="38"/>
+    <location file="app/integration/ProposerFactory.hpp" line="14" column="1" bodyfile="app/integration/ProposerFactory.hpp" bodystart="15" bodyend="38"/>
     <listofallmembers>
       <member refid="d5/d66/class_proposer_factory_1a9e2e01990278164d94c6faeabd5e49c5" prot="public" virt="non-virtual"><scope>ProposerFactory</scope><name>create</name></member>
     </listofallmembers>

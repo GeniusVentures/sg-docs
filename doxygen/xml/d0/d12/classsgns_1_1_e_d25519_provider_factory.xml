@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp" line="18" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp" bodystart="18" bodyend="21"/>
+        <location file="app/integration/ED25519ProviderFactory.hpp" line="18" column="25" bodyfile="app/integration/ED25519ProviderFactory.hpp" bodystart="18" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="d0/d12/classsgns_1_1_e_d25519_provider_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ED25519ProviderFactory.hpp" bodystart="16" bodyend="22"/>
+    <location file="app/integration/ED25519ProviderFactory.hpp" line="15" column="5" bodyfile="app/integration/ED25519ProviderFactory.hpp" bodystart="16" bodyend="22"/>
     <listofallmembers>
       <member refid="d0/d12/classsgns_1_1_e_d25519_provider_factory_1a81ed57c397a65b04f179f7a8f2c57c14" prot="public" virt="non-virtual"><scope>sgns::ED25519ProviderFactory</scope><name>create</name></member>
     </listofallmembers>

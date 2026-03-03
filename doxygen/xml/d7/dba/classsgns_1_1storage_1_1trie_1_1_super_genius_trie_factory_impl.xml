@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="26" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="26" bodyend="-1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="26" column="47" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="14" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp" bodystart="7" bodyend="10"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="14" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp" bodystart="7" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="d7/dba/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_factory_impl_1a29880510e637feff9f4885da93a4f5e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d8/d77/classsgns_1_1storage_1_1trie_1_1_super_genius_trie" kindref="compound">SuperGeniusTrie</ref> &gt;</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="16" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp" bodystart="12" bodyend="16"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="16" column="21" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp" bodystart="12" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="d7/dba/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_factory_impl_1a2ebbb4ad3e402e2c28c5fd0fe7a06938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="20" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="20" bodyend="23"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="20" column="17" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="20" bodyend="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -147,7 +147,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="11" bodyend="27"/>
+    <location file="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" line="11" column="3" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp" bodystart="11" bodyend="27"/>
     <listofallmembers>
       <member refid="d1/df6/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_factory_1a2849b7ceebef0c172658a3c41d482dc7" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusTrieFactoryImpl</scope><name>ChildRetrieveFunctor</name></member>
       <member refid="d7/dba/classsgns_1_1storage_1_1trie_1_1_super_genius_trie_factory_impl_1a18f1f921a89a735ee31c3f68b56dfcb8" prot="public" virt="virtual"><scope>sgns::storage::trie::SuperGeniusTrieFactoryImpl</scope><name>createEmpty</name></member>

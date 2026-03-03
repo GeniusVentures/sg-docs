@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="36" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="36" bodyend="-1"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="36" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1ad5fa1369bb9fc416b81adeebccf46815" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d45/classsgns_1_1blockchain_1_1_block_header_repository" kindref="compound">blockchain::BlockHeaderRepository</ref> &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="37" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="37" bodyend="-1"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="37" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a6bb6c71f7193a77cb03d69ff8e1eb543" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="38" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="38" column="14" bodyfile="src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="15" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="13" bodyend="24"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="15" column="14" bodyfile="src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="13" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a7ea3f95fc37b746ab11447d96b2da935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="21" column="5"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="21" column="5"/>
       </memberdef>
       <memberdef kind="function" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1ad95c2c91f80f3f088defd164517f5860" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; <ref refid="de/d6d/structsgns_1_1primitives_1_1_version" kindref="compound">primitives::Version</ref> &gt;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="23" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="26" bodyend="34"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="23" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="26" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a238290489c71d5c01ec8f882456ec94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="26" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="36" bodyend="47"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="26" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="36" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a2fbcb52af57e42f9ee4cc7752fdf160c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="29" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="49" bodyend="59"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="29" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="49" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a06d804a151f60b237f68edcb4234cad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; std::vector&lt; <ref refid="db/d9a/structsgns_1_1primitives_1_1_authority_id" kindref="compound">primitives::AuthorityId</ref> &gt; &gt;</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="32" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="61" bodyend="66"/>
+        <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="32" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_impl.cpp" bodystart="61" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -508,7 +508,7 @@
         <label>wasm::ShellExternalInterface</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="13" bodyend="39"/>
+    <location file="src/runtime/binaryen/runtime_api/core_impl.hpp" line="13" column="3" bodyfile="src/runtime/binaryen/runtime_api/core_impl.hpp" bodystart="13" bodyend="39"/>
     <listofallmembers>
       <member refid="dc/d9a/classsgns_1_1runtime_1_1binaryen_1_1_core_impl_1a06d804a151f60b237f68edcb4234cad7" prot="public" virt="virtual"><scope>sgns::runtime::binaryen::CoreImpl</scope><name>authorities</name></member>
       <member refid="dc/d25/classsgns_1_1runtime_1_1binaryen_1_1_runtime_api_1a6a085102349cc88fbd0099b70bf7e094" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::CoreImpl</scope><name>CallPersistency</name></member>

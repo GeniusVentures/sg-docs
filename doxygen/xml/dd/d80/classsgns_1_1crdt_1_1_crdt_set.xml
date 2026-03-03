@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="27" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="28" bodyend="32"/>
+        <location file="src/crdt/crdt_set.hpp" line="27" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a3c68254073dc4899c0381648bb2b0d5d" prot="public" static="no">
         <type>pb::Delta</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="21" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="21" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="21" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a714946643028e430c20de60a62f6debf" prot="public" static="no">
         <type>pb::Element</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="22" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="22" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="22" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a7e8ebf0f3c0554a34554e9403f1ed58e" prot="public" static="no">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="23" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="23" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="23" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a10f8dfc0457626df474c0528332e8a28" prot="public" static="no">
         <type><ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb" kindref="compound">storage::rocksdb</ref></type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="24" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="24" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="24" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab08b15d094e1258e65bdbfec872b5e19" prot="public" static="no">
         <type><ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb_1a2c93b11da8a6ebd31ca7512ca2c86b41" kindref="member">DataStore::QueryResult</ref></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="25" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="25" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="25" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a0eab41af5fe517c06de2ced00e2f2075" prot="public" static="no">
         <type>std::function&lt; void(const std::string &amp;k, const <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a7e8ebf0f3c0554a34554e9403f1ed58e" kindref="member">Buffer</ref> &amp;v, const std::string &amp;cid)&gt;</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="38" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="38" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab0f1b98bec92e94784401368b56149e2" prot="public" static="no">
         <type>std::function&lt; void(const std::string &amp;k, const std::string &amp;cid)&gt;</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="43" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="43" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="43" column="9" bodyfile="src/crdt/crdt_set.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="310" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="310" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="310" column="25" bodyfile="src/crdt/crdt_set.hpp" bodystart="310" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ae69a448a218970353d2c978909f52782" prot="private" static="no" mutable="no">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="311" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="311" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="311" column="36" bodyfile="src/crdt/crdt_set.hpp" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a4fa932fa4281c56b3cc6188af8dd0ff7" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="312" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="312" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="312" column="36" bodyfile="src/crdt/crdt_set.hpp" bodystart="312" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab8ff1f252a3f13ca5cf396f3d869c464" prot="private" static="no" mutable="no">
         <type><ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a0eab41af5fe517c06de2ced00e2f2075" kindref="member">PutHookPtr</ref></type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="313" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="313" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="313" column="36" bodyfile="src/crdt/crdt_set.hpp" bodystart="313" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a2b5c2a715f309fdc603127c482c82c33" prot="private" static="no" mutable="no">
         <type><ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab0f1b98bec92e94784401368b56149e2" kindref="member">DeleteHookPtr</ref></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="314" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="314" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="314" column="36" bodyfile="src/crdt/crdt_set.hpp" bodystart="314" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="316" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="316" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="316" column="43" bodyfile="src/crdt/crdt_set.hpp" bodystart="316" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1add6f086cee0f74a3da366c9db5c2d858" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="317" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="317" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="317" column="43" bodyfile="src/crdt/crdt_set.hpp" bodystart="317" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a98d7bd761cca31dc611f4209b49f7741" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="318" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="318" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="318" column="43" bodyfile="src/crdt/crdt_set.hpp" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1acb045e20cc7f88554a132db8eab458d6" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="319" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="319" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="319" column="43" bodyfile="src/crdt/crdt_set.hpp" bodystart="319" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aa73c800b6187153a0b68b8d81ea595bc" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="320" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="320" bodyend="-1"/>
+        <location file="src/crdt/crdt_set.hpp" line="320" column="43" bodyfile="src/crdt/crdt_set.hpp" bodystart="320" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -381,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="51" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="12" bodyend="21"/>
+        <location file="src/crdt/crdt_set.hpp" line="51" column="9" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="12" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a6d86082405b12a2450b434cafb81004e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -400,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="58" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="23" bodyend="26"/>
+        <location file="src/crdt/crdt_set.hpp" line="58" column="9" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ac0c590242c60335dba4b51186b70d78c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="62" column="17"/>
+        <location file="src/crdt/crdt_set.hpp" line="62" column="17"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a103fa7e794ba3e7f9869273135385ae9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="67" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="28" bodyend="34"/>
+        <location file="src/crdt/crdt_set.hpp" line="67" column="14" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="28" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a2cbb8428390c033f3d8e22f72b233721" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -457,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="72" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="36" bodyend="39"/>
+        <location file="src/crdt/crdt_set.hpp" line="72" column="14" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="36" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ae7943a79b7b1096962366d51ddf4d701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aee3b2c8e139ffbf2077783310258368d" kindref="member">CrdtSet</ref> &amp;</type>
@@ -476,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="76" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="41" bodyend="51"/>
+        <location file="src/crdt/crdt_set.hpp" line="76" column="17" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="41" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a1815525bf64247f1bf75c726e418f9eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -506,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="96" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="53" bodyend="71"/>
+        <location file="src/crdt/crdt_set.hpp" line="96" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="53" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1af96668779574ef8996ec587c16c79ef1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a3c68254073dc4899c0381648bb2b0d5d" kindref="member">Delta</ref> &gt; &gt;</type>
@@ -536,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="110" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="84" bodyend="119"/>
+        <location file="src/crdt/crdt_set.hpp" line="110" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="84" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1abff7cdd8d9bb587127dcb1cfc1d7615c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a7e8ebf0f3c0554a34554e9403f1ed58e" kindref="member">Buffer</ref> &gt;</type>
@@ -566,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="116" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="121" bodyend="162"/>
+        <location file="src/crdt/crdt_set.hpp" line="116" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="121" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a9d47deccadf24bd675864b3fadd1c0ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab08b15d094e1258e65bdbfec872b5e19" kindref="member">QueryResult</ref> &gt;</type>
@@ -611,7 +611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="124" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="164" bodyend="228"/>
+        <location file="src/crdt/crdt_set.hpp" line="124" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="164" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ae495e6f10dffe8dd524e22a57d7f27a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ab08b15d094e1258e65bdbfec872b5e19" kindref="member">QueryResult</ref> &gt;</type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="135" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="230" bodyend="293"/>
+        <location file="src/crdt/crdt_set.hpp" line="135" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="230" bodyend="293"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a9276e00323617ff1c8e713f3f586b600" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -709,7 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="148" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="295" bodyend="322"/>
+        <location file="src/crdt/crdt_set.hpp" line="148" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="295" bodyend="322"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aa76c9ca73919a5c3041fd42a22573a0a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -739,7 +739,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="155" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="324" bodyend="366"/>
+        <location file="src/crdt/crdt_set.hpp" line="155" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="324" bodyend="366"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a09a236a88b68d04bf869fb5241616fba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -769,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="162" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="368" bodyend="372"/>
+        <location file="src/crdt/crdt_set.hpp" line="162" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="368" bodyend="372"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a9574ad9a47a74b9ac932eb5a80187059" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -799,7 +799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="169" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="374" bodyend="378"/>
+        <location file="src/crdt/crdt_set.hpp" line="169" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="374" bodyend="378"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1abfa53c5f84133459f9dc09d245c5b776" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -829,7 +829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="176" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="380" bodyend="384"/>
+        <location file="src/crdt/crdt_set.hpp" line="176" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="380" bodyend="384"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a05a3d2e0996a4c06c41c3fe9ce7331fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -859,7 +859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="183" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="386" bodyend="390"/>
+        <location file="src/crdt/crdt_set.hpp" line="183" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="386" bodyend="390"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a4944ddfb602140c09489bc4c3b85eabf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -889,7 +889,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="190" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="392" bodyend="396"/>
+        <location file="src/crdt/crdt_set.hpp" line="190" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="392" bodyend="396"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a36f103b2c0ea142434859e2de75ee37a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key" kindref="compound">HierarchicalKey</ref></type>
@@ -919,7 +919,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="197" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="398" bodyend="402"/>
+        <location file="src/crdt/crdt_set.hpp" line="197" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="398" bodyend="402"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a57bebd53171f08177ddbe6f5a7160828" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -949,7 +949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="203" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="404" bodyend="425"/>
+        <location file="src/crdt/crdt_set.hpp" line="203" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="404" bodyend="425"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a756b190b07b8d3e725b27eacad7a03a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -991,7 +991,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="210" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="427" bodyend="445"/>
+        <location file="src/crdt/crdt_set.hpp" line="210" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="427" bodyend="445"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ae55260e21fd4ba2a647adb178e4a476d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1057,7 +1057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="220" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="447" bodyend="471"/>
+        <location file="src/crdt/crdt_set.hpp" line="220" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="447" bodyend="471"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a8ac205a0d3b3b555a9c8152cca1e5617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1135,7 +1135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="234" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="473" bodyend="539"/>
+        <location file="src/crdt/crdt_set.hpp" line="234" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="473" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1af7690002bae50aefc3cf7f80a2ed89a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1190,7 +1190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="254" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="541" bodyend="588"/>
+        <location file="src/crdt/crdt_set.hpp" line="254" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="541" bodyend="588"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aad3a72856238edeb82bb725a2c3da64b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1232,7 +1232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="261" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="590" bodyend="637"/>
+        <location file="src/crdt/crdt_set.hpp" line="261" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="590" bodyend="637"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a3185ee6939af7dd1f914da82ea671929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1274,7 +1274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="268" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="639" bodyend="645"/>
+        <location file="src/crdt/crdt_set.hpp" line="268" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="639" bodyend="645"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aec5391c272794e5273dc387db7619c02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -1316,7 +1316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="275" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="647" bodyend="658"/>
+        <location file="src/crdt/crdt_set.hpp" line="275" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="647" bodyend="658"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a7960d9ce94f2ccba221a770996b0bf1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1344,7 +1344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="283" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="660" bodyend="663"/>
+        <location file="src/crdt/crdt_set.hpp" line="283" column="14" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="660" bodyend="663"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ad545a9b71d93c0fb834270d8faa538f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1372,7 +1372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="294" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="665" bodyend="668"/>
+        <location file="src/crdt/crdt_set.hpp" line="294" column="14" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="665" bodyend="668"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1ad8df1342fefe3b2505621c46c7548222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1402,7 +1402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="301" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="670" bodyend="690"/>
+        <location file="src/crdt/crdt_set.hpp" line="301" column="25" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="670" bodyend="690"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1af3dddf6c6df46ac65aea9282a6f9fa46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1416,7 +1416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="303" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="692" bodyend="713"/>
+        <location file="src/crdt/crdt_set.hpp" line="303" column="14" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="692" bodyend="713"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -1433,7 +1433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="80" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="80" bodyend="83"/>
+        <location file="src/crdt/crdt_set.hpp" line="80" column="28" bodyfile="src/crdt/crdt_set.hpp" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a2bf5113d447a07c61c29a389cc534744" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -1448,7 +1448,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="87" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="87" bodyend="90"/>
+        <location file="src/crdt/crdt_set.hpp" line="87" column="28" bodyfile="src/crdt/crdt_set.hpp" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a74e5fbcd365b4e1cb5393d770f885637" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a3c68254073dc4899c0381648bb2b0d5d" kindref="member">Delta</ref> &gt; &gt;</type>
@@ -1490,7 +1490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="103" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="73" bodyend="82"/>
+        <location file="src/crdt/crdt_set.hpp" line="103" column="32" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="73" bodyend="82"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1506,7 +1506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="306" column="9"/>
+        <location file="src/crdt/crdt_set.hpp" line="306" column="9"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -1526,7 +1526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="308" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_set.cpp" bodystart="715" bodyend="723"/>
+        <location file="src/crdt/crdt_set.hpp" line="308" column="21" bodyfile="src/crdt/impl/crdt_set.cpp" bodystart="715" bodyend="723"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1770,7 +1770,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_set.hpp" bodystart="19" bodyend="321"/>
+    <location file="src/crdt/crdt_set.hpp" line="18" column="5" bodyfile="src/crdt/crdt_set.hpp" bodystart="19" bodyend="321"/>
     <listofallmembers>
       <member refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1a7e8ebf0f3c0554a34554e9403f1ed58e" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtSet</scope><name>Buffer</name></member>
       <member refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set_1aee3b2c8e139ffbf2077783310258368d" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtSet</scope><name>CrdtSet</name></member>

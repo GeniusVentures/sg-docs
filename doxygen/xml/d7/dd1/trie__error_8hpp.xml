@@ -3,10 +3,10 @@
   <compounddef id="d7/dd1/trie__error_8hpp" kind="file" language="C++">
     <compoundname>trie_error.hpp</compoundname>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="dd/dda/persistent__trie__batch__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp</includedby>
-    <includedby refid="d1/dfc/topper__trie__batch__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/topper_trie_batch_impl.cpp</includedby>
-    <includedby refid="db/df1/supergenius__trie__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</includedby>
-    <includedby refid="db/df0/trie__error_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.cpp</includedby>
+    <includedby refid="dd/dda/persistent__trie__batch__impl_8cpp" local="yes">src/storage/trie/impl/persistent_trie_batch_impl.cpp</includedby>
+    <includedby refid="d1/dfc/topper__trie__batch__impl_8cpp" local="yes">src/storage/trie/impl/topper_trie_batch_impl.cpp</includedby>
+    <includedby refid="db/df1/supergenius__trie__impl_8cpp" local="yes">src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</includedby>
+    <includedby refid="db/df0/trie__error_8cpp" local="yes">src/storage/trie/supergenius_trie/trie_error.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>outcome/outcome.hpp</label>
@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.hpp</label>
+        <label>src/storage/trie/supergenius_trie/trie_error.hpp</label>
         <link refid="d7/dd1/trie__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -26,23 +26,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
         <link refid="dd/dda/persistent__trie__batch__impl_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/topper_trie_batch_impl.cpp</label>
+        <label>src/storage/trie/impl/topper_trie_batch_impl.cpp</label>
         <link refid="d1/dfc/topper__trie__batch__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</label>
         <link refid="db/df1/supergenius__trie__impl_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.cpp</label>
+        <label>src/storage/trie/supergenius_trie/trie_error.cpp</label>
         <link refid="db/df0/trie__error_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.hpp</label>
+        <label>src/storage/trie/supergenius_trie/trie_error.hpp</label>
         <link refid="d7/dd1/trie__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.hpp" bodystart="12" bodyend="14"/>
+        <location file="src/storage/trie/supergenius_trie/trie_error.hpp" line="12" column="3" bodyfile="src/storage/trie/supergenius_trie/trie_error.hpp" bodystart="12" bodyend="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -102,6 +102,6 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_TRIE_TRIE_ERROR_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/trie_error.hpp"/>
+    <location file="src/storage/trie/supergenius_trie/trie_error.hpp"/>
   </compounddef>
 </doxygen>

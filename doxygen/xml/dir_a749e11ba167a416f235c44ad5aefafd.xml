@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_a749e11ba167a416f235c44ad5aefafd" kind="dir">
-    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl</compoundname>
-    <innerdir refid="dir_62ccd131d210d3b7a9988ec120218200">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader</innerdir>
+    <compoundname>src/application/impl</compoundname>
+    <innerdir refid="dir_62ccd131d210d3b7a9988ec120218200">src/application/impl/config_reader</innerdir>
     <innerfile refid="da/de2/app__config__impl_8cpp">app_config_impl.cpp</innerfile>
     <innerfile refid="d3/d0d/app__config__impl_8hpp">app_config_impl.hpp</innerfile>
     <innerfile refid="de/d61/app__state__manager__impl_8cpp">app_state_manager_impl.cpp</innerfile>
@@ -23,6 +23,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/"/>
+    <location file="src/application/impl/"/>
   </compounddef>
 </doxygen>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" line="12" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" bodystart="12" bodyend="-1"/>
+        <location file="src/base/unused.hpp" line="12" column="36" bodyfile="src/base/unused.hpp" bodystart="12" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" line="14" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" bodystart="14" bodyend="16"/>
+        <location file="src/base/unused.hpp" line="14" column="10" bodyfile="src/base/unused.hpp" bodystart="14" bodyend="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -57,7 +57,7 @@
         <link refid="da/dac/structsgns_1_1_unused"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/unused.hpp" bodystart="11" bodyend="17"/>
+    <location file="src/base/unused.hpp" line="11" column="3" bodyfile="src/base/unused.hpp" bodystart="11" bodyend="17"/>
     <listofallmembers>
       <member refid="da/dac/structsgns_1_1_unused_1a6df8d8bed8ef0af8674b44e108c0cfca" prot="public" virt="non-virtual"><scope>sgns::Unused</scope><name>index</name></member>
       <member refid="da/dac/structsgns_1_1_unused_1a77235fda4dc7c9324af49843bd527a81" prot="public" virt="non-virtual"><scope>sgns::Unused</scope><name>operator==</name></member>

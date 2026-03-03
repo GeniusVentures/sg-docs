@@ -5,7 +5,7 @@
     <includes refid="d4/dc7/wallet_8hpp" local="yes">wallet.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.cpp</label>
+        <label>node/wallet.cpp</label>
         <link refid="d7/de1/wallet_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -105,6 +105,6 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.cpp"/>
+    <location file="node/wallet.cpp"/>
   </compounddef>
 </doxygen>

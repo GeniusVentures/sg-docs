@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="20" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="20" column="5" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="48" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="48" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="48" column="21" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a0f642af0aa6cf22aba81c3060fe36e98" prot="private" static="no" mutable="no">
         <type>const <ref refid="d5/d93/structsgns_1_1api_1_1_listener_1_1_configuration" kindref="compound">Configuration</ref></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="49" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="49" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="49" column="25" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a0663e3daf855a8a5fe23d9531a905ff6" prot="private" static="no" mutable="no">
         <type>const <ref refid="d9/ddf/structsgns_1_1api_1_1_http_session_1_1_configuration" kindref="compound">SessionImpl::Configuration</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="50" column="38" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="50" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="50" column="38" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a5381f8d39c9f96dfc908096c9cfe3ec5" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="d6/d3f/classsgns_1_1api_1_1_listener_1afe8587bdb42a214eb13ca6a0c4f7cb66" kindref="member">Acceptor</ref> &gt;</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="52" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="52" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="52" column="21" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1ab25a405963a0958224ef2dbc6c32c60e" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="d6/d3f/classsgns_1_1api_1_1_listener_1a46eee029b2ad2b539a0a22182adf9370" kindref="member">NewSessionHandler</ref> &gt;</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="53" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="53" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="53" column="21" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a07e55f2a3341f8db7b105690b529b874" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a276d48d271015d55a6cfd2332c197158" kindref="member">SessionImpl</ref> &gt;</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="55" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="55" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="55" column="21" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a8c20c59267b9c2dfdf8bd39812f557b9" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="57" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="57" bodyend="-1"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="57" column="18" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="8" bodyend="18"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="22" column="5" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="8" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a8a13bb7527a7e95146935059fe451998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="28" column="5"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="28" column="5"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1afc307e9b19004373dbd39a4ab2639383" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="31" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="20" bodyend="40"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="31" column="10" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="20" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1ae1d9e53281a0b38d2143f103d457b560" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="34" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="42" bodyend="52"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="34" column="10" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="42" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1adae52440a8b3cdd330faafbdd1fb6f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="37" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="54" bodyend="58"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="37" column="10" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="54" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a1201c469d6d9d2085faf68db581db007" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="39" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="60" bodyend="64"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="39" column="10" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="60" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="db/de6/classsgns_1_1api_1_1_http_listener_impl_1a5b84c56c2c00bb15bc0e1c428f27853b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -254,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="41" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="41" bodyend="44"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="41" column="17" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="41" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -272,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="46" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp" bodystart="66" bodyend="86"/>
+        <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="46" column="10" bodyfile="src/api/transport/impl/http/http_listener_impl.cpp" bodystart="66" bodyend="86"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -426,7 +426,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" line="16" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp" bodystart="18" bodyend="58"/>
+    <location file="src/api/transport/impl/http/http_listener_impl.hpp" line="16" column="3" bodyfile="src/api/transport/impl/http/http_listener_impl.hpp" bodystart="18" bodyend="58"/>
     <listofallmembers>
       <member refid="db/de6/classsgns_1_1api_1_1_http_listener_impl_1aba60643f18547ae6148bc93d8fe123ba" prot="private" virt="virtual"><scope>sgns::api::HttpListenerImpl</scope><name>acceptOnce</name></member>
       <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1afe8587bdb42a214eb13ca6a0c4f7cb66" prot="protected" virt="non-virtual"><scope>sgns::api::HttpListenerImpl</scope><name>Acceptor</name></member>

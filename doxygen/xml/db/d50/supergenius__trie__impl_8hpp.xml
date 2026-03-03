@@ -4,10 +4,10 @@
     <compoundname>supergenius_trie_impl.hpp</compoundname>
     <includes refid="d5/d9e/supergenius__trie_8hpp" local="yes">storage/trie/supergenius_trie/supergenius_trie.hpp</includes>
     <includes refid="d8/dcc/buffer__map__types_8hpp" local="yes">storage/buffer_map_types.hpp</includes>
-    <includedby refid="da/ddf/types_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp</includedby>
-    <includedby refid="d9/dcb/ordered__trie__hash_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp</includedby>
-    <includedby refid="da/da2/supergenius__trie__factory__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp</includedby>
-    <includedby refid="db/df1/supergenius__trie__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</includedby>
+    <includedby refid="da/ddf/types_8cpp" local="yes">src/blockchain/impl/types.cpp</includedby>
+    <includedby refid="d9/dcb/ordered__trie__hash_8hpp" local="yes">src/storage/trie/serialization/ordered_trie_hash.hpp</includedby>
+    <includedby refid="da/da2/supergenius__trie__factory__impl_8hpp" local="yes">src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp</includedby>
+    <includedby refid="db/df1/supergenius__trie__impl_8cpp" local="yes">src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</includedby>
     <incdepgraph>
       <node id="16">
         <label>base/buffer.hpp</label>
@@ -134,7 +134,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp</label>
         <link refid="db/d50/supergenius__trie__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -174,23 +174,23 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/types.cpp</label>
+        <label>src/blockchain/impl/types.cpp</label>
         <link refid="da/ddf/types_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp</label>
+        <label>src/storage/trie/serialization/ordered_trie_hash.hpp</label>
         <link refid="d9/dcb/ordered__trie__hash_8hpp"/>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.cpp</label>
         <link refid="d8/d87/supergenius__trie__factory__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_factory_impl.hpp</label>
         <link refid="da/da2/supergenius__trie__factory__impl_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -198,11 +198,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_impl.cpp</label>
         <link refid="db/df1/supergenius__trie__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp</label>
+        <label>src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp</label>
         <link refid="db/d50/supergenius__trie__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="98" column="1" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" declline="98" declcolumn="1"/>
+        <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" line="98" column="1" declfile="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp" declline="98" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -336,6 +336,6 @@
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_TRIE_IMPL_SUPERGENIUS_TRIE_IMPL</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp"/>
+    <location file="src/storage/trie/supergenius_trie/supergenius_trie_impl.hpp"/>
   </compounddef>
 </doxygen>

@@ -216,7 +216,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp</label>
+        <label>src/crdt/impl/crdt_datastore.cpp</label>
         <link refid="d9/d51/crdt__datastore_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -513,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp" line="40" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp" bodystart="40" bodyend="-1"/>
+        <location file="src/crdt/impl/crdt_datastore.cpp" line="40" column="5" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="40" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -537,7 +537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp" line="14" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp" bodystart="14" bodyend="35"/>
+        <location file="src/crdt/impl/crdt_datastore.cpp" line="14" column="1" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="14" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2301,6 +2301,6 @@
 <codeline lineno="1754"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1755"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_datastore.cpp"/>
+    <location file="src/crdt/impl/crdt_datastore.cpp"/>
   </compounddef>
 </doxygen>

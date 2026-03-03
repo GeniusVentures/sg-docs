@@ -5,10 +5,10 @@
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="d5/d9e/supergenius__trie_8hpp" local="yes">storage/trie/supergenius_trie/supergenius_trie.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
-    <includedby refid="d0/da6/_trie_storage_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TrieStorageFactory.hpp</includedby>
-    <includedby refid="d7/daf/persistent__trie__batch__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp</includedby>
-    <includedby refid="d8/dd1/trie__storage__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_impl.hpp</includedby>
-    <includedby refid="d4/d17/trie__serializer__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer_impl.hpp</includedby>
+    <includedby refid="d0/da6/_trie_storage_factory_8hpp" local="yes">app/integration/TrieStorageFactory.hpp</includedby>
+    <includedby refid="d7/daf/persistent__trie__batch__impl_8hpp" local="yes">src/storage/trie/impl/persistent_trie_batch_impl.hpp</includedby>
+    <includedby refid="d8/dd1/trie__storage__impl_8hpp" local="yes">src/storage/trie/impl/trie_storage_impl.hpp</includedby>
+    <includedby refid="d4/d17/trie__serializer__impl_8hpp" local="yes">src/storage/trie/serialization/trie_serializer_impl.hpp</includedby>
     <incdepgraph>
       <node id="16">
         <label>base/buffer.hpp</label>
@@ -95,7 +95,7 @@
         <link refid="df/dc8/src_2storage_2trie_2node_8hpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer.hpp</label>
+        <label>src/storage/trie/serialization/trie_serializer.hpp</label>
         <link refid="d9/d67/trie__serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -157,27 +157,27 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="9">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TrieSerializerFactory.hpp</label>
+        <label>app/integration/TrieSerializerFactory.hpp</label>
         <link refid="d4/d93/_trie_serializer_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TrieStorageFactory.hpp</label>
+        <label>app/integration/TrieStorageFactory.hpp</label>
         <link refid="d0/da6/_trie_storage_factory_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
         <link refid="dd/dda/persistent__trie__batch__impl_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
         <link refid="d7/daf/persistent__trie__batch__impl_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -185,11 +185,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_impl.cpp</label>
+        <label>src/storage/trie/impl/trie_storage_impl.cpp</label>
         <link refid="db/dc1/trie__storage__impl_8cpp"/>
       </node>
       <node id="7">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_impl.hpp</label>
+        <label>src/storage/trie/impl/trie_storage_impl.hpp</label>
         <link refid="d8/dd1/trie__storage__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -197,7 +197,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer.hpp</label>
+        <label>src/storage/trie/serialization/trie_serializer.hpp</label>
         <link refid="d9/d67/trie__serializer_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -209,11 +209,11 @@
         </childnode>
       </node>
       <node id="10">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer_impl.cpp</label>
+        <label>src/storage/trie/serialization/trie_serializer_impl.cpp</label>
         <link refid="dd/d1c/trie__serializer__impl_8cpp"/>
       </node>
       <node id="8">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer_impl.hpp</label>
+        <label>src/storage/trie/serialization/trie_serializer_impl.hpp</label>
         <link refid="d4/d17/trie__serializer__impl_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -257,6 +257,6 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_SUPERGENIUS_TRIE_SERIALIZER</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer.hpp"/>
+    <location file="src/storage/trie/serialization/trie_serializer.hpp"/>
   </compounddef>
 </doxygen>

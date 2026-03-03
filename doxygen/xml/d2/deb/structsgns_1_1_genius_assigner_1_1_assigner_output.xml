@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="88" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="88" bodyend="-1"/>
+        <location file="src/proof/GeniusAssigner.hpp" line="88" column="39" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output_1a176e9b5080fa4bbae9c3e7e7751fa263" prot="public" static="no" mutable="no">
         <type><ref refid="d6/d8b/classsgns_1_1_genius_assigner_1afa467b5b38c772695d1365d4ac6601b6" kindref="member">PlonkAssignTableType</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="89" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="89" bodyend="-1"/>
+        <location file="src/proof/GeniusAssigner.hpp" line="89" column="39" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="89" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="83" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="83" bodyend="86"/>
+        <location file="src/proof/GeniusAssigner.hpp" line="83" column="22" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="83" bodyend="86"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         <link refid="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="81" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="82" bodyend="90"/>
+    <location file="src/proof/GeniusAssigner.hpp" line="81" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="82" bodyend="90"/>
     <listofallmembers>
       <member refid="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output_1a41f9dc72c3eed6dfc066d87def15d3a5" prot="public" virt="non-virtual"><scope>sgns::GeniusAssigner::AssignerOutput</scope><name>AssignerOutput</name></member>
       <member refid="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output_1a69fb98088d17ae4436d7796004305654" prot="public" virt="non-virtual"><scope>sgns::GeniusAssigner::AssignerOutput</scope><name>constrains</name></member>

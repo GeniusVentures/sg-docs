@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp" line="20" column="13"/>
+        <location file="src/runtime/core_factory.hpp" line="20" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d0/d4b/classsgns_1_1runtime_1_1_core_factory_1ad0570ddd09532e4caf38992fabdd3a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::unique_ptr&lt; <ref refid="d4/df1/classsgns_1_1runtime_1_1_core" kindref="compound">Core</ref> &gt;</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp" line="26" column="29"/>
+        <location file="src/runtime/core_factory.hpp" line="26" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
         <link refid="d0/d4b/classsgns_1_1runtime_1_1_core_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp" line="18" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp" bodystart="18" bodyend="28"/>
+    <location file="src/runtime/core_factory.hpp" line="18" column="3" bodyfile="src/runtime/core_factory.hpp" bodystart="18" bodyend="28"/>
     <listofallmembers>
       <member refid="d0/d4b/classsgns_1_1runtime_1_1_core_factory_1ad0570ddd09532e4caf38992fabdd3a52" prot="public" virt="pure-virtual"><scope>sgns::runtime::CoreFactory</scope><name>createWithCode</name></member>
       <member refid="d0/d4b/classsgns_1_1runtime_1_1_core_factory_1aaacf832725a4a69ff868b17d511ffbe6" prot="public" virt="virtual"><scope>sgns::runtime::CoreFactory</scope><name>~CoreFactory</name></member>

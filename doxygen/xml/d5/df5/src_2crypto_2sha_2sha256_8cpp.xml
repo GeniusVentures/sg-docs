@@ -32,7 +32,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp</label>
+        <label>src/crypto/sha/sha256.cpp</label>
         <link refid="d5/df5/src_2crypto_2sha_2sha256_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" line="9" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" bodystart="9" bodyend="13" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.hpp" declline="15" declcolumn="17"/>
+        <location file="src/crypto/sha/sha256.cpp" line="9" column="19" bodyfile="src/crypto/sha/sha256.cpp" bodystart="9" bodyend="13" declfile="src/crypto/sha/sha256.hpp" declline="15" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="df/d6e/namespacesgns_1_1crypto_1aa8b926395147f6b4be6b248dc337ab42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="de/d1b/key__value__block__header__repository_8cpp_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" line="15" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" bodystart="15" bodyend="26" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.hpp" declline="22" declcolumn="17"/>
+        <location file="src/crypto/sha/sha256.cpp" line="15" column="19" bodyfile="src/crypto/sha/sha256.cpp" bodystart="15" bodyend="26" declfile="src/crypto/sha/sha256.hpp" declline="22" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="df/d6e/namespacesgns_1_1crypto_1a468cf73de793bd2f1a8a5bedfe26b380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" line="28" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp" bodystart="28" bodyend="40" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.hpp" declline="24" declcolumn="15"/>
+        <location file="src/crypto/sha/sha256.cpp" line="28" column="17" bodyfile="src/crypto/sha/sha256.cpp" bodystart="28" bodyend="40" declfile="src/crypto/sha/sha256.hpp" declline="24" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -216,6 +216,6 @@
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namepace<sp/>sgns::crypto</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha/sha256.cpp"/>
+    <location file="src/crypto/sha/sha256.cpp"/>
   </compounddef>
 </doxygen>

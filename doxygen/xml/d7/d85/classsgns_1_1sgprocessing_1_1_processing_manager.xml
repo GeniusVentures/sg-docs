@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="23" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="24" bodyend="31"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="23" column="9" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="24" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="90" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="90" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="90" column="37" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a215ef12e6e26b10f1f84e69e8e63f9c7" prot="private" static="no" mutable="no">
         <type>sgns::SgnsProcessing</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="91" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="91" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="91" column="37" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a766b8825ae91a27b3bca489b5769d9a0" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; <ref refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor" kindref="compound">ProcessingProcessor</ref> &gt;</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="92" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="92" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="92" column="25" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1aab906818c60d1ccc04ba1154f02d74f4" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; int, std::function&lt; std::unique_ptr&lt; <ref refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor" kindref="compound">ProcessingProcessor</ref> &gt;()&gt; &gt;</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="93" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="93" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="93" column="30" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a0b6b6c1fe3c7647ffb98c3f55a3e59e0" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, size_t &gt;</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="94" column="67" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="94" bodyend="-1"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="94" column="67" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="94" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="22" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="30" bodyend="30"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="22" column="9" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a3ef686441cdd29276fc2633228a324c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="34" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="192" bodyend="211"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="34" column="25" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="192" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1ac35318f4813e74d0af88c94e71e37db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="35" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="71" bodyend="190"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="35" column="32" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="71" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a5530d53581155d583a1d86371045bd1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="36" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="213" bodyend="239"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="36" column="25" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="213" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1aed3809790921d34274e17cf70fc29c7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="44" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="44" bodyend="48"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="44" column="14" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="44" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1afb5b071ec9062ab2b00c6b54d5fe5d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>sgns::SgnsProcessing</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="52" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="289" bodyend="292"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="52" column="30" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="289" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a8074373c7c58350751cb9daa9794e72b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; size_t &gt;</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="56" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="294" bodyend="302"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="56" column="25" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="294" bodyend="302"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a831f8452067b35237dee382749a124eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="61" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="61" bodyend="67"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="61" column="15" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="61" bodyend="67"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="32" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="32" bodyend="37"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="32" column="32" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="32" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="70" column="9"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="70" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1ab0a1752e58b52979f4e0d7db849e4b7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="71" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="39" bodyend="69"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="71" column="31" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="39" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1af443c43ad643675ff57f1397046a81a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt; &gt;</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="73" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="243" bodyend="287"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="73" column="14" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="243" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a441a05e802c6a8bbc93b62465eac0a09" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="74" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="304" bodyend="331"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="74" column="14" bodyfile="SGProcessingManager/src/processingbase/ProcessingManager.cpp" bodystart="304" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a5a08188feb82903b13139c6767a1464e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="78" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="78" bodyend="88"/>
+        <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="78" column="14" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="78" bodyend="88"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -528,7 +528,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="20" bodyend="95"/>
+    <location file="SGProcessingManager/include/processingbase/ProcessingManager.hpp" line="19" column="5" bodyfile="SGProcessingManager/include/processingbase/ProcessingManager.hpp" bodystart="20" bodyend="95"/>
     <listofallmembers>
       <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1ac35318f4813e74d0af88c94e71e37db6" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::ProcessingManager</scope><name>CheckProcessValidity</name></member>
       <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a1c6c558a20b96e4ccea725ac760c4864" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::ProcessingManager</scope><name>Create</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="30" column="5"/>
+        <location file="src/primitives/scheduled_change.hpp" line="30" column="5"/>
       </memberdef>
       <memberdef kind="function" id="dd/d5f/structsgns_1_1runtime_1_1binaryen_1_1_forced_change_1a3badae8cd0a15dd55bbe189e3522815b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="21" bodyend="22"/>
+        <location file="src/primitives/scheduled_change.hpp" line="30" column="5" bodyfile="src/primitives/scheduled_change.hpp" bodystart="21" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -88,7 +88,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="29" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="29" bodyend="31"/>
+    <location file="src/primitives/scheduled_change.hpp" line="29" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="29" bodyend="31"/>
     <listofallmembers>
       <member refid="d4/d7b/structsgns_1_1primitives_1_1_authority_list_change_1ac678cb0a66493cb6b04840627a05a638" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::ForcedChange</scope><name>authorities</name></member>
       <member refid="dd/d5f/structsgns_1_1runtime_1_1binaryen_1_1_forced_change_1ab51598e590af9662f2edee14ffb7e21e" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::ForcedChange</scope><name>AuthorityListChange</name></member>

@@ -10,8 +10,8 @@
     <includes refid="dd/dd8/processing__subtask__queue__manager_8hpp" local="yes">processing/processing_subtask_queue_manager.hpp</includes>
     <includes refid="dd/db9/processing__subtask__queue__accessor_8hpp" local="yes">processing/processing_subtask_queue_accessor.hpp</includes>
     <includes refid="d9/de8/processing__subtask__result__storage_8hpp" local="yes">processing/processing_subtask_result_storage.hpp</includes>
-    <includedby refid="de/d98/processing__node_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp</includedby>
-    <includedby refid="d5/d37/processing__service_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_service.hpp</includedby>
+    <includedby refid="de/d98/processing__node_8cpp" local="yes">src/processing/processing_node.cpp</includedby>
+    <includedby refid="d5/d37/processing__service_8hpp" local="yes">src/processing/processing_service.hpp</includedby>
     <incdepgraph>
       <node id="15">
         <label>base/logger.hpp</label>
@@ -48,7 +48,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp</label>
+        <label>src/processing/processing_node.hpp</label>
         <link refid="df/dac/processing__node_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -169,21 +169,21 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="5">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="4">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.cpp</label>
+        <label>src/processing/processing_node.cpp</label>
         <link refid="de/d98/processing__node_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp</label>
+        <label>src/processing/processing_node.hpp</label>
         <link refid="df/dac/processing__node_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -191,11 +191,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_service.cpp</label>
+        <label>src/processing/processing_service.cpp</label>
         <link refid="d3/d3a/processing__service_8cpp"/>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_service.hpp</label>
+        <label>src/processing/processing_service.hpp</label>
         <link refid="d5/d37/processing__service_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -300,6 +300,6 @@
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>GRPC_FOR_SUPERGENIUS_PROCESSING_NODE</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_node.hpp"/>
+    <location file="src/processing/processing_node.hpp"/>
   </compounddef>
 </doxygen>

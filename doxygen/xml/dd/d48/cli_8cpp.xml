@@ -8,7 +8,7 @@
     <includes refid="dc/d78/node_2node_8hpp" local="yes">node.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp</label>
+        <label>node/cli.cpp</label>
         <link refid="dd/d48/cli_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -1269,6 +1269,6 @@
 <codeline lineno="1112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1113"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/cli.cpp"/>
+    <location file="node/cli.cpp"/>
   </compounddef>
 </doxygen>

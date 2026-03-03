@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="21" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="21" column="5" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="93" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="93" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="93" column="17" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1ad44d13db9ec30002e257cfc7c47ad0f2" prot="private" static="no" mutable="no">
         <type>SGProcessing::ProcessingQueue *</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="94" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="94" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="94" column="35" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a8d62a5291a50adb344763d4241b5cfae" prot="private" static="no" mutable="no">
         <type>std::vector&lt; int &gt;</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="96" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="96" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="96" column="17" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a37f7f9b1bc6594f780eef4f76038c7eb" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="98" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="98" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="98" column="18" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a8972018bfc33c0e17679170508f2ae55" prot="private" static="no" mutable="no">
         <type><ref refid="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a6f4ac2f005be3047bd45476f12c37078" kindref="member">TimestampProvider</ref></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="100" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="100" bodyend="-1"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="100" column="23" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="100" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="9" bodyend="14"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="27" column="5" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="9" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a6ffc88ec367968ced24738ab55d33af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="33" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="16" bodyend="22"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="33" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="16" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a141c8a07e0ee0b7e8269100cc49b0d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="40" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="60" bodyend="68"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="40" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="60" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a5cd301b7b9270d8d728cf37070b68c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="45" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="70" bodyend="78"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="45" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="70" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a03bed1e6951cd56f96c3e2d15713ecab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="50" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="86" bodyend="159"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="50" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="86" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a3dc48a4269371f39171341bf097b3c57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="55" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="161" bodyend="164"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="55" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="161" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1aa3c80f7e263d5f74beda9e56a667bfc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="61" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="24" bodyend="35"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="61" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="24" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1ad02c653e362cb3aff450c5b14dbcf9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -346,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="67" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="166" bodyend="194"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="67" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="166" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a2bc9f1fd0477bcecbb09111456ef2cb3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="71" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="196" bodyend="206"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="71" column="15" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="196" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a48ce5f876ae55b981acb57472a6010ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -403,7 +403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="78" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="230" bodyend="246"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="78" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="230" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1ab659a6c6a18fcb756dfa5dfe30fb35b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="83" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="248" bodyend="269"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="83" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="248" bodyend="269"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -440,7 +440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="87" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="80" bodyend="84"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="87" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="80" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a9abbee338c09e54eb01840ea2fe39ac3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -462,7 +462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="89" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="37" bodyend="58"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="89" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="37" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1ad77b62d9ab8dea131f1e2187b64f6ae5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -476,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="91" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.cpp" bodystart="208" bodyend="229"/>
+        <location file="src/processing/processing_subtask_queue.hpp" line="91" column="10" bodyfile="src/processing/processing_subtask_queue.cpp" bodystart="208" bodyend="229"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -534,7 +534,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" line="17" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_queue.hpp" bodystart="18" bodyend="101"/>
+    <location file="src/processing/processing_subtask_queue.hpp" line="17" column="1" bodyfile="src/processing/processing_subtask_queue.hpp" bodystart="18" bodyend="101"/>
     <listofallmembers>
       <member refid="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a48ce5f876ae55b981acb57472a6010ce" prot="public" virt="non-virtual"><scope>sgns::processing::ProcessingSubTaskQueue</scope><name>AddOwnershipRequest</name></member>
       <member refid="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue_1a8c71338ff005cd81769b0839a9a4de14" prot="private" virt="non-virtual"><scope>sgns::processing::ProcessingSubTaskQueue</scope><name>ChangeOwnershipTo</name></member>

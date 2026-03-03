@@ -262,7 +262,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp</label>
+        <label>src/storage/trie/serialization/ordered_trie_hash.hpp</label>
         <link refid="d9/dcb/ordered__trie__hash_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -423,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp" line="21" column="19" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp" bodystart="21" bodyend="43"/>
+        <location file="src/storage/trie/serialization/ordered_trie_hash.hpp" line="21" column="19" bodyfile="src/storage/trie/serialization/ordered_trie_hash.hpp" bodystart="21" bodyend="43"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -472,6 +472,6 @@
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_ORDERED_TRIE_HASH_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/ordered_trie_hash.hpp"/>
+    <location file="src/storage/trie/serialization/ordered_trie_hash.hpp"/>
   </compounddef>
 </doxygen>

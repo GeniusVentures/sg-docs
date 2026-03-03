@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_provider.hpp" line="14" column="13"/>
+        <location file="src/crypto/bip39/bip39_provider.hpp" line="14" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d7/d94/classsgns_1_1crypto_1_1_bip39_provider_1a5d848ec8d2e53e15d85691143cd277d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_provider.hpp" line="21" column="29"/>
+        <location file="src/crypto/bip39/bip39_provider.hpp" line="21" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d7/d94/classsgns_1_1crypto_1_1_bip39_provider_1ae99f65fe4cb057fa008edcc954cb7d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; <ref refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1a543a047169289887fc9c5545af736954" kindref="member">bip39::Bip39Seed</ref> &gt;</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_provider.hpp" line="30" column="29"/>
+        <location file="src/crypto/bip39/bip39_provider.hpp" line="30" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -119,7 +119,7 @@
         <link refid="d7/d94/classsgns_1_1crypto_1_1_bip39_provider"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_provider.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/bip39_provider.hpp" bodystart="12" bodyend="32"/>
+    <location file="src/crypto/bip39/bip39_provider.hpp" line="12" column="3" bodyfile="src/crypto/bip39/bip39_provider.hpp" bodystart="12" bodyend="32"/>
     <listofallmembers>
       <member refid="d7/d94/classsgns_1_1crypto_1_1_bip39_provider_1a5d848ec8d2e53e15d85691143cd277d7" prot="public" virt="pure-virtual"><scope>sgns::crypto::Bip39Provider</scope><name>calculateEntropy</name></member>
       <member refid="d7/d94/classsgns_1_1crypto_1_1_bip39_provider_1ae99f65fe4cb057fa008edcc954cb7d4b" prot="public" virt="pure-virtual"><scope>sgns::crypto::Bip39Provider</scope><name>makeSeed</name></member>

@@ -8,7 +8,7 @@
     <includes local="no">spdlog/sinks/basic_file_sink.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/logger.cpp</label>
+        <label>src/base/logger.cpp</label>
         <link refid="d3/d30/logger_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/logger.cpp" line="55" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/logger.cpp" bodystart="55" bodyend="76" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/logger.hpp" declline="21" declcolumn="12"/>
+        <location file="src/base/logger.cpp" line="55" column="12" bodyfile="src/base/logger.cpp" bodystart="55" bodyend="76" declfile="src/base/logger.hpp" declline="21" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -174,6 +174,6 @@
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::base</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/logger.cpp"/>
+    <location file="src/base/logger.cpp"/>
   </compounddef>
 </doxygen>

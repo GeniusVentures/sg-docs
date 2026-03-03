@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="276" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="276" bodyend="-1"/>
+        <location file="src/account/TransactionManager.hpp" line="276" column="29" bodyfile="src/account/TransactionManager.hpp" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx_1ab05d7a6bb3fb4a56a7bcd7050c745425" prot="public" static="no" mutable="no">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="277" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="277" bodyend="-1"/>
+        <location file="src/account/TransactionManager.hpp" line="277" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx_1aca1c36ddffe3c150a6238efe6cf20e18" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="278" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="278" bodyend="-1"/>
+        <location file="src/account/TransactionManager.hpp" line="278" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="278" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -61,7 +61,7 @@
         <label>sgns::IGeniusTransactions</label>
         <link refid="d1/d07/classsgns_1_1_i_genius_transactions"/>
         <childnode refid="4" relation="usage">
-          <edgelabel>+deserializers_map</edgelabel>
+          <edgelabel>-deserializers_map</edgelabel>
         </childnode>
         <childnode refid="5" relation="usage">
           <edgelabel>-transaction_type</edgelabel>
@@ -116,7 +116,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="274" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="275" bodyend="279"/>
+    <location file="src/account/TransactionManager.hpp" line="274" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="275" bodyend="279"/>
     <listofallmembers>
       <member refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx_1aca1c36ddffe3c150a6238efe6cf20e18" prot="public" virt="non-virtual"><scope>sgns::TransactionManager::TrackedTx</scope><name>cached_nonce</name></member>
       <member refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx_1ab05d7a6bb3fb4a56a7bcd7050c745425" prot="public" virt="non-virtual"><scope>sgns::TransactionManager::TrackedTx</scope><name>status</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="11" column="9"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="11" column="9"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a8aa7bde3df18bb5898d3f05c4e3445eb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1a140a50019470b7f717657b8ab6590956" kindref="member">Hash64</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="13" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="20" bodyend="22"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="13" column="17" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="20" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1acf6e94c2819447022dd14b7edfb21c97" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1a227db21449d9ce711fee9d152a600906" kindref="member">Hash128</ref></type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="15" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="24" bodyend="26"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="15" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="24" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a83c88b3ec8d8786faf578342e573a286" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1a227db21449d9ce711fee9d152a600906" kindref="member">Hash128</ref></type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="17" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="28" bodyend="32"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="17" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1aff242979ffd701ea45146096b4baa486" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ac18b1fe64670d4605b3537023088e101" kindref="member">Hash256</ref></type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="19" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="35" bodyend="37"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="19" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="35" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1ada049d5830ba942ec672f26bfab32dc7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ac18b1fe64670d4605b3537023088e101" kindref="member">Hash256</ref></type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="21" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="39" bodyend="43"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="21" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="39" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1aafeca768b3c7d118947e2284be4c099b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ac18b1fe64670d4605b3537023088e101" kindref="member">Hash256</ref></type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="23" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="45" bodyend="54"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="23" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="45" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a829718432ae7dcfa8c114f7355d828f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ac18b1fe64670d4605b3537023088e101" kindref="member">Hash256</ref></type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="25" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="56" bodyend="60"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="25" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="56" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a5acd09393ceb741ce869fe80206d07be" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ac18b1fe64670d4605b3537023088e101" kindref="member">Hash256</ref></type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="27" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.cpp" bodystart="62" bodyend="64"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="27" column="18" bodyfile="src/crypto/hasher/hasher_impl.cpp" bodystart="62" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a5ba45829906092da57f578c57c9d9213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="29" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" bodystart="29" bodyend="32"/>
+        <location file="src/crypto/hasher/hasher_impl.hpp" line="29" column="21" bodyfile="src/crypto/hasher/hasher_impl.hpp" bodystart="29" bodyend="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -331,7 +331,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" line="8" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher/hasher_impl.hpp" bodystart="9" bodyend="33"/>
+    <location file="src/crypto/hasher/hasher_impl.hpp" line="8" column="5" bodyfile="src/crypto/hasher/hasher_impl.hpp" bodystart="9" bodyend="33"/>
     <listofallmembers>
       <member refid="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a83c88b3ec8d8786faf578342e573a286" prot="public" virt="virtual"><scope>sgns::crypto::HasherImpl</scope><name>blake2b_128</name></member>
       <member refid="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1ada049d5830ba942ec672f26bfab32dc7" prot="public" virt="virtual"><scope>sgns::crypto::HasherImpl</scope><name>blake2b_256</name></member>

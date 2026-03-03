@@ -10,10 +10,10 @@
     <includes refid="da/d4f/_bitcoin_key_pair_params_8hpp" local="yes">ProofSystem/BitcoinKeyPairParams.hpp</includes>
     <includes refid="df/d62/ext__private__key_8hpp" local="yes">ProofSystem/ext_private_key.hpp</includes>
     <includes refid="d8/ddd/_e_c_d_s_a_public_key_8hpp" local="yes">ProofSystem/ECDSAPublicKey.hpp</includes>
-    <includedby refid="d1/d46/_bitcoin_key_generator_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp</includedby>
+    <includedby refid="d1/d46/_bitcoin_key_generator_8cpp" local="yes">ProofSystem/src/BitcoinKeyGenerator.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
         <link refid="dd/dd3/_bitcoin_key_generator_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -133,13 +133,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
+        <label>ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp</label>
         <link refid="dd/dd3/_bitcoin_key_generator_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp</label>
+        <label>ProofSystem/src/BitcoinKeyGenerator.cpp</label>
         <link refid="d1/d46/_bitcoin_key_generator_8cpp"/>
       </node>
     </invincdepgraph>
@@ -237,6 +237,6 @@
 <codeline lineno="146"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BITCOIN_KEY_GENERATOR_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp"/>
+    <location file="ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp"/>
   </compounddef>
 </doxygen>

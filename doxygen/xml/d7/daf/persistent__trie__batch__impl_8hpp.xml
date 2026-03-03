@@ -6,8 +6,8 @@
     <includes refid="d6/d58/codec_8hpp" local="yes">storage/trie/codec.hpp</includes>
     <includes refid="d9/d67/trie__serializer_8hpp" local="yes">storage/trie/serialization/trie_serializer.hpp</includes>
     <includes refid="dc/d8a/trie__batches_8hpp" local="yes">storage/trie/trie_batches.hpp</includes>
-    <includedby refid="dd/dda/persistent__trie__batch__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp</includedby>
-    <includedby refid="db/dc1/trie__storage__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_impl.cpp</includedby>
+    <includedby refid="dd/dda/persistent__trie__batch__impl_8cpp" local="yes">src/storage/trie/impl/persistent_trie_batch_impl.cpp</includedby>
+    <includedby refid="db/dc1/trie__storage__impl_8cpp" local="yes">src/storage/trie/impl/trie_storage_impl.cpp</includedby>
     <incdepgraph>
       <node id="13">
         <label>base/blob.hpp</label>
@@ -178,7 +178,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
         <link refid="d7/daf/persistent__trie__batch__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -280,11 +280,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.cpp</label>
         <link refid="dd/dda/persistent__trie__batch__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
+        <label>src/storage/trie/impl/persistent_trie_batch_impl.hpp</label>
         <link refid="d7/daf/persistent__trie__batch__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -292,7 +292,7 @@
         </childnode>
       </node>
       <node id="3">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/trie_storage_impl.cpp</label>
+        <label>src/storage/trie/impl/trie_storage_impl.cpp</label>
         <link refid="db/dc1/trie__storage__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -353,6 +353,6 @@
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_TRIE_IMPL_PERSISTENT_TRIE_BATCH</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl/persistent_trie_batch_impl.hpp"/>
+    <location file="src/storage/trie/impl/persistent_trie_batch_impl.hpp"/>
   </compounddef>
 </doxygen>

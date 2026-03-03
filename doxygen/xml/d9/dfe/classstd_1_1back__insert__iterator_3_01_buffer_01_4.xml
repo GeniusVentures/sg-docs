@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="14" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="14" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a8ffaa013de2e2762158b12e5c3d349bb" prot="public" static="no">
         <type>typename std::vector&lt; uint8_t &gt;::difference_type</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="15" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="15" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a4c5335a9d952ac585649a75c85d0070a" prot="public" static="no">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer_1a5c90b67809719fc9320dd701f5949661" kindref="member">Buffer::pointer</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="16" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="16" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="16" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1ac71c96fc356f9453266c4efbd2043ce6" prot="public" static="no">
         <type>typename std::vector&lt; uint8_t &gt;::reference</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="17" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="17" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="17" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a5434316469989b15ab7bf21c437d4bdb" prot="public" static="no">
         <type>std::random_access_iterator_tag</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="18" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="18" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="18" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="74" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="74" bodyend="-1"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="74" column="10" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="20" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="20" bodyend="22"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="20" column="22" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="20" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a0be107a3a3867278cccfbb764f5884a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="20" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="23" bodyend="25"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="20" column="22" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a809a46dbd67a0e0aa66ba8e8055fd11c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="26" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="26" bodyend="29"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="26" column="24" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="26" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1ae78ed3d25911f8fd05ea87ecbd0039d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="32" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="32" bodyend="35"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="32" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a37ceb3c8a0ba5ac3379068ff8036f05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="38" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="38" bodyend="41"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="38" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a97990f3802869384a032ea7b820ea660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="44" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="44" bodyend="47"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="44" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a008a03654020571999e0cec0794eda05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="50" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="50" bodyend="53"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="50" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="50" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1acea345096d2653de7f06bbaad7e8232a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref>&lt; <ref refid="d5/d2a/class_buffer" kindref="compound">Buffer</ref> &gt; &amp;</type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="56" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="56" bodyend="59"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="56" column="3" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="56" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a27f354816898b28fcd460c1b753e65a1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref> &amp;</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="61" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="61" bodyend="63"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="61" column="34" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="61" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a0baeef85444eacfec19bd0456a263d81" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref> &amp;</type>
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="65" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="65" bodyend="67"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="65" column="34" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="65" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a6f3f6f055970a1193f8fa5a96513b317" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" kindref="member">back_insert_iterator</ref> &amp;</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="69" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="69" bodyend="71"/>
+        <location file="src/base/buffer_back_insert_iterator.hpp" line="69" column="34" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="69" bodyend="71"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -334,7 +334,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" line="12" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/buffer_back_insert_iterator.hpp" bodystart="12" bodyend="75"/>
+    <location file="src/base/buffer_back_insert_iterator.hpp" line="12" column="1" bodyfile="src/base/buffer_back_insert_iterator.hpp" bodystart="12" bodyend="75"/>
     <listofallmembers>
       <member refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a440633db27515dadc6d1a901e14f5fb0" prot="public" virt="non-virtual"><scope>std::back_insert_iterator&lt; Buffer &gt;</scope><name>back_insert_iterator</name></member>
       <member refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a0be107a3a3867278cccfbb764f5884a4" prot="public" virt="non-virtual"><scope>std::back_insert_iterator&lt; Buffer &gt;</scope><name>back_insert_iterator</name></member>

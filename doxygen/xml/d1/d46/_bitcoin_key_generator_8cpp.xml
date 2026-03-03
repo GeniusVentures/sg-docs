@@ -87,7 +87,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp</label>
+        <label>ProofSystem/src/BitcoinKeyGenerator.cpp</label>
         <link refid="d1/d46/_bitcoin_key_generator_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" line="58" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="64" bodyend="78"/>
+        <location file="ProofSystem/src/BitcoinKeyGenerator.cpp" line="58" column="21" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="64" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="d5/d9c/namespacebitcoin_1a087de1c1de454df4be7a0574fab84646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" line="80" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="81" bodyend="95"/>
+        <location file="ProofSystem/src/BitcoinKeyGenerator.cpp" line="80" column="5" bodyfile="ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="81" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -338,6 +338,6 @@
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp"/>
+    <location file="ProofSystem/src/BitcoinKeyGenerator.cpp"/>
   </compounddef>
 </doxygen>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" line="21" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" bodystart="21" bodyend="51"/>
+        <location file="app/integration/EnvironmentFactory.hpp" line="21" column="25" bodyfile="app/integration/EnvironmentFactory.hpp" bodystart="21" bodyend="51"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
         <link refid="de/d4f/classsgns_1_1_environment_factory"/>
       </node>
     </collaborationgraph>
-    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" bodystart="19" bodyend="52"/>
+    <location file="app/integration/EnvironmentFactory.hpp" line="18" column="5" bodyfile="app/integration/EnvironmentFactory.hpp" bodystart="19" bodyend="52"/>
     <listofallmembers>
       <member refid="de/d4f/classsgns_1_1_environment_factory_1ae6bba00ee1d824007ba26e19e158d7da" prot="public" virt="non-virtual"><scope>sgns::EnvironmentFactory</scope><name>create</name></member>
     </listofallmembers>
