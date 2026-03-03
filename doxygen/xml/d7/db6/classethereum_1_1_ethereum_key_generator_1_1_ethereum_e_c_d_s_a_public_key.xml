@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" kind="class" language="C++" prot="private">
+    <compoundname>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</compoundname>
+    <basecompoundref refid="de/d81/class_e_c_d_s_a_public_key" prot="public" virt="non-virtual">ECDSAPublicKey</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey::CalcPubkeyUsedValue</definition>
+        <argsstring>() const override</argsstring>
+        <name>CalcPubkeyUsedValue</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey::CalcPubkeyUsedValue</qualifiedname>
+        <reimplements refid="de/d81/class_e_c_d_s_a_public_key_1afd02140fd21174f84fb3aeb7284582f7">CalcPubkeyUsedValue</reimplements>
+        <briefdescription>
+<para>Implements the calculation for the public key value used for ethereum. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The concatenated X and Y key data in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="121" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECDSAPublicKey::ECDSAPublicKey</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; X_data, std::vector&lt; std::uint8_t &gt; Y_data)</argsstring>
+        <name>ECDSAPublicKey</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey::ECDSAPublicKey</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>X_data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>Y_data</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="de/d81/class_e_c_d_s_a_public_key" kindref="compound">ECDSAPublicKey</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">X_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector representing the X coordinate of the public key. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">Y_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector representing the Y coordinate of the public key. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="115" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="25" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Ethereum ECDSA public key derived class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+      </node>
+      <node id="1">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>T</label>
+      </node>
+      <node id="1">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="3">
+        <label>std::string</label>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="113" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="114" bodyend="125"/>
+    <listofallmembers>
+      <member refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715" prot="private" virt="virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>CalcPubkeyUsedValue</name></member>
+      <member refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>ECDSAPublicKey</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a809ab6024550f4da99f419bc731e327a" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>GetEntireKey</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a9abead45382f9d6bf92b4d9251efb316" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>operator std::string &amp;</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a3ac466acecb4453f81f823837cca8a5d" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>pubkey_used_value</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1ac3876e026d53f38131742e4936966211" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>X</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a8a8243bc75fb037e4728333e28e6c14f" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>X_vect</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1aaddf6a72aa226cdc64cb7049436e5819" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>Y</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a6494fbf52785b7f105325ddd7f43c28f" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>Y_vect</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a849b7a396c62b524479a4276b71ba0d5" prot="public" virt="virtual"><scope>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</scope><name>~ECDSAPublicKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

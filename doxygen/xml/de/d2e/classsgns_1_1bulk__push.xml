@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="438" column="1" bodyfile="node/common.cpp" bodystart="1048" bodyend="1051"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="438" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1048" bodyend="1051"/>
       </memberdef>
       <memberdef kind="function" id="de/d2e/classsgns_1_1bulk__push_1a2041e12a19ac9f8a04c0028f6007c637" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="439" column="10" bodyfile="node/common.cpp" bodystart="1053" bodyend="1056"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="439" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1053" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="de/d2e/classsgns_1_1bulk__push_1a543a3a248a5640fc08e34bffe4618fb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="440" column="6" bodyfile="node/common.cpp" bodystart="1064" bodyend="1067"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="440" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1064" bodyend="1067"/>
       </memberdef>
       <memberdef kind="function" id="de/d2e/classsgns_1_1bulk__push_1a80d8294cedd763a156ea732362633fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="441" column="6" bodyfile="node/common.cpp" bodystart="1058" bodyend="1062"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="441" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1058" bodyend="1062"/>
       </memberdef>
       <memberdef kind="function" id="de/d2e/classsgns_1_1bulk__push_1ac857254b86c8786e4d4eda7e820ac808" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="442" column="6" bodyfile="node/common.cpp" bodystart="1069" bodyend="1072"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="442" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.cpp" bodystart="1069" bodyend="1072"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -147,7 +147,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="node/common.hpp" line="435" column="1" bodyfile="node/common.hpp" bodystart="436" bodyend="443"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="435" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="436" bodyend="443"/>
     <listofallmembers>
       <member refid="de/d2e/classsgns_1_1bulk__push_1a2461b75ca7b7cac6872abada9aae4064" prot="public" virt="non-virtual"><scope>sgns::bulk_push</scope><name>bulk_push</name></member>
       <member refid="de/d2e/classsgns_1_1bulk__push_1a2041e12a19ac9f8a04c0028f6007c637" prot="public" virt="non-virtual"><scope>sgns::bulk_push</scope><name>bulk_push</name></member>

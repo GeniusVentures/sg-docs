@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d7/d5e/class_encryption" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Encryption</compoundname>
+    <derivedcompoundref refid="d2/da2/class_a_e_s_encryption" prot="public" virt="non-virtual">AESEncryption</derivedcompoundref>
+    <derivedcompoundref refid="d5/db7/class_e_c_d_h_encryption" prot="public" virt="non-virtual">ECDHEncryption&lt; PolicyType &gt;</derivedcompoundref>
+    <includes refid="d7/d2d/_encryption_8hpp" local="no">Encryption.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d5e/class_encryption_1a416615f6ef3b630b8f2e1cc5a8226e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Encryption::~Encryption</definition>
+        <argsstring>()</argsstring>
+        <name>~Encryption</name>
+        <qualifiedname>Encryption::~Encryption</qualifiedname>
+        <briefdescription>
+<para>Virtual destructor to prevent memory leakage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="24" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d5e/class_encryption_1a3220a5071d917e8547d10a7f2a531d0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>virtual std::vector&lt; std::uint8_t &gt; Encryption::EncryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data)=0</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>Encryption::EncryptData</qualifiedname>
+        <reimplementedby refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba">EncryptData</reimplementedby>
+        <reimplementedby refid="d5/db7/class_e_c_d_h_encryption_1a3131fa4dfa653a7527d7d9bbc7b85717">EncryptData</reimplementedby>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>Interface function to Encrypt data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data do be encrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The possible key to be used to encrypt </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Encrypted data vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="33" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d5e/class_encryption_1a149d3402617ab8dc48cc933e553687c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>virtual std::vector&lt; std::uint8_t &gt; Encryption::DecryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data)=0</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>Encryption::DecryptData</qualifiedname>
+        <reimplementedby refid="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db">DecryptData</reimplementedby>
+        <reimplementedby refid="d5/db7/class_e_c_d_h_encryption_1a25c4baec3a0b7fee27216c2bc20759c3">DecryptData</reimplementedby>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>Interface function to Decrypt data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to be decrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The possible key to be used to decrypt </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Decrypted data vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="40" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Encryption::CheckEqual</definition>
+        <argsstring>(const Encryption &amp;lhs, const Encryption &amp;rhs) const =0</argsstring>
+        <name>CheckEqual</name>
+        <qualifiedname>Encryption::CheckEqual</qualifiedname>
+        <reimplementedby refid="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4">CheckEqual</reimplementedby>
+        <reimplementedby refid="d5/db7/class_e_c_d_h_encryption_1a5d6b51f2806a70d0e3624a105581fd39">CheckEqual</reimplementedby>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Interface function to check if two <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> instances are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if equal, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="47" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d5e/class_encryption_1a30f7a8c257891fe7d8037705ce1c5efa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Encryption::operator==</definition>
+        <argsstring>(const Encryption &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Encryption::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Overloads equality operator to <ref refid="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc" kindref="member">CheckEqual</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The instance to be compared </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if equal, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="54" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> scheme. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AESEncryption</label>
+        <link refid="d2/da2/class_a_e_s_encryption"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ECDHEncryption&lt; PolicyType &gt;</label>
+        <link refid="d5/db7/class_e_c_d_h_encryption"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" line="17" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Encryption.hpp" bodystart="18" bodyend="58"/>
+    <listofallmembers>
+      <member refid="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc" prot="public" virt="pure-virtual"><scope>Encryption</scope><name>CheckEqual</name></member>
+      <member refid="d7/d5e/class_encryption_1a149d3402617ab8dc48cc933e553687c6" prot="public" virt="pure-virtual"><scope>Encryption</scope><name>DecryptData</name></member>
+      <member refid="d7/d5e/class_encryption_1a3220a5071d917e8547d10a7f2a531d0e" prot="public" virt="pure-virtual"><scope>Encryption</scope><name>EncryptData</name></member>
+      <member refid="d7/d5e/class_encryption_1a30f7a8c257891fe7d8037705ce1c5efa" prot="public" virt="non-virtual"><scope>Encryption</scope><name>operator==</name></member>
+      <member refid="d7/d5e/class_encryption_1a416615f6ef3b630b8f2e1cc5a8226e1e" prot="public" virt="virtual"><scope>Encryption</scope><name>~Encryption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

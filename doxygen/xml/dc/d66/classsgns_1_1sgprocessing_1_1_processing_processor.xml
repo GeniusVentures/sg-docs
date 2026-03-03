@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>sgns::sgprocessing::ProcessingProcessor</compoundname>
+    <derivedcompoundref refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio" prot="public" virt="non-virtual">sgns::sgprocessing::MNN_Audio</derivedcompoundref>
+    <derivedcompoundref refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image" prot="public" virt="non-virtual">sgns::sgprocessing::MNN_Image</derivedcompoundref>
+    <derivedcompoundref refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l" prot="public" virt="non-virtual">sgns::sgprocessing::MNN_ML</derivedcompoundref>
+    <includes refid="db/df8/processing__processor_8hpp" local="no">processing_processor.hpp</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1af638e378c37cfa8cc6a6d98ca9546b76" prot="protected" static="no" mutable="no">
+        <type>std::atomic&lt; float &gt;</type>
+        <definition>std::atomic&lt;float&gt; sgns::sgprocessing::ProcessingProcessor::m_progress</definition>
+        <argsstring></argsstring>
+        <name>m_progress</name>
+        <qualifiedname>sgns::sgprocessing::ProcessingProcessor::m_progress</qualifiedname>
+        <initializer>{0.0f}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="43" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a66a75161bd7833fc9f8cd9639a161519" prot="protected" static="no" mutable="no">
+        <type><ref refid="d6/ded/namespacesgns_1_1sgprocmanager_1adb77cf9b4ff491f007857d0590792265" kindref="member">sgns::sgprocmanager::Logger</ref></type>
+        <definition>sgns::sgprocmanager::Logger sgns::sgprocessing::ProcessingProcessor::m_logger</definition>
+        <argsstring></argsstring>
+        <name>m_logger</name>
+        <qualifiedname>sgns::sgprocessing::ProcessingProcessor::m_logger</qualifiedname>
+        <initializer>= <ref refid="d6/ded/namespacesgns_1_1sgprocmanager_1ab8bde5b7d40703ed0ed7193069d2f96d" kindref="member">sgns::sgprocmanager::createLogger</ref>( &quot;SGProcessor&quot; )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="44" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1afcc0df535e0be8674d77dce30332eaff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual sgns::sgprocessing::ProcessingProcessor::~ProcessingProcessor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ProcessingProcessor</name>
+        <qualifiedname>sgns::sgprocessing::ProcessingProcessor::~ProcessingProcessor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="20" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a99d4fa68897204338277a3b98e0c3d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>virtual std::vector&lt; uint8_t &gt; sgns::sgprocessing::ProcessingProcessor::StartProcessing</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; uint8_t &gt; &gt; &amp;chunkhashes, const sgns::IoDeclaration &amp;proc, std::vector&lt; char &gt; &amp;imageData, std::vector&lt; char &gt; &amp;modelFile)=0</argsstring>
+        <name>StartProcessing</name>
+        <qualifiedname>sgns::sgprocessing::ProcessingProcessor::StartProcessing</qualifiedname>
+        <reimplementedby refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1aafaa237a044e43c83e6d895b91f34f93">StartProcessing</reimplementedby>
+        <reimplementedby refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image_1a25ed1d4e5fecb9f330b65317ca619d39">StartProcessing</reimplementedby>
+        <reimplementedby refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l_1accb1501b756fdf16a9651d0649ae0d1d">StartProcessing</reimplementedby>
+        <param>
+          <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt; &amp;</type>
+          <declname>chunkhashes</declname>
+        </param>
+        <param>
+          <type>const sgns::IoDeclaration &amp;</type>
+          <declname>proc</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; char &gt; &amp;</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; char &gt; &amp;</type>
+          <declname>modelFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start processing data <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to result item to set hashes to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to task to get image split data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subTask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to subtask to get chunk data from </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="27" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a73b33be6cd8f152ae11beb0bd076f1c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float sgns::sgprocessing::ProcessingProcessor::GetProgress</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProgress</name>
+        <qualifiedname>sgns::sgprocessing::ProcessingProcessor::GetProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set data for processor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Data containing file name and data pair lists. Get current processing progress </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Progress percentage (0.0 to 100.0) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="40" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>sgns::sgprocessing::MNN_Audio</label>
+        <link refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sgns::sgprocessing::MNN_Image</label>
+        <link refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sgns::sgprocessing::MNN_ML</label>
+        <link refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>sgns::sgprocessing::ProcessingProcessor</label>
+        <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>T</label>
+      </node>
+      <node id="1">
+        <label>sgns::sgprocessing::ProcessingProcessor</label>
+        <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>#m_progress</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>#m_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::atomic&lt; T &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::atomic&lt; float &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; float &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" line="17" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor.hpp" bodystart="18" bodyend="45"/>
+    <listofallmembers>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a73b33be6cd8f152ae11beb0bd076f1c0" prot="public" virt="virtual"><scope>sgns::sgprocessing::ProcessingProcessor</scope><name>GetProgress</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a66a75161bd7833fc9f8cd9639a161519" prot="protected" virt="non-virtual"><scope>sgns::sgprocessing::ProcessingProcessor</scope><name>m_logger</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1af638e378c37cfa8cc6a6d98ca9546b76" prot="protected" virt="non-virtual"><scope>sgns::sgprocessing::ProcessingProcessor</scope><name>m_progress</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a99d4fa68897204338277a3b98e0c3d5b" prot="public" virt="pure-virtual"><scope>sgns::sgprocessing::ProcessingProcessor</scope><name>StartProcessing</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1afcc0df535e0be8674d77dce30332eaff" prot="public" virt="virtual"><scope>sgns::sgprocessing::ProcessingProcessor</scope><name>~ProcessingProcessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -3,7 +3,7 @@
   <compounddef id="d4/d0c/entropy__accumulator_8cpp" kind="file" language="C++">
     <compoundname>entropy_accumulator.cpp</compoundname>
     <includes refid="d0/da6/entropy__accumulator_8hpp" local="yes">crypto/bip39/entropy_accumulator.hpp</includes>
-    <includes refid="d5/d68/sha256_8hpp" local="yes">crypto/sha/sha256.hpp</includes>
+    <includes refid="d7/d61/src_2crypto_2sha_2sha256_8hpp" local="yes">crypto/sha/sha256.hpp</includes>
     <incdepgraph>
       <node id="10">
         <label>base/blob.hpp</label>
@@ -32,7 +32,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/crypto/bip39/entropy_accumulator.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.cpp</label>
         <link refid="d4/d0c/entropy__accumulator_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -51,7 +51,7 @@
       </node>
       <node id="7">
         <label>crypto/sha/sha256.hpp</label>
-        <link refid="d5/d68/sha256_8hpp"/>
+        <link refid="d7/d61/src_2crypto_2sha_2sha256_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/bip39/entropy_accumulator.cpp" line="99" column="1" bodyfile="src/crypto/bip39/entropy_accumulator.cpp" bodystart="99" bodyend="111"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.cpp" line="99" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.cpp" bodystart="99" bodyend="111"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -129,7 +129,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d0/da6/entropy__accumulator_8hpp" kindref="compound">crypto/bip39/entropy_accumulator.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d68/sha256_8hpp" kindref="compound">crypto/sha/sha256.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d61/src_2crypto_2sha_2sha256_8hpp" kindref="compound">crypto/sha/sha256.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39" kindref="compound">sgns::crypto::bip39</ref><sp/>{</highlight></codeline>
 <codeline lineno="8" refid="d6/d94/classsgns_1_1crypto_1_1bip39_1_1_entropy_accumulator_1a284bb6a832b699cde5ffcab272cc53d1" refkind="member"><highlight class="normal"><sp/><sp/>outcome::result&lt;EntropyAccumulator&gt;<sp/><ref refid="d6/d94/classsgns_1_1crypto_1_1bip39_1_1_entropy_accumulator_1a284bb6a832b699cde5ffcab272cc53d1" kindref="member">EntropyAccumulator::create</ref>(</highlight></codeline>
@@ -237,6 +237,6 @@
 <codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>Bip39EntropyError<sp/>error&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/crypto/bip39/entropy_accumulator.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.cpp"/>
   </compounddef>
 </doxygen>

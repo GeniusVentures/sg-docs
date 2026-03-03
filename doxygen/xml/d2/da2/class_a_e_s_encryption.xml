@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d2/da2/class_a_e_s_encryption" kind="class" language="C++" prot="public">
+    <compoundname>AESEncryption</compoundname>
+    <basecompoundref refid="d7/d5e/class_encryption" prot="public" virt="non-virtual">Encryption</basecompoundref>
+    <includes refid="db/d6c/_a_e_s_encryption_8hpp" local="no">AESEncryption.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; AESEncryption::EncryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data) override</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>AESEncryption::EncryptData</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a3220a5071d917e8547d10a7f2a531d0e">EncryptData</reimplements>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>AES256 Encrytion method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to be encrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to be used for encryption </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Encrypted data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" line="30" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; AESEncryption::DecryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data) override</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>AESEncryption::DecryptData</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a149d3402617ab8dc48cc933e553687c6">DecryptData</reimplements>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>AES256 Decryption method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to be decrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to be used for decryption </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Decrypted data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" line="40" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool AESEncryption::CheckEqual</definition>
+        <argsstring>(const Encryption &amp;lhs, const Encryption &amp;rhs) const override</argsstring>
+        <name>CheckEqual</name>
+        <qualifiedname>AESEncryption::CheckEqual</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc">CheckEqual</reimplements>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Checks if two <ref refid="d2/da2/class_a_e_s_encryption" kindref="compound">AESEncryption</ref> instances are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> to be downcasted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> to be downcasted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>always return true, since no members </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" line="50" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Derived AES256 <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AESEncryption</label>
+        <link refid="d2/da2/class_a_e_s_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AESEncryption</label>
+        <link refid="d2/da2/class_a_e_s_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" line="20" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp" bodystart="21" bodyend="54"/>
+    <listofallmembers>
+      <member refid="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4" prot="public" virt="virtual"><scope>AESEncryption</scope><name>CheckEqual</name></member>
+      <member refid="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db" prot="public" virt="virtual"><scope>AESEncryption</scope><name>DecryptData</name></member>
+      <member refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" prot="public" virt="virtual"><scope>AESEncryption</scope><name>EncryptData</name></member>
+      <member refid="d7/d5e/class_encryption_1a30f7a8c257891fe7d8037705ce1c5efa" prot="public" virt="non-virtual"><scope>AESEncryption</scope><name>operator==</name></member>
+      <member refid="d7/d5e/class_encryption_1a416615f6ef3b630b8f2e1cc5a8226e1e" prot="public" virt="virtual"><scope>AESEncryption</scope><name>~Encryption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

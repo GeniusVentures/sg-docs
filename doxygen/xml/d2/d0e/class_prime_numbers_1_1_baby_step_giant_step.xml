@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" kind="class" language="C++" prot="public">
+    <compoundname>PrimeNumbers::BabyStepGiantStep</compoundname>
+    <includes refid="d0/d90/_prime_numbers_8hpp" local="no">PrimeNumbers.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1acf7897b505abd9a5c8147230c8d937fd" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int PrimeNumbers::BabyStepGiantStep::g_n_inv</definition>
+        <argsstring></argsstring>
+        <name>g_n_inv</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::g_n_inv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="80" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int PrimeNumbers::BabyStepGiantStep::step_size</definition>
+        <argsstring></argsstring>
+        <name>step_size</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::step_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="81" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int PrimeNumbers::BabyStepGiantStep::prime_number</definition>
+        <argsstring></argsstring>
+        <name>prime_number</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::prime_number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="82" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref>, <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &gt;</type>
+        <definition>std::unordered_map&lt;cpp_int, cpp_int&gt; PrimeNumbers::BabyStepGiantStep::value_table</definition>
+        <argsstring></argsstring>
+        <name>value_table</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::value_table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="83" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a8c21cca4c521ecc5ed067b22137c8a05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrimeNumbers::BabyStepGiantStep::BabyStepGiantStep</definition>
+        <argsstring>(const cpp_int &amp;prime, const cpp_int &amp;generator)</argsstring>
+        <name>BabyStepGiantStep</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::BabyStepGiantStep</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>prime</declname>
+        </param>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>generator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="75" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="129" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>PrimeNumbers::cpp_int PrimeNumbers::BabyStepGiantStep::SolveECDLP</definition>
+        <argsstring>(const cpp_int &amp;number)</argsstring>
+        <name>SolveECDLP</name>
+        <qualifiedname>PrimeNumbers::BabyStepGiantStep::SolveECDLP</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="77" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="142" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>K</label>
+      </node>
+      <node id="1">
+        <label>PrimeNumbers::BabyStepGiantStep</label>
+        <link refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-value_table</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="3">
+        <label>std::unordered_map&lt; K, T &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+keys</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::unordered_map&lt; cpp_int, cpp_int &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; cpp_int, cpp_int &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="72" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="73" bodyend="84"/>
+    <listofallmembers>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a8c21cca4c521ecc5ed067b22137c8a05" prot="public" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>BabyStepGiantStep</name></member>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1acf7897b505abd9a5c8147230c8d937fd" prot="private" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>g_n_inv</name></member>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" prot="private" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>prime_number</name></member>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" prot="public" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>SolveECDLP</name></member>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" prot="private" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>step_size</name></member>
+      <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" prot="private" virt="non-virtual"><scope>PrimeNumbers::BabyStepGiantStep</scope><name>value_table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

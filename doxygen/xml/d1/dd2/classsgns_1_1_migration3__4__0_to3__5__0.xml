@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="69" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="70" bodyend="74"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="69" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="70" bodyend="74"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="81" column="48" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="81" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="81" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a57f9c3a041bc5580b1065f52795ed243" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_pubsub::GossipPubSub &gt;</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="82" column="46" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="82" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="82" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a4ca3d621b85a52d5651f5d2d20fb9ccc" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::Network &gt;</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="83" column="36" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="83" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="83" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a7bbbe29aae3ee15f9e87b6aa99f8181a" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; libp2p::protocol::Scheduler &gt;</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="84" column="44" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="84" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="84" column="44" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ac53c4c5e516c59c9460af40f15a78a31" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::RequestIdGenerator &gt;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="85" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="85" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="85" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a4dffc7ad078fcc508b47a8e357ca4bce" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="86" column="41" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="86" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="86" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a7546c903f70e6e74103aebecaac5d43a" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="87" column="41" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="87" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="87" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a675bbd906992184e43aa29cfeba60782" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="88" column="41" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="88" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="88" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a67146d33ffc6884a25c5e7c123af685c" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt;</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="89" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="89" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="89" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ac470dd6e8f4326e985363d760f93caf3" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt;</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="90" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="90" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="90" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a2eed7153b236376a9a23999845315c39" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="de/da2/classsgns_1_1_blockchain" kindref="compound">Blockchain</ref> &gt;</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="91" column="29" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="91" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="91" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ae81cb6e2b87816ad2b5b1de8f4bd759d" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account" kindref="compound">GeniusAccount</ref> &gt;</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="92" column="26" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="92" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="92" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a3011072971952d839a0df00034fec332" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; <ref refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a5cc68b43c38946dc3b8c8b701c41af7a" kindref="member">Status</ref> &gt;</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="93" column="33" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="93" bodyend="93"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="93" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="93" bodyend="93"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="30" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="28" bodyend="46"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="30" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="28" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a1cabc94221bfa0d5f09bc4b670c4979b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="38" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="48" bodyend="48"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="38" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a402bb1e8be25d505db100c8af85adec2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="44" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="50" bodyend="53"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="44" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6d3912570089c65b4f75522b0a72fbe8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="50" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="55" bodyend="58"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="50" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1abedc7bea2cbf654e35453eb9d3ec09b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="52" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="100" bodyend="110"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="52" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="100" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a57513187b0f5c8bc474070217e81dd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="58" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="60" bodyend="98"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="58" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="60" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6c544e556466831e127b2ccd76d6f996" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="64" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="112" bodyend="417"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="64" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="112" bodyend="417"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a753ddfd6c60944a777cfaba0f7449cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="66" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="479" bodyend="485"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="66" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="479" bodyend="485"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -430,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="79" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="419" bodyend="450"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="79" column="40" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="419" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ab76dc8fc7e668d2c887342bc30bff993" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt; &gt;</type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="80" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="452" bodyend="477"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="80" column="40" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp" bodystart="452" bodyend="477"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -483,12 +483,62 @@
           <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="141">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
       <node id="79">
         <label>IComponent</label>
         <link refid="d1/dbf/class_i_component"/>
       </node>
       <node id="24">
         <label>K</label>
+      </node>
+      <node id="144">
+        <label>KeyGenerator::ElGamal</label>
+        <link refid="da/d91/class_key_generator_1_1_el_gamal"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>-private_key</edgelabel>
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>-public_key</edgelabel>
+        </childnode>
+        <childnode refid="150" relation="usage">
+          <edgelabel>-bsgs_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="148">
+        <label>KeyGenerator::ElGamal::Params</label>
+        <link refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params"/>
+      </node>
+      <node id="146">
+        <label>KeyGenerator::ElGamal::PrivateKey</label>
+        <link refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>KeyGenerator::ElGamal::PublicKey</label>
+        <link refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key"/>
+        <childnode refid="148" relation="usage">
+          <edgelabel>+params</edgelabel>
+        </childnode>
+      </node>
+      <node id="151">
+        <label>PrimeNumbers::BabyStepGiantStep</label>
+        <link refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step"/>
+        <childnode refid="152" relation="usage">
+          <edgelabel>-value_table</edgelabel>
+        </childnode>
       </node>
       <node id="6">
         <label>T</label>
@@ -499,13 +549,49 @@
       <node id="41">
         <label>T2</label>
       </node>
+      <node id="134">
+        <label>ethereum::EthereumKeyGenerator</label>
+        <link refid="dc/dc0/classethereum_1_1_ethereum_key_generator"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>-privkey</edgelabel>
+        </childnode>
+        <childnode refid="138" relation="usage">
+          <edgelabel>-pubkey</edgelabel>
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>-pubkey_info</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-address</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>-ADDRESS_HEADER</edgelabel>
+        </childnode>
+      </node>
+      <node id="140">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="28">
         <label>ipfs_lite::ipfs::merkledag::MerkleDagService</label>
       </node>
-      <node id="141">
+      <node id="137">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="136">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+        <childnode refid="137" relation="template-instance">
+          <edgelabel>&lt; ethereum::policy_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="159">
         <label>sgns::AccountMessenger</label>
         <link refid="d5/d74/classsgns_1_1_account_messenger"/>
-        <childnode refid="142" relation="public-inheritance">
+        <childnode refid="160" relation="public-inheritance">
         </childnode>
         <childnode refid="93" relation="usage">
           <edgelabel>-ACCOUNT_COMM</edgelabel>
@@ -519,14 +605,14 @@
         <childnode refid="7" relation="usage">
           <edgelabel>-pubsub_</edgelabel>
         </childnode>
-        <childnode refid="143" relation="usage">
+        <childnode refid="161" relation="usage">
           <edgelabel>-nonce_responses_</edgelabel>
         </childnode>
-        <childnode refid="144" relation="usage">
+        <childnode refid="162" relation="usage">
           <edgelabel>-block_responses_</edgelabel>
           <edgelabel>-no_nonce_responses_</edgelabel>
         </childnode>
-        <childnode refid="145" relation="usage">
+        <childnode refid="163" relation="usage">
           <edgelabel>-block_first_response_time_</edgelabel>
           <edgelabel>-first_response_time_</edgelabel>
         </childnode>
@@ -537,13 +623,13 @@
           <edgelabel>-nonce_responses_mutex_</edgelabel>
           <edgelabel>-queue_mutex_</edgelabel>
         </childnode>
-        <childnode refid="146" relation="usage">
+        <childnode refid="164" relation="usage">
           <edgelabel>-methods_</edgelabel>
         </childnode>
-        <childnode refid="147" relation="usage">
+        <childnode refid="165" relation="usage">
           <edgelabel>-worker_thread_</edgelabel>
         </childnode>
-        <childnode refid="148" relation="usage">
+        <childnode refid="166" relation="usage">
           <edgelabel>-request_queue_</edgelabel>
         </childnode>
         <childnode refid="55" relation="usage">
@@ -553,17 +639,17 @@
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="146">
+      <node id="164">
         <label>sgns::AccountMessenger::InterfaceMethods</label>
         <link refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods"/>
       </node>
-      <node id="149">
+      <node id="167">
         <label>sgns::AccountMessenger::RequestTask</label>
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="11" relation="usage">
           <edgelabel>+cid</edgelabel>
         </childnode>
-        <childnode refid="150" relation="usage">
+        <childnode refid="168" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
         </childnode>
       </node>
@@ -586,10 +672,10 @@
         <childnode refid="127" relation="usage">
           <edgelabel>-account_</edgelabel>
         </childnode>
-        <childnode refid="151" relation="usage">
+        <childnode refid="169" relation="usage">
           <edgelabel>-cids_</edgelabel>
         </childnode>
-        <childnode refid="153" relation="usage">
+        <childnode refid="171" relation="usage">
           <edgelabel>-validator_registry_</edgelabel>
         </childnode>
         <childnode refid="13" relation="usage">
@@ -599,10 +685,10 @@
           <edgelabel>-validator_registry_initialized_</edgelabel>
         </childnode>
       </node>
-      <node id="151">
+      <node id="169">
         <label>sgns::Blockchain::BlockchainCIDs</label>
         <link refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds"/>
-        <childnode refid="152" relation="usage">
+        <childnode refid="170" relation="usage">
           <edgelabel>+account_creation_</edgelabel>
         </childnode>
       </node>
@@ -620,22 +706,22 @@
         <childnode refid="133" relation="usage">
           <edgelabel>-eth_keypair_</edgelabel>
         </childnode>
-        <childnode refid="134" relation="usage">
+        <childnode refid="143" relation="usage">
           <edgelabel>-elgamal_address_</edgelabel>
         </childnode>
-        <childnode refid="135" relation="usage">
+        <childnode refid="153" relation="usage">
           <edgelabel>-storage_</edgelabel>
         </childnode>
-        <childnode refid="138" relation="usage">
+        <childnode refid="156" relation="usage">
           <edgelabel>-confirmed_nonces_</edgelabel>
         </childnode>
         <childnode refid="97" relation="usage">
           <edgelabel>-nonce_mutex_</edgelabel>
         </childnode>
-        <childnode refid="139" relation="usage">
+        <childnode refid="157" relation="usage">
           <edgelabel>-pending_nonces_</edgelabel>
         </childnode>
-        <childnode refid="140" relation="usage">
+        <childnode refid="158" relation="usage">
           <edgelabel>-messenger_</edgelabel>
         </childnode>
         <childnode refid="32" relation="usage">
@@ -647,12 +733,12 @@
         <label>sgns::IMigrationStep</label>
         <link refid="d5/d0d/classsgns_1_1_i_migration_step"/>
       </node>
-      <node id="136">
+      <node id="154">
         <label>sgns::ISecureStorage</label>
         <link refid="d5/db7/classsgns_1_1_i_secure_storage"/>
         <childnode refid="79" relation="public-inheritance">
         </childnode>
-        <childnode refid="137" relation="public-inheritance">
+        <childnode refid="155" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
@@ -694,7 +780,7 @@
         <childnode refid="127" relation="usage">
           <edgelabel>-account_</edgelabel>
         </childnode>
-        <childnode refid="157" relation="usage">
+        <childnode refid="175" relation="usage">
           <edgelabel>-blockchain_status_</edgelabel>
         </childnode>
       </node>
@@ -705,15 +791,15 @@
           <edgelabel>-data_</edgelabel>
         </childnode>
       </node>
-      <node id="154">
+      <node id="172">
         <label>sgns::blockchain::ValidatorRegistry</label>
         <link refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry"/>
-        <childnode refid="155" relation="public-inheritance">
+        <childnode refid="173" relation="public-inheritance">
         </childnode>
         <childnode refid="14" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
-        <childnode refid="156" relation="usage">
+        <childnode refid="174" relation="usage">
           <edgelabel>-weight_config_</edgelabel>
         </childnode>
         <childnode refid="11" relation="usage">
@@ -727,7 +813,7 @@
           <edgelabel>-cache_mutex_</edgelabel>
         </childnode>
       </node>
-      <node id="156">
+      <node id="174">
         <label>sgns::blockchain::ValidatorRegistry::WeightConfig</label>
         <link refid="da/dc2/structsgns_1_1blockchain_1_1_validator_registry_1_1_weight_config"/>
       </node>
@@ -1203,7 +1289,7 @@
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="157">
+      <node id="175">
         <label>std::atomic&lt; Status &gt;</label>
         <childnode refid="56" relation="template-instance">
           <edgelabel>&lt; Status &gt;</edgelabel>
@@ -1221,7 +1307,7 @@
       <node id="94">
         <label>std::basic_string_view&lt; Char &gt;</label>
       </node>
-      <node id="142">
+      <node id="160">
         <label>std::enable_shared_from_this&lt; AccountMessenger &gt;</label>
       </node>
       <node id="126">
@@ -1239,7 +1325,7 @@
       <node id="29">
         <label>std::enable_shared_from_this&lt; GraphsyncDAGSyncer &gt;</label>
       </node>
-      <node id="137">
+      <node id="155">
         <label>std::enable_shared_from_this&lt; ISecureStorage &gt;</label>
       </node>
       <node id="3">
@@ -1248,7 +1334,7 @@
       <node id="21">
         <label>std::enable_shared_from_this&lt; PubSubBroadcasterExt &gt;</label>
       </node>
-      <node id="155">
+      <node id="173">
         <label>std::enable_shared_from_this&lt; ValidatorRegistry &gt;</label>
       </node>
       <node id="54">
@@ -1410,9 +1496,9 @@
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="148">
+      <node id="166">
         <label>std::queue&lt; sgns::AccountMessenger::RequestTask &gt;</label>
-        <childnode refid="149" relation="usage">
+        <childnode refid="167" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="58" relation="template-instance">
@@ -1458,7 +1544,7 @@
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="139">
+      <node id="157">
         <label>std::set&lt; uint64_t &gt;</label>
         <childnode refid="23" relation="template-instance">
           <edgelabel>&lt; uint64_t &gt;</edgelabel>
@@ -1497,16 +1583,46 @@
           <edgelabel>&lt; IPLDNode &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="134">
+      <node id="143">
         <label>std::shared_ptr&lt; KeyGenerator::ElGamal &gt;</label>
+        <childnode refid="144" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; KeyGenerator::ElGamal &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PrivateKey &gt;</label>
+        <childnode refid="146" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PrivateKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="149">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PublicKey &gt;</label>
+        <childnode refid="147" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PublicKey &gt;</edgelabel>
         </childnode>
       </node>
       <node id="84">
         <label>std::shared_ptr&lt; Options &gt;</label>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; Options &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="150">
+        <label>std::shared_ptr&lt; PrimeNumbers::BabyStepGiantStep &gt;</label>
+        <childnode refid="151" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; PrimeNumbers::BabyStepGiantStep &gt;</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -1517,8 +1633,20 @@
       </node>
       <node id="133">
         <label>std::shared_ptr&lt; ethereum::EthereumKeyGenerator &gt;</label>
+        <childnode refid="134" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; ethereum::EthereumKeyGenerator &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="139">
+        <label>std::shared_ptr&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</label>
+        <childnode refid="140" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</edgelabel>
         </childnode>
       </node>
       <node id="8">
@@ -1557,9 +1685,24 @@
           <edgelabel>&lt; libp2p::protocol::Scheduler &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="140">
+      <node id="135">
+        <label>std::shared_ptr&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="136" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="138">
+        <label>std::shared_ptr&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="158">
         <label>std::shared_ptr&lt; sgns::AccountMessenger &gt;</label>
-        <childnode refid="141" relation="usage">
+        <childnode refid="159" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="5" relation="template-instance">
@@ -1584,18 +1727,18 @@
           <edgelabel>&lt; sgns::GeniusAccount &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="135">
+      <node id="153">
         <label>std::shared_ptr&lt; sgns::ISecureStorage &gt;</label>
-        <childnode refid="136" relation="usage">
+        <childnode refid="154" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; sgns::ISecureStorage &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="153">
+      <node id="171">
         <label>std::shared_ptr&lt; sgns::blockchain::ValidatorRegistry &gt;</label>
-        <childnode refid="154" relation="usage">
+        <childnode refid="172" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="5" relation="template-instance">
@@ -1704,7 +1847,7 @@
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="150">
+      <node id="168">
         <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</label>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</edgelabel>
@@ -1720,7 +1863,7 @@
         <childnode refid="94" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="147">
+      <node id="165">
         <label>std::thread</label>
       </node>
       <node id="106">
@@ -1745,6 +1888,12 @@
         </childnode>
         <childnode refid="6" relation="usage">
           <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="152">
+        <label>std::unordered_map&lt; cpp_int, cpp_int &gt;</label>
+        <childnode refid="100" relation="template-instance">
+          <edgelabel>&lt; cpp_int, cpp_int &gt;</edgelabel>
         </childnode>
       </node>
       <node id="120">
@@ -1777,7 +1926,7 @@
           <edgelabel>&lt; std::string, std::map&lt; CID, uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="152">
+      <node id="170">
         <label>std::unordered_map&lt; std::string, std::string &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -1787,7 +1936,7 @@
           <edgelabel>&lt; std::string, std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="138">
+      <node id="156">
         <label>std::unordered_map&lt; std::string, uint64_t &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -1796,13 +1945,13 @@
           <edgelabel>&lt; std::string, uint64_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="145">
+      <node id="163">
         <label>std::unordered_map&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</label>
         <childnode refid="100" relation="template-instance">
           <edgelabel>&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="144">
+      <node id="162">
         <label>std::unordered_map&lt; uint64_t, std::set&lt; std::string &gt; &gt;</label>
         <childnode refid="22" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -1811,9 +1960,9 @@
           <edgelabel>&lt; uint64_t, std::set&lt; std::string &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="143">
+      <node id="161">
         <label>std::unordered_map&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</label>
-        <childnode refid="139" relation="usage">
+        <childnode refid="157" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="100" relation="template-instance">
@@ -1871,6 +2020,12 @@
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="142">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="31" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="103">
         <label>std::vector&lt; std::unique_ptr&lt; sgns::crdt::CrdtDatastore::DagWorker &gt; &gt;</label>
         <childnode refid="104" relation="usage">
@@ -1881,7 +2036,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/Migration3_4_0To3_5_0.hpp" line="27" column="5" bodyfile="src/account/Migration3_4_0To3_5_0.hpp" bodystart="28" bodyend="94"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp" bodystart="28" bodyend="94"/>
     <listofallmembers>
       <member refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ae81cb6e2b87816ad2b5b1de8f4bd759d" prot="private" virt="non-virtual"><scope>sgns::Migration3_4_0To3_5_0</scope><name>account_</name></member>
       <member refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6c544e556466831e127b2ccd76d6f996" prot="public" virt="virtual"><scope>sgns::Migration3_4_0To3_5_0</scope><name>Apply</name></member>

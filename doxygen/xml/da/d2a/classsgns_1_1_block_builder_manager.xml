@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="da/d2a/classsgns_1_1_block_builder_manager" kind="class" language="C++" prot="public">
+    <compoundname>sgns::BlockBuilderManager</compoundname>
+    <includes refid="de/d1c/_block_builder_manager_8hpp" local="no">BlockBuilderManager.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d2a/classsgns_1_1_block_builder_manager_1a9398236fad28c4a83d1f0a2754b71414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; authorship::BlockBuilderFactory &gt;</type>
+        <definition>std::shared_ptr&lt; authorship::BlockBuilderFactory &gt; sgns::BlockBuilderManager::createFactory</definition>
+        <argsstring>()</argsstring>
+        <name>createFactory</name>
+        <qualifiedname>sgns::BlockBuilderManager::createFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockBuilderManager.hpp" line="21" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockBuilderManager.hpp" bodystart="21" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::BlockBuilderManager</label>
+        <link refid="da/d2a/classsgns_1_1_block_builder_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockBuilderManager.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockBuilderManager.hpp" bodystart="19" bodyend="33"/>
+    <listofallmembers>
+      <member refid="da/d2a/classsgns_1_1_block_builder_manager_1a9398236fad28c4a83d1f0a2754b71414" prot="public" virt="non-virtual"><scope>sgns::BlockBuilderManager</scope><name>createFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

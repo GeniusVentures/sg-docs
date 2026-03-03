@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="63" column="26" bodyfile="src/blockchain/impl/block_tree_impl.hpp" bodystart="63" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="63" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d08/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_meta_1af64f4e17c47c9a2e16a37e9480512baa" prot="public" static="no" mutable="no">
         <type>std::reference_wrapper&lt; <ref refid="da/db0/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_node" kindref="compound">TreeNode</ref> &gt;</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="64" column="30" bodyfile="src/blockchain/impl/block_tree_impl.hpp" bodystart="64" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="64" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/d08/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_meta_1acb35ea6b27363417c6f6441a666e35c4" prot="public" static="no" mutable="no">
         <type>std::reference_wrapper&lt; <ref refid="da/db0/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_node" kindref="compound">TreeNode</ref> &gt;</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="66" column="30" bodyfile="src/blockchain/impl/block_tree_impl.hpp" bodystart="66" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="66" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" bodystart="66" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="57" column="16" bodyfile="src/blockchain/impl/block_tree_impl.cpp" bodystart="70" bodyend="95"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="57" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" bodystart="70" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="d8/d08/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_meta_1a65e9c10e3fa9ef0dae37ce4986e7272a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="59" column="7" bodyfile="src/blockchain/impl/block_tree_impl.cpp" bodystart="97" bodyend="103"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="59" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp" bodystart="97" bodyend="103"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -148,7 +148,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/blockchain/impl/block_tree_impl.hpp" line="56" column="5" bodyfile="src/blockchain/impl/block_tree_impl.hpp" bodystart="56" bodyend="67"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="56" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" bodystart="56" bodyend="67"/>
     <listofallmembers>
       <member refid="d8/d08/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_meta_1af64f4e17c47c9a2e16a37e9480512baa" prot="public" virt="non-virtual"><scope>sgns::blockchain::BlockTreeImpl::TreeMeta</scope><name>deepest_leaf</name></member>
       <member refid="d8/d08/structsgns_1_1blockchain_1_1_block_tree_impl_1_1_tree_meta_1acb35ea6b27363417c6f6441a666e35c4" prot="public" virt="non-virtual"><scope>sgns::blockchain::BlockTreeImpl::TreeMeta</scope><name>last_finalized</name></member>

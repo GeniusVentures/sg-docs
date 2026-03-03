@@ -4,11 +4,11 @@
     <compoundname>JSONBackend.hpp</compoundname>
     <includes refid="dd/d1a/_i_secure_storage_8hpp" local="yes">../ISecureStorage.hpp</includes>
     <includes local="no">rapidjson/document.h</includes>
-    <includedby refid="de/d2b/_android_8hpp" local="yes">src/local_secure_storage/impl/Android.hpp</includedby>
-    <includedby refid="d1/dc4/_apple_8hpp" local="yes">src/local_secure_storage/impl/Apple.hpp</includedby>
-    <includedby refid="d9/d83/_j_s_o_n_backend_8cpp" local="yes">src/local_secure_storage/impl/JSONBackend.cpp</includedby>
-    <includedby refid="d8/db4/_linux_8hpp" local="yes">src/local_secure_storage/impl/Linux.hpp</includedby>
-    <includedby refid="db/d97/_windows_8hpp" local="yes">src/local_secure_storage/impl/Windows.hpp</includedby>
+    <includedby refid="de/d2b/_android_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp</includedby>
+    <includedby refid="d1/dc4/_apple_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Apple.hpp</includedby>
+    <includedby refid="d9/d83/_j_s_o_n_backend_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp</includedby>
+    <includedby refid="d8/db4/_linux_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp</includedby>
+    <includedby refid="db/d97/_windows_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Windows.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>../ISecureStorage.hpp</label>
@@ -21,7 +21,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/local_secure_storage/impl/JSONBackend.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp</label>
         <link refid="d9/d5a/_j_s_o_n_backend_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,31 +52,31 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>src/local_secure_storage/impl/Android.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.cpp</label>
         <link refid="dc/dbd/_android_8cpp"/>
       </node>
       <node id="2">
-        <label>src/local_secure_storage/impl/Android.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Android.hpp</label>
         <link refid="de/d2b/_android_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>src/local_secure_storage/impl/Apple.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Apple.cpp</label>
         <link refid="dd/dfb/_apple_8cpp"/>
       </node>
       <node id="4">
-        <label>src/local_secure_storage/impl/Apple.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Apple.hpp</label>
         <link refid="d1/dc4/_apple_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>src/local_secure_storage/impl/JSONBackend.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.cpp</label>
         <link refid="d9/d83/_j_s_o_n_backend_8cpp"/>
       </node>
       <node id="1">
-        <label>src/local_secure_storage/impl/JSONBackend.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp</label>
         <link refid="d9/d5a/_j_s_o_n_backend_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -90,21 +90,21 @@
         </childnode>
       </node>
       <node id="8">
-        <label>src/local_secure_storage/impl/Linux.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.cpp</label>
         <link refid="de/d39/_linux_8cpp"/>
       </node>
       <node id="7">
-        <label>src/local_secure_storage/impl/Linux.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp</label>
         <link refid="d8/db4/_linux_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>src/local_secure_storage/impl/Windows.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Windows.cpp</label>
         <link refid="d4/d9f/_windows_8cpp"/>
       </node>
       <node id="9">
-        <label>src/local_secure_storage/impl/Windows.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Windows.hpp</label>
         <link refid="db/d97/_windows_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -149,6 +149,6 @@
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/local_secure_storage/impl/JSONBackend.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/JSONBackend.hpp"/>
   </compounddef>
 </doxygen>

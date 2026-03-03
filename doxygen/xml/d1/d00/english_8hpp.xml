@@ -4,10 +4,10 @@
     <compoundname>english.hpp</compoundname>
     <includes local="no">array</includes>
     <includes local="no">string_view</includes>
-    <includedby refid="d5/d66/dictionary_8cpp" local="yes">src/crypto/bip39/dictionary.cpp</includedby>
+    <includedby refid="d5/d66/dictionary_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/crypto/bip39/wordlist/english.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist/english.hpp</label>
         <link refid="d1/d00/english_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,11 +23,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/crypto/bip39/dictionary.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/dictionary.cpp</label>
         <link refid="d5/d66/dictionary_8cpp"/>
       </node>
       <node id="1">
-        <label>src/crypto/bip39/wordlist/english.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist/english.hpp</label>
         <link refid="d1/d00/english_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/bip39/wordlist/english.hpp" line="11" column="24" bodyfile="src/crypto/bip39/wordlist/english.hpp" bodystart="11" bodyend="353"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist/english.hpp" line="11" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist/english.hpp" bodystart="11" bodyend="353"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -414,6 +414,6 @@
 <codeline lineno="355"><highlight class="normal"></highlight></codeline>
 <codeline lineno="356"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_CRYPTO_BIP39_ENGLISH_DICTIONARY_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/crypto/bip39/wordlist/english.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist/english.hpp"/>
   </compounddef>
 </doxygen>

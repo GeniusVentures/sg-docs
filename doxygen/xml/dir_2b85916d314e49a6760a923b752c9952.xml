@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_2b85916d314e49a6760a923b752c9952" kind="dir">
-    <compoundname>src/runtime/binaryen/runtime_api</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api</compoundname>
     <innerfile refid="d7/d6b/block__builder__impl_8cpp">block_builder_impl.cpp</innerfile>
     <innerfile refid="d3/d95/block__builder__impl_8hpp">block_builder_impl.hpp</innerfile>
     <innerfile refid="de/d5e/core__factory__impl_8cpp">core_factory_impl.cpp</innerfile>
@@ -25,6 +25,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/runtime/binaryen/runtime_api/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/"/>
   </compounddef>
 </doxygen>

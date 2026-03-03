@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="25" column="21" bodyfile="src/proof/NilFileHelper.hpp" bodystart="25" bodyend="35"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="25" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="25" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="d4/d4f/classsgns_1_1_nil_file_helper_1afcfe8b32e6e99e4eca32733ffc2336a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="38" column="28" bodyfile="src/proof/NilFileHelper.hpp" bodystart="38" bodyend="46"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="38" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="38" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="d4/d4f/classsgns_1_1_nil_file_helper_1a0317daf326db770adb0a80eed1373b0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="49" column="32" bodyfile="src/proof/NilFileHelper.hpp" bodystart="49" bodyend="72"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="49" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="49" bodyend="72"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="75" column="21" bodyfile="src/proof/NilFileHelper.hpp" bodystart="75" bodyend="91"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="75" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="75" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="d4/d4f/classsgns_1_1_nil_file_helper_1aeeca59dcaf9b087eff627eac6db7e59f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="93" column="21" bodyfile="src/proof/NilFileHelper.hpp" bodystart="93" bodyend="104"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="93" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="93" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="d4/d4f/classsgns_1_1_nil_file_helper_1ac1289d518fd7bb652dec181f18ca7503" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; std::uint8_t &gt; &gt;</type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="106" column="32" bodyfile="src/proof/NilFileHelper.hpp" bodystart="106" bodyend="128"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="106" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="106" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="d4/d4f/classsgns_1_1_nil_file_helper_1a16242e524e84faa63f74dbb5aac9f02e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; std::uint8_t &gt; &gt;</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/NilFileHelper.hpp" line="130" column="32" bodyfile="src/proof/NilFileHelper.hpp" bodystart="130" bodyend="144"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="130" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="130" bodyend="144"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -186,7 +186,7 @@
         <link refid="d4/d4f/classsgns_1_1_nil_file_helper"/>
       </node>
     </collaborationgraph>
-    <location file="src/proof/NilFileHelper.hpp" line="21" column="5" bodyfile="src/proof/NilFileHelper.hpp" bodystart="22" bodyend="145"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/NilFileHelper.hpp" bodystart="22" bodyend="145"/>
     <listofallmembers>
       <member refid="d4/d4f/classsgns_1_1_nil_file_helper_1a0317daf326db770adb0a80eed1373b0d" prot="public" virt="non-virtual"><scope>sgns::NilFileHelper</scope><name>DecodeMarshalledData</name></member>
       <member refid="d4/d4f/classsgns_1_1_nil_file_helper_1afcfe8b32e6e99e4eca32733ffc2336a6" prot="public" virt="non-virtual"><scope>sgns::NilFileHelper</scope><name>GetMarshalledData</name></member>

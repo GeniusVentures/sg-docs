@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="de/d81/class_e_c_d_s_a_public_key" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ECDSAPublicKey</compoundname>
+    <derivedcompoundref refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key" prot="public" virt="non-virtual">bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</derivedcompoundref>
+    <derivedcompoundref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" prot="public" virt="non-virtual">ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</derivedcompoundref>
+    <includes refid="d8/ddd/_e_c_d_s_a_public_key_8hpp" local="no">ECDSAPublicKey.hpp</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/d81/class_e_c_d_s_a_public_key_1ac3876e026d53f38131742e4936966211" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string ECDSAPublicKey::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>ECDSAPublicKey::X</qualifiedname>
+        <briefdescription>
+<para>String representation of X coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="39" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d81/class_e_c_d_s_a_public_key_1aaddf6a72aa226cdc64cb7049436e5819" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string ECDSAPublicKey::Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>ECDSAPublicKey::Y</qualifiedname>
+        <briefdescription>
+<para>String representation of Y coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="40" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d81/class_e_c_d_s_a_public_key_1a8a8243bc75fb037e4728333e28e6c14f" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; std::uint8_t &gt;</type>
+        <definition>const std::vector&lt;std::uint8_t&gt; ECDSAPublicKey::X_vect</definition>
+        <argsstring></argsstring>
+        <name>X_vect</name>
+        <qualifiedname>ECDSAPublicKey::X_vect</qualifiedname>
+        <briefdescription>
+<para>Vector representation of X coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="41" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d81/class_e_c_d_s_a_public_key_1a6494fbf52785b7f105325ddd7f43c28f" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; std::uint8_t &gt;</type>
+        <definition>const std::vector&lt;std::uint8_t&gt; ECDSAPublicKey::Y_vect</definition>
+        <argsstring></argsstring>
+        <name>Y_vect</name>
+        <qualifiedname>ECDSAPublicKey::Y_vect</qualifiedname>
+        <briefdescription>
+<para>Vector representation of Y coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="42" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d81/class_e_c_d_s_a_public_key_1a3ac466acecb4453f81f823837cca8a5d" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ECDSAPublicKey::pubkey_used_value</definition>
+        <argsstring></argsstring>
+        <name>pubkey_used_value</name>
+        <qualifiedname>ECDSAPublicKey::pubkey_used_value</qualifiedname>
+        <briefdescription>
+<para>Used value of the public key (compressed, uncompressed..). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="63" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d81/class_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECDSAPublicKey::ECDSAPublicKey</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; X_data, std::vector&lt; std::uint8_t &gt; Y_data)</argsstring>
+        <name>ECDSAPublicKey</name>
+        <qualifiedname>ECDSAPublicKey::ECDSAPublicKey</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>X_data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>Y_data</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="de/d81/class_e_c_d_s_a_public_key" kindref="compound">ECDSAPublicKey</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">X_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector representing the X coordinate of the public key. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">Y_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector representing the Y coordinate of the public key. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d81/class_e_c_d_s_a_public_key_1a849b7a396c62b524479a4276b71ba0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ECDSAPublicKey::~ECDSAPublicKey</definition>
+        <argsstring>()</argsstring>
+        <name>~ECDSAPublicKey</name>
+        <qualifiedname>ECDSAPublicKey::~ECDSAPublicKey</qualifiedname>
+        <briefdescription>
+<para>Virtual destructor to prevent memory leak. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="35" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d81/class_e_c_d_s_a_public_key_1a9abead45382f9d6bf92b4d9251efb316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECDSAPublicKey::operator std::string &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator std::string &amp;</name>
+        <qualifiedname>ECDSAPublicKey::string &amp;</qualifiedname>
+        <briefdescription>
+<para>Overloads the assignment to string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The appropriate public key value used for the parent class </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="48" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d81/class_e_c_d_s_a_public_key_1a809ab6024550f4da99f419bc731e327a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ECDSAPublicKey::GetEntireKey</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEntireKey</name>
+        <qualifiedname>ECDSAPublicKey::GetEntireKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="57" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="de/d81/class_e_c_d_s_a_public_key_1afd02140fd21174f84fb3aeb7284582f7" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string ECDSAPublicKey::CalcPubkeyUsedValue</definition>
+        <argsstring>() const =0</argsstring>
+        <name>CalcPubkeyUsedValue</name>
+        <qualifiedname>ECDSAPublicKey::CalcPubkeyUsedValue</qualifiedname>
+        <reimplementedby refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1ade96cf408b5f5aaabdeb2d3b2292689e">CalcPubkeyUsedValue</reimplementedby>
+        <reimplementedby refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715">CalcPubkeyUsedValue</reimplementedby>
+        <briefdescription>
+<para>Calculates the single data used key value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Public key mashed value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="69" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class to organize public key values of ECDSA. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+      </node>
+      <node id="2">
+        <label>bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</label>
+        <link refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>T</label>
+      </node>
+      <node id="3">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" line="17" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSAPublicKey.hpp" bodystart="18" bodyend="70"/>
+    <listofallmembers>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1afd02140fd21174f84fb3aeb7284582f7" prot="private" virt="pure-virtual"><scope>ECDSAPublicKey</scope><name>CalcPubkeyUsedValue</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>ECDSAPublicKey</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a809ab6024550f4da99f419bc731e327a" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>GetEntireKey</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a9abead45382f9d6bf92b4d9251efb316" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>operator std::string &amp;</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a3ac466acecb4453f81f823837cca8a5d" prot="private" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>pubkey_used_value</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1ac3876e026d53f38131742e4936966211" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>X</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a8a8243bc75fb037e4728333e28e6c14f" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>X_vect</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1aaddf6a72aa226cdc64cb7049436e5819" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>Y</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a6494fbf52785b7f105325ddd7f43c28f" prot="public" virt="non-virtual"><scope>ECDSAPublicKey</scope><name>Y_vect</name></member>
+      <member refid="de/d81/class_e_c_d_s_a_public_key_1a849b7a396c62b524479a4276b71ba0d5" prot="public" virt="virtual"><scope>ECDSAPublicKey</scope><name>~ECDSAPublicKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

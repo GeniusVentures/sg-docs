@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_32eed30060eeeeb45bf6b2929b506cca" kind="dir">
-    <compoundname>src/api/transport</compoundname>
-    <innerdir refid="dir_21bf0675ff604c4caeb46121520de5ef">src/api/transport/impl</innerdir>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport</compoundname>
+    <innerdir refid="dir_21bf0675ff604c4caeb46121520de5ef">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl</innerdir>
     <innerfile refid="db/d9c/api_2transport_2error_8cpp">error.cpp</innerfile>
     <innerfile refid="d9/d19/api_2transport_2error_8hpp">error.hpp</innerfile>
     <innerfile refid="df/d31/listener_8hpp">listener.hpp</innerfile>
@@ -14,6 +14,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/api/transport/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/"/>
   </compounddef>
 </doxygen>

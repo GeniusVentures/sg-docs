@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d9/dd7/_ethereum_key_generator_8hpp" kind="file" language="C++">
+    <compoundname>EthereumKeyGenerator.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes refid="dc/d35/_ethereum_key_pair_params_8hpp" local="no">ProofSystem/EthereumKeyPairParams.hpp</includes>
+    <includes refid="df/d62/ext__private__key_8hpp" local="no">ProofSystem/ext_private_key.hpp</includes>
+    <includes refid="d8/ddd/_e_c_d_s_a_public_key_8hpp" local="no">ProofSystem/ECDSAPublicKey.hpp</includes>
+    <includedby refid="da/d43/_ethereum_key_generator_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp</includedby>
+    <includedby refid="d0/dad/_genius_account_8hpp" local="no">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</includedby>
+    <incdepgraph>
+      <node id="13">
+        <label>ProofSystem/ECDSAPublicKey.hpp</label>
+        <link refid="d8/ddd/_e_c_d_s_a_public_key_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp</label>
+        <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ProofSystem/EthereumKeyPairParams.hpp</label>
+        <link refid="dc/d35/_ethereum_key_pair_params_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ProofSystem/ext_private_key.hpp</label>
+        <link refid="df/d62/ext__private__key_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>cstdint</label>
+      </node>
+      <node id="7">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="4">
+        <label>nil/crypto3/hash/keccak.hpp</label>
+      </node>
+      <node id="9">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="10">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="6">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="8">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="11">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
+      <node id="16">
+        <label>optional</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp</label>
+        <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp</label>
+        <link refid="da/d43/_ethereum_key_generator_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.cpp</label>
+        <link refid="d5/dab/_escrow_release_transaction_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.hpp</label>
+        <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</label>
+        <link refid="d7/d12/_escrow_transaction_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
+        <link refid="df/df3/_escrow_transaction_8hpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</label>
+        <link refid="dd/dd9/_genius_account_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</label>
+        <link refid="d0/dad/_genius_account_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
+        <link refid="df/de0/_genius_node_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
+        <link refid="d3/d63/_genius_node_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp</label>
+        <link refid="da/dcc/_i_genius_transactions_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp</label>
+        <link refid="db/d3c/_i_genius_transactions_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
+        <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
+        <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
+        <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
+        <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
+        <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
+        <link refid="d2/d4b/_migration_manager_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp</label>
+        <link refid="d8/d70/_mint_transaction_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.hpp</label>
+        <link refid="d2/d0f/_mint_transaction_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp</label>
+        <link refid="d2/d15/_processing_transaction_8cpp"/>
+      </node>
+      <node id="19">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.hpp</label>
+        <link refid="d4/dec/_processing_transaction_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
+        <link refid="d0/dcc/_transaction_manager_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
+        <link refid="de/d54/_transaction_manager_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.cpp</label>
+        <link refid="db/dbb/_transfer_transaction_8cpp"/>
+      </node>
+      <node id="23">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.hpp</label>
+        <link refid="dd/d70/_transfer_transaction_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp</label>
+        <link refid="dc/d59/_blockchain_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
+        <link refid="df/d00/_validator_registry_8cpp"/>
+      </node>
+      <node id="28">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
+        <link refid="da/d8c/_blockchain_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dc/dc0/classethereum_1_1_ethereum_key_generator" prot="public">ethereum::EthereumKeyGenerator</innerclass>
+    <innerclass refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" prot="private">ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</innerclass>
+    <innernamespace refid="df/dc1/namespaceethereum">ethereum</innernamespace>
+    <briefdescription>
+<para>Ethereum address generator header file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-08 Super Genius (<ulink url="mailto:ken@gnus.ai">ken@gnus.ai</ulink>) Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ETHEREUM_KEY_GENERATOR_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ETHEREUM_KEY_GENERATOR_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="dc/d35/_ethereum_key_pair_params_8hpp" kindref="compound">ProofSystem/EthereumKeyPairParams.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="df/d62/ext__private__key_8hpp" kindref="compound">ProofSystem/ext_private_key.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="d8/ddd/_e_c_d_s_a_public_key_8hpp" kindref="compound">ProofSystem/ECDSAPublicKey.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="df/dc1/namespaceethereum" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/dc1/namespaceethereum" kindref="compound">ethereum</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="dc/dc0/classethereum_1_1_ethereum_key_generator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" kindref="member">PubKeyPair_t</ref><sp/>=<sp/>std::pair&lt;std::vector&lt;std::uint8_t&gt;,<sp/>std::vector&lt;std::uint8_t&gt;&gt;;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator</ref>(<sp/>std::string_view<sp/>private_key<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" kindref="member">ethereum::scalar_field_value_type</ref><sp/>&amp;private_key<sp/>);</highlight></codeline>
+<codeline lineno="46" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key&lt;ethereum::policy_type&gt;</ref><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" kindref="member">get_private_key</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="47"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>pubkey::public_key&lt;ethereum::policy_type&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" kindref="member">get_public_key</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="55"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" kindref="member">get_address</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="63"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kindref="member">address</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" kindref="member">GetUsedPubKeyValue</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="71"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" kindref="member">pubkey_info</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::string<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" kindref="member">GetEntirePubValue</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="79"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" kindref="member">pubkey_info</ref>-&gt;GetEntireKey();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="88" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" kindref="member">ExtractPubKeyFromField</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;ethereum::policy_type&gt;<sp/>&amp;pub_key<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">DeriveAddress</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::uint8_t&gt;<sp/>&amp;pub_key_vect<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;pubkey::ext_private_key&lt;ethereum::policy_type&gt;&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" kindref="member">CreateKeys</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;ethereum::policy_type&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" kindref="member">BuildPublicKey</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;pubkey_data<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="105" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" kindref="member">ethereum::random_generator_type</ref><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" kindref="member">key_gen</ref>;<sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;pubkey::ext_private_key&lt;ethereum::policy_type&gt;&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref>;<sp/></highlight></codeline>
+<codeline lineno="108" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;pubkey::public_key&lt;ethereum::policy_type&gt;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" kindref="compound">EthereumECDSAPublicKey</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" kindref="member">ECDSAPublicKey</ref></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="de/d81/class_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" kindref="member">ECDSAPublicKey::ECDSAPublicKey</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::string<sp/><ref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715" kindref="member">CalcPubkeyUsedValue</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
+<codeline lineno="122"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="de/d81/class_e_c_d_s_a_public_key_1ac3876e026d53f38131742e4936966211" kindref="member">X</ref><sp/>+<sp/><ref refid="de/d81/class_e_c_d_s_a_public_key_1aaddf6a72aa226cdc64cb7049436e5819" kindref="member">Y</ref><sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;EthereumECDSAPublicKey&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" kindref="member">pubkey_info</ref>;<sp/></highlight></codeline>
+<codeline lineno="128" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kindref="member">address</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::string_view<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" kindref="member">ADDRESS_HEADER</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0x&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref><sp/>=<sp/>24;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="132" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" kindref="member">ADDRESS_VALID_POS</ref><sp/><sp/><sp/><sp/>=<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref><sp/>-<sp/>2;<sp/></highlight></codeline>
+<codeline lineno="133" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" kindref="member">ADDRESS_SIZE_CHARS</ref><sp/><sp/><sp/>=<sp/>42;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">DeriveAddress</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ethereum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>ETHEREUM_KEY_GENERATOR_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp"/>
+  </compounddef>
+</doxygen>

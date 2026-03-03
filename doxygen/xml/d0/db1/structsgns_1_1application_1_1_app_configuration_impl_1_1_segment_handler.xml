@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/application/impl/app_config_impl.hpp" line="50" column="7" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="50" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="50" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/application/impl/app_config_impl.hpp" line="52" column="18" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="52" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="52" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/db1/structsgns_1_1application_1_1_app_configuration_impl_1_1_segment_handler_1a52f5407ee9713deb54a7829390d1ad00" prot="public" static="no" mutable="no">
         <type><ref refid="d0/db1/structsgns_1_1application_1_1_app_configuration_impl_1_1_segment_handler_1aaf5319e9f5f554f05de21bd6e53a724b" kindref="member">Handler</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/application/impl/app_config_impl.hpp" line="53" column="15" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="53" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="53" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -60,7 +60,7 @@
         <link refid="d0/db1/structsgns_1_1application_1_1_app_configuration_impl_1_1_segment_handler"/>
       </node>
     </collaborationgraph>
-    <location file="src/application/impl/app_config_impl.hpp" line="49" column="5" bodyfile="src/application/impl/app_config_impl.hpp" bodystart="49" bodyend="54"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" line="49" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/app_config_impl.hpp" bodystart="49" bodyend="54"/>
     <listofallmembers>
       <member refid="d0/db1/structsgns_1_1application_1_1_app_configuration_impl_1_1_segment_handler_1aaf5319e9f5f554f05de21bd6e53a724b" prot="public" virt="non-virtual"><scope>sgns::application::AppConfigurationImpl::SegmentHandler</scope><name>Handler</name></member>
       <member refid="d0/db1/structsgns_1_1application_1_1_app_configuration_impl_1_1_segment_handler_1a52f5407ee9713deb54a7829390d1ad00" prot="public" virt="non-virtual"><scope>sgns::application::AppConfigurationImpl::SegmentHandler</scope><name>handler</name></member>

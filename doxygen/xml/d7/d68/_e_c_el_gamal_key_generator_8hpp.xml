@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d7/d68/_e_c_el_gamal_key_generator_8hpp" kind="file" language="C++">
+    <compoundname>ECElGamalKeyGenerator.hpp</compoundname>
+    <includes refid="d3/dd4/_e_c_el_gamal_types_8hpp" local="yes">ECElGamalTypes.hpp</includes>
+    <includes refid="db/da9/_e_c_d_s_a_types_8hpp" local="yes">ECDSATypes.hpp</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp</label>
+        <link refid="d7/d68/_e_c_el_gamal_key_generator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ECElGamalTypes.hpp</label>
+        <link refid="d3/dd4/_e_c_el_gamal_types_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ProofSystem/PrimeNumbers.hpp</label>
+        <link refid="d0/d90/_prime_numbers_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="14">
+        <label>ctime</label>
+      </node>
+      <node id="20">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="6">
+        <label>nil/crypto3/algebra/marshalling.hpp</label>
+      </node>
+      <node id="22">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="16">
+        <label>nil/crypto3/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="17">
+        <label>nil/crypto3/multiprecision/miller_rabin.hpp</label>
+      </node>
+      <node id="4">
+        <label>nil/crypto3/pkpad/algorithms/encode.hpp</label>
+      </node>
+      <node id="23">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="19">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="5">
+        <label>nil/crypto3/pubkey/keys/private_key.hpp</label>
+      </node>
+      <node id="21">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="24">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
+      <node id="10">
+        <label>optional</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>unordered_map</label>
+      </node>
+      <node id="3">
+        <label>utility</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="de/d75/class_e_c_el_gamal_key_generator" prot="public">ECElGamalKeyGenerator</innerclass>
+    <briefdescription>
+<para>Header file of EC ElGamal module. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2024-02-01 Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_EC_ELGAMAL_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_EC_ELGAMAL_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/dd4/_e_c_el_gamal_types_8hpp" kindref="compound">ECElGamalTypes.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/da9/_e_c_d_s_a_types_8hpp" kindref="compound">ECDSATypes.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="de/d75/class_e_c_el_gamal_key_generator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" kindref="member">ECElGamalKeyGenerator</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_USE_CRYPTO3_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref><sp/>=<sp/>nil::crypto3::multiprecision::cpp_int;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref><sp/>=<sp/>boost::multiprecision::cpp_int;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" kindref="member">ECElGamalKeyGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref><sp/>&amp;key_scalar<sp/>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" kindref="member">private_key</ref><sp/>=<sp/>std::make_shared&lt;PrivateKey&lt;ecdsa_t::CurveType,<sp/>ecdsa_t::padding_policy,<sp/>ecdsa_t::generator_type&gt;&gt;(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">typename<sp/><ref refid="d9/dc0/struct_private_key_1a98eba0629f9cc4e1a4ce9cf8f8f31ff4" kindref="member">PrivateKey&lt;ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type&gt;::private_key_type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>key_scalar<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" kindref="member">public_key</ref><sp/>=<sp/>std::make_shared&lt;PublicKey&lt;ecdsa_t::CurveType,<sp/>ecdsa_t::padding_policy,<sp/>ecdsa_t::generator_type&gt;&gt;(<sp/>*private_key<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="de/d75/class_e_c_el_gamal_key_generator_1a63670b930a5d79cf863a0f6be5143120" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey&lt;ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type&gt;</ref><sp/>&amp;<ref refid="de/d75/class_e_c_el_gamal_key_generator_1a63670b930a5d79cf863a0f6be5143120" kindref="member">GetPrivateKey</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="31"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" kindref="member">private_key</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="de/d75/class_e_c_el_gamal_key_generator_1a498fca05eb124b268dea535018cfb4d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::pair&lt;ECElGamalPoint&lt;ecdsa_t::CurveType&gt;,<sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref>&gt;<sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a498fca05eb124b268dea535018cfb4d0" kindref="member">EncryptData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref><sp/>&amp;data<sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" kindref="member">ecdsa_t::random_generator_type</ref><sp/><sp/><sp/><sp/><sp/>random_gen;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>random_num<sp/>=<sp/>random_gen();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>C1(<sp/>random_num<sp/>*<sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;::curve_point_type::one</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>M(<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>kQ(<sp/>random_num<sp/>*<sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" kindref="member">public_key</ref>-&gt;pubkey_data()<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>C2<sp/>=<sp/>M<sp/>+<sp/>kQ;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_pair(<sp/>C1,<sp/>C2<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47" refid="de/d75/class_e_c_el_gamal_key_generator_1a0153e1a8fd133cbe6a29567bebb447bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a0153e1a8fd133cbe6a29567bebb447bc" kindref="member">DecryptData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::pair&lt;<ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref>,<sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref>&gt;<sp/>&amp;data<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>dC1(<sp/>(<sp/>*data.first.curve_point<sp/>)<sp/>*<sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" kindref="member">private_key</ref>-&gt;GetPrivateKeyScalar()<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint&lt;ecdsa_t::CurveType&gt;</ref><sp/>M<sp/>=<sp/>data.second<sp/>-<sp/>dC1;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>M.<ref refid="df/d3c/struct_e_c_el_gamal_point_1a3f94d1e5a86906e6e2dbc0823b490a7b" kindref="member">UnMap</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57" refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;PrivateKey&lt;ecdsa_t::CurveType,<sp/>ecdsa_t::padding_policy,<sp/>ecdsa_t::generator_type&gt;&gt;<sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" kindref="member">private_key</ref>;<sp/></highlight></codeline>
+<codeline lineno="58" refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;PublicKey&lt;ecdsa_t::CurveType,<sp/>ecdsa_t::padding_policy,<sp/>ecdsa_t::generator_type&gt;&gt;<sp/><sp/><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" kindref="member">public_key</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp"/>
+  </compounddef>
+</doxygen>

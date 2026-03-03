@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/d94/class_prime_numbers" kind="class" language="C++" prot="public">
+    <compoundname>PrimeNumbers</compoundname>
+    <includes refid="d0/d90/_prime_numbers_8hpp" local="no">PrimeNumbers.hpp</includes>
+    <innerclass refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" prot="public">PrimeNumbers::BabyStepGiantStep</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" prot="public" static="no">
+        <type>nil::crypto3::multiprecision::cpp_int</type>
+        <definition>using PrimeNumbers::cpp_int = nil::crypto3::multiprecision::cpp_int</definition>
+        <argsstring></argsstring>
+        <name>cpp_int</name>
+        <qualifiedname>PrimeNumbers::cpp_int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1a8c1a484ca3977c90868c9c9f225ebf5f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>std::size_t</type>
+            <declname>bit_size</declname>
+            <defname>bit_size</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool PrimeNumbers::GenerateSafePrime</definition>
+        <argsstring>(std::size_t max_attempts, cpp_int &amp;out_val)</argsstring>
+        <name>GenerateSafePrime</name>
+        <qualifiedname>PrimeNumbers::GenerateSafePrime</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>max_attempts</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>out_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="34" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="34" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>PrimeNumbers::cpp_int PrimeNumbers::GetRandomNumber</definition>
+        <argsstring>(const cpp_int &amp;prime_number)</argsstring>
+        <name>GetRandomNumber</name>
+        <qualifiedname>PrimeNumbers::GetRandomNumber</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>prime_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="61" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrimeNumbers::GetGeneratorFromPrime</definition>
+        <argsstring>(std::size_t max_attempts, cpp_int prime_number, cpp_int &amp;out_val)</argsstring>
+        <name>GetGeneratorFromPrime</name>
+        <qualifiedname>PrimeNumbers::GetGeneratorFromPrime</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>max_attempts</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+          <declname>prime_number</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>out_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="64" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="5" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>PrimeNumbers::cpp_int PrimeNumbers::ModInverseEuclideanDivision</definition>
+        <argsstring>(cpp_int x, cpp_int prime)</argsstring>
+        <name>ModInverseEuclideanDivision</name>
+        <qualifiedname>PrimeNumbers::ModInverseEuclideanDivision</qualifiedname>
+        <param>
+          <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+          <declname>prime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="66" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="32" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1a69934db626b1741f2ccd003cefcecc49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>PrimeNumbers::cpp_int PrimeNumbers::SqrtMod</definition>
+        <argsstring>(const cpp_int &amp;number, const cpp_int &amp;prime)</argsstring>
+        <name>SqrtMod</name>
+        <qualifiedname>PrimeNumbers::SqrtMod</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>number</declname>
+        </param>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>prime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="68" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="63" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d94/class_prime_numbers_1a928ee8bd1e7ec4b10cdbb266bea6bb8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref></type>
+        <definition>PrimeNumbers::cpp_int PrimeNumbers::PowHighPrec</definition>
+        <argsstring>(const cpp_int &amp;value, const int64_t &amp;exp)</argsstring>
+        <name>PowHighPrec</name>
+        <qualifiedname>PrimeNumbers::PowHighPrec</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const int64_t &amp;</type>
+          <declname>exp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="70" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp" bodystart="119" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>PrimeNumbers</label>
+        <link refid="df/d94/class_prime_numbers"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" line="24" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/PrimeNumbers.hpp" bodystart="25" bodyend="85"/>
+    <listofallmembers>
+      <member refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>cpp_int</name></member>
+      <member refid="df/d94/class_prime_numbers_1a8c1a484ca3977c90868c9c9f225ebf5f" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>GenerateSafePrime</name></member>
+      <member refid="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>GetGeneratorFromPrime</name></member>
+      <member refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>GetRandomNumber</name></member>
+      <member refid="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>ModInverseEuclideanDivision</name></member>
+      <member refid="df/d94/class_prime_numbers_1a928ee8bd1e7ec4b10cdbb266bea6bb8f" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>PowHighPrec</name></member>
+      <member refid="df/d94/class_prime_numbers_1a69934db626b1741f2ccd003cefcecc49" prot="public" virt="non-virtual"><scope>PrimeNumbers</scope><name>SqrtMod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -10,12 +10,104 @@
     <includes refid="dc/d31/_migration_manager_8hpp" local="yes">account/MigrationManager.hpp</includes>
     <includes refid="dd/d70/_transfer_transaction_8hpp" local="yes">account/TransferTransaction.hpp</includes>
     <incdepgraph>
+      <node id="104">
+        <label>ProofSystem/ECDSAPublicKey.hpp</label>
+        <link refid="d8/ddd/_e_c_d_s_a_public_key_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
       <node id="96">
-        <label>account/EscrowReleaseTransaction.hpp</label>
-        <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
+        <label>ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
         <childnode refid="97" relation="include">
         </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
         <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>ProofSystem/ElGamalKeyGenerator.hpp</label>
+        <link refid="df/d7b/_el_gamal_key_generator_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>ProofSystem/EthereumKeyGenerator.hpp</label>
+        <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>ProofSystem/EthereumKeyPairParams.hpp</label>
+        <link refid="dc/d35/_ethereum_key_pair_params_8hpp"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>ProofSystem/PrimeNumbers.hpp</label>
+        <link refid="d0/d90/_prime_numbers_8hpp"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>ProofSystem/ext_private_key.hpp</label>
+        <link refid="df/d62/ext__private__key_8hpp"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>account/EscrowReleaseTransaction.hpp</label>
+        <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
         </childnode>
       </node>
       <node id="83">
@@ -47,11 +139,11 @@
         </childnode>
         <childnode refid="86" relation="include">
         </childnode>
-        <childnode refid="87" relation="include">
+        <childnode refid="93" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
-        <childnode refid="92" relation="include">
+        <childnode refid="110" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -59,31 +151,31 @@
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
+        <childnode refid="111" relation="include">
         </childnode>
       </node>
-      <node id="110">
+      <node id="127">
         <label>GeniusUTXO.hpp</label>
         <link refid="d6/d74/_genius_u_t_x_o_8hpp"/>
-        <childnode refid="102" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
       </node>
-      <node id="97">
+      <node id="115">
         <label>account/IGeniusTransactions.hpp</label>
         <link refid="db/d3c/_i_genius_transactions_8hpp"/>
-        <childnode refid="98" relation="include">
+        <childnode refid="87" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="116" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
         <childnode refid="83" relation="include">
         </childnode>
@@ -103,21 +195,21 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="96" relation="include">
+        <childnode refid="114" relation="include">
         </childnode>
         <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="107" relation="include">
+        <childnode refid="124" relation="include">
         </childnode>
-        <childnode refid="108" relation="include">
+        <childnode refid="125" relation="include">
         </childnode>
-        <childnode refid="115" relation="include">
+        <childnode refid="132" relation="include">
         </childnode>
-        <childnode refid="119" relation="include">
+        <childnode refid="136" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -140,12 +232,12 @@
         <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="115">
+      <node id="132">
         <label>account/MigrationManager.hpp</label>
         <link refid="dc/d31/_migration_manager_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="111" relation="include">
+        <childnode refid="128" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -161,59 +253,59 @@
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="116" relation="include">
+        <childnode refid="133" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="117" relation="include">
+        <childnode refid="134" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="118" relation="include">
+        <childnode refid="135" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="107">
+      <node id="124">
         <label>account/MintTransaction.hpp</label>
         <link refid="d2/d0f/_mint_transaction_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
       </node>
-      <node id="88">
+      <node id="107">
         <label>account/TokenID.hpp</label>
         <link refid="df/d5f/_token_i_d_8hpp"/>
         <childnode refid="84" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
+        <childnode refid="108" relation="include">
         </childnode>
-        <childnode refid="90" relation="include">
+        <childnode refid="109" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="91" relation="include">
+        <childnode refid="106" relation="include">
         </childnode>
       </node>
-      <node id="108">
+      <node id="125">
         <label>account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
-        <childnode refid="109" relation="include">
+        <childnode refid="126" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="111" relation="include">
+        <childnode refid="128" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -223,15 +315,15 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="116" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
         <childnode refid="83" relation="include">
         </childnode>
@@ -239,31 +331,31 @@
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="112" relation="include">
+        <childnode refid="129" relation="include">
         </childnode>
-        <childnode refid="113" relation="include">
+        <childnode refid="130" relation="include">
         </childnode>
-        <childnode refid="114" relation="include">
+        <childnode refid="131" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="119">
+      <node id="136">
         <label>account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
-        <childnode refid="97" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="118" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
       </node>
-      <node id="109">
+      <node id="126">
         <label>UTXOManager.hpp</label>
         <link refid="d1/dac/_u_t_x_o_manager_8hpp"/>
-        <childnode refid="110" relation="include">
+        <childnode refid="127" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="118" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
@@ -274,26 +366,26 @@
         <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="101">
+      <node id="118">
         <label>account/UTXOStructs.hpp</label>
         <link refid="d1/dd1/_u_t_x_o_structs_8hpp"/>
-        <childnode refid="102" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
-        <childnode refid="88" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
       </node>
-      <node id="102">
+      <node id="119">
         <label>base/blob.hpp</label>
         <link refid="d4/d16/blob_8hpp"/>
-        <childnode refid="103" relation="include">
+        <childnode refid="120" relation="include">
         </childnode>
         <childnode refid="84" relation="include">
         </childnode>
-        <childnode refid="104" relation="include">
+        <childnode refid="121" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
+        <childnode refid="122" relation="include">
         </childnode>
-        <childnode refid="106" relation="include">
+        <childnode refid="123" relation="include">
         </childnode>
       </node>
       <node id="30">
@@ -312,7 +404,7 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="105">
+      <node id="122">
         <label>base/hexutil.hpp</label>
         <link refid="df/d28/hexutil_8hpp"/>
         <childnode refid="31" relation="include">
@@ -332,7 +424,7 @@
         <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="95">
+      <node id="113">
         <label>base/sgns_version.hpp</label>
         <link refid="de/d68/sgns__version_8hpp"/>
         <childnode refid="15" relation="include">
@@ -369,13 +461,13 @@
         </childnode>
         <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="112" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="77" relation="include">
         </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="113" relation="include">
         </childnode>
       </node>
       <node id="29">
@@ -640,15 +732,15 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="112">
+      <node id="129">
         <label>crypto/hasher.hpp</label>
         <link refid="da/d6b/hasher_8hpp"/>
-        <childnode refid="102" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
         <childnode refid="66" relation="include">
         </childnode>
       </node>
-      <node id="92">
+      <node id="110">
         <label>local_secure_storage/ISecureStorage.hpp</label>
         <link refid="dd/d1a/_i_secure_storage_8hpp"/>
         <childnode refid="3" relation="include">
@@ -760,16 +852,10 @@
         <childnode refid="57" relation="include">
         </childnode>
       </node>
-      <node id="86">
-        <label>ProofSystem/ElGamalKeyGenerator.hpp</label>
-      </node>
-      <node id="87">
-        <label>ProofSystem/EthereumKeyGenerator.hpp</label>
-      </node>
-      <node id="100">
+      <node id="117">
         <label>account/proto/SGTransaction.pb.h</label>
       </node>
-      <node id="91">
+      <node id="106">
         <label>algorithm</label>
       </node>
       <node id="84">
@@ -778,7 +864,7 @@
       <node id="5">
         <label>atomic</label>
       </node>
-      <node id="94">
+      <node id="112">
         <label>blockchain/impl/proto/SGBlockchain.pb.h</label>
       </node>
       <node id="20">
@@ -790,16 +876,16 @@
       <node id="32">
         <label>boost/container_hash/hash.hpp</label>
       </node>
-      <node id="93">
+      <node id="111">
         <label>boost/filesystem/operations.hpp</label>
       </node>
       <node id="21">
         <label>boost/filesystem/path.hpp</label>
       </node>
-      <node id="99">
+      <node id="116">
         <label>boost/format.hpp</label>
       </node>
-      <node id="104">
+      <node id="121">
         <label>boost/functional/hash.hpp</label>
       </node>
       <node id="85">
@@ -820,16 +906,19 @@
       <node id="36">
         <label>crdt/proto/delta.pb.h</label>
       </node>
-      <node id="103">
+      <node id="120">
         <label>cstddef</label>
       </node>
       <node id="15">
         <label>cstdint</label>
       </node>
-      <node id="89">
+      <node id="108">
         <label>cstring</label>
       </node>
-      <node id="111">
+      <node id="89">
+        <label>ctime</label>
+      </node>
+      <node id="128">
         <label>deque</label>
       </node>
       <node id="13">
@@ -841,10 +930,10 @@
       <node id="34">
         <label>gsl/span</label>
       </node>
-      <node id="90">
+      <node id="109">
         <label>iomanip</label>
       </node>
-      <node id="106">
+      <node id="123">
         <label>iostream</label>
       </node>
       <node id="22">
@@ -856,7 +945,7 @@
       <node id="80">
         <label>ipfs_lite/ipfs/graphsync/impl/merkledag_bridge_impl.hpp</label>
       </node>
-      <node id="117">
+      <node id="134">
         <label>ipfs_lite/ipfs/graphsync/impl/network/network.hpp</label>
       </node>
       <node id="81">
@@ -883,7 +972,7 @@
       <node id="25">
         <label>libp2p/protocol/autonat/autonat.hpp</label>
       </node>
-      <node id="118">
+      <node id="135">
         <label>libp2p/protocol/common/asio/asio_scheduler.hpp</label>
       </node>
       <node id="26">
@@ -904,16 +993,46 @@
       <node id="50">
         <label>mutex</label>
       </node>
+      <node id="98">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="95">
+        <label>nil/crypto3/hash/keccak.hpp</label>
+      </node>
+      <node id="100">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="90">
+        <label>nil/crypto3/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="92">
+        <label>nil/crypto3/multiprecision/cpp_int/literals.hpp</label>
+      </node>
+      <node id="91">
+        <label>nil/crypto3/multiprecision/miller_rabin.hpp</label>
+      </node>
+      <node id="101">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="97">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="99">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="102">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
       <node id="16">
         <label>optional</label>
       </node>
       <node id="37">
         <label>primitives/cid/cid.hpp</label>
       </node>
-      <node id="114">
+      <node id="131">
         <label>processing/proto/SGProcessing.pb.h</label>
       </node>
-      <node id="113">
+      <node id="130">
         <label>proof/proto/SGProof.pb.h</label>
       </node>
       <node id="42">
@@ -967,10 +1086,10 @@
       <node id="19">
         <label>unordered_set</label>
       </node>
-      <node id="116">
+      <node id="133">
         <label>upnp.hpp</label>
       </node>
-      <node id="98">
+      <node id="87">
         <label>utility</label>
       </node>
       <node id="14">
@@ -1468,6 +1587,6 @@
 <codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="486"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/account/Migration3_4_0To3_5_0.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp"/>
   </compounddef>
 </doxygen>

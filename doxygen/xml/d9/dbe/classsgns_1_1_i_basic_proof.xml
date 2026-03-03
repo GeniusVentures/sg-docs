@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="52" column="9" bodyfile="src/proof/IBasicProof.hpp" bodystart="53" bodyend="62"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="52" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="53" bodyend="62"/>
       </memberdef>
       <memberdef kind="typedef" id="d9/dbe/classsgns_1_1_i_basic_proof_1a74208ca07598e6fd7fa8b567a7004bfb" prot="public" static="no">
         <type>std::function&lt; outcome::result&lt; std::pair&lt; boost::json::array, boost::json::array &gt; &gt;(const std::vector&lt; uint8_t &gt; &amp;)&gt;</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="34" column="9" bodyfile="src/proof/IBasicProof.hpp" bodystart="34" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="34" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="133" column="32" bodyfile="src/proof/IBasicProof.hpp" bodystart="133" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="133" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" prot="protected" static="yes" mutable="no">
         <type>std::map&lt; std::string, std::string &gt;</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="138" column="32" bodyfile="src/proof/IBasicProof.hpp" bodystart="138" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="138" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="138" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="176" column="27" bodyfile="src/proof/IBasicProof.hpp" bodystart="176" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="176" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="176" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="41" column="18" bodyfile="src/proof/IBasicProof.cpp" bodystart="40" bodyend="40"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="41" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a8bb0d3203b7e374206db6afc13ed76fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="46" column="17"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="46" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a9e7a9d418eb6307f74e75a0414961a5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::string</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="68" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="68" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a055e700cab818d5169dee923883a38d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="74" column="25" bodyfile="src/proof/IBasicProof.cpp" bodystart="76" bodyend="82"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="74" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="76" bodyend="82"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="81" column="32" bodyfile="src/proof/IBasicProof.cpp" bodystart="95" bodyend="119"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="81" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="95" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1aa3cc564f0b0ad375af044855b4265e3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="89" column="32" bodyfile="src/proof/IBasicProof.cpp" bodystart="121" bodyend="141"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="89" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="121" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a2ded047a5404745a7328ee66df5761fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>boost::json::object</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="99" column="36" bodyfile="src/proof/IBasicProof.cpp" bodystart="143" bodyend="149"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="99" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="143" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a4250adf5b42e430017cba0973a86c877" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="107" column="36" bodyfile="src/proof/IBasicProof.hpp" bodystart="107" bodyend="120"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="107" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="107" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a369e6638a2c0247e80e67af5ea2b4b55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>boost::json::object</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="127" column="36" bodyfile="src/proof/IBasicProof.cpp" bodystart="151" bodyend="157"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="127" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="151" bodyend="157"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-func">
@@ -463,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="145" column="21" bodyfile="src/proof/IBasicProof.hpp" bodystart="145" bodyend="148"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="145" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="145" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a8760ff952add694d3862deaa3891e3b7" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="155" column="21" bodyfile="src/proof/IBasicProof.hpp" bodystart="155" bodyend="158"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="155" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="155" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a9221a9e975019db2217f75fbe514ad3f" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; SGProof::BaseProofProto &gt;</type>
@@ -535,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="165" column="32" bodyfile="src/proof/IBasicProof.cpp" bodystart="42" bodyend="50"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="165" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="42" bodyend="50"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -571,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="172" column="33"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="172" column="33"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -591,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="182" column="25" bodyfile="src/proof/IBasicProof.cpp" bodystart="52" bodyend="74"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="182" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="52" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="d9/dbe/classsgns_1_1_i_basic_proof_1a8d7ebf750ea2dd2cc29af2cc71a8f636" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::pair&lt; boost::json::array, boost::json::array &gt;</type>
@@ -612,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.hpp" line="188" column="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="188" column="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -702,7 +702,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/proof/IBasicProof.hpp" line="28" column="5" bodyfile="src/proof/IBasicProof.hpp" bodystart="29" bodyend="189"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.hpp" bodystart="29" bodyend="189"/>
     <listofallmembers>
       <member refid="d9/dbe/classsgns_1_1_i_basic_proof_1a0762b077de0f8d7b2bb7a4322bf9f4c2" prot="private" virt="non-virtual"><scope>sgns::IBasicProof</scope><name>bytecode_payload_</name></member>
       <member refid="d9/dbe/classsgns_1_1_i_basic_proof_1ae7a308a7ec04d4c12725e327d0d0d3a1" prot="protected" virt="non-virtual"><scope>sgns::IBasicProof</scope><name>ByteCodeMap</name></member>

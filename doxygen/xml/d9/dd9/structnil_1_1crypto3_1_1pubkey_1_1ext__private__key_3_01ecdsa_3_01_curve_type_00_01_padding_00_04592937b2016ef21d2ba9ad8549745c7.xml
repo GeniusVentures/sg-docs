@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7" kind="struct" language="C++" prot="public">
+    <compoundname>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt;</basecompoundref>
+    <includes refid="df/d62/ext__private__key_8hpp" local="no">ext_private_key.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CurveType</type>
+      </param>
+      <param>
+        <type>typename Padding</type>
+      </param>
+      <param>
+        <type>typename GeneratorType</type>
+      </param>
+      <param>
+        <type>typename DistributionType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7_1af0d841a7d725221db3d97eaacf365bb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>public_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt;</type>
+        <definition>public_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt; nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;::operator*</definition>
+        <argsstring>(const public_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt; &amp;lhs) const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;::operator*</qualifiedname>
+        <param>
+          <type>const public_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt; &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <briefdescription>
+<para>Multiplication overload to derive public key from private key multiplication. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public key to be multiplied by own private key data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>New public key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ext_private_key.hpp" line="46" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ext_private_key.hpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Extended private key class with deterministic generator and operator modifications. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="1">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</label>
+        <link refid="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="1">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</label>
+        <link refid="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ext_private_key.hpp" line="30" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ext_private_key.hpp" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7_1af0d841a7d725221db3d97eaacf365bb2" prot="public" virt="non-virtual"><scope>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</scope><name>operator*</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

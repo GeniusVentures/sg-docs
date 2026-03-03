@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kind="struct" language="C++" prot="public">
+    <compoundname>KeyGenerator::ElGamal::Params</compoundname>
+    <includes refid="df/d7b/_el_gamal_key_generator_8hpp" local="no">ElGamalKeyGenerator.hpp</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int KeyGenerator::ElGamal::Params::prime_number</definition>
+        <argsstring></argsstring>
+        <name>prime_number</name>
+        <qualifiedname>KeyGenerator::ElGamal::Params::prime_number</qualifiedname>
+        <briefdescription>
+<para>The safe prime number used by El Gamal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="51" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a670e9569717076e36e72ea517deb6c59" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int KeyGenerator::ElGamal::Params::generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <qualifiedname>KeyGenerator::ElGamal::Params::generator</qualifiedname>
+        <briefdescription>
+<para>The generator used by El Gamal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="52" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a011ec9708596add17ae2e553b4487144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KeyGenerator::ElGamal::Params::Params</definition>
+        <argsstring>(cpp_int prime, cpp_int gen)</argsstring>
+        <name>Params</name>
+        <qualifiedname>KeyGenerator::ElGamal::Params::Params</qualifiedname>
+        <param>
+          <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+          <declname>prime</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new <ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">Params</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">prime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prime number value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">gen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>generator value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="48" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Prime and generator parameter struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>KeyGenerator::ElGamal::Params</label>
+        <link refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="40" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="41" bodyend="53"/>
+    <listofallmembers>
+      <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a670e9569717076e36e72ea517deb6c59" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal::Params</scope><name>generator</name></member>
+      <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a011ec9708596add17ae2e553b4487144" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal::Params</scope><name>Params</name></member>
+      <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal::Params</scope><name>prime_number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

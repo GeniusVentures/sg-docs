@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="34" column="9" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="34" bodyend="38"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="34" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="34" bodyend="38"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="98" column="21" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="98" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="98" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1ab13fb0560b56e9f908d815b8b910f3f5" prot="public" static="no" mutable="no">
         <type>std::vector&lt; size_t &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="99" column="21" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="99" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="99" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="99" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="102" column="25" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="102" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="102" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1ad21f3f1e1514da734f533087a3556ece" prot="private" static="no" mutable="no">
         <type><ref refid="d9/dd1/classsgns_1_1_token_i_d" kindref="compound">TokenID</ref></type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="103" column="46" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="103" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="103" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a1ddbb51d7e368abdabd3a5a72dab3219" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="107" column="16" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="107" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="107" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a0840b12a9848839e163176c5e47c7f52" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="109" column="20" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="109" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="109" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a6ecc82be315e2c8fac504e339b827158" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -139,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="110" column="16" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="110" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="110" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a52ef78555f4a67ab3bf2ed5744005ed4" prot="private" static="no" mutable="yes">
-        <type>std::shared_ptr&lt; sgprocessing::ProcessingManager &gt;</type>
+        <type>std::shared_ptr&lt; <ref refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager" kindref="compound">sgprocessing::ProcessingManager</ref> &gt;</type>
         <definition>std::shared_ptr&lt;sgprocessing::ProcessingManager&gt; sgns::processing::ProcessingCoreImpl::m_currentProcessingManager</definition>
         <argsstring></argsstring>
         <name>m_currentProcessingManager</name>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="112" column="33" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="112" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="112" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1aa0ed173aadedb7e9c0a0ddf69052653f" prot="private" static="no" mutable="no">
         <type>std::map&lt; std::string, std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt; &gt;</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="114" column="18" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="114" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="114" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="114" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="39" column="9" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="39" bodyend="48"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="39" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="39" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1aa4e358292bb5a35f6e05a02df3ce7af7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="50" column="9" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="50" bodyend="52"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="50" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="50" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a293e19831d83a48f7a0e925dbd314b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; SGProcessing::SubTaskResult &gt;</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="57" column="25" bodyfile="src/processing/impl/processing_core_impl.cpp" bodystart="26" bodyend="92"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="57" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp" bodystart="26" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1a27671957875c16121a8d96201b446c45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>float</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/impl/processing_core_impl.hpp" line="95" column="15" bodyfile="src/processing/impl/processing_core_impl.cpp" bodystart="94" bodyend="100"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="95" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp" bodystart="94" bodyend="100"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -672,8 +672,34 @@
         <childnode refid="123" relation="usage">
           <edgelabel>-m_currentProcessingManager</edgelabel>
         </childnode>
-        <childnode refid="124" relation="usage">
+        <childnode refid="130" relation="usage">
           <edgelabel>-cidData_</edgelabel>
+        </childnode>
+      </node>
+      <node id="124">
+        <label>sgns::sgprocessing::ProcessingManager</label>
+        <link refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>-m_logger</edgelabel>
+        </childnode>
+        <childnode refid="125" relation="usage">
+          <edgelabel>-m_processor</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>-m_processorFactories</edgelabel>
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>-m_inputMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="126">
+        <label>sgns::sgprocessing::ProcessingProcessor</label>
+        <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
+        <childnode refid="127" relation="usage">
+          <edgelabel>#m_progress</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>#m_logger</edgelabel>
         </childnode>
       </node>
       <node id="72">
@@ -835,6 +861,12 @@
           <edgelabel>&lt; bool &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="127">
+        <label>std::atomic&lt; float &gt;</label>
+        <childnode refid="52" relation="template-instance">
+          <edgelabel>&lt; float &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="12">
         <label>std::basic_string&lt; Char &gt;</label>
       </node>
@@ -958,12 +990,12 @@
           <edgelabel>&lt; std::pair&lt; Multihash, CID &gt;, uint64_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="124">
+      <node id="130">
         <label>std::map&lt; std::string, std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt; &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="125" relation="usage">
+        <childnode refid="131" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="32" relation="template-instance">
@@ -1012,9 +1044,9 @@
           <edgelabel>&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="126">
+      <node id="132">
         <label>std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt;</label>
-        <childnode refid="127" relation="usage">
+        <childnode refid="133" relation="usage">
           <edgelabel>+first_type</edgelabel>
           <edgelabel>+second_type</edgelabel>
         </childnode>
@@ -1217,6 +1249,15 @@
           <edgelabel>&lt; sgns::ipfs_pubsub::GossipPubSub &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="123">
+        <label>std::shared_ptr&lt; sgns::sgprocessing::ProcessingManager &gt;</label>
+        <childnode refid="124" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="template-instance">
+          <edgelabel>&lt; sgns::sgprocessing::ProcessingManager &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="57">
         <label>std::shared_ptr&lt; sgns::storage::rocksdb &gt;</label>
         <childnode refid="58" relation="usage">
@@ -1226,30 +1267,24 @@
           <edgelabel>&lt; sgns::storage::rocksdb &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="123">
-        <label>std::shared_ptr&lt; sgprocessing::ProcessingManager &gt;</label>
-        <childnode refid="10" relation="template-instance">
-          <edgelabel>&lt; sgprocessing::ProcessingManager &gt;</edgelabel>
-        </childnode>
-      </node>
       <node id="30">
         <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
         <childnode refid="10" relation="template-instance">
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="125">
+      <node id="131">
         <label>std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt;</label>
-        <childnode refid="126" relation="usage">
+        <childnode refid="132" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="10" relation="template-instance">
           <edgelabel>&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="127">
+      <node id="133">
         <label>std::shared_ptr&lt; std::vector&lt; char &gt; &gt;</label>
-        <childnode refid="128" relation="usage">
+        <childnode refid="134" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="10" relation="template-instance">
@@ -1281,6 +1316,15 @@
           <edgelabel>&lt; sgns::crdt::CrdtDatastore::DagWorker &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="125">
+        <label>std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;</label>
+        <childnode refid="126" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="102" relation="template-instance">
+          <edgelabel>&lt; sgns::sgprocessing::ProcessingProcessor &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="96">
         <label>std::unordered_map&lt; K, T &gt;</label>
         <childnode refid="20" relation="usage">
@@ -1288,6 +1332,12 @@
         </childnode>
         <childnode refid="5" relation="usage">
           <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="128">
+        <label>std::unordered_map&lt; int, std::function&lt; std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;()&gt; &gt;</label>
+        <childnode refid="96" relation="template-instance">
+          <edgelabel>&lt; int, std::function&lt; std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;()&gt; &gt;</edgelabel>
         </childnode>
       </node>
       <node id="116">
@@ -1306,6 +1356,15 @@
         <label>std::unordered_map&lt; std::string, NewDataCallback &gt;</label>
         <childnode refid="96" relation="template-instance">
           <edgelabel>&lt; std::string, NewDataCallback &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="129">
+        <label>std::unordered_map&lt; std::string, size_t &gt;</label>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+keys</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="template-instance">
+          <edgelabel>&lt; std::string, size_t &gt;</edgelabel>
         </childnode>
       </node>
       <node id="94">
@@ -1356,7 +1415,7 @@
           <edgelabel>&lt; PeerEntry &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="128">
+      <node id="134">
         <label>std::vector&lt; char &gt;</label>
         <childnode refid="4" relation="template-instance">
           <edgelabel>&lt; char &gt;</edgelabel>
@@ -1393,7 +1452,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/processing/impl/processing_core_impl.hpp" line="30" column="5" bodyfile="src/processing/impl/processing_core_impl.hpp" bodystart="31" bodyend="116"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp" bodystart="31" bodyend="116"/>
     <listofallmembers>
       <member refid="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1aa0ed173aadedb7e9c0a0ddf69052653f" prot="private" virt="non-virtual"><scope>sgns::processing::ProcessingCoreImpl</scope><name>cidData_</name></member>
       <member refid="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl_1ac16fc1f8e5d03f5312821cd6e6f45eaf" prot="public" virt="non-virtual"><scope>sgns::processing::ProcessingCoreImpl</scope><name>Error</name></member>

@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dc/dc0/classethereum_1_1_ethereum_key_generator" kind="class" language="C++" prot="public">
+    <compoundname>ethereum::EthereumKeyGenerator</compoundname>
+    <includes refid="d9/dd7/_ethereum_key_generator_8hpp" local="no">EthereumKeyGenerator.hpp</includes>
+    <innerclass refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" prot="private">ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" prot="public" static="no">
+        <type>std::pair&lt; std::vector&lt; std::uint8_t &gt;, std::vector&lt; std::uint8_t &gt; &gt;</type>
+        <definition>using ethereum::EthereumKeyGenerator::PubKeyPair_t = std::pair&lt;std::vector&lt;std::uint8_t&gt;, std::vector&lt;std::uint8_t&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>PubKeyPair_t</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::PubKeyPair_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="27" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" prot="private" static="yes" mutable="no">
+        <type><ref refid="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" kindref="member">ethereum::random_generator_type</ref></type>
+        <definition>random_generator_type ethereum::EthereumKeyGenerator::key_gen</definition>
+        <argsstring></argsstring>
+        <name>key_gen</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::key_gen</qualifiedname>
+        <briefdescription>
+<para>Ethereum random key generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="105" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view ethereum::EthereumKeyGenerator::ADDRESS_HEADER</definition>
+        <argsstring></argsstring>
+        <name>ADDRESS_HEADER</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::ADDRESS_HEADER</qualifiedname>
+        <initializer>= &quot;0x&quot;</initializer>
+        <briefdescription>
+<para>Ethereum address header. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="130" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t ethereum::EthereumKeyGenerator::KECCAK_RES_VALID_POS</definition>
+        <argsstring></argsstring>
+        <name>KECCAK_RES_VALID_POS</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::KECCAK_RES_VALID_POS</qualifiedname>
+        <initializer>= 24</initializer>
+        <briefdescription>
+<para>Start position for address derivation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="131" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t ethereum::EthereumKeyGenerator::ADDRESS_VALID_POS</definition>
+        <argsstring></argsstring>
+        <name>ADDRESS_VALID_POS</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::ADDRESS_VALID_POS</qualifiedname>
+        <initializer>= <ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref> - 2</initializer>
+        <briefdescription>
+<para>Start position of the address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="132" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t ethereum::EthereumKeyGenerator::ADDRESS_SIZE_CHARS</definition>
+        <argsstring></argsstring>
+        <name>ADDRESS_SIZE_CHARS</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::ADDRESS_SIZE_CHARS</qualifiedname>
+        <initializer>= 42</initializer>
+        <briefdescription>
+<para>Size of the address in characters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="133" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;pubkey::ext_private_key&lt;ethereum::policy_type&gt; &gt; ethereum::EthereumKeyGenerator::privkey</definition>
+        <argsstring></argsstring>
+        <name>privkey</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::privkey</qualifiedname>
+        <briefdescription>
+<para>Private key pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="107" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;pubkey::public_key&lt;ethereum::policy_type&gt; &gt; ethereum::EthereumKeyGenerator::pubkey</definition>
+        <argsstring></argsstring>
+        <name>pubkey</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::pubkey</qualifiedname>
+        <briefdescription>
+<para>Public key pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="108" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" kindref="compound">EthereumECDSAPublicKey</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;EthereumECDSAPublicKey&gt; ethereum::EthereumKeyGenerator::pubkey_info</definition>
+        <argsstring></argsstring>
+        <name>pubkey_info</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::pubkey_info</qualifiedname>
+        <briefdescription>
+<para>Instance of public key information class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="127" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ethereum::EthereumKeyGenerator::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::address</qualifiedname>
+        <briefdescription>
+<para>Ethereum address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="128" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>EthereumKeyGenerator</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</qualifiedname>
+        <briefdescription>
+<para>Construct a new Ethereum Key Generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="31" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a77ac39f7867ed2f6d4a90d7cfcd197fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</definition>
+        <argsstring>(std::string_view private_key)</argsstring>
+        <name>EthereumKeyGenerator</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>private_key</declname>
+        </param>
+        <briefdescription>
+<para>Import a private key and construct a new Ethereum Key Generator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">private_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Private key in string form </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="36" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="26" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1af261a9f26fa2e848d8e873fac9787c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</definition>
+        <argsstring>(const ethereum::scalar_field_value_type &amp;private_key)</argsstring>
+        <name>EthereumKeyGenerator</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::EthereumKeyGenerator</qualifiedname>
+        <param>
+          <type>const <ref refid="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" kindref="member">ethereum::scalar_field_value_type</ref> &amp;</type>
+          <declname>private_key</declname>
+        </param>
+        <briefdescription>
+<para>Import a private key and construct a new Ethereum Key Generator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">private_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Private key in string form </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="41" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
+        <definition>pubkey::ext_private_key&lt; ethereum::policy_type &gt; ethereum::EthereumKeyGenerator::get_private_key</definition>
+        <argsstring>() const</argsstring>
+        <name>get_private_key</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::get_private_key</qualifiedname>
+        <briefdescription>
+<para>Getter for private key (be careful with security implications). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to the private key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="46" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
+        <definition>pubkey::public_key&lt; ethereum::policy_type &gt; ethereum::EthereumKeyGenerator::get_public_key</definition>
+        <argsstring>() const</argsstring>
+        <name>get_public_key</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::get_public_key</qualifiedname>
+        <briefdescription>
+<para>Getter for public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to the public key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="54" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; ethereum::EthereumKeyGenerator::get_address</definition>
+        <argsstring>() const</argsstring>
+        <name>get_address</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::get_address</qualifiedname>
+        <briefdescription>
+<para>Getter for the Ethereum address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ethereum address </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="62" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; ethereum::EthereumKeyGenerator::GetUsedPubKeyValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsedPubKeyValue</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::GetUsedPubKeyValue</qualifiedname>
+        <briefdescription>
+<para>Get the single public key value used by ethereum addressing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The concatenated X and Y coordinates in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="70" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ethereum::EthereumKeyGenerator::GetEntirePubValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEntirePubValue</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::GetEntirePubValue</qualifiedname>
+        <briefdescription>
+<para>Get all key value of the public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The concatenated X+Y key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="78" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T ethereum::EthereumKeyGenerator::ExtractPubKeyFromField</definition>
+        <argsstring>(const pubkey::public_key&lt; ethereum::policy_type &gt; &amp;pub_key)</argsstring>
+        <name>ExtractPubKeyFromField</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::ExtractPubKeyFromField</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+<para>Extract the key vector data from the ECDSA public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pub_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Public ECDSA key </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Key data (X + Y) of the public key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="88" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ethereum::EthereumKeyGenerator::DeriveAddress</definition>
+        <argsstring>(const std::vector&lt; std::uint8_t &gt; &amp;pub_key_vect)</argsstring>
+        <name>DeriveAddress</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::DeriveAddress</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::uint8_t &gt; &amp;</type>
+          <declname>pub_key_vect</declname>
+        </param>
+        <briefdescription>
+<para>Derive the ethereum address from de XY concatenated coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pub_key_vect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The concatenated vector representation of both X and Y coordinates </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Ethereum address in string form </para>
+</simplesect>
+<simplesect kind="warning"><para>The LSB is the 0 index and the MSB is the 63th. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="95" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="88" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt; pubkey::ext_private_key&lt; policy_type &gt; &gt; ethereum::EthereumKeyGenerator::CreateKeys</definition>
+        <argsstring>()</argsstring>
+        <name>CreateKeys</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::CreateKeys</qualifiedname>
+        <briefdescription>
+<para>Create the ECDSA key pair. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Private key pointer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="100" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pubkey::public_key&lt; <ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">ethereum::policy_type</ref> &gt;</type>
+        <definition>pubkey::public_key&lt; ethereum::policy_type &gt; ethereum::EthereumKeyGenerator::BuildPublicKey</definition>
+        <argsstring>(const std::string &amp;pubkey_data)</argsstring>
+        <name>BuildPublicKey</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::BuildPublicKey</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>pubkey_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="102" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="122" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ethereum::EthereumKeyGenerator::DeriveAddress</definition>
+        <argsstring>()</argsstring>
+        <name>DeriveAddress</name>
+        <qualifiedname>ethereum::EthereumKeyGenerator::DeriveAddress</qualifiedname>
+        <briefdescription>
+<para>Derive the Ethereum address from own key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ethereum address in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="138" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="113" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Creates a pair of ECDSA keys and a ethereum address. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>T</label>
+      </node>
+      <node id="1">
+        <label>ethereum::EthereumKeyGenerator</label>
+        <link refid="dc/dc0/classethereum_1_1_ethereum_key_generator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-privkey</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-pubkey</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-pubkey_info</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-address</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>-ADDRESS_HEADER</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="3">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; ethereum::policy_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="16">
+        <label>std::basic_string_view&lt; Char &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</label>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::shared_ptr&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::string</label>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>std::string_view</label>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="14" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/EthereumKeyGenerator.hpp" bodystart="25" bodyend="139"/>
+    <listofallmembers>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>address</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>ADDRESS_HEADER</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>ADDRESS_SIZE_CHARS</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>ADDRESS_VALID_POS</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>BuildPublicKey</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>CreateKeys</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>DeriveAddress</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>DeriveAddress</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>EthereumKeyGenerator</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a77ac39f7867ed2f6d4a90d7cfcd197fd" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>EthereumKeyGenerator</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af261a9f26fa2e848d8e873fac9787c24" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>EthereumKeyGenerator</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>ExtractPubKeyFromField</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>get_address</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>get_private_key</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>get_public_key</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>GetEntirePubValue</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>GetUsedPubKeyValue</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>KECCAK_RES_VALID_POS</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>key_gen</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>privkey</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>pubkey</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" prot="private" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>pubkey_info</name></member>
+      <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" prot="public" virt="non-virtual"><scope>ethereum::EthereumKeyGenerator</scope><name>PubKeyPair_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

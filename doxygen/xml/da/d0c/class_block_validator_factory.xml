@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="da/d0c/class_block_validator_factory" kind="class" language="C++" prot="public">
+    <compoundname>BlockValidatorFactory</compoundname>
+    <includes refid="d2/d92/_block_validator_factory_8hpp" local="no">BlockValidatorFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d0c/class_block_validator_factory_1a4e4030057defc69fea1dee8c64655a61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::verification::BlockValidator &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::verification::BlockValidator &gt; BlockValidatorFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>BlockValidatorFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp" line="20" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp" bodystart="20" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>BlockValidatorFactory</label>
+        <link refid="da/d0c/class_block_validator_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp" line="16" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp" bodystart="17" bodyend="59"/>
+    <listofallmembers>
+      <member refid="da/d0c/class_block_validator_factory_1a4e4030057defc69fea1dee8c64655a61" prot="public" virt="non-virtual"><scope>BlockValidatorFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

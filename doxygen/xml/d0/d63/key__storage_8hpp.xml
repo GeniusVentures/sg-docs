@@ -6,11 +6,13 @@
     <includes refid="d4/d6e/ed25519__types_8hpp" local="yes">crypto/ed25519_types.hpp</includes>
     <includes refid="d2/d9c/sr25519__types_8hpp" local="yes">crypto/sr25519_types.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
-    <includedby refid="d8/d59/local__key__storage_8hpp" local="yes">src/application/impl/local_key_storage.hpp</includedby>
-    <includedby refid="d5/d14/finality__api__dummy_8hpp" local="yes">src/runtime/dummy/finality_api_dummy.hpp</includedby>
+    <includedby refid="dd/d97/_block_storage_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp</includedby>
+    <includedby refid="dd/d13/_own_peer_info_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp</includedby>
+    <includedby refid="d8/d59/local__key__storage_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/local_key_storage.hpp</includedby>
+    <includedby refid="d5/d14/finality__api__dummy_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy/finality_api_dummy.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/application/key_storage.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp</label>
         <link refid="d0/d63/key__storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -124,50 +126,92 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="5">
-        <label>node/app_delegate.cpp</label>
-        <link refid="d5/df0/app__delegate_8cpp"/>
+      <node id="10">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp</label>
+        <link refid="dd/d41/_super_genius_demo_app_8cpp"/>
       </node>
-      <node id="3">
-        <label>src/application/impl/local_key_storage.cpp</label>
-        <link refid="df/d89/local__key__storage_8cpp"/>
+      <node id="9">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp</label>
+        <link refid="d7/d0a/_super_genius_demo_app_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
       <node id="2">
-        <label>src/application/impl/local_key_storage.hpp</label>
-        <link refid="d8/d59/local__key__storage_8hpp"/>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp</label>
+        <link refid="dd/d97/_block_storage_factory_8hpp"/>
         <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="6">
-        <label>src/application/impl/validating_node_application.cpp</label>
-        <link refid="d3/d34/validating__node__application_8cpp"/>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/KeyStorageFactory.hpp</label>
+        <link refid="d9/dfd/_key_storage_factory_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="4">
-        <label>src/application/impl/validating_node_application.hpp</label>
-        <link refid="d6/dce/validating__node__application_8hpp"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp</label>
+        <link refid="dd/d13/_own_peer_info_factory_8hpp"/>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>src/application/key_storage.hpp</label>
-        <link refid="d0/d63/key__storage_8hpp"/>
-        <childnode refid="2" relation="include">
+      <node id="11">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/runner.cpp</label>
+        <link refid="d2/de6/runner_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/app_delegate.cpp</label>
+        <link refid="d5/df0/app__delegate_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/local_key_storage.cpp</label>
+        <link refid="df/d89/local__key__storage_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/local_key_storage.hpp</label>
+        <link refid="d8/d59/local__key__storage_8hpp"/>
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
       <node id="8">
-        <label>src/runtime/dummy/finality_api_dummy.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.hpp</label>
+        <link refid="d6/dce/validating__node__application_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp</label>
+        <link refid="d0/d63/key__storage_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy/finality_api_dummy.cpp</label>
         <link refid="d0/d07/finality__api__dummy_8cpp"/>
       </node>
-      <node id="7">
-        <label>src/runtime/dummy/finality_api_dummy.hpp</label>
+      <node id="13">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy/finality_api_dummy.hpp</label>
         <link refid="d5/d14/finality__api__dummy_8hpp"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -205,6 +249,6 @@
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_APPLICATION_KEY_STORAGE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/application/key_storage.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/key_storage.hpp"/>
   </compounddef>
 </doxygen>

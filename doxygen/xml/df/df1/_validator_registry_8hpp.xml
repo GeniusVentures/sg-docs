@@ -19,9 +19,9 @@
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
     <includes refid="d0/d0e/globaldb_8hpp" local="yes">crdt/globaldb/globaldb.hpp</includes>
     <includes local="yes">primitives/cid/cid.hpp</includes>
-    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">src/account/Migration3_5_1To3_6_0.cpp</includedby>
-    <includedby refid="df/d00/_validator_registry_8cpp" local="yes">src/blockchain/ValidatorRegistry.cpp</includedby>
-    <includedby refid="da/d8c/_blockchain_8cpp" local="yes">src/blockchain/impl/Blockchain.cpp</includedby>
+    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</includedby>
+    <includedby refid="df/d00/_validator_registry_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</includedby>
+    <includedby refid="da/d8c/_blockchain_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</includedby>
     <incdepgraph>
       <node id="11">
         <label>base/buffer.hpp</label>
@@ -48,7 +48,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/blockchain/ValidatorRegistry.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp</label>
         <link refid="df/df1/_validator_registry_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -602,15 +602,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="3">
-        <label>src/blockchain/ValidatorRegistry.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
       <node id="1">
-        <label>src/blockchain/ValidatorRegistry.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp</label>
         <link refid="df/df1/_validator_registry_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -620,7 +620,7 @@
         </childnode>
       </node>
       <node id="4">
-        <label>src/blockchain/impl/Blockchain.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
     </invincdepgraph>
@@ -772,6 +772,6 @@
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
 <codeline lineno="139"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/blockchain/ValidatorRegistry.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.hpp"/>
   </compounddef>
 </doxygen>

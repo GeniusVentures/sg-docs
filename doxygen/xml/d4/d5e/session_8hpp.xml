@@ -9,9 +9,9 @@
     <includes local="no">boost/asio/write.hpp</includes>
     <includes local="no">boost/signals2/signal.hpp</includes>
     <includes refid="d7/db2/rpc__io__context_8hpp" local="yes">api/transport/rpc_io_context.hpp</includes>
-    <includedby refid="df/df4/http__session_8hpp" local="yes">src/api/transport/impl/http/http_session.hpp</includedby>
-    <includedby refid="d4/d57/ws__session_8hpp" local="yes">src/api/transport/impl/ws/ws_session.hpp</includedby>
-    <includedby refid="df/d31/listener_8hpp" local="yes">src/api/transport/listener.hpp</includedby>
+    <includedby refid="df/df4/http__session_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp</includedby>
+    <includedby refid="d4/d57/ws__session_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_session.hpp</includedby>
+    <includedby refid="df/d31/listener_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp</includedby>
     <incdepgraph>
       <node id="8">
         <label>api/transport/rpc_io_context.hpp</label>
@@ -22,7 +22,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/api/transport/session.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/session.hpp</label>
         <link refid="d4/d5e/session_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -71,67 +71,89 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4">
-        <label>src/api/transport/impl/http/http_listener_impl.cpp</label>
-        <link refid="d3/d43/http__listener__impl_8cpp"/>
-      </node>
-      <node id="3">
-        <label>src/api/transport/impl/http/http_listener_impl.hpp</label>
-        <link refid="d0/d4a/http__listener__impl_8hpp"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>src/api/transport/impl/http/http_session.cpp</label>
-        <link refid="d7/db4/http__session_8cpp"/>
-      </node>
-      <node id="2">
-        <label>src/api/transport/impl/http/http_session.hpp</label>
-        <link refid="df/df4/http__session_8hpp"/>
-        <childnode refid="3" relation="include">
-        </childnode>
+      <node id="13">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ApiServiceFactory.hpp</label>
+        <link refid="d4/d95/_api_service_factory_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>src/api/transport/impl/ws/ws_listener_impl.cpp</label>
-        <link refid="db/d20/ws__listener__impl_8cpp"/>
-      </node>
-      <node id="7">
-        <label>src/api/transport/impl/ws/ws_listener_impl.hpp</label>
-        <link refid="dc/d23/ws__listener__impl_8hpp"/>
-        <childnode refid="8" relation="include">
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp</label>
+        <link refid="db/d56/_listener_factory_8hpp"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
+      <node id="6">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp</label>
+        <link refid="d3/d43/http__listener__impl_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp</label>
+        <link refid="d0/d4a/http__listener__impl_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp</label>
+        <link refid="d7/db4/http__session_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp</label>
+        <link refid="df/df4/http__session_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_listener_impl.cpp</label>
+        <link refid="db/d20/ws__listener__impl_8cpp"/>
+      </node>
       <node id="9">
-        <label>src/api/transport/impl/ws/ws_session.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_listener_impl.hpp</label>
+        <link refid="dc/d23/ws__listener__impl_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_session.cpp</label>
         <link refid="d4/d5b/ws__session_8cpp"/>
       </node>
-      <node id="6">
-        <label>src/api/transport/impl/ws/ws_session.hpp</label>
+      <node id="8">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws/ws_session.hpp</label>
         <link refid="d4/d57/ws__session_8hpp"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/listener.hpp</label>
+        <link refid="df/d31/listener_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>src/api/transport/listener.hpp</label>
-        <link refid="df/d31/listener_8hpp"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
       <node id="1">
-        <label>src/api/transport/session.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/session.hpp</label>
         <link refid="d4/d5e/session_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="db/d02/classsgns_1_1api_1_1_session" prot="public">sgns::api::Session</innerclass>
@@ -163,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/api/transport/session.hpp" line="15" column="3" bodyfile="src/api/transport/session.hpp" bodystart="15" bodyend="18"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/session.hpp" line="15" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/session.hpp" bodystart="15" bodyend="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -248,6 +270,6 @@
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_API_TRANSPORT_SESSION_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/api/transport/session.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/session.hpp"/>
   </compounddef>
 </doxygen>

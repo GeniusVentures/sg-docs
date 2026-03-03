@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="64" column="17" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="64" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="64" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d9/df8/structsgns_1_1storage_1_1trie_1_1_super_genius_trie_cursor_1_1_trie_path_entry_1a9ebbc52e6d2ae6520a786e8ec3576c7b" prot="public" static="no" mutable="no">
         <type>int8_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="65" column="14" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="65" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="65" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="65" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="62" column="7" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="62" bodyend="63"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="62" column="7" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="62" bodyend="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -85,7 +85,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="61" column="5" bodyfile="src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="61" bodyend="66"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" line="61" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_trie_cursor.hpp" bodystart="61" bodyend="66"/>
     <listofallmembers>
       <member refid="d9/df8/structsgns_1_1storage_1_1trie_1_1_super_genius_trie_cursor_1_1_trie_path_entry_1a9ebbc52e6d2ae6520a786e8ec3576c7b" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusTrieCursor::TriePathEntry</scope><name>child_idx</name></member>
       <member refid="d9/df8/structsgns_1_1storage_1_1trie_1_1_super_genius_trie_cursor_1_1_trie_path_entry_1a0ff77575a2edd0fb3e3bcd53f3084396" prot="public" virt="non-virtual"><scope>sgns::storage::trie::SuperGeniusTrieCursor::TriePathEntry</scope><name>parent</name></member>

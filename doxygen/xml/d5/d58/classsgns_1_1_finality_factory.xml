@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/d58/classsgns_1_1_finality_factory" kind="class" language="C++" prot="public">
+    <compoundname>sgns::FinalityFactory</compoundname>
+    <includes refid="d7/dea/_finality_factory_8hpp" local="no">FinalityFactory.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d58/classsgns_1_1_finality_factory_1a4369360edec8cc4b5e8b1a41cfd4ca7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; verification::finality::Finality &gt;</type>
+        <definition>std::shared_ptr&lt; verification::finality::Finality &gt; sgns::FinalityFactory::create</definition>
+        <argsstring>(const std::shared_ptr&lt; boost::asio::io_context &gt; io_context)</argsstring>
+        <name>create</name>
+        <qualifiedname>sgns::FinalityFactory::create</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; boost::asio::io_context &gt;</type>
+          <declname>io_context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp" line="25" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp" bodystart="25" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::FinalityFactory</label>
+        <link refid="d5/d58/classsgns_1_1_finality_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/FinalityFactory.hpp" bodystart="23" bodyend="107"/>
+    <listofallmembers>
+      <member refid="d5/d58/classsgns_1_1_finality_factory_1a4369360edec8cc4b5e8b1a41cfd4ca7a" prot="public" virt="non-virtual"><scope>sgns::FinalityFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

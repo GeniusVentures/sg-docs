@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/d72/namespaceutil" kind="namespace" language="C++">
+    <compoundname>util</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d6/d72/namespaceutil_1a74a7f111d6f52d685f220e5245c421bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string util::to_string</definition>
+        <argsstring>(const std::vector&lt; unsigned char &gt; &amp;bytes)</argsstring>
+        <name>to_string</name>
+        <qualifiedname>util::to_string</qualifiedname>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>Convert a byte array to a hexadecimal string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">bytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A vector of bytes to be converted. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A hexadecimal string representation of the bytes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="25" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" bodystart="25" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d72/namespaceutil_1a391660f2f2b3df687216d815a814b999" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool util::isLittleEndian</definition>
+        <argsstring>()</argsstring>
+        <name>isLittleEndian</name>
+        <qualifiedname>util::isLittleEndian</qualifiedname>
+        <briefdescription>
+<para>Checks if the architecture is little endian. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if little endian, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="41" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d72/namespaceutil_1a01779410635417b4c9560020d46e9bbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T util::HexASCII2Num</definition>
+        <argsstring>(const char *p_char, std::size_t num_nibbles_resolution=sizeof(T) *2)</argsstring>
+        <name>HexASCII2Num</name>
+        <qualifiedname>util::HexASCII2Num</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p_char</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>num_nibbles_resolution</declname>
+          <defval>sizeof(T) *2</defval>
+        </param>
+        <briefdescription>
+<para>Converts a hexadecimal ASCII char array into a number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p_char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hexadecimal ASCII char array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">num_nibbles_resolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many nibbles will constitute a number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uint8_t, uint16_t, uint32_t or uint64_t </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The converted number (8-64 bit variable) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="57" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" bodystart="57" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt; T &gt; util::HexASCII2NumStr</definition>
+        <argsstring>(std::string_view string)</argsstring>
+        <name>HexASCII2NumStr</name>
+        <qualifiedname>util::HexASCII2NumStr</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Converts a hexadecimal ASCII char array into a vector of numbers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p_char</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hexadecimal ASCII char array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">char_ptr_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the char array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uint8_t, uint16_t, uint32_t or uint64_t </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The vector of converted numbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="85" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" bodystart="85" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; std::is_same&lt; typenameT::value_type, uint8_t &gt;::value &gt;::type</type>
+        <definition>static std::enable_if&lt; std::is_same&lt; typenameT::value_type, uint8_t &gt;::value &gt;::type util::AdjustEndianess</definition>
+        <argsstring>(T &amp;data, std::optional&lt; typename T::iterator &gt; start=std::nullopt, std::optional&lt; typename T::iterator &gt; finish=std::nullopt)</argsstring>
+        <name>AdjustEndianess</name>
+        <qualifiedname>util::AdjustEndianess</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::optional&lt; typename T::iterator &gt;</type>
+          <declname>start</declname>
+          <defval>std::nullopt</defval>
+        </param>
+        <param>
+          <type>std::optional&lt; typename T::iterator &gt;</type>
+          <declname>finish</declname>
+          <defval>std::nullopt</defval>
+        </param>
+        <briefdescription>
+<para>Adjust endianess if needed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The container of data (vector/array) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional beginning of the valid data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">finish</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional ending of the valid data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>std::vector&lt;uint8_t&gt; or std::array&lt;uint8_t,N&gt; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="116" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" bodystart="116" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/util.hpp" line="18" column="1"/>
+  </compounddef>
+</doxygen>

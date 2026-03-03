@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="39" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="40" bodyend="48"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="39" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="40" bodyend="48"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d74/classsgns_1_1_account_messenger_1a21bd8a1198fb2150ffb514745dfb66e3" prot="public" static="no">
         <type>std::function&lt; bool(const std::string &amp;cid, const std::string &amp;peer_id, const std::string &amp;address)&gt;</type>
@@ -90,7 +90,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="74" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="74" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="74" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d5/d74/classsgns_1_1_account_messenger_1ae5cd35734c88e17b9609aebe704d6265" prot="public" static="no">
         <type>std::function&lt; void(const std::set&lt; std::string &gt; &amp;topics)&gt;</type>
@@ -104,7 +104,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="78" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="78" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="78" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="78" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-type">
@@ -146,7 +146,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="204" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="205" bodyend="210"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="204" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="205" bodyend="210"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -164,7 +164,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="164" column="43" bodyfile="src/account/AccountMessenger.hpp" bodystart="164" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="164" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1af52b7cddf4fff52261a4a933c46b7837" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -180,7 +180,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="166" column="43" bodyfile="src/account/AccountMessenger.hpp" bodystart="166" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="166" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="166" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -197,7 +197,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="168" column="52" bodyfile="src/account/AccountMessenger.hpp" bodystart="168" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="168" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a2a5f46f7bd0096cb7a7af10f059828ac" prot="private" static="no" mutable="no">
         <type>const std::string</type>
@@ -212,7 +212,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="169" column="52" bodyfile="src/account/AccountMessenger.hpp" bodystart="169" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="169" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1aa7d1b177e80a02bcf403706bd42258d3" prot="private" static="no" mutable="no">
         <type>const std::string</type>
@@ -227,7 +227,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="170" column="52" bodyfile="src/account/AccountMessenger.hpp" bodystart="170" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="170" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ad2591f8ffd8185a688d9c246fa971b01" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_pubsub::GossipPubSub &gt;</type>
@@ -242,7 +242,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="171" column="25" bodyfile="src/account/AccountMessenger.hpp" bodystart="171" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="171" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a724f5573ab92a7acb7d3b3d7f5cfb8c0" prot="private" static="no" mutable="no">
         <type>std::shared_future&lt; std::shared_ptr&lt; libp2p::protocol::Subscription &gt; &gt;</type>
@@ -257,7 +257,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="174" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="174" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="174" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ab2c0f63c4e553849dd4642c4410f6325" prot="private" static="no" mutable="no">
         <type>std::shared_future&lt; std::shared_ptr&lt; libp2p::protocol::Subscription &gt; &gt;</type>
@@ -272,7 +272,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="176" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="176" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="176" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a75cf3bd33f63b8460d94e9c8d78067fd" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</type>
@@ -287,7 +287,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="178" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="178" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="178" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a4e38dc726f0439d9d365eae03c20b1ba" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; uint64_t, std::set&lt; std::string &gt; &gt;</type>
@@ -302,7 +302,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="180" column="13" bodyfile="src/account/AccountMessenger.hpp" bodystart="180" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="180" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a6b2742cbdee81fd8f7edb5792c91081f" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</type>
@@ -317,7 +317,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="182" column="20" bodyfile="src/account/AccountMessenger.hpp" bodystart="182" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="182" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a7f44c1d0fadeb8f3830f291630f68c86" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -332,7 +332,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="183" column="20" bodyfile="src/account/AccountMessenger.hpp" bodystart="183" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="183" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ab812ad85da87af6b3891fea96fe9c6ca" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; uint64_t, std::set&lt; std::string &gt; &gt;</type>
@@ -347,7 +347,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="186" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="186" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="186" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a5612c138082a27862bd8af4090721681" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</type>
@@ -362,7 +362,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="188" column="20" bodyfile="src/account/AccountMessenger.hpp" bodystart="188" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="188" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ac8e174b7164338b33aa3264967822565" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -377,7 +377,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="189" column="20" bodyfile="src/account/AccountMessenger.hpp" bodystart="189" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="189" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a8a9f55876d3bfa4a3f059ebc20755b01" prot="private" static="no" mutable="no">
         <type><ref refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods" kindref="compound">InterfaceMethods</ref></type>
@@ -392,7 +392,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="191" column="26" bodyfile="src/account/AccountMessenger.hpp" bodystart="191" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="191" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a8c49d10f4752414a5d6c5b89969caa90" prot="private" static="no" mutable="no">
         <type>std::random_device</type>
@@ -407,7 +407,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="193" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="193" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="193" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="193" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1af086106e941b043d7d0df8bb63cae0bf" prot="private" static="no" mutable="no">
         <type><ref refid="d5/d74/classsgns_1_1_account_messenger_1a21bd8a1198fb2150ffb514745dfb66e3" kindref="member">BlockResponseHandler</ref></type>
@@ -422,7 +422,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="196" column="30" bodyfile="src/account/AccountMessenger.hpp" bodystart="196" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="196" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ae7f929040822eba62e3aa656e94e6f4e" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -436,7 +436,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="197" column="30" bodyfile="src/account/AccountMessenger.hpp" bodystart="197" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="197" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a9d13d0fb303f3307309e1bcd3105e8eb" prot="private" static="no" mutable="no">
         <type><ref refid="d5/d74/classsgns_1_1_account_messenger_1ae5cd35734c88e17b9609aebe704d6265" kindref="member">HeadRequestHandler</ref></type>
@@ -451,7 +451,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="200" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="200" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="200" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a58db4fc113bef523a83d9d0e6c0d7153" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -465,7 +465,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="201" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="201" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="201" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a70610a9553e21f779cbe32d6ffeba2dc" prot="private" static="no" mutable="no">
         <type>std::thread</type>
@@ -479,7 +479,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="223" column="41" bodyfile="src/account/AccountMessenger.hpp" bodystart="223" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="223" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="223" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1ab0fb544ac0283ca5bd2be100a0ecf085" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -493,7 +493,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="224" column="41" bodyfile="src/account/AccountMessenger.hpp" bodystart="224" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="224" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a5fbee7aafdb510f45329c90fb0d01f27" prot="private" static="no" mutable="no">
         <type>std::condition_variable</type>
@@ -507,7 +507,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="225" column="41" bodyfile="src/account/AccountMessenger.hpp" bodystart="225" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="225" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="225" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a5aaadacbef3673d75f8e58c39c1cec66" prot="private" static="no" mutable="no">
         <type>std::queue&lt; <ref refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task" kindref="compound">RequestTask</ref> &gt;</type>
@@ -521,7 +521,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="226" column="28" bodyfile="src/account/AccountMessenger.hpp" bodystart="226" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="226" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1a027e3b3dcd01c0ff6f8b7f8579840436" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -536,7 +536,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="227" column="35" bodyfile="src/account/AccountMessenger.hpp" bodystart="227" bodyend="227"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="227" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="227" bodyend="227"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d74/classsgns_1_1_account_messenger_1afb4295b16c23bf1607fdbdab2b9d0734" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -552,7 +552,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="318" column="22" bodyfile="src/account/AccountMessenger.hpp" bodystart="318" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="318" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="318" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -609,7 +609,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="87" column="32" bodyfile="src/account/AccountMessenger.cpp" bodystart="41" bodyend="91"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="87" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="41" bodyend="91"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -626,7 +626,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="93" column="9" bodyfile="src/account/AccountMessenger.cpp" bodystart="105" bodyend="113"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="93" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="105" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1aefb675e78c39b6ffb117d0f929ddf9cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -670,7 +670,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="100" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="285" bodyend="294"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="100" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="285" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a32967606488c27464465f5e750c01124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -714,7 +714,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="108" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="296" bodyend="301"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="108" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="296" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a28a3ae95e647c5ec84db7afd6a5290dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -757,7 +757,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="118" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="694" bodyend="700"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="118" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="694" bodyend="700"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a96ae85db1aa2c88a16b163c84a3654c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -813,7 +813,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="129" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="303" bodyend="310"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="129" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="303" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a04c49378281624ab1c95a4d7a8f0f9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -842,7 +842,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="137" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="115" bodyend="119"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="137" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="115" bodyend="119"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a10902eb5a1c21f7bfa4ccf2a15f75794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -857,7 +857,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="142" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="121" bodyend="125"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="142" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="121" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a52ca7ef22d099057364989abf4bf8ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -886,7 +886,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="148" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="127" bodyend="131"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="148" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="127" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a6612b7c76254f2cc3b855b532eccb4e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -901,7 +901,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="153" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="133" bodyend="137"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="153" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="133" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1ac46ae403802ba4fe763a13345570110a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -932,7 +932,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="160" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="139" bodyend="184"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="160" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="139" bodyend="184"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -948,7 +948,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="229" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="720" bodyend="832"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="229" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="720" bodyend="832"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1af1c8342b13d9d390196ad9e246ca787e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -966,7 +966,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="230" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="834" bodyend="841"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="230" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="834" bodyend="841"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a3b272d57f04e7c750ede86248b08a43e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -988,7 +988,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="231" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="843" bodyend="957"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="231" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="843" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a2ac052338c0ef098cb10b8cd28e523ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::set&lt; std::string &gt; &gt;</type>
@@ -1010,7 +1010,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="232" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="959" bodyend="1056"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="232" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="959" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1ad2ffc7d30f2c5d21987f39df8ffa2c92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::set&lt; std::string &gt; &gt;</type>
@@ -1032,7 +1032,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="233" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="1058" bodyend="1156"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="233" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="1058" bodyend="1156"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a72dd574f55429e43edb9ca88d9feb242" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1085,7 +1085,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="241" column="9" bodyfile="src/account/AccountMessenger.cpp" bodystart="93" bodyend="103"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="241" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="93" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1aa75bfe008e65564522cb2ec163088249" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1116,7 +1116,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="249" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="256" bodyend="283"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="249" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="256" bodyend="283"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a04db696f038cfb9823560a45b1860e9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1157,7 +1157,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="256" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="312" bodyend="339"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="256" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="312" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1ab7c25229451a20bfb082a5f0d74b6690" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1198,7 +1198,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="263" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="341" bodyend="370"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="263" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="341" bodyend="370"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a66031e611f274efbb0cd6e74a3478de4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1227,7 +1227,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="269" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="223" bodyend="254"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="269" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="223" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1afdd49cb2b860d2b67d552de84d821aa8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1256,7 +1256,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="274" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="186" bodyend="221"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="274" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="186" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a064e540142f90a893830b32befcba909" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1299,7 +1299,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="281" column="25" bodyfile="src/account/AccountMessenger.cpp" bodystart="702" bodyend="718"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="281" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="702" bodyend="718"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1af743f56396d5ebc10f8ec7c49f1388e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1328,7 +1328,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="288" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="1158" bodyend="1250"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="288" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="1158" bodyend="1250"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a2271ac81b7e7ed7d4a0b7f6ae621cc8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1357,7 +1357,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="293" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="1252" bodyend="1300"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="293" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="1252" bodyend="1300"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a77c8a1a62f2980c5b303610e87d62c3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1386,7 +1386,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="299" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="372" bodyend="487"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="299" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="372" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a22d88b9d06d44104d7a13c444e06c5b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1415,7 +1415,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="304" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="489" bodyend="599"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="304" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="489" bodyend="599"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a9b16632040cd014412f3f93d033c9e08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1444,7 +1444,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="309" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="601" bodyend="692"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="309" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="601" bodyend="692"/>
       </memberdef>
       <memberdef kind="function" id="d5/d74/classsgns_1_1_account_messenger_1a64ef75af74993e69ec8f57c20546e048" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1473,7 +1473,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="315" column="14" bodyfile="src/account/AccountMessenger.cpp" bodystart="1302" bodyend="1348"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="315" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.cpp" bodystart="1302" bodyend="1348"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1694,7 +1694,7 @@ std::function&lt;bool( const std::string &amp;cid, const std::string &amp;peer_i
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/AccountMessenger.hpp" line="33" column="5" bodyfile="src/account/AccountMessenger.hpp" bodystart="34" bodyend="319"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" line="33" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/AccountMessenger.hpp" bodystart="34" bodyend="319"/>
     <listofallmembers>
       <member refid="d5/d74/classsgns_1_1_account_messenger_1a97c685516d246f58ba190f07e9c2df48" prot="private" virt="non-virtual"><scope>sgns::AccountMessenger</scope><name>ACCOUNT_COMM</name></member>
       <member refid="d5/d74/classsgns_1_1_account_messenger_1a2a5f46f7bd0096cb7a7af10f059828ac" prot="private" virt="non-virtual"><scope>sgns::AccountMessenger</scope><name>account_comm_topic_</name></member>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="23" column="35" bodyfile="src/account/TokenAmount.hpp" bodystart="23" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="23" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dd7/classsgns_1_1_token_amount_1ab1acc254948e2e1bafec2c7174de6715" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="26" column="35" bodyfile="src/account/TokenAmount.hpp" bodystart="26" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="26" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dd7/classsgns_1_1_token_amount_1aff02559ba08fc57b84b0d2c8ae679391" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="29" column="35" bodyfile="src/account/TokenAmount.hpp" bodystart="29" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="29" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dd7/classsgns_1_1_token_amount_1a19264251a8f7ab50f438f8557920ce55" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="32" column="35" bodyfile="src/account/TokenAmount.hpp" bodystart="32" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="32" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dd7/classsgns_1_1_token_amount_1a077d12616f4373610b2715e0403fd9a1" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="35" column="35" bodyfile="src/account/TokenAmount.hpp" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="35" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="121" column="18" bodyfile="src/account/TokenAmount.hpp" bodystart="121" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="121" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="121" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="43" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="16" bodyend="20"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="43" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="16" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1a6630522f7784faa43b11a61005879317" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="dd/dd7/classsgns_1_1_token_amount_1a770cb6c7ad48c8938f46b411c0354d15" kindref="member">TokenAmount</ref> &gt; &gt;</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="52" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="22" bodyend="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="52" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="22" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1a2984a1526fa35ca2549f12c41543f7b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="dd/dd7/classsgns_1_1_token_amount_1a770cb6c7ad48c8938f46b411c0354d15" kindref="member">TokenAmount</ref> &gt; &gt;</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="59" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="29" bodyend="34"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="59" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="29" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1a0f8d0f847911f24418a0bd9cdf744f9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="92" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="55" bodyend="58"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="92" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="55" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1afaef5c03d9bb48fdd9cd809c1f6cd03a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="102" column="28" bodyfile="src/account/TokenAmount.cpp" bodystart="60" bodyend="63"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="102" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1aed9b186c41e85e68a48896b633e0f1d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="114" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="65" bodyend="113"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="114" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="65" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1a46a0c8510a2e05c8745a9ba3a6b55076" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="116" column="32" bodyfile="src/account/TokenAmount.cpp" bodystart="115" bodyend="124"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="116" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="115" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1ac27b8de869e79d94aa5fc0f61af4ac3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="117" column="35" bodyfile="src/account/TokenAmount.cpp" bodystart="126" bodyend="135"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="117" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="126" bodyend="135"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="69" column="25" bodyfile="src/account/TokenAmount.cpp" bodystart="38" bodyend="42"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="69" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="38" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1af67c4ecfa635919b795b268ce620e7c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dd/dd7/classsgns_1_1_token_amount_1a770cb6c7ad48c8938f46b411c0354d15" kindref="member">TokenAmount</ref> &gt;</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="77" column="25" bodyfile="src/account/TokenAmount.cpp" bodystart="44" bodyend="48"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="77" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="44" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="dd/dd7/classsgns_1_1_token_amount_1a771b5150e148b7efe24190d14290a6ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="84" column="18" bodyfile="src/account/TokenAmount.cpp" bodystart="50" bodyend="53"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="84" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenAmount.hpp" line="128" column="9" bodyfile="src/account/TokenAmount.cpp" bodystart="36" bodyend="36"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="128" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.cpp" bodystart="36" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -473,7 +473,7 @@
         <link refid="dd/dd7/classsgns_1_1_token_amount"/>
       </node>
     </collaborationgraph>
-    <location file="src/account/TokenAmount.hpp" line="19" column="5" bodyfile="src/account/TokenAmount.hpp" bodystart="20" bodyend="129"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenAmount.hpp" bodystart="20" bodyend="129"/>
     <listofallmembers>
       <member refid="dd/dd7/classsgns_1_1_token_amount_1aed9b186c41e85e68a48896b633e0f1d6" prot="public" virt="non-virtual"><scope>sgns::TokenAmount</scope><name>CalculateCostMinions</name></member>
       <member refid="dd/dd7/classsgns_1_1_token_amount_1ac27b8de869e79d94aa5fc0f61af4ac3f" prot="public" virt="non-virtual"><scope>sgns::TokenAmount</scope><name>ConvertFromChildToken</name></member>

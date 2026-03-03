@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="27" column="5" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="27" bodyend="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="27" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="55" column="18" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="55" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="55" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1aaedb0eea4b5917e7e4ba0fb87d627138" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d7/d99/classsgns_1_1runtime_1_1_trie_storage_provider" kindref="compound">TrieStorageProvider</ref> &gt;</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="57" column="21" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="57" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="57" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a6251a3f16e16e331b8fb2565b799155c" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; extensions::ExtensionFactory &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="58" column="21" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="58" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="58" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a72877470e190888dc31ac6265d85377b" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="df/dd7/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_factory" kindref="compound">WasmModuleFactory</ref> &gt;</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="59" column="21" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="59" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="59" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a231fc7f4ca23a35f5d6dbfe998d25719" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher" kindref="compound">crypto::Hasher</ref> &gt;</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="60" column="21" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="60" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="60" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a8e5808f9b62d8fce24517ce9bc44c623" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="62" column="16" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="62" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="62" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1af2f14e110068848f6ea99711201a4aed" prot="private" static="no" mutable="no">
         <type>std::map&lt; <ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref>, std::shared_ptr&lt; <ref refid="d9/d10/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module" kindref="compound">WasmModule</ref> &gt; &gt;</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="63" column="14" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="63" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="63" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="66" column="9" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="66" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="66" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="66" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="29" column="5" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="24" bodyend="37"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="24" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a42c8f7eea65825debc62f7f1b336ca3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d1/dcf/classsgns_1_1runtime_1_1binaryen_1_1_runtime_environment" kindref="compound">RuntimeEnvironment</ref> &gt;</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="35" column="21" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="59" bodyend="68"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="35" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="59" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a64121cd401f6eb358b0fa0ba10dc994e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d1/dcf/classsgns_1_1runtime_1_1binaryen_1_1_runtime_environment" kindref="compound">RuntimeEnvironment</ref> &gt;</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="38" column="21" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="71" bodyend="75"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="38" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="71" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a85c14f2fb2f36e31f993caa4020dd7b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d1/dcf/classsgns_1_1runtime_1_1binaryen_1_1_runtime_environment" kindref="compound">RuntimeEnvironment</ref> &gt;</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="45" column="21" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="40" bodyend="49"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="45" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="40" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1abf97b9514237c8192d1d6cfb4237ac4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d1/dcf/classsgns_1_1runtime_1_1binaryen_1_1_runtime_environment" kindref="compound">RuntimeEnvironment</ref> &gt;</type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="48" column="21" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="52" bodyend="56"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="48" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="52" bodyend="56"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_manager.hpp" line="52" column="21" bodyfile="src/runtime/binaryen/runtime_manager.cpp" bodystart="77" bodyend="115"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="52" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.cpp" bodystart="77" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -480,7 +480,7 @@
         <label>wasm::ShellExternalInterface</label>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/binaryen/runtime_manager.hpp" line="25" column="3" bodyfile="src/runtime/binaryen/runtime_manager.hpp" bodystart="25" bodyend="67"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" line="25" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_manager.hpp" bodystart="25" bodyend="67"/>
     <listofallmembers>
       <member refid="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1a64121cd401f6eb358b0fa0ba10dc994e" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::RuntimeManager</scope><name>createEphemeralRuntimeEnvironment</name></member>
       <member refid="d7/da0/classsgns_1_1runtime_1_1binaryen_1_1_runtime_manager_1abf97b9514237c8192d1d6cfb4237ac4e" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::RuntimeManager</scope><name>createEphemeralRuntimeEnvironmentAt</name></member>

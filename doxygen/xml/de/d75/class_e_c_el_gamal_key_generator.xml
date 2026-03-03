@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="de/d75/class_e_c_el_gamal_key_generator" kind="class" language="C++" prot="public">
+    <compoundname>ECElGamalKeyGenerator</compoundname>
+    <includes refid="d7/d68/_e_c_el_gamal_key_generator_8hpp" local="no">ECElGamalKeyGenerator.hpp</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" prot="private" static="no">
+        <type>boost::multiprecision::cpp_int</type>
+        <definition>using ECElGamalKeyGenerator::cpp_int = boost::multiprecision::cpp_int</definition>
+        <argsstring></argsstring>
+        <name>cpp_int</name>
+        <qualifiedname>ECElGamalKeyGenerator::cpp_int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref>, <ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">ecdsa_t::padding_policy</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">ecdsa_t::generator_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;PrivateKey&lt;ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type&gt; &gt; ECElGamalKeyGenerator::private_key</definition>
+        <argsstring></argsstring>
+        <name>private_key</name>
+        <qualifiedname>ECElGamalKeyGenerator::private_key</qualifiedname>
+        <briefdescription>
+<para>Private key instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="57" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref>, <ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">ecdsa_t::padding_policy</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">ecdsa_t::generator_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;PublicKey&lt;ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type&gt; &gt; ECElGamalKeyGenerator::public_key</definition>
+        <argsstring></argsstring>
+        <name>public_key</name>
+        <qualifiedname>ECElGamalKeyGenerator::public_key</qualifiedname>
+        <briefdescription>
+<para>Public key instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="58" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECElGamalKeyGenerator::ECElGamalKeyGenerator</definition>
+        <argsstring>(const cpp_int &amp;key_scalar)</argsstring>
+        <name>ECElGamalKeyGenerator</name>
+        <qualifiedname>ECElGamalKeyGenerator::ECElGamalKeyGenerator</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>key_scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d75/class_e_c_el_gamal_key_generator_1a63670b930a5d79cf863a0f6be5143120" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref>, <ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">ecdsa_t::padding_policy</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">ecdsa_t::generator_type</ref> &gt; &amp;</type>
+        <definition>const PrivateKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt; &amp; ECElGamalKeyGenerator::GetPrivateKey</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrivateKey</name>
+        <qualifiedname>ECElGamalKeyGenerator::GetPrivateKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="30" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d75/class_e_c_el_gamal_key_generator_1a498fca05eb124b268dea535018cfb4d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::pair&lt; <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref> &gt;, <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref> &gt; &gt;</type>
+        <definition>std::pair&lt; ECElGamalPoint&lt; ecdsa_t::CurveType &gt;, ECElGamalPoint&lt; ecdsa_t::CurveType &gt; &gt; ECElGamalKeyGenerator::EncryptData</definition>
+        <argsstring>(const cpp_int &amp;data)</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>ECElGamalKeyGenerator::EncryptData</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="35" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d75/class_e_c_el_gamal_key_generator_1a0153e1a8fd133cbe6a29567bebb447bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int ECElGamalKeyGenerator::DecryptData</definition>
+        <argsstring>(const std::pair&lt; ECElGamalPoint&lt; ecdsa_t::CurveType &gt;, ECElGamalPoint&lt; ecdsa_t::CurveType &gt; &gt; &amp;data)</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>ECElGamalKeyGenerator::DecryptData</qualifiedname>
+        <param>
+          <type>const std::pair&lt; <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref> &gt;, <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref>&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">ecdsa_t::CurveType</ref> &gt; &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="47" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="47" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ECElGamalKeyGenerator</label>
+        <link refid="de/d75/class_e_c_el_gamal_key_generator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-private_key</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-public_key</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>PrivateKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</label>
+        <link refid="d9/dc0/struct_private_key"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PrivateKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</label>
+        <link refid="d9/dc0/struct_private_key"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+      </node>
+      <node id="7">
+        <label>PublicKey&lt; CurveType, Padding, GeneratorType, void &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; CurveType, Padding, GeneratorType, void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PublicKey&lt; CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type, void &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type, void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>PublicKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>T</label>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; PrivateKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt; &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; PrivateKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>std::shared_ptr&lt; PublicKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt; &gt;</label>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; PublicKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalKeyGenerator.hpp" bodystart="14" bodyend="59"/>
+    <listofallmembers>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" prot="private" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>cpp_int</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a0153e1a8fd133cbe6a29567bebb447bc" prot="public" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>DecryptData</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" prot="public" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>ECElGamalKeyGenerator</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a498fca05eb124b268dea535018cfb4d0" prot="public" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>EncryptData</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a63670b930a5d79cf863a0f6be5143120" prot="public" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>GetPrivateKey</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" prot="private" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>private_key</name></member>
+      <member refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" prot="private" virt="non-virtual"><scope>ECElGamalKeyGenerator</scope><name>public_key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

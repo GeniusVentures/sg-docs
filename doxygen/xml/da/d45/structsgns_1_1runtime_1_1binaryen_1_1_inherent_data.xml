@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="79" column="14" bodyfile="src/primitives/inherent_data.hpp" bodystart="79" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="79" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="79" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="45" column="21" bodyfile="src/primitives/inherent_data.hpp" bodystart="45" bodyend="51"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="45" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="45" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1a0b8ff61eeca84118bc514f214fb1f486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="58" column="10" bodyfile="src/primitives/inherent_data.hpp" bodystart="58" bodyend="60"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="58" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="58" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1a36c5b3a5f26ed47962d2cb3632a7c126" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="66" column="21" bodyfile="src/primitives/inherent_data.hpp" bodystart="66" bodyend="73"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="66" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="66" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1ab23e11ef2bc8836b548a55ecb7e24bb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="75" column="10" bodyfile="src/primitives/inherent_data.cpp" bodystart="18" bodyend="21"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="75" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1a1a532e79b3c5d63dc36e999a14802bbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="77" column="10" bodyfile="src/primitives/inherent_data.cpp" bodystart="23" bodyend="26"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="77" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.hpp" line="80" column="12" bodyfile="src/primitives/inherent_data.hpp" bodystart="80" bodyend="95"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="80" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="80" bodyend="95"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -272,7 +272,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/primitives/inherent_data.hpp" line="35" column="3" bodyfile="src/primitives/inherent_data.hpp" bodystart="35" bodyend="97"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" line="35" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.hpp" bodystart="35" bodyend="97"/>
     <listofallmembers>
       <member refid="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1a1c4fc07ca8405887d352c19694827d5c" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::InherentData</scope><name>data</name></member>
       <member refid="da/d45/structsgns_1_1runtime_1_1binaryen_1_1_inherent_data_1a36c5b3a5f26ed47962d2cb3632a7c126" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::InherentData</scope><name>getData</name></member>

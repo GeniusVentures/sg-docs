@@ -8,7 +8,7 @@
     <includes refid="dc/d6f/key__type_8hpp" local="yes">crypto/crypto_store/key_type.hpp</includes>
     <includes refid="d4/d6e/ed25519__types_8hpp" local="yes">crypto/ed25519_types.hpp</includes>
     <includes refid="d2/d9c/sr25519__types_8hpp" local="yes">crypto/sr25519_types.hpp</includes>
-    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
+    <includedby refid="d4/d05/crypto__store__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</includedby>
     <incdepgraph>
       <node id="10">
         <label>base/blob.hpp</label>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/crypto/crypto_store.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store.hpp</label>
         <link refid="d2/db9/crypto__store_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -142,17 +142,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>src/crypto/crypto_store.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store.hpp</label>
         <link refid="d2/db9/crypto__store_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>src/crypto/crypto_store/crypto_store_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.cpp</label>
         <link refid="dd/d14/crypto__store__impl_8cpp"/>
       </node>
       <node id="2">
-        <label>src/crypto/crypto_store/crypto_store_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store/crypto_store_impl.hpp</label>
         <link refid="d4/d05/crypto__store__impl_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -220,6 +220,6 @@
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="src/crypto/crypto_store.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store.hpp"/>
   </compounddef>
 </doxygen>

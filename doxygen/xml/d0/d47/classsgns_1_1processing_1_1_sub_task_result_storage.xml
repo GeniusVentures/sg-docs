@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/processing_subtask_result_storage.hpp" line="13" column="17"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" line="13" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage_1a7c9428f5557ba0e4ec3ebc3d0e116d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/processing_subtask_result_storage.hpp" line="18" column="22"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" line="18" column="22"/>
       </memberdef>
       <memberdef kind="function" id="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage_1a1c397ee1305905a323258229b57082f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/processing_subtask_result_storage.hpp" line="23" column="22"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" line="23" column="22"/>
       </memberdef>
       <memberdef kind="function" id="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage_1a22919fccd334b3f29b94c0776b7e0085" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::vector&lt; SGProcessing::SubTaskResult &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/processing/processing_subtask_result_storage.hpp" line="29" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" line="29" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -132,7 +132,7 @@
         <link refid="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage"/>
       </node>
     </collaborationgraph>
-    <location file="src/processing/processing_subtask_result_storage.hpp" line="10" column="5" bodyfile="src/processing/processing_subtask_result_storage.hpp" bodystart="11" bodyend="31"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" line="10" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_result_storage.hpp" bodystart="11" bodyend="31"/>
     <listofallmembers>
       <member refid="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage_1a7c9428f5557ba0e4ec3ebc3d0e116d19" prot="public" virt="pure-virtual"><scope>sgns::processing::SubTaskResultStorage</scope><name>AddSubTaskResult</name></member>
       <member refid="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage_1a22919fccd334b3f29b94c0776b7e0085" prot="public" virt="pure-virtual"><scope>sgns::processing::SubTaskResultStorage</scope><name>GetSubTaskResults</name></member>

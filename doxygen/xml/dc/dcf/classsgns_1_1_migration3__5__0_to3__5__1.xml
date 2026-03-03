@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="32" column="22" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="32" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="32" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2e893e6010b5054800d35cbd63a5ba68" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; boost::asio::io_context &gt;</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="34" column="48" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="34" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="34" column="48" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a3b3e78932c8398e17779d22a792c46c6" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_pubsub::GossipPubSub &gt;</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="35" column="46" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="35" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a6b42838d4e91893ff8413690f932e3d6" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::Network &gt;</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="36" column="36" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="36" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="36" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a152a1afcbf0943eea3f7aadec8153c87" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; libp2p::protocol::Scheduler &gt;</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="37" column="44" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="37" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="37" column="44" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1ad42988b9c779ad0f00e8703afed9ba19" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::RequestIdGenerator &gt;</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="38" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="38" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="38" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a26db6869ec58d6a0d21adfbfd7e85d2a" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="39" column="21" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="39" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2a2544d43a2bd968330a5ec015f26140" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="40" column="21" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="40" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="40" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1ad889d4f16ae4e9dca8dfae49ca14e9ca" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt;</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="42" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="42" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a5418c81f095f43c9e094fec0a14aeb80" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage" kindref="compound">sgns::JSONSecureStorage</ref> &gt;</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="43" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="43" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="43" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1afade37109cf7a6cee65195c19e94b5dd" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; sgns::SecureStorageImpl &gt;</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="44" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="44" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="44" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="14" column="9" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="9" bodyend="25"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="14" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="9" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a9f1db389ac7ddf61b75f56ce697a2d5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="22" column="31" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="27" bodyend="30"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="22" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aa0e9be869b81ba592e4d92263e23f8af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="23" column="31" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="32" bodyend="35"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="23" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a61827db42f6298e2bddc4fc1d283edbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="24" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="37" bodyend="47"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="24" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="37" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a1ce558d6c1cb079dbe445b677f08d571" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="25" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="49" bodyend="86"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="25" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="49" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2dee69796c6991302e2f584694399c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="26" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="88" bodyend="95"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="26" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="88" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aeada855dc16bc55d9852fd4337bd4ace" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -326,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="27" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="97" bodyend="127"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="27" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="97" bodyend="127"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_5_0To3_5_1.hpp" line="30" column="25" bodyfile="src/account/Migration3_5_0To3_5_1.cpp" bodystart="129" bodyend="160"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="30" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp" bodystart="129" bodyend="160"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1470,7 +1470,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/Migration3_5_0To3_5_1.hpp" line="11" column="5" bodyfile="src/account/Migration3_5_0To3_5_1.hpp" bodystart="12" bodyend="45"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" line="11" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.hpp" bodystart="12" bodyend="45"/>
     <listofallmembers>
       <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a1ce558d6c1cb079dbe445b677f08d571" prot="public" virt="virtual"><scope>sgns::Migration3_5_0To3_5_1</scope><name>Apply</name></member>
       <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2a2544d43a2bd968330a5ec015f26140" prot="private" virt="non-virtual"><scope>sgns::Migration3_5_0To3_5_1</scope><name>base58key_</name></member>

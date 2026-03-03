@@ -3,11 +3,11 @@
   <compounddef id="d6/d2a/block__tree__error_8hpp" kind="file" language="C++">
     <compoundname>block_tree_error.hpp</compoundname>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="dc/dae/block__tree__error_8cpp" local="yes">src/blockchain/impl/block_tree_error.cpp</includedby>
-    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">src/blockchain/impl/block_tree_impl.cpp</includedby>
+    <includedby refid="dc/dae/block__tree__error_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_error.cpp</includedby>
+    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/blockchain/block_tree_error.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp</label>
         <link refid="d6/d2a/block__tree__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,7 +24,7 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>src/blockchain/block_tree_error.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp</label>
         <link refid="d6/d2a/block__tree__error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -32,11 +32,11 @@
         </childnode>
       </node>
       <node id="2">
-        <label>src/blockchain/impl/block_tree_error.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_error.cpp</label>
         <link refid="dc/dae/block__tree__error_8cpp"/>
       </node>
       <node id="3">
-        <label>src/blockchain/impl/block_tree_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
     </invincdepgraph>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/block_tree_error.hpp" line="11" column="3" bodyfile="src/blockchain/block_tree_error.hpp" bodystart="11" bodyend="19"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp" line="11" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp" bodystart="11" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -133,6 +133,6 @@
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_BLOCK_TREE_ERROR_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/blockchain/block_tree_error.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree_error.hpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/db7/class_e_c_d_h_encryption" kind="class" language="C++" prot="public">
+    <compoundname>ECDHEncryption</compoundname>
+    <basecompoundref refid="d7/d5e/class_encryption" prot="public" virt="non-virtual">Encryption</basecompoundref>
+    <includes refid="d4/df8/_e_c_d_h_encryption_8hpp" local="no">ECDHEncryption.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename PolicyType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/db7/class_e_c_d_h_encryption_1a18b769228bc67ab254c64bfb4baeb4b3" prot="private" static="no" mutable="no">
+        <type>std::array&lt; std::uint8_t, 32 &gt;</type>
+        <definition>std::array&lt;std::uint8_t, 32&gt; ECDHEncryption&lt; PolicyType &gt;::session_secret</definition>
+        <argsstring></argsstring>
+        <name>session_secret</name>
+        <qualifiedname>ECDHEncryption::session_secret</qualifiedname>
+        <briefdescription>
+<para>The session secret used in encryption and decryption. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="28" column="16" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/db7/class_e_c_d_h_encryption_1a3131fa4dfa653a7527d7d9bbc7b85717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; ECDHEncryption&lt; PolicyType &gt;::EncryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data) override</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>ECDHEncryption::EncryptData</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a3220a5071d917e8547d10a7f2a531d0e">EncryptData</reimplements>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>Encrypts a vector of data using the session secret. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of data to be encrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unused in this implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Encrypted data vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="37" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db7/class_e_c_d_h_encryption_1a25c4baec3a0b7fee27216c2bc20759c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; ECDHEncryption&lt; PolicyType &gt;::DecryptData</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; data, std::vector&lt; std::uint8_t &gt; key_data) override</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>ECDHEncryption::DecryptData</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a149d3402617ab8dc48cc933e553687c6">DecryptData</reimplements>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt;</type>
+          <declname>key_data</declname>
+        </param>
+        <briefdescription>
+<para>Decrypts a vector of data using the session secret. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of data to be decrypted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unused in this implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Decrypted data vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="49" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db7/class_e_c_d_h_encryption_1a5d6b51f2806a70d0e3624a105581fd39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ECDHEncryption&lt; PolicyType &gt;::CheckEqual</definition>
+        <argsstring>(const Encryption &amp;lhs, const Encryption &amp;rhs) const override</argsstring>
+        <name>CheckEqual</name>
+        <qualifiedname>ECDHEncryption::CheckEqual</qualifiedname>
+        <reimplements refid="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc">CheckEqual</reimplements>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Checks if two <ref refid="d5/db7/class_e_c_d_h_encryption" kindref="compound">ECDHEncryption</ref> instances are equal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">lhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> to be downcasted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rhs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second instance of <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> to be downcasted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if session secrets are equal, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="60" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db7/class_e_c_d_h_encryption_1a2ebff57ae14d7aa76bdb35b368a1aa36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECDHEncryption&lt; PolicyType &gt;::ECDHEncryption</definition>
+        <argsstring>(const nil::crypto3::pubkey::ext_private_key&lt; PolicyType &gt; &amp;own_key, const nil::crypto3::pubkey::public_key&lt; PolicyType &gt; &amp;foreign_key)</argsstring>
+        <name>ECDHEncryption</name>
+        <qualifiedname>ECDHEncryption::ECDHEncryption</qualifiedname>
+        <param>
+          <type>const <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">nil::crypto3::pubkey::ext_private_key</ref>&lt; PolicyType &gt; &amp;</type>
+          <declname>own_key</declname>
+        </param>
+        <param>
+          <type>const nil::crypto3::pubkey::public_key&lt; PolicyType &gt; &amp;</type>
+          <declname>foreign_key</declname>
+        </param>
+        <briefdescription>
+<para>Constructs an <ref refid="d5/db7/class_e_c_d_h_encryption" kindref="compound">ECDHEncryption</ref> object and creates a session secret. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">own_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The owner&apos;s private ECDSA key </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">foreign_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The other party&apos;s public key </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="71" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="71" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Elliptic-curve Diffie-Hellman class using AES 256 <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ECDHEncryption&lt; PolicyType &gt;</label>
+        <link refid="d5/db7/class_e_c_d_h_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ECDHEncryption&lt; PolicyType &gt;</label>
+        <link refid="d5/db7/class_e_c_d_h_encryption"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-session_secret</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="4">
+        <label>std::array&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::array&lt; std::uint8_t, 32 &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t, 32 &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" line="25" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDHEncryption.hpp" bodystart="26" bodyend="86"/>
+    <listofallmembers>
+      <member refid="d5/db7/class_e_c_d_h_encryption_1a5d6b51f2806a70d0e3624a105581fd39" prot="public" virt="virtual"><scope>ECDHEncryption</scope><name>CheckEqual</name></member>
+      <member refid="d5/db7/class_e_c_d_h_encryption_1a25c4baec3a0b7fee27216c2bc20759c3" prot="public" virt="virtual"><scope>ECDHEncryption</scope><name>DecryptData</name></member>
+      <member refid="d5/db7/class_e_c_d_h_encryption_1a2ebff57ae14d7aa76bdb35b368a1aa36" prot="public" virt="non-virtual"><scope>ECDHEncryption</scope><name>ECDHEncryption</name></member>
+      <member refid="d5/db7/class_e_c_d_h_encryption_1a3131fa4dfa653a7527d7d9bbc7b85717" prot="public" virt="virtual"><scope>ECDHEncryption</scope><name>EncryptData</name></member>
+      <member refid="d7/d5e/class_encryption_1a30f7a8c257891fe7d8037705ce1c5efa" prot="public" virt="non-virtual"><scope>ECDHEncryption</scope><name>operator==</name></member>
+      <member refid="d5/db7/class_e_c_d_h_encryption_1a18b769228bc67ab254c64bfb4baeb4b3" prot="private" virt="non-virtual"><scope>ECDHEncryption</scope><name>session_secret</name></member>
+      <member refid="d7/d5e/class_encryption_1a416615f6ef3b630b8f2e1cc5a8226e1e" prot="public" virt="virtual"><scope>ECDHEncryption</scope><name>~Encryption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

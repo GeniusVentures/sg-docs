@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/d66/class_proposer_factory" kind="class" language="C++" prot="public">
+    <compoundname>ProposerFactory</compoundname>
+    <includes refid="df/dce/_proposer_factory_8hpp" local="no">ProposerFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d66/class_proposer_factory_1a9e2e01990278164d94c6faeabd5e49c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::authorship::Proposer &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::authorship::Proposer &gt; ProposerFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>ProposerFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" line="17" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" bodystart="17" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ProposerFactory</label>
+        <link refid="d5/d66/class_proposer_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" line="14" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProposerFactory.hpp" bodystart="15" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d5/d66/class_proposer_factory_1a9e2e01990278164d94c6faeabd5e49c5" prot="public" virt="non-virtual"><scope>ProposerFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

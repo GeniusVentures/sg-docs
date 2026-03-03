@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator" kind="class" language="C++" prot="public">
+    <compoundname>bitcoin::BitcoinKeyGenerator</compoundname>
+    <includes refid="dd/dd3/_bitcoin_key_generator_8hpp" local="no">BitcoinKeyGenerator.hpp</includes>
+    <innerclass refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key" prot="private">bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a21fe7833d2259880566f56c403894b4a" prot="public" static="no">
+        <type>std::pair&lt; std::vector&lt; std::uint8_t &gt;, std::vector&lt; std::uint8_t &gt; &gt;</type>
+        <definition>using bitcoin::BitcoinKeyGenerator::PubKeyPair_t = std::pair&lt;std::vector&lt;std::uint8_t&gt;, std::vector&lt;std::uint8_t&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>PubKeyPair_t</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::PubKeyPair_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="32" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1abb2018890022014581717c8b57d9b89b" prot="private" static="yes" mutable="no">
+        <type><ref refid="d5/d9c/namespacebitcoin_1ad6edfc6794d6a03896b6df57cd26cb4c" kindref="member">random_generator_type</ref></type>
+        <definition>random_generator_type bitcoin::BitcoinKeyGenerator::key_gen</definition>
+        <argsstring></argsstring>
+        <name>key_gen</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::key_gen</qualifiedname>
+        <briefdescription>
+<para>Bitcoin random key generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="110" column="63" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a526f0d4938c9e44b0bae7a6edaff120e" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::uint8_t</type>
+        <definition>std::uint8_t bitcoin::BitcoinKeyGenerator::MAIN_NETWORK_ID</definition>
+        <argsstring></argsstring>
+        <name>MAIN_NETWORK_ID</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::MAIN_NETWORK_ID</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>ID of the Main Bitcoin network. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="135" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8c3e098d55f3002c183e15b5564a0797" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::uint8_t</type>
+        <definition>std::uint8_t bitcoin::BitcoinKeyGenerator::PARITY_EVEN_ID</definition>
+        <argsstring></argsstring>
+        <name>PARITY_EVEN_ID</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::PARITY_EVEN_ID</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>If even, the compressed address is prepend this. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="136" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a410d091c283ef61803b3fb466e2454c8" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::uint8_t</type>
+        <definition>std::uint8_t bitcoin::BitcoinKeyGenerator::PARITY_ODD_ID</definition>
+        <argsstring></argsstring>
+        <name>PARITY_ODD_ID</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::PARITY_ODD_ID</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>If odd, the compressed address is prepend this. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="137" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a38deb9b3979673b48a689a42d1bd3b51" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::uint8_t</type>
+        <definition>std::uint8_t bitcoin::BitcoinKeyGenerator::CHECKSUM_SIZE_BYTES</definition>
+        <argsstring></argsstring>
+        <name>CHECKSUM_SIZE_BYTES</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::CHECKSUM_SIZE_BYTES</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>Number of used checksum bytes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="138" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;pubkey::ext_private_key&lt;policy_type&gt; &gt; bitcoin::BitcoinKeyGenerator::privkey</definition>
+        <argsstring></argsstring>
+        <name>privkey</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::privkey</qualifiedname>
+        <briefdescription>
+<para>The ECDSA private key. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="111" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; pubkey::public_key&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;pubkey::public_key&lt;policy_type&gt; &gt; bitcoin::BitcoinKeyGenerator::pubkey</definition>
+        <argsstring></argsstring>
+        <name>pubkey</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::pubkey</qualifiedname>
+        <briefdescription>
+<para>The ECDSA public key. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="112" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a6d3fe595562871a00dd5f1712b48162a" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key" kindref="compound">BitcoinECDSAPublicKey</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;BitcoinECDSAPublicKey&gt; bitcoin::BitcoinKeyGenerator::pubkey_info</definition>
+        <argsstring></argsstring>
+        <name>pubkey_info</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::pubkey_info</qualifiedname>
+        <briefdescription>
+<para>Instance of public key information class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="132" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string bitcoin::BitcoinKeyGenerator::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::address</qualifiedname>
+        <briefdescription>
+<para>The Bitcoin Address in string form. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="133" column="63" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>BitcoinKeyGenerator</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</qualifiedname>
+        <briefdescription>
+<para>Constructs a new randomly generated Bitcoin key and address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="37" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a598fc5b8c126709b814887ee687f1612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</definition>
+        <argsstring>(std::string_view private_key)</argsstring>
+        <name>BitcoinKeyGenerator</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>private_key</declname>
+        </param>
+        <briefdescription>
+<para>Import private key string data to construct Bitcoin key and address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">private_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Private key in string form </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="42" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="35" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a3e8be5c00825e764414be31bb121b032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</definition>
+        <argsstring>(const scalar_field_value_type &amp;private_key)</argsstring>
+        <name>BitcoinKeyGenerator</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::BitcoinKeyGenerator</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/d9c/namespacebitcoin_1ab4a0977da9896055192f436273b61e8b" kindref="member">scalar_field_value_type</ref> &amp;</type>
+          <declname>private_key</declname>
+        </param>
+        <briefdescription>
+<para>Import a private key scalar value to construct Bitcoin key and address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">private_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Private key scalar value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="47" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a110454474b9f396ae46984701266f12a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &amp;</type>
+        <definition>const pubkey::ext_private_key&lt; policy_type &gt; &amp; bitcoin::BitcoinKeyGenerator::get_private_key</definition>
+        <argsstring>() const</argsstring>
+        <name>get_private_key</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::get_private_key</qualifiedname>
+        <briefdescription>
+<para>Returns the private key reference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to the private key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="52" column="39" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ab9d7db898f075cc719d7b8d65817172a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const pubkey::public_key&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &amp;</type>
+        <definition>const pubkey::public_key&lt; policy_type &gt; &amp; bitcoin::BitcoinKeyGenerator::get_public_key</definition>
+        <argsstring>() const</argsstring>
+        <name>get_public_key</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::get_public_key</qualifiedname>
+        <briefdescription>
+<para>Returns the public key reference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to the public key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="60" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a0edf1d76a95cbd1d0e9d3e35da6ad190" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string &amp; bitcoin::BitcoinKeyGenerator::get_address</definition>
+        <argsstring>() const</argsstring>
+        <name>get_address</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::get_address</qualifiedname>
+        <briefdescription>
+<para>Returns the bitcoin base58 address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Bitcoin base58 address in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="68" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8e57c6809756bec840d4095f26a7e9b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string bitcoin::BitcoinKeyGenerator::GetUsedPubKeyValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsedPubKeyValue</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::GetUsedPubKeyValue</qualifiedname>
+        <briefdescription>
+<para>Get the public key value used for bitcoin address derivation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The compressed X coordinate in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="76" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a193e11f52b3f961f7e500071146f9684" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string bitcoin::BitcoinKeyGenerator::GetEntirePubValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEntirePubValue</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::GetEntirePubValue</qualifiedname>
+        <briefdescription>
+<para>Get entire key value of the public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The concatenated X+Y key values in string form </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="84" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T bitcoin::BitcoinKeyGenerator::ExtractPubKeyFromField</definition>
+        <argsstring>(const pubkey::public_key&lt; policy_type &gt; &amp;pub_key)</argsstring>
+        <name>ExtractPubKeyFromField</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::ExtractPubKeyFromField</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+<para>Extract the key vector data from the ECDSA public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pub_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Public ECDSA key </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="94" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a06d2e40d188bf4deb26fd9ad6e3d7870" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string bitcoin::BitcoinKeyGenerator::DeriveAddress</definition>
+        <argsstring>(const std::vector&lt; std::uint8_t &gt; &amp;pub_key_vect)</argsstring>
+        <name>DeriveAddress</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::DeriveAddress</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::uint8_t &gt; &amp;</type>
+          <declname>pub_key_vect</declname>
+        </param>
+        <briefdescription>
+<para>Derive the bitcoin address from de X coordinate of the public key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pub_key_vect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector representation of the X coordinate of public key </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Bitcoin base58 address </para>
+</simplesect>
+<simplesect kind="warning"><para>The LSB is the 0 index and the MSB is the 31th. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="101" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="97" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kindref="compound">pubkey::ext_private_key</ref>&lt; <ref refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kindref="member">policy_type</ref> &gt; &gt;</type>
+        <definition>std::shared_ptr&lt; pubkey::ext_private_key&lt; policy_type &gt; &gt; bitcoin::BitcoinKeyGenerator::CreateKeys</definition>
+        <argsstring>()</argsstring>
+        <name>CreateKeys</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::CreateKeys</qualifiedname>
+        <briefdescription>
+<para>Create the ECDSA key pair. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Private key pointer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="107" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string bitcoin::BitcoinKeyGenerator::DeriveAddress</definition>
+        <argsstring>(void)</argsstring>
+        <name>DeriveAddress</name>
+        <qualifiedname>bitcoin::BitcoinKeyGenerator::DeriveAddress</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Derive the bitcoin address from own key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the Bitcoin base58 address </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="144" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="116" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Creates a pair of ECDSA keys and a Bitcoin address from a compressed key. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>T</label>
+      </node>
+      <node id="1">
+        <label>bitcoin::BitcoinKeyGenerator</label>
+        <link refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-privkey</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-pubkey</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-pubkey_info</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-address</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</label>
+        <link refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="3">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; policy_type &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; policy_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey &gt;</label>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; nil::crypto3::pubkey::ext_private_key&lt; policy_type &gt; &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; nil::crypto3::pubkey::ext_private_key&lt; policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::shared_ptr&lt; pubkey::public_key&lt; policy_type &gt; &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; pubkey::public_key&lt; policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::string</label>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="14" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/BitcoinKeyGenerator.hpp" bodystart="30" bodyend="145"/>
+    <listofallmembers>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>address</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>BitcoinKeyGenerator</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a598fc5b8c126709b814887ee687f1612" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>BitcoinKeyGenerator</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a3e8be5c00825e764414be31bb121b032" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>BitcoinKeyGenerator</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a38deb9b3979673b48a689a42d1bd3b51" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>CHECKSUM_SIZE_BYTES</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>CreateKeys</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a06d2e40d188bf4deb26fd9ad6e3d7870" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>DeriveAddress</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>DeriveAddress</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>ExtractPubKeyFromField</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a0edf1d76a95cbd1d0e9d3e35da6ad190" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>get_address</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a110454474b9f396ae46984701266f12a" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>get_private_key</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ab9d7db898f075cc719d7b8d65817172a" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>get_public_key</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a193e11f52b3f961f7e500071146f9684" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>GetEntirePubValue</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8e57c6809756bec840d4095f26a7e9b9" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>GetUsedPubKeyValue</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1abb2018890022014581717c8b57d9b89b" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>key_gen</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a526f0d4938c9e44b0bae7a6edaff120e" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>MAIN_NETWORK_ID</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8c3e098d55f3002c183e15b5564a0797" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>PARITY_EVEN_ID</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a410d091c283ef61803b3fb466e2454c8" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>PARITY_ODD_ID</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>privkey</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>pubkey</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a6d3fe595562871a00dd5f1712b48162a" prot="private" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>pubkey_info</name></member>
+      <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a21fe7833d2259880566f56c403894b4a" prot="public" virt="non-virtual"><scope>bitcoin::BitcoinKeyGenerator</scope><name>PubKeyPair_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

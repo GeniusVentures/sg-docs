@@ -12,7 +12,8 @@
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
     <includes refid="da/d6b/hasher_8hpp" local="yes">crypto/hasher.hpp</includes>
     <includes local="yes">network/extrinsic_observer.hpp</includes>
-    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">src/blockchain/impl/block_tree_impl.cpp</includedby>
+    <includedby refid="d1/d14/_block_tree_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</includedby>
+    <includedby refid="d5/df4/block__tree__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</includedby>
     <incdepgraph>
       <node id="12">
         <label>base/blob.hpp</label>
@@ -121,7 +122,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/blockchain/impl/block_tree_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</label>
         <link refid="d7/d87/block__tree__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -347,13 +348,25 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/blockchain/impl/block_tree_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <link refid="d1/d14/_block_tree_factory_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
         <link refid="d5/df4/block__tree__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>src/blockchain/impl/block_tree_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</label>
         <link refid="d7/d87/block__tree__impl_8hpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -380,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/impl/block_tree_impl.hpp" line="200" column="1" declfile="src/blockchain/impl/block_tree_impl.hpp" declline="200" declcolumn="1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" line="200" column="1" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp" declline="200" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -554,6 +567,6 @@
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_BLOCK_TREE_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/blockchain/impl/block_tree_impl.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp"/>
   </compounddef>
 </doxygen>

@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="24" column="17"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="24" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a4d51d8781733028f8b190e8c8f98698e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::string</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="30" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="30" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a747197062a83f8379601418301b9b00d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::string</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="36" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="36" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a2f4b75bcf6ab77751a13666aed6521c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="42" column="33"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="42" column="33"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a0a60894e92278118529757890a8864ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="47" column="33"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="47" column="33"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1ac6640d48424c9a3b5a7250ee97ffdeed" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="53" column="33"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="53" column="33"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1ae6417d85eccbf766b884ea948f96e60e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="59" column="33"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="59" column="33"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a6ca6fe6712c2c461776d60b0014db221" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::tuple&lt; int, int, int &gt;</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="61" column="20" bodyfile="src/account/IMigrationStep.hpp" bodystart="61" bodyend="68"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="61" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" bodystart="61" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a7149b634de2e7e1dc85a8fc389aff928" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/IMigrationStep.hpp" line="70" column="14" bodyfile="src/account/IMigrationStep.hpp" bodystart="70" bodyend="83"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="70" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" bodystart="70" bodyend="83"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -249,7 +249,7 @@
         <link refid="d5/d0d/classsgns_1_1_i_migration_step"/>
       </node>
     </collaborationgraph>
-    <location file="src/account/IMigrationStep.hpp" line="21" column="5" bodyfile="src/account/IMigrationStep.hpp" bodystart="22" bodyend="84"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IMigrationStep.hpp" bodystart="22" bodyend="84"/>
     <listofallmembers>
       <member refid="d5/d0d/classsgns_1_1_i_migration_step_1a0a60894e92278118529757890a8864ac" prot="public" virt="pure-virtual"><scope>sgns::IMigrationStep</scope><name>Apply</name></member>
       <member refid="d5/d0d/classsgns_1_1_i_migration_step_1a4d51d8781733028f8b190e8c8f98698e" prot="public" virt="pure-virtual"><scope>sgns::IMigrationStep</scope><name>FromVersion</name></member>

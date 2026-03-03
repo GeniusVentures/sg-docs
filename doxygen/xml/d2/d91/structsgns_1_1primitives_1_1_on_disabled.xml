@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/scheduled_change.hpp" line="33" column="14" bodyfile="src/primitives/scheduled_change.hpp" bodystart="33" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="33" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -30,7 +30,7 @@
         <link refid="d2/d91/structsgns_1_1primitives_1_1_on_disabled"/>
       </node>
     </collaborationgraph>
-    <location file="src/primitives/scheduled_change.hpp" line="32" column="3" bodyfile="src/primitives/scheduled_change.hpp" bodystart="32" bodyend="34"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" line="32" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp" bodystart="32" bodyend="34"/>
     <listofallmembers>
       <member refid="d2/d91/structsgns_1_1primitives_1_1_on_disabled_1a24e4c4508d8a6b7b3a47bafcf9eb8673" prot="public" virt="non-virtual"><scope>sgns::primitives::OnDisabled</scope><name>authority_index</name></member>
     </listofallmembers>

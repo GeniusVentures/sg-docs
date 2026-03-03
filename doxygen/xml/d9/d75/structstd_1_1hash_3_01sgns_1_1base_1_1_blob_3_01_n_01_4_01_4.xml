@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/base/blob.hpp" line="223" column="8" bodyfile="src/base/blob.hpp" bodystart="223" bodyend="225"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="223" column="8" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="223" bodyend="225"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -40,7 +40,7 @@
         <link refid="d9/d75/structstd_1_1hash_3_01sgns_1_1base_1_1_blob_3_01_n_01_4_01_4"/>
       </node>
     </collaborationgraph>
-    <location file="src/base/blob.hpp" line="222" column="1" bodyfile="src/base/blob.hpp" bodystart="222" bodyend="226"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" line="222" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/blob.hpp" bodystart="222" bodyend="226"/>
     <listofallmembers>
       <member refid="d9/d75/structstd_1_1hash_3_01sgns_1_1base_1_1_blob_3_01_n_01_4_01_4_1a6acce4ddc04ef4f3e6a4c2dd35483133" prot="public" virt="non-virtual"><scope>std::hash&lt; sgns::base::Blob&lt; N &gt; &gt;</scope><name>operator()</name></member>
     </listofallmembers>

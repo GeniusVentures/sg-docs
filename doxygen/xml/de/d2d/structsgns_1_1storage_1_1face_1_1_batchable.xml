@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/face/batchable.hpp" line="20" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/face/batchable.hpp" line="20" column="13"/>
       </memberdef>
       <memberdef kind="function" id="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable_1af8f2ceafd524ec1a2180b3694f541fda" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::unique_ptr&lt; <ref refid="d9/d69/structsgns_1_1storage_1_1face_1_1_write_batch" kindref="compound">WriteBatch</ref>&lt; K, V &gt; &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/face/batchable.hpp" line="26" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/face/batchable.hpp" line="26" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -136,7 +136,7 @@
         <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
       </node>
     </collaborationgraph>
-    <location file="src/storage/face/batchable.hpp" line="19" column="3" bodyfile="src/storage/face/batchable.hpp" bodystart="19" bodyend="27"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/face/batchable.hpp" line="19" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/face/batchable.hpp" bodystart="19" bodyend="27"/>
     <listofallmembers>
       <member refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable_1af8f2ceafd524ec1a2180b3694f541fda" prot="public" virt="pure-virtual"><scope>sgns::storage::face::Batchable</scope><name>batch</name></member>
       <member refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable_1a09ef385308b209ab00cf72ed42897e01" prot="public" virt="virtual"><scope>sgns::storage::face::Batchable</scope><name>~Batchable</name></member>

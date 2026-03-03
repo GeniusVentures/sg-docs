@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_3732e728a021c163ebf541d6bbf896a7" kind="dir">
-    <compoundname>src/crdt/impl</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl</compoundname>
     <innerfile refid="d3/db3/atomic__transaction_8cpp">atomic_transaction.cpp</innerfile>
     <innerfile refid="d2/d51/crdt__callback__manager_8cpp">crdt_callback_manager.cpp</innerfile>
     <innerfile refid="d0/df2/crdt__data__filter_8cpp">crdt_data_filter.cpp</innerfile>
@@ -14,6 +14,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/crdt/impl/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/"/>
   </compounddef>
 </doxygen>

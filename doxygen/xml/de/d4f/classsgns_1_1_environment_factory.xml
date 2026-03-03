@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="de/d4f/classsgns_1_1_environment_factory" kind="class" language="C++" prot="public">
+    <compoundname>sgns::EnvironmentFactory</compoundname>
+    <includes refid="d8/db8/_environment_factory_8hpp" local="no">EnvironmentFactory.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d4f/classsgns_1_1_environment_factory_1ae6bba00ee1d824007ba26e19e158d7da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; verification::finality::Environment &gt;</type>
+        <definition>std::shared_ptr&lt; verification::finality::Environment &gt; sgns::EnvironmentFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>sgns::EnvironmentFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" line="21" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" bodystart="21" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::EnvironmentFactory</label>
+        <link refid="de/d4f/classsgns_1_1_environment_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp" bodystart="19" bodyend="52"/>
+    <listofallmembers>
+      <member refid="de/d4f/classsgns_1_1_environment_factory_1ae6bba00ee1d824007ba26e19e158d7da" prot="public" virt="non-virtual"><scope>sgns::EnvironmentFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

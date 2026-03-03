@@ -123,7 +123,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/storage/in_memory/in_memory_storage.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</label>
         <link refid="d2/dba/in__memory__storage_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -239,6 +239,6 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::storage</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/storage/in_memory/in_memory_storage.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp"/>
   </compounddef>
 </doxygen>

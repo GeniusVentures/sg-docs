@@ -65,7 +65,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/primitives/inherent_data.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp</label>
         <link refid="dc/d77/inherent__data_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/inherent_data.cpp" line="5" column="1" bodyfile="src/primitives/inherent_data.cpp" bodystart="5" bodyend="14"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp" line="5" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp" bodystart="5" bodyend="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -311,6 +311,6 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::primitives</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/primitives/inherent_data.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/inherent_data.cpp"/>
   </compounddef>
 </doxygen>

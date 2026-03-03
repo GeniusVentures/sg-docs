@@ -3,10 +3,10 @@
   <compounddef id="d9/d19/api_2transport_2error_8hpp" kind="file" language="C++">
     <compoundname>error.hpp</compoundname>
     <includes refid="d5/dda/outcome_8hpp" local="yes">outcome/outcome.hpp</includes>
-    <includedby refid="db/d9c/api_2transport_2error_8cpp" local="yes">src/api/transport/error.cpp</includedby>
+    <includedby refid="db/d9c/api_2transport_2error_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/api/transport/error.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.hpp</label>
         <link refid="d9/d19/api_2transport_2error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -23,11 +23,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/api/transport/error.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.cpp</label>
         <link refid="db/d9c/api_2transport_2error_8cpp"/>
       </node>
       <node id="1">
-        <label>src/api/transport/error.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.hpp</label>
         <link refid="d9/d19/api_2transport_2error_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/api/transport/error.hpp" line="8" column="3" bodyfile="src/api/transport/error.hpp" bodystart="8" bodyend="15"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.hpp" line="8" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.hpp" bodystart="8" bodyend="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -104,6 +104,6 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_API_TRANSPORT_ERROR_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/api/transport/error.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/error.hpp"/>
   </compounddef>
 </doxygen>

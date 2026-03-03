@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dir_ae905a330a0f3d18f6454c2639316e83" kind="dir">
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util</compoundname>
+    <innerfile refid="db/d20/_input_types_8hpp">InputTypes.hpp</innerfile>
+    <innerfile refid="d7/d6b/sgprocmgr-logger_8hpp">sgprocmgr-logger.hpp</innerfile>
+    <innerfile refid="d8/d69/_s_g_processing_manager_2include_2util_2sha256_8hpp">sha256.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/"/>
+  </compounddef>
+</doxygen>

@@ -3,8 +3,8 @@
   <compounddef id="d4/de0/session__key_8hpp" kind="file" language="C++">
     <compoundname>session_key.hpp</compoundname>
     <includes refid="d4/d16/blob_8hpp" local="yes">base/blob.hpp</includes>
-    <includedby refid="d2/d45/authority_8hpp" local="yes">src/primitives/authority.hpp</includedby>
-    <includedby refid="d7/d22/finality__api_8hpp" local="yes">src/runtime/finality_api.hpp</includedby>
+    <includedby refid="d2/d45/authority_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp</includedby>
+    <includedby refid="d7/d22/finality__api_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/finality_api.hpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>base/blob.hpp</label>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/primitives/session_key.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp</label>
         <link refid="d4/de0/session__key_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -70,85 +70,119 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="10">
-        <label>src/blockchain/block_header_repository.hpp</label>
-        <link refid="d6/d4c/block__header__repository_8hpp"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+      <node id="6">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityManagerFactory.hpp</label>
+        <link refid="db/db0/_authority_manager_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="22">
-        <label>src/blockchain/block_storage.hpp</label>
-        <link refid="d4/d5d/block__storage_8hpp"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>src/blockchain/block_tree.hpp</label>
-        <link refid="d2/d0a/block__tree_8hpp"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>src/blockchain/impl/block_header_repository.cpp</label>
-        <link refid="df/d2c/block__header__repository_8cpp"/>
-      </node>
-      <node id="13">
-        <label>src/blockchain/impl/block_tree_impl.cpp</label>
-        <link refid="d5/df4/block__tree__impl_8cpp"/>
-      </node>
-      <node id="12">
-        <label>src/blockchain/impl/block_tree_impl.hpp</label>
-        <link refid="d7/d87/block__tree__impl_8hpp"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>src/blockchain/impl/key_value_block_header_repository.cpp</label>
-        <link refid="de/d1b/key__value__block__header__repository_8cpp"/>
-      </node>
-      <node id="14">
-        <label>src/blockchain/impl/key_value_block_header_repository.hpp</label>
-        <link refid="dd/dc6/key__value__block__header__repository_8hpp"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
+      <node id="39">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AuthorityUpdateObserverFactory.hpp</label>
+        <link refid="d4/d12/_authority_update_observer_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="17">
-        <label>src/blockchain/impl/key_value_block_storage.cpp</label>
-        <link refid="de/de9/key__value__block__storage_8cpp"/>
-      </node>
-      <node id="16">
-        <label>src/blockchain/impl/key_value_block_storage.hpp</label>
-        <link refid="d4/d6b/key__value__block__storage_8hpp"/>
-        <childnode refid="17" relation="include">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockBuilderManager.hpp</label>
+        <link refid="de/d1c/_block_builder_manager_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>src/primitives/authority.hpp</label>
-        <link refid="d2/d45/authority_8hpp"/>
-        <childnode refid="3" relation="include">
+      <node id="7">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockExecutorFactory.hpp</label>
+        <link refid="d3/db2/_block_executor_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+      </node>
+      <node id="29">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockHeaderRepositoryFactory.hpp</label>
+        <link refid="d2/d12/_block_header_repository_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp</label>
+        <link refid="dd/d97/_block_storage_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+      </node>
+      <node id="18">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockTreeFactory.hpp</label>
+        <link refid="d1/d14/_block_tree_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+      </node>
+      <node id="40">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockValidatorFactory.hpp</label>
+        <link refid="d2/d92/_block_validator_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ChainApiFactory.hpp</label>
+        <link refid="d4/d85/_chain_api_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/EnvironmentFactory.hpp</label>
+        <link refid="d8/db8/_environment_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionConfigurationFactory.hpp</label>
+        <link refid="d1/d2f/_production_configuration_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionFactory.hpp</label>
+        <link refid="dc/d0c/_production_factory_8hpp"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="21">
-        <label>src/primitives/block.hpp</label>
-        <link refid="d9/db2/block_8hpp"/>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionSynchronizerFactory.hpp</label>
+        <link refid="d0/d1c/_production_synchronizer_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/StateApiFactory.hpp</label>
+        <link refid="d6/d59/_state_api_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp</label>
+        <link refid="df/d76/_system_api_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp</label>
+        <link refid="d4/d08/_transcation_pool_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_header_repository.hpp</label>
+        <link refid="d6/d4c/block__header__repository_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
         <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
@@ -157,149 +191,271 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-      </node>
-      <node id="24">
-        <label>src/primitives/block_data.hpp</label>
-        <link refid="d1/dce/block__data_8hpp"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>src/primitives/block_header.hpp</label>
-        <link refid="d7/d72/block__header_8hpp"/>
-        <childnode refid="10" relation="include">
+      <node id="37">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_storage.hpp</label>
+        <link refid="d4/d5d/block__storage_8hpp"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>src/primitives/digest.hpp</label>
-        <link refid="df/dbf/digest_8hpp"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>src/primitives/production_configuration.hpp</label>
-        <link refid="d6/d2c/production__configuration_8hpp"/>
-        <childnode refid="4" relation="include">
+      <node id="38">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/block_tree.hpp</label>
+        <link refid="d2/d0a/block__tree_8hpp"/>
+        <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="7">
-        <label>src/primitives/scheduled_change.hpp</label>
-        <link refid="d7/d5f/scheduled__change_8hpp"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="1">
-        <label>src/primitives/session_key.hpp</label>
-        <link refid="d4/de0/session__key_8hpp"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-      </node>
-      <node id="27">
-        <label>src/runtime/binaryen/runtime_api/block_builder_impl.cpp</label>
-        <link refid="d7/d6b/block__builder__impl_8cpp"/>
-      </node>
-      <node id="26">
-        <label>src/runtime/binaryen/runtime_api/block_builder_impl.hpp</label>
-        <link refid="d3/d95/block__builder__impl_8hpp"/>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>src/runtime/binaryen/runtime_api/core_factory_impl.cpp</label>
-        <link refid="de/d5e/core__factory__impl_8cpp"/>
-      </node>
-      <node id="30">
-        <label>src/runtime/binaryen/runtime_api/core_factory_impl.hpp</label>
-        <link refid="d7/de4/core__factory__impl_8hpp"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="20">
-        <label>src/runtime/binaryen/runtime_api/core_impl.cpp</label>
-        <link refid="dc/d7c/core__impl_8cpp"/>
-      </node>
-      <node id="18">
-        <label>src/runtime/binaryen/runtime_api/core_impl.hpp</label>
-        <link refid="d7/dbc/core__impl_8hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-      </node>
-      <node id="33">
-        <label>src/runtime/binaryen/runtime_api/finality_api_impl.cpp</label>
-        <link refid="dc/def/finality__api__impl_8cpp"/>
-      </node>
-      <node id="32">
-        <label>src/runtime/binaryen/runtime_api/finality_api_impl.hpp</label>
-        <link refid="db/dad/finality__api__impl_8hpp"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>src/runtime/binaryen/runtime_api/production_api_impl.cpp</label>
-        <link refid="d3/d02/production__api__impl_8cpp"/>
-      </node>
-      <node id="5">
-        <label>src/runtime/binaryen/runtime_api/production_api_impl.hpp</label>
-        <link refid="d1/d6a/production__api__impl_8hpp"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-      </node>
-      <node id="25">
-        <label>src/runtime/block_builder.hpp</label>
-        <link refid="d7/d89/block__builder_8hpp"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="28">
-        <label>src/runtime/core.hpp</label>
-        <link refid="da/d47/core_8hpp"/>
+      <node id="25">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_header_repository.cpp</label>
+        <link refid="df/d2c/block__header__repository_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.cpp</label>
+        <link refid="d5/df4/block__tree__impl_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/block_tree_impl.hpp</label>
+        <link refid="d7/d87/block__tree__impl_8hpp"/>
         <childnode refid="18" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_header_repository.cpp</label>
+        <link refid="de/d1b/key__value__block__header__repository_8cpp"/>
+      </node>
+      <node id="28">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_header_repository.hpp</label>
+        <link refid="dd/dc6/key__value__block__header__repository_8hpp"/>
         <childnode refid="29" relation="include">
         </childnode>
-      </node>
-      <node id="29">
-        <label>src/runtime/core_factory.hpp</label>
-        <link refid="da/d13/core__factory_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
-      </node>
-      <node id="35">
-        <label>src/runtime/dummy/finality_api_dummy.cpp</label>
-        <link refid="d0/d07/finality__api__dummy_8cpp"/>
-      </node>
-      <node id="34">
-        <label>src/runtime/dummy/finality_api_dummy.hpp</label>
-        <link refid="d5/d14/finality__api__dummy_8hpp"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
+      </node>
+      <node id="32">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.cpp</label>
+        <link refid="de/de9/key__value__block__storage_8cpp"/>
       </node>
       <node id="31">
-        <label>src/runtime/finality_api.hpp</label>
-        <link refid="d7/d22/finality__api_8hpp"/>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/key_value_block_storage.hpp</label>
+        <link refid="d4/d6b/key__value__block__storage_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="32" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/authority.hpp</label>
+        <link refid="d2/d45/authority_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block.hpp</label>
+        <link refid="d9/db2/block_8hpp"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_data.hpp</label>
+        <link refid="d1/dce/block__data_8hpp"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/block_header.hpp</label>
+        <link refid="d7/d72/block__header_8hpp"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/digest.hpp</label>
+        <link refid="df/dbf/digest_8hpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/production_configuration.hpp</label>
+        <link refid="d6/d2c/production__configuration_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/scheduled_change.hpp</label>
+        <link refid="d7/d5f/scheduled__change_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp</label>
+        <link refid="d4/de0/session__key_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/block_builder_impl.cpp</label>
+        <link refid="d7/d6b/block__builder__impl_8cpp"/>
+      </node>
+      <node id="43">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/block_builder_impl.hpp</label>
+        <link refid="d3/d95/block__builder__impl_8hpp"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.cpp</label>
+        <link refid="de/d5e/core__factory__impl_8cpp"/>
+      </node>
+      <node id="47">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp</label>
+        <link refid="d7/de4/core__factory__impl_8hpp"/>
         <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>src/runtime/production_api.hpp</label>
+      <node id="35">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.cpp</label>
+        <link refid="dc/d7c/core__impl_8cpp"/>
+      </node>
+      <node id="33">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_impl.hpp</label>
+        <link refid="d7/dbc/core__impl_8hpp"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/finality_api_impl.cpp</label>
+        <link refid="dc/def/finality__api__impl_8cpp"/>
+      </node>
+      <node id="49">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/finality_api_impl.hpp</label>
+        <link refid="db/dad/finality__api__impl_8hpp"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/production_api_impl.cpp</label>
+        <link refid="d3/d02/production__api__impl_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/production_api_impl.hpp</label>
+        <link refid="d1/d6a/production__api__impl_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/block_builder.hpp</label>
+        <link refid="d7/d89/block__builder_8hpp"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp</label>
+        <link refid="da/d47/core_8hpp"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core_factory.hpp</label>
+        <link refid="da/d13/core__factory_8hpp"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy/finality_api_dummy.cpp</label>
+        <link refid="d0/d07/finality__api__dummy_8cpp"/>
+      </node>
+      <node id="51">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy/finality_api_dummy.hpp</label>
+        <link refid="d5/d14/finality__api__dummy_8hpp"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/finality_api.hpp</label>
+        <link refid="d7/d22/finality__api_8hpp"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/production_api.hpp</label>
         <link refid="d8/dec/production__api_8hpp"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -318,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/session_key.hpp" line="10" column="3" bodyfile="src/primitives/session_key.hpp" bodystart="10" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp" bodystart="10" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -340,6 +496,6 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_PRIMITIVES_SESSION_KEY_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/primitives/session_key.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/session_key.hpp"/>
   </compounddef>
 </doxygen>

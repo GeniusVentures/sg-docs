@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_ed1257bb0a434f54075cc5c1cfe1a20f" kind="dir">
-    <compoundname>node</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node</compoundname>
     <innerfile refid="d5/df0/app__delegate_8cpp">app_delegate.cpp</innerfile>
     <innerfile refid="d7/d49/app__delegate_8hpp">app_delegate.hpp</innerfile>
     <innerfile refid="dd/d48/cli_8cpp">cli.cpp</innerfile>
@@ -30,6 +30,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="node/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/"/>
   </compounddef>
 </doxygen>

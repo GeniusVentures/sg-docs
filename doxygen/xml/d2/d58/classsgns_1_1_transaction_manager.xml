@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="51" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="52" bodyend="57"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="51" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="52" bodyend="57"/>
       </memberdef>
       <memberdef kind="enum" id="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="67" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="68" bodyend="75"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="67" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="68" bodyend="75"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d58/classsgns_1_1_transaction_manager_1a52f6ee4ef4b440266baed4ec6c7dcad0" prot="public" static="no">
         <type>std::pair&lt; std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt;, std::optional&lt; std::vector&lt; uint8_t &gt; &gt; &gt;</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="59" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="59" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="59" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d58/classsgns_1_1_transaction_manager_1a94f34935532a14415253b1d063122d13" prot="public" static="no">
         <type>std::vector&lt; <ref refid="d2/d58/classsgns_1_1_transaction_manager_1a52f6ee4ef4b440266baed4ec6c7dcad0" kindref="member">TransactionPair</ref> &gt;</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="60" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="60" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="60" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d58/classsgns_1_1_transaction_manager_1ae021b9c1ef26a6b4d22c4dd60c00a939" prot="public" static="no">
         <type>std::pair&lt; <ref refid="d2/d58/classsgns_1_1_transaction_manager_1a94f34935532a14415253b1d063122d13" kindref="member">TransactionBatch</ref>, std::optional&lt; std::shared_ptr&lt; <ref refid="d8/da6/classsgns_1_1crdt_1_1_atomic_transaction" kindref="compound">crdt::AtomicTransaction</ref> &gt; &gt; &gt;</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="61" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="61" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="61" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" prot="public" static="no">
         <type>std::function&lt; void(const <ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref> &amp;previous, const <ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref> &amp;current)&gt;</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="62" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="62" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="62" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="62" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-type">
@@ -184,7 +184,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="208" column="9" bodyfile="src/account/TransactionManager.hpp" bodystart="208" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="208" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="208" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -201,7 +201,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="43" column="43" bodyfile="src/account/TransactionManager.hpp" bodystart="43" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="43" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a5009bbac202cca06f1c5b2335155f6e3" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>std::string_view</type>
@@ -216,7 +216,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="44" column="43" bodyfile="src/account/TransactionManager.hpp" bodystart="44" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="44" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a4bce899413e008d0a30efdc156cb8f0c" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -233,7 +233,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="45" column="43" bodyfile="src/account/TransactionManager.hpp" bodystart="45" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="45" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -252,7 +252,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="188" column="22" bodyfile="src/account/TransactionManager.hpp" bodystart="188" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="188" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="188" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -269,7 +269,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="196" column="43" bodyfile="src/account/TransactionManager.hpp" bodystart="196" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="196" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ac409800636e2a0c11373c27f49925ae2" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::minutes</type>
@@ -284,7 +284,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="267" column="47" bodyfile="src/account/TransactionManager.hpp" bodystart="267" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="267" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a2422451c21c25dd8c45653dee8c92a37" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::seconds</type>
@@ -299,7 +299,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="268" column="47" bodyfile="src/account/TransactionManager.hpp" bodystart="268" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="268" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="268" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ab4e0be54f7435398eb07f61aad9e7237" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::milliseconds</type>
@@ -314,7 +314,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="289" column="52" bodyfile="src/account/TransactionManager.hpp" bodystart="289" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="289" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a4102e982efb611ed3be78e13504ba169" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>std::chrono::milliseconds</type>
@@ -329,7 +329,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="290" column="52" bodyfile="src/account/TransactionManager.hpp" bodystart="290" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="290" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a7342666b69c2e5b10bc0ac59fe3067c0" prot="private" static="yes" mutable="no">
         <type>const std::unordered_map&lt; std::string, std::pair&lt; <ref refid="d2/d58/classsgns_1_1_transaction_manager_1a086b45bb47177d280c45d55700e491ee" kindref="member">TransactionParserFn</ref>, <ref refid="d2/d58/classsgns_1_1_transaction_manager_1a086b45bb47177d280c45d55700e491ee" kindref="member">TransactionParserFn</ref> &gt; &gt;</type>
@@ -352,7 +352,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="312" column="13" bodyfile="src/account/TransactionManager.hpp" bodystart="312" bodyend="320"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="312" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="312" bodyend="320"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -368,7 +368,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="246" column="25" bodyfile="src/account/TransactionManager.hpp" bodystart="246" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="246" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="246" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a84288f30c632402e60fa75975e0b4d32" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; boost::asio::io_context &gt;</type>
@@ -382,7 +382,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="248" column="25" bodyfile="src/account/TransactionManager.hpp" bodystart="248" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="248" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="248" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a90a00f365923ac08151efbc7a66324e1" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account" kindref="compound">GeniusAccount</ref> &gt;</type>
@@ -396,7 +396,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="249" column="35" bodyfile="src/account/TransactionManager.hpp" bodystart="249" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="249" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="249" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a86a5c1b08177c865b213f893e2e28509" prot="private" static="no" mutable="no">
         <type><ref refid="d0/dac/classsgns_1_1_u_t_x_o_manager" kindref="compound">UTXOManager</ref> &amp;</type>
@@ -410,7 +410,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="250" column="49" bodyfile="src/account/TransactionManager.hpp" bodystart="250" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="250" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="250" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a1b8055721bae3e9461975cca8eeb815e" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dd/d14/classsgns_1_1crypto_1_1_hasher" kindref="compound">crypto::Hasher</ref> &gt;</type>
@@ -424,7 +424,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="251" column="34" bodyfile="src/account/TransactionManager.hpp" bodystart="251" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="251" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="251" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a173f73882058236ea17d08f86d285db8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -438,7 +438,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="252" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="252" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="252" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="252" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ac46a13a4aa18ed91fb3759d1480b059d" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -453,7 +453,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="253" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="253" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="253" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="253" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a3bccb665042436e542ac97f5290b4410" prot="private" static="no" mutable="no">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref></type>
@@ -467,7 +467,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="255" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="255" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="255" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="255" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a221d63165e889d597988d85ba40f5c9e" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -481,7 +481,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="256" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="256" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="256" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="256" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1af81911705a3f86da7e7c1b5af0529941" prot="private" static="no" mutable="no">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a54d68b9760cf8487d946a18d47106602" kindref="member">StateChangeCallback</ref></type>
@@ -495,7 +495,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="257" column="50" bodyfile="src/account/TransactionManager.hpp" bodystart="257" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="257" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="257" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1adba1ed72dda4abded5bd22b05a1d6ae2" prot="private" static="no" mutable="no">
         <type>std::optional&lt; std::chrono::steady_clock::time_point &gt;</type>
@@ -509,7 +509,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="260" column="23" bodyfile="src/account/TransactionManager.hpp" bodystart="260" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="260" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="260" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a4bfbab7876c82794f07f1365d641aabd" prot="private" static="no" mutable="no">
         <type>std::chrono::steady_clock::time_point</type>
@@ -523,7 +523,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="263" column="47" bodyfile="src/account/TransactionManager.hpp" bodystart="263" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="263" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aa772a844f9d53423f7d512cec6504e14" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -539,7 +539,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="264" column="41" bodyfile="src/account/TransactionManager.hpp" bodystart="264" bodyend="265"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="264" column="41" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="264" bodyend="265"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ac22803791fc5630ae04a6e4e4dfbd3e5" prot="private" static="no" mutable="yes">
         <type>std::mutex</type>
@@ -553,7 +553,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="271" column="37" bodyfile="src/account/TransactionManager.hpp" bodystart="271" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="271" column="37" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="271" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aadb0c6c669af98ef0dccd60e436ef64c" prot="private" static="no" mutable="no">
         <type>std::deque&lt; <ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae021b9c1ef26a6b4d22c4dd60c00a939" kindref="member">TransactionItem</ref> &gt;</type>
@@ -567,7 +567,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="272" column="20" bodyfile="src/account/TransactionManager.hpp" bodystart="272" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="272" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="272" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a217681432d941a80d9bd86c9203e25fe" prot="private" static="no" mutable="yes">
         <type>std::shared_mutex</type>
@@ -581,7 +581,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="281" column="52" bodyfile="src/account/TransactionManager.hpp" bodystart="281" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="281" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a6ad7858f66a09b6dfeabc375c404888b" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, <ref refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx" kindref="compound">TrackedTx</ref> &gt;</type>
@@ -595,7 +595,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="282" column="28" bodyfile="src/account/TransactionManager.hpp" bodystart="282" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="282" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aad1683296ea5355ad2647c24dd370057" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; size_t &gt;</type>
@@ -610,7 +610,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="283" column="44" bodyfile="src/account/TransactionManager.hpp" bodystart="283" bodyend="283"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="283" column="44" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="283" bodyend="283"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a3d02574868da50ceef3980f61ac1fd56" prot="private" static="no" mutable="no">
         <type>std::function&lt; void()&gt;</type>
@@ -624,7 +624,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="284" column="44" bodyfile="src/account/TransactionManager.hpp" bodystart="284" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="284" column="44" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="284" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1add4d7ff8b9c3b24a875a09e690a03fa6" prot="private" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -639,7 +639,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="285" column="46" bodyfile="src/account/TransactionManager.hpp" bodystart="285" bodyend="285"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="285" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="285" bodyend="285"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a6855941652517c51376fec5cc0a346e5" prot="private" static="no" mutable="no">
         <type>std::chrono::milliseconds</type>
@@ -653,7 +653,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="286" column="52" bodyfile="src/account/TransactionManager.hpp" bodystart="286" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="286" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a51aca7d706dcce5a39c0a785b30353b9" prot="private" static="no" mutable="no">
         <type>std::chrono::milliseconds</type>
@@ -667,7 +667,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="287" column="52" bodyfile="src/account/TransactionManager.hpp" bodystart="287" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="287" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="287" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a83c19829388c21479356d4ceeda76e0a" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -681,7 +681,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="292" column="60" bodyfile="src/account/TransactionManager.hpp" bodystart="292" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="292" column="60" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1a4139eaf0c42f905d05688691a6b83d05" prot="private" static="no" mutable="no">
         <type>std::condition_variable</type>
@@ -695,7 +695,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="293" column="60" bodyfile="src/account/TransactionManager.hpp" bodystart="293" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="293" column="60" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ab893e6c991b003445b359feb39008a3c" prot="private" static="no" mutable="no">
         <type>std::queue&lt; <ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager_1a6d7c2728bb59cdef78288ab0989fbcda" kindref="member">crdt::CRDTCallbackManager::NewDataPair</ref> &gt;</type>
@@ -709,7 +709,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="294" column="20" bodyfile="src/account/TransactionManager.hpp" bodystart="294" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="294" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aedcc290867fbffbe3ce12e0534dbcd6d" prot="private" static="no" mutable="no">
         <type>std::queue&lt; std::string &gt;</type>
@@ -723,7 +723,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="295" column="47" bodyfile="src/account/TransactionManager.hpp" bodystart="295" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="295" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aa71dbfb8b290a685ae625c55faf16588" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -737,7 +737,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="296" column="60" bodyfile="src/account/TransactionManager.hpp" bodystart="296" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="296" column="60" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ac3ad27c794be47311b053bf0f7cd0512" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -751,7 +751,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="297" column="60" bodyfile="src/account/TransactionManager.hpp" bodystart="297" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="297" column="60" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1aafcc3fe31675946f9e4f6d65ead1e632" prot="private" static="no" mutable="no">
         <type>std::chrono::steady_clock::time_point</type>
@@ -765,7 +765,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="299" column="47" bodyfile="src/account/TransactionManager.hpp" bodystart="299" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="299" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="299" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d58/classsgns_1_1_transaction_manager_1ad6c3b99e9baeb2a46ec2bb2358716df8" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -780,7 +780,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="322" column="22" bodyfile="src/account/TransactionManager.hpp" bodystart="322" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="322" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="322" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -906,7 +906,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="92" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="34" bodyend="103"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="92" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="34" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a0348f93a698c70b0ee8e365f90fc0ce3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -928,7 +928,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="134" column="28" bodyfile="src/account/TransactionManager.cpp" bodystart="921" bodyend="924"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="134" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="921" bodyend="924"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aedf9a1620f38aa982293c307f9585fed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -946,7 +946,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="135" column="28" bodyfile="src/account/TransactionManager.cpp" bodystart="926" bodyend="929"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="135" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="926" bodyend="929"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1abacbb6bb0f5f2c9edcc4640cf94ad1af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -964,7 +964,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="136" column="28" bodyfile="src/account/TransactionManager.cpp" bodystart="931" bodyend="934"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="136" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="931" bodyend="934"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a58a1d031a579ec57fc1b93913bec699f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -982,7 +982,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="138" column="28" bodyfile="src/account/TransactionManager.cpp" bodystart="936" bodyend="941"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="138" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="936" bodyend="941"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a64ae4bac55ce19a396af8c3b3ebc1dd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt; &gt;</type>
@@ -1004,7 +1004,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="139" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="1054" bodyend="1061"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="139" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1054" bodyend="1061"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a09da7bdef59d0779850dfdb88b7a1aad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt; &gt;</type>
@@ -1022,7 +1022,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="142" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="1063" bodyend="1076"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="142" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1063" bodyend="1076"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a3a4f96596f6b1fd47ea1898e8e04a9a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -1040,7 +1040,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="164" column="28" bodyfile="src/account/TransactionManager.hpp" bodystart="164" bodyend="179"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="164" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="164" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ad163f00c6761872b844ef9e181382590" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -1058,7 +1058,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="181" column="28" bodyfile="src/account/TransactionManager.cpp" bodystart="954" bodyend="961"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="181" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="954" bodyend="961"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -1074,7 +1074,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="102" column="9" bodyfile="src/account/TransactionManager.cpp" bodystart="128" bodyend="134"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="102" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="128" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1af37a65669a15af077a27ed04c9bccca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1088,7 +1088,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="104" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="146" bodyend="242"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="104" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="146" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aae3eb7a82ce808c0bea47dac29246855" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1102,7 +1102,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="105" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="470" bodyend="476"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="105" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="470" bodyend="476"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a064d1a1ab91d1b9eb2ea913d869fb0f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="dc/d64/classsgns_1_1_genius_account" kindref="compound">GeniusAccount</ref> &amp;</type>
@@ -1116,7 +1116,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="107" column="29" bodyfile="src/account/TransactionManager.cpp" bodystart="478" bodyend="481"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="107" column="29" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="478" bodyend="481"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a7ee2085f92f7904122fec9dd52d3d073" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -1130,7 +1130,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="109" column="21" bodyfile="src/account/TransactionManager.cpp" bodystart="1424" bodyend="1439"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="109" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1424" bodyend="1439"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aea864e313ebf2129291e2eaa00be47b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -1144,7 +1144,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="110" column="21" bodyfile="src/account/TransactionManager.cpp" bodystart="1441" bodyend="1456"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="110" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1441" bodyend="1456"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a983f46cbc54cd9eed850be1fa42f6c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -1170,7 +1170,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="112" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="483" bodyend="504"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="112" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="483" bodyend="504"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aa56d9d9b3080155ba66556e18a74b73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -1200,7 +1200,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="113" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="506" bodyend="529"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="113" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="506" bodyend="529"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1afa489136d7f11005a502637bb6944a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::pair&lt; std::string, <ref refid="d2/d2b/namespacesgns_1a1d57454b26de7668d4a7d1d83b6badfb" kindref="member">EscrowDataPair</ref> &gt; &gt;</type>
@@ -1230,7 +1230,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="117" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="531" bodyend="565"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="117" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="531" bodyend="565"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aad1caa5c5623cde2f2a5ad89393465cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -1256,7 +1256,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="121" column="52" bodyfile="src/account/TransactionManager.cpp" bodystart="567" bodyend="653"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="121" column="52" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="567" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a4a09283039d3d3474de7ef79289f86c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -1278,7 +1278,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="126" column="27" bodyfile="src/account/TransactionManager.cpp" bodystart="1458" bodyend="1489"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="126" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1458" bodyend="1489"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ae07a68ca944eed1942e4ab1f7ab0e8d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -1300,7 +1300,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="129" column="27" bodyfile="src/account/TransactionManager.cpp" bodystart="1491" bodyend="1541"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="129" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1491" bodyend="1541"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a8218f630c764a50a992acd2e09899657" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -1322,7 +1322,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="131" column="27" bodyfile="src/account/TransactionManager.cpp" bodystart="1543" bodyend="1587"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="131" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1543" bodyend="1587"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a16137402d0df51655fe4d3af671349ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1ae1c7b5d9998c6e25fd2b0bdb318ed37e" kindref="member">State</ref></type>
@@ -1336,7 +1336,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="145" column="15" bodyfile="src/account/TransactionManager.hpp" bodystart="145" bodyend="148"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="145" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="145" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aa1f0125b70d00f7d08b211b4c0d68630" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -1354,7 +1354,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="150" column="27" bodyfile="src/account/TransactionManager.cpp" bodystart="1914" bodyend="1925"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="150" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1914" bodyend="1925"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1af6af4dadecdb6f7a121f9ffd7c868055" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionStatus</ref></type>
@@ -1372,7 +1372,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="151" column="27" bodyfile="src/account/TransactionManager.cpp" bodystart="1927" bodyend="1938"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="151" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1927" bodyend="1938"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1acb11ba9257397df12c6ede02bdc46c7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt; &gt;</type>
@@ -1390,7 +1390,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="153" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2651" bodyend="2661"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="153" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2651" bodyend="2661"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ac95d479364ccc1f0980fa174a7678b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1405,7 +1405,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="159" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="136" bodyend="144"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="159" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="136" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a03849780785c6a3c06acd4d91971bde2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1423,7 +1423,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="161" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2618" bodyend="2622"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="161" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2618" bodyend="2622"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a046cbd3eb8e70c419f0eb5639648040f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1437,7 +1437,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="162" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2624" bodyend="2628"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="162" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2624" bodyend="2628"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a3956432163c992ca8e67a636e8ecbad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1451,7 +1451,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="183" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1095" bodyend="1136"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="183" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1095" bodyend="1136"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a6050dcf5da7a070791ab0f464eeb58fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1474,7 +1474,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="184" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1138" bodyend="1209"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="184" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1138" bodyend="1209"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -1494,7 +1494,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="189" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="676" bodyend="679"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="189" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="676" bodyend="679"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1af9bba476bee6d10b28dce5226b0a41d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1512,7 +1512,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="190" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="655" bodyend="674"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="190" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="655" bodyend="674"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a6c662444e306816c24bc8f01a1ef2d6f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1530,7 +1530,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="192" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2385" bodyend="2393"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="192" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2385" bodyend="2393"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aae633285fcd98110bf25b036f9f4985d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1548,7 +1548,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="193" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2395" bodyend="2403"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="193" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2395" bodyend="2403"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1596,7 +1596,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="198" column="9" bodyfile="src/account/TransactionManager.cpp" bodystart="105" bodyend="126"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="198" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="105" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a022f2fe8fe4cb50e684d562216cc9017" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>SGTransaction::DAGStruct</type>
@@ -1615,7 +1615,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="211" column="55" bodyfile="src/account/TransactionManager.cpp" bodystart="682" bodyend="696"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="211" column="55" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="682" bodyend="696"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aa60f562617468782c43650997614c3f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::unordered_set&lt; uint64_t &gt; &gt;</type>
@@ -1633,7 +1633,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="212" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="698" bodyend="838"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="212" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="698" bodyend="838"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a847358ccc8a01bd6c6649ac91d3195a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1647,7 +1647,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="213" column="49" bodyfile="src/account/TransactionManager.cpp" bodystart="1986" bodyend="2080"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="213" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1986" bodyend="2080"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a31cb482c00031fc0a9106815a29e74a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1665,7 +1665,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="214" column="49" bodyfile="src/account/TransactionManager.cpp" bodystart="840" bodyend="919"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="214" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="840" bodyend="919"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a68dfc8752ac083fe1afb807693dc11f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -1683,7 +1683,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="224" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1078" bodyend="1093"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="224" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1078" bodyend="1093"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ab9f6ab28cee46ff43525606bd013d528" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1701,7 +1701,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="225" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1026" bodyend="1038"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="225" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1026" bodyend="1038"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a93a62b127c6731ba7137841404c61f79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1719,7 +1719,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="226" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1040" bodyend="1052"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="226" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1040" bodyend="1052"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a606fb5077049ed6cfda90c771793244c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1737,7 +1737,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="228" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="1589" bodyend="1639"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="228" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1589" bodyend="1639"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a161e748cccf26731f4c44a8828f0e834" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1751,7 +1751,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="229" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="1641" bodyend="1716"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="229" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1641" bodyend="1716"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ae0be63abf8c603c7cd72ff4735c5cd49" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1766,7 +1766,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="234" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="1718" bodyend="1762"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="234" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1718" bodyend="1762"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aca57ed9229d6ff6e9bd61de19046d06b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -1784,7 +1784,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="236" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1764" bodyend="1846"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="236" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1764" bodyend="1846"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a67ae4ee303d30c7dd8c539b52d153aaa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1806,7 +1806,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="238" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1848" bodyend="1873"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="238" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1848" bodyend="1873"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a43d83e31a5aa61bc73157fa1f9023c18" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt;</type>
@@ -1824,7 +1824,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="239" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1875" bodyend="1879"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="239" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1875" bodyend="1879"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1acb854adb5faba1aa82c4c88c1d1919da" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt;</type>
@@ -1842,7 +1842,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="240" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1881" bodyend="1897"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="240" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1881" bodyend="1897"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a7b1fd3c6255dffada4d0e3b6b2528a11" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt;</type>
@@ -1864,7 +1864,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="241" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1899" bodyend="1912"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="241" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1899" bodyend="1912"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a1d41f64403a0f58dd19347cca64fa3ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1886,7 +1886,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="244" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="1940" bodyend="1984"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="244" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1940" bodyend="1984"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a2eb4192556e33182cda4f9970be5c9d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1900,7 +1900,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="254" column="50" bodyfile="src/account/TransactionManager.cpp" bodystart="245" bodyend="468"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="254" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="245" bodyend="468"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a76ccf89d468d10556035e89875bd7a88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1918,7 +1918,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="301" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1211" bodyend="1242"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="301" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1211" bodyend="1242"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a977fbb326474b7f61200142db803090b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1936,7 +1936,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="302" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1244" bodyend="1258"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="302" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1244" bodyend="1258"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a110fdcf38771e01d42bff51ac1315a4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1954,7 +1954,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="303" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1260" bodyend="1282"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="303" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1260" bodyend="1282"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ae31bf587cf55879ccb079a93a2803467" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1972,7 +1972,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="304" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1284" bodyend="1304"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="304" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1284" bodyend="1304"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a47fe210dbfb5d42fe79ebf8a64d9129c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1990,7 +1990,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="306" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1306" bodyend="1351"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="306" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1306" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a9aaa4711f01440d08e4c55092c87b9d7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2008,7 +2008,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="307" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1353" bodyend="1367"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="307" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1353" bodyend="1367"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a61cc94d3776814e514e8897fc4911a20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2026,7 +2026,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="308" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1369" bodyend="1400"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="308" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1369" bodyend="1400"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1af9213f3a11439d9aff536ad27160fc2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2044,7 +2044,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="309" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="1402" bodyend="1422"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="309" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1402" bodyend="1422"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a8549e4128d2d1de1a0faaccfa81debe5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -2062,7 +2062,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="324" column="23" bodyfile="src/account/TransactionManager.cpp" bodystart="2082" bodyend="2176"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="324" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2082" bodyend="2176"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a1638a2ff3352c68c35bf9d5dd8f80a99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -2080,7 +2080,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="325" column="23" bodyfile="src/account/TransactionManager.cpp" bodystart="2178" bodyend="2232"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="325" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2178" bodyend="2232"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a38932501da078cccc362df080a9a5b86" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2102,7 +2102,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="327" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2234" bodyend="2301"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="327" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2234" bodyend="2301"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a20f2a6420686e63ca2fdd7e9a1dc8aaa" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -2124,7 +2124,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="331" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2311" bodyend="2335"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="331" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2311" bodyend="2335"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ad5557f773ea393f1af4d8549cdbda30b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int64_t</type>
@@ -2142,7 +2142,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="332" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2337" bodyend="2340"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="332" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2337" bodyend="2340"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1abe64b9da6d6f026ec421d5e22fd26f0e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2160,7 +2160,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="334" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2342" bodyend="2383"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="334" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2342" bodyend="2383"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a253ed4e1368123142fd9c5b8b8c557db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2183,7 +2183,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="336" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2405" bodyend="2451"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="336" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2405" bodyend="2451"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1aae61f05aaa78cc4da8bb3670a8ebe37e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2201,7 +2201,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="338" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2453" bodyend="2529"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="338" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2453" bodyend="2529"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ab8731f78c41dac2f68b410bba66849ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2219,7 +2219,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="340" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2531" bodyend="2548"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="340" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2531" bodyend="2548"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1afa9dbf74bcb11100ed39d4d7358c418d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2237,7 +2237,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="341" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2550" bodyend="2580"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="341" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2550" bodyend="2580"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a42d3c710542b8d7c0939e446ceee4c8c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2255,7 +2255,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="343" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2582" bodyend="2597"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="343" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2582" bodyend="2597"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a8c3264757f37b963c9572a1b1e52307e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2273,7 +2273,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="344" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2599" bodyend="2616"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="344" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2599" bodyend="2616"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a21e0b26dadcbf9915488850eaa90636b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2291,7 +2291,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="346" column="14" bodyfile="src/account/TransactionManager.cpp" bodystart="2630" bodyend="2649"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="346" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2630" bodyend="2649"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -2307,7 +2307,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="216" column="60" bodyfile="src/account/TransactionManager.cpp" bodystart="943" bodyend="952"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="216" column="60" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="943" bodyend="952"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a9bb94c274c833afdde384cb8357cf49c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -2321,7 +2321,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="217" column="70" bodyfile="src/account/TransactionManager.cpp" bodystart="963" bodyend="966"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="217" column="70" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="963" bodyend="966"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a6d03d769f190de69aafda8a8a6c60ead" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d1/d07/classsgns_1_1_i_genius_transactions" kindref="compound">IGeniusTransactions</ref> &gt; &gt;</type>
@@ -2339,7 +2339,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="218" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="1013" bodyend="1024"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="218" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="1013" bodyend="1024"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ae03df057918691f922a4981e8d4d3a4f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -2361,7 +2361,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="220" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="968" bodyend="992"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="220" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="968" bodyend="992"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1a066ecdbc5312ba6481b65ee36be81b91" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -2379,7 +2379,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="222" column="32" bodyfile="src/account/TransactionManager.cpp" bodystart="994" bodyend="1011"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="222" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="994" bodyend="1011"/>
       </memberdef>
       <memberdef kind="function" id="d2/d58/classsgns_1_1_transaction_manager_1ad04766a8145eed270236f97def98ece3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -2393,7 +2393,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="330" column="25" bodyfile="src/account/TransactionManager.cpp" bodystart="2303" bodyend="2309"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="330" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp" bodystart="2303" bodyend="2309"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2425,12 +2425,62 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="133">
+        <label>ECDSAPublicKey</label>
+        <link refid="de/d81/class_e_c_d_s_a_public_key"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+X</edgelabel>
+          <edgelabel>+Y</edgelabel>
+          <edgelabel>-pubkey_used_value</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>+X_vect</edgelabel>
+          <edgelabel>+Y_vect</edgelabel>
+        </childnode>
+      </node>
       <node id="76">
         <label>IComponent</label>
         <link refid="d1/dbf/class_i_component"/>
       </node>
       <node id="20">
         <label>K</label>
+      </node>
+      <node id="136">
+        <label>KeyGenerator::ElGamal</label>
+        <link refid="da/d91/class_key_generator_1_1_el_gamal"/>
+        <childnode refid="137" relation="usage">
+          <edgelabel>-private_key</edgelabel>
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>-public_key</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>-bsgs_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="140">
+        <label>KeyGenerator::ElGamal::Params</label>
+        <link refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params"/>
+      </node>
+      <node id="138">
+        <label>KeyGenerator::ElGamal::PrivateKey</label>
+        <link refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>KeyGenerator::ElGamal::PublicKey</label>
+        <link refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key"/>
+        <childnode refid="140" relation="usage">
+          <edgelabel>+params</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>PrimeNumbers::BabyStepGiantStep</label>
+        <link refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step"/>
+        <childnode refid="144" relation="usage">
+          <edgelabel>-value_table</edgelabel>
+        </childnode>
       </node>
       <node id="10">
         <label>T</label>
@@ -2441,13 +2491,49 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
       <node id="38">
         <label>T2</label>
       </node>
+      <node id="126">
+        <label>ethereum::EthereumKeyGenerator</label>
+        <link refid="dc/dc0/classethereum_1_1_ethereum_key_generator"/>
+        <childnode refid="127" relation="usage">
+          <edgelabel>-privkey</edgelabel>
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>-pubkey</edgelabel>
+        </childnode>
+        <childnode refid="131" relation="usage">
+          <edgelabel>-pubkey_info</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-address</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-ADDRESS_HEADER</edgelabel>
+        </childnode>
+      </node>
+      <node id="132">
+        <label>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</label>
+        <link refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="24">
         <label>ipfs_lite::ipfs::merkledag::MerkleDagService</label>
       </node>
-      <node id="133">
+      <node id="129">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; Scheme, typename &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+      </node>
+      <node id="128">
+        <label>nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt;</label>
+        <link refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key"/>
+        <childnode refid="129" relation="template-instance">
+          <edgelabel>&lt; ethereum::policy_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="151">
         <label>sgns::AccountMessenger</label>
         <link refid="d5/d74/classsgns_1_1_account_messenger"/>
-        <childnode refid="134" relation="public-inheritance">
+        <childnode refid="152" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
           <edgelabel>-ACCOUNT_COMM</edgelabel>
@@ -2458,17 +2544,17 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-address_</edgelabel>
           <edgelabel>-requests_topic_</edgelabel>
         </childnode>
-        <childnode refid="135" relation="usage">
+        <childnode refid="153" relation="usage">
           <edgelabel>-pubsub_</edgelabel>
         </childnode>
-        <childnode refid="136" relation="usage">
+        <childnode refid="154" relation="usage">
           <edgelabel>-nonce_responses_</edgelabel>
         </childnode>
-        <childnode refid="137" relation="usage">
+        <childnode refid="155" relation="usage">
           <edgelabel>-block_responses_</edgelabel>
           <edgelabel>-no_nonce_responses_</edgelabel>
         </childnode>
-        <childnode refid="138" relation="usage">
+        <childnode refid="156" relation="usage">
           <edgelabel>-block_first_response_time_</edgelabel>
           <edgelabel>-first_response_time_</edgelabel>
         </childnode>
@@ -2479,13 +2565,13 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-nonce_responses_mutex_</edgelabel>
           <edgelabel>-queue_mutex_</edgelabel>
         </childnode>
-        <childnode refid="139" relation="usage">
+        <childnode refid="157" relation="usage">
           <edgelabel>-methods_</edgelabel>
         </childnode>
-        <childnode refid="140" relation="usage">
+        <childnode refid="158" relation="usage">
           <edgelabel>-worker_thread_</edgelabel>
         </childnode>
-        <childnode refid="141" relation="usage">
+        <childnode refid="159" relation="usage">
           <edgelabel>-request_queue_</edgelabel>
         </childnode>
         <childnode refid="52" relation="usage">
@@ -2495,17 +2581,17 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="139">
+      <node id="157">
         <label>sgns::AccountMessenger::InterfaceMethods</label>
         <link refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods"/>
       </node>
-      <node id="142">
+      <node id="160">
         <label>sgns::AccountMessenger::RequestTask</label>
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="11" relation="usage">
           <edgelabel>+cid</edgelabel>
         </childnode>
-        <childnode refid="143" relation="usage">
+        <childnode refid="161" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
         </childnode>
       </node>
@@ -2523,22 +2609,22 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         <childnode refid="125" relation="usage">
           <edgelabel>-eth_keypair_</edgelabel>
         </childnode>
-        <childnode refid="126" relation="usage">
+        <childnode refid="135" relation="usage">
           <edgelabel>-elgamal_address_</edgelabel>
         </childnode>
-        <childnode refid="127" relation="usage">
+        <childnode refid="145" relation="usage">
           <edgelabel>-storage_</edgelabel>
         </childnode>
-        <childnode refid="130" relation="usage">
+        <childnode refid="148" relation="usage">
           <edgelabel>-confirmed_nonces_</edgelabel>
         </childnode>
         <childnode refid="92" relation="usage">
           <edgelabel>-nonce_mutex_</edgelabel>
         </childnode>
-        <childnode refid="131" relation="usage">
+        <childnode refid="149" relation="usage">
           <edgelabel>-pending_nonces_</edgelabel>
         </childnode>
-        <childnode refid="132" relation="usage">
+        <childnode refid="150" relation="usage">
           <edgelabel>-messenger_</edgelabel>
         </childnode>
         <childnode refid="28" relation="usage">
@@ -2546,22 +2632,22 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-nonce_request_mutex_</edgelabel>
         </childnode>
       </node>
-      <node id="156">
+      <node id="174">
         <label>sgns::IGeniusTransactions</label>
         <link refid="d1/d07/classsgns_1_1_i_genius_transactions"/>
-        <childnode refid="157" relation="usage">
+        <childnode refid="175" relation="usage">
           <edgelabel>+deserializers_map</edgelabel>
         </childnode>
         <childnode refid="11" relation="usage">
           <edgelabel>-transaction_type</edgelabel>
         </childnode>
       </node>
-      <node id="128">
+      <node id="146">
         <label>sgns::ISecureStorage</label>
         <link refid="d5/db7/classsgns_1_1_i_secure_storage"/>
         <childnode refid="76" relation="public-inheritance">
         </childnode>
-        <childnode refid="129" relation="public-inheritance">
+        <childnode refid="147" relation="public-inheritance">
         </childnode>
       </node>
       <node id="124">
@@ -2590,10 +2676,10 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         <childnode refid="119" relation="usage">
           <edgelabel>-account_m</edgelabel>
         </childnode>
-        <childnode refid="144" relation="usage">
+        <childnode refid="162" relation="usage">
           <edgelabel>-utxo_manager_</edgelabel>
         </childnode>
-        <childnode refid="148" relation="usage">
+        <childnode refid="166" relation="usage">
           <edgelabel>-hasher_m</edgelabel>
         </childnode>
         <childnode refid="11" relation="usage">
@@ -2610,39 +2696,39 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-received_first_periodic_sync_response_</edgelabel>
           <edgelabel>-stopped_</edgelabel>
         </childnode>
-        <childnode refid="150" relation="usage">
+        <childnode refid="168" relation="usage">
           <edgelabel>-tx_queue_m</edgelabel>
         </childnode>
         <childnode refid="92" relation="usage">
           <edgelabel>-tx_mutex_m</edgelabel>
         </childnode>
-        <childnode refid="153" relation="usage">
+        <childnode refid="171" relation="usage">
           <edgelabel>-tx_processed_m</edgelabel>
         </childnode>
-        <childnode refid="158" relation="usage">
+        <childnode refid="176" relation="usage">
           <edgelabel>-verifying_count_</edgelabel>
         </childnode>
-        <childnode refid="159" relation="usage">
+        <childnode refid="177" relation="usage">
           <edgelabel>-new_data_queue_</edgelabel>
         </childnode>
-        <childnode refid="161" relation="usage">
+        <childnode refid="179" relation="usage">
           <edgelabel>-deleted_data_queue_</edgelabel>
         </childnode>
-        <childnode refid="162" relation="usage">
+        <childnode refid="180" relation="usage">
           <edgelabel>-transaction_parsers</edgelabel>
         </childnode>
         <childnode refid="31" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="154">
+      <node id="172">
         <label>sgns::TransactionManager::TrackedTx</label>
         <link refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx"/>
-        <childnode refid="155" relation="usage">
+        <childnode refid="173" relation="usage">
           <edgelabel>+tx</edgelabel>
         </childnode>
       </node>
-      <node id="144">
+      <node id="162">
         <label>sgns::UTXOManager</label>
         <link refid="d0/dac/classsgns_1_1_u_t_x_o_manager"/>
         <childnode refid="3" relation="usage">
@@ -2660,7 +2746,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         <childnode refid="92" relation="usage">
           <edgelabel>-utxos_mutex_</edgelabel>
         </childnode>
-        <childnode refid="145" relation="usage">
+        <childnode refid="163" relation="usage">
           <edgelabel>-utxos_</edgelabel>
         </childnode>
       </node>
@@ -2983,7 +3069,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>-subscriptionFutures_</edgelabel>
         </childnode>
       </node>
-      <node id="149">
+      <node id="167">
         <label>sgns::crypto::Hasher</label>
         <link refid="dd/d14/classsgns_1_1crypto_1_1_hasher"/>
         <childnode refid="76" relation="public-inheritance">
@@ -3148,7 +3234,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; bool &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="158">
+      <node id="176">
         <label>std::atomic&lt; size_t &gt;</label>
         <childnode refid="53" relation="template-instance">
           <edgelabel>&lt; size_t &gt;</edgelabel>
@@ -3160,22 +3246,22 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
       <node id="4">
         <label>std::basic_string_view&lt; Char &gt;</label>
       </node>
-      <node id="152">
+      <node id="170">
         <label>std::deque&lt; T &gt;</label>
         <childnode refid="10" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="150">
+      <node id="168">
         <label>std::deque&lt; TransactionItem &gt;</label>
-        <childnode refid="151" relation="usage">
+        <childnode refid="169" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="152" relation="template-instance">
+        <childnode refid="170" relation="template-instance">
           <edgelabel>&lt; TransactionItem &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="134">
+      <node id="152">
         <label>std::enable_shared_from_this&lt; AccountMessenger &gt;</label>
       </node>
       <node id="84">
@@ -3190,7 +3276,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
       <node id="25">
         <label>std::enable_shared_from_this&lt; GraphsyncDAGSyncer &gt;</label>
       </node>
-      <node id="129">
+      <node id="147">
         <label>std::enable_shared_from_this&lt; ISecureStorage &gt;</label>
       </node>
       <node id="17">
@@ -3334,19 +3420,19 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; PeerId, std::vector&lt; Multiaddress &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="151">
+      <node id="169">
         <label>std::pair&lt; TransactionBatch, std::optional&lt; std::shared_ptr&lt; crdt::AtomicTransaction &gt; &gt; &gt;</label>
         <childnode refid="36" relation="template-instance">
           <edgelabel>&lt; TransactionBatch, std::optional&lt; std::shared_ptr&lt; crdt::AtomicTransaction &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="163">
+      <node id="181">
         <label>std::pair&lt; TransactionParserFn, TransactionParserFn &gt;</label>
         <childnode refid="36" relation="template-instance">
           <edgelabel>&lt; TransactionParserFn, TransactionParserFn &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="147">
+      <node id="165">
         <label>std::pair&lt; UTXOState, GeniusUTXO &gt;</label>
         <childnode refid="36" relation="template-instance">
           <edgelabel>&lt; UTXOState, GeniusUTXO &gt;</edgelabel>
@@ -3364,7 +3450,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="160">
+      <node id="178">
         <label>std::pair&lt; std::string, base::Buffer &gt;</label>
         <childnode refid="36" relation="template-instance">
           <edgelabel>&lt; std::string, base::Buffer &gt;</edgelabel>
@@ -3382,18 +3468,18 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="159">
+      <node id="177">
         <label>std::queue&lt; crdt::CRDTCallbackManager::NewDataPair &gt;</label>
-        <childnode refid="160" relation="usage">
+        <childnode refid="178" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="55" relation="template-instance">
           <edgelabel>&lt; crdt::CRDTCallbackManager::NewDataPair &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="141">
+      <node id="159">
         <label>std::queue&lt; sgns::AccountMessenger::RequestTask &gt;</label>
-        <childnode refid="142" relation="usage">
+        <childnode refid="160" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="55" relation="template-instance">
@@ -3409,7 +3495,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; sgns::crdt::CrdtDatastore::RootCIDJob &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="161">
+      <node id="179">
         <label>std::queue&lt; std::string &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -3448,7 +3534,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="131">
+      <node id="149">
         <label>std::set&lt; uint64_t &gt;</label>
         <childnode refid="19" relation="template-instance">
           <edgelabel>&lt; uint64_t &gt;</edgelabel>
@@ -3487,16 +3573,46 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; IPLDNode &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="126">
+      <node id="135">
         <label>std::shared_ptr&lt; KeyGenerator::ElGamal &gt;</label>
+        <childnode refid="136" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; KeyGenerator::ElGamal &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="137">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PrivateKey &gt;</label>
+        <childnode refid="138" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PrivateKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PublicKey &gt;</label>
+        <childnode refid="139" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PublicKey &gt;</edgelabel>
         </childnode>
       </node>
       <node id="81">
         <label>std::shared_ptr&lt; Options &gt;</label>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; Options &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="142">
+        <label>std::shared_ptr&lt; PrimeNumbers::BabyStepGiantStep &gt;</label>
+        <childnode refid="143" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; PrimeNumbers::BabyStepGiantStep &gt;</edgelabel>
         </childnode>
       </node>
       <node id="8">
@@ -3507,8 +3623,20 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
       </node>
       <node id="125">
         <label>std::shared_ptr&lt; ethereum::EthereumKeyGenerator &gt;</label>
+        <childnode refid="126" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; ethereum::EthereumKeyGenerator &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="131">
+        <label>std::shared_ptr&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</label>
+        <childnode refid="132" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</edgelabel>
         </childnode>
       </node>
       <node id="46">
@@ -3517,7 +3645,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; ipfs_lite::ipld::IPLDNode &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="135">
+      <node id="153">
         <label>std::shared_ptr&lt; ipfs_pubsub::GossipPubSub &gt;</label>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; ipfs_pubsub::GossipPubSub &gt;</edgelabel>
@@ -3529,9 +3657,24 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; libp2p::Host &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="132">
+      <node id="127">
+        <label>std::shared_ptr&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="128" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; nil::crypto3::pubkey::ext_private_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>std::shared_ptr&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</label>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; pubkey::public_key&lt; ethereum::policy_type &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="150">
         <label>std::shared_ptr&lt; sgns::AccountMessenger &gt;</label>
-        <childnode refid="133" relation="usage">
+        <childnode refid="151" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="9" relation="template-instance">
@@ -3547,18 +3690,18 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; sgns::GeniusAccount &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="155">
+      <node id="173">
         <label>std::shared_ptr&lt; sgns::IGeniusTransactions &gt;</label>
-        <childnode refid="156" relation="usage">
+        <childnode refid="174" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; sgns::IGeniusTransactions &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="127">
+      <node id="145">
         <label>std::shared_ptr&lt; sgns::ISecureStorage &gt;</label>
-        <childnode refid="128" relation="usage">
+        <childnode refid="146" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="9" relation="template-instance">
@@ -3646,9 +3789,9 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; sgns::crdt::PubSubBroadcasterExt &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="148">
+      <node id="166">
         <label>std::shared_ptr&lt; sgns::crypto::Hasher &gt;</label>
-        <childnode refid="149" relation="usage">
+        <childnode refid="167" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="9" relation="template-instance">
@@ -3676,7 +3819,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="143">
+      <node id="161">
         <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</label>
         <childnode refid="9" relation="template-instance">
           <edgelabel>&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</edgelabel>
@@ -3692,7 +3835,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         <childnode refid="4" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="140">
+      <node id="158">
         <label>std::thread</label>
       </node>
       <node id="101">
@@ -3719,6 +3862,12 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
+      <node id="144">
+        <label>std::unordered_map&lt; cpp_int, cpp_int &gt;</label>
+        <childnode refid="95" relation="template-instance">
+          <edgelabel>&lt; cpp_int, cpp_int &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="115">
         <label>std::unordered_map&lt; std::string, DeletedDataCallback &gt;</label>
         <childnode refid="95" relation="template-instance">
@@ -3737,7 +3886,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string, NewDataCallback &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="157">
+      <node id="175">
         <label>std::unordered_map&lt; std::string, TransactionDeserializeFn &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -3746,12 +3895,12 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string, TransactionDeserializeFn &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="153">
+      <node id="171">
         <label>std::unordered_map&lt; std::string, sgns::TransactionManager::TrackedTx &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="154" relation="usage">
+        <childnode refid="172" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="95" relation="template-instance">
@@ -3770,31 +3919,31 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string, std::map&lt; CID, uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="162">
+      <node id="180">
         <label>std::unordered_map&lt; std::string, std::pair&lt; TransactionParserFn, TransactionParserFn &gt; &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="163" relation="usage">
+        <childnode refid="181" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="95" relation="template-instance">
           <edgelabel>&lt; std::string, std::pair&lt; TransactionParserFn, TransactionParserFn &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="145">
+      <node id="163">
         <label>std::unordered_map&lt; std::string, std::vector&lt; UTXOData &gt; &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="146" relation="usage">
+        <childnode refid="164" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="95" relation="template-instance">
           <edgelabel>&lt; std::string, std::vector&lt; UTXOData &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="130">
+      <node id="148">
         <label>std::unordered_map&lt; std::string, uint64_t &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -3803,13 +3952,13 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string, uint64_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="138">
+      <node id="156">
         <label>std::unordered_map&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</label>
         <childnode refid="95" relation="template-instance">
           <edgelabel>&lt; uint64_t, std::chrono::steady_clock::time_point &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="137">
+      <node id="155">
         <label>std::unordered_map&lt; uint64_t, std::set&lt; std::string &gt; &gt;</label>
         <childnode refid="18" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -3818,9 +3967,9 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; uint64_t, std::set&lt; std::string &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="136">
+      <node id="154">
         <label>std::unordered_map&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</label>
-        <childnode refid="131" relation="usage">
+        <childnode refid="149" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="95" relation="template-instance">
@@ -3863,9 +4012,9 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; PeerEntry &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="146">
+      <node id="164">
         <label>std::vector&lt; UTXOData &gt;</label>
-        <childnode refid="147" relation="usage">
+        <childnode refid="165" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="27" relation="template-instance">
@@ -3887,6 +4036,12 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="134">
+        <label>std::vector&lt; std::uint8_t &gt;</label>
+        <childnode refid="27" relation="template-instance">
+          <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="98">
         <label>std::vector&lt; std::unique_ptr&lt; sgns::crdt::CrdtDatastore::DagWorker &gt; &gt;</label>
         <childnode refid="99" relation="usage">
@@ -3897,7 +4052,7 @@ outcome::result&lt;void&gt; ( TransactionManager::* )( const std::shared_ptr&lt;
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/TransactionManager.hpp" line="40" column="5" bodyfile="src/account/TransactionManager.hpp" bodystart="41" bodyend="347"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" line="40" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp" bodystart="41" bodyend="347"/>
     <listofallmembers>
       <member refid="d2/d58/classsgns_1_1_transaction_manager_1a90a00f365923ac08151efbc7a66324e1" prot="private" virt="non-virtual"><scope>sgns::TransactionManager</scope><name>account_m</name></member>
       <member refid="d2/d58/classsgns_1_1_transaction_manager_1aae61f05aaa78cc4da8bb3670a8ebe37e" prot="private" virt="non-virtual"><scope>sgns::TransactionManager</scope><name>AddTransactionToProcessedMaps</name></member>

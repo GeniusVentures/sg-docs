@@ -130,7 +130,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/proof/RecursiveTransferProof.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp</label>
         <link refid="df/db6/_recursive_transfer_proof_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -499,6 +499,6 @@
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
 <codeline lineno="183"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/proof/RecursiveTransferProof.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp"/>
   </compounddef>
 </doxygen>

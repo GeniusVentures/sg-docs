@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="87" column="5"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="87" column="5"/>
       </memberdef>
       <memberdef kind="function" id="dc/d4d/structsgns_1_1storage_1_1trie_1_1_leaf_node_1a619af744e766d303d7167909bf0fc318" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="88" column="5" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="88" bodyend="89"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="88" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="88" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="dc/d4d/structsgns_1_1storage_1_1trie_1_1_leaf_node_1a5478a4c88c66a9ad3ab9ec34e1c7e278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="91" column="5"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="91" column="5"/>
       </memberdef>
       <memberdef kind="function" id="dc/d4d/structsgns_1_1storage_1_1trie_1_1_leaf_node_1a7c6315e90b905cb009a4ddd0f7e90869" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="93" column="10" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="93" bodyend="95"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="93" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="93" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="dc/d4d/structsgns_1_1storage_1_1trie_1_1_leaf_node_1aa345a774ade820254a6a7f1f03f52e2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="96" column="9" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="29" bodyend="31"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="96" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.cpp" bodystart="29" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -172,7 +172,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/storage/trie/supergenius_trie/supergenius_node.hpp" line="86" column="3" bodyfile="src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="86" bodyend="97"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" line="86" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie/supergenius_node.hpp" bodystart="86" bodyend="97"/>
     <listofallmembers>
       <member refid="d5/d97/structsgns_1_1storage_1_1trie_1_1_super_genius_node_1a6e3f5c53d8253f1124a2eb9863a0d784" prot="public" virt="non-virtual"><scope>sgns::storage::trie::LeafNode</scope><name>getTrieType</name></member>
       <member refid="dc/d4d/structsgns_1_1storage_1_1trie_1_1_leaf_node_1aa345a774ade820254a6a7f1f03f52e2d" prot="public" virt="virtual"><scope>sgns::storage::trie::LeafNode</scope><name>getType</name></member>

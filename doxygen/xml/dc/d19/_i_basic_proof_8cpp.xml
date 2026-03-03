@@ -112,7 +112,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/proof/IBasicProof.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp</label>
         <link refid="dc/d19/_i_basic_proof_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.cpp" line="12" column="1" bodyfile="src/proof/IBasicProof.cpp" bodystart="12" bodyend="35"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" line="12" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="12" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a88383033eda7f02f5c84d05ba686f90e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>GeniusProver::ProofType</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/IBasicProof.cpp" line="84" column="36" bodyfile="src/proof/IBasicProof.cpp" bodystart="84" bodyend="93"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" line="84" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp" bodystart="84" bodyend="93"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -480,6 +480,6 @@
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
 <codeline lineno="159"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/proof/IBasicProof.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/IBasicProof.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="da/d91/class_key_generator_1_1_el_gamal" kind="class" language="C++" prot="public">
+    <compoundname>KeyGenerator::ElGamal</compoundname>
+    <includes refid="df/d7b/_el_gamal_key_generator_8hpp" local="no">ElGamalKeyGenerator.hpp</includes>
+    <innerclass refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" prot="public">KeyGenerator::ElGamal::Params</innerclass>
+    <innerclass refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" prot="public">KeyGenerator::ElGamal::PublicKey</innerclass>
+    <innerclass refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" prot="public">KeyGenerator::ElGamal::PrivateKey</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" prot="private" static="no">
+        <type>std::pair&lt; <ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref>, <ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref> &gt;</type>
+        <definition>using KeyGenerator::ElGamal::CypherTextType = std::pair&lt;cpp_int, cpp_int&gt;</definition>
+        <argsstring></argsstring>
+        <name>CypherTextType</name>
+        <qualifiedname>KeyGenerator::ElGamal::CypherTextType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="32" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="da/d91/class_key_generator_1_1_el_gamal_1ad425483432c75678ebd7d7f9741168e1" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="dd/d15/namespace_key_generator_1a3cf07062da7ffb077892c1b314e6a1ff" kindref="member">uint256_t</ref></type>
+        <definition>uint256_t KeyGenerator::ElGamal::SAFE_PRIME</definition>
+        <argsstring></argsstring>
+        <name>SAFE_PRIME</name>
+        <qualifiedname>KeyGenerator::ElGamal::SAFE_PRIME</qualifiedname>
+        <initializer>= 0xf3760a5583d3509b3f72b16e3c892129fef350406f88c268f503e877e043514f_cppui256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="35" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d91/class_key_generator_1_1_el_gamal_1a3560bb373c7067ccb553406345eca0ab" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="dd/d15/namespace_key_generator_1a3cf07062da7ffb077892c1b314e6a1ff" kindref="member">uint256_t</ref></type>
+        <definition>uint256_t KeyGenerator::ElGamal::GENERATOR</definition>
+        <argsstring></argsstring>
+        <name>GENERATOR</name>
+        <qualifiedname>KeyGenerator::ElGamal::GENERATOR</qualifiedname>
+        <initializer>= 0x1a2c6b6fb9971c4a993069c76258ee18ba80f778fd4d7bc07186c70e73b93004_cppui256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="36" column="36" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PrivateKey&gt; KeyGenerator::ElGamal::private_key</definition>
+        <argsstring></argsstring>
+        <name>private_key</name>
+        <qualifiedname>KeyGenerator::ElGamal::private_key</qualifiedname>
+        <briefdescription>
+<para>Private key instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="129" column="46" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d91/class_key_generator_1_1_el_gamal_1a8faffff7873e6c82ab8e02b6f384dbe2" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PublicKey&gt; KeyGenerator::ElGamal::public_key</definition>
+        <argsstring></argsstring>
+        <name>public_key</name>
+        <qualifiedname>KeyGenerator::ElGamal::public_key</qualifiedname>
+        <briefdescription>
+<para>Public key instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="130" column="47" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d91/class_key_generator_1_1_el_gamal_1a03ee2a743b6eeaeea486f4c5a9fb0c3e" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" kindref="compound">PrimeNumbers::BabyStepGiantStep</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PrimeNumbers::BabyStepGiantStep&gt; KeyGenerator::ElGamal::bsgs_instance</definition>
+        <argsstring></argsstring>
+        <name>bsgs_instance</name>
+        <qualifiedname>KeyGenerator::ElGamal::bsgs_instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="131" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int ElGamal::DecryptDataAdditive</definition>
+        <argsstring>(const CypherTextType &amp;encrypted_data)</argsstring>
+        <name>DecryptDataAdditive</name>
+        <qualifiedname>KeyGenerator::ElGamal::DecryptDataAdditive</qualifiedname>
+        <param>
+          <type>const <ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref> &amp;</type>
+          <declname>encrypted_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="90" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1af920815a9b7f49f344b66f35fcede8f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KeyGenerator::ElGamal::ElGamal</definition>
+        <argsstring>()</argsstring>
+        <name>ElGamal</name>
+        <qualifiedname>KeyGenerator::ElGamal::ElGamal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="103" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a81cd2b1388d699ecb492fcdcd47347b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ElGamal::ElGamal</definition>
+        <argsstring>(const Params &amp;params, cpp_int private_key_value)</argsstring>
+        <name>ElGamal</name>
+        <qualifiedname>KeyGenerator::ElGamal::ElGamal</qualifiedname>
+        <param>
+          <type>const <ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">Params</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+          <declname>private_key_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="107" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a59859973e684bb358f10c11d3c278516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KeyGenerator::ElGamal::ElGamal</definition>
+        <argsstring>(const Params &amp;params)</argsstring>
+        <name>ElGamal</name>
+        <qualifiedname>KeyGenerator::ElGamal::ElGamal</qualifiedname>
+        <param>
+          <type>const <ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">Params</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="109" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a989cc80da921fd0286ab2725357c13a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KeyGenerator::ElGamal::ElGamal</definition>
+        <argsstring>(cpp_int private_key_value)</argsstring>
+        <name>ElGamal</name>
+        <qualifiedname>KeyGenerator::ElGamal::ElGamal</qualifiedname>
+        <param>
+          <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+          <declname>private_key_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="113" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a6b9ae358f1b3e9157737ed486d3550b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ElGamal::~ElGamal</definition>
+        <argsstring>()</argsstring>
+        <name>~ElGamal</name>
+        <qualifiedname>KeyGenerator::ElGamal::~ElGamal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="117" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a8e31185c7929d2402f3c1b6b081e95b7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref> &amp;</type>
+        <definition>PublicKey &amp; KeyGenerator::ElGamal::GetPublicKey</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPublicKey</name>
+        <qualifiedname>KeyGenerator::ElGamal::GetPublicKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="119" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1ab30c3d10492e151e743ed8cec2d253a7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &amp;</type>
+        <definition>PrivateKey &amp; KeyGenerator::ElGamal::GetPrivateKey</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrivateKey</name>
+        <qualifiedname>KeyGenerator::ElGamal::GetPrivateKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="123" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a0080511d918f163ee7ffe6dac096e2f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int KeyGenerator::ElGamal::DecryptData</definition>
+        <argsstring>(const PrivateKey &amp;prvkey, const CypherTextType &amp;encrypted_data)</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>KeyGenerator::ElGamal::DecryptData</qualifiedname>
+        <param>
+          <type>const <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &amp;</type>
+          <declname>prvkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref> &amp;</type>
+          <declname>encrypted_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" line="49" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1afc5899b7e26cd2f8ccfc91d93d8dfa8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt; uint8_t &gt; KeyGenerator::ElGamal::DecryptData</definition>
+        <argsstring>(const PrivateKey &amp;prvkey, const CypherTextType &amp;encrypted_data)</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>KeyGenerator::ElGamal::DecryptData</qualifiedname>
+        <param>
+          <type>const <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &amp;</type>
+          <declname>prvkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref> &amp;</type>
+          <declname>encrypted_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" line="63" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="63" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1ad4b1e04a6498f3508ffbd4bd295567ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">Params</ref></type>
+        <definition>ElGamal::Params ElGamal::CreateGeneratorParams</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGeneratorParams</name>
+        <qualifiedname>KeyGenerator::ElGamal::CreateGeneratorParams</qualifiedname>
+        <briefdescription>
+<para>Create prime number and generator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new set of prime number and generator GeneratorParamsType </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="95" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="82" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref></type>
+        <definition>ElGamal::CypherTextType ElGamal::EncryptData</definition>
+        <argsstring>(PublicKey &amp;pubkey, std::vector&lt; uint8_t &gt; &amp;data_vector)</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>KeyGenerator::ElGamal::EncryptData</qualifiedname>
+        <param>
+          <type><ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref> &amp;</type>
+          <declname>pubkey</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>data_vector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="96" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a63f7027c5844c9e5eb35c7a43087dff1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref></type>
+        <definition>ElGamal::CypherTextType ElGamal::EncryptData</definition>
+        <argsstring>(PublicKey &amp;pubkey, const cpp_int &amp;data)</argsstring>
+        <name>EncryptData</name>
+        <qualifiedname>KeyGenerator::ElGamal::EncryptData</qualifiedname>
+        <param>
+          <type><ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref> &amp;</type>
+          <declname>pubkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="97" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="29" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1ae4d8840f7280a78f47d1215cca542a45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref></type>
+        <definition>ElGamal::CypherTextType ElGamal::EncryptDataAdditive</definition>
+        <argsstring>(PublicKey &amp;pubkey, const cpp_int &amp;data)</argsstring>
+        <name>EncryptDataAdditive</name>
+        <qualifiedname>KeyGenerator::ElGamal::EncryptDataAdditive</qualifiedname>
+        <param>
+          <type><ref refid="d5/dd7/struct_public_key" kindref="compound">PublicKey</ref> &amp;</type>
+          <declname>pubkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="98" column="31" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T KeyGenerator::ElGamal::DecryptData</definition>
+        <argsstring>(const PrivateKey &amp;prvkey, const CypherTextType &amp;encrypted_data)</argsstring>
+        <name>DecryptData</name>
+        <qualifiedname>KeyGenerator::ElGamal::DecryptData</qualifiedname>
+        <param>
+          <type>const <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &amp;</type>
+          <declname>prvkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref> &amp;</type>
+          <declname>encrypted_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="100" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d91/class_key_generator_1_1_el_gamal_1af5ed405437a89e48e59d55421e6ea11d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int ElGamal::DecryptDataAdditive</definition>
+        <argsstring>(const PrivateKey &amp;prvkey, const CypherTextType &amp;encrypted_data, PrimeNumbers::BabyStepGiantStep &amp;bsgs)</argsstring>
+        <name>DecryptDataAdditive</name>
+        <qualifiedname>KeyGenerator::ElGamal::DecryptDataAdditive</qualifiedname>
+        <param>
+          <type>const <ref refid="d9/dc0/struct_private_key" kindref="compound">PrivateKey</ref> &amp;</type>
+          <declname>prvkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref> &amp;</type>
+          <declname>encrypted_data</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" kindref="compound">PrimeNumbers::BabyStepGiantStep</ref> &amp;</type>
+          <declname>bsgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="101" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp" bodystart="76" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>K</label>
+      </node>
+      <node id="1">
+        <label>KeyGenerator::ElGamal</label>
+        <link refid="da/d91/class_key_generator_1_1_el_gamal"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-private_key</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-public_key</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-bsgs_instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>KeyGenerator::ElGamal::Params</label>
+        <link refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params"/>
+      </node>
+      <node id="3">
+        <label>KeyGenerator::ElGamal::PrivateKey</label>
+        <link refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>KeyGenerator::ElGamal::PublicKey</label>
+        <link refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+params</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>PrimeNumbers::BabyStepGiantStep</label>
+        <link refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-value_table</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>T</label>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PrivateKey &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PrivateKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::shared_ptr&lt; KeyGenerator::ElGamal::PublicKey &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; KeyGenerator::ElGamal::PublicKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::shared_ptr&lt; PrimeNumbers::BabyStepGiantStep &gt;</label>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; PrimeNumbers::BabyStepGiantStep &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std::unordered_map&lt; K, T &gt;</label>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+keys</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::unordered_map&lt; cpp_int, cpp_int &gt;</label>
+        <childnode refid="12" relation="template-instance">
+          <edgelabel>&lt; cpp_int, cpp_int &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalKeyGenerator.hpp" bodystart="31" bodyend="132"/>
+    <listofallmembers>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a03ee2a743b6eeaeea486f4c5a9fb0c3e" prot="private" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>bsgs_instance</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1ad4b1e04a6498f3508ffbd4bd295567ee" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>CreateGeneratorParams</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" prot="private" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>CypherTextType</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>DecryptData</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a0080511d918f163ee7ffe6dac096e2f3" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>DecryptData</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1afc5899b7e26cd2f8ccfc91d93d8dfa8b" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>DecryptData</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>DecryptDataAdditive</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1af5ed405437a89e48e59d55421e6ea11d" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>DecryptDataAdditive</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1af920815a9b7f49f344b66f35fcede8f4" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>ElGamal</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a81cd2b1388d699ecb492fcdcd47347b8" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>ElGamal</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a59859973e684bb358f10c11d3c278516" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>ElGamal</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a989cc80da921fd0286ab2725357c13a5" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>ElGamal</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>EncryptData</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a63f7027c5844c9e5eb35c7a43087dff1" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>EncryptData</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1ae4d8840f7280a78f47d1215cca542a45" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>EncryptDataAdditive</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a3560bb373c7067ccb553406345eca0ab" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>GENERATOR</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1ab30c3d10492e151e743ed8cec2d253a7" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>GetPrivateKey</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a8e31185c7929d2402f3c1b6b081e95b7" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>GetPublicKey</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" prot="private" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>private_key</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a8faffff7873e6c82ab8e02b6f384dbe2" prot="private" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>public_key</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1ad425483432c75678ebd7d7f9741168e1" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>SAFE_PRIME</name></member>
+      <member refid="da/d91/class_key_generator_1_1_el_gamal_1a6b9ae358f1b3e9157737ed486d3550b5" prot="public" virt="non-virtual"><scope>KeyGenerator::ElGamal</scope><name>~ElGamal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

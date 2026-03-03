@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="db/d6c/_a_e_s_encryption_8hpp" kind="file" language="C++">
+    <compoundname>AESEncryption.hpp</compoundname>
+    <includes refid="d7/d2d/_encryption_8hpp" local="yes">ProofSystem/Encryption.hpp</includes>
+    <includes local="no">nil/crypto3/block/algorithm/encrypt.hpp</includes>
+    <includes local="no">nil/crypto3/block/algorithm/decrypt.hpp</includes>
+    <includes local="no">nil/crypto3/block/aes.hpp</includes>
+    <includes local="no">nil/crypto3/block/rijndael.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp</label>
+        <link refid="db/d6c/_a_e_s_encryption_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ProofSystem/Encryption.hpp</label>
+        <link refid="d7/d2d/_encryption_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="7">
+        <label>nil/crypto3/block/aes.hpp</label>
+      </node>
+      <node id="6">
+        <label>nil/crypto3/block/algorithm/decrypt.hpp</label>
+      </node>
+      <node id="5">
+        <label>nil/crypto3/block/algorithm/encrypt.hpp</label>
+      </node>
+      <node id="8">
+        <label>nil/crypto3/block/rijndael.hpp</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d2/da2/class_a_e_s_encryption" prot="public">AESEncryption</innerclass>
+    <briefdescription>
+<para>AES256 <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> class file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2024-01-05 Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_AES_ENCRYPTION_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_AES_ENCRYPTION_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d2d/_encryption_8hpp" kindref="compound">ProofSystem/Encryption.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/block/algorithm/encrypt.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/block/algorithm/decrypt.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/block/aes.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/block/rijndael.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="d2/da2/class_a_e_s_encryption" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/da2/class_a_e_s_encryption" kindref="compound">AESEncryption</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30" refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/><ref refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" kindref="member">EncryptData</ref>(<sp/>std::vector&lt;std::uint8_t&gt;<sp/>data,<sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_data<sp/>)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="31"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil::crypto3::encrypt&lt;nil::crypto3::block::aes&lt;256&gt;&gt;(<sp/>data,<sp/>key_data<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40" refid="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/><ref refid="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db" kindref="member">DecryptData</ref>(<sp/>std::vector&lt;std::uint8_t&gt;<sp/>data,<sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_data<sp/>)</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="41"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nil::crypto3::decrypt&lt;nil::crypto3::block::aes&lt;256&gt;&gt;(<sp/>data,<sp/>key_data<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50" refid="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4" kindref="member">CheckEqual</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref><sp/>&amp;lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref><sp/>&amp;rhs<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/>override</highlight></codeline>
+<codeline lineno="51"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/AESEncryption.hpp"/>
+  </compounddef>
+</doxygen>

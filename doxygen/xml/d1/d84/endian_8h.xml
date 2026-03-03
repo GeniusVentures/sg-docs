@@ -2,14 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="d1/d84/endian_8h" kind="file" language="C++">
     <compoundname>endian.h</compoundname>
-    <includedby refid="d4/d13/_u_t_x_o_structs_8cpp" local="yes">src/account/UTXOStructs.cpp</includedby>
+    <includedby refid="d4/d13/_u_t_x_o_structs_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOStructs.cpp</includedby>
     <invincdepgraph>
       <node id="2">
-        <label>src/account/UTXOStructs.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOStructs.cpp</label>
         <link refid="d4/d13/_u_t_x_o_structs_8cpp"/>
       </node>
       <node id="1">
-        <label>src/base/endian.h</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/endian.h</label>
         <link refid="d1/d84/endian_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -191,6 +191,6 @@
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="src/base/endian.h"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/endian.h"/>
   </compounddef>
 </doxygen>

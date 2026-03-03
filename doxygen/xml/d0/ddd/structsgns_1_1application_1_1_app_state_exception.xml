@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/application/app_state_manager.hpp" line="90" column="14" bodyfile="src/application/app_state_manager.hpp" bodystart="90" bodyend="91"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_state_manager.hpp" line="90" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_state_manager.hpp" bodystart="90" bodyend="91"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -60,7 +60,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/application/app_state_manager.hpp" line="89" column="3" bodyfile="src/application/app_state_manager.hpp" bodystart="89" bodyend="92"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_state_manager.hpp" line="89" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/app_state_manager.hpp" bodystart="89" bodyend="92"/>
     <listofallmembers>
       <member refid="d0/ddd/structsgns_1_1application_1_1_app_state_exception_1a1e7db421c808e79a222d8004bdca363c" prot="public" virt="non-virtual"><scope>sgns::application::AppStateException</scope><name>AppStateException</name></member>
     </listofallmembers>

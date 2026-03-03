@@ -7,8 +7,8 @@
     <includes refid="da/d1d/buffer_8hpp" local="yes">base/buffer.hpp</includes>
     <includes refid="d8/dcc/buffer__map__types_8hpp" local="yes">storage/buffer_map_types.hpp</includes>
     <includes local="no">map</includes>
-    <includedby refid="d7/dae/in__memory__batch_8hpp" local="yes">src/storage/in_memory/in_memory_batch.hpp</includedby>
-    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">src/storage/in_memory/in_memory_storage.cpp</includedby>
+    <includedby refid="d7/dae/in__memory__batch_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_batch.hpp</includedby>
+    <includedby refid="d2/dba/in__memory__storage_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>base/buffer.hpp</label>
@@ -111,7 +111,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/storage/in_memory/in_memory_storage.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.hpp</label>
         <link refid="d0/d03/in__memory__storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -154,17 +154,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/storage/in_memory/in_memory_batch.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_batch.hpp</label>
         <link refid="d7/dae/in__memory__batch_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="3">
-        <label>src/storage/in_memory/in_memory_storage.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.cpp</label>
         <link refid="d2/dba/in__memory__storage_8cpp"/>
       </node>
       <node id="1">
-        <label>src/storage/in_memory/in_memory_storage.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.hpp</label>
         <link refid="d0/d03/in__memory__storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -235,6 +235,6 @@
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_STORAGE_IN_MEMORY_IN_MEMORY_STORAGE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/storage/in_memory/in_memory_storage.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory/in_memory_storage.hpp"/>
   </compounddef>
 </doxygen>

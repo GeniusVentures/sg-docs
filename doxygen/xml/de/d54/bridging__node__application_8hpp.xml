@@ -6,6 +6,7 @@
     <includes refid="dd/d95/app__config_8hpp" local="yes">application/app_config.hpp</includes>
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
     <includes local="no">memory</includes>
+    <includedby refid="d7/d0a/_super_genius_demo_app_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>application/app_config.hpp</label>
@@ -20,7 +21,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/application/impl/bridging_node_application.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp</label>
         <link refid="de/d54/bridging__node__application_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -59,6 +60,30 @@
         <label>string</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp</label>
+        <link refid="dd/d41/_super_genius_demo_app_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp</label>
+        <link refid="d7/d0a/_super_genius_demo_app_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/runner.cpp</label>
+        <link refid="d2/de6/runner_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp</label>
+        <link refid="de/d54/bridging__node__application_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <innerclass refid="da/dd5/classsgns_1_1application_1_1_bridging_node_application" prot="public">sgns::application::BridgingNodeApplication</innerclass>
     <innernamespace refid="d2/d2b/namespacesgns">sgns</innernamespace>
     <innernamespace refid="db/d40/namespacesgns_1_1application">sgns::application</innernamespace>
@@ -101,6 +126,6 @@
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>BRIDGING_NODE_APPLICATION_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/application/impl/bridging_node_application.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/bridging_node_application.hpp"/>
   </compounddef>
 </doxygen>

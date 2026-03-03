@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="173" column="27" bodyfile="src/blockchain/Blockchain.hpp" bodystart="173" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="173" column="27" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1a991527b5b2b09201bce191944414b096" prot="public" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, std::string &gt;</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="174" column="32" bodyfile="src/blockchain/Blockchain.hpp" bodystart="174" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="174" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="174" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="176" column="18" bodyfile="src/blockchain/Blockchain.hpp" bodystart="176" bodyend="179"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="176" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="176" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1a6f7bd33303bfad852d9fb2493d9b26af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="181" column="18" bodyfile="src/blockchain/Blockchain.hpp" bodystart="181" bodyend="184"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="181" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="181" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1a347dc09775fb7272a87e66ba2de79d80" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="186" column="18" bodyfile="src/blockchain/Blockchain.hpp" bodystart="186" bodyend="189"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="186" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="186" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1aeed83f5f1742363bde4702ae0af7bba0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/Blockchain.hpp" line="191" column="18" bodyfile="src/blockchain/Blockchain.hpp" bodystart="191" bodyend="194"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="191" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="191" bodyend="194"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -144,7 +144,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/blockchain/Blockchain.hpp" line="171" column="9" bodyfile="src/blockchain/Blockchain.hpp" bodystart="172" bodyend="195"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" line="171" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp" bodystart="172" bodyend="195"/>
     <listofallmembers>
       <member refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1a991527b5b2b09201bce191944414b096" prot="public" virt="non-virtual"><scope>sgns::Blockchain::BlockchainCIDs</scope><name>account_creation_</name></member>
       <member refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1ad16ef6be1b71c521f358ddb54e8082eb" prot="public" virt="non-virtual"><scope>sgns::Blockchain::BlockchainCIDs</scope><name>genesis_</name></member>

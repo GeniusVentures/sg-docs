@@ -9,7 +9,7 @@
     <includes local="yes">SuperGenius_OpenAPI.grpc.pb.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>src/api/grpc/grpc_server_impl.h</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/grpc/grpc_server_impl.h</label>
         <link refid="d3/d18/grpc__server__impl_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -99,6 +99,6 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">};</highlight></codeline>
     </programlisting>
-    <location file="src/api/grpc/grpc_server_impl.h"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/grpc/grpc_server_impl.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d1/dec/_k_d_f_generator_8hpp" kind="file" language="C++">
+    <compoundname>KDFGenerator.hpp</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includes local="no">nil/crypto3/pubkey/ecdsa.hpp</includes>
+    <includes local="no">nil/crypto3/pubkey/algorithm/sign.hpp</includes>
+    <includes local="no">nil/crypto3/pubkey/algorithm/verify.hpp</includes>
+    <includes local="no">nil/crypto3/algebra/marshalling.hpp</includes>
+    <includes local="no">nil/crypto3/hash/algorithm/hash.hpp</includes>
+    <includes local="no">nil/crypto3/hash/sha2.hpp</includes>
+    <includes refid="db/da9/_e_c_d_s_a_types_8hpp" local="yes">ProofSystem/ECDSATypes.hpp</includes>
+    <includes refid="d4/df8/_e_c_d_h_encryption_8hpp" local="yes">ProofSystem/ECDHEncryption.hpp</includes>
+    <includes refid="df/d62/ext__private__key_8hpp" local="yes">ProofSystem/ext_private_key.hpp</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>ProofSystem/ECDHEncryption.hpp</label>
+        <link refid="d4/df8/_e_c_d_h_encryption_8hpp"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ProofSystem/ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>ProofSystem/Encryption.hpp</label>
+        <link refid="d7/d2d/_encryption_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp</label>
+        <link refid="d1/dec/_k_d_f_generator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ProofSystem/ext_private_key.hpp</label>
+        <link refid="df/d62/ext__private__key_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>algorithm</label>
+      </node>
+      <node id="21">
+        <label>cstdint</label>
+      </node>
+      <node id="11">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="7">
+        <label>nil/crypto3/algebra/marshalling.hpp</label>
+      </node>
+      <node id="18">
+        <label>nil/crypto3/block/aes.hpp</label>
+      </node>
+      <node id="17">
+        <label>nil/crypto3/block/algorithm/decrypt.hpp</label>
+      </node>
+      <node id="16">
+        <label>nil/crypto3/block/algorithm/encrypt.hpp</label>
+      </node>
+      <node id="19">
+        <label>nil/crypto3/block/rijndael.hpp</label>
+      </node>
+      <node id="8">
+        <label>nil/crypto3/hash/algorithm/hash.hpp</label>
+      </node>
+      <node id="9">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="13">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="5">
+        <label>nil/crypto3/pubkey/algorithm/sign.hpp</label>
+      </node>
+      <node id="6">
+        <label>nil/crypto3/pubkey/algorithm/verify.hpp</label>
+      </node>
+      <node id="4">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="12">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="14">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
+      <node id="24">
+        <label>optional</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d7/db7/class_k_d_f_generator" prot="public">KDFGenerator</innerclass>
+    <briefdescription>
+<para>Key Derivation Function Generator. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2024-01-08 Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_KDF_GENERATOR_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_KDF_GENERATOR_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/pubkey/ecdsa.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/pubkey/algorithm/sign.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/pubkey/algorithm/verify.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/algebra/marshalling.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/algorithm/hash.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/sha2.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/da9/_e_c_d_s_a_types_8hpp" kindref="compound">ProofSystem/ECDSATypes.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/df8/_e_c_d_h_encryption_8hpp" kindref="compound">ProofSystem/ECDHEncryption.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="df/d62/ext__private__key_8hpp" kindref="compound">ProofSystem/ext_private_key.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PolicyType&gt;</highlight></codeline>
+<codeline lineno="28" refid="d7/db7/class_k_d_f_generator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" kindref="member">KDFGenerator</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31" refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" kindref="member">SignatureType</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::public_key&lt;PolicyType&gt;::signature_type;</highlight></codeline>
+<codeline lineno="32" refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/><sp/><sp/>=<sp/>std::string;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="d7/db7/class_k_d_f_generator_1a959973c1385d8c86745c0ba912699cf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/><ref refid="d7/db7/class_k_d_f_generator_1a959973c1385d8c86745c0ba912699cf2" kindref="member">EXPECTED_SECRET_SIZE</ref><sp/>=<sp/>192;<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" kindref="member">KDFGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::ext_private_key&lt;PolicyType&gt;<sp/>&amp;own_prvt_key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;other_party_key<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" kindref="member">GenerateSharedSecret</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::ext_private_key&lt;PolicyType&gt;<sp/>&amp;own_prvt_key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;other_party_key<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">ecdsa_t::scalar_field_value_type</ref><sp/><ref refid="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" kindref="member">GetNewKeyFromSecret</ref>(<sp/>std::string_view<sp/>signed_secret,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;signer_pubkey,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;verifier_pubkey<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="d7/db7/class_k_d_f_generator_1ab2e8a6cfbc9dcbc47bbc814b9b5d35a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1ab2e8a6cfbc9dcbc47bbc814b9b5d35a0" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" kindref="member">KDFGenerator</ref><sp/>&amp;other<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="68"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>*(<sp/>this-&gt;<ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref><sp/>)<sp/>==<sp/>*(<sp/>other.<ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::public_key&lt;PolicyType&gt;<sp/><ref refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" kindref="member">BuildPublicKeyECDSA</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;pubkey_data<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="80" refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Encryption&gt;<sp/><ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref>;<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PolicyType&gt;</highlight></codeline>
+<codeline lineno="84" refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" refkind="member"><highlight class="normal"><ref refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" kindref="member">KDFGenerator&lt;PolicyType&gt;::KDFGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::ext_private_key&lt;PolicyType&gt;<sp/>&amp;own_prvt_key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;other_party_key<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="d5/db7/class_e_c_d_h_encryption" kindref="compound">ECDHEncryption</ref>&lt;PolicyType&gt;&gt;(<sp/>own_prvt_key,<sp/><ref refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" kindref="member">BuildPublicKeyECDSA</ref>(<sp/>other_party_key<sp/>)<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PolicyType&gt;</highlight></codeline>
+<codeline lineno="90" refid="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" refkind="member"><highlight class="normal">std::string<sp/><ref refid="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" kindref="member">KDFGenerator&lt;PolicyType&gt;::GenerateSharedSecret</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ecdsa_t::pubkey::ext_private_key&lt;PolicyType&gt;<sp/>&amp;own_prvt_key,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;other_party_key<sp/>)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="df/d3b/namespaceecdsa__t" kindref="compound">ecdsa_t</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" kindref="member">KDFGenerator::SignatureType</ref><sp/>signed_secret<sp/>=<sp/>sign&lt;PolicyType&gt;(<sp/>other_party_key,<sp/>own_prvt_key<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/><sp/><sp/>signed_vector(<sp/>64<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>nil::marshalling::bincode::field&lt;ecdsa_t::scalar_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::get&lt;0&gt;(<sp/>signed_secret<sp/>),<sp/>signed_vector.begin(),<sp/>signed_vector.begin()<sp/>+<sp/>signed_vector.size()<sp/>/<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>nil::marshalling::bincode::field&lt;ecdsa_t::scalar_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::get&lt;1&gt;(<sp/>signed_secret<sp/>),<sp/>signed_vector.begin()<sp/>+<sp/>signed_vector.size()<sp/>/<sp/>2,<sp/>signed_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>derived_key_vector<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">std::vector&lt;std::uint8_t&gt;</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>hash&lt;hashes::sha2&lt;256&gt;&gt;(<sp/>signed_vector.begin(),<sp/>signed_vector.end()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>signed_vector.insert(<sp/>signed_vector.end(),<sp/>derived_key_vector.begin(),<sp/>derived_key_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>other_party_key.data(),<sp/>other_party_key.size()<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d72/namespaceutil_1a74a7f111d6f52d685f220e5245c421bc" kindref="member">util::to_string</ref>(<sp/><ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref>-&gt;EncryptData(<sp/>signed_vector,<sp/>key_vector<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PolicyType&gt;</highlight></codeline>
+<codeline lineno="111" refid="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" refkind="member"><highlight class="normal"><ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">ecdsa_t::scalar_field_value_type</ref><sp/><ref refid="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" kindref="member">KDFGenerator&lt;PolicyType&gt;::GetNewKeyFromSecret</ref>(<sp/>std::string_view<sp/>signed_secret,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;signer_pubkey,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;verifier_pubkey<sp/>)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>verifier_pubkey<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>signer_key<sp/>=<sp/><ref refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" kindref="member">BuildPublicKeyECDSA</ref>(<sp/>signer_pubkey<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>signed_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>signed_secret<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>decoded_vector<sp/>=<sp/><ref refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kindref="member">encryptor</ref>-&gt;DecryptData(<sp/>signed_vector,<sp/>key_vector<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sign_first_part<sp/>=</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nil::marshalling::bincode::field&lt;ecdsa_t::scalar_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decoded_vector.begin(),<sp/>decoded_vector.begin()<sp/>+<sp/>32<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>sign_second_part<sp/>=</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nil::marshalling::bincode::field&lt;ecdsa_t::scalar_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decoded_vector.begin()<sp/>+<sp/>32,<sp/>decoded_vector.begin()<sp/>+<sp/>64<sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>valid<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nil::crypto3::verify&lt;PolicyType&gt;(<sp/>verifier_pubkey,<sp/><ref refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" kindref="member">SignatureType</ref>(<sp/>sign_first_part.second,<sp/>sign_second_part.second<sp/>),<sp/>signer_key<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!valid<sp/>)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<sp/></highlight><highlight class="stringliteral">&quot;Can&apos;t<sp/>verify<sp/>the<sp/>signature&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>derived_key_pair<sp/>=</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nil::marshalling::bincode::field&lt;ecdsa_t::scalar_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decoded_vector.begin()<sp/>+<sp/>64,<sp/>decoded_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>derived_key_pair.second;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>PolicyType&gt;</highlight></codeline>
+<codeline lineno="143" refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" refkind="member"><highlight class="normal">ecdsa_t::pubkey::public_key&lt;PolicyType&gt;<sp/><ref refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" kindref="member">KDFGenerator&lt;PolicyType&gt;::BuildPublicKeyECDSA</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref><sp/>&amp;pubkey_data<sp/>)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="df/d3b/namespaceecdsa__t" kindref="compound">ecdsa_t</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>z_data_one<sp/>=<sp/>pubkey::public_key&lt;PolicyType&gt;::g1_value_type::field_type::value_type::one();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>pubkey_data.data(),<sp/>pubkey_data.size()<sp/>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>y_data<sp/>=<sp/>nil::marshalling::bincode::field&lt;ecdsa_t::base_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_vector.begin(),<sp/>key_vector.begin()<sp/>+<sp/>key_vector.size()<sp/>/<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>x_data<sp/>=<sp/>nil::marshalling::bincode::field&lt;ecdsa_t::base_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_vector.begin()<sp/>+<sp/>key_vector.size()<sp/>/<sp/>2,<sp/>key_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;PolicyType&gt;::public_key_type(<sp/>x_data.second,<sp/>y_data.second,<sp/>z_data_one<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp"/>
+  </compounddef>
+</doxygen>

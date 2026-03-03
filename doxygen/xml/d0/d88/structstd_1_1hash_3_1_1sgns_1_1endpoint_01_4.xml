@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/common.hpp" line="100" column="8" bodyfile="node/common.hpp" bodystart="100" bodyend="104"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="100" column="8" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="100" bodyend="104"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -35,7 +35,7 @@
         <link refid="d0/d88/structstd_1_1hash_3_1_1sgns_1_1endpoint_01_4"/>
       </node>
     </collaborationgraph>
-    <location file="node/common.hpp" line="98" column="1" bodyfile="node/common.hpp" bodystart="99" bodyend="105"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" line="98" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/common.hpp" bodystart="99" bodyend="105"/>
     <listofallmembers>
       <member refid="d0/d88/structstd_1_1hash_3_1_1sgns_1_1endpoint_01_4_1a60d495d13cebc6692d70be1479f5e2b7" prot="public" virt="non-virtual"><scope>std::hash&lt;::sgns::endpoint &gt;</scope><name>operator()</name></member>
     </listofallmembers>

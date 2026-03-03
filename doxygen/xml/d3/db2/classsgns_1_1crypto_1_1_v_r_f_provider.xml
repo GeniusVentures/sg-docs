@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/vrf_provider.hpp" line="16" column="8"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" line="16" column="8"/>
       </memberdef>
       <memberdef kind="function" id="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1a200ad01e7591b95a61d283c49bd45fab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="d0/d20/structsgns_1_1crypto_1_1_s_r25519_keypair" kindref="compound">SR25519Keypair</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/vrf_provider.hpp" line="21" column="28"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" line="21" column="28"/>
       </memberdef>
       <memberdef kind="function" id="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1ad7d3fb8f768b6c03a3ccd1ea236b23fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>boost::optional&lt; <ref refid="d0/d8e/structsgns_1_1crypto_1_1_v_r_f_output" kindref="compound">VRFOutput</ref> &gt;</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/vrf_provider.hpp" line="30" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" line="30" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1a81af48eb41a5f2e68fdb1fb65d516816" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="d5/d9f/structsgns_1_1crypto_1_1_v_r_f_verify_output" kindref="compound">VRFVerifyOutput</ref></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/vrf_provider.hpp" line="43" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" line="43" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -196,7 +196,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/crypto/vrf_provider.hpp" line="14" column="3" bodyfile="src/crypto/vrf_provider.hpp" bodystart="14" bodyend="47"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" line="14" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf_provider.hpp" bodystart="14" bodyend="47"/>
     <listofallmembers>
       <member refid="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1a200ad01e7591b95a61d283c49bd45fab" prot="public" virt="pure-virtual"><scope>sgns::crypto::VRFProvider</scope><name>generateKeypair</name></member>
       <member refid="d1/dbf/class_i_component_1a3245bb895cec2695784bbf037c70bca7" prot="public" virt="pure-virtual"><scope>sgns::crypto::VRFProvider</scope><name>GetName</name></member>

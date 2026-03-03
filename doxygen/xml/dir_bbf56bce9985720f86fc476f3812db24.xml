@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_bbf56bce9985720f86fc476f3812db24" kind="dir">
-    <compoundname>src/primitives</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives</compoundname>
     <innerfile refid="d1/de0/apply__result_8hpp">apply_result.hpp</innerfile>
     <innerfile refid="d5/d4f/author__api__primitives_8hpp">author_api_primitives.hpp</innerfile>
     <innerfile refid="d2/d45/authority_8hpp">authority.hpp</innerfile>
@@ -30,6 +30,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/primitives/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/"/>
   </compounddef>
 </doxygen>

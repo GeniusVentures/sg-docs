@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_aa402a023b7a65474dcfb81d0e676bef" kind="dir">
-    <compoundname>src/singleton</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/singleton</compoundname>
     <innerfile refid="d8/db2/_c_component_factory_8cpp">CComponentFactory.cpp</innerfile>
     <innerfile refid="d3/d74/_c_component_factory_8hpp">CComponentFactory.hpp</innerfile>
     <innerfile refid="df/dec/_i_component_8hpp">IComponent.hpp</innerfile>
@@ -11,6 +11,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/singleton/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/singleton/"/>
   </compounddef>
 </doxygen>

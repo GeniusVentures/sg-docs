@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d2/d62/class_production_lottery_factory" kind="class" language="C++" prot="public">
+    <compoundname>ProductionLotteryFactory</compoundname>
+    <includes refid="df/d44/_production_lottery_factory_8hpp" local="no">ProductionLotteryFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/d62/class_production_lottery_factory_1a6ad4179a7f22b877cef31e8c662e99da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::verification::ProductionLottery &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::verification::ProductionLottery &gt; ProductionLotteryFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>ProductionLotteryFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" line="17" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" bodystart="17" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ProductionLotteryFactory</label>
+        <link refid="d2/d62/class_production_lottery_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" line="14" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ProductionLotteryFactory.hpp" bodystart="15" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d2/d62/class_production_lottery_factory_1a6ad4179a7f22b877cef31e8c662e99da" prot="public" virt="non-virtual"><scope>ProductionLotteryFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

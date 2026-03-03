@@ -4,7 +4,7 @@
     <compoundname>Linux.hpp</compoundname>
     <includes refid="d9/d5a/_j_s_o_n_backend_8hpp" local="yes">JSONBackend.hpp</includes>
     <includes local="no">libsecret/secret.h</includes>
-    <includedby refid="de/d39/_linux_8cpp" local="yes">src/local_secure_storage/impl/Linux.cpp</includedby>
+    <includedby refid="de/d39/_linux_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.cpp</includedby>
     <incdepgraph>
       <node id="3">
         <label>../ISecureStorage.hpp</label>
@@ -25,7 +25,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/local_secure_storage/impl/Linux.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp</label>
         <link refid="d8/db4/_linux_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -59,11 +59,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/local_secure_storage/impl/Linux.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.cpp</label>
         <link refid="de/d39/_linux_8cpp"/>
       </node>
       <node id="1">
-        <label>src/local_secure_storage/impl/Linux.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp</label>
         <link refid="d8/db4/_linux_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -106,6 +106,6 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/local_secure_storage/impl/Linux.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/Linux.hpp"/>
   </compounddef>
 </doxygen>

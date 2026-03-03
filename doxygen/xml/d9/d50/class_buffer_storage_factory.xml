@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d9/d50/class_buffer_storage_factory" kind="class" language="C++" prot="public">
+    <compoundname>BufferStorageFactory</compoundname>
+    <includes refid="d1/d4e/_buffer_storage_factory_8hpp" local="no">BufferStorageFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d50/class_buffer_storage_factory_1abf24c9e766d5f5550cbe8edfeb1a3d99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="d0/dbf/namespacesgns_1_1storage_1a1f822800c416f58b1bcc7b1d86c11797" kindref="member">sgns::storage::BufferStorage</ref> &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::storage::BufferStorage &gt; BufferStorageFactory::create</definition>
+        <argsstring>(const std::string &amp;type, const std::string &amp;path)</argsstring>
+        <name>create</name>
+        <qualifiedname>BufferStorageFactory::create</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BufferStorageFactory.hpp" line="15" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BufferStorageFactory.hpp" bodystart="15" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>BufferStorageFactory</label>
+        <link refid="d9/d50/class_buffer_storage_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BufferStorageFactory.hpp" line="12" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BufferStorageFactory.hpp" bodystart="13" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d9/d50/class_buffer_storage_factory_1abf24c9e766d5f5550cbe8edfeb1a3d99" prot="public" virt="non-virtual"><scope>BufferStorageFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

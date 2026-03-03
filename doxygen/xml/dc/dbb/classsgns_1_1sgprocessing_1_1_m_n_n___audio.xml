@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio" kind="class" language="C++" prot="public">
+    <compoundname>sgns::sgprocessing::MNN_Audio</compoundname>
+    <basecompoundref refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor" prot="public" virt="non-virtual">sgns::sgprocessing::ProcessingProcessor</basecompoundref>
+    <includes refid="df/d3c/processing__processor__mnn__audio_8hpp" local="no">processing_processor_mnn_audio.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae0da9af491e943fba8b20363329a21ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgns::sgprocessing::MNN_Audio::MNN_Audio</definition>
+        <argsstring>()</argsstring>
+        <name>MNN_Audio</name>
+        <qualifiedname>sgns::sgprocessing::MNN_Audio::MNN_Audio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a posenet processor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="25" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae52d1da661a950e4980932211266211c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sgns::sgprocessing::MNN_Audio::~MNN_Audio</definition>
+        <argsstring>() override</argsstring>
+        <name>~MNN_Audio</name>
+        <qualifiedname>sgns::sgprocessing::MNN_Audio::~MNN_Audio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="31" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1aafaa237a044e43c83e6d895b91f34f93" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt; uint8_t &gt; sgns::sgprocessing::MNN_Audio::StartProcessing</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; uint8_t &gt; &gt; &amp;chunkhashes, const sgns::IoDeclaration &amp;proc, std::vector&lt; char &gt; &amp;imageData, std::vector&lt; char &gt; &amp;modelFile) override</argsstring>
+        <name>StartProcessing</name>
+        <qualifiedname>sgns::sgprocessing::MNN_Audio::StartProcessing</qualifiedname>
+        <reimplements refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a99d4fa68897204338277a3b98e0c3d5b">StartProcessing</reimplements>
+        <param>
+          <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt; &amp;</type>
+          <declname>chunkhashes</declname>
+        </param>
+        <param>
+          <type>const sgns::IoDeclaration &amp;</type>
+          <declname>proc</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; char &gt; &amp;</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; char &gt; &amp;</type>
+          <declname>modelFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start processing data <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to result item to set hashes to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to task to get image split data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subTask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Reference to subtask to get chunk data from </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="39" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp" bodystart="14" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1a5f9b5af42c06a4da81ba4471a5716e4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; MNN::Tensor &gt;</type>
+        <definition>std::unique_ptr&lt; MNN::Tensor &gt; sgns::sgprocessing::MNN_Audio::Process</definition>
+        <argsstring>(const std::vector&lt; uint8_t &gt; &amp;audiodata, std::vector&lt; uint8_t &gt; &amp;modelFile, const int channels, const int origwidth, const int origheight, const std::string filename=&quot;&quot;)</argsstring>
+        <name>Process</name>
+        <qualifiedname>sgns::sgprocessing::MNN_Audio::Process</qualifiedname>
+        <param>
+          <type>const std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>audiodata</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>modelFile</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>channels</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>origwidth</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>origheight</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set data for processor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Data containing file name and data pair lists. Run MNN processing on image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imgdata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- RGBA image bytes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origwidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Width of image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origheight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Height of image </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="56" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors/processing_processor_mnn_audio.cpp" bodystart="40" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sgns::sgprocessing::MNN_Audio</label>
+        <link refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sgns::sgprocessing::ProcessingProcessor</label>
+        <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="1">
+        <label>sgns::sgprocessing::MNN_Audio</label>
+        <link refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sgns::sgprocessing::ProcessingProcessor</label>
+        <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>#m_progress</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>#m_logger</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::atomic&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::atomic&lt; float &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; float &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors/processing_processor_mnn_audio.hpp" bodystart="21" bodyend="66"/>
+    <listofallmembers>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a73b33be6cd8f152ae11beb0bd076f1c0" prot="public" virt="virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>GetProgress</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a66a75161bd7833fc9f8cd9639a161519" prot="protected" virt="non-virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>m_logger</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1af638e378c37cfa8cc6a6d98ca9546b76" prot="protected" virt="non-virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>m_progress</name></member>
+      <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae0da9af491e943fba8b20363329a21ff" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>MNN_Audio</name></member>
+      <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1a5f9b5af42c06a4da81ba4471a5716e4d" prot="private" virt="non-virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>Process</name></member>
+      <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1aafaa237a044e43c83e6d895b91f34f93" prot="public" virt="virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>StartProcessing</name></member>
+      <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae52d1da661a950e4980932211266211c" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>~MNN_Audio</name></member>
+      <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1afcc0df535e0be8674d77dce30332eaff" prot="public" virt="virtual"><scope>sgns::sgprocessing::MNN_Audio</scope><name>~ProcessingProcessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

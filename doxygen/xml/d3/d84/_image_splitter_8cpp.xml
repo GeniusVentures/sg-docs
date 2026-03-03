@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d3/d84/_image_splitter_8cpp" kind="file" language="C++">
+    <compoundname>ImageSplitter.cpp</compoundname>
+    <includes refid="dd/d94/_image_splitter_8hpp" local="no">datasplitter/ImageSplitter.hpp</includes>
+    <includes local="no">openssl/sha.h</includes>
+    <includes local="no">gsl/span</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>datasplitter/ImageSplitter.hpp</label>
+        <link refid="dd/d94/_image_splitter_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp</label>
+        <link refid="d3/d84/_image_splitter_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>cstring</label>
+      </node>
+      <node id="7">
+        <label>gsl/span</label>
+      </node>
+      <node id="4">
+        <label>openssl/evp.h</label>
+      </node>
+      <node id="6">
+        <label>openssl/sha.h</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d2/d2b/namespacesgns">sgns</innernamespace>
+    <innernamespace refid="d1/dc7/namespacesgns_1_1sgprocessing">sgns::sgprocessing</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d3/d84/_image_splitter_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" prot="public" static="no">
+        <name>STB_IMAGE_IMPLEMENTATION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="2" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d3/d84/_image_splitter_8cpp_1aefe397a94e8feddc652f92ef40ce9597" prot="public" static="no">
+        <name>STB_IMAGE_WRITE_IMPLEMENTATION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" line="3" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="dd/d94/_image_splitter_8hpp" kindref="compound">datasplitter/ImageSplitter.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="d3/d84/_image_splitter_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STB_IMAGE_IMPLEMENTATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="d3/d84/_image_splitter_8cpp_1aefe397a94e8feddc652f92ef40ce9597" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STB_IMAGE_WRITE_IMPLEMENTATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;openssl/sha.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>For<sp/>SHA256_DIGEST_LENGTH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gsl/span&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d1/dc7/namespacesgns_1_1sgprocessing" kindref="compound">sgns::sgprocessing</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a5d014c039dfa6f5e12d5a944f3116bac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a76a776051fbbd30931a8d5c59b10b89f" kindref="member">ImageSplitter::ImageSplitter</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;buffer,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blockstride,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blocklinestride,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blocklen,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>channels<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref>(<sp/>blockstride<sp/>),<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kindref="member">blocklinestride_</ref>(<sp/>blocklinestride<sp/>),<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref>(<sp/>blocklen<sp/>),<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2000e7d9306900ce96bc1fd89588e36" kindref="member">channels_</ref>(<sp/>channels<sp/>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>inputImage<sp/>and<sp/>imageSize<sp/>from<sp/>the<sp/>provided<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//inputImage<sp/>=<sp/>reinterpret_cast&lt;const<sp/>unsigned<sp/>char*&gt;(buffer.data());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aa9af26c435aecf48cdfe3de733b1c3e9" kindref="member">inputImage</ref><sp/>=<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keyword">const<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>buffer.data()<sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1acce49af2c7323dba5cda83f3a87fc665" kindref="member">imageSize</ref><sp/><sp/>=<sp/>buffer.size();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ac95479f15b3c8a2624aab2a28b428c6e" kindref="member">SplitImageData</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a80d0e4e81a25122f299c8cf6c3b54a13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a80d0e4e81a25122f299c8cf6c3b54a13" kindref="member">ImageSplitter::GetPart</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kindref="member">splitparts_</ref>.at(<sp/>part<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1960f4bedeb3c0d16e86e30a8d7653e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1960f4bedeb3c0d16e86e30a8d7653e6" kindref="member">ImageSplitter::GetPartByCid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;cid<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Find<sp/>the<sp/>index<sp/>of<sp/>cid<sp/>in<sp/>cids_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/>std::find(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.begin(),<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.end(),<sp/>cid<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>it<sp/>==<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.end()<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//CID<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Find<sp/>index<sp/>in<sp/>splitparts_<sp/>corresponding<sp/>to<sp/>cid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>std::distance(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.begin(),<sp/>it<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Return<sp/>the<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>index<sp/>&lt;<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kindref="member">splitparts_</ref>.size()<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Index<sp/>out<sp/>of<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ac95479f15b3c8a2624aab2a28b428c6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ac95479f15b3c8a2624aab2a28b428c6e" kindref="member">ImageSplitter::SplitImageData</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>imageSize<sp/>is<sp/>evenly<sp/>divisible<sp/>by<sp/>blocklen_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1acce49af2c7323dba5cda83f3a87fc665" kindref="member">imageSize</ref><sp/>%<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(<sp/></highlight><highlight class="stringliteral">&quot;Image<sp/>size<sp/>is<sp/>not<sp/>evenly<sp/>divisible<sp/>by<sp/>block<sp/>length&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>uint64_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1acce49af2c7323dba5cda83f3a87fc665" kindref="member">imageSize</ref>;<sp/>i<sp/>+=<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>chunkBuffer(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rowsdone<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(<sp/>i<sp/>/<sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>*<sp/>(<sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>+<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kindref="member">blocklinestride_</ref><sp/>)<sp/>/<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>bufferoffset<sp/><sp/>=<sp/>0<sp/>+<sp/>(<sp/>i<sp/>/<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>*<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferoffset<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-=<sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>+<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kindref="member">blocklinestride_</ref><sp/>)<sp/>*<sp/>rowsdone;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferoffset<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+=<sp/>rowsdone<sp/>*<sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>*<sp/>(<sp/>(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>+<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kindref="member">blocklinestride_</ref><sp/>)<sp/>/<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::cout<sp/>&lt;&lt;<sp/>&quot;buffer<sp/>offset:<sp/><sp/>&quot;<sp/>&lt;&lt;<sp/>bufferoffset<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>uint64_t<sp/>size<sp/>=<sp/>0;<sp/>size<sp/>&lt;<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref>;<sp/>size<sp/>+=<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>chunkData<sp/>=<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aa9af26c435aecf48cdfe3de733b1c3e9" kindref="member">inputImage</ref><sp/>+<sp/>bufferoffset;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::memcpy(<sp/>chunkBuffer.data()<sp/>+<sp/>(<sp/>size<sp/>),<sp/>chunkData,<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufferoffset<sp/>+=<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>+<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kindref="member">blocklinestride_</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::string<sp/>filename<sp/>=<sp/>&quot;chunk_&quot;<sp/>+<sp/>std::to_string(i)<sp/>+<sp/>&quot;.png&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>result<sp/>=<sp/>stbi_write_png(filename.c_str(),<sp/>blockstride_<sp/>/<sp/>4,<sp/>blocklen_<sp/>/<sp/>blockstride_,<sp/>4,<sp/>chunkBuffer.data(),<sp/>blockstride_);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(!result)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/>&quot;Error<sp/>writing<sp/>PNG<sp/>file:<sp/>&quot;<sp/>&lt;&lt;<sp/>filename<sp/>&lt;&lt;<sp/>&quot;\n&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kindref="member">splitparts_</ref>.push_back(<sp/>chunkBuffer<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ad950de1a48db088f5b104b8a03a0a591" kindref="member">chunkWidthActual_</ref>.push_back(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>/<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2000e7d9306900ce96bc1fd89588e36" kindref="member">channels_</ref><sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a6e68daa9ed7ea478b2660ce7f6dc3356" kindref="member">chunkHeightActual_</ref>.push_back(<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kindref="member">blocklen_</ref><sp/>/<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kindref="member">blockstride_</ref><sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gsl::span&lt;const<sp/>uint8_t&gt;<sp/>byte_span(<sp/>chunkBuffer<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/><sp/><sp/><sp/><sp/>shahash(<sp/>SHA256_DIGEST_LENGTH<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>digest_len<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EVP_MD_CTX<sp/>*ctx<sp/>=<sp/>EVP_MD_CTX_new();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EVP_DigestInit_ex(<sp/>ctx,<sp/>EVP_sha256(),<sp/>NULL<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EVP_DigestUpdate(<sp/>ctx,<sp/>chunkBuffer.data(),<sp/>chunkBuffer.size()<sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EVP_DigestFinal_ex(<sp/>ctx,<sp/>shahash.data(),<sp/>&amp;digest_len<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EVP_MD_CTX_free(<sp/>ctx<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.emplace_back(<sp/>shahash<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a132cd2e70b0e500874d3a3d50ed530f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a132cd2e70b0e500874d3a3d50ed530f7" kindref="member">ImageSplitter::GetPartSize</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="96"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kindref="member">splitparts_</ref>.at(<sp/>part<sp/>).size();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2bba4426b86bfae899b563da4d79574" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2bba4426b86bfae899b563da4d79574" kindref="member">ImageSplitter::GetPartStride</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="101"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ad950de1a48db088f5b104b8a03a0a591" kindref="member">chunkWidthActual_</ref>.at(<sp/>part<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a97ee54e94f0bbd393cf8d7e860cef4ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a97ee54e94f0bbd393cf8d7e860cef4ad" kindref="member">ImageSplitter::GetPartWidthActual</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="106"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ad950de1a48db088f5b104b8a03a0a591" kindref="member">chunkWidthActual_</ref>.at(<sp/>part<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aaaff7ee44abbe20549e7dc0b4ae1bf31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aaaff7ee44abbe20549e7dc0b4ae1bf31" kindref="member">ImageSplitter::GetPartHeightActual</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="111"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a6e68daa9ed7ea478b2660ce7f6dc3356" kindref="member">chunkHeightActual_</ref>.at(<sp/>part<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1ba815a0c693a1d93bb1221100a941be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1ba815a0c693a1d93bb1221100a941be" kindref="member">ImageSplitter::GetPartCount</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="116"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kindref="member">splitparts_</ref>.size();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a05fda9e591cc52c36489c51e28f73306" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a05fda9e591cc52c36489c51e28f73306" kindref="member">ImageSplitter::GetImageSize</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="121"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1acce49af2c7323dba5cda83f3a87fc665" kindref="member">imageSize</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a59660810c480bd963b6fc3f715fb3da3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a59660810c480bd963b6fc3f715fb3da3" kindref="member">ImageSplitter::GetPartCID</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>part<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="126"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kindref="member">cids_</ref>.at(<sp/>part<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter/ImageSplitter.cpp"/>
+  </compounddef>
+</doxygen>

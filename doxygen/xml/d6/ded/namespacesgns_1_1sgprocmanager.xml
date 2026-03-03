@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/ded/namespacesgns_1_1sgprocmanager" kind="namespace" language="C++">
+    <compoundname>sgns::sgprocmanager</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d6/ded/namespacesgns_1_1sgprocmanager_1adb77cf9b4ff491f007857d0590792265" prot="public" static="no">
+        <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
+        <definition>using sgns::sgprocmanager::Logger = std::shared_ptr&lt;spdlog::logger&gt;</definition>
+        <argsstring></argsstring>
+        <name>Logger</name>
+        <qualifiedname>sgns::sgprocmanager::Logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" line="13" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d6/ded/namespacesgns_1_1sgprocmanager_1ab8bde5b7d40703ed0ed7193069d2f96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/ded/namespacesgns_1_1sgprocmanager_1adb77cf9b4ff491f007857d0590792265" kindref="member">Logger</ref></type>
+        <definition>Logger sgns::sgprocmanager::createLogger</definition>
+        <argsstring>(const std::string &amp;tag, const std::string &amp;basepath=&quot;&quot;)</argsstring>
+        <name>createLogger</name>
+        <qualifiedname>sgns::sgprocmanager::createLogger</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>basepath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide logger object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- tagging name for identifying logger </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>logger object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp" line="54" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sgprocmgr-logger.cpp" bodystart="54" bodyend="64" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" declline="20" declcolumn="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sgprocmgr-logger.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="85" column="43" bodyfile="src/proof/RecursiveTransferProof.hpp" bodystart="85" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="85" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d2f/classsgns_1_1_recursive_transfer_proof_1a2c6098719c0c6514d09f7f83febb5908" prot="private" static="yes" mutable="no">
         <type>bool</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="106" column="28" bodyfile="src/proof/RecursiveTransferProof.hpp" bodystart="106" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="106" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" bodystart="106" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="41" column="18" bodyfile="src/proof/RecursiveTransferProof.cpp" bodystart="16" bodyend="23"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="41" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp" bodystart="16" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="d3/d2f/classsgns_1_1_recursive_transfer_proof_1a9f211f5b49cc35a6fb11a5d6b6d7d6af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="46" column="9"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="46" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d3/d2f/classsgns_1_1_recursive_transfer_proof_1a50f6d665fb26dd277d3c2cddbc89fd2c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="52" column="21" bodyfile="src/proof/RecursiveTransferProof.hpp" bodystart="52" bodyend="55"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="52" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" bodystart="52" bodyend="55"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="63" column="25"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="63" column="25"/>
       </memberdef>
       <memberdef kind="function" id="d3/d2f/classsgns_1_1_recursive_transfer_proof_1a77c4881d7e778f8698dc5525a9bce85b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::pair&lt; boost::json::array, boost::json::array &gt;</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="70" column="19"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="70" column="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="79" column="32"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="79" column="32"/>
       </memberdef>
       <memberdef kind="function" id="d3/d2f/classsgns_1_1_recursive_transfer_proof_1af7094306562f1c6abe00b4c65a2b7bbb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/RecursiveTransferProof.hpp" line="91" column="28" bodyfile="src/proof/RecursiveTransferProof.hpp" bodystart="91" bodyend="101"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="91" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" bodystart="91" bodyend="101"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -355,7 +355,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/proof/RecursiveTransferProof.hpp" line="32" column="5" bodyfile="src/proof/RecursiveTransferProof.hpp" bodystart="33" bodyend="107"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp" bodystart="33" bodyend="107"/>
     <listofallmembers>
       <member refid="d5/d48/classsgns_1_1_transfer_proof_1a10c6013e5161fa8c5248dd739fd433b7" prot="private" virt="non-virtual"><scope>sgns::RecursiveTransferProof</scope><name>amount_</name></member>
       <member refid="d5/d48/classsgns_1_1_transfer_proof_1ab7201daffdef13b08c5cb0695c450e33" prot="private" virt="non-virtual"><scope>sgns::RecursiveTransferProof</scope><name>balance_</name></member>

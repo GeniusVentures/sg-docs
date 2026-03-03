@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="de/d45/class_own_peer_info_factory" kind="class" language="C++" prot="public">
+    <compoundname>OwnPeerInfoFactory</compoundname>
+    <includes refid="dd/d13/_own_peer_info_factory_8hpp" local="no">OwnPeerInfoFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/d45/class_own_peer_info_factory_1ac1deb562a139536acb10091384e7cab0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::network::OwnPeerInfo &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::network::OwnPeerInfo &gt; OwnPeerInfoFactory::create</definition>
+        <argsstring>(const std::uint16_t &amp;port)</argsstring>
+        <name>create</name>
+        <qualifiedname>OwnPeerInfoFactory::create</qualifiedname>
+        <param>
+          <type>const std::uint16_t &amp;</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp" line="19" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp" bodystart="19" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>OwnPeerInfoFactory</label>
+        <link refid="de/d45/class_own_peer_info_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp" line="16" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/OwnPeerInfoFactory.hpp" bodystart="17" bodyend="51"/>
+    <listofallmembers>
+      <member refid="de/d45/class_own_peer_info_factory_1ac1deb562a139536acb10091384e7cab0" prot="public" virt="non-virtual"><scope>OwnPeerInfoFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

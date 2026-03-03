@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/daa/class_app_configuration_factory" kind="class" language="C++" prot="public">
+    <compoundname>AppConfigurationFactory</compoundname>
+    <includes refid="df/dae/_app_configuration_factory_8hpp" local="no">AppConfigurationFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/daa/class_app_configuration_factory_1adf4518811f5fd76fb87ffe70ffee32f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="d6/d85/classsgns_1_1application_1_1_app_configuration" kindref="compound">sgns::application::AppConfiguration</ref> &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::application::AppConfiguration &gt; AppConfigurationFactory::create</definition>
+        <argsstring>(sgns::base::Logger logger)</argsstring>
+        <name>create</name>
+        <qualifiedname>AppConfigurationFactory::create</qualifiedname>
+        <param>
+          <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">sgns::base::Logger</ref></type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp" line="16" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppConfigurationFactory</label>
+        <link refid="df/daa/class_app_configuration_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppConfigurationFactory.hpp" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="df/daa/class_app_configuration_factory_1adf4518811f5fd76fb87ffe70ffee32f7" prot="public" virt="non-virtual"><scope>AppConfigurationFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

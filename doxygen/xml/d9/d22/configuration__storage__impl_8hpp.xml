@@ -5,7 +5,8 @@
     <includes refid="d1/d83/configuration__storage_8hpp" local="yes">application/configuration_storage.hpp</includes>
     <includes local="no">boost/property_tree/ptree.hpp</includes>
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
-    <includedby refid="d1/d90/configuration__storage__impl_8cpp" local="yes">src/application/impl/configuration_storage_impl.cpp</includedby>
+    <includedby refid="df/dd6/_configuration_storage_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ConfigurationStorageFactory.hpp</includedby>
+    <includedby refid="d1/d90/configuration__storage__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/configuration_storage_impl.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>application/configuration_storage.hpp</label>
@@ -30,7 +31,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/application/impl/configuration_storage_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/configuration_storage_impl.hpp</label>
         <link refid="d9/d22/configuration__storage__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -168,14 +169,26 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/application/impl/configuration_storage_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ConfigurationStorageFactory.hpp</label>
+        <link refid="df/dd6/_configuration_storage_factory_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/configuration_storage_impl.cpp</label>
         <link refid="d1/d90/configuration__storage__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>src/application/impl/configuration_storage_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/configuration_storage_impl.hpp</label>
         <link refid="d9/d22/configuration__storage__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="df/d60/classsgns_1_1application_1_1_configuration_storage_impl" prot="public">sgns::application::ConfigurationStorageImpl</innerclass>
@@ -304,6 +317,6 @@
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_CONFIGURATION_STORAGE_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/application/impl/configuration_storage_impl.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/configuration_storage_impl.hpp"/>
   </compounddef>
 </doxygen>

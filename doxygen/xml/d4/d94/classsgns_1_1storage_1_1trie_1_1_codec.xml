@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/codec.hpp" line="19" column="8"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="19" column="8"/>
       </memberdef>
       <memberdef kind="function" id="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1ace5af34e24bffb4f41f6220bbc8e3f49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &gt;</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/codec.hpp" line="26" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="26" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1a1fc94a87d2d7779a6efb36c583d3e244" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d4/d79/structsgns_1_1storage_1_1trie_1_1_node" kindref="compound">Node</ref> &gt; &gt;</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/codec.hpp" line="34" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="34" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1a3c48b13f7aa1c3bdb016118d3b83494c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref></type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/codec.hpp" line="42" column="26"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="42" column="26"/>
       </memberdef>
       <memberdef kind="function" id="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1a978076661f4350489d21c0b000cab30e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1acd215486f70fdf49a6232a104a96ecf3" kindref="member">base::Hash256</ref></type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/codec.hpp" line="49" column="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="49" column="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -184,7 +184,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/storage/trie/codec.hpp" line="17" column="3" bodyfile="src/storage/trie/codec.hpp" bodystart="17" bodyend="50"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" line="17" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/codec.hpp" bodystart="17" bodyend="50"/>
     <listofallmembers>
       <member refid="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1a1fc94a87d2d7779a6efb36c583d3e244" prot="public" virt="pure-virtual"><scope>sgns::storage::trie::Codec</scope><name>decodeNode</name></member>
       <member refid="d4/d94/classsgns_1_1storage_1_1trie_1_1_codec_1ace5af34e24bffb4f41f6220bbc8e3f49" prot="public" virt="pure-virtual"><scope>sgns::storage::trie::Codec</scope><name>encodeNode</name></member>

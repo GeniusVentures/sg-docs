@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/core.hpp" line="23" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="23" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d4/df1/classsgns_1_1runtime_1_1_core_1a4446a2872b230da459fc300b499a5329" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; <ref refid="de/d6d/structsgns_1_1primitives_1_1_version" kindref="compound">primitives::Version</ref> &gt;</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/core.hpp" line="29" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="29" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d4/df1/classsgns_1_1runtime_1_1_core_1abf9b51aebbc6e51f771833bdddbfa1fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/core.hpp" line="36" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="36" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d4/df1/classsgns_1_1runtime_1_1_core_1aed43dd94de2d91e8c11e9c313ca5710a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/core.hpp" line="43" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="43" column="29"/>
       </memberdef>
       <memberdef kind="function" id="d4/df1/classsgns_1_1runtime_1_1_core_1a61c0d3b0f660dcd09020c2b73c262b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>outcome::result&lt; std::vector&lt; <ref refid="db/d9a/structsgns_1_1primitives_1_1_authority_id" kindref="compound">primitives::AuthorityId</ref> &gt; &gt;</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/core.hpp" line="50" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="50" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -148,7 +148,7 @@
         <link refid="d4/df1/classsgns_1_1runtime_1_1_core"/>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/core.hpp" line="21" column="3" bodyfile="src/runtime/core.hpp" bodystart="21" bodyend="52"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" line="21" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/core.hpp" bodystart="21" bodyend="52"/>
     <listofallmembers>
       <member refid="d4/df1/classsgns_1_1runtime_1_1_core_1a61c0d3b0f660dcd09020c2b73c262b8b" prot="public" virt="pure-virtual"><scope>sgns::runtime::Core</scope><name>authorities</name></member>
       <member refid="d4/df1/classsgns_1_1runtime_1_1_core_1abf9b51aebbc6e51f771833bdddbfa1fa" prot="public" virt="pure-virtual"><scope>sgns::runtime::Core</scope><name>execute_block</name></member>

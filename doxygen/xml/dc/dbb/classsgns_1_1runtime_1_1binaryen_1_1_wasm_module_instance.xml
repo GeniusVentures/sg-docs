@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/module/wasm_module_instance.hpp" line="15" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module_instance.hpp" line="15" column="13"/>
       </memberdef>
       <memberdef kind="function" id="dc/dbb/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_instance_1a338015b1d9212620aaf28c19ff5a927e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>wasm::Literal</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/module/wasm_module_instance.hpp" line="22" column="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module_instance.hpp" line="22" column="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -86,7 +86,7 @@
         <link refid="dc/dbb/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_instance"/>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/binaryen/module/wasm_module_instance.hpp" line="13" column="3" bodyfile="src/runtime/binaryen/module/wasm_module_instance.hpp" bodystart="13" bodyend="24"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module_instance.hpp" line="13" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module_instance.hpp" bodystart="13" bodyend="24"/>
     <listofallmembers>
       <member refid="dc/dbb/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_instance_1a338015b1d9212620aaf28c19ff5a927e" prot="public" virt="pure-virtual"><scope>sgns::runtime::binaryen::WasmModuleInstance</scope><name>callExport</name></member>
       <member refid="dc/dbb/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_instance_1a2d4853cf52bdda20746155ac102d57f5" prot="public" virt="virtual"><scope>sgns::runtime::binaryen::WasmModuleInstance</scope><name>~WasmModuleInstance</name></member>

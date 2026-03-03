@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/d69/namespaceelgamal" kind="namespace" language="C++">
+    <compoundname>elgamal</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a73ceb6fd41638a4bfd675814b4040f22" prot="public" static="no">
+        <type>algebra::curves::secp256k1</type>
+        <definition>using elgamal::CurveType = algebra::curves::secp256k1</definition>
+        <argsstring></argsstring>
+        <name>CurveType</name>
+        <qualifiedname>elgamal::CurveType</qualifiedname>
+        <briefdescription>
+<para>ECDSA uses secp256k curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1aae21b13f1f8db21417a9e5f91f4efbb8" prot="public" static="no">
+        <type>typename CurveType::base_field_type</type>
+        <definition>using elgamal::base_field_type = typename CurveType::base_field_type</definition>
+        <argsstring></argsstring>
+        <name>base_field_type</name>
+        <qualifiedname>elgamal::base_field_type</qualifiedname>
+        <briefdescription>
+<para>The base field type is dependant on the curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" prot="public" static="no">
+        <type>typename CurveType::scalar_field_type</type>
+        <definition>using elgamal::scalar_field_type = typename CurveType::scalar_field_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_type</name>
+        <qualifiedname>elgamal::scalar_field_type</qualifiedname>
+        <briefdescription>
+<para>The scalar field type is dependant on the curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" prot="public" static="no">
+        <type>typename scalar_field_type::value_type</type>
+        <definition>using elgamal::scalar_field_value_type = typename scalar_field_type::value_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_value_type</name>
+        <qualifiedname>elgamal::scalar_field_value_type</qualifiedname>
+        <briefdescription>
+<para>The value type fo the scalar field type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1af091e1d9b7b668f03e9b6207f99c0dfe" prot="public" static="no">
+        <type>random::algebraic_random_device&lt; <ref refid="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" kindref="member">scalar_field_type</ref> &gt;</type>
+        <definition>using elgamal::random_generator_type = random::algebraic_random_device&lt;scalar_field_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>random_generator_type</name>
+        <qualifiedname>elgamal::random_generator_type</qualifiedname>
+        <briefdescription>
+<para>A random algebraic generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" prot="public" static="no">
+        <type>hashes::sha2&lt; 256 &gt;</type>
+        <definition>using elgamal::hash_type = hashes::sha2&lt;256&gt;</definition>
+        <argsstring></argsstring>
+        <name>hash_type</name>
+        <qualifiedname>elgamal::hash_type</qualifiedname>
+        <briefdescription>
+<para>The deterministic generator used by Ethereum key pair. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" prot="public" static="no">
+        <type>random::rfc6979&lt; <ref refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kindref="member">scalar_field_value_type</ref>, <ref refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kindref="member">hash_type</ref> &gt;</type>
+        <definition>using elgamal::generator_type = random::rfc6979&lt;scalar_field_value_type, hash_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>generator_type</name>
+        <qualifiedname>elgamal::generator_type</qualifiedname>
+        <briefdescription>
+<para>RFC6979 deterministic generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" prot="public" static="no">
+        <type>pubkey::padding::emsa1&lt; <ref refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kindref="member">scalar_field_value_type</ref>, <ref refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kindref="member">hash_type</ref> &gt;</type>
+        <definition>using elgamal::padding_policy = pubkey::padding::emsa1&lt;scalar_field_value_type, hash_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>padding_policy</name>
+        <qualifiedname>elgamal::padding_policy</qualifiedname>
+        <briefdescription>
+<para>Ethereum passing policy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" prot="public" static="no">
+        <type>pubkey::ecdsa&lt; <ref refid="d5/d69/namespaceelgamal_1a73ceb6fd41638a4bfd675814b4040f22" kindref="member">CurveType</ref>, <ref refid="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" kindref="member">padding_policy</ref>, <ref refid="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" kindref="member">generator_type</ref> &gt;</type>
+        <definition>using elgamal::policy_type = pubkey::ecdsa&lt;CurveType, padding_policy, generator_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>policy_type</name>
+        <qualifiedname>elgamal::policy_type</qualifiedname>
+        <briefdescription>
+<para>Ethereum policy type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/d69/namespaceelgamal_1a6e9c1894fa1f052015eafb85cff47555" prot="public" static="no">
+        <type>typename pubkey::public_key&lt; <ref refid="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" kindref="member">policy_type</ref> &gt;::signature_type</type>
+        <definition>using elgamal::signature_type = typename pubkey::public_key&lt;policy_type&gt;::signature_type</definition>
+        <argsstring></argsstring>
+        <name>signature_type</name>
+        <qualifiedname>elgamal::signature_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ElGamalTypes.hpp" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dir_f67fae9c55e6f7d8f49173a0fc3e903b" kind="dir">
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem</compoundname>
+    <innerfile refid="db/d6c/_a_e_s_encryption_8hpp">AESEncryption.hpp</innerfile>
+    <innerfile refid="dd/dd3/_bitcoin_key_generator_8hpp">BitcoinKeyGenerator.hpp</innerfile>
+    <innerfile refid="da/d4f/_bitcoin_key_pair_params_8hpp">BitcoinKeyPairParams.hpp</innerfile>
+    <innerfile refid="d4/d45/_crypto3_util_8hpp">Crypto3Util.hpp</innerfile>
+    <innerfile refid="d4/df8/_e_c_d_h_encryption_8hpp">ECDHEncryption.hpp</innerfile>
+    <innerfile refid="d8/ddd/_e_c_d_s_a_public_key_8hpp">ECDSAPublicKey.hpp</innerfile>
+    <innerfile refid="db/da9/_e_c_d_s_a_types_8hpp">ECDSATypes.hpp</innerfile>
+    <innerfile refid="d7/d68/_e_c_el_gamal_key_generator_8hpp">ECElGamalKeyGenerator.hpp</innerfile>
+    <innerfile refid="d3/dd4/_e_c_el_gamal_types_8hpp">ECElGamalTypes.hpp</innerfile>
+    <innerfile refid="df/d7b/_el_gamal_key_generator_8hpp">ElGamalKeyGenerator.hpp</innerfile>
+    <innerfile refid="d3/d01/_el_gamal_types_8hpp">ElGamalTypes.hpp</innerfile>
+    <innerfile refid="d7/d2d/_encryption_8hpp">Encryption.hpp</innerfile>
+    <innerfile refid="d9/dd7/_ethereum_key_generator_8hpp">EthereumKeyGenerator.hpp</innerfile>
+    <innerfile refid="dc/d35/_ethereum_key_pair_params_8hpp">EthereumKeyPairParams.hpp</innerfile>
+    <innerfile refid="df/d62/ext__private__key_8hpp">ext_private_key.hpp</innerfile>
+    <innerfile refid="d1/dec/_k_d_f_generator_8hpp">KDFGenerator.hpp</innerfile>
+    <innerfile refid="d0/d90/_prime_numbers_8hpp">PrimeNumbers.hpp</innerfile>
+    <innerfile refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp">util.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/"/>
+  </compounddef>
+</doxygen>

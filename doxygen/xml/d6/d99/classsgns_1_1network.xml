@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/network.hpp" line="7" column="5" bodyfile="node/network.cpp" bodystart="2" bodyend="4"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.hpp" line="7" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.cpp" bodystart="2" bodyend="4"/>
       </memberdef>
       <memberdef kind="function" id="d6/d99/classsgns_1_1network_1a4b0f4e62fd56b2c667efe0fee4817fdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/network.hpp" line="8" column="5" bodyfile="node/network.cpp" bodystart="5" bodyend="7"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.hpp" line="8" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.cpp" bodystart="5" bodyend="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -43,7 +43,7 @@
         <link refid="d6/d99/classsgns_1_1network"/>
       </node>
     </collaborationgraph>
-    <location file="node/network.hpp" line="4" column="1" bodyfile="node/network.hpp" bodystart="5" bodyend="10"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.hpp" line="4" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/network.hpp" bodystart="5" bodyend="10"/>
     <listofallmembers>
       <member refid="d6/d99/classsgns_1_1network_1a987a4c8e53426588d5270fa1e1605ca8" prot="public" virt="non-virtual"><scope>sgns::network</scope><name>network</name></member>
       <member refid="d6/d99/classsgns_1_1network_1a4b0f4e62fd56b2c667efe0fee4817fdc" prot="public" virt="non-virtual"><scope>sgns::network</scope><name>~network</name></member>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/author_api_primitives.hpp" line="25" column="14" bodyfile="src/primitives/author_api_primitives.hpp" bodystart="25" bodyend="25"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" line="25" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" bodystart="25" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -31,7 +31,7 @@
         <link refid="de/d40/structsgns_1_1primitives_1_1_session"/>
       </node>
     </collaborationgraph>
-    <location file="src/primitives/author_api_primitives.hpp" line="24" column="3" bodyfile="src/primitives/author_api_primitives.hpp" bodystart="24" bodyend="26"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" line="24" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/author_api_primitives.hpp" bodystart="24" bodyend="26"/>
     <listofallmembers>
       <member refid="de/d40/structsgns_1_1primitives_1_1_session_1a86d9f5064a5a449667992e2f71881825" prot="public" virt="non-virtual"><scope>sgns::primitives::Session</scope><name>id</name></member>
     </listofallmembers>

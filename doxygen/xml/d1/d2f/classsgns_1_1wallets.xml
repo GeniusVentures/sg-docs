@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="42" column="22" bodyfile="node/wallet.hpp" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="42" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1a824520fdd94df7f20fed5de6250a13ff" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(bool)&gt;</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="43" column="15" bodyfile="node/wallet.hpp" bodystart="43" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="43" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1ae33090e18214c6548d825159cbd5e533" prot="public" static="no" mutable="no">
         <type>std::unordered_map&lt; sgns::wallet_id, std::shared_ptr&lt; <ref refid="d2/d21/classsgns_1_1wallet" kindref="compound">sgns::wallet</ref> &gt; &gt;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="44" column="20" bodyfile="node/wallet.hpp" bodystart="44" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="44" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1a351d477d68263ff5dfb88073c9f4f767" prot="public" static="no" mutable="no">
         <type>std::multimap&lt; sgns::uint128_t, std::pair&lt; std::shared_ptr&lt; <ref refid="d2/d21/classsgns_1_1wallet" kindref="compound">sgns::wallet</ref> &gt;, std::function&lt; void(<ref refid="d2/d21/classsgns_1_1wallet" kindref="compound">sgns::wallet</ref> &amp;)&gt; &gt;, std::greater&lt; sgns::uint128_t &gt; &gt;</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="45" column="15" bodyfile="node/wallet.hpp" bodystart="45" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="45" column="15" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1ad54802b7984f1f8025aedb1e9f75b822" prot="public" static="no" mutable="no">
         <type>sgns::locked&lt; std::unordered_map&lt; sgns::account, sgns::root &gt; &gt;</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="46" column="14" bodyfile="node/wallet.hpp" bodystart="46" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="46" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1a054129aa2271a2beba9761ccfe0b7380" prot="public" static="no" mutable="no">
         <type>std::mutex</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="47" column="12" bodyfile="node/wallet.hpp" bodystart="47" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="47" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1ae98142ce8f7409d0e5a5036d2ac1e510" prot="public" static="no" mutable="no">
         <type>std::mutex</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="48" column="12" bodyfile="node/wallet.hpp" bodystart="48" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="48" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1a815f51f1e59e8ebf0c1207a95d209204" prot="public" static="no" mutable="no">
         <type>sgns::condition_variable</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="49" column="26" bodyfile="node/wallet.hpp" bodystart="49" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="49" column="26" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1ad10a24e62d76fe6fd561e6800a2afa7c" prot="public" static="no" mutable="no">
         <type>std::atomic&lt; bool &gt;</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="55" column="13" bodyfile="node/wallet.hpp" bodystart="55" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="55" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1a3e66ebb54d8ce1db213e90e93bb94641" prot="public" static="no" mutable="no">
         <type>std::thread</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="57" column="13" bodyfile="node/wallet.hpp" bodystart="57" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="57" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="58" column="30" bodyfile="node/wallet.hpp" bodystart="58" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="58" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d2f/classsgns_1_1wallets_1af19726773ce1267d0a4d8a93bd54a634" prot="public" static="yes" mutable="no">
         <type>sgns::uint128_t const</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="59" column="30" bodyfile="node/wallet.hpp" bodystart="59" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="59" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="59" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="67" column="12" bodyfile="node/wallet.hpp" bodystart="67" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="67" column="12" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="67" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="22" column="1" bodyfile="node/wallet.cpp" bodystart="3" bodyend="74"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="22" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.cpp" bodystart="3" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a5b484dd76baef3c1c871fe28fbc9c790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="23" column="1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="23" column="1"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1aca0b2117dec9b5eeaf6d534b552daeee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d2/d21/classsgns_1_1wallet" kindref="compound">sgns::wallet</ref> &gt;</type>
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="24" column="17"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="24" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a40ad702d6a772d438799d1f91f09cf25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="d2/d21/classsgns_1_1wallet" kindref="compound">sgns::wallet</ref> &gt;</type>
@@ -260,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="25" column="17"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="25" column="17"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1ae7bb76c6438d46ae2bd746a97b81de0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -277,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="26" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="26" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a6e19b998446b4cdbda978f5b5fdd24ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -291,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="27" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="27" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a32afdfc0079e957e16e5e489b4d5d126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="28" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="28" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a81d07f2bb6819adda467645b47c8ea29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="29" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="29" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a92b247c3ad3f81353a8239e7007bdd80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -336,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="30" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="30" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1ac048106526c4e6654e098c3422a7e47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="31" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="31" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1adc78ad4a70cb4460494fc605f9d776a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="32" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="32" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1add1dba132a33a9ce332bfdd198a2a8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -396,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="33" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="33" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1aa5d30c0dddec3e25cbd7a8b9c093538d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="34" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="34" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1ad23da076c5e0f23a0a6bcb5be7562802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -427,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="35" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="35" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a26b6071ed786039c6e92afb5f9745a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="37" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="37" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a872ca5cc2a12bf90915e2d1c68336aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -465,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="38" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="38" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1af7c1be3dd19e0dae6257850f31048709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -479,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="39" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="39" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a83eafabc3472d7134df3fcb9131b4dbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -499,7 +499,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="40" column="6"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="40" column="6"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1ae8fc96776acd15098fc3c3dd389486b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>sgns::write_transaction</type>
@@ -514,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="61" column="25"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="61" column="25"/>
       </memberdef>
       <memberdef kind="function" id="d1/d2f/classsgns_1_1wallets_1a32c1157eb86ccd6a9b442949b4b92c5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>sgns::read_transaction</type>
@@ -529,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/wallet.hpp" line="64" column="24"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="64" column="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -667,7 +667,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="node/wallet.hpp" line="19" column="1" bodyfile="node/wallet.hpp" bodystart="20" bodyend="69"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" line="19" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/wallet.hpp" bodystart="20" bodyend="69"/>
     <listofallmembers>
       <member refid="d1/d2f/classsgns_1_1wallets_1ae98142ce8f7409d0e5a5036d2ac1e510" prot="public" virt="non-virtual"><scope>sgns::wallets</scope><name>action_mutex</name></member>
       <member refid="d1/d2f/classsgns_1_1wallets_1a351d477d68263ff5dfb88073c9f4f767" prot="public" virt="non-virtual"><scope>sgns::wallets</scope><name>actions</name></member>

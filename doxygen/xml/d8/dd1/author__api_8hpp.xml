@@ -6,9 +6,10 @@
     <includes refid="db/dd3/extrinsic_8hpp" local="yes">primitives/extrinsic.hpp</includes>
     <includes refid="d5/d4f/author__api__primitives_8hpp" local="yes">primitives/author_api_primitives.hpp</includes>
     <includes refid="df/dec/_i_component_8hpp" local="yes">singleton/IComponent.hpp</includes>
+    <includedby refid="d3/d92/_extrinsic_observer_factory_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/api/service/author/author_api.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author/author_api.hpp</label>
         <link refid="d8/dd1/author__api_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -132,6 +133,24 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp</label>
+        <link refid="d3/d92/_extrinsic_observer_factory_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author/author_api.hpp</label>
+        <link refid="d8/dd1/author__api_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="dd/d62/classsgns_1_1api_1_1_author_api" prot="public">sgns::api::AuthorApi</innerclass>
     <innernamespace refid="d2/d2b/namespacesgns">sgns</innernamespace>
     <innernamespace refid="df/d66/namespacesgns_1_1api">sgns::api</innernamespace>
@@ -175,6 +194,6 @@
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_API_EXTRINSIC_EXTRINSIC_API_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/api/service/author/author_api.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author/author_api.hpp"/>
   </compounddef>
 </doxygen>

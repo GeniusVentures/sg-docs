@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d5/dd7/struct_public_key" kind="struct" language="C++" prot="public">
+    <compoundname>PublicKey</compoundname>
+    <includes refid="d3/dd4/_e_c_el_gamal_types_8hpp" local="no">ECElGamalTypes.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CurveType</type>
+      </param>
+      <param>
+        <type>typename Padding</type>
+      </param>
+      <param>
+        <type>typename GeneratorType</type>
+      </param>
+      <param>
+        <type>typename DistributionType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a0e5c6fdef47e98fda6b3842ed13abb0a" prot="public" static="no">
+        <type>CurveType</type>
+        <definition>typedef CurveType PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::curve_type</definition>
+        <argsstring></argsstring>
+        <name>curve_type</name>
+        <qualifiedname>PublicKey::curve_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="110" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1afa5e1968bda041f4e06be6e8d5d7d0dc" prot="public" static="no">
+        <type>Padding</type>
+        <definition>typedef Padding PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::padding_policy</definition>
+        <argsstring></argsstring>
+        <name>padding_policy</name>
+        <qualifiedname>PublicKey::padding_policy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="111" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1af34d6a6d8e69881428bf264eb3d8548a" prot="public" static="no">
+        <type>nil::crypto3::pubkey::padding::encoding_accumulator_set&lt; <ref refid="d5/dd7/struct_public_key_1afa5e1968bda041f4e06be6e8d5d7d0dc" kindref="member">padding_policy</ref> &gt;</type>
+        <definition>typedef nil::crypto3::pubkey::padding::encoding_accumulator_set&lt;padding_policy&gt; PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::internal_accumulator_type</definition>
+        <argsstring></argsstring>
+        <name>internal_accumulator_type</name>
+        <qualifiedname>PublicKey::internal_accumulator_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="113" column="69" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1afb11e7bbc5ccd012d160183a860a6d75" prot="public" static="no">
+        <type>curve_type::scalar_field_type</type>
+        <definition>typedef curve_type::scalar_field_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::scalar_field_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_type</name>
+        <qualifiedname>PublicKey::scalar_field_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="115" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" prot="public" static="no">
+        <type>scalar_field_type::value_type</type>
+        <definition>typedef scalar_field_type::value_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::scalar_field_value_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_value_type</name>
+        <qualifiedname>PublicKey::scalar_field_value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="116" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a0fdef7a46c84be245761308f2c749051" prot="public" static="no">
+        <type>curve_type::template <ref refid="d5/dd7/struct_public_key_1a0fdef7a46c84be245761308f2c749051" kindref="member">g1_type</ref></type>
+        <definition>typedef curve_type::template g1_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::g1_type</definition>
+        <argsstring></argsstring>
+        <name>g1_type</name>
+        <qualifiedname>PublicKey::g1_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="117" column="56" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1af089e3006308e553d06fbd28dd7f7bbc" prot="public" static="no">
+        <type>g1_type::value_type</type>
+        <definition>typedef g1_type::value_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::g1_value_type</definition>
+        <argsstring></argsstring>
+        <name>g1_value_type</name>
+        <qualifiedname>PublicKey::g1_value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="118" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a4535182582bafa1c99dfbb58259e1b0d" prot="public" static="no">
+        <type>curve_type::base_field_type::integral_type</type>
+        <definition>typedef curve_type::base_field_type::integral_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::base_integral_type</definition>
+        <argsstring></argsstring>
+        <name>base_integral_type</name>
+        <qualifiedname>PublicKey::base_integral_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="119" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a708856c77f4f28df9f1bf711286aafba" prot="public" static="no">
+        <type>scalar_field_type::modular_type</type>
+        <definition>typedef scalar_field_type::modular_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::scalar_modular_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_modular_type</name>
+        <qualifiedname>PublicKey::scalar_modular_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="120" column="65" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" prot="public" static="no">
+        <type><ref refid="d5/dd7/struct_public_key_1af089e3006308e553d06fbd28dd7f7bbc" kindref="member">g1_value_type</ref></type>
+        <definition>typedef g1_value_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::public_key_type</definition>
+        <argsstring></argsstring>
+        <name>public_key_type</name>
+        <qualifiedname>PublicKey::public_key_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="122" column="73" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d5/dd7/struct_public_key_1a81f3d837c964a781ffc46fa84c626341" prot="public" static="no">
+        <type>std::pair&lt; <ref refid="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" kindref="member">scalar_field_value_type</ref>, <ref refid="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" kindref="member">scalar_field_value_type</ref> &gt;</type>
+        <definition>typedef std::pair&lt;scalar_field_value_type, scalar_field_value_type&gt; PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::signature_type</definition>
+        <argsstring></argsstring>
+        <name>signature_type</name>
+        <qualifiedname>PublicKey::signature_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="123" column="23" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/dd7/struct_public_key_1af722d1fc7353c978963e5a2c4492dd0a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" kindref="member">public_key_type</ref></type>
+        <definition>public_key_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::pubkey</definition>
+        <argsstring></argsstring>
+        <name>pubkey</name>
+        <qualifiedname>PublicKey::pubkey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="150" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dd7/struct_public_key_1a0f12df76852decd75afed6f3f5bb5b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::PublicKey</definition>
+        <argsstring>(const public_key_type &amp;key)</argsstring>
+        <name>PublicKey</name>
+        <qualifiedname>PublicKey::PublicKey</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" kindref="member">public_key_type</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="125" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd7/struct_public_key_1abde03913b606a5dd323bcf8ebacca25b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::PublicKey</definition>
+        <argsstring>(std::string_view key_string)</argsstring>
+        <name>PublicKey</name>
+        <qualifiedname>PublicKey::PublicKey</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>key_string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="129" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="129" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd7/struct_public_key_1a3d6c9cd52d6fc50cb6bbd6ebf127d9da" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" kindref="member">public_key_type</ref></type>
+        <definition>public_key_type PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::pubkey_data</definition>
+        <argsstring>() const</argsstring>
+        <name>pubkey_data</name>
+        <qualifiedname>PublicKey::pubkey_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="144" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>PrivateKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</label>
+        <link refid="d9/dc0/struct_private_key"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>PrivateKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</label>
+        <link refid="d9/dc0/struct_private_key"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PublicKey&lt; CurveType, Padding, GeneratorType, void &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; CurveType, Padding, GeneratorType, void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>PublicKey&lt; CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type, void &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type, void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>PublicKey&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; ecdsa_t::CurveType, ecdsa_t::padding_policy, ecdsa_t::generator_type &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PublicKey&lt; CurveType, Padding, GeneratorType, DistributionType &gt;</label>
+        <link refid="d5/dd7/struct_public_key"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="108" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="109" bodyend="151"/>
+    <listofallmembers>
+      <member refid="d5/dd7/struct_public_key_1a4535182582bafa1c99dfbb58259e1b0d" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>base_integral_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1a0e5c6fdef47e98fda6b3842ed13abb0a" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>curve_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1a0fdef7a46c84be245761308f2c749051" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>g1_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1af089e3006308e553d06fbd28dd7f7bbc" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>g1_value_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1af34d6a6d8e69881428bf264eb3d8548a" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>internal_accumulator_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1afa5e1968bda041f4e06be6e8d5d7d0dc" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>padding_policy</name></member>
+      <member refid="d5/dd7/struct_public_key_1af722d1fc7353c978963e5a2c4492dd0a" prot="protected" virt="non-virtual"><scope>PublicKey</scope><name>pubkey</name></member>
+      <member refid="d5/dd7/struct_public_key_1a3d6c9cd52d6fc50cb6bbd6ebf127d9da" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>pubkey_data</name></member>
+      <member refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>public_key_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1a0f12df76852decd75afed6f3f5bb5b55" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>PublicKey</name></member>
+      <member refid="d5/dd7/struct_public_key_1abde03913b606a5dd323bcf8ebacca25b" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>PublicKey</name></member>
+      <member refid="d5/dd7/struct_public_key_1afb11e7bbc5ccd012d160183a860a6d75" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>scalar_field_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>scalar_field_value_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1a708856c77f4f28df9f1bf711286aafba" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>scalar_modular_type</name></member>
+      <member refid="d5/dd7/struct_public_key_1a81f3d837c964a781ffc46fa84c626341" prot="public" virt="non-virtual"><scope>PublicKey</scope><name>signature_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

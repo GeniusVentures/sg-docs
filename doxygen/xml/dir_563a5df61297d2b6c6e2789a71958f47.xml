@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_563a5df61297d2b6c6e2789a71958f47" kind="dir">
-    <compoundname>src/proof</compoundname>
-    <innerdir refid="dir_8e45b5d62a447777ec1bf82116832aee">src/proof/circuits</innerdir>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof</compoundname>
+    <innerdir refid="dir_8e45b5d62a447777ec1bf82116832aee">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits</innerdir>
     <innerfile refid="d7/da6/_genius_assigner_8cpp">GeniusAssigner.cpp</innerfile>
     <innerfile refid="d1/d19/_genius_assigner_8hpp">GeniusAssigner.hpp</innerfile>
     <innerfile refid="dc/dfd/_genius_prover_8cpp">GeniusProver.cpp</innerfile>
@@ -20,6 +20,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/proof/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/"/>
   </compounddef>
 </doxygen>

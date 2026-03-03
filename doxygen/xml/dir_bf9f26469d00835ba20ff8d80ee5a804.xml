@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_bf9f26469d00835ba20ff8d80ee5a804" kind="dir">
-    <compoundname>src/runtime</compoundname>
-    <innerdir refid="dir_44958365c35f3f985315b67acf2c9cfa">src/runtime/binaryen</innerdir>
-    <innerdir refid="dir_395f0e28b55cbd9fd75290c88db061f9">src/runtime/common</innerdir>
-    <innerdir refid="dir_5d90716f0df58d57cb5f51974505d33f">src/runtime/dummy</innerdir>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime</compoundname>
+    <innerdir refid="dir_44958365c35f3f985315b67acf2c9cfa">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen</innerdir>
+    <innerdir refid="dir_395f0e28b55cbd9fd75290c88db061f9">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/common</innerdir>
+    <innerdir refid="dir_5d90716f0df58d57cb5f51974505d33f">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy</innerdir>
     <innerfile refid="d7/d89/block__builder_8hpp">block_builder.hpp</innerfile>
     <innerfile refid="da/d47/core_8hpp">core.hpp</innerfile>
     <innerfile refid="da/d13/core__factory_8hpp">core_factory.hpp</innerfile>
@@ -23,6 +23,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/runtime/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/"/>
   </compounddef>
 </doxygen>

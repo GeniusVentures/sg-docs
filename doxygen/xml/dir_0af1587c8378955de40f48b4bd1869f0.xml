@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_0af1587c8378955de40f48b4bd1869f0" kind="dir">
-    <compoundname>src/base</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base</compoundname>
     <innerfile refid="dd/dc0/blob_8cpp">blob.cpp</innerfile>
     <innerfile refid="d4/d16/blob_8hpp">blob.hpp</innerfile>
     <innerfile refid="dd/d85/buffer_8cpp">buffer.cpp</innerfile>
@@ -21,13 +21,13 @@
     <innerfile refid="de/d68/sgns__version_8hpp">sgns_version.hpp</innerfile>
     <innerfile refid="dc/d54/type__traits_8hpp">type_traits.hpp</innerfile>
     <innerfile refid="dd/d26/unused_8hpp">unused.hpp</innerfile>
-    <innerfile refid="d0/d3f/util_8hpp">util.hpp</innerfile>
+    <innerfile refid="d1/d54/src_2base_2util_8hpp">util.hpp</innerfile>
     <innerfile refid="d2/df0/visitor_8hpp">visitor.hpp</innerfile>
     <innerfile refid="d8/d7c/wrapper_8hpp">wrapper.hpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/base/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/"/>
   </compounddef>
 </doxygen>

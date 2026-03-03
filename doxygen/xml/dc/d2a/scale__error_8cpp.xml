@@ -11,7 +11,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/scale/scale_error.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp</label>
         <link refid="dc/d2a/scale__error_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/scale_error.cpp" line="5" column="1" bodyfile="src/scale/scale_error.cpp" bodystart="5" bodyend="20"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" line="5" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" bodystart="5" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2a/scale__error_8cpp_1aca8e9f78fd47a6ce295241a2f9bca35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/scale_error.cpp" line="22" column="1" bodyfile="src/scale/scale_error.cpp" bodystart="22" bodyend="39"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" line="22" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" bodystart="22" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2a/scale__error_8cpp_1a46439b8605dc244b5fc72319fde4edc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/scale_error.cpp" line="41" column="1" bodyfile="src/scale/scale_error.cpp" bodystart="41" bodyend="48"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" line="41" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp" bodystart="41" bodyend="48"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -148,6 +148,6 @@
 <codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>CommonError&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/scale/scale_error.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/scale_error.cpp"/>
   </compounddef>
 </doxygen>

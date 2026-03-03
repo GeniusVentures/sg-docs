@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="28" column="9" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="28" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="28" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1aa0e9425398b71647482426bd87e44641" prot="public" static="no">
         <type>std::unordered_map&lt; std::string, <ref refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a4cd62ff061aaaf72fa4e362024b06e77" kindref="member">ElementFilterCallback</ref> &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="29" column="9" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="29" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="29" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="84" column="32" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="84" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="84" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ae726a23da89c968fde96c3c2691d2bdc" prot="private" static="no" mutable="yes">
         <type>std::shared_mutex</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="85" column="40" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="85" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="85" column="40" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ab601224ef54ceca420b74bcfa5d059a1" prot="private" static="no" mutable="no">
         <type>std::shared_mutex</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="86" column="32" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="86" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="86" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a5a79a81c072e290e5f304fb08fe85fbc" prot="private" static="no" mutable="no">
         <type><ref refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1aa0e9425398b71647482426bd87e44641" kindref="member">FilterCallbackRegistry</ref></type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="87" column="32" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="87" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="87" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1aea9c1015fc7808dd2ef9b13ebf67c00f" prot="private" static="no" mutable="no">
         <type><ref refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1aa0e9425398b71647482426bd87e44641" kindref="member">FilterCallbackRegistry</ref></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="88" column="32" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="88" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="88" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="88" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="36" column="18" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="12" bodyend="12"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="36" column="18" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="12" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a7248dc5e2cf1ecc80b391f1548ba092b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="41" column="9"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="41" column="9"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ac863c840f2b41ca843d5da40161fdde9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="49" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="14" bodyend="19"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="49" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="14" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ae943c2b098c46fa5876e3ec7f8017410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="57" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="21" bodyend="26"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="57" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="21" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a43b0140147acaeb2f9b327de1433b879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="63" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="28" bodyend="32"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="63" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a34f06dc8fa2ba0fd05bc4f516a0f0193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="69" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="34" bodyend="38"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="69" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="34" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a74664b48327edeb4778bda8485c3188d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -328,7 +328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="75" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="40" bodyend="106"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="75" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="40" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ad8644f55d8e25a9299ea747241409168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_data_filter.hpp" line="81" column="14" bodyfile="src/crdt/impl/crdt_data_filter.cpp" bodystart="108" bodyend="112"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="81" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl/crdt_data_filter.cpp" bodystart="108" bodyend="112"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -402,7 +402,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/crdt/crdt_data_filter.hpp" line="22" column="5" bodyfile="src/crdt/crdt_data_filter.hpp" bodystart="23" bodyend="89"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/crdt_data_filter.hpp" bodystart="23" bodyend="89"/>
     <listofallmembers>
       <member refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1a2daaceb418f96ee581e68fe38d1c3af1" prot="private" virt="non-virtual"><scope>sgns::crdt::CRDTDataFilter</scope><name>accept_by_default_</name></member>
       <member refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter_1ad2141a2aec8f96b82da58e22c84ba0ee" prot="public" virt="non-virtual"><scope>sgns::crdt::CRDTDataFilter</scope><name>CRDTDataFilter</name></member>

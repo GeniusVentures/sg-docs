@@ -9,11 +9,11 @@
     <includes local="no">memory</includes>
     <includes refid="d4/d5e/session_8hpp" local="yes">api/transport/session.hpp</includes>
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
-    <includedby refid="d0/d4a/http__listener__impl_8hpp" local="yes">src/api/transport/impl/http/http_listener_impl.hpp</includedby>
-    <includedby refid="d7/db4/http__session_8cpp" local="yes">src/api/transport/impl/http/http_session.cpp</includedby>
+    <includedby refid="d0/d4a/http__listener__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp</includedby>
+    <includedby refid="d7/db4/http__session_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/api/transport/impl/http/http_session.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp</label>
         <link refid="df/df4/http__session_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -118,26 +118,38 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>src/api/transport/impl/http/http_listener_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ListenerFactory.hpp</label>
+        <link refid="db/d56/_listener_factory_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.cpp</label>
         <link refid="d3/d43/http__listener__impl_8cpp"/>
       </node>
       <node id="2">
-        <label>src/api/transport/impl/http/http_listener_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_listener_impl.hpp</label>
         <link refid="d0/d4a/http__listener__impl_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>src/api/transport/impl/http/http_session.cpp</label>
+      <node id="6">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.cpp</label>
         <link refid="d7/db4/http__session_8cpp"/>
       </node>
       <node id="1">
-        <label>src/api/transport/impl/http/http_session.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp</label>
         <link refid="df/df4/http__session_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/validating_node_application.cpp</label>
+        <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="de/d31/classsgns_1_1api_1_1_http_session" prot="public">sgns::api::HttpSession</innerclass>
@@ -246,6 +258,6 @@
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_SRC_API_TRANSPORT_BEAST_HTTP_SESSION_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/api/transport/impl/http/http_session.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http/http_session.hpp"/>
   </compounddef>
 </doxygen>

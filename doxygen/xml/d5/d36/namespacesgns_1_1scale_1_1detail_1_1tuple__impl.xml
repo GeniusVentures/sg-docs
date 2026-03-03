@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/detail/tuple.hpp" line="12" column="10" bodyfile="src/scale/detail/tuple.hpp" bodystart="12" bodyend="14"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="12" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="12" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="d5/d36/namespacesgns_1_1scale_1_1detail_1_1tuple__impl_1a479aceb6ff4d711d1b9717dac69b6152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/detail/tuple.hpp" line="17" column="10" bodyfile="src/scale/detail/tuple.hpp" bodystart="17" bodyend="20"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="17" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="17" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="d5/d36/namespacesgns_1_1scale_1_1detail_1_1tuple__impl_1ad430eaa1dec8daf82b53e5d4a8a55a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/detail/tuple.hpp" line="23" column="10" bodyfile="src/scale/detail/tuple.hpp" bodystart="23" bodyend="25"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="23" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="d5/d36/namespacesgns_1_1scale_1_1detail_1_1tuple__impl_1aaa65796fc388c03d5f6e2268e54959d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -123,13 +123,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/scale/detail/tuple.hpp" line="60" column="10" bodyfile="src/scale/detail/tuple.hpp" bodystart="60" bodyend="62"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="60" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" bodystart="60" bodyend="62"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/scale/detail/tuple.hpp" line="10" column="3"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail/tuple.hpp" line="10" column="3"/>
   </compounddef>
 </doxygen>

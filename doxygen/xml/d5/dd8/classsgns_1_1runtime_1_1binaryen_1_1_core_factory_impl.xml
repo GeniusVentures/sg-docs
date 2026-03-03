@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="30" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="30" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="30" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a850b33301fb6a46c7d093035f58cdaee" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d4/d01/classsgns_1_1storage_1_1changes__trie_1_1_changes_tracker" kindref="compound">storage::changes_trie::ChangesTracker</ref> &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="31" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="31" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="31" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a8183f3423eaaba9fc2e8db267e8aa4e9" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/d45/classsgns_1_1blockchain_1_1_block_header_repository" kindref="compound">blockchain::BlockHeaderRepository</ref> &gt;</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="32" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="32" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="32" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="20" column="5" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.cpp" bodystart="9" bodyend="19"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.cpp" bodystart="9" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a83a00d06c16a5ca7d80e818ae2e0cba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="24" column="5"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="24" column="5"/>
       </memberdef>
       <memberdef kind="function" id="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a8c7903ae662b2e791a20ea5c42a09acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::unique_ptr&lt; <ref refid="d4/df1/classsgns_1_1runtime_1_1_core" kindref="compound">Core</ref> &gt;</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="26" column="21" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.cpp" bodystart="21" bodyend="27"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="26" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.cpp" bodystart="21" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -381,7 +381,7 @@
         <label>wasm::ShellExternalInterface</label>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="18" column="3" bodyfile="src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="18" bodyend="33"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" line="18" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api/core_factory_impl.hpp" bodystart="18" bodyend="33"/>
     <listofallmembers>
       <member refid="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a850b33301fb6a46c7d093035f58cdaee" prot="private" virt="non-virtual"><scope>sgns::runtime::binaryen::CoreFactoryImpl</scope><name>changes_tracker_</name></member>
       <member refid="d5/dd8/classsgns_1_1runtime_1_1binaryen_1_1_core_factory_impl_1a6134399c79011097eaf5678684887760" prot="public" virt="non-virtual"><scope>sgns::runtime::binaryen::CoreFactoryImpl</scope><name>CoreFactoryImpl</name></member>

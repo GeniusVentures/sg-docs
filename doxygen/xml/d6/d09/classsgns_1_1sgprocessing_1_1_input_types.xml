@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types" kind="class" language="C++" prot="public">
+    <compoundname>sgns::sgprocessing::InputTypes</compoundname>
+    <includes refid="db/d20/_input_types_8hpp" local="no">InputTypes.hpp</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Error</name>
+        <qualifiedname>sgns::sgprocessing::InputTypes::Error</qualifiedname>
+        <enumvalue id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6af30d4dff4a07229f8adbd937a7c4ca74" prot="public">
+          <name>NOT_IMAGE_TYPE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6aafa0bfc232ee912348cc8a044c7c230f" prot="public">
+          <name>NOT_FLOAT_TYPE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" line="11" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8a9ca239cda2805eb39fe129236bc92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sgns::sgprocessing::InputTypes::InputTypes</definition>
+        <argsstring>()</argsstring>
+        <name>InputTypes</name>
+        <qualifiedname>sgns::sgprocessing::InputTypes::InputTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" line="17" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a6cb9a0c1331ae2570b3622ed64f251f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sgns::sgprocessing::InputTypes::~InputTypes</definition>
+        <argsstring>()</argsstring>
+        <name>~InputTypes</name>
+        <qualifiedname>sgns::sgprocessing::InputTypes::~InputTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" line="19" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a57202af5afc1db2e6f46738d94bb00ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>outcome::result&lt; int &gt;</type>
+        <definition>outcome::result&lt; int &gt; sgns::sgprocessing::InputTypes::GetImageChannels</definition>
+        <argsstring>(sgns::InputFormat format)</argsstring>
+        <name>GetImageChannels</name>
+        <qualifiedname>sgns::sgprocessing::InputTypes::GetImageChannels</qualifiedname>
+        <param>
+          <type>sgns::InputFormat</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" line="21" column="32" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/InputTypes.cpp" bodystart="17" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::sgprocessing::InputTypes</label>
+        <link refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" line="8" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/InputTypes.hpp" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::InputTypes</scope><name>Error</name></member>
+      <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a57202af5afc1db2e6f46738d94bb00ab" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::InputTypes</scope><name>GetImageChannels</name></member>
+      <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8a9ca239cda2805eb39fe129236bc92b" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::InputTypes</scope><name>InputTypes</name></member>
+      <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a6cb9a0c1331ae2570b3622ed64f251f3" prot="public" virt="non-virtual"><scope>sgns::sgprocessing::InputTypes</scope><name>~InputTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

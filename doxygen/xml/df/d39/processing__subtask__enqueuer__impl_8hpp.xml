@@ -7,8 +7,8 @@
     <includes refid="d6/da3/logger_8hpp" local="yes">base/logger.hpp</includes>
     <includes refid="d6/de9/processing__subtask__enqueuer_8hpp" local="yes">processing/processing_subtask_enqueuer.hpp</includes>
     <includes refid="d1/d7c/processing__task__queue_8hpp" local="yes">processing/processing_task_queue.hpp</includes>
-    <includedby refid="df/de0/_genius_node_8cpp" local="yes">src/account/GeniusNode.cpp</includedby>
-    <includedby refid="dd/d16/processing__subtask__enqueuer__impl_8cpp" local="yes">src/processing/processing_subtask_enqueuer_impl.cpp</includedby>
+    <includedby refid="df/de0/_genius_node_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</includedby>
+    <includedby refid="dd/d16/processing__subtask__enqueuer__impl_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.cpp</includedby>
     <incdepgraph>
       <node id="13">
         <label>base/buffer.hpp</label>
@@ -83,7 +83,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/processing/processing_subtask_enqueuer_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.hpp</label>
         <link refid="df/d39/processing__subtask__enqueuer__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -159,15 +159,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/account/GeniusNode.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="3">
-        <label>src/processing/processing_subtask_enqueuer_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.cpp</label>
         <link refid="dd/d16/processing__subtask__enqueuer__impl_8cpp"/>
       </node>
       <node id="1">
-        <label>src/processing/processing_subtask_enqueuer_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.hpp</label>
         <link refid="df/d39/processing__subtask__enqueuer__impl_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -211,6 +211,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>SUPERGENIUS_PROCESSING_SUBTASK_ENQUEUER_IMPL_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/processing/processing_subtask_enqueuer_impl.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/processing_subtask_enqueuer_impl.hpp"/>
   </compounddef>
 </doxygen>

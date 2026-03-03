@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="de/dbc/class_system_clock_factory" kind="class" language="C++" prot="public">
+    <compoundname>SystemClockFactory</compoundname>
+    <includes refid="d0/d3f/_system_clock_factory_8hpp" local="no">SystemClockFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/dbc/class_system_clock_factory_1a9343ef358369dbaf8dcfa31574c4606b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::clock::SystemClock &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::clock::SystemClock &gt; SystemClockFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>SystemClockFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" line="16" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SystemClockFactory</label>
+        <link refid="de/dbc/class_system_clock_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemClockFactory.hpp" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="de/dbc/class_system_clock_factory_1a9343ef358369dbaf8dcfa31574c4606b" prot="public" virt="non-virtual"><scope>SystemClockFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

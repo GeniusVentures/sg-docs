@@ -9,14 +9,14 @@
     <includes local="no">string</includes>
     <includes local="no">sstream</includes>
     <includes local="no">algorithm</includes>
-    <includedby refid="d0/dad/_genius_account_8hpp" local="yes">src/account/GeniusAccount.hpp</includedby>
-    <includedby refid="d6/d74/_genius_u_t_x_o_8hpp" local="yes">src/account/GeniusUTXO.hpp</includedby>
-    <includedby refid="d2/d0f/_mint_transaction_8hpp" local="yes">src/account/MintTransaction.hpp</includedby>
-    <includedby refid="d1/dd1/_u_t_x_o_structs_8hpp" local="yes">src/account/UTXOStructs.hpp</includedby>
-    <includedby refid="dd/da6/processing__core__impl_8hpp" local="yes">src/processing/impl/processing_core_impl.hpp</includedby>
+    <includedby refid="d0/dad/_genius_account_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</includedby>
+    <includedby refid="d6/d74/_genius_u_t_x_o_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp</includedby>
+    <includedby refid="d2/d0f/_mint_transaction_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.hpp</includedby>
+    <includedby refid="d1/dd1/_u_t_x_o_structs_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOStructs.hpp</includedby>
+    <includedby refid="dd/da6/processing__core__impl_8hpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>src/account/TokenID.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenID.hpp</label>
         <link refid="df/d5f/_token_i_d_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -57,11 +57,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="8">
-        <label>src/account/EscrowReleaseTransaction.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.cpp</label>
         <link refid="d5/dab/_escrow_release_transaction_8cpp"/>
       </node>
       <node id="7">
-        <label>src/account/EscrowReleaseTransaction.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowReleaseTransaction.hpp</label>
         <link refid="dc/dd2/_escrow_release_transaction_8hpp"/>
         <childnode refid="8" relation="include">
         </childnode>
@@ -75,11 +75,11 @@
         </childnode>
       </node>
       <node id="14">
-        <label>src/account/EscrowTransaction.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.cpp</label>
         <link refid="d7/d12/_escrow_transaction_8cpp"/>
       </node>
       <node id="13">
-        <label>src/account/EscrowTransaction.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/EscrowTransaction.hpp</label>
         <link refid="df/df3/_escrow_transaction_8hpp"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -87,11 +87,11 @@
         </childnode>
       </node>
       <node id="3">
-        <label>src/account/GeniusAccount.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.cpp</label>
         <link refid="dd/dd9/_genius_account_8cpp"/>
       </node>
       <node id="2">
-        <label>src/account/GeniusAccount.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusAccount.hpp</label>
         <link refid="d0/dad/_genius_account_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -109,27 +109,27 @@
         </childnode>
       </node>
       <node id="5">
-        <label>src/account/GeniusNode.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
       <node id="4">
-        <label>src/account/GeniusNode.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="29">
-        <label>src/account/GeniusUTXO.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/GeniusUTXO.hpp</label>
         <link refid="d6/d74/_genius_u_t_x_o_8hpp"/>
         <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="15">
-        <label>src/account/IGeniusTransactions.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.cpp</label>
         <link refid="da/dcc/_i_genius_transactions_8cpp"/>
       </node>
       <node id="6">
-        <label>src/account/IGeniusTransactions.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/IGeniusTransactions.hpp</label>
         <link refid="db/d3c/_i_genius_transactions_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -147,15 +147,15 @@
         </childnode>
       </node>
       <node id="9">
-        <label>src/account/Migration0_2_0To1_0_0.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
       <node id="10">
-        <label>src/account/Migration3_4_0To3_5_0.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="25">
-        <label>src/account/Migration3_4_0To3_5_0.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -163,23 +163,23 @@
         </childnode>
       </node>
       <node id="21">
-        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_0To3_5_1.cpp</label>
         <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
       </node>
       <node id="11">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/Migration3_5_1To3_6_0.cpp</label>
         <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
       </node>
       <node id="26">
-        <label>src/account/MigrationManager.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
       <node id="17">
-        <label>src/account/MintTransaction.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.cpp</label>
         <link refid="d8/d70/_mint_transaction_8cpp"/>
       </node>
       <node id="16">
-        <label>src/account/MintTransaction.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/MintTransaction.hpp</label>
         <link refid="d2/d0f/_mint_transaction_8hpp"/>
         <childnode refid="10" relation="include">
         </childnode>
@@ -189,17 +189,17 @@
         </childnode>
       </node>
       <node id="19">
-        <label>src/account/ProcessingTransaction.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.cpp</label>
         <link refid="d2/d15/_processing_transaction_8cpp"/>
       </node>
       <node id="18">
-        <label>src/account/ProcessingTransaction.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/ProcessingTransaction.hpp</label>
         <link refid="d4/dec/_processing_transaction_8hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="1">
-        <label>src/account/TokenID.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenID.hpp</label>
         <link refid="df/d5f/_token_i_d_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -213,11 +213,11 @@
         </childnode>
       </node>
       <node id="12">
-        <label>src/account/TransactionManager.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="20">
-        <label>src/account/TransactionManager.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.hpp</label>
         <link refid="de/d54/_transaction_manager_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -233,11 +233,11 @@
         </childnode>
       </node>
       <node id="23">
-        <label>src/account/TransferTransaction.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
       <node id="22">
-        <label>src/account/TransferTransaction.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
         <childnode refid="9" relation="include">
         </childnode>
@@ -251,11 +251,11 @@
         </childnode>
       </node>
       <node id="31">
-        <label>src/account/UTXOManager.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOManager.cpp</label>
         <link refid="dc/d76/_u_t_x_o_manager_8cpp"/>
       </node>
       <node id="30">
-        <label>src/account/UTXOManager.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOManager.hpp</label>
         <link refid="d1/dac/_u_t_x_o_manager_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -265,11 +265,11 @@
         </childnode>
       </node>
       <node id="33">
-        <label>src/account/UTXOStructs.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOStructs.cpp</label>
         <link refid="d4/d13/_u_t_x_o_structs_8cpp"/>
       </node>
       <node id="32">
-        <label>src/account/UTXOStructs.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/UTXOStructs.hpp</label>
         <link refid="d1/dd1/_u_t_x_o_structs_8hpp"/>
         <childnode refid="7" relation="include">
         </childnode>
@@ -283,7 +283,7 @@
         </childnode>
       </node>
       <node id="24">
-        <label>src/blockchain/Blockchain.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/Blockchain.hpp</label>
         <link refid="dc/d59/_blockchain_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -295,19 +295,19 @@
         </childnode>
       </node>
       <node id="28">
-        <label>src/blockchain/ValidatorRegistry.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
       <node id="27">
-        <label>src/blockchain/impl/Blockchain.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
       <node id="35">
-        <label>src/processing/impl/processing_core_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.cpp</label>
         <link refid="db/d83/processing__core__impl_8cpp"/>
       </node>
       <node id="34">
-        <label>src/processing/impl/processing_core_impl.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_core_impl.hpp</label>
         <link refid="dd/da6/processing__core__impl_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -337,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TokenID.hpp" line="110" column="8" bodyfile="src/account/TokenID.hpp" bodystart="110" bodyend="113"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenID.hpp" line="110" column="8" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenID.hpp" bodystart="110" bodyend="113"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -457,6 +457,6 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os<sp/>&lt;&lt;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.ToHex();</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/account/TokenID.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TokenID.hpp"/>
   </compounddef>
 </doxygen>

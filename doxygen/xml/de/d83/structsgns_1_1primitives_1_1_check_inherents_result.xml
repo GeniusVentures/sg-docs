@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/check_inherents_result.hpp" line="14" column="10" bodyfile="src/primitives/check_inherents_result.hpp" bodystart="14" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" line="14" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d83/structsgns_1_1primitives_1_1_check_inherents_result_1a6ab86dbd18cc4885a0ef71a68f6bd630" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/check_inherents_result.hpp" line="16" column="10" bodyfile="src/primitives/check_inherents_result.hpp" bodystart="16" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" line="16" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d83/structsgns_1_1primitives_1_1_check_inherents_result_1a0f4fa6fa364c8ea6bc43659d72645215" prot="public" static="no" mutable="no">
         <type><ref refid="de/df2/structsgns_1_1primitives_1_1_inherent_data" kindref="compound">primitives::InherentData</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/primitives/check_inherents_result.hpp" line="18" column="30" bodyfile="src/primitives/check_inherents_result.hpp" bodystart="18" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" line="18" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -155,7 +155,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/primitives/check_inherents_result.hpp" line="12" column="3" bodyfile="src/primitives/check_inherents_result.hpp" bodystart="12" bodyend="19"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives/check_inherents_result.hpp" bodystart="12" bodyend="19"/>
     <listofallmembers>
       <member refid="de/d83/structsgns_1_1primitives_1_1_check_inherents_result_1a0f4fa6fa364c8ea6bc43659d72645215" prot="public" virt="non-virtual"><scope>sgns::primitives::CheckInherentsResult</scope><name>errors</name></member>
       <member refid="de/d83/structsgns_1_1primitives_1_1_check_inherents_result_1a6ab86dbd18cc4885a0ef71a68f6bd630" prot="public" virt="non-virtual"><scope>sgns::primitives::CheckInherentsResult</scope><name>is_fatal_error</name></member>

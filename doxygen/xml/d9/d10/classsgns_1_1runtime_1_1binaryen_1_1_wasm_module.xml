@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/module/wasm_module.hpp" line="14" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module.hpp" line="14" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d9/d10/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_1ad716fb5d80d1876c0b4fa3d610dbdadf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>std::unique_ptr&lt; <ref refid="dc/dbb/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_instance" kindref="compound">WasmModuleInstance</ref> &gt;</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/binaryen/module/wasm_module.hpp" line="16" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module.hpp" line="16" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -62,7 +62,7 @@
         <link refid="d9/d10/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module"/>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/binaryen/module/wasm_module.hpp" line="12" column="3" bodyfile="src/runtime/binaryen/module/wasm_module.hpp" bodystart="12" bodyend="19"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module.hpp" line="12" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module/wasm_module.hpp" bodystart="12" bodyend="19"/>
     <listofallmembers>
       <member refid="d9/d10/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_1ad716fb5d80d1876c0b4fa3d610dbdadf" prot="public" virt="pure-virtual"><scope>sgns::runtime::binaryen::WasmModule</scope><name>instantiate</name></member>
       <member refid="d9/d10/classsgns_1_1runtime_1_1binaryen_1_1_wasm_module_1ab0c91147728c08e9327fab0db4152397" prot="public" virt="virtual"><scope>sgns::runtime::binaryen::WasmModule</scope><name>~WasmModule</name></member>

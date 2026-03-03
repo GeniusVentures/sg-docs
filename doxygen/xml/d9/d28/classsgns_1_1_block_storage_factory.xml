@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d9/d28/classsgns_1_1_block_storage_factory" kind="class" language="C++" prot="public">
+    <compoundname>sgns::BlockStorageFactory</compoundname>
+    <includes refid="dd/d97/_block_storage_factory_8hpp" local="no">BlockStorageFactory.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d28/classsgns_1_1_block_storage_factory_1a296305454c1046e68f73873056c27079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="de/de8/classsgns_1_1blockchain_1_1_block_storage" kindref="compound">blockchain::BlockStorage</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; blockchain::BlockStorage &gt; sgns::BlockStorageFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>sgns::BlockStorageFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp" line="23" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp" bodystart="23" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::BlockStorageFactory</label>
+        <link refid="d9/d28/classsgns_1_1_block_storage_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp" line="19" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/BlockStorageFactory.hpp" bodystart="20" bodyend="104"/>
+    <listofallmembers>
+      <member refid="d9/d28/classsgns_1_1_block_storage_factory_1a296305454c1046e68f73873056c27079" prot="public" virt="non-virtual"><scope>sgns::BlockStorageFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

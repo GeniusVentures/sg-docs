@@ -11,7 +11,7 @@
     <includes local="no">boost/multiprecision/cpp_int.hpp</includes>
     <incdepgraph>
       <node id="1">
-        <label>src/base/ScaledInteger.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/ScaledInteger.cpp</label>
         <link refid="dc/d4f/_scaled_integer_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -385,6 +385,6 @@
 <codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="306"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/base/ScaledInteger.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base/ScaledInteger.cpp"/>
   </compounddef>
 </doxygen>

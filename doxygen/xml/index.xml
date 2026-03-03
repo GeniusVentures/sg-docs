@@ -73,6 +73,11 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a9b16632040cd014412f3f93d033c9e08" kind="function"><name>HandleBlockResponse</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a64ef75af74993e69ec8f57c20546e048" kind="function"><name>HandleHeadRequest</name></member>
   </compound>
+  <compound refid="d2/da2/class_a_e_s_encryption" kind="class"><name>AESEncryption</name>
+    <member refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" kind="function"><name>EncryptData</name></member>
+    <member refid="d2/da2/class_a_e_s_encryption_1a61a703eed9d6b8c09eab9f0cb21608db" kind="function"><name>DecryptData</name></member>
+    <member refid="d2/da2/class_a_e_s_encryption_1a844aea856b6ad955ef1b870994a59bd4" kind="function"><name>CheckEqual</name></member>
+  </compound>
   <compound refid="d5/d83/classsgns_1_1_android_secure_storage" kind="class"><name>sgns::AndroidSecureStorage</name>
     <member refid="d5/d83/classsgns_1_1_android_secure_storage_1aa0aa6172e0b07b5c5d381b142904e9e6" kind="variable"><name>jvm_</name></member>
     <member refid="d5/d83/classsgns_1_1_android_secure_storage_1ac34be7785ec5c795577de8b2c4fcefc5" kind="variable"><name>key_store_helper_class_</name></member>
@@ -85,6 +90,9 @@
     <member refid="d5/d83/classsgns_1_1_android_secure_storage_1a1a855c2314c40dbe447d53cf4f5f4140" kind="function"><name>LoadJSON</name></member>
     <member refid="d5/d83/classsgns_1_1_android_secure_storage_1a48a47b909539147f6ddb36c45d906ff2" kind="function"><name>SaveJSON</name></member>
     <member refid="d5/d83/classsgns_1_1_android_secure_storage_1ab367b64d0bc6f10626c5e87283c9bfe3" kind="function"><name>GetJNIEnv</name></member>
+  </compound>
+  <compound refid="d4/da3/classsgns_1_1_api_service_factory" kind="class"><name>sgns::ApiServiceFactory</name>
+    <member refid="d4/da3/classsgns_1_1_api_service_factory_1adc342aa5411241249019c99dc9a97f4a" kind="function"><name>create</name></member>
   </compound>
   <compound refid="dd/d37/classsgns_1_1_app_configuration" kind="class"><name>sgns::AppConfiguration</name>
     <member refid="dd/d37/classsgns_1_1_app_configuration_1aa8ed1cf9c3b41dde15e961ba39e670fd" kind="enum"><name>LoadScheme</name></member>
@@ -117,6 +125,9 @@
     <member refid="d6/d85/classsgns_1_1application_1_1_app_configuration_1a0fd65b30c9e26763f8c353c26d7e2af3" kind="function"><name>verbosity</name></member>
     <member refid="d6/d85/classsgns_1_1application_1_1_app_configuration_1a90f250f47e21de9fe30e1a40ea428b54" kind="function"><name>is_only_finalizing</name></member>
     <member refid="d6/d85/classsgns_1_1application_1_1_app_configuration_1a43ad8410249921ee19d5e6df3acd43c3" kind="function"><name>initialize_from_args</name></member>
+  </compound>
+  <compound refid="df/daa/class_app_configuration_factory" kind="class"><name>AppConfigurationFactory</name>
+    <member refid="df/daa/class_app_configuration_factory_1adf4518811f5fd76fb87ffe70ffee32f7" kind="function"><name>create</name></member>
   </compound>
   <compound refid="df/d08/classsgns_1_1_app_configuration_impl" kind="class"><name>sgns::AppConfigurationImpl</name>
     <member refid="df/d08/classsgns_1_1_app_configuration_impl_1ac9062a56a03b8f4b6b560ee4534e687e" kind="typedef"><name>FilePtr</name></member>
@@ -263,6 +274,9 @@
     <member refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1ad982fea940630a8c08458ca76f3e648d" kind="function"><name>doLaunch</name></member>
     <member refid="d4/d75/classsgns_1_1application_1_1_app_state_manager_1a90eedf421f8bac9d4f77ff04c4a74275" kind="function"><name>doShutdown</name></member>
   </compound>
+  <compound refid="d7/d46/class_app_state_manager_factory" kind="class"><name>AppStateManagerFactory</name>
+    <member refid="d7/d46/class_app_state_manager_factory_1a62d32c6ca0901c8e2ba23ad214c53155" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl" kind="class"><name>sgns::application::AppStateManagerImpl</name>
     <member refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a9069e4c932261874d3e9c3761200248b" kind="variable"><name>wp_to_myself</name></member>
     <member refid="d0/d18/classsgns_1_1application_1_1_app_state_manager_impl_1a1d61966e31d38d87bcbcf5b9d37b1532" kind="variable"><name>logger_</name></member>
@@ -331,6 +345,9 @@
     <member refid="dd/d62/classsgns_1_1api_1_1_author_api_1a5bf08f308ea067d6dc34eb20ac816ada" kind="function"><name>pendingExtrinsics</name></member>
     <member refid="dd/d62/classsgns_1_1api_1_1_author_api_1a85becdaaaff4dbc58b35f241bb2af586" kind="function"><name>removeExtrinsic</name></member>
   </compound>
+  <compound refid="d6/db8/class_author_api_factory" kind="class"><name>AuthorApiFactory</name>
+    <member refid="d6/db8/class_author_api_factory_1acb68391c28a7cb44568f971cea043011" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="db/dff/structsgns_1_1primitives_1_1_authority" kind="struct"><name>sgns::primitives::Authority</name>
     <member refid="db/dff/structsgns_1_1primitives_1_1_authority_1a53f1faca5b041167a39f04c85178f971" kind="variable"><name>id</name></member>
     <member refid="db/dff/structsgns_1_1primitives_1_1_authority_1a0a6bbe7baef69791f3dccd0d17d47f94" kind="variable"><name>weight</name></member>
@@ -365,6 +382,20 @@
     <member refid="d4/d7b/structsgns_1_1primitives_1_1_authority_list_change_1ab51598e590af9662f2edee14ffb7e21e" kind="function"><name>AuthorityListChange</name></member>
     <member refid="d4/d7b/structsgns_1_1primitives_1_1_authority_list_change_1a3badae8cd0a15dd55bbe189e3522815b" kind="function"><name>AuthorityListChange</name></member>
     <member refid="d4/d7b/structsgns_1_1primitives_1_1_authority_list_change_1a5f3f486b1de95c73601d9850c6103997" kind="function"><name>~AuthorityListChange</name></member>
+  </compound>
+  <compound refid="d4/dd0/classsgns_1_1_authority_manager_factory" kind="class"><name>sgns::AuthorityManagerFactory</name>
+    <member refid="d4/dd0/classsgns_1_1_authority_manager_factory_1aaa5d0e34413b0d2be8befc21757b76a0" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d2/ddc/class_authority_update_observer_factory" kind="class"><name>AuthorityUpdateObserverFactory</name>
+    <member refid="d2/ddc/class_authority_update_observer_factory_1a3934eff9ed048ad7043f984f2717bae9" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" kind="class"><name>PrimeNumbers::BabyStepGiantStep</name>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1acf7897b505abd9a5c8147230c8d937fd" kind="variable"><name>g_n_inv</name></member>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kind="variable"><name>step_size</name></member>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kind="variable"><name>prime_number</name></member>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" kind="variable"><name>value_table</name></member>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a8c21cca4c521ecc5ed067b22137c8a05" kind="function"><name>BabyStepGiantStep</name></member>
+    <member refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" kind="function"><name>SolveECDLP</name></member>
   </compound>
   <compound refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4" kind="class"><name>std::back_insert_iterator&lt; Buffer &gt;</name>
     <member refid="d9/dfe/classstd_1_1back__insert__iterator_3_01_buffer_01_4_1a344cfcdea009298391bcc5420589fdbe" kind="typedef"><name>value_type</name></member>
@@ -414,6 +445,34 @@
     <member refid="d8/d29/classsgns_1_1crypto_1_1_bip39_provider_impl_1a8d870543f7757707ea8c1d38594740b6" kind="function"><name>Bip39ProviderImpl</name></member>
     <member refid="d8/d29/classsgns_1_1crypto_1_1_bip39_provider_impl_1a54cd018fe1aed260b1c901a548c96f97" kind="function"><name>calculateEntropy</name></member>
     <member refid="d8/d29/classsgns_1_1crypto_1_1_bip39_provider_impl_1a120358b0f7b8b6f3fa63ed46a26cf4ff" kind="function"><name>makeSeed</name></member>
+  </compound>
+  <compound refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key" kind="class"><name>bitcoin::BitcoinKeyGenerator::BitcoinECDSAPublicKey</name>
+    <member refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1ade96cf408b5f5aaabdeb2d3b2292689e" kind="function"><name>CalcPubkeyUsedValue</name></member>
+    <member refid="d5/d79/classbitcoin_1_1_bitcoin_key_generator_1_1_bitcoin_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" kind="function"><name>ECDSAPublicKey</name></member>
+  </compound>
+  <compound refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator" kind="class"><name>bitcoin::BitcoinKeyGenerator</name>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a21fe7833d2259880566f56c403894b4a" kind="typedef"><name>PubKeyPair_t</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1abb2018890022014581717c8b57d9b89b" kind="variable"><name>key_gen</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a526f0d4938c9e44b0bae7a6edaff120e" kind="variable"><name>MAIN_NETWORK_ID</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8c3e098d55f3002c183e15b5564a0797" kind="variable"><name>PARITY_EVEN_ID</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a410d091c283ef61803b3fb466e2454c8" kind="variable"><name>PARITY_ODD_ID</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a38deb9b3979673b48a689a42d1bd3b51" kind="variable"><name>CHECKSUM_SIZE_BYTES</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" kind="variable"><name>privkey</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" kind="variable"><name>pubkey</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a6d3fe595562871a00dd5f1712b48162a" kind="variable"><name>pubkey_info</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" kind="variable"><name>address</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" kind="function"><name>BitcoinKeyGenerator</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a598fc5b8c126709b814887ee687f1612" kind="function"><name>BitcoinKeyGenerator</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a3e8be5c00825e764414be31bb121b032" kind="function"><name>BitcoinKeyGenerator</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a110454474b9f396ae46984701266f12a" kind="function"><name>get_private_key</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ab9d7db898f075cc719d7b8d65817172a" kind="function"><name>get_public_key</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a0edf1d76a95cbd1d0e9d3e35da6ad190" kind="function"><name>get_address</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8e57c6809756bec840d4095f26a7e9b9" kind="function"><name>GetUsedPubKeyValue</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a193e11f52b3f961f7e500071146f9684" kind="function"><name>GetEntirePubValue</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" kind="function"><name>ExtractPubKeyFromField</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a06d2e40d188bf4deb26fd9ad6e3d7870" kind="function"><name>DeriveAddress</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" kind="function"><name>CreateKeys</name></member>
+    <member refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kind="function"><name>DeriveAddress</name></member>
   </compound>
   <compound refid="d8/dea/structsgns_1_1crdt_1_1_graphsync_d_a_g_syncer_1_1_blacklist_entry" kind="struct"><name>sgns::crdt::GraphsyncDAGSyncer::BlacklistEntry</name>
     <member refid="d8/dea/structsgns_1_1crdt_1_1_graphsync_d_a_g_syncer_1_1_blacklist_entry_1a6b09593b8edc7411c9df4ff07f0abc42" kind="variable"><name>timestamp</name></member>
@@ -467,6 +526,9 @@
     <member refid="db/d8c/classsgns_1_1runtime_1_1binaryen_1_1_block_builder_impl_1a4f9a364733524e1a9f60be403ec7c164" kind="function"><name>inherent_extrinsics</name></member>
     <member refid="db/d8c/classsgns_1_1runtime_1_1binaryen_1_1_block_builder_impl_1a668da8c696d9b83c1211214dcf3394a4" kind="function"><name>check_inherents</name></member>
     <member refid="db/d8c/classsgns_1_1runtime_1_1binaryen_1_1_block_builder_impl_1a82a673e7c6c8406f0a94c588b7129633" kind="function"><name>random_seed</name></member>
+  </compound>
+  <compound refid="da/d2a/classsgns_1_1_block_builder_manager" kind="class"><name>sgns::BlockBuilderManager</name>
+    <member refid="da/d2a/classsgns_1_1_block_builder_manager_1a9398236fad28c4a83d1f0a2754b71414" kind="function"><name>createFactory</name></member>
   </compound>
   <compound refid="de/da2/classsgns_1_1_blockchain" kind="class"><name>sgns::Blockchain</name>
     <member refid="de/da2/classsgns_1_1_blockchain_1a7b8175cc61ed4169a90cf44993ab000e" kind="enum"><name>Error</name></member>
@@ -561,6 +623,9 @@
     <member refid="d3/db4/structsgns_1_1primitives_1_1_block_data_1a39897db730af572bf18f9e00ddb677b7" kind="variable"><name>justification</name></member>
     <member refid="d3/db4/structsgns_1_1primitives_1_1_block_data_1ad4717a1c2650cf5fb26ee720aa6e6233" kind="function"><name>toBlock</name></member>
   </compound>
+  <compound refid="de/d25/class_block_executor_factory" kind="class"><name>BlockExecutorFactory</name>
+    <member refid="de/d25/class_block_executor_factory_1adc69117b267c79087c3b603007716edc" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d4/ded/structsgns_1_1primitives_1_1_block_header" kind="struct"><name>sgns::primitives::BlockHeader</name>
     <member refid="d4/ded/structsgns_1_1primitives_1_1_block_header_1a6f1fce359916e33810d0a5ddbe440313" kind="variable"><name>parent_hash</name></member>
     <member refid="d4/ded/structsgns_1_1primitives_1_1_block_header_1a3f2d94b17a71d03e1092880e3d98f837" kind="variable"><name>number</name></member>
@@ -590,6 +655,9 @@
     <member refid="dc/d45/classsgns_1_1blockchain_1_1_block_header_repository_1a9b64699fae33ac63a0bf15136872d981" kind="function"><name>getBlockStatus</name></member>
     <member refid="dc/d45/classsgns_1_1blockchain_1_1_block_header_repository_1afd8c7ea054ae0a36b2e44f772e13c768" kind="function"><name>getNumberById</name></member>
     <member refid="dc/d45/classsgns_1_1blockchain_1_1_block_header_repository_1a2d5c162b8cc3929937c060ea3bee1549" kind="function"><name>getHashById</name></member>
+  </compound>
+  <compound refid="d2/d44/class_block_header_repository_factory" kind="class"><name>BlockHeaderRepositoryFactory</name>
+    <member refid="d2/d44/class_block_header_repository_factory_1a6b25aaa484dcdd28616a968f30afe3c7" kind="function"><name>create</name></member>
   </compound>
   <compound refid="de/d12/structsgns_1_1primitives_1_1detail_1_1_block_info_t" kind="struct"><name>sgns::primitives::detail::BlockInfoT</name>
     <member refid="de/d12/structsgns_1_1primitives_1_1detail_1_1_block_info_t_1a5973293d4777f5b396e7b07e2d91cbc7" kind="variable"><name>block_number</name></member>
@@ -634,6 +702,9 @@
     <member refid="de/de8/classsgns_1_1blockchain_1_1_block_storage_1a55db96804eb9dd04839d2c7bf6d5ae33" kind="function"><name>putJustification</name></member>
     <member refid="de/de8/classsgns_1_1blockchain_1_1_block_storage_1a7fd53d12bb77f5c00f55197216abf124" kind="function"><name>removeBlock</name></member>
   </compound>
+  <compound refid="d9/d28/classsgns_1_1_block_storage_factory" kind="class"><name>sgns::BlockStorageFactory</name>
+    <member refid="d9/d28/classsgns_1_1_block_storage_factory_1a296305454c1046e68f73873056c27079" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree" kind="struct"><name>sgns::blockchain::BlockTree</name>
     <member refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree_1a765cf26a45f6e35ae89433ec03950598" kind="typedef"><name>BlockHashVecRes</name></member>
     <member refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree_1a6af0e544b742376fdced5bfc0fcb16d1" kind="function"><name>~BlockTree</name></member>
@@ -654,6 +725,9 @@
     <member refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree_1a51881c6ac57a89b61b65421eff6f4b24" kind="function"><name>getLeaves</name></member>
     <member refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree_1a31b54b2ed2a71783dea2438c07c9b5d3" kind="function"><name>getChildren</name></member>
     <member refid="df/dd9/structsgns_1_1blockchain_1_1_block_tree_1af4c8dd033bb37d32c7e4582541248818" kind="function"><name>getLastFinalized</name></member>
+  </compound>
+  <compound refid="d4/d27/class_block_tree_factory" kind="class"><name>BlockTreeFactory</name>
+    <member refid="d4/d27/class_block_tree_factory_1a9d30e30a34285ee2661d22d7154f3bca" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d8/d42/classsgns_1_1blockchain_1_1_block_tree_impl" kind="class"><name>sgns::blockchain::BlockTreeImpl</name>
     <member refid="d8/d42/classsgns_1_1blockchain_1_1_block_tree_impl_1a8ba1c02537df0d489c703d99b591540d" kind="enum"><name>Error</name></member>
@@ -692,6 +766,9 @@
     <member refid="d8/d42/classsgns_1_1blockchain_1_1_block_tree_impl_1a59f9dfbe13ddcaa26d1ba8f51c5baa2a" kind="function"><name>getLeavesSorted</name></member>
     <member refid="d8/d42/classsgns_1_1blockchain_1_1_block_tree_impl_1a946ebe3f1c5ee2778305945cd9a4e72c" kind="function"><name>prune</name></member>
     <member refid="d8/d42/classsgns_1_1blockchain_1_1_block_tree_impl_1a748c34b3450ba1632913d8ca40dd4aed" kind="function"><name>collectDescendants</name></member>
+  </compound>
+  <compound refid="da/d0c/class_block_validator_factory" kind="class"><name>BlockValidatorFactory</name>
+    <member refid="da/d0c/class_block_validator_factory_1a4e4030057defc69fea1dee8c64655a61" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node" kind="struct"><name>sgns::storage::trie::BranchNode</name>
     <member refid="d7/d36/structsgns_1_1storage_1_1trie_1_1_branch_node_1a37e12a04c3e13cc36c011b4578d25f7f" kind="variable"><name>kMaxChildren</name></member>
@@ -958,6 +1035,9 @@
     <member refid="d3/d0c/classsgns_1_1storage_1_1_buffer_1abf03ac74ff0c37968afc5d40493f8f28" kind="function"><name>fromHex</name></member>
     <member refid="d3/d0c/classsgns_1_1storage_1_1_buffer_1ac9a2f10803816cbd3899fccabaf65a81" kind="function"><name>putRange</name></member>
   </compound>
+  <compound refid="d9/d50/class_buffer_storage_factory" kind="class"><name>BufferStorageFactory</name>
+    <member refid="d9/d50/class_buffer_storage_factory_1abf24c9e766d5f5550cbe8edfeb1a3d99" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="dd/da6/classsgns_1_1storage_1_1trie_1_1_buffer_stream" kind="class"><name>sgns::storage::trie::BufferStream</name>
     <member refid="dd/da6/classsgns_1_1storage_1_1trie_1_1_buffer_stream_1a95a89653d87db800007489113422fef7" kind="typedef"><name>index_type</name></member>
     <member refid="dd/da6/classsgns_1_1storage_1_1trie_1_1_buffer_stream_1a819de17444bebc0404d69136f2e9b9fb" kind="variable"><name>data_</name></member>
@@ -1005,6 +1085,9 @@
     <member refid="df/d07/class_c_component_factory_1a8d3f11114af80c1f63beb2cf8a4d9ead" kind="function"><name>SINGLETON</name></member>
     <member refid="df/d07/class_c_component_factory_1a271de54756a5a68b276568d3c2ae8f10" kind="function"><name>Register</name></member>
     <member refid="df/d07/class_c_component_factory_1a813c77f491916e3344885cb2c0b06250" kind="function"><name>GetComponent</name></member>
+  </compound>
+  <compound refid="de/ded/classsgns_1_1_chain_api_factory" kind="class"><name>sgns::ChainApiFactory</name>
+    <member refid="de/ded/classsgns_1_1_chain_api_factory_1a9c049d95f0c46b43b7f1cd028c67b64f" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d7/d91/structsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1_1_chain_config" kind="struct"><name>sgns::evmwatcher::EvmMessagingWatcher::ChainConfig</name>
     <member refid="d7/d91/structsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1_1_chain_config_1a58c84560591cbc823b8aa48e274b8a00" kind="variable"><name>rpc_url</name></member>
@@ -1105,6 +1188,9 @@
     <member refid="d7/de2/classsgns_1_1application_1_1_configuration_storage_1a038495de9dd6af399bd82ea4d445a30c" kind="function"><name>badBlocks</name></member>
     <member refid="d7/de2/classsgns_1_1application_1_1_configuration_storage_1ad9528d8c470a6322c98d5e354b52d6db" kind="function"><name>verificationEngine</name></member>
     <member refid="d7/de2/classsgns_1_1application_1_1_configuration_storage_1aa932a25a08fc6535e8f88f32a7ca3f9f" kind="function"><name>getGenesis</name></member>
+  </compound>
+  <compound refid="da/d07/class_configuration_storage_factory" kind="class"><name>ConfigurationStorageFactory</name>
+    <member refid="da/d07/class_configuration_storage_factory_1acc975f36498b6ff606a242b0cbb8bc92" kind="function"><name>create</name></member>
   </compound>
   <compound refid="df/d60/classsgns_1_1application_1_1_configuration_storage_impl" kind="class"><name>sgns::application::ConfigurationStorageImpl</name>
     <member refid="df/d60/classsgns_1_1application_1_1_configuration_storage_impl_1a435d576a0a8ed3c0e9b7ce1f4d58b2bf" kind="variable"><name>name_</name></member>
@@ -1480,6 +1566,10 @@
     <member refid="d7/d3e/structsgns_1_1_genius_account_1_1_credentials_1a19ed5f828ed4456468a9afb99d852cae" kind="variable"><name>email</name></member>
     <member refid="d7/d3e/structsgns_1_1_genius_account_1_1_credentials_1a8fd181af7f65955c4e39ad0c0caa5805" kind="variable"><name>password</name></member>
   </compound>
+  <compound refid="dc/d29/struct_crypto3_util" kind="struct"><name>Crypto3Util</name>
+    <member refid="dc/d29/struct_crypto3_util_1a402ddc1f85f4cd6208deea09658e9592" kind="function"><name>BytesToCppInt</name></member>
+    <member refid="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" kind="function"><name>CppIntToBytes</name></member>
+  </compound>
   <compound refid="da/d52/classsgns_1_1crypto_1_1_crypto_store" kind="class"><name>sgns::crypto::CryptoStore</name>
     <member refid="da/d52/classsgns_1_1crypto_1_1_crypto_store_1a0e4314ce82cfcde206e5d1fc17fdc3af" kind="typedef"><name>Path</name></member>
     <member refid="da/d52/classsgns_1_1crypto_1_1_crypto_store_1aee2cc68cf7941dc6b99fdb74d18b5225" kind="typedef"><name>ED25519Keys</name></member>
@@ -1604,6 +1694,49 @@
     <member refid="de/d6d/structsgns_1_1storage_1_1trie_1_1_dummy_node_1ad6fa8c2f27d99adc2efb4a7af91655b7" kind="function"><name>isDummy</name></member>
     <member refid="de/d6d/structsgns_1_1storage_1_1trie_1_1_dummy_node_1af97d0d479d9cb5ddbb1916c19681b2d6" kind="function"><name>getType</name></member>
   </compound>
+  <compound refid="d5/db7/class_e_c_d_h_encryption" kind="class"><name>ECDHEncryption</name>
+    <member refid="d5/db7/class_e_c_d_h_encryption_1a18b769228bc67ab254c64bfb4baeb4b3" kind="variable"><name>session_secret</name></member>
+    <member refid="d5/db7/class_e_c_d_h_encryption_1a3131fa4dfa653a7527d7d9bbc7b85717" kind="function"><name>EncryptData</name></member>
+    <member refid="d5/db7/class_e_c_d_h_encryption_1a25c4baec3a0b7fee27216c2bc20759c3" kind="function"><name>DecryptData</name></member>
+    <member refid="d5/db7/class_e_c_d_h_encryption_1a5d6b51f2806a70d0e3624a105581fd39" kind="function"><name>CheckEqual</name></member>
+    <member refid="d5/db7/class_e_c_d_h_encryption_1a2ebff57ae14d7aa76bdb35b368a1aa36" kind="function"><name>ECDHEncryption</name></member>
+  </compound>
+  <compound refid="de/d81/class_e_c_d_s_a_public_key" kind="class"><name>ECDSAPublicKey</name>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1ac3876e026d53f38131742e4936966211" kind="variable"><name>X</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1aaddf6a72aa226cdc64cb7049436e5819" kind="variable"><name>Y</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a8a8243bc75fb037e4728333e28e6c14f" kind="variable"><name>X_vect</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a6494fbf52785b7f105325ddd7f43c28f" kind="variable"><name>Y_vect</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a3ac466acecb4453f81f823837cca8a5d" kind="variable"><name>pubkey_used_value</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" kind="function"><name>ECDSAPublicKey</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a849b7a396c62b524479a4276b71ba0d5" kind="function"><name>~ECDSAPublicKey</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a9abead45382f9d6bf92b4d9251efb316" kind="function"><name>operator std::string &amp;</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1a809ab6024550f4da99f419bc731e327a" kind="function"><name>GetEntireKey</name></member>
+    <member refid="de/d81/class_e_c_d_s_a_public_key_1afd02140fd21174f84fb3aeb7284582f7" kind="function"><name>CalcPubkeyUsedValue</name></member>
+  </compound>
+  <compound refid="de/d75/class_e_c_el_gamal_key_generator" kind="class"><name>ECElGamalKeyGenerator</name>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a12470ed0889b9963b0f2790b63643577" kind="typedef"><name>cpp_int</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a578ab66e732f4b59c83550f6cf03d3ae" kind="variable"><name>private_key</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a6e7fb0292c6444cbaa91396719fbc59c" kind="variable"><name>public_key</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a9e2856d5c9fd5c944bd535a6f7cc3298" kind="function"><name>ECElGamalKeyGenerator</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a63670b930a5d79cf863a0f6be5143120" kind="function"><name>GetPrivateKey</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a498fca05eb124b268dea535018cfb4d0" kind="function"><name>EncryptData</name></member>
+    <member refid="de/d75/class_e_c_el_gamal_key_generator_1a0153e1a8fd133cbe6a29567bebb447bc" kind="function"><name>DecryptData</name></member>
+  </compound>
+  <compound refid="df/d3c/struct_e_c_el_gamal_point" kind="struct"><name>ECElGamalPoint</name>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" kind="typedef"><name>cpp_int</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a764295cc633d13d9efe55a6fb984f77d" kind="typedef"><name>curve_point_type</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" kind="typedef"><name>coeff_type</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1ad946fd8188c54f49d872d1e5aac3fce3" kind="variable"><name>a_coeff</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a38767d1ed5cc6eacee1d73f9639d0ff0" kind="variable"><name>b_coeff</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1aa325db8e5070353e48568b6c2bea2a42" kind="variable"><name>prime_number</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1ac8e2eb6fe7233fdbb6b46ca8bc9ae882" kind="variable"><name>curve_point</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1ad41c15752f61785b5ab8cf1fc3cda032" kind="function"><name>ECElGamalPoint</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1ab3810f08815d65716344fd2624dd7182" kind="function"><name>ECElGamalPoint</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a536b161a4040f64aba41a320eb57d700" kind="function"><name>operator+</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a89c0749153283eb66b78be4f0cd3b1d6" kind="function"><name>operator-</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a3f94d1e5a86906e6e2dbc0823b490a7b" kind="function"><name>UnMap</name></member>
+    <member refid="df/d3c/struct_e_c_el_gamal_point_1a4ed82c56a5cb54892fc2827e368c2d24" kind="function"><name>CalcPossibleYSquared</name></member>
+  </compound>
   <compound refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair" kind="struct"><name>sgns::crypto::ED25519Keypair</name>
     <member refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1acf091e8afa5d425b1e695fd0841d9042" kind="variable"><name>private_key</name></member>
     <member refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1a3196dcc90db98ce155a80322007f1df7" kind="variable"><name>public_key</name></member>
@@ -1614,12 +1747,18 @@
     <member refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1a407a7c28a8a31619e3ad4d1a914d23a9" kind="function"><name>GetName</name></member>
     <member refid="d4/daa/structsgns_1_1crypto_1_1_e_d25519_keypair_1a65870d165cd50dc930acfcd57556f929" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
+  <compound refid="d3/da9/classsgns_1_1_e_d25519_key_pair_factory" kind="class"><name>sgns::ED25519KeyPairFactory</name>
+    <member refid="d3/da9/classsgns_1_1_e_d25519_key_pair_factory_1ad848ede5d09c199290a9c787e9a30c2d" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider" kind="class"><name>sgns::crypto::ED25519Provider</name>
     <member refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider_1affeef78d196ec64ee6de9c0d0812c53b" kind="function"><name>~ED25519Provider</name></member>
     <member refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider_1ade55877e2487a849dc76fa1997d9b373" kind="function"><name>generateKeypair</name></member>
     <member refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider_1a021c6d6feabeab4bff18b34b4d9607d0" kind="function"><name>generateKeypair</name></member>
     <member refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider_1abab2575922510c599faf76e1dd4cd623" kind="function"><name>sign</name></member>
     <member refid="da/d5d/classsgns_1_1crypto_1_1_e_d25519_provider_1ab028789b28ed80339f0a6038149985e4" kind="function"><name>verify</name></member>
+  </compound>
+  <compound refid="d0/d12/classsgns_1_1_e_d25519_provider_factory" kind="class"><name>sgns::ED25519ProviderFactory</name>
+    <member refid="d0/d12/classsgns_1_1_e_d25519_provider_factory_1a81ed57c397a65b04f179f7a8f2c57c14" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d6/dae/classsgns_1_1crypto_1_1_e_d25519_provider_impl" kind="class"><name>sgns::crypto::ED25519ProviderImpl</name>
     <member refid="d6/dae/classsgns_1_1crypto_1_1_e_d25519_provider_impl_1a388ea87220d87c666c852fa90c123550" kind="function"><name>~ED25519ProviderImpl</name></member>
@@ -1629,10 +1768,41 @@
     <member refid="d6/dae/classsgns_1_1crypto_1_1_e_d25519_provider_impl_1ad7e17c486134e25c5bb558bf520ec454" kind="function"><name>verify</name></member>
     <member refid="d6/dae/classsgns_1_1crypto_1_1_e_d25519_provider_impl_1a9bbf21777da5fab565356c8dd322a8b5" kind="function"><name>GetName</name></member>
   </compound>
+  <compound refid="da/d91/class_key_generator_1_1_el_gamal" kind="class"><name>KeyGenerator::ElGamal</name>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kind="typedef"><name>CypherTextType</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1ad425483432c75678ebd7d7f9741168e1" kind="variable"><name>SAFE_PRIME</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a3560bb373c7067ccb553406345eca0ab" kind="variable"><name>GENERATOR</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" kind="variable"><name>private_key</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a8faffff7873e6c82ab8e02b6f384dbe2" kind="variable"><name>public_key</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a03ee2a743b6eeaeea486f4c5a9fb0c3e" kind="variable"><name>bsgs_instance</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" kind="function"><name>DecryptDataAdditive</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1af920815a9b7f49f344b66f35fcede8f4" kind="function"><name>ElGamal</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a81cd2b1388d699ecb492fcdcd47347b8" kind="function"><name>ElGamal</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a59859973e684bb358f10c11d3c278516" kind="function"><name>ElGamal</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a989cc80da921fd0286ab2725357c13a5" kind="function"><name>ElGamal</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a6b9ae358f1b3e9157737ed486d3550b5" kind="function"><name>~ElGamal</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a8e31185c7929d2402f3c1b6b081e95b7" kind="function"><name>GetPublicKey</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1ab30c3d10492e151e743ed8cec2d253a7" kind="function"><name>GetPrivateKey</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a0080511d918f163ee7ffe6dac096e2f3" kind="function"><name>DecryptData</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1afc5899b7e26cd2f8ccfc91d93d8dfa8b" kind="function"><name>DecryptData</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1ad4b1e04a6498f3508ffbd4bd295567ee" kind="function"><name>CreateGeneratorParams</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" kind="function"><name>EncryptData</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a63f7027c5844c9e5eb35c7a43087dff1" kind="function"><name>EncryptData</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1ae4d8840f7280a78f47d1215cca542a45" kind="function"><name>EncryptDataAdditive</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" kind="function"><name>DecryptData</name></member>
+    <member refid="da/d91/class_key_generator_1_1_el_gamal_1af5ed405437a89e48e59d55421e6ea11d" kind="function"><name>DecryptDataAdditive</name></member>
+  </compound>
   <compound refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits" kind="struct"><name>sgns::scale::compact::EncodingCategoryLimits</name>
     <member refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1a5e505e1cb300b37c9bcdb76aca89e9a7" kind="variable"><name>kMinUint16</name></member>
     <member refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1a17b2ab4099965fd26ed3dfefc13f9896" kind="variable"><name>kMinUint32</name></member>
     <member refid="d6/dd5/structsgns_1_1scale_1_1compact_1_1_encoding_category_limits_1ab54259e49414282861eba1837b9af7ae" kind="variable"><name>kMinBigInteger</name></member>
+  </compound>
+  <compound refid="d7/d5e/class_encryption" kind="class"><name>Encryption</name>
+    <member refid="d7/d5e/class_encryption_1a416615f6ef3b630b8f2e1cc5a8226e1e" kind="function"><name>~Encryption</name></member>
+    <member refid="d7/d5e/class_encryption_1a3220a5071d917e8547d10a7f2a531d0e" kind="function"><name>EncryptData</name></member>
+    <member refid="d7/d5e/class_encryption_1a149d3402617ab8dc48cc933e553687c6" kind="function"><name>DecryptData</name></member>
+    <member refid="d7/d5e/class_encryption_1a83ad34771d4329992d3b188162148acc" kind="function"><name>CheckEqual</name></member>
+    <member refid="d7/d5e/class_encryption_1a30f7a8c257891fe7d8037705ce1c5efa" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="d6/d94/classsgns_1_1crypto_1_1bip39_1_1_entropy_accumulator" kind="class"><name>sgns::crypto::bip39::EntropyAccumulator</name>
     <member refid="d6/d94/classsgns_1_1crypto_1_1bip39_1_1_entropy_accumulator_1ad060f278b494864a4589b5828ffe7d00" kind="variable"><name>bits_</name></member>
@@ -1647,6 +1817,9 @@
   </compound>
   <compound refid="da/dc8/structsgns_1_1crypto_1_1bip39_1_1_entropy_token" kind="struct"><name>sgns::crypto::bip39::EntropyToken</name>
     <member refid="da/dc8/structsgns_1_1crypto_1_1bip39_1_1_entropy_token_1a7a59e9102c939cb7b69198848bbc34f9" kind="typedef"><name>Parent</name></member>
+  </compound>
+  <compound refid="de/d4f/classsgns_1_1_environment_factory" kind="class"><name>sgns::EnvironmentFactory</name>
+    <member refid="de/d4f/classsgns_1_1_environment_factory_1ae6bba00ee1d824007ba26e19e158d7da" kind="function"><name>create</name></member>
   </compound>
   <compound refid="de/d05/classsgns_1_1storage_1_1trie_1_1_ephemeral_trie_batch" kind="class"><name>sgns::storage::trie::EphemeralTrieBatch</name>
   </compound>
@@ -1663,6 +1836,9 @@
     <member refid="d7/d40/classsgns_1_1storage_1_1trie_1_1_ephemeral_trie_batch_impl_1a7f160bd251db738923f644c95159d676" kind="function"><name>put</name></member>
     <member refid="d7/d40/classsgns_1_1storage_1_1trie_1_1_ephemeral_trie_batch_impl_1a61d4c23500947188827b95202749cf1d" kind="function"><name>put</name></member>
     <member refid="d7/d40/classsgns_1_1storage_1_1trie_1_1_ephemeral_trie_batch_impl_1af29b2cab4d360b89d1f69ec658cdade5" kind="function"><name>remove</name></member>
+  </compound>
+  <compound refid="d0/de7/class_epoch_storage_factory" kind="class"><name>EpochStorageFactory</name>
+    <member refid="d0/de7/class_epoch_storage_factory_1a5958b0be4383cde0efb0d482d50a0afe" kind="function"><name>create</name></member>
   </compound>
   <compound refid="db/d30/classsgns_1_1error__cli__messages" kind="class"><name>sgns::error_cli_messages</name>
     <member refid="db/d30/classsgns_1_1error__cli__messages_1a6ef199c65a3893287b4b7c4627de1552" kind="function"><name>message</name></member>
@@ -1707,6 +1883,35 @@
     <member refid="db/d70/classsgns_1_1_escrow_transaction_1a3085c3448093e5d725f0b8c9a6e683ed" kind="function"><name>EscrowTransaction</name></member>
     <member refid="db/d70/classsgns_1_1_escrow_transaction_1aada7304994c1f1c5698b29cb50991eb7" kind="function"><name>Register</name></member>
   </compound>
+  <compound refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key" kind="class"><name>ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey</name>
+    <member refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a9d6d37d705676e318c9478bdee34d715" kind="function"><name>CalcPubkeyUsedValue</name></member>
+    <member refid="d7/db6/classethereum_1_1_ethereum_key_generator_1_1_ethereum_e_c_d_s_a_public_key_1a8ec852d98f7def018a3f19fbb7d5550f" kind="function"><name>ECDSAPublicKey</name></member>
+  </compound>
+  <compound refid="dc/dc0/classethereum_1_1_ethereum_key_generator" kind="class"><name>ethereum::EthereumKeyGenerator</name>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" kind="typedef"><name>PubKeyPair_t</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" kind="variable"><name>key_gen</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" kind="variable"><name>ADDRESS_HEADER</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kind="variable"><name>KECCAK_RES_VALID_POS</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" kind="variable"><name>ADDRESS_VALID_POS</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" kind="variable"><name>ADDRESS_SIZE_CHARS</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kind="variable"><name>privkey</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kind="variable"><name>pubkey</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" kind="variable"><name>pubkey_info</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kind="variable"><name>address</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kind="function"><name>EthereumKeyGenerator</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a77ac39f7867ed2f6d4a90d7cfcd197fd" kind="function"><name>EthereumKeyGenerator</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af261a9f26fa2e848d8e873fac9787c24" kind="function"><name>EthereumKeyGenerator</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa622aa6cd48189b508e88e361c9e5e83" kind="function"><name>get_private_key</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aeaaf28feacd6a7016441e491b968b3c2" kind="function"><name>get_public_key</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31bc3ba798dbd8c26e5c41fb4d8eccf0" kind="function"><name>get_address</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab7a339e21e26b8b9afd91c04a03ea867" kind="function"><name>GetUsedPubKeyValue</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ad609787e83cdf2f3072bdea18f8629a9" kind="function"><name>GetEntirePubValue</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" kind="function"><name>ExtractPubKeyFromField</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" kind="function"><name>DeriveAddress</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" kind="function"><name>CreateKeys</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" kind="function"><name>BuildPublicKey</name></member>
+    <member refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kind="function"><name>DeriveAddress</name></member>
+  </compound>
   <compound refid="d6/d4c/classsgns_1_1evmwatcher_1_1_evm_messaging_watcher" kind="class"><name>sgns::evmwatcher::EvmMessagingWatcher</name>
     <member refid="d6/d4c/classsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1a9849ebe2c1496f8045373caa28f4c2f6" kind="typedef"><name>Context</name></member>
     <member refid="d6/d4c/classsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1a892258e15339b49a2ee6891f34481be7" kind="typedef"><name>TopicFilter</name></member>
@@ -1726,6 +1931,11 @@
     <member refid="d6/d4c/classsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1a4ccd2db5ccbf8ed35791b147a90fa5d4" kind="function"><name>stopWatching</name></member>
     <member refid="d6/d4c/classsgns_1_1evmwatcher_1_1_evm_messaging_watcher_1af77b54b78a5a4abb7398ce2093fe50d4" kind="function"><name>parseConfig</name></member>
   </compound>
+  <compound refid="dc/d20/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key" kind="struct"><name>nil::crypto3::pubkey::ext_private_key</name>
+  </compound>
+  <compound refid="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7" kind="struct"><name>nil::crypto3::pubkey::ext_private_key&lt; ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;, typename std::enable_if&lt; std::is_same&lt; GeneratorType, random::rfc6979&lt; typename CurveType::scalar_field_type::value_type, typename ecdsa&lt; CurveType, Padding, GeneratorType, DistributionType &gt;::hash_type &gt; &gt;::value &gt;::type &gt;</name>
+    <member refid="d9/dd9/structnil_1_1crypto3_1_1pubkey_1_1ext__private__key_3_01ecdsa_3_01_curve_type_00_01_padding_00_04592937b2016ef21d2ba9ad8549745c7_1af0d841a7d725221db3d97eaacf365bb2" kind="function"><name>operator*</name></member>
+  </compound>
   <compound refid="d2/d62/structsgns_1_1primitives_1_1_extrinsic" kind="struct"><name>sgns::primitives::Extrinsic</name>
     <member refid="d2/d62/structsgns_1_1primitives_1_1_extrinsic_1a8c6c21f67ee86ee53a67b384a29a3bd4" kind="variable"><name>data</name></member>
     <member refid="d2/d62/structsgns_1_1primitives_1_1_extrinsic_1a8c9e8de1c15e09360cfe2bc498de64b7" kind="function"><name>operator==</name></member>
@@ -1735,6 +1945,12 @@
     <member refid="d7/d59/structsgns_1_1runtime_1_1binaryen_1_1_extrinsic_1a8c6c21f67ee86ee53a67b384a29a3bd4" kind="variable"><name>data</name></member>
     <member refid="d7/d59/structsgns_1_1runtime_1_1binaryen_1_1_extrinsic_1a8c9e8de1c15e09360cfe2bc498de64b7" kind="function"><name>operator==</name></member>
     <member refid="d7/d59/structsgns_1_1runtime_1_1binaryen_1_1_extrinsic_1a0b86ba1ba7ed94603c4c571028b98706" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="dd/d47/class_extrinsic_gossiper_factory" kind="class"><name>ExtrinsicGossiperFactory</name>
+    <member refid="dd/d47/class_extrinsic_gossiper_factory_1ae7c906d0fa1ce96f68f4de2966649e44" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d6/dfe/class_extrinsic_observer_factory" kind="class"><name>ExtrinsicObserverFactory</name>
+    <member refid="d6/dfe/class_extrinsic_observer_factory_1ad846383fb2160c8661a2a8e45a807526" kind="function"><name>create</name></member>
   </compound>
   <compound refid="dc/d7b/structsgns_1_1storage_1_1changes__trie_1_1_changes_trie_1_1_extrinsics_changes_key" kind="struct"><name>sgns::storage::changes_trie::ChangesTrie::ExtrinsicsChangesKey</name>
   </compound>
@@ -1766,6 +1982,9 @@
     <member refid="df/d99/classsgns_1_1runtime_1_1binaryen_1_1_finality_api_impl_1a6b41e1363999e74cedf314a2e449329c" kind="function"><name>pending_change</name></member>
     <member refid="df/d99/classsgns_1_1runtime_1_1binaryen_1_1_finality_api_impl_1a897e1ad4e9684643dbc1bc065856aff5" kind="function"><name>forced_change</name></member>
     <member refid="df/d99/classsgns_1_1runtime_1_1binaryen_1_1_finality_api_impl_1aa6b558813324e6407682bf4b7746646f" kind="function"><name>authorities</name></member>
+  </compound>
+  <compound refid="d5/d58/classsgns_1_1_finality_factory" kind="class"><name>sgns::FinalityFactory</name>
+    <member refid="d5/d58/classsgns_1_1_finality_factory_1a4369360edec8cc4b5e8b1a41cfd4ca7a" kind="function"><name>create</name></member>
   </compound>
   <compound refid="de/dc2/structsgns_1_1primitives_1_1_forced_change" kind="struct"><name>sgns::primitives::ForcedChange</name>
     <member refid="de/dc2/structsgns_1_1primitives_1_1_forced_change_1ab51598e590af9662f2edee14ffb7e21e" kind="function"><name>AuthorityListChange</name></member>
@@ -2351,6 +2570,9 @@
     <member refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1aac85545c0a0c5c6fe2dbe2f4f113ce49" kind="function"><name>blake2s_256</name></member>
     <member refid="dd/d14/classsgns_1_1crypto_1_1_hasher_1ad3071dc9962b178ef9fa84875fdf9f9f" kind="function"><name>sha2_256</name></member>
   </compound>
+  <compound refid="d9/dd6/class_hasher_factory" kind="class"><name>HasherFactory</name>
+    <member refid="d9/dd6/class_hasher_factory_1ac7e88caf00414670cf847b30f6e1fb55" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="db/db8/classsgns_1_1crypto_1_1_hasher_impl" kind="class"><name>sgns::crypto::HasherImpl</name>
     <member refid="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1af5349bbc60918bcfcefa7bb2f38a74d5" kind="function"><name>~HasherImpl</name></member>
     <member refid="db/db8/classsgns_1_1crypto_1_1_hasher_impl_1a8aa7bde3df18bb5898d3f05c4e3445eb" kind="function"><name>twox_64</name></member>
@@ -2495,6 +2717,35 @@
     <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a773fcfb15ae0aebdf628f8603dc326e1" kind="function"><name>RegisterDeserializer</name></member>
     <member refid="d1/d07/classsgns_1_1_i_genius_transactions_1a9800478402d0ecbd38493d3b5789f9a9" kind="function"><name>GetDeSerializers</name></member>
   </compound>
+  <compound refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter" kind="class"><name>sgns::sgprocessing::ImageSplitter</name>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a509e42088c9e3c5fd1ece98cedf413ca" kind="variable"><name>splitparts_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1abe148ed7f1b5993eeab28b8437eaf40e" kind="variable"><name>partwidth_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3f0dcca4ca65fcf8e9741e19a2b85d51" kind="variable"><name>partheight_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ace41ce26bec75489a0f99b78b4b5177e" kind="variable"><name>blockstride_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a3516c325da1523c97ef168817a338dfc" kind="variable"><name>blocklinestride_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1af1c086fbbec320e963b8836e5c5807ec" kind="variable"><name>blocklen_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2000e7d9306900ce96bc1fd89588e36" kind="variable"><name>channels_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aa9af26c435aecf48cdfe3de733b1c3e9" kind="variable"><name>inputImage</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1acce49af2c7323dba5cda83f3a87fc665" kind="variable"><name>imageSize</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ad950de1a48db088f5b104b8a03a0a591" kind="variable"><name>chunkWidthActual_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a6e68daa9ed7ea478b2660ce7f6dc3356" kind="variable"><name>chunkHeightActual_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ab2b2381eb3b8d0f35368cde85d8c226a" kind="variable"><name>cids_</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a76a776051fbbd30931a8d5c59b10b89f" kind="function"><name>ImageSplitter</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a2732346901af5849d6a46236bfc94c36" kind="function"><name>ImageSplitter</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a82d0dd261186fb43881bbcdd138a3ab3" kind="function"><name>ImageSplitter</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a5d014c039dfa6f5e12d5a944f3116bac" kind="function"><name>ImageSplitter</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a4f3547b7d4a1a703612a853f99bda665" kind="function"><name>~ImageSplitter</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a80d0e4e81a25122f299c8cf6c3b54a13" kind="function"><name>GetPart</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1960f4bedeb3c0d16e86e30a8d7653e6" kind="function"><name>GetPartByCid</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a132cd2e70b0e500874d3a3d50ed530f7" kind="function"><name>GetPartSize</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ae2bba4426b86bfae899b563da4d79574" kind="function"><name>GetPartStride</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a97ee54e94f0bbd393cf8d7e860cef4ad" kind="function"><name>GetPartWidthActual</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1aaaff7ee44abbe20549e7dc0b4ae1bf31" kind="function"><name>GetPartHeightActual</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a1ba815a0c693a1d93bb1221100a941be" kind="function"><name>GetPartCount</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a05fda9e591cc52c36489c51e28f73306" kind="function"><name>GetImageSize</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1a59660810c480bd963b6fc3f715fb3da3" kind="function"><name>GetPartCID</name></member>
+    <member refid="d7/d29/classsgns_1_1sgprocessing_1_1_image_splitter_1ac95479f15b3c8a2624aab2a28b428c6e" kind="function"><name>SplitImageData</name></member>
+  </compound>
   <compound refid="d5/d0d/classsgns_1_1_i_migration_step" kind="class"><name>sgns::IMigrationStep</name>
     <member refid="d5/d0d/classsgns_1_1_i_migration_step_1a665d7bd47cadfb96da753277a9411e34" kind="function"><name>~IMigrationStep</name></member>
     <member refid="d5/d0d/classsgns_1_1_i_migration_step_1a4d51d8781733028f8b190e8c8f98698e" kind="function"><name>FromVersion</name></member>
@@ -2551,6 +2802,14 @@
     <member refid="d6/d1d/classsgns_1_1storage_1_1_in_memory_storage_1a46acd24518c3c875e25609acf32bdfa6" kind="function"><name>batch</name></member>
     <member refid="d6/d1d/classsgns_1_1storage_1_1_in_memory_storage_1ad4c49bd1e281b9028551f9efa3f21d3c" kind="function"><name>cursor</name></member>
     <member refid="d6/d1d/classsgns_1_1storage_1_1_in_memory_storage_1ae0cb38da5bfe41e13b64831365cfd578" kind="function"><name>GetName</name></member>
+  </compound>
+  <compound refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types" kind="class"><name>sgns::sgprocessing::InputTypes</name>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6" kind="enum"><name>Error</name></member>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6af30d4dff4a07229f8adbd937a7c4ca74" kind="enumvalue"><name>NOT_IMAGE_TYPE</name></member>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8eb47b1c5d5d231c248a3691bf72d9f6aafa0bfc232ee912348cc8a044c7c230f" kind="enumvalue"><name>NOT_FLOAT_TYPE</name></member>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a8a9ca239cda2805eb39fe129236bc92b" kind="function"><name>InputTypes</name></member>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a6cb9a0c1331ae2570b3622ed64f251f3" kind="function"><name>~InputTypes</name></member>
+    <member refid="d6/d09/classsgns_1_1sgprocessing_1_1_input_types_1a57202af5afc1db2e6f46738d94bb00ab" kind="function"><name>GetImageChannels</name></member>
   </compound>
   <compound refid="d3/dbc/structsgns_1_1_input_u_t_x_o_info" kind="struct"><name>sgns::InputUTXOInfo</name>
     <member refid="d3/dbc/structsgns_1_1_input_u_t_x_o_info_1a618a65417634ac4eabe041be1a8a1f3c" kind="variable"><name>txid_hash_</name></member>
@@ -2639,6 +2898,12 @@
     <member refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable_1ad46259be5d5a46afb966c0ddfb78fa45" kind="function"><name>~Iterable</name></member>
     <member refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable_1a44ca82af98f642669b5237f535b58001" kind="function"><name>cursor</name></member>
   </compound>
+  <compound refid="d0/d65/classsgns_1_1_j_rpc_processor_factory" kind="class"><name>sgns::JRpcProcessorFactory</name>
+    <member refid="d0/d65/classsgns_1_1_j_rpc_processor_factory_1a88f0f19ea7ee9c0bbae135607eeaf239" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="da/d07/classsgns_1_1_j_rpc_server_factory" kind="class"><name>sgns::JRpcServerFactory</name>
+    <member refid="da/d07/classsgns_1_1_j_rpc_server_factory_1ad55ffab4a66997711f9982630de66803" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d9/d71/classsgns_1_1_j_s_o_n_backend" kind="class"><name>sgns::JSONBackend</name>
     <member refid="d9/d71/classsgns_1_1_j_s_o_n_backend_1a9e536564914936ba39ee7d67dfa1a316" kind="function"><name>JSONBackend</name></member>
     <member refid="d9/d71/classsgns_1_1_j_s_o_n_backend_1a8b69c80e8af12d7c16ada35f6ae2d170" kind="function"><name>~JSONBackend</name></member>
@@ -2663,6 +2928,17 @@
   <compound refid="de/d97/structsgns_1_1primitives_1_1_justification" kind="struct"><name>sgns::primitives::Justification</name>
     <member refid="de/d97/structsgns_1_1primitives_1_1_justification_1ad894ae3f106da7b7e7f104c2970c57fc" kind="variable"><name>data</name></member>
     <member refid="de/d97/structsgns_1_1primitives_1_1_justification_1acca80580efa20f0579f1fe04ffe9b394" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="d7/db7/class_k_d_f_generator" kind="class"><name>KDFGenerator</name>
+    <member refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" kind="typedef"><name>SignatureType</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kind="typedef"><name>ECDSAPubKey</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1a959973c1385d8c86745c0ba912699cf2" kind="variable"><name>EXPECTED_SECRET_SIZE</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" kind="variable"><name>encryptor</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" kind="function"><name>KDFGenerator</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" kind="function"><name>GenerateSharedSecret</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" kind="function"><name>GetNewKeyFromSecret</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1ab2e8a6cfbc9dcbc47bbc814b9b5d35a0" kind="function"><name>operator==</name></member>
+    <member refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" kind="function"><name>BuildPublicKeyECDSA</name></member>
   </compound>
   <compound refid="d2/d9f/classsgns_1_1keepalive" kind="class"><name>sgns::keepalive</name>
     <member refid="d2/d9f/classsgns_1_1keepalive_1a1af3c1e2a56c061ff229984fd0a015ab" kind="variable"><name>peers</name></member>
@@ -2696,6 +2972,9 @@
     <member refid="d5/ddb/classsgns_1_1application_1_1_key_storage_1a7f4b6ea447bbd972bfb3f163db7e4233" kind="function"><name>getLocalSr25519Keypair</name></member>
     <member refid="d5/ddb/classsgns_1_1application_1_1_key_storage_1aa15d8a5e01876b744db7cddf4ffd12e3" kind="function"><name>getLocalEd25519Keypair</name></member>
     <member refid="d5/ddb/classsgns_1_1application_1_1_key_storage_1a4d5b1374b58d285d709fe2388d1661b0" kind="function"><name>getP2PKeypair</name></member>
+  </compound>
+  <compound refid="d6/d3b/class_key_storage_factory" kind="class"><name>KeyStorageFactory</name>
+    <member refid="d6/d3b/class_key_storage_factory_1a1604528a2ed82bb470cfdd98a707cfdb" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d0/d1b/classai_1_1gnus_1_1sdk_1_1_key_store_helper" kind="class"><name>ai::gnus::sdk::KeyStoreHelper</name>
     <member refid="d0/d1b/classai_1_1gnus_1_1sdk_1_1_key_store_helper_1a9160b3eb04a0c413f26c9e2d186ded67" kind="variable"><name>TAG</name></member>
@@ -2812,6 +3091,9 @@
     <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1a7298bee38d86730d76a47eb10cab6d8c" kind="function"><name>stop</name></member>
     <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1a2c447262ee5e172d5f2df0a21fde29e3" kind="function"><name>setHandlerForNewSession</name></member>
     <member refid="d6/d3f/classsgns_1_1api_1_1_listener_1af52c93d1a241869ee003044a786b5eda" kind="function"><name>acceptOnce</name></member>
+  </compound>
+  <compound refid="d9/da5/classsgns_1_1_listener_factory" kind="class"><name>sgns::ListenerFactory</name>
+    <member refid="d9/da5/classsgns_1_1_listener_factory_1a1b274e58b76900f07edfe8100c0f9136" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d2/d70/classsgns_1_1application_1_1_local_key_storage" kind="class"><name>sgns::application::LocalKeyStorage</name>
     <member refid="d2/d70/classsgns_1_1application_1_1_local_key_storage_1a54c5662bb09211627ea4a9b08f4a3d87" kind="variable"><name>sr_25519_keypair_</name></member>
@@ -3179,6 +3461,22 @@
     <member refid="dc/d25/structsgns_1_1crypto_1_1bip39_1_1_mnemonic_1a087a5c22a202fe8369681c08d7391b5b" kind="variable"><name>password</name></member>
     <member refid="dc/d25/structsgns_1_1crypto_1_1bip39_1_1_mnemonic_1a78542a5181e86cb8774d2a2901015c37" kind="function"><name>parse</name></member>
   </compound>
+  <compound refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio" kind="class"><name>sgns::sgprocessing::MNN_Audio</name>
+    <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae0da9af491e943fba8b20363329a21ff" kind="function"><name>MNN_Audio</name></member>
+    <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1ae52d1da661a950e4980932211266211c" kind="function"><name>~MNN_Audio</name></member>
+    <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1aafaa237a044e43c83e6d895b91f34f93" kind="function"><name>StartProcessing</name></member>
+    <member refid="dc/dbb/classsgns_1_1sgprocessing_1_1_m_n_n___audio_1a5f9b5af42c06a4da81ba4471a5716e4d" kind="function"><name>Process</name></member>
+  </compound>
+  <compound refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image" kind="class"><name>sgns::sgprocessing::MNN_Image</name>
+    <member refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image_1aa301c935a6aacc4712776798f956011a" kind="function"><name>MNN_Image</name></member>
+    <member refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image_1a33844d10706313ba04af2124612856c0" kind="function"><name>~MNN_Image</name></member>
+    <member refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image_1a25ed1d4e5fecb9f330b65317ca619d39" kind="function"><name>StartProcessing</name></member>
+    <member refid="d8/d19/classsgns_1_1sgprocessing_1_1_m_n_n___image_1a6cd9408ad5e8883e8046d910a76a336b" kind="function"><name>Process</name></member>
+  </compound>
+  <compound refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l" kind="class"><name>sgns::sgprocessing::MNN_ML</name>
+    <member refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l_1accb1501b756fdf16a9651d0649ae0d1d" kind="function"><name>StartProcessing</name></member>
+    <member refid="d4/dac/classsgns_1_1sgprocessing_1_1_m_n_n___m_l_1af8e25a841a2655b05414cb91b95c9fa1" kind="function"><name>Process</name></member>
+  </compound>
   <compound refid="d6/d99/classsgns_1_1network" kind="class"><name>sgns::network</name>
     <member refid="d6/d99/classsgns_1_1network_1a987a4c8e53426588d5270fa1e1605ca8" kind="function"><name>network</name></member>
     <member refid="d6/d99/classsgns_1_1network_1a4b0f4e62fd56b2c667efe0fee4817fdc" kind="function"><name>~network</name></member>
@@ -3358,6 +3656,9 @@
     <member refid="da/d9a/structsgns_1_1processing_1_1_processing_sub_task_queue_manager_1_1_ownership_request_1a2f617b349fa5939b836d7e0608e2413d" kind="variable"><name>node_id</name></member>
     <member refid="da/d9a/structsgns_1_1processing_1_1_processing_sub_task_queue_manager_1_1_ownership_request_1aa42d7d1d384ecbb793035899d0fa1aab" kind="variable"><name>timestamp</name></member>
   </compound>
+  <compound refid="de/d45/class_own_peer_info_factory" kind="class"><name>OwnPeerInfoFactory</name>
+    <member refid="de/d45/class_own_peer_info_factory_1ac1deb562a139536acb10091384e7cab0" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="dd/dc2/classsgns_1_1runtime_1_1_parachain_host" kind="class"><name>sgns::runtime::ParachainHost</name>
     <member refid="dd/dc2/classsgns_1_1runtime_1_1_parachain_host_1ac7e6910a71dec3b202c899a4d015b635" kind="typedef"><name>Buffer</name></member>
     <member refid="dd/dc2/classsgns_1_1runtime_1_1_parachain_host_1a9c55bd5460286a75e30ebbf15736faba" kind="typedef"><name>ValidatorId</name></member>
@@ -3378,6 +3679,11 @@
     <member refid="d4/d2b/classsgns_1_1runtime_1_1binaryen_1_1_parachain_host_impl_1a8f5c0114f7ed328c4887601139c831ed" kind="function"><name>parachain_head</name></member>
     <member refid="d4/d2b/classsgns_1_1runtime_1_1binaryen_1_1_parachain_host_impl_1ab177586adb8cf1dd9b1c8332689c70dd" kind="function"><name>parachain_code</name></member>
     <member refid="d4/d2b/classsgns_1_1runtime_1_1binaryen_1_1_parachain_host_impl_1a936f58415f7c481f42a16a3a87d6b913" kind="function"><name>validators</name></member>
+  </compound>
+  <compound refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kind="struct"><name>KeyGenerator::ElGamal::Params</name>
+    <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kind="variable"><name>prime_number</name></member>
+    <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a670e9569717076e36e72ea517deb6c59" kind="variable"><name>generator</name></member>
+    <member refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a011ec9708596add17ae2e553b4487144" kind="function"><name>Params</name></member>
   </compound>
   <compound refid="db/df4/structsgns_1_1primitives_1_1_pause" kind="struct"><name>sgns::primitives::Pause</name>
     <member refid="db/df4/structsgns_1_1primitives_1_1_pause_1a63b5b6cb3b7edada7397111664cbfc50" kind="function"><name>DelayInChain</name></member>
@@ -3420,11 +3726,49 @@
     <member refid="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1aff0d88e618ff0c2b701ae174372a801b" kind="function"><name>put</name></member>
     <member refid="d1/d3f/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_impl_1a7b833dbee413838243003052e75d4f37" kind="function"><name>remove</name></member>
   </compound>
+  <compound refid="d9/dd0/class_pool_moderator_factory" kind="class"><name>PoolModeratorFactory</name>
+    <member refid="d9/dd0/class_pool_moderator_factory_1ad0da6833536f896687208c3bf9088f67" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d7/dcf/structsgns_1_1primitives_1_1_pre_runtime" kind="struct"><name>sgns::primitives::PreRuntime</name>
   </compound>
   <compound refid="d7/da3/structsgns_1_1_genius_node_1_1_price_info" kind="struct"><name>sgns::GeniusNode::PriceInfo</name>
     <member refid="d7/da3/structsgns_1_1_genius_node_1_1_price_info_1a2397f2fd64acb62d95ce226eecf00775" kind="variable"><name>price</name></member>
     <member refid="d7/da3/structsgns_1_1_genius_node_1_1_price_info_1a264e97a037317ea3bb0781d776a492df" kind="variable"><name>lastUpdate</name></member>
+  </compound>
+  <compound refid="df/d94/class_prime_numbers" kind="class"><name>PrimeNumbers</name>
+    <member refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kind="typedef"><name>cpp_int</name></member>
+    <member refid="df/d94/class_prime_numbers_1a8c1a484ca3977c90868c9c9f225ebf5f" kind="function"><name>GenerateSafePrime</name></member>
+    <member refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" kind="function"><name>GetRandomNumber</name></member>
+    <member refid="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" kind="function"><name>GetGeneratorFromPrime</name></member>
+    <member refid="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" kind="function"><name>ModInverseEuclideanDivision</name></member>
+    <member refid="df/d94/class_prime_numbers_1a69934db626b1741f2ccd003cefcecc49" kind="function"><name>SqrtMod</name></member>
+    <member refid="df/d94/class_prime_numbers_1a928ee8bd1e7ec4b10cdbb266bea6bb8f" kind="function"><name>PowHighPrec</name></member>
+  </compound>
+  <compound refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" kind="struct"><name>KeyGenerator::ElGamal::PrivateKey</name>
+    <member refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key_1a6ee8042ac81a28e913ccbb19bf8c9894" kind="variable"><name>private_key_scalar</name></member>
+    <member refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key_1aaca0e51f13f77da47e1d51ff1b134719" kind="function"><name>CreatePrivateScalar</name></member>
+    <member refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key_1a43a0a1fdef33dfa18465f4480b47f1d9" kind="function"><name>PrivateKey</name></member>
+    <member refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key_1a19166bc5bc4e5b3d09d7b4df66724df5" kind="function"><name>GetPrivateKeyScalar</name></member>
+  </compound>
+  <compound refid="d9/dc0/struct_private_key" kind="struct"><name>PrivateKey</name>
+    <member refid="d9/dc0/struct_private_key_1adcd49bf6261d50ee2bf1b090105fff3d" kind="typedef"><name>base_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a8ff3900c19da8d1104996bb55beee80b" kind="typedef"><name>curve_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a97594b171aec36493deb23a5d0e33ac6" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d9/dc0/struct_private_key_1a3f05d19698f138a0cb7f0534d5211c55" kind="typedef"><name>generator_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a9d89b519965720efca0e13192c1bd8be" kind="typedef"><name>distribution_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1aa8c5a61fcc3a868883bf0ee917a87c97" kind="typedef"><name>hash_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a7b985e51be91cfc7b351ec12c0ed130d" kind="typedef"><name>internal_accumulator_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1afd39cc3b84bd0b38ba66e6c7f3e3ac98" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1ad9b6b21a6f37d6e6fc37193bd85dbb77" kind="typedef"><name>g1_value_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1abe99aaf8e83cf3aa63aa1a491a13f34c" kind="typedef"><name>base_integral_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1af2b96a2b68ca1741b91f0fe8d579f872" kind="typedef"><name>scalar_modular_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a98eba0629f9cc4e1a4ce9cf8f8f31ff4" kind="typedef"><name>private_key_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a412056b93b20734e7e9465035fb18681" kind="typedef"><name>public_key_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1a03effd28dc36379be23e02a70059d6e8" kind="typedef"><name>signature_type</name></member>
+    <member refid="d9/dc0/struct_private_key_1abb9b13c2d059567fec000fa78b67e4bf" kind="variable"><name>privkey</name></member>
+    <member refid="d9/dc0/struct_private_key_1a26ae97a19462447fb620fa664c26125c" kind="function"><name>PrivateKey</name></member>
+    <member refid="d9/dc0/struct_private_key_1a2932c06f8b90dbf4df29640dc8bd746f" kind="function"><name>GetPrivateKeyScalar</name></member>
+    <member refid="d9/dc0/struct_private_key_1afce174c26acdf3e06f1df102113ebd1f" kind="function"><name>generate_public_key</name></member>
   </compound>
   <compound refid="d6/da7/classsgns_1_1processing_1_1_processing_core" kind="class"><name>sgns::processing::ProcessingCore</name>
     <member refid="d6/da7/classsgns_1_1processing_1_1_processing_core_1a1f9cb94ed895e58267661e07f69f80e8" kind="function"><name>~ProcessingCore</name></member>
@@ -3467,6 +3811,34 @@
     <member refid="dc/d00/classsgns_1_1processing_1_1_processing_engine_1ae90eb1ca8bf280cf9046baa84550ee1f" kind="function"><name>OnSubTaskGrabbed</name></member>
     <member refid="dc/d00/classsgns_1_1processing_1_1_processing_engine_1a988f2abaea89ee5f03ab6ae92cbde24d" kind="function"><name>ProcessSubTask</name></member>
   </compound>
+  <compound refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager" kind="class"><name>sgns::sgprocessing::ProcessingManager</name>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0" kind="enum"><name>Error</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a05516116bb0b1616d8fdfdc4073771b8" kind="enumvalue"><name>PROCESS_INFO_MISSING</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a96243cd8325020a508bd0055e0dbba96" kind="enumvalue"><name>INVALID_JSON</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a759f93950b84085b5eaf8c8a0f5e0124" kind="enumvalue"><name>INVALID_BLOCK_PARAMETERS</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a1f0490374ebb61ee82e6789f83ae86b8" kind="enumvalue"><name>NO_PROCESSOR</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a9a47f7c0e79bdc27f759533b473dc458" kind="enumvalue"><name>MISSING_INPUT</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4bc48e44e7619f5c254053433301ffb0a1a0534be7b507cbfd7f182096fca88c9" kind="enumvalue"><name>INPUT_UNAVAIL</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a52949bfec2dd67db9131ef780ed72add" kind="variable"><name>m_logger</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a215ef12e6e26b10f1f84e69e8e63f9c7" kind="variable"><name>processing_</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a766b8825ae91a27b3bca489b5769d9a0" kind="variable"><name>m_processor</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1aab906818c60d1ccc04ba1154f02d74f4" kind="variable"><name>m_processorFactories</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a0b6b6c1fe3c7647ffb98c3f55a3e59e0" kind="variable"><name>m_inputMap</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a7a178d67fe968943819b84af9ca7e3eb" kind="function"><name>~ProcessingManager</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a3ef686441cdd29276fc2633228a324c8" kind="function"><name>ParseBlockSize</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1ac35318f4813e74d0af88c94e71e37db6" kind="function"><name>CheckProcessValidity</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a5530d53581155d583a1d86371045bd1b" kind="function"><name>Process</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1aed3809790921d34274e17cf70fc29c7e" kind="function"><name>RegisterProcessorFactory</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1afb5b071ec9062ab2b00c6b54d5fe5d6a" kind="function"><name>GetProcessingData</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a8074373c7c58350751cb9daa9794e72b" kind="function"><name>GetInputIndex</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a831f8452067b35237dee382749a124eb" kind="function"><name>GetProgress</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a1c6c558a20b96e4ccea725ac760c4864" kind="function"><name>Create</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a4cd267144faa536ce6ad7562cde5d6fd" kind="function"><name>ProcessingManager</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1ab0a1752e58b52979f4e0d7db849e4b7f" kind="function"><name>Init</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1af443c43ad643675ff57f1397046a81a7" kind="function"><name>GetCidForProc</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a441a05e802c6a8bbc93b62465eac0a09" kind="function"><name>GetSubCidForProc</name></member>
+    <member refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a5a08188feb82903b13139c6767a1464e" kind="function"><name>SetProcessorByName</name></member>
+  </compound>
   <compound refid="d2/d5b/classsgns_1_1processing_1_1_processing_node" kind="class"><name>sgns::processing::ProcessingNode</name>
     <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a5525c3bf780d41d30af985c88f25f4d9" kind="typedef"><name>WorkGuard</name></member>
     <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1af950f11bfb6411f2e9d71dd3275a0a5a" kind="variable"><name>m_gossipPubSub</name></member>
@@ -3500,6 +3872,13 @@
     <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1af3964706fe8a6008ff3894712bd597e6" kind="function"><name>InitTTL</name></member>
     <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1a17e8a5ec019f1c11aa1c8700a99c7b7f" kind="function"><name>StartTTLTimer</name></member>
     <member refid="d2/d5b/classsgns_1_1processing_1_1_processing_node_1acb200c73b7d1ef45765ada47159669bf" kind="function"><name>CheckTTL</name></member>
+  </compound>
+  <compound refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor" kind="class"><name>sgns::sgprocessing::ProcessingProcessor</name>
+    <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1af638e378c37cfa8cc6a6d98ca9546b76" kind="variable"><name>m_progress</name></member>
+    <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a66a75161bd7833fc9f8cd9639a161519" kind="variable"><name>m_logger</name></member>
+    <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1afcc0df535e0be8674d77dce30332eaff" kind="function"><name>~ProcessingProcessor</name></member>
+    <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a99d4fa68897204338277a3b98e0c3d5b" kind="function"><name>StartProcessing</name></member>
+    <member refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor_1a73b33be6cd8f152ae11beb0bd076f1c0" kind="function"><name>GetProgress</name></member>
   </compound>
   <compound refid="df/df1/classsgns_1_1_processing_proof" kind="class"><name>sgns::ProcessingProof</name>
     <member refid="df/df1/classsgns_1_1_processing_proof_1ac2b08ba7d1e487c6b489519d1b75f8fe" kind="variable"><name>subtask_id_m</name></member>
@@ -3781,6 +4160,44 @@
     <member refid="d4/dbe/structsgns_1_1primitives_1_1_production_configuration_1af727858f20c1841e5355685f215a4ae9" kind="variable"><name>randomness</name></member>
     <member refid="d4/dbe/structsgns_1_1primitives_1_1_production_configuration_1a01acae3c95e0d8f0b136e43bad56690b" kind="function"><name>GetName</name></member>
   </compound>
+  <compound refid="d6/d6f/class_production_configuration_factory" kind="class"><name>ProductionConfigurationFactory</name>
+    <member refid="d6/d6f/class_production_configuration_factory_1a0f7d13b9ebde1732f5dc36ee05354d8b" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="dc/d99/class_production_factory" kind="class"><name>ProductionFactory</name>
+    <member refid="dc/d99/class_production_factory_1a2f7fc0b78e9b6ad4aada9f2d88232e33" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d2/d62/class_production_lottery_factory" kind="class"><name>ProductionLotteryFactory</name>
+    <member refid="d2/d62/class_production_lottery_factory_1a6ad4179a7f22b877cef31e8c662e99da" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="dc/d67/class_production_synchronizer_factory" kind="class"><name>ProductionSynchronizerFactory</name>
+    <member refid="dc/d67/class_production_synchronizer_factory_1a9053354501f07861196567d3404047fa" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d5/d66/class_proposer_factory" kind="class"><name>ProposerFactory</name>
+    <member refid="d5/d66/class_proposer_factory_1a9e2e01990278164d94c6faeabd5e49c5" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kind="struct"><name>KeyGenerator::ElGamal::PublicKey</name>
+    <member refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kind="variable"><name>params</name></member>
+    <member refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1a3a28a47008c67e41d4420bdca3c851d1" kind="variable"><name>public_key_value</name></member>
+    <member refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1a9524fa0dc8c9411f24ba866fc0c865c1" kind="function"><name>PublicKey</name></member>
+    <member refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1a4398275e1db4c6074748ce6b81932cf6" kind="function"><name>PublicKey</name></member>
+  </compound>
+  <compound refid="d5/dd7/struct_public_key" kind="struct"><name>PublicKey</name>
+    <member refid="d5/dd7/struct_public_key_1a0e5c6fdef47e98fda6b3842ed13abb0a" kind="typedef"><name>curve_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1afa5e1968bda041f4e06be6e8d5d7d0dc" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d5/dd7/struct_public_key_1af34d6a6d8e69881428bf264eb3d8548a" kind="typedef"><name>internal_accumulator_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1afb11e7bbc5ccd012d160183a860a6d75" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1adf8f3dc7580cd789741a2711356d8830" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1a0fdef7a46c84be245761308f2c749051" kind="typedef"><name>g1_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1af089e3006308e553d06fbd28dd7f7bbc" kind="typedef"><name>g1_value_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1a4535182582bafa1c99dfbb58259e1b0d" kind="typedef"><name>base_integral_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1a708856c77f4f28df9f1bf711286aafba" kind="typedef"><name>scalar_modular_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1a6ad1aaf152bac237664ba84edda79bfd" kind="typedef"><name>public_key_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1a81f3d837c964a781ffc46fa84c626341" kind="typedef"><name>signature_type</name></member>
+    <member refid="d5/dd7/struct_public_key_1af722d1fc7353c978963e5a2c4492dd0a" kind="variable"><name>pubkey</name></member>
+    <member refid="d5/dd7/struct_public_key_1a0f12df76852decd75afed6f3f5bb5b55" kind="function"><name>PublicKey</name></member>
+    <member refid="d5/dd7/struct_public_key_1abde03913b606a5dd323bcf8ebacca25b" kind="function"><name>PublicKey</name></member>
+    <member refid="d5/dd7/struct_public_key_1a3d6c9cd52d6fc50cb6bbd6ebf127d9da" kind="function"><name>pubkey_data</name></member>
+  </compound>
   <compound refid="d6/db9/classsgns_1_1publish" kind="class"><name>sgns::publish</name>
     <member refid="d6/db9/classsgns_1_1publish_1a1a50003228d068a06251939274cc3d85" kind="variable"><name>block</name></member>
     <member refid="d6/db9/classsgns_1_1publish_1a8cf39e2c803496dcbe1a400328e354ed" kind="variable"><name>digest</name></member>
@@ -3907,8 +4324,14 @@
     <member refid="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1a80b27f673b5cd9ce81fde12e5215202a" kind="variable"><name>root_node_</name></member>
     <member refid="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job_1a1d926cc3a98c021396028b9b191f72ab" kind="variable"><name>created_by_self_</name></member>
   </compound>
+  <compound refid="d2/dcb/classsgns_1_1_router_factory" kind="class"><name>sgns::RouterFactory</name>
+    <member refid="d2/dcb/classsgns_1_1_router_factory_1abc02b3df93822c1818596aa4570b98e3" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="dd/d46/classsgns_1_1api_1_1_rpc_context" kind="class"><name>sgns::api::RpcContext</name>
     <member refid="dd/d46/classsgns_1_1api_1_1_rpc_context_1aab6adfdc1ba87d4b3687809bcbabf359" kind="function"><name>GetName</name></member>
+  </compound>
+  <compound refid="d8/dec/classsgns_1_1_rpc_context_factory" kind="class"><name>sgns::RpcContextFactory</name>
+    <member refid="d8/dec/classsgns_1_1_rpc_context_factory_1a3ecc51db559ca3f5d17acc2ba1fcd99a" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d3/dc4/classsgns_1_1api_1_1_rpc_thread_pool" kind="class"><name>sgns::api::RpcThreadPool</name>
     <member refid="d3/dc4/classsgns_1_1api_1_1_rpc_thread_pool_1a979903c07d14dd2d4190f7c0e4f26b2a" kind="typedef"><name>Context</name></member>
@@ -3921,6 +4344,9 @@
     <member refid="d3/dc4/classsgns_1_1api_1_1_rpc_thread_pool_1a0caeea9620f8d8e1310cce8c05eda8ba" kind="function"><name>start</name></member>
     <member refid="d3/dc4/classsgns_1_1api_1_1_rpc_thread_pool_1a2552706060f8510211a858b13240b683" kind="function"><name>stop</name></member>
     <member refid="d3/dc4/classsgns_1_1api_1_1_rpc_thread_pool_1ae0cbffdf6463cc0761f069c65d698f46" kind="function"><name>GetName</name></member>
+  </compound>
+  <compound refid="de/d80/classsgns_1_1_rpc_thread_pool_factory" kind="class"><name>sgns::RpcThreadPoolFactory</name>
+    <member refid="de/d80/classsgns_1_1_rpc_thread_pool_factory_1ad64b2d35a918411f810fe66506bee4be" kind="function"><name>create</name></member>
   </compound>
   <compound refid="dc/d25/classsgns_1_1runtime_1_1binaryen_1_1_runtime_api" kind="class"><name>sgns::runtime::binaryen::RuntimeApi</name>
     <member refid="dc/d25/classsgns_1_1runtime_1_1binaryen_1_1_runtime_api_1a6a085102349cc88fbd0099b70bf7e094" kind="enum"><name>CallPersistency</name></member>
@@ -4123,7 +4549,7 @@
   </compound>
   <compound refid="d0/d9a/structsha3__context__" kind="struct"><name>sha3_context_</name>
     <member refid="d0/d9a/structsha3__context___1aa3e142662475461e1cb62c191358c095" kind="variable"><name>saved</name></member>
-    <member refid="d0/d9a/structsha3__context___1a8c714409dec92be987cc672fac23b9d9" kind="variable"><name>@071276333024056032336271272112247147040145220341</name></member>
+    <member refid="d0/d9a/structsha3__context___1a6ad84eb9fd9e1cb362aaa7751983f747" kind="variable"><name>@342215346027357155051056154037052256065371175225</name></member>
     <member refid="d0/d9a/structsha3__context___1a3b82e6a02e3660338cadb8b8d4b2b82a" kind="variable"><name>byteIndex</name></member>
     <member refid="d0/d9a/structsha3__context___1a6bd3f08cba5bab58fa3b9014313bbde1" kind="variable"><name>wordIndex</name></member>
     <member refid="d0/d9a/structsha3__context___1ac0931578aa317d7440cfa3297e1876a3" kind="variable"><name>capacityWords</name></member>
@@ -4142,12 +4568,18 @@
     <member refid="d0/d20/structsgns_1_1crypto_1_1_s_r25519_keypair_1a3d9251c3ef03b405e9e1c2e5616d15fd" kind="function"><name>GetName</name></member>
     <member refid="d0/d20/structsgns_1_1crypto_1_1_s_r25519_keypair_1a54a28661c02f8c5cc6bda8a6d30e53b9" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
+  <compound refid="d6/d98/classsgns_1_1_s_r25519_keypair_factory" kind="class"><name>sgns::SR25519KeypairFactory</name>
+    <member refid="d6/d98/classsgns_1_1_s_r25519_keypair_factory_1ae9b97a9f5836d0a68547ba50dfa581c9" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider" kind="class"><name>sgns::crypto::SR25519Provider</name>
     <member refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider_1adecce535f21a28501e38b6828e5da651" kind="function"><name>~SR25519Provider</name></member>
     <member refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider_1a589659915134c074d82dd803c0f11e51" kind="function"><name>generateKeypair</name></member>
     <member refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider_1a178d130f251af160bc9f1370846856b2" kind="function"><name>generateKeypair</name></member>
     <member refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider_1a4068fa572fa3e487b8b4a86d131bc9aa" kind="function"><name>sign</name></member>
     <member refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider_1ae1e0a214625a1dcedee99e7ba69c9499" kind="function"><name>verify</name></member>
+  </compound>
+  <compound refid="d1/dff/class_s_r25519_provider_factory" kind="class"><name>SR25519ProviderFactory</name>
+    <member refid="d1/dff/class_s_r25519_provider_factory_1a135f505abef9b60db7a5179c60b300c8" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d3/d11/classsgns_1_1crypto_1_1_s_r25519_provider_impl" kind="class"><name>sgns::crypto::SR25519ProviderImpl</name>
     <member refid="d3/d11/classsgns_1_1crypto_1_1_s_r25519_provider_impl_1a49b47204fb640874da2192a6b2f4b031" kind="typedef"><name>CSPRNG</name></member>
@@ -4159,6 +4591,15 @@
     <member refid="d3/d11/classsgns_1_1crypto_1_1_s_r25519_provider_impl_1a04eb27ac3b3ce8e62066e3a4aa2dda9d" kind="function"><name>sign</name></member>
     <member refid="d3/d11/classsgns_1_1crypto_1_1_s_r25519_provider_impl_1a83edc55fe8c39100e5a0f372754d1e5e" kind="function"><name>verify</name></member>
     <member refid="d3/d11/classsgns_1_1crypto_1_1_s_r25519_provider_impl_1a35adead926341d1cf6ceaf4526e3aae0" kind="function"><name>GetName</name></member>
+  </compound>
+  <compound refid="d0/d78/classsgns_1_1_state_api_factory" kind="class"><name>sgns::StateApiFactory</name>
+    <member refid="d0/d78/classsgns_1_1_state_api_factory_1a154a7db6472d3f98f24919be75622627" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d8/d16/classsgns_1_1_steady_clock_factory" kind="class"><name>sgns::SteadyClockFactory</name>
+    <member refid="d8/d16/classsgns_1_1_steady_clock_factory_1a6a474a4dfbc9fe540959c195770ded50" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d4/d21/class_storage_changes_tracker_factory" kind="class"><name>StorageChangesTrackerFactory</name>
+    <member refid="d4/d21/class_storage_changes_tracker_factory_1a76d01b583bf58ba1973ed50ba963aead" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl" kind="class"><name>sgns::storage::changes_trie::StorageChangesTrackerImpl</name>
     <member refid="d6/d57/classsgns_1_1storage_1_1changes__trie_1_1_storage_changes_tracker_impl_1a9baa60464fa96ef868ed86e766845d2b" kind="enum"><name>Error</name></member>
@@ -4354,6 +4795,17 @@
     <member refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1a763a551fd4755a66b8342b1677da152c" kind="function"><name>decodePartialKey</name></member>
     <member refid="d0/dc8/classsgns_1_1storage_1_1trie_1_1_super_genius_codec_1acca06fed719d72b26be5563eaef31d79" kind="function"><name>decodeBranch</name></member>
   </compound>
+  <compound refid="da/d09/class_super_genius_demo_app" kind="class"><name>SuperGeniusDemoApp</name>
+    <member refid="da/d09/class_super_genius_demo_app_1aa5061e193f72455e1ef69c4208db4435" kind="variable"><name>cfg</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1aa3df151dcd88daabd6eac5f341202408" kind="variable"><name>validation_node</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1a36b4792175a413945aac6cd2ba9a97c1" kind="variable"><name>syncingNode</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1aa92eacf7949d8858d20deaa3e7235c3c" kind="variable"><name>bridgingNode</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1a8304bfe0d38cb9133fc7e386a2b01093" kind="function"><name>SuperGeniusDemoApp</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1a3842b7467b5d300361e511248eeb3deb" kind="function"><name>~SuperGeniusDemoApp</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1a1701846263a1668e396a8034fbdbfd7c" kind="function"><name>init</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1a104771934b14a3e66761595b62d28a1a" kind="function"><name>run</name></member>
+    <member refid="da/d09/class_super_genius_demo_app_1aa42bfc015ee54f1abccf1aec33174ce7" kind="function"><name>exit</name></member>
+  </compound>
   <compound refid="d5/d97/structsgns_1_1storage_1_1trie_1_1_super_genius_node" kind="struct"><name>sgns::storage::trie::SuperGeniusNode</name>
     <member refid="d5/d97/structsgns_1_1storage_1_1trie_1_1_super_genius_node_1a8e6ad7aafff6f51af4b80b396d6c8c2a" kind="enum"><name>Type</name></member>
     <member refid="d5/d97/structsgns_1_1storage_1_1trie_1_1_super_genius_node_1a8e6ad7aafff6f51af4b80b396d6c8c2aab4c2b550635fe54fd29f2b64dfaca55d" kind="enumvalue"><name>Special</name></member>
@@ -4467,6 +4919,15 @@
     <member refid="d9/d25/classsgns_1_1application_1_1_syncing_node_application_1a7f6d0fe592b832461c3577726bfdd2bf" kind="function"><name>~SyncingNodeApplication</name></member>
     <member refid="d9/d25/classsgns_1_1application_1_1_syncing_node_application_1a1c60c724fe9f9825b517a59dc2b7388c" kind="function"><name>SyncingNodeApplication</name></member>
     <member refid="d9/d25/classsgns_1_1application_1_1_syncing_node_application_1ab01c6e34ea934ddbc5541e93acfc5787" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="da/d13/classsgns_1_1_sync_protocol_observer_factory" kind="class"><name>sgns::SyncProtocolObserverFactory</name>
+    <member refid="da/d13/classsgns_1_1_sync_protocol_observer_factory_1a9b78bcc5ea2dc74dd0031546c476ac7f" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="df/d47/classsgns_1_1_system_api_factory" kind="class"><name>sgns::SystemApiFactory</name>
+    <member refid="df/d47/classsgns_1_1_system_api_factory_1a2a70382144aca3579c1a2901752b9dea" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="de/dbc/class_system_clock_factory" kind="class"><name>SystemClockFactory</name>
+    <member refid="de/dbc/class_system_clock_factory_1a9343ef358369dbaf8dcfa31574c4606b" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d6/dea/structsgns_1_1_genius_assigner_1_1_table_vectors" kind="struct"><name>sgns::GeniusAssigner::TableVectors</name>
     <member refid="d6/dea/structsgns_1_1_genius_assigner_1_1_table_vectors_1ac643b08711af9f8391f76d2f5b055c9c" kind="variable"><name>witness_values</name></member>
@@ -4753,6 +5214,9 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a066ecdbc5312ba6481b65ee36be81b91" kind="function"><name>GetExpectedTxKey</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ad04766a8145eed270236f97def98ece3" kind="function"><name>GetCurrentTimestamp</name></member>
   </compound>
+  <compound refid="dd/d75/class_transcation_pool_factory" kind="class"><name>TranscationPoolFactory</name>
+    <member refid="dd/d75/class_transcation_pool_factory_1aa93a418d88d7363fb13dc53705a7137d" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d5/d48/classsgns_1_1_transfer_proof" kind="class"><name>sgns::TransferProof</name>
     <member refid="d5/d48/classsgns_1_1_transfer_proof_1aee582e2bdfb1521efa2c32847d33d0b1" kind="variable"><name>generator_X_point</name></member>
     <member refid="d5/d48/classsgns_1_1_transfer_proof_1acbcd0b73fb867337d80f62c3d657683b" kind="variable"><name>generator_Y_point</name></member>
@@ -4821,6 +5285,9 @@
     <member refid="d8/dcd/classsgns_1_1storage_1_1trie_1_1_trie_serializer_1ab07d300efbd3d1d8235ac0f5fd46fd73" kind="function"><name>storeTrie</name></member>
     <member refid="d8/dcd/classsgns_1_1storage_1_1trie_1_1_trie_serializer_1af12e61605b2465e7c9ed31512b5bf13e" kind="function"><name>retrieveTrie</name></member>
   </compound>
+  <compound refid="db/db1/class_trie_serializer_factory" kind="class"><name>TrieSerializerFactory</name>
+    <member refid="db/db1/class_trie_serializer_factory_1aa166f73ba7eed757f205d1c7ff8f8334" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="d7/d81/classsgns_1_1storage_1_1trie_1_1_trie_serializer_impl" kind="class"><name>sgns::storage::trie::TrieSerializerImpl</name>
     <member refid="d7/d81/classsgns_1_1storage_1_1trie_1_1_trie_serializer_impl_1a46834d6e59b28f381ba6b1e2e365fdfd" kind="variable"><name>trie_factory_</name></member>
     <member refid="d7/d81/classsgns_1_1storage_1_1trie_1_1_trie_serializer_impl_1a565af43737714931d17fb3930e5bf07b" kind="variable"><name>codec_</name></member>
@@ -4860,6 +5327,9 @@
     <member refid="d2/d7e/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_batch_1a7e17495230bd0158f581d0dcf0350405" kind="function"><name>clear</name></member>
     <member refid="d2/d7e/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_batch_1a9fed8932f1329dc14f606890b2d3f7ab" kind="function"><name>prefixKey</name></member>
   </compound>
+  <compound refid="d5/d18/class_trie_storage_backend_factory" kind="class"><name>TrieStorageBackendFactory</name>
+    <member refid="d5/d18/class_trie_storage_backend_factory_1a492ee5b0302f32731684621f1ab21870" kind="function"><name>create</name></member>
+  </compound>
   <compound refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl" kind="class"><name>sgns::storage::trie::TrieStorageBackendImpl</name>
     <member refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl_1ad8296bbe11b927820aa37e67d27c2c3d" kind="variable"><name>storage_</name></member>
     <member refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl_1a8546ad0a56a1d6eaaea8d3293d2d1b1d" kind="variable"><name>node_prefix_</name></member>
@@ -4875,6 +5345,9 @@
     <member refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl_1ae4492690d22d99f6060724128990e076" kind="function"><name>remove</name></member>
     <member refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl_1aa8d1c843480e3766c8a6ecbd165db326" kind="function"><name>GetName</name></member>
     <member refid="dc/d7f/classsgns_1_1storage_1_1trie_1_1_trie_storage_backend_impl_1a16dc038ed0e103f0cbeda546be37ad41" kind="function"><name>prefixKey</name></member>
+  </compound>
+  <compound refid="d0/de0/class_trie_storage_factory" kind="class"><name>TrieStorageFactory</name>
+    <member refid="d0/de0/class_trie_storage_factory_1a768191da6612f8308d012023ff0be90b" kind="function"><name>create</name></member>
   </compound>
   <compound refid="d5/ddf/classsgns_1_1storage_1_1trie_1_1_trie_storage_impl" kind="class"><name>sgns::storage::trie::TrieStorageImpl</name>
     <member refid="d5/ddf/classsgns_1_1storage_1_1trie_1_1_trie_storage_impl_1aaf77e2993f24afdd788f73dd1a5bd687" kind="variable"><name>root_hash_</name></member>
@@ -5120,6 +5593,9 @@
     <member refid="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1a200ad01e7591b95a61d283c49bd45fab" kind="function"><name>generateKeypair</name></member>
     <member refid="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1ad7d3fb8f768b6c03a3ccd1ea236b23fc" kind="function"><name>sign</name></member>
     <member refid="d3/db2/classsgns_1_1crypto_1_1_v_r_f_provider_1a81af48eb41a5f2e68fdb1fb65d516816" kind="function"><name>verify</name></member>
+  </compound>
+  <compound refid="d2/d3d/class_v_r_f_provider_factory" kind="class"><name>VRFProviderFactory</name>
+    <member refid="d2/d3d/class_v_r_f_provider_factory_1aa99d9f756c316b5102214061dca225f2" kind="function"><name>create</name></member>
   </compound>
   <compound refid="da/d25/classsgns_1_1crypto_1_1_v_r_f_provider_impl" kind="class"><name>sgns::crypto::VRFProviderImpl</name>
     <member refid="da/d25/classsgns_1_1crypto_1_1_v_r_f_provider_impl_1a9e192965b3d4ed866f002d04a55dea38" kind="variable"><name>generator_</name></member>
@@ -5396,29 +5872,46 @@
     <member refid="da/dc7/classsgns_1_1api_1_1_ws_session_1a2aab95d779fbc66239a759c0ebd00f12" kind="function"><name>onWrite</name></member>
     <member refid="da/dc7/classsgns_1_1api_1_1_ws_session_1a1a91acf08b9caaa7eba0895677bb8c52" kind="function"><name>reportError</name></member>
   </compound>
-  <compound refid="d1/d36/namespace_0d123064234206165020377063332311251033126045242367" kind="namespace"><name>@123064234206165020377063332311251033126045242367</name>
+  <compound refid="d1/da0/namespace_0d012132113305064163332155221057271255223115026201" kind="namespace"><name>@012132113305064163332155221057271255223115026201</name>
   </compound>
-  <compound refid="d8/d61/namespace_0d152225152045175367067114060323006343355141370153" kind="namespace"><name>@152225152045175367067114060323006343355141370153</name>
+  <compound refid="da/d8f/namespace_0d012146066217017371157176230173154266154340010356" kind="namespace"><name>@012146066217017371157176230173154266154340010356</name>
   </compound>
-  <compound refid="d8/df7/namespace_0d164202354333221064365160105337160126061372126100" kind="namespace"><name>@164202354333221064365160105337160126061372126100</name>
+  <compound refid="d2/ded/namespace_0d131143335122362331326122044226052040331112105224" kind="namespace"><name>@131143335122362331326122044226052040331112105224</name>
   </compound>
-  <compound refid="d1/daf/namespace_0d177336360231346211236111243303361070075232152273" kind="namespace"><name>@177336360231346211236111243303361070075232152273</name>
+  <compound refid="d1/da9/namespace_0d133277247257161102144240231322027372305335250006" kind="namespace"><name>@133277247257161102144240231322027372305335250006</name>
   </compound>
-  <compound refid="da/d91/namespace_0d220335262026114141027071033126311236206000241262" kind="namespace"><name>@220335262026114141027071033126311236206000241262</name>
+  <compound refid="d4/d3c/namespace_0d136345355151044134013251217354157273375313023367" kind="namespace"><name>@136345355151044134013251217354157273375313023367</name>
   </compound>
-  <compound refid="d6/df4/namespace_0d242070263160254123030125037021304225002025173021" kind="namespace"><name>@242070263160254123030125037021304225002025173021</name>
+  <compound refid="d9/d2d/namespace_0d177061242113353252021230366203132053271254377314" kind="namespace"><name>@177061242113353252021230366203132053271254377314</name>
   </compound>
-  <compound refid="d6/d48/namespace_0d267046045312212043144053240107177327023205155070" kind="namespace"><name>@267046045312212043144053240107177327023205155070</name>
+  <compound refid="d4/d07/namespace_0d251171056275367061206155341160230141241214172262" kind="namespace"><name>@251171056275367061206155341160230141241214172262</name>
   </compound>
-  <compound refid="df/d4d/namespace_0d314163021012360223243231122236040077332166151352" kind="namespace"><name>@314163021012360223243231122236040077332166151352</name>
+  <compound refid="db/d86/namespace_0d270364344333361216152215254273032331261112125325" kind="namespace"><name>@270364344333361216152215254273032331261112125325</name>
   </compound>
-  <compound refid="dc/dd7/namespace_0d340314060300200264323004261174331020112031210330" kind="namespace"><name>@340314060300200264323004261174331020112031210330</name>
+  <compound refid="d1/ddc/namespace_0d317045322371351346345040171332170361273255232303" kind="namespace"><name>@317045322371351346345040171332170361273255232303</name>
+  </compound>
+  <compound refid="d4/dcf/namespace_0d340202323216125153306135334332353114357011243023" kind="namespace"><name>@340202323216125153306135334332353114357011243023</name>
   </compound>
   <compound refid="de/d58/namespaceai" kind="namespace"><name>ai</name>
   </compound>
   <compound refid="d5/d5b/namespaceai_1_1gnus" kind="namespace"><name>ai::gnus</name>
   </compound>
   <compound refid="d4/dd9/namespaceai_1_1gnus_1_1sdk" kind="namespace"><name>ai::gnus::sdk</name>
+  </compound>
+  <compound refid="d5/d9c/namespacebitcoin" kind="namespace"><name>bitcoin</name>
+    <member refid="d5/d9c/namespacebitcoin_1a3013f6401a665627a2dd451365902e38" kind="typedef"><name>CurveType</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1afa858bc4a16f8430dc7c62f0224ea8fb" kind="typedef"><name>base_field_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a1a31c65f029854b6717dc5c70d66e30a" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ab4a0977da9896055192f436273b61e8b" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ad6edfc6794d6a03896b6df57cd26cb4c" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1abed0ee84c5c14e1c13d4e98e7a9d097c" kind="typedef"><name>hash_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a62d5cec53821af6765fb15b42e5da10c" kind="typedef"><name>generator_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ad1e3aacb9381140adcc48854bc7efb0c" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kind="typedef"><name>policy_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1af477607a964f9ddaedbe138ac7ff6661" kind="typedef"><name>signature_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a2326404da76b06f27489c789b01c8222" kind="typedef"><name>derivation_hash_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a8b8184e6bc0d00cee90cd2869f43ad57" kind="function"><name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a087de1c1de454df4be7a0574fab84646" kind="function"><name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; BitcoinKeyGenerator::PubKeyPair_t &gt;</name></member>
   </compound>
   <compound refid="d4/da9/namespaceboost" kind="namespace"><name>boost</name>
   </compound>
@@ -5430,6 +5923,45 @@
   </compound>
   <compound refid="d8/d6b/namespaceboost_1_1sinks" kind="namespace"><name>boost::sinks</name>
   </compound>
+  <compound refid="df/d3b/namespaceecdsa__t" kind="namespace"><name>ecdsa_t</name>
+    <member refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kind="typedef"><name>CurveType</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" kind="typedef"><name>base_field_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kind="typedef"><name>hash_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kind="typedef"><name>generator_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kind="typedef"><name>padding_policy</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" kind="typedef"><name>policy_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" kind="typedef"><name>signature_type</name></member>
+  </compound>
+  <compound refid="d5/d69/namespaceelgamal" kind="namespace"><name>elgamal</name>
+    <member refid="d5/d69/namespaceelgamal_1a73ceb6fd41638a4bfd675814b4040f22" kind="typedef"><name>CurveType</name></member>
+    <member refid="d5/d69/namespaceelgamal_1aae21b13f1f8db21417a9e5f91f4efbb8" kind="typedef"><name>base_field_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1af091e1d9b7b668f03e9b6207f99c0dfe" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kind="typedef"><name>hash_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" kind="typedef"><name>generator_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" kind="typedef"><name>policy_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a6e9c1894fa1f052015eafb85cff47555" kind="typedef"><name>signature_type</name></member>
+  </compound>
+  <compound refid="df/dc1/namespaceethereum" kind="namespace"><name>ethereum</name>
+    <member refid="df/dc1/namespaceethereum_1a8c8ff4daa13cd24272cdd1e31efaf6ff" kind="typedef"><name>CurveType</name></member>
+    <member refid="df/dc1/namespaceethereum_1a3a391f41ded00d9a89b0a1aa7edaa406" kind="typedef"><name>base_field_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a0cd6dda4a2db00fde260d070dbe1018f" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1ab9f19a39a9c332fc633c429c702dfc06" kind="typedef"><name>hash_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a8f463d8af7af8eb7d4bc71d97fa0c9c0" kind="typedef"><name>generator_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1ae0202f39085a20570324cfe29f1b4e8d" kind="typedef"><name>padding_policy</name></member>
+    <member refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kind="typedef"><name>policy_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a1f3939e0e12e4e1efc0254d41726045e" kind="typedef"><name>signature_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a949fd48224fcb0964e1cc16a9c559cdb" kind="typedef"><name>derivation_hash_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1acdbd617414249f97a323552f1b78d7b4" kind="function"><name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name></member>
+    <member refid="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" kind="function"><name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; EthereumKeyGenerator::PubKeyPair_t &gt;</name></member>
+  </compound>
   <compound refid="da/dcd/namespaceipfs__lite" kind="namespace"><name>ipfs_lite</name>
   </compound>
   <compound refid="d1/d7f/namespaceipfs__lite_1_1ipfs" kind="namespace"><name>ipfs_lite::ipfs</name>
@@ -5438,15 +5970,31 @@
   </compound>
   <compound refid="dd/d45/namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
   </compound>
+  <compound refid="dd/d15/namespace_key_generator" kind="namespace"><name>KeyGenerator</name>
+    <member refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kind="typedef"><name>cpp_int</name></member>
+    <member refid="dd/d15/namespace_key_generator_1a3cf07062da7ffb077892c1b314e6a1ff" kind="typedef"><name>uint256_t</name></member>
+  </compound>
   <compound refid="de/da8/namespacelibp2p" kind="namespace"><name>libp2p</name>
   </compound>
   <compound refid="de/dca/namespacelibp2p_1_1crypto" kind="namespace"><name>libp2p::crypto</name>
   </compound>
   <compound refid="d8/d47/namespacelibp2p_1_1crypto_1_1random" kind="namespace"><name>libp2p::crypto::random</name>
   </compound>
+  <compound refid="d1/d90/namespace_m_n_n" kind="namespace"><name>MNN</name>
+  </compound>
   <compound refid="d9/d2d/namespacenil" kind="namespace"><name>nil</name>
   </compound>
+  <compound refid="d9/d6c/namespacenil_1_1crypto3" kind="namespace"><name>nil::crypto3</name>
+  </compound>
+  <compound refid="df/dbe/namespacenil_1_1crypto3_1_1algebra" kind="namespace"><name>nil::crypto3::algebra</name>
+  </compound>
   <compound refid="db/dc3/namespacenil_1_1crypto3_1_1algebra_1_1curves" kind="namespace"><name>nil::crypto3::algebra::curves</name>
+  </compound>
+  <compound refid="db/db0/namespacenil_1_1crypto3_1_1hashes" kind="namespace"><name>nil::crypto3::hashes</name>
+  </compound>
+  <compound refid="d8/dd5/namespacenil_1_1crypto3_1_1pubkey" kind="namespace"><name>nil::crypto3::pubkey</name>
+  </compound>
+  <compound refid="d0/d25/namespacenil_1_1marshalling_1_1bincode" kind="namespace"><name>nil::marshalling::bincode</name>
   </compound>
   <compound refid="d2/d97/namespaceoutcome" kind="namespace"><name>outcome</name>
   </compound>
@@ -5525,11 +6073,11 @@
     <member refid="d2/d2b/namespacesgns_1ad3ee96d2e91cadf71c8f3ae5ec4cf61c" kind="function"><name>make_store</name></member>
     <member refid="d2/d2b/namespacesgns_1a1070beeedcc492ad783d0fcb8eaa6590" kind="function"><name>collect_container_info</name></member>
   </compound>
-  <compound refid="d6/d7e/namespacesgns_1_1_0d016055230105154327365350125337123300174304263152" kind="namespace"><name>sgns::@016055230105154327365350125337123300174304263152</name>
+  <compound refid="df/d35/namespacesgns_1_1_0d057073325231130073177105276111143003057140233223" kind="namespace"><name>sgns::@057073325231130073177105276111143003057140233223</name>
   </compound>
-  <compound refid="d9/d70/namespacesgns_1_1_0d242070263160254123030125037021304225002025173021" kind="namespace"><name>sgns::@242070263160254123030125037021304225002025173021</name>
+  <compound refid="d6/d57/namespacesgns_1_1_0d270364344333361216152215254273032331261112125325" kind="namespace"><name>sgns::@270364344333361216152215254273032331261112125325</name>
   </compound>
-  <compound refid="dc/dae/namespacesgns_1_1_0d370353146042334035344113204076162140123112067317" kind="namespace"><name>sgns::@370353146042334035344113204076162140123112067317</name>
+  <compound refid="d4/d30/namespacesgns_1_1_0d311260214126232350010224151214312051360324242247" kind="namespace"><name>sgns::@311260214126232350010224151214312051360324242247</name>
   </compound>
   <compound refid="df/d66/namespacesgns_1_1api" kind="namespace"><name>sgns::api</name>
     <member refid="df/d66/namespacesgns_1_1api_1aa5d7dac5f23932d4109957377d37d205" kind="enum"><name>ApiTransportError</name></member>
@@ -5624,7 +6172,7 @@
     <member refid="d9/df6/namespacesgns_1_1blockchain_1a0cc1bcbfa6448f544ab785b0bcf44a6e" kind="function"><name>prependPrefix</name></member>
     <member refid="d9/df6/namespacesgns_1_1blockchain_1a342d908db3d7971b1e6ef860b5fc0e8b" kind="function"><name>isNotFoundError</name></member>
   </compound>
-  <compound refid="dc/d8c/namespacesgns_1_1blockchain_1_1_0d132130352324212343003214200055350245213010151051" kind="namespace"><name>sgns::blockchain::@132130352324212343003214200055350245213010151051</name>
+  <compound refid="d1/dcb/namespacesgns_1_1blockchain_1_1_0d012005177337222274100276220334213110220257115102" kind="namespace"><name>sgns::blockchain::@012005177337222274100276220334213110220257115102</name>
   </compound>
   <compound refid="d0/d3d/namespacesgns_1_1blockchain_1_1prefix" kind="namespace"><name>sgns::blockchain::prefix</name>
     <member refid="d0/d3d/namespacesgns_1_1blockchain_1_1prefix_1affebeb618ce26afa1fa4b7deb2d78f8a" kind="enum"><name>Prefix</name></member>
@@ -5648,7 +6196,7 @@
     <member refid="d4/dd0/namespacesgns_1_1crdt_1ae1b7a7dafdb55ca9bffcc3fe149f8505" kind="typedef"><name>KeyValidator</name></member>
     <member refid="d4/dd0/namespacesgns_1_1crdt_1a1d0b898f99317ea071b15b3394eef65a" kind="typedef"><name>CRDTBroadcast</name></member>
   </compound>
-  <compound refid="d9/df5/namespacesgns_1_1crdt_1_1_0d013060274365247316256375362102133273117301236376" kind="namespace"><name>sgns::crdt::@013060274365247316256375362102133273117301236376</name>
+  <compound refid="da/d24/namespacesgns_1_1crdt_1_1_0d060030352055351115142216016112337363333237123164" kind="namespace"><name>sgns::crdt::@060030352055351115142216016112337363333237123164</name>
   </compound>
   <compound refid="df/d6e/namespacesgns_1_1crypto" kind="namespace"><name>sgns::crypto</name>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a4d550f469256ec94e9df388bb42b90d5" kind="enum"><name>CryptoStoreError</name></member>
@@ -5717,7 +6265,7 @@
     <member refid="df/d6e/namespacesgns_1_1crypto_1a237c0c015c8ca17a9f316e5a84feeb3a" kind="function"><name>make_twox256</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a7aade05096bd9646ece215600e888e70" kind="function"><name>make_twox256</name></member>
   </compound>
-  <compound refid="d1/d6d/namespacesgns_1_1crypto_1_1_0d004155371024076222050000146270021064315014340176" kind="namespace"><name>sgns::crypto::@004155371024076222050000146270021064315014340176</name>
+  <compound refid="d7/d00/namespacesgns_1_1crypto_1_1_0d202314366301042304370155057253013326021114325120" kind="namespace"><name>sgns::crypto::@202314366301042304370155057253013326021114325120</name>
   </compound>
   <compound refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39" kind="namespace"><name>sgns::crypto::bip39</name>
     <member refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1abc8c0231344dd4d3390b4d9e3355949c" kind="enum"><name>DictionaryError</name></member>
@@ -5730,7 +6278,7 @@
     <member refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1a4df32edb3ccef5dcd9d90b971e1cbe4ca3ae42c69e1d7b1a71047a0c5eaf8d679" kind="enumvalue"><name>INVALID_MNEMONIC</name></member>
     <member refid="d3/d2f/namespacesgns_1_1crypto_1_1bip39_1a543a047169289887fc9c5545af736954" kind="typedef"><name>Bip39Seed</name></member>
   </compound>
-  <compound refid="da/d0f/namespacesgns_1_1crypto_1_1bip39_1_1_0d020162067001276105366110027163030166247301301224" kind="namespace"><name>sgns::crypto::bip39::@020162067001276105366110027163030166247301301224</name>
+  <compound refid="d7/d4e/namespacesgns_1_1crypto_1_1bip39_1_1_0d160032274310265144061157301212053141226114142204" kind="namespace"><name>sgns::crypto::bip39::@160032274310265144061157301212053141226114142204</name>
   </compound>
   <compound refid="d6/dfb/namespacesgns_1_1crypto_1_1bip39_1_1constants" kind="namespace"><name>sgns::crypto::bip39::constants</name>
     <member refid="d6/dfb/namespacesgns_1_1crypto_1_1bip39_1_1constants_1a80e6e1ca84032ffbb598014aad2fbd3b" kind="variable"><name>BIP39_SEED_LEN_512</name></member>
@@ -5741,24 +6289,24 @@
   <compound refid="d8/dc7/namespacesgns_1_1crypto_1_1constants" kind="namespace"><name>sgns::crypto::constants</name>
   </compound>
   <compound refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519" kind="namespace"><name>sgns::crypto::constants::ed25519</name>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280" kind="enum"><name>@154056363010335072042254224046100316353036003164</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280ae6872b1afeb949f2bbfa3d970e428637" kind="enumvalue"><name>PRIVKEY_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kind="enumvalue"><name>PUBKEY_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a01600721e692bc0cbd6e4aea46e1158e" kind="enumvalue"><name>SEED_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13" kind="enum"><name>@063351126320110347045253341136316324063002160107</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13ae6872b1afeb949f2bbfa3d970e428637" kind="enumvalue"><name>PRIVKEY_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kind="enumvalue"><name>PUBKEY_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a01600721e692bc0cbd6e4aea46e1158e" kind="enumvalue"><name>SEED_SIZE</name></member>
   </compound>
   <compound refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519" kind="namespace"><name>sgns::crypto::constants::sr25519</name>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36" kind="enum"><name>@062351302067023307206141235337031057054102362257</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36afd7a008a3f889f85d2c15bc879ed5f6b" kind="enumvalue"><name>KEYPAIR_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a8665678820b9a286ab1ab556cc1f6782" kind="enumvalue"><name>SECRET_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a20a32a93173ee39a8a0113e5df0eaae4" kind="enumvalue"><name>PUBLIC_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a5632eb6fd738538c55a65bfa30dc7b02" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a36c7bd6828a683083fd86d1a1303667d" kind="enumvalue"><name>SEED_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6e" kind="enum"><name>@222147162035204154171274324247354220021127162244</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6eafd7a008a3f889f85d2c15bc879ed5f6b" kind="enumvalue"><name>KEYPAIR_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea8665678820b9a286ab1ab556cc1f6782" kind="enumvalue"><name>SECRET_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea20a32a93173ee39a8a0113e5df0eaae4" kind="enumvalue"><name>PUBLIC_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea5632eb6fd738538c55a65bfa30dc7b02" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea36c7bd6828a683083fd86d1a1303667d" kind="enumvalue"><name>SEED_SIZE</name></member>
   </compound>
   <compound refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf" kind="namespace"><name>sgns::crypto::constants::sr25519::vrf</name>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5" kind="enum"><name>@045157362313214045075122263133334236152064206063</name></member>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5ab1e2fb3dd62cdecd9f187f910aa0e35e" kind="enumvalue"><name>PROOF_SIZE</name></member>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5a187d6c92af680abedbe2346f446055f8" kind="enumvalue"><name>OUTPUT_SIZE</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664cec" kind="enum"><name>@074336272122335333054153264327212355137155056150</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664cecab1e2fb3dd62cdecd9f187f910aa0e35e" kind="enumvalue"><name>PROOF_SIZE</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664ceca187d6c92af680abedbe2346f446055f8" kind="enumvalue"><name>OUTPUT_SIZE</name></member>
   </compound>
   <compound refid="d3/d4a/namespacesgns_1_1crypto_1_1key__types" kind="namespace"><name>sgns::crypto::key_types</name>
     <member refid="d3/d4a/namespacesgns_1_1crypto_1_1key__types_1a9f89dd4e8f46de1f9d2ab27df5ca6e73" kind="variable"><name>kProd</name></member>
@@ -6015,9 +6563,9 @@
     <member refid="d1/d56/namespacesgns_1_1scale_1abb9671741457166ff4d8e2174d9d6388" kind="function"><name>encode</name></member>
     <member refid="d1/d56/namespacesgns_1_1scale_1a96d6e97850c2835b935122c2698af51a" kind="function"><name>decode</name></member>
   </compound>
-  <compound refid="d0/d41/namespacesgns_1_1scale_1_1_0d176055121220325253314062164343140325015331040362" kind="namespace"><name>sgns::scale::@176055121220325253314062164343140325015331040362</name>
+  <compound refid="dc/d9e/namespacesgns_1_1scale_1_1_0d205370077330273367351060100371273051360157203337" kind="namespace"><name>sgns::scale::@205370077330273367351060100371273051360157203337</name>
   </compound>
-  <compound refid="d6/d66/namespacesgns_1_1scale_1_1_0d276124144237006304040150244115377133141063326064" kind="namespace"><name>sgns::scale::@276124144237006304040150244115377133141063326064</name>
+  <compound refid="d8/d04/namespacesgns_1_1scale_1_1_0d343165132341146164363360236266054044005027154041" kind="namespace"><name>sgns::scale::@343165132341146164363360236266054044005027154041</name>
   </compound>
   <compound refid="d9/d9a/namespacesgns_1_1scale_1_1compact" kind="namespace"><name>sgns::scale::compact</name>
   </compound>
@@ -6042,6 +6590,14 @@
     <member refid="db/db9/namespacesgns_1_1scale_1_1detail_1_1variant__impl_1a572ab0ba4fdeb1b05c8575c4a42c9389" kind="function"><name>for_each_apply</name></member>
   </compound>
   <compound refid="d1/dc7/namespacesgns_1_1sgprocessing" kind="namespace"><name>sgns::sgprocessing</name>
+    <member refid="d1/dc7/namespacesgns_1_1sgprocessing_1aa9c44895350ea432f1c0fa569215c003" kind="typedef"><name>ProcessingProcessor</name></member>
+  </compound>
+  <compound refid="d6/ded/namespacesgns_1_1sgprocmanager" kind="namespace"><name>sgns::sgprocmanager</name>
+    <member refid="d6/ded/namespacesgns_1_1sgprocmanager_1adb77cf9b4ff491f007857d0590792265" kind="typedef"><name>Logger</name></member>
+    <member refid="d6/ded/namespacesgns_1_1sgprocmanager_1ab8bde5b7d40703ed0ed7193069d2f96d" kind="function"><name>createLogger</name></member>
+  </compound>
+  <compound refid="d1/de3/namespacesgns_1_1sgprocmanagersha" kind="namespace"><name>sgns::sgprocmanagersha</name>
+    <member refid="d1/de3/namespacesgns_1_1sgprocmanagersha_1a99f3b6932de4c54698bdf996dacffaf7" kind="function"><name>sha256</name></member>
   </compound>
   <compound refid="d0/dbf/namespacesgns_1_1storage" kind="namespace"><name>sgns::storage</name>
     <member refid="d0/dbf/namespacesgns_1_1storage_1a8a572a572309a6061c666d6d8b0f4bac" kind="enum"><name>DatabaseError</name></member>
@@ -6120,7 +6676,122 @@
   </compound>
   <compound refid="d8/dcc/namespacestd" kind="namespace"><name>std</name>
   </compound>
+  <compound refid="d6/d72/namespaceutil" kind="namespace"><name>util</name>
+    <member refid="d6/d72/namespaceutil_1a74a7f111d6f52d685f220e5245c421bc" kind="function"><name>to_string</name></member>
+    <member refid="d6/d72/namespaceutil_1a391660f2f2b3df687216d815a814b999" kind="function"><name>isLittleEndian</name></member>
+    <member refid="d6/d72/namespaceutil_1a01779410635417b4c9560020d46e9bbd" kind="function"><name>HexASCII2Num</name></member>
+    <member refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kind="function"><name>HexASCII2NumStr</name></member>
+    <member refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kind="function"><name>AdjustEndianess</name></member>
+  </compound>
   <compound refid="d3/d82/namespacewasm" kind="namespace"><name>wasm</name>
+  </compound>
+  <compound refid="d4/d95/_api_service_factory_8hpp" kind="file"><name>ApiServiceFactory.hpp</name>
+  </compound>
+  <compound refid="df/dae/_app_configuration_factory_8hpp" kind="file"><name>AppConfigurationFactory.hpp</name>
+  </compound>
+  <compound refid="dd/d57/_app_state_manager_factory_8hpp" kind="file"><name>AppStateManagerFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d52/_author_api_factory_8hpp" kind="file"><name>AuthorApiFactory.hpp</name>
+  </compound>
+  <compound refid="db/db0/_authority_manager_factory_8hpp" kind="file"><name>AuthorityManagerFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d12/_authority_update_observer_factory_8hpp" kind="file"><name>AuthorityUpdateObserverFactory.hpp</name>
+  </compound>
+  <compound refid="de/d1c/_block_builder_manager_8hpp" kind="file"><name>BlockBuilderManager.hpp</name>
+  </compound>
+  <compound refid="d3/db2/_block_executor_factory_8hpp" kind="file"><name>BlockExecutorFactory.hpp</name>
+  </compound>
+  <compound refid="d2/d12/_block_header_repository_factory_8hpp" kind="file"><name>BlockHeaderRepositoryFactory.hpp</name>
+  </compound>
+  <compound refid="dd/d97/_block_storage_factory_8hpp" kind="file"><name>BlockStorageFactory.hpp</name>
+  </compound>
+  <compound refid="d1/d14/_block_tree_factory_8hpp" kind="file"><name>BlockTreeFactory.hpp</name>
+  </compound>
+  <compound refid="d2/d92/_block_validator_factory_8hpp" kind="file"><name>BlockValidatorFactory.hpp</name>
+  </compound>
+  <compound refid="d1/d4e/_buffer_storage_factory_8hpp" kind="file"><name>BufferStorageFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d85/_chain_api_factory_8hpp" kind="file"><name>ChainApiFactory.hpp</name>
+  </compound>
+  <compound refid="df/dd6/_configuration_storage_factory_8hpp" kind="file"><name>ConfigurationStorageFactory.hpp</name>
+  </compound>
+  <compound refid="d2/d56/_e_d25519_key_pair_factory_8hpp" kind="file"><name>ED25519KeyPairFactory.hpp</name>
+  </compound>
+  <compound refid="d0/d53/_e_d25519_provider_factory_8hpp" kind="file"><name>ED25519ProviderFactory.hpp</name>
+  </compound>
+  <compound refid="d8/db8/_environment_factory_8hpp" kind="file"><name>EnvironmentFactory.hpp</name>
+  </compound>
+  <compound refid="d8/d33/_epoch_storage_factory_8hpp" kind="file"><name>EpochStorageFactory.hpp</name>
+  </compound>
+  <compound refid="db/dba/_extrinsic_gossiper_factory_8hpp" kind="file"><name>ExtrinsicGossiperFactory.hpp</name>
+  </compound>
+  <compound refid="d3/d92/_extrinsic_observer_factory_8hpp" kind="file"><name>ExtrinsicObserverFactory.hpp</name>
+  </compound>
+  <compound refid="d7/dea/_finality_factory_8hpp" kind="file"><name>FinalityFactory.hpp</name>
+  </compound>
+  <compound refid="d9/d6d/_hasher_factory_8hpp" kind="file"><name>HasherFactory.hpp</name>
+  </compound>
+  <compound refid="d7/d77/_j_rpc_processor_factory_8hpp" kind="file"><name>JRpcProcessorFactory.hpp</name>
+  </compound>
+  <compound refid="d9/d8f/_j_rpc_server_factory_8hpp" kind="file"><name>JRpcServerFactory.hpp</name>
+  </compound>
+  <compound refid="d9/dfd/_key_storage_factory_8hpp" kind="file"><name>KeyStorageFactory.hpp</name>
+  </compound>
+  <compound refid="db/d56/_listener_factory_8hpp" kind="file"><name>ListenerFactory.hpp</name>
+  </compound>
+  <compound refid="dd/d13/_own_peer_info_factory_8hpp" kind="file"><name>OwnPeerInfoFactory.hpp</name>
+  </compound>
+  <compound refid="dc/d02/_pool_moderator_factory_8hpp" kind="file"><name>PoolModeratorFactory.hpp</name>
+  </compound>
+  <compound refid="d1/d2f/_production_configuration_factory_8hpp" kind="file"><name>ProductionConfigurationFactory.hpp</name>
+  </compound>
+  <compound refid="dc/d0c/_production_factory_8hpp" kind="file"><name>ProductionFactory.hpp</name>
+  </compound>
+  <compound refid="df/d44/_production_lottery_factory_8hpp" kind="file"><name>ProductionLotteryFactory.hpp</name>
+  </compound>
+  <compound refid="d0/d1c/_production_synchronizer_factory_8hpp" kind="file"><name>ProductionSynchronizerFactory.hpp</name>
+  </compound>
+  <compound refid="df/dce/_proposer_factory_8hpp" kind="file"><name>ProposerFactory.hpp</name>
+  </compound>
+  <compound refid="dc/d62/_router_factory_8hpp" kind="file"><name>RouterFactory.hpp</name>
+  </compound>
+  <compound refid="d2/df2/_rpc_context_factory_8hpp" kind="file"><name>RpcContextFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d01/_rpc_thread_pool_factory_8hpp" kind="file"><name>RpcThreadPoolFactory.hpp</name>
+  </compound>
+  <compound refid="da/d5b/_s_r25519_keypair_factory_8hpp" kind="file"><name>SR25519KeypairFactory.hpp</name>
+  </compound>
+  <compound refid="d0/df6/_s_r25519_provider_factory_8hpp" kind="file"><name>SR25519ProviderFactory.hpp</name>
+  </compound>
+  <compound refid="d6/d59/_state_api_factory_8hpp" kind="file"><name>StateApiFactory.hpp</name>
+  </compound>
+  <compound refid="da/d32/_steady_clock_factory_8hpp" kind="file"><name>SteadyClockFactory.hpp</name>
+  </compound>
+  <compound refid="d1/d4b/_storage_changes_tracker_factory_8hpp" kind="file"><name>StorageChangesTrackerFactory.hpp</name>
+  </compound>
+  <compound refid="d7/d27/_sync_protocol_observer_factory_8hpp" kind="file"><name>SyncProtocolObserverFactory.hpp</name>
+  </compound>
+  <compound refid="df/d76/_system_api_factory_8hpp" kind="file"><name>SystemApiFactory.hpp</name>
+  </compound>
+  <compound refid="d0/d3f/_system_clock_factory_8hpp" kind="file"><name>SystemClockFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d08/_transcation_pool_factory_8hpp" kind="file"><name>TranscationPoolFactory.hpp</name>
+  </compound>
+  <compound refid="d4/d93/_trie_serializer_factory_8hpp" kind="file"><name>TrieSerializerFactory.hpp</name>
+  </compound>
+  <compound refid="d3/d68/_trie_storage_backend_factory_8hpp" kind="file"><name>TrieStorageBackendFactory.hpp</name>
+  </compound>
+  <compound refid="d0/da6/_trie_storage_factory_8hpp" kind="file"><name>TrieStorageFactory.hpp</name>
+  </compound>
+  <compound refid="d2/dce/_v_r_f_provider_factory_8hpp" kind="file"><name>VRFProviderFactory.hpp</name>
+  </compound>
+  <compound refid="d2/de6/runner_8cpp" kind="file"><name>runner.cpp</name>
+    <member refid="d2/de6/runner_8cpp_1a2b8319f510d699cd58a086bb503844c0" kind="variable"><name>app</name></member>
+    <member refid="d2/de6/runner_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dd/d41/_super_genius_demo_app_8cpp" kind="file"><name>SuperGeniusDemoApp.cpp</name>
+  </compound>
+  <compound refid="d7/d0a/_super_genius_demo_app_8hpp" kind="file"><name>SuperGeniusDemoApp.hpp</name>
   </compound>
   <compound refid="d5/df0/app__delegate_8cpp" kind="file"><name>app_delegate.cpp</name>
   </compound>
@@ -6189,6 +6860,153 @@
   </compound>
   <compound refid="d4/dc7/wallet_8hpp" kind="file"><name>wallet.hpp</name>
     <member refid="d2/d2b/namespacesgns_1a1070beeedcc492ad783d0fcb8eaa6590" kind="function"><name>collect_container_info</name></member>
+  </compound>
+  <compound refid="db/d6c/_a_e_s_encryption_8hpp" kind="file"><name>AESEncryption.hpp</name>
+  </compound>
+  <compound refid="dd/dd3/_bitcoin_key_generator_8hpp" kind="file"><name>BitcoinKeyGenerator.hpp</name>
+  </compound>
+  <compound refid="da/d4f/_bitcoin_key_pair_params_8hpp" kind="file"><name>BitcoinKeyPairParams.hpp</name>
+    <member refid="d5/d9c/namespacebitcoin_1a3013f6401a665627a2dd451365902e38" kind="typedef"><name>CurveType</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1afa858bc4a16f8430dc7c62f0224ea8fb" kind="typedef"><name>base_field_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a1a31c65f029854b6717dc5c70d66e30a" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ab4a0977da9896055192f436273b61e8b" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ad6edfc6794d6a03896b6df57cd26cb4c" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1abed0ee84c5c14e1c13d4e98e7a9d097c" kind="typedef"><name>hash_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a62d5cec53821af6765fb15b42e5da10c" kind="typedef"><name>generator_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1ad1e3aacb9381140adcc48854bc7efb0c" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a382c7fccab4c9289ae4cc0c8fb02a6d8" kind="typedef"><name>policy_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1af477607a964f9ddaedbe138ac7ff6661" kind="typedef"><name>signature_type</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a2326404da76b06f27489c789b01c8222" kind="typedef"><name>derivation_hash_type</name></member>
+  </compound>
+  <compound refid="d4/d45/_crypto3_util_8hpp" kind="file"><name>Crypto3Util.hpp</name>
+  </compound>
+  <compound refid="d4/df8/_e_c_d_h_encryption_8hpp" kind="file"><name>ECDHEncryption.hpp</name>
+  </compound>
+  <compound refid="d8/ddd/_e_c_d_s_a_public_key_8hpp" kind="file"><name>ECDSAPublicKey.hpp</name>
+  </compound>
+  <compound refid="db/da9/_e_c_d_s_a_types_8hpp" kind="file"><name>ECDSATypes.hpp</name>
+    <member refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kind="typedef"><name>CurveType</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" kind="typedef"><name>base_field_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kind="typedef"><name>hash_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kind="typedef"><name>generator_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kind="typedef"><name>padding_policy</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" kind="typedef"><name>policy_type</name></member>
+    <member refid="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" kind="typedef"><name>signature_type</name></member>
+  </compound>
+  <compound refid="d7/d68/_e_c_el_gamal_key_generator_8hpp" kind="file"><name>ECElGamalKeyGenerator.hpp</name>
+  </compound>
+  <compound refid="d3/dd4/_e_c_el_gamal_types_8hpp" kind="file"><name>ECElGamalTypes.hpp</name>
+  </compound>
+  <compound refid="df/d7b/_el_gamal_key_generator_8hpp" kind="file"><name>ElGamalKeyGenerator.hpp</name>
+    <member refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kind="typedef"><name>cpp_int</name></member>
+    <member refid="dd/d15/namespace_key_generator_1a3cf07062da7ffb077892c1b314e6a1ff" kind="typedef"><name>uint256_t</name></member>
+  </compound>
+  <compound refid="d3/d01/_el_gamal_types_8hpp" kind="file"><name>ElGamalTypes.hpp</name>
+    <member refid="d5/d69/namespaceelgamal_1a73ceb6fd41638a4bfd675814b4040f22" kind="typedef"><name>CurveType</name></member>
+    <member refid="d5/d69/namespaceelgamal_1aae21b13f1f8db21417a9e5f91f4efbb8" kind="typedef"><name>base_field_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a20a3944d10a0504410aaa7a8bc1da948" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a15ee46c119057666d52f4b5fc67b0aae" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1af091e1d9b7b668f03e9b6207f99c0dfe" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1aa8231b2720750478c831f686debe8880" kind="typedef"><name>hash_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1ab205a01d1777cfe3c0c0b9f6b66d3b34" kind="typedef"><name>generator_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a978e8e7c19ec3ce36aa542a01d208e82" kind="typedef"><name>padding_policy</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a14d32e285ee69d42f8bc4d018fd62112" kind="typedef"><name>policy_type</name></member>
+    <member refid="d5/d69/namespaceelgamal_1a6e9c1894fa1f052015eafb85cff47555" kind="typedef"><name>signature_type</name></member>
+  </compound>
+  <compound refid="d7/d2d/_encryption_8hpp" kind="file"><name>Encryption.hpp</name>
+  </compound>
+  <compound refid="d9/dd7/_ethereum_key_generator_8hpp" kind="file"><name>EthereumKeyGenerator.hpp</name>
+  </compound>
+  <compound refid="dc/d35/_ethereum_key_pair_params_8hpp" kind="file"><name>EthereumKeyPairParams.hpp</name>
+    <member refid="df/dc1/namespaceethereum_1a8c8ff4daa13cd24272cdd1e31efaf6ff" kind="typedef"><name>CurveType</name></member>
+    <member refid="df/dc1/namespaceethereum_1a3a391f41ded00d9a89b0a1aa7edaa406" kind="typedef"><name>base_field_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a0cd6dda4a2db00fde260d070dbe1018f" kind="typedef"><name>scalar_field_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" kind="typedef"><name>scalar_field_value_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" kind="typedef"><name>random_generator_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1ab9f19a39a9c332fc633c429c702dfc06" kind="typedef"><name>hash_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a8f463d8af7af8eb7d4bc71d97fa0c9c0" kind="typedef"><name>generator_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1ae0202f39085a20570324cfe29f1b4e8d" kind="typedef"><name>padding_policy</name></member>
+    <member refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kind="typedef"><name>policy_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a1f3939e0e12e4e1efc0254d41726045e" kind="typedef"><name>signature_type</name></member>
+    <member refid="df/dc1/namespaceethereum_1a949fd48224fcb0964e1cc16a9c559cdb" kind="typedef"><name>derivation_hash_type</name></member>
+  </compound>
+  <compound refid="df/d62/ext__private__key_8hpp" kind="file"><name>ext_private_key.hpp</name>
+  </compound>
+  <compound refid="d1/dec/_k_d_f_generator_8hpp" kind="file"><name>KDFGenerator.hpp</name>
+  </compound>
+  <compound refid="d0/d90/_prime_numbers_8hpp" kind="file"><name>PrimeNumbers.hpp</name>
+    <member refid="d0/d90/_prime_numbers_8hpp_1ab2a039ec08a0ddf61f3a479fb2f309f7" kind="define"><name>_USE_CRYPTO3_</name></member>
+  </compound>
+  <compound refid="d1/d46/_bitcoin_key_generator_8cpp" kind="file"><name>BitcoinKeyGenerator.cpp</name>
+    <member refid="d5/d9c/namespacebitcoin_1a8b8184e6bc0d00cee90cd2869f43ad57" kind="function"><name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name></member>
+    <member refid="d5/d9c/namespacebitcoin_1a087de1c1de454df4be7a0574fab84646" kind="function"><name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; BitcoinKeyGenerator::PubKeyPair_t &gt;</name></member>
+  </compound>
+  <compound refid="d6/dff/_el_gamal_key_generator_8cpp" kind="file"><name>ElGamalKeyGenerator.cpp</name>
+  </compound>
+  <compound refid="da/d43/_ethereum_key_generator_8cpp" kind="file"><name>EthereumKeyGenerator.cpp</name>
+    <member refid="df/dc1/namespaceethereum_1acdbd617414249f97a323552f1b78d7b4" kind="function"><name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name></member>
+    <member refid="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" kind="function"><name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; EthereumKeyGenerator::PubKeyPair_t &gt;</name></member>
+  </compound>
+  <compound refid="dd/d48/_prime_numbers_8cpp" kind="file"><name>PrimeNumbers.cpp</name>
+  </compound>
+  <compound refid="dd/d94/_image_splitter_8hpp" kind="file"><name>ImageSplitter.hpp</name>
+  </compound>
+  <compound refid="d9/df5/sgprocmgr-outcome_8hpp" kind="file"><name>sgprocmgr-outcome.hpp</name>
+  </compound>
+  <compound refid="d9/dcf/_processing_manager_8hpp" kind="file"><name>ProcessingManager.hpp</name>
+    <member refid="d1/dc7/namespacesgns_1_1sgprocessing_1aa9c44895350ea432f1c0fa569215c003" kind="typedef"><name>ProcessingProcessor</name></member>
+  </compound>
+  <compound refid="db/df8/processing__processor_8hpp" kind="file"><name>processing_processor.hpp</name>
+  </compound>
+  <compound refid="df/d3c/processing__processor__mnn__audio_8hpp" kind="file"><name>processing_processor_mnn_audio.hpp</name>
+    <member refid="df/d3c/processing__processor__mnn__audio_8hpp_1a98971c62bcb0991ac003ed512fc0f5e7" kind="define"><name>MNN_OPEN_TIME_TRACE</name></member>
+  </compound>
+  <compound refid="d6/db5/processing__processor__mnn__image_8hpp" kind="file"><name>processing_processor_mnn_image.hpp</name>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a98971c62bcb0991ac003ed512fc0f5e7" kind="define"><name>MNN_OPEN_TIME_TRACE</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a0044fbbf60898ec6ad9600feb4f4c428" kind="define"><name>MODEL_IMAGE_SIZE</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a6e75115ecc9a823bd995a254d50626e6" kind="define"><name>OUTPUT_STRIDE</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a1cd7845cbd99ca49e549384f4ddd62d5" kind="define"><name>MAX_POSE_DETECTIONS</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a4466d72aa73b8a5a4659542157853e13" kind="define"><name>NUM_KEYPOINTS</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1aa17a0d79991b9f667cf1f8fb04e26946" kind="define"><name>SCORE_THRESHOLD</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1acae53885b2c89e2175470e124d15661c" kind="define"><name>MIN_POSE_SCORE</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1aafee7e08a6156810e671aeceef84aaa3" kind="define"><name>NMS_RADIUS</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a4af66ee44a7c5108da2e9c2938a35b16" kind="define"><name>LOCAL_MAXIMUM_RADIUS</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a0013ea01f55f20ba3d8c3875bc3384cc" kind="define"><name>OFFSET_NODE_NAME</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1ae69f5a5fbc656b119a781d0b1d992868" kind="define"><name>DISPLACE_FWD_NODE_NAME</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a04891cb3bbc99446b77815082b6aafc7" kind="define"><name>DISPLACE_BWD_NODE_NAME</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a17bb85f4cf6494d4e859fe211f7b73ac" kind="define"><name>HEATMAPS</name></member>
+    <member refid="d6/db5/processing__processor__mnn__image_8hpp_1a6b8b23eed4e4f833716ae707e231b19a" kind="define"><name>CIRCLE_RADIUS</name></member>
+  </compound>
+  <compound refid="d4/daa/processing__processor__mnn__ml_8hpp" kind="file"><name>processing_processor_mnn_ml.hpp</name>
+    <member refid="d4/daa/processing__processor__mnn__ml_8hpp_1a98971c62bcb0991ac003ed512fc0f5e7" kind="define"><name>MNN_OPEN_TIME_TRACE</name></member>
+  </compound>
+  <compound refid="db/d20/_input_types_8hpp" kind="file"><name>InputTypes.hpp</name>
+  </compound>
+  <compound refid="d7/d6b/sgprocmgr-logger_8hpp" kind="file"><name>sgprocmgr-logger.hpp</name>
+    <member refid="d6/ded/namespacesgns_1_1sgprocmanager_1adb77cf9b4ff491f007857d0590792265" kind="typedef"><name>Logger</name></member>
+    <member refid="d6/ded/namespacesgns_1_1sgprocmanager_1ab8bde5b7d40703ed0ed7193069d2f96d" kind="function"><name>createLogger</name></member>
+  </compound>
+  <compound refid="d3/d84/_image_splitter_8cpp" kind="file"><name>ImageSplitter.cpp</name>
+    <member refid="d3/d84/_image_splitter_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" kind="define"><name>STB_IMAGE_IMPLEMENTATION</name></member>
+    <member refid="d3/d84/_image_splitter_8cpp_1aefe397a94e8feddc652f92ef40ce9597" kind="define"><name>STB_IMAGE_WRITE_IMPLEMENTATION</name></member>
+  </compound>
+  <compound refid="d8/d50/_processing_manager_8cpp" kind="file"><name>ProcessingManager.cpp</name>
+    <member refid="d8/d50/_processing_manager_8cpp_1a092744e5f36129d7490815993e506961" kind="function"><name>OUTCOME_CPP_DEFINE_CATEGORY_3</name></member>
+  </compound>
+  <compound refid="d3/d27/processing__processor__mnn__audio_8cpp" kind="file"><name>processing_processor_mnn_audio.cpp</name>
+  </compound>
+  <compound refid="d2/d49/processing__processor__mnn__image_8cpp" kind="file"><name>processing_processor_mnn_image.cpp</name>
+  </compound>
+  <compound refid="d1/dad/processing__processor__mnn__ml_8cpp" kind="file"><name>processing_processor_mnn_ml.cpp</name>
+  </compound>
+  <compound refid="d3/dfa/_input_types_8cpp" kind="file"><name>InputTypes.cpp</name>
+    <member refid="d3/dfa/_input_types_8cpp_1a00aebea2eb83eb22328abc20134901d7" kind="function"><name>OUTCOME_CPP_DEFINE_CATEGORY_3</name></member>
+  </compound>
+  <compound refid="de/d95/sgprocmgr-logger_8cpp" kind="file"><name>sgprocmgr-logger.cpp</name>
+    <member refid="d6/ded/namespacesgns_1_1sgprocmanager_1ab8bde5b7d40703ed0ed7193069d2f96d" kind="function"><name>createLogger</name></member>
   </compound>
   <compound refid="d0/d58/_account_messenger_8cpp" kind="file"><name>AccountMessenger.cpp</name>
     <member refid="d0/d58/_account_messenger_8cpp_1a02e728041bc457b75e7166617f4c9c33" kind="function"><name>OUTCOME_CPP_DEFINE_CATEGORY_3</name></member>
@@ -6508,7 +7326,14 @@
     <member refid="d2/d2b/namespacesgns_1aa528beacefda8b0a1c432a7d0afda122" kind="function"><name>operator&lt;&lt;</name></member>
     <member refid="d2/d2b/namespacesgns_1af7fe99356bce42afdd5d73359b05caf8" kind="function"><name>operator&gt;&gt;</name></member>
   </compound>
-  <compound refid="d0/d3f/util_8hpp" kind="file"><name>util.hpp</name>
+  <compound refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp" kind="file"><name>util.hpp</name>
+    <member refid="d6/d72/namespaceutil_1a74a7f111d6f52d685f220e5245c421bc" kind="function"><name>to_string</name></member>
+    <member refid="d6/d72/namespaceutil_1a391660f2f2b3df687216d815a814b999" kind="function"><name>isLittleEndian</name></member>
+    <member refid="d6/d72/namespaceutil_1a01779410635417b4c9560020d46e9bbd" kind="function"><name>HexASCII2Num</name></member>
+    <member refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kind="function"><name>HexASCII2NumStr</name></member>
+    <member refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kind="function"><name>AdjustEndianess</name></member>
+  </compound>
+  <compound refid="d1/d54/src_2base_2util_8hpp" kind="file"><name>util.hpp</name>
     <member refid="d2/d2b/namespacesgns_1a93ba70fc01fb8cec81125fcd0398048b" kind="function"><name>to_string</name></member>
     <member refid="d2/d2b/namespacesgns_1a1a24ccd290df939543ce58d677bd4095" kind="function"><name>isLittleEndian</name></member>
     <member refid="d2/d2b/namespacesgns_1a475d2084fcb3cfd2846e16029a885bb2" kind="function"><name>Vector2Num</name></member>
@@ -6519,7 +7344,7 @@
     <member refid="d2/d2b/namespacesgns_1aa728793261eef6e6b9c222328f73b39b" kind="function"><name>HexASCII2NumStr</name></member>
     <member refid="d2/d2b/namespacesgns_1a14299b74d2deefeaffce0fc50992e7b2" kind="function"><name>AdjustEndianess</name></member>
     <member refid="d2/d2b/namespacesgns_1a56dad9952ac18ad42b0f8f22872f02c7" kind="function"><name>Uint256ToString</name></member>
-    <member refid="d0/d3f/util_8hpp_1a37cfff12c2daf2edf477415994161e0c" kind="function"><name>waitForCondition</name></member>
+    <member refid="d1/d54/src_2base_2util_8hpp_1a37cfff12c2daf2edf477415994161e0c" kind="function"><name>waitForCondition</name></member>
   </compound>
   <compound refid="d2/df0/visitor_8hpp" kind="file"><name>visitor.hpp</name>
     <member refid="d2/d2b/namespacesgns_1a25791948257a71d3df8cfda2aba14b80" kind="function"><name>make_visitor</name></member>
@@ -6806,11 +7631,11 @@
   <compound refid="db/dba/ed25519__types_8cpp" kind="file"><name>ed25519_types.cpp</name>
   </compound>
   <compound refid="d4/d6e/ed25519__types_8hpp" kind="file"><name>ed25519_types.hpp</name>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280" kind="enum"><name>@154056363010335072042254224046100316353036003164</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280ae6872b1afeb949f2bbfa3d970e428637" kind="enumvalue"><name>PRIVKEY_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a896cc6da5f6479dc9ae56ac71d2af285" kind="enumvalue"><name>PUBKEY_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a2e58e4cfcd730e315e0145db7ea3a195" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
-    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1a8bea1108f59e95ec16af13db6101d280a01600721e692bc0cbd6e4aea46e1158e" kind="enumvalue"><name>SEED_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13" kind="enum"><name>@063351126320110347045253341136316324063002160107</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13ae6872b1afeb949f2bbfa3d970e428637" kind="enumvalue"><name>PRIVKEY_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a896cc6da5f6479dc9ae56ac71d2af285" kind="enumvalue"><name>PUBKEY_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a2e58e4cfcd730e315e0145db7ea3a195" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
+    <member refid="dc/de6/namespacesgns_1_1crypto_1_1constants_1_1ed25519_1af2ecfb419280176f1f68f50b4c0d1a13a01600721e692bc0cbd6e4aea46e1158e" kind="enumvalue"><name>SEED_SIZE</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a1cc4b7c855b0b88eef1bfebf6c800a4c" kind="typedef"><name>ED25519PrivateKey</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1aabd48e8fa382c75b453fce43c158f97d" kind="typedef"><name>ED25519PublicKey</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a82ea8f150548110e620c0d92549ffb32" kind="typedef"><name>ED25519Signature</name></member>
@@ -6913,12 +7738,18 @@
     <member refid="d4/d89/namespacesgns_1_1crypto_1_1secp256k1_1_1ecdsa__verify__error_1a741b3d4ffcba3e2110df65e336fdaf8d" kind="variable"><name>kInvalidV</name></member>
     <member refid="d4/d89/namespacesgns_1_1crypto_1_1secp256k1_1_1ecdsa__verify__error_1a401f941cbb85925f358d096f26fec52a" kind="variable"><name>kInvalidSignature</name></member>
   </compound>
-  <compound refid="d4/d08/sha256_8cpp" kind="file"><name>sha256.cpp</name>
+  <compound refid="d4/d0d/_s_g_processing_manager_2src_2util_2sha256_8cpp" kind="file"><name>sha256.cpp</name>
+    <member refid="d1/de3/namespacesgns_1_1sgprocmanagersha_1a99f3b6932de4c54698bdf996dacffaf7" kind="function"><name>sha256</name></member>
+  </compound>
+  <compound refid="d5/df5/src_2crypto_2sha_2sha256_8cpp" kind="file"><name>sha256.cpp</name>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a6af465e58a4956eb5164f6c400a1a6ed" kind="function"><name>sha256</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1aa8b926395147f6b4be6b248dc337ab42" kind="function"><name>sha256</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a468cf73de793bd2f1a8a5bedfe26b380" kind="function"><name>sha256</name></member>
   </compound>
-  <compound refid="d5/d68/sha256_8hpp" kind="file"><name>sha256.hpp</name>
+  <compound refid="d8/d69/_s_g_processing_manager_2include_2util_2sha256_8hpp" kind="file"><name>sha256.hpp</name>
+    <member refid="d1/de3/namespacesgns_1_1sgprocmanagersha_1a99f3b6932de4c54698bdf996dacffaf7" kind="function"><name>sha256</name></member>
+  </compound>
+  <compound refid="d7/d61/src_2crypto_2sha_2sha256_8hpp" kind="file"><name>sha256.hpp</name>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a6af465e58a4956eb5164f6c400a1a6ed" kind="function"><name>sha256</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1aa8b926395147f6b4be6b248dc337ab42" kind="function"><name>sha256</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a468cf73de793bd2f1a8a5bedfe26b380" kind="function"><name>sha256</name></member>
@@ -6936,15 +7767,15 @@
   <compound refid="d8/d40/sr25519__types_8cpp" kind="file"><name>sr25519_types.cpp</name>
   </compound>
   <compound refid="d2/d9c/sr25519__types_8hpp" kind="file"><name>sr25519_types.hpp</name>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36" kind="enum"><name>@062351302067023307206141235337031057054102362257</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36afd7a008a3f889f85d2c15bc879ed5f6b" kind="enumvalue"><name>KEYPAIR_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a8665678820b9a286ab1ab556cc1f6782" kind="enumvalue"><name>SECRET_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a20a32a93173ee39a8a0113e5df0eaae4" kind="enumvalue"><name>PUBLIC_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a5632eb6fd738538c55a65bfa30dc7b02" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
-    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1a2bc5a05be7bb8b57c8d3b2abc9c18e36a36c7bd6828a683083fd86d1a1303667d" kind="enumvalue"><name>SEED_SIZE</name></member>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5" kind="enum"><name>@045157362313214045075122263133334236152064206063</name></member>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5ab1e2fb3dd62cdecd9f187f910aa0e35e" kind="enumvalue"><name>PROOF_SIZE</name></member>
-    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1aee9c70f0446e34d0dbd0f93b69ff2ce5a187d6c92af680abedbe2346f446055f8" kind="enumvalue"><name>OUTPUT_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6e" kind="enum"><name>@222147162035204154171274324247354220021127162244</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6eafd7a008a3f889f85d2c15bc879ed5f6b" kind="enumvalue"><name>KEYPAIR_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea8665678820b9a286ab1ab556cc1f6782" kind="enumvalue"><name>SECRET_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea20a32a93173ee39a8a0113e5df0eaae4" kind="enumvalue"><name>PUBLIC_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea5632eb6fd738538c55a65bfa30dc7b02" kind="enumvalue"><name>SIGNATURE_SIZE</name></member>
+    <member refid="df/d1c/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1ac17d6e3f5df112314080a928878fcb6ea36c7bd6828a683083fd86d1a1303667d" kind="enumvalue"><name>SEED_SIZE</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664cec" kind="enum"><name>@074336272122335333054153264327212355137155056150</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664cecab1e2fb3dd62cdecd9f187f910aa0e35e" kind="enumvalue"><name>PROOF_SIZE</name></member>
+    <member refid="df/d05/namespacesgns_1_1crypto_1_1constants_1_1sr25519_1_1vrf_1ab7b4fc1a178c91bf95e9b0e344664ceca187d6c92af680abedbe2346f446055f8" kind="enumvalue"><name>OUTPUT_SIZE</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1afe805a44a422a48a8430397044d4ad65" kind="typedef"><name>VRFPreOutput</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a8a4a63297ed3f41b909d3f14c068c6c4" kind="typedef"><name>VRFThreshold</name></member>
     <member refid="df/d6e/namespacesgns_1_1crypto_1a89d6cd58cac07dcde92ca7c1575c6600" kind="typedef"><name>VRFProof</name></member>
@@ -7796,142 +8627,178 @@
   </compound>
   <compound refid="d9/da3/messaging__watcher_8hpp" kind="file"><name>messaging_watcher.hpp</name>
   </compound>
-  <compound refid="dir_c56d198fa588e71da7ab4334564c4fd0" kind="dir"><name>src/account</name>
+  <compound refid="dir_c56d198fa588e71da7ab4334564c4fd0" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account</name>
   </compound>
-  <compound refid="dir_da61e3e9a357748887e3ca8d7c5a0c16" kind="dir"><name>src/api</name>
+  <compound refid="dir_da61e3e9a357748887e3ca8d7c5a0c16" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api</name>
   </compound>
-  <compound refid="dir_844f6ab5c2ae79211596f3dcdd81adb7" kind="dir"><name>src/application</name>
+  <compound refid="dir_d422163b96683743ed3963d4aac17747" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app</name>
   </compound>
-  <compound refid="dir_003c825bc488c457fd0a8ec90afdd3e7" kind="dir"><name>src/api/service/author</name>
+  <compound refid="dir_844f6ab5c2ae79211596f3dcdd81adb7" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application</name>
   </compound>
-  <compound refid="dir_0af1587c8378955de40f48b4bd1869f0" kind="dir"><name>src/base</name>
+  <compound refid="dir_003c825bc488c457fd0a8ec90afdd3e7" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service/author</name>
   </compound>
-  <compound refid="dir_44958365c35f3f985315b67acf2c9cfa" kind="dir"><name>src/runtime/binaryen</name>
+  <compound refid="dir_0af1587c8378955de40f48b4bd1869f0" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/base</name>
   </compound>
-  <compound refid="dir_cb556418484d362c7791e942321741e3" kind="dir"><name>src/crypto/bip39</name>
+  <compound refid="dir_44958365c35f3f985315b67acf2c9cfa" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen</name>
   </compound>
-  <compound refid="dir_028cfb450258cb26cf2de4f75f6778d5" kind="dir"><name>src/blockchain</name>
+  <compound refid="dir_cb556418484d362c7791e942321741e3" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39</name>
   </compound>
-  <compound refid="dir_f59ed95a35871f90fcb9f2a97ad1a62f" kind="dir"><name>src/storage/changes_trie</name>
+  <compound refid="dir_028cfb450258cb26cf2de4f75f6778d5" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain</name>
   </compound>
-  <compound refid="dir_8e45b5d62a447777ec1bf82116832aee" kind="dir"><name>src/proof/circuits</name>
+  <compound refid="dir_f59ed95a35871f90fcb9f2a97ad1a62f" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie</name>
   </compound>
-  <compound refid="dir_b2c4bcb78fca9f082a8ac22247d78df2" kind="dir"><name>src/coinprices</name>
+  <compound refid="dir_8e45b5d62a447777ec1bf82116832aee" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/circuits</name>
   </compound>
-  <compound refid="dir_395f0e28b55cbd9fd75290c88db061f9" kind="dir"><name>src/runtime/common</name>
+  <compound refid="dir_b2c4bcb78fca9f082a8ac22247d78df2" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/coinprices</name>
   </compound>
-  <compound refid="dir_62ccd131d210d3b7a9988ec120218200" kind="dir"><name>src/application/impl/config_reader</name>
+  <compound refid="dir_395f0e28b55cbd9fd75290c88db061f9" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/common</name>
   </compound>
-  <compound refid="dir_bf58cfc8dc6aef76ae72f0316c83afcb" kind="dir"><name>src/crdt</name>
+  <compound refid="dir_62ccd131d210d3b7a9988ec120218200" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl/config_reader</name>
   </compound>
-  <compound refid="dir_4261af1259721e3e39e0d2dd7354b511" kind="dir"><name>src/crypto</name>
+  <compound refid="dir_bf58cfc8dc6aef76ae72f0316c83afcb" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt</name>
   </compound>
-  <compound refid="dir_29996793db42d9d65795c30def856817" kind="dir"><name>src/crypto/crypto_store</name>
+  <compound refid="dir_4261af1259721e3e39e0d2dd7354b511" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto</name>
   </compound>
-  <compound refid="dir_0bac89866673b9346e6f1bef0c671d78" kind="dir"><name>src/scale/detail</name>
+  <compound refid="dir_29996793db42d9d65795c30def856817" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/crypto_store</name>
   </compound>
-  <compound refid="dir_5d90716f0df58d57cb5f51974505d33f" kind="dir"><name>src/runtime/dummy</name>
+  <compound refid="dir_236ef5d84195583fa19eb76252956825" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/datasplitter</name>
   </compound>
-  <compound refid="dir_440c602ea24b404c1ce445efa2c701e7" kind="dir"><name>src/crypto/ed25519</name>
+  <compound refid="dir_c7e5096365cb9bd2030ae6bc7f523076" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/datasplitter</name>
   </compound>
-  <compound refid="dir_327325bb3b1a588237e9e9d943fb4bf7" kind="dir"><name>src/storage/face</name>
+  <compound refid="dir_0bac89866673b9346e6f1bef0c671d78" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale/detail</name>
   </compound>
-  <compound refid="dir_41866827cbe4fc1fa31e11cc42d77a61" kind="dir"><name>src/crdt/globaldb</name>
+  <compound refid="dir_5d90716f0df58d57cb5f51974505d33f" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/dummy</name>
   </compound>
-  <compound refid="dir_78bd37cba0e1c6a29cf2fac11c4a9356" kind="dir"><name>src/api/grpc</name>
+  <compound refid="dir_440c602ea24b404c1ce445efa2c701e7" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/ed25519</name>
   </compound>
-  <compound refid="dir_587bd937ce34a6958fab9075ca8bf37a" kind="dir"><name>src/crypto/hasher</name>
+  <compound refid="dir_327325bb3b1a588237e9e9d943fb4bf7" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/face</name>
   </compound>
-  <compound refid="dir_d3006fc2371888d9e891ce71a5a277b2" kind="dir"><name>src/api/transport/impl/http</name>
+  <compound refid="dir_41866827cbe4fc1fa31e11cc42d77a61" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/globaldb</name>
   </compound>
-  <compound refid="dir_21bf0675ff604c4caeb46121520de5ef" kind="dir"><name>src/api/transport/impl</name>
+  <compound refid="dir_78bd37cba0e1c6a29cf2fac11c4a9356" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/grpc</name>
   </compound>
-  <compound refid="dir_a749e11ba167a416f235c44ad5aefafd" kind="dir"><name>src/application/impl</name>
+  <compound refid="dir_587bd937ce34a6958fab9075ca8bf37a" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/hasher</name>
   </compound>
-  <compound refid="dir_5e61800ccbec81520cf7316f0ec1438e" kind="dir"><name>src/blockchain/impl</name>
+  <compound refid="dir_d3006fc2371888d9e891ce71a5a277b2" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/http</name>
   </compound>
-  <compound refid="dir_3732e728a021c163ebf541d6bbf896a7" kind="dir"><name>src/crdt/impl</name>
+  <compound refid="dir_21bf0675ff604c4caeb46121520de5ef" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl</name>
   </compound>
-  <compound refid="dir_992fd4856b792033fb818793670eda51" kind="dir"><name>src/crypto/bip39/impl</name>
+  <compound refid="dir_a749e11ba167a416f235c44ad5aefafd" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/application/impl</name>
   </compound>
-  <compound refid="dir_439211b4d722b436a24e53510c1d7e0a" kind="dir"><name>src/crypto/pbkdf2/impl</name>
+  <compound refid="dir_5e61800ccbec81520cf7316f0ec1438e" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl</name>
   </compound>
-  <compound refid="dir_3f4e05caef7dcee5db5ea0ea59094e5c" kind="dir"><name>src/local_secure_storage/impl</name>
+  <compound refid="dir_3732e728a021c163ebf541d6bbf896a7" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crdt/impl</name>
   </compound>
-  <compound refid="dir_54778bebe1153b8aa7626f3520e9df44" kind="dir"><name>src/processing/impl</name>
+  <compound refid="dir_992fd4856b792033fb818793670eda51" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/impl</name>
   </compound>
-  <compound refid="dir_55b83367ca5b1c6ce6ceddd0db6562b2" kind="dir"><name>src/storage/changes_trie/impl</name>
+  <compound refid="dir_439211b4d722b436a24e53510c1d7e0a" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/pbkdf2/impl</name>
   </compound>
-  <compound refid="dir_71615b694e57e8e147c90de439ca1dd0" kind="dir"><name>src/storage/trie/impl</name>
+  <compound refid="dir_3f4e05caef7dcee5db5ea0ea59094e5c" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl</name>
   </compound>
-  <compound refid="dir_c51af274d5282d190ba34361b8c34658" kind="dir"><name>src/watcher/impl</name>
+  <compound refid="dir_54778bebe1153b8aa7626f3520e9df44" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl</name>
   </compound>
-  <compound refid="dir_8a0290e33b4fedf5267a246ac0f48aa8" kind="dir"><name>src/storage/in_memory</name>
+  <compound refid="dir_55b83367ca5b1c6ce6ceddd0db6562b2" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/changes_trie/impl</name>
   </compound>
-  <compound refid="dir_5da7166272b0cdaed3aab4bb3e6e8c31" kind="dir"><name>src/local_secure_storage/impl/json</name>
+  <compound refid="dir_71615b694e57e8e147c90de439ca1dd0" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/impl</name>
   </compound>
-  <compound refid="dir_0688506dd10da2bf05e9f59c711f9106" kind="dir"><name>src/crypto/keccak</name>
+  <compound refid="dir_c51af274d5282d190ba34361b8c34658" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/watcher/impl</name>
   </compound>
-  <compound refid="dir_d8c7158a8cbf4ead7b56ff7c404a504a" kind="dir"><name>src/local_secure_storage</name>
+  <compound refid="dir_8a0290e33b4fedf5267a246ac0f48aa8" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/in_memory</name>
   </compound>
-  <compound refid="dir_24d19e8344eb5ac9918913b572c7f839" kind="dir"><name>src/macro</name>
+  <compound refid="dir_9d7087739f2dd4ed586f76ef5e8553ae" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include</name>
   </compound>
-  <compound refid="dir_509a1948808cab808dd95e7e2f078748" kind="dir"><name>src/runtime/binaryen/module</name>
+  <compound refid="dir_41f07810bec9bef28da68b4605778eb0" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include</name>
   </compound>
-  <compound refid="dir_ed1257bb0a434f54075cc5c1cfe1a20f" kind="dir"><name>node</name>
+  <compound refid="dir_811d1baeca87429dbcf173a62b2edffc" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration</name>
   </compound>
-  <compound refid="dir_7be59ee8c4293a2ed5de3468b8a07cd9" kind="dir"><name>src/outcome</name>
+  <compound refid="dir_5da7166272b0cdaed3aab4bb3e6e8c31" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage/impl/json</name>
   </compound>
-  <compound refid="dir_0d9a001d4004be400314908f4e9bdd1b" kind="dir"><name>src/crypto/pbkdf2</name>
+  <compound refid="dir_0688506dd10da2bf05e9f59c711f9106" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/keccak</name>
   </compound>
-  <compound refid="dir_bbf56bce9985720f86fc476f3812db24" kind="dir"><name>src/primitives</name>
+  <compound refid="dir_d8c7158a8cbf4ead7b56ff7c404a504a" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/local_secure_storage</name>
   </compound>
-  <compound refid="dir_0a512cdfab597aff87e92947a97cc98a" kind="dir"><name>src/processing</name>
+  <compound refid="dir_24d19e8344eb5ac9918913b572c7f839" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/macro</name>
   </compound>
-  <compound refid="dir_563a5df61297d2b6c6e2789a71958f47" kind="dir"><name>src/proof</name>
+  <compound refid="dir_509a1948808cab808dd95e7e2f078748" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/module</name>
   </compound>
-  <compound refid="dir_25eec3bec74cab00f86ed4b5e2c8f7c8" kind="dir"><name>src/crypto/random_generator</name>
+  <compound refid="dir_ed1257bb0a434f54075cc5c1cfe1a20f" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node</name>
   </compound>
-  <compound refid="dir_8b7acb397e6053a9fdf7b2acfd527342" kind="dir"><name>src/storage/rocksdb</name>
+  <compound refid="dir_3d0007703c25acee070f5e2268f796e0" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/outcome</name>
   </compound>
-  <compound refid="dir_bf9f26469d00835ba20ff8d80ee5a804" kind="dir"><name>src/runtime</name>
+  <compound refid="dir_7be59ee8c4293a2ed5de3468b8a07cd9" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/outcome</name>
   </compound>
-  <compound refid="dir_2b85916d314e49a6760a923b752c9952" kind="dir"><name>src/runtime/binaryen/runtime_api</name>
+  <compound refid="dir_0d9a001d4004be400314908f4e9bdd1b" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/pbkdf2</name>
   </compound>
-  <compound refid="dir_e3ad572831d545eb552494b95f9c029d" kind="dir"><name>src/scale</name>
+  <compound refid="dir_bbf56bce9985720f86fc476f3812db24" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/primitives</name>
   </compound>
-  <compound refid="dir_94209739ce9c565386b30eccd857b0cb" kind="dir"><name>src/crypto/secp256k1</name>
+  <compound refid="dir_0a512cdfab597aff87e92947a97cc98a" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing</name>
   </compound>
-  <compound refid="dir_e2cec131312c9f73de1b5c208575099e" kind="dir"><name>src/storage/trie/serialization</name>
+  <compound refid="dir_10f2a7aeaba6073f4e7c835320c7d71c" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processingbase</name>
   </compound>
-  <compound refid="dir_c932be5467edd5e1d4bd27ec4a2b99ad" kind="dir"><name>src/api/service</name>
+  <compound refid="dir_107a0adfbd164acc7b6edf1ab0dbe04b" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processingbase</name>
   </compound>
-  <compound refid="dir_5d58d02fca59986ee5ebe992a52c93e9" kind="dir"><name>src/crypto/sha</name>
+  <compound refid="dir_78f13dbf812beea795d71adafeb64f0e" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/processors</name>
   </compound>
-  <compound refid="dir_aa402a023b7a65474dcfb81d0e676bef" kind="dir"><name>src/singleton</name>
+  <compound refid="dir_d458887c1254e5b4eec70c3ee6399116" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/processors</name>
   </compound>
-  <compound refid="dir_841bca7711e8e17f358c4d0bd5ed609b" kind="dir"><name>src/crypto/sr25519</name>
+  <compound refid="dir_563a5df61297d2b6c6e2789a71958f47" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  <compound refid="dir_0fdd8608067e22b54aaf565d801121c2" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem</name>
   </compound>
-  <compound refid="dir_452baf35e1d7639c9f2a5ece4ec85855" kind="dir"><name>src/storage</name>
+  <compound refid="dir_f67fae9c55e6f7d8f49173a0fc3e903b" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem</name>
   </compound>
-  <compound refid="dir_0e31ebb83418efe443380d36898f4c39" kind="dir"><name>src/subscription</name>
+  <compound refid="dir_25eec3bec74cab00f86ed4b5e2c8f7c8" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/random_generator</name>
   </compound>
-  <compound refid="dir_b96ded659b7e6f168a14461d5a0325d6" kind="dir"><name>src/storage/trie/supergenius_trie</name>
+  <compound refid="dir_8b7acb397e6053a9fdf7b2acfd527342" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/rocksdb</name>
   </compound>
-  <compound refid="dir_32eed30060eeeeb45bf6b2929b506cca" kind="dir"><name>src/api/transport</name>
+  <compound refid="dir_bf9f26469d00835ba20ff8d80ee5a804" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime</name>
   </compound>
-  <compound refid="dir_8f5e4fb549865540d4346189ec27fd9e" kind="dir"><name>src/storage/trie</name>
+  <compound refid="dir_2b85916d314e49a6760a923b752c9952" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/binaryen/runtime_api</name>
   </compound>
-  <compound refid="dir_b0262cfdf1651c6d86b9cfcd09f4f201" kind="dir"><name>src/crypto/twox</name>
+  <compound refid="dir_e3ad572831d545eb552494b95f9c029d" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/scale</name>
   </compound>
-  <compound refid="dir_29024c0a02ea27f690d5e9e9bcce9166" kind="dir"><name>src/crypto/vrf</name>
+  <compound refid="dir_94209739ce9c565386b30eccd857b0cb" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/secp256k1</name>
   </compound>
-  <compound refid="dir_a0e215a65efa46f71fb1b59f1d6ea35a" kind="dir"><name>src/watcher</name>
+  <compound refid="dir_e2cec131312c9f73de1b5c208575099e" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization</name>
   </compound>
-  <compound refid="dir_6799b1796ac5c115d1ae7d5a8f350afd" kind="dir"><name>src/crypto/bip39/wordlist</name>
+  <compound refid="dir_c932be5467edd5e1d4bd27ec4a2b99ad" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/service</name>
   </compound>
-  <compound refid="dir_0f6c1d22850ba89d47f4ccc2983f8e7e" kind="dir"><name>src/api/transport/impl/ws</name>
+  <compound refid="dir_29700be6caed65c292726c6115ea3c55" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager</name>
+  </compound>
+  <compound refid="dir_5d58d02fca59986ee5ebe992a52c93e9" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sha</name>
+  </compound>
+  <compound refid="dir_aa402a023b7a65474dcfb81d0e676bef" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/singleton</name>
+  </compound>
+  <compound refid="dir_841bca7711e8e17f358c4d0bd5ed609b" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/sr25519</name>
+  </compound>
+  <compound refid="dir_fe7020b7a4ea20c30637fe5beb573702" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src</name>
+  </compound>
+  <compound refid="dir_87fc27ba0e8c6532c75ba846a5d0eb43" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src</name>
+  </compound>
+  <compound refid="dir_452baf35e1d7639c9f2a5ece4ec85855" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage</name>
+  </compound>
+  <compound refid="dir_0e31ebb83418efe443380d36898f4c39" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/subscription</name>
+  </compound>
+  <compound refid="dir_b96ded659b7e6f168a14461d5a0325d6" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/supergenius_trie</name>
+  </compound>
+  <compound refid="dir_32eed30060eeeeb45bf6b2929b506cca" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport</name>
+  </compound>
+  <compound refid="dir_8f5e4fb549865540d4346189ec27fd9e" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie</name>
+  </compound>
+  <compound refid="dir_b0262cfdf1651c6d86b9cfcd09f4f201" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/twox</name>
+  </compound>
+  <compound refid="dir_ae905a330a0f3d18f6454c2639316e83" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util</name>
+  </compound>
+  <compound refid="dir_d99ac9150a585af4dbd672e765f906a9" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util</name>
+  </compound>
+  <compound refid="dir_29024c0a02ea27f690d5e9e9bcce9166" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/vrf</name>
+  </compound>
+  <compound refid="dir_a0e215a65efa46f71fb1b59f1d6ea35a" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/watcher</name>
+  </compound>
+  <compound refid="dir_6799b1796ac5c115d1ae7d5a8f350afd" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/wordlist</name>
+  </compound>
+  <compound refid="dir_0f6c1d22850ba89d47f4ccc2983f8e7e" kind="dir"><name>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/api/transport/impl/ws</name>
   </compound>
 </doxygenindex>

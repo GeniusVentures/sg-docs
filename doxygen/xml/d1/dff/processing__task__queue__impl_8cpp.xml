@@ -3,9 +3,71 @@
   <compounddef id="d1/dff/processing__task__queue__impl_8cpp" kind="file" language="C++">
     <compoundname>processing_task_queue_impl.cpp</compoundname>
     <includes refid="d2/d76/processing__task__queue__impl_8hpp" local="yes">processing/impl/processing_task_queue_impl.hpp</includes>
-    <includes local="no">processingbase/ProcessingManager.hpp</includes>
+    <includes refid="d9/dcf/_processing_manager_8hpp" local="no">processingbase/ProcessingManager.hpp</includes>
     <includes local="no">Generators.hpp</includes>
     <incdepgraph>
+      <node id="84">
+        <label>outcome/sgprocmgr-outcome.hpp</label>
+        <link refid="d9/df5/sgprocmgr-outcome_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>processingbase/ProcessingManager.hpp</label>
+        <link refid="d9/dcf/_processing_manager_8hpp"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>processing_processor.hpp</label>
+        <link refid="db/df8/processing__processor_8hpp"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>processors/processing_processor_mnn_image.hpp</label>
+        <link refid="d6/db5/processing__processor__mnn__image_8hpp"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>util/sgprocmgr-logger.hpp</label>
+        <link refid="d7/d6b/sgprocmgr-logger_8hpp"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
       <node id="10">
         <label>base/buffer.hpp</label>
         <link refid="da/d1d/buffer_8hpp"/>
@@ -299,13 +361,13 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/processing/impl/processing_task_queue_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.cpp</label>
         <link refid="d1/dff/processing__task__queue__impl_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="83" relation="include">
         </childnode>
-        <childnode refid="84" relation="include">
+        <childnode refid="94" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -432,8 +494,20 @@
         <childnode refid="54" relation="include">
         </childnode>
       </node>
-      <node id="84">
+      <node id="94">
         <label>Generators.hpp</label>
+      </node>
+      <node id="92">
+        <label>MNN/AutoTime.hpp</label>
+      </node>
+      <node id="89">
+        <label>MNN/ImageProcess.hpp</label>
+      </node>
+      <node id="90">
+        <label>MNN/Interpreter.hpp</label>
+      </node>
+      <node id="86">
+        <label>SGNSProcMain.hpp</label>
       </node>
       <node id="25">
         <label>boost/asio/io_context.hpp</label>
@@ -459,6 +533,9 @@
       <node id="37">
         <label>chrono</label>
       </node>
+      <node id="88">
+        <label>cmath</label>
+      </node>
       <node id="40">
         <label>condition_variable</label>
       </node>
@@ -473,6 +550,9 @@
       </node>
       <node id="15">
         <label>gsl/span</label>
+      </node>
+      <node id="93">
+        <label>iostream</label>
       </node>
       <node id="27">
         <label>ipfs_lite/ipfs/graphsync/impl/graphsync_impl.hpp</label>
@@ -537,9 +617,6 @@
       <node id="8">
         <label>processing/proto/SGProcessing.pb.h</label>
       </node>
-      <node id="83">
-        <label>processingbase/ProcessingManager.hpp</label>
-      </node>
       <node id="38">
         <label>queue</label>
       </node>
@@ -603,7 +680,7 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d76/processing__task__queue__impl_8hpp" kindref="compound">processing/impl/processing_task_queue_impl.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;processingbase/ProcessingManager.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="d9/dcf/_processing_manager_8hpp" kindref="compound">processingbase/ProcessingManager.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Generators.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/d6a/namespacesgns_1_1processing" kindref="compound">sgns::processing</ref></highlight></codeline>
@@ -847,7 +924,7 @@
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
 <codeline lineno="244" refid="d6/d4e/classsgns_1_1processing_1_1_processing_task_queue_impl_1a2c6e07294fe49425950e442bc3ca77dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>outcome::result&lt;void&gt;<sp/><ref refid="d6/d4e/classsgns_1_1processing_1_1_processing_task_queue_impl_1a2c6e07294fe49425950e442bc3ca77dc" kindref="member">ProcessingTaskQueueImpl::IsTaskValid</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>taskJson<sp/>)</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OUTCOME_TRY(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>procmgr,<sp/>sgns::sgprocessing::ProcessingManager::Create(<sp/>taskJson<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OUTCOME_TRY(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>procmgr,<sp/><ref refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager_1a1c6c558a20b96e4ccea725ac760c4864" kindref="member">sgns::sgprocessing::ProcessingManager::Create</ref>(<sp/>taskJson<sp/>)<sp/>);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outcome::success();</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
@@ -988,6 +1065,6 @@
 <codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="385"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/processing/impl/processing_task_queue_impl.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl/processing_task_queue_impl.cpp"/>
   </compounddef>
 </doxygen>

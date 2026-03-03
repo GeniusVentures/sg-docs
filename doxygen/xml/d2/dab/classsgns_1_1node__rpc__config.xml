@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/node_rpc_config.hpp" line="31" column="6" bodyfile="node/node_rpc_config.hpp" bodystart="31" bodyend="31"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" line="31" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" bodystart="31" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/node_rpc_config.hpp" line="33" column="17" bodyfile="node/node_rpc_config.hpp" bodystart="33" bodyend="36"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" line="33" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" bodystart="33" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="node/node_rpc_config.hpp" line="39" column="6" bodyfile="node/node_rpc_config.cpp" bodystart="8" bodyend="18"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" line="39" column="6" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.cpp" bodystart="8" bodyend="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -70,7 +70,7 @@
         <link refid="d2/dab/classsgns_1_1node__rpc__config"/>
       </node>
     </collaborationgraph>
-    <location file="node/node_rpc_config.hpp" line="26" column="1" bodyfile="node/node_rpc_config.hpp" bodystart="27" bodyend="40"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" line="26" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/node/node_rpc_config.hpp" bodystart="27" bodyend="40"/>
     <listofallmembers>
       <member refid="d2/dab/classsgns_1_1node__rpc__config_1a0f5351f84082a709dbac9f32e144817c" prot="public" virt="non-virtual"><scope>sgns::node_rpc_config</scope><name>enable_sign_hash</name></member>
       <member refid="d2/dab/classsgns_1_1node__rpc__config_1aa7d67bb976234c0149e19d1ce237263c" prot="public" virt="non-virtual"><scope>sgns::node_rpc_config</scope><name>json_version</name></member>

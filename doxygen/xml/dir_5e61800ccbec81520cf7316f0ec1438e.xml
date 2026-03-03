@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_5e61800ccbec81520cf7316f0ec1438e" kind="dir">
-    <compoundname>src/blockchain/impl</compoundname>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl</compoundname>
     <innerfile refid="df/d2c/block__header__repository_8cpp">block_header_repository.cpp</innerfile>
     <innerfile refid="dc/dae/block__tree__error_8cpp">block_tree_error.cpp</innerfile>
     <innerfile refid="d5/df4/block__tree__impl_8cpp">block_tree_impl.cpp</innerfile>
@@ -19,6 +19,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/blockchain/impl/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/blockchain/impl/"/>
   </compounddef>
 </doxygen>

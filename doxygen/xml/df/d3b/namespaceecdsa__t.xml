@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/d3b/namespaceecdsa__t" kind="namespace" language="C++">
+    <compoundname>ecdsa_t</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" prot="public" static="no">
+        <type>algebra::curves::secp256k1</type>
+        <definition>using ecdsa_t::CurveType = algebra::curves::secp256k1</definition>
+        <argsstring></argsstring>
+        <name>CurveType</name>
+        <qualifiedname>ecdsa_t::CurveType</qualifiedname>
+        <briefdescription>
+<para>ECDSA uses secp256k curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="22" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a8555f031800651da35c99311420c14c2" prot="public" static="no">
+        <type>typename CurveType::base_field_type</type>
+        <definition>using ecdsa_t::base_field_type = typename CurveType::base_field_type</definition>
+        <argsstring></argsstring>
+        <name>base_field_type</name>
+        <qualifiedname>ecdsa_t::base_field_type</qualifiedname>
+        <briefdescription>
+<para>The base field type is dependant on the curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="23" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" prot="public" static="no">
+        <type>typename CurveType::scalar_field_type</type>
+        <definition>using ecdsa_t::scalar_field_type = typename CurveType::scalar_field_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_type</name>
+        <qualifiedname>ecdsa_t::scalar_field_type</qualifiedname>
+        <briefdescription>
+<para>The scalar field type is dependant on the curve. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="24" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" prot="public" static="no">
+        <type>typename scalar_field_type::value_type</type>
+        <definition>using ecdsa_t::scalar_field_value_type = typename scalar_field_type::value_type</definition>
+        <argsstring></argsstring>
+        <name>scalar_field_value_type</name>
+        <qualifiedname>ecdsa_t::scalar_field_value_type</qualifiedname>
+        <briefdescription>
+<para>The value type fo the scalar field type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="25" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a9c166cc82f6a4b6b5a52afc228feaada" prot="public" static="no">
+        <type>random::algebraic_random_device&lt; <ref refid="df/d3b/namespaceecdsa__t_1a99e14040ac93a117b9097148a3c33cf6" kindref="member">scalar_field_type</ref> &gt;</type>
+        <definition>using ecdsa_t::random_generator_type = random::algebraic_random_device&lt;scalar_field_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>random_generator_type</name>
+        <qualifiedname>ecdsa_t::random_generator_type</qualifiedname>
+        <briefdescription>
+<para>A random algebraic generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="26" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" prot="public" static="no">
+        <type>hashes::sha2&lt; 256 &gt;</type>
+        <definition>using ecdsa_t::hash_type = hashes::sha2&lt;256&gt;</definition>
+        <argsstring></argsstring>
+        <name>hash_type</name>
+        <qualifiedname>ecdsa_t::hash_type</qualifiedname>
+        <briefdescription>
+<para>The deterministic generator used by Ethereum key pair. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" prot="public" static="no">
+        <type>random::rfc6979&lt; <ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">scalar_field_value_type</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kindref="member">hash_type</ref> &gt;</type>
+        <definition>using ecdsa_t::generator_type = random::rfc6979&lt;scalar_field_value_type, hash_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>generator_type</name>
+        <qualifiedname>ecdsa_t::generator_type</qualifiedname>
+        <briefdescription>
+<para>RFC6979 deterministic generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="28" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" prot="public" static="no">
+        <type>pubkey::padding::emsa1&lt; <ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">scalar_field_value_type</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a80421ee0e08a9663bb297e79e0e87d2e" kindref="member">hash_type</ref> &gt;</type>
+        <definition>using ecdsa_t::padding_policy = pubkey::padding::emsa1&lt;scalar_field_value_type, hash_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>padding_policy</name>
+        <qualifiedname>ecdsa_t::padding_policy</qualifiedname>
+        <briefdescription>
+<para>Ethereum passing policy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="29" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" prot="public" static="no">
+        <type>pubkey::ecdsa&lt; <ref refid="df/d3b/namespaceecdsa__t_1ad4e0ca65d73bc47e8e204e15eea32109" kindref="member">CurveType</ref>, <ref refid="df/d3b/namespaceecdsa__t_1af605e7d2667875233369323038362ae6" kindref="member">padding_policy</ref>, <ref refid="df/d3b/namespaceecdsa__t_1a24e2096856da1188d62d8aa6a9193481" kindref="member">generator_type</ref> &gt;</type>
+        <definition>using ecdsa_t::policy_type = pubkey::ecdsa&lt;CurveType, padding_policy, generator_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>policy_type</name>
+        <qualifiedname>ecdsa_t::policy_type</qualifiedname>
+        <briefdescription>
+<para>Ethereum policy type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="30" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3b/namespaceecdsa__t_1aa11ea2f4dd4d7d1b7d3c1b1ead9b7a91" prot="public" static="no">
+        <type>typename pubkey::public_key&lt; <ref refid="df/d3b/namespaceecdsa__t_1a167b67df36d0091394ee88e3ea83c439" kindref="member">policy_type</ref> &gt;::signature_type</type>
+        <definition>using ecdsa_t::signature_type = typename pubkey::public_key&lt;policy_type&gt;::signature_type</definition>
+        <argsstring></argsstring>
+        <name>signature_type</name>
+        <qualifiedname>ecdsa_t::signature_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECDSATypes.hpp" line="18" column="1"/>
+  </compounddef>
+</doxygen>

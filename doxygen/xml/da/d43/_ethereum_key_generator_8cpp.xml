@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="da/d43/_ethereum_key_generator_8cpp" kind="file" language="C++">
+    <compoundname>EthereumKeyGenerator.cpp</compoundname>
+    <includes refid="d9/dd7/_ethereum_key_generator_8hpp" local="yes">ProofSystem/EthereumKeyGenerator.hpp</includes>
+    <includes local="no">nil/crypto3/hash/algorithm/hash.hpp</includes>
+    <includes local="no">nil/crypto3/hash/adaptor/hashed.hpp</includes>
+    <includes local="no">nil/crypto3/algebra/marshalling.hpp</includes>
+    <includes refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp" local="no">ProofSystem/util.hpp</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>ProofSystem/ECDSAPublicKey.hpp</label>
+        <link refid="d8/ddd/_e_c_d_s_a_public_key_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ProofSystem/EthereumKeyGenerator.hpp</label>
+        <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ProofSystem/EthereumKeyPairParams.hpp</label>
+        <link refid="dc/d35/_ethereum_key_pair_params_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ProofSystem/ext_private_key.hpp</label>
+        <link refid="df/d62/ext__private__key_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp</label>
+        <link refid="da/d43/_ethereum_key_generator_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>algorithm</label>
+      </node>
+      <node id="19">
+        <label>cstdint</label>
+      </node>
+      <node id="8">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="22">
+        <label>nil/crypto3/algebra/marshalling.hpp</label>
+      </node>
+      <node id="21">
+        <label>nil/crypto3/hash/adaptor/hashed.hpp</label>
+      </node>
+      <node id="20">
+        <label>nil/crypto3/hash/algorithm/hash.hpp</label>
+      </node>
+      <node id="5">
+        <label>nil/crypto3/hash/keccak.hpp</label>
+      </node>
+      <node id="10">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="11">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="7">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="9">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="12">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
+      <node id="17">
+        <label>optional</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="df/dc1/namespaceethereum">ethereum</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="df/dc1/namespaceethereum_1acdbd617414249f97a323552f1b78d7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; ethereum::EthereumKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</definition>
+        <argsstring>(const pubkey::public_key&lt; policy_type &gt; &amp;pub_key)</argsstring>
+        <name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name>
+        <qualifiedname>ethereum::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; policy_type &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="47" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="54" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>EthereumKeyGenerator::PubKeyPair_t</type>
+        <definition>EthereumKeyGenerator::PubKeyPair_t ethereum::EthereumKeyGenerator::ExtractPubKeyFromField&lt; EthereumKeyGenerator::PubKeyPair_t &gt;</definition>
+        <argsstring>(const pubkey::public_key&lt; policy_type &gt; &amp;pub_key)</argsstring>
+        <name>EthereumKeyGenerator::ExtractPubKeyFromField&lt; EthereumKeyGenerator::PubKeyPair_t &gt;</name>
+        <qualifiedname>ethereum::ExtractPubKeyFromField&lt; EthereumKeyGenerator::PubKeyPair_t &gt;</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; policy_type &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" line="71" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp" bodystart="72" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>Super<sp/>Genius<sp/>on<sp/>12/7/23.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d9/dd7/_ethereum_key_generator_8hpp" kindref="compound">ProofSystem/EthereumKeyGenerator.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/algorithm/hash.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/adaptor/hashed.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/algebra/marshalling.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp" kindref="compound">ProofSystem/util.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::crypto3::algebra;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::crypto3::hashes;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::marshalling::bincode;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/dc1/namespaceethereum" kindref="compound">ethereum</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/dc1/namespaceethereum_1a7ff8e0c7e1f1cd633125073b68055688" kindref="member">random_generator_type</ref><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" kindref="member">EthereumKeyGenerator::key_gen</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator::EthereumKeyGenerator</ref>()<sp/>:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref>(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" kindref="member">CreateKeys</ref>()<sp/>),<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>::public_key&lt;<ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">policy_type</ref>&gt;&gt;(<sp/>*<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref><sp/>)<sp/>),<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kindref="member">address</ref>(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" kindref="member">DeriveAddress</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a77ac39f7867ed2f6d4a90d7cfcd197fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator::EthereumKeyGenerator</ref>(<sp/>std::string_view<sp/>private_key<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>priv_key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>private_key<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>my_value<sp/>=</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;scalar_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>priv_key_vector.begin(),<sp/>priv_key_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cppui160_type<sp/>my_value<sp/>=<sp/>BytesToCppui160(priv_key_vector);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cppui160_type<sp/>my_value;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//import_bits(my_value,<sp/>priv_key_vector.begin(),<sp/>priv_key_vector.end());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref><sp/>=<sp/>std::make_shared&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;(<sp/>my_value.second<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref><sp/><sp/>=<sp/>std::make_shared&lt;pubkey::public_key&lt;policy_type&gt;&gt;(<sp/>*privkey<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kindref="member">address</ref><sp/>=<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">DeriveAddress</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af261a9f26fa2e848d8e873fac9787c24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab49c60c7514d7a00dc097721397210f1" kindref="member">EthereumKeyGenerator::EthereumKeyGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/dc1/namespaceethereum_1a18e0a277c63c91744b05edcb22bf5093" kindref="member">scalar_field_value_type</ref><sp/>&amp;private_key<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>::ext_private_key&lt;<ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">policy_type</ref>&gt;&gt;(<sp/>private_key<sp/>)<sp/>),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1ab2c0135b3dcaa198188de4f33b3f97ce" kindref="member">pubkey</ref>::public_key&lt;<ref refid="df/dc1/namespaceethereum_1a82d0772d4ce3255726e2d9f1d7b7ddbc" kindref="member">policy_type</ref>&gt;&gt;(<sp/>*<ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a052c2558c589006fb7ff0363eed6ce18" kindref="member">privkey</ref><sp/>)<sp/>),<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1af48614cab0e85d97743e3db9f13dcec7" kindref="member">address</ref>(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" kindref="member">DeriveAddress</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aef2457f47aed781f289944f12bbf6d13" kindref="member">EthereumKeyGenerator::CreateKeys</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_shared&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a524a2b4f4c5c7cf256c74302f549c73d" kindref="member">EthereumKeyGenerator::key_gen</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" kindref="member">EthereumKeyGenerator::ExtractPubKeyFromField&lt;std::vector&lt;std::uint8_t&gt;</ref>&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;policy_type&gt;<sp/>&amp;pub_key<sp/>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>x_y_ser(<sp/>(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>)<sp/>*<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().Y.data,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_y_ser.begin(),<sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().X.data,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2,<sp/>x_y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>middle_pos<sp/>=<sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_y_ser,<sp/>x_y_ser.begin(),<sp/>middle_pos<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_y_ser,<sp/>middle_pos,<sp/>x_y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x_y_ser;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="71" refid="df/dc1/namespaceethereum_1a6d6a1921e6a674c97c9314fc972d8927" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a94226b8058e0c35c5cd6af925a3e6b42" kindref="member">EthereumKeyGenerator::PubKeyPair_t</ref></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" kindref="member">EthereumKeyGenerator::ExtractPubKeyFromField&lt;EthereumKeyGenerator::PubKeyPair_t&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;policy_type&gt;<sp/>&amp;pub_key<sp/>)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>x_ser(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>y_ser(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().Y.data,<sp/>y_ser.begin(),</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().X.data,<sp/>x_ser.begin(),</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>y_ser<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_ser<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_pair(<sp/>x_ser,<sp/>y_ser<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a1577018b15f1fc14b5a317e00c3d0e57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">EthereumKeyGenerator::DeriveAddress</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::uint8_t&gt;<sp/>&amp;pub_key_vect<sp/>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>keccak_hash<sp/>=<sp/>hash&lt;derivation_hash_type&gt;(<sp/>pub_key_vect.rbegin(),<sp/>pub_key_vect.rend()<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>checksum<sp/><sp/><sp/><sp/>=<sp/>hash&lt;derivation_hash_type&gt;(<sp/>keccak_hash.begin()<sp/>+<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref>,<sp/>keccak_hash.end()<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>std::size_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>keccak_hash.size()<sp/>-<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref>;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>*p_char<sp/>=<sp/>&amp;keccak_hash[i<sp/>+<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1aa24508dc5f9822ba4d2bfa5c9f0ea65d" kindref="member">KECCAK_RES_VALID_POS</ref>];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>std::isalpha(<sp/>*p_char<sp/>)<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="d6/d72/namespaceutil_1a01779410635417b4c9560020d46e9bbd" kindref="member">util::HexASCII2Num&lt;std::uint8_t&gt;</ref>(<sp/>&amp;checksum[i],<sp/>1<sp/>)<sp/>&gt;<sp/>7<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*p_char<sp/>=<sp/>std::toupper(<sp/>*p_char<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*p_char<sp/>=<sp/>std::tolower(<sp/>*p_char<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keccak_hash.replace(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" kindref="member">ADDRESS_VALID_POS</ref>,<sp/>2,<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a31b39f02f0e0f247d05fb71b11ea1d35" kindref="member">ADDRESS_HEADER</ref><sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keccak_hash.substr(<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a30f149732c11e5f39c6d1bbb055279ca" kindref="member">ADDRESS_VALID_POS</ref>,<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a218bef606b5aa99893d86672f91b772f" kindref="member">ADDRESS_SIZE_CHARS</ref><sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">EthereumKeyGenerator::DeriveAddress</ref>()</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>pubkey_data<sp/>=<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a02321182a2aa6675db97bc6919bfeef9" kindref="member">ExtractPubKeyFromField&lt;std::vector&lt;std::uint8_t&gt;</ref>&gt;(<sp/>*pubkey<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a83cc3136e3ab47ecb7c1838b475c5f41" kindref="member">pubkey_info</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>std::make_shared&lt;EthereumECDSAPublicKey&gt;(</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;(<sp/>pubkey_data.data()<sp/>+<sp/>pubkey_data.size()<sp/>/<sp/>2,<sp/>pubkey_data.data()<sp/>+<sp/>pubkey_data.size()<sp/>),</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;(<sp/>pubkey_data.data(),<sp/>pubkey_data.data()<sp/>+<sp/>pubkey_data.size()<sp/>/<sp/>2<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a57adc04571811e0edea6f08113ed66d6" kindref="member">DeriveAddress</ref>(<sp/>pubkey_data<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pubkey::public_key&lt;ethereum::policy_type&gt;<sp/><ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator_1a60682438c9fab2d3121b61ff60342a29" kindref="member">EthereumKeyGenerator::BuildPublicKey</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;pubkey_data<sp/>)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>z_data_one<sp/>=<sp/>pubkey::public_key&lt;ethereum::policy_type&gt;::g1_value_type::field_type::value_type::one();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>pubkey_data.data()<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>y_data<sp/>=<sp/>field&lt;base_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_vector.begin(),<sp/>key_vector.begin()<sp/>+<sp/>key_vector.size()<sp/>/<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>x_data<sp/>=<sp/>field&lt;base_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>key_vector.begin()<sp/>+<sp/>key_vector.size()<sp/>/<sp/>2,<sp/>key_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;ethereum::policy_type&gt;::public_key_type(<sp/>x_data.second,<sp/>y_data.second,<sp/>z_data_one<sp/>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/EthereumKeyGenerator.cpp"/>
+  </compounddef>
+</doxygen>

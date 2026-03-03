@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/keccak/keccak.h" line="17" column="14"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/keccak/keccak.h" line="17" column="14"/>
       </memberdef>
       <memberdef kind="variable" id="d4/d0b/unionsha3__context___8____unnamed0_____1a6943966b1148e19a5007da5b955360df" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/keccak/keccak.h" line="18" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/keccak/keccak.h" line="18" column="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -42,7 +42,7 @@
         <link refid="d4/d0b/unionsha3__context___8____unnamed0____"/>
       </node>
     </collaborationgraph>
-    <location file="src/crypto/keccak/keccak.h" line="16" column="3" bodyfile="src/crypto/keccak/keccak.h" bodystart="16" bodyend="19"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/keccak/keccak.h" line="16" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/keccak/keccak.h" bodystart="16" bodyend="19"/>
     <listofallmembers>
       <member refid="d4/d0b/unionsha3__context___8____unnamed0_____1a676ee00ac088037cc66364ad0e6b4912" prot="public" virt="non-virtual"><scope>sha3_context_.__unnamed0__</scope><name>s</name></member>
       <member refid="d4/d0b/unionsha3__context___8____unnamed0_____1a6943966b1148e19a5007da5b955360df" prot="public" virt="non-virtual"><scope>sha3_context_.__unnamed0__</scope><name>sb</name></member>

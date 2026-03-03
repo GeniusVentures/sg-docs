@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d1/d46/_bitcoin_key_generator_8cpp" kind="file" language="C++">
+    <compoundname>BitcoinKeyGenerator.cpp</compoundname>
+    <includes refid="dd/dd3/_bitcoin_key_generator_8hpp" local="yes">ProofSystem/BitcoinKeyGenerator.hpp</includes>
+    <includes local="no">nil/crypto3/hash/algorithm/hash.hpp</includes>
+    <includes local="no">nil/crypto3/hash/adaptor/hashed.hpp</includes>
+    <includes local="no">nil/crypto3/hash/ripemd.hpp</includes>
+    <includes local="no">nil/crypto3/algebra/marshalling.hpp</includes>
+    <includes local="no">nil/crypto3/codec/algorithm/encode.hpp</includes>
+    <includes local="no">nil/crypto3/codec/base.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>ProofSystem/BitcoinKeyGenerator.hpp</label>
+        <link refid="dd/dd3/_bitcoin_key_generator_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ProofSystem/BitcoinKeyPairParams.hpp</label>
+        <link refid="da/d4f/_bitcoin_key_pair_params_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>ProofSystem/ECDSAPublicKey.hpp</label>
+        <link refid="d8/ddd/_e_c_d_s_a_public_key_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ECDSATypes.hpp</label>
+        <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>ProofSystem/ext_private_key.hpp</label>
+        <link refid="df/d62/ext__private__key_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ProofSystem/util.hpp</label>
+        <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp</label>
+        <link refid="d1/d46/_bitcoin_key_generator_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="6">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>istream</label>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+      <node id="13">
+        <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
+      </node>
+      <node id="25">
+        <label>nil/crypto3/algebra/marshalling.hpp</label>
+      </node>
+      <node id="26">
+        <label>nil/crypto3/codec/algorithm/encode.hpp</label>
+      </node>
+      <node id="27">
+        <label>nil/crypto3/codec/base.hpp</label>
+      </node>
+      <node id="23">
+        <label>nil/crypto3/hash/adaptor/hashed.hpp</label>
+      </node>
+      <node id="22">
+        <label>nil/crypto3/hash/algorithm/hash.hpp</label>
+      </node>
+      <node id="24">
+        <label>nil/crypto3/hash/ripemd.hpp</label>
+      </node>
+      <node id="10">
+        <label>nil/crypto3/hash/sha2.hpp</label>
+      </node>
+      <node id="15">
+        <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
+      </node>
+      <node id="12">
+        <label>nil/crypto3/pubkey/ecdsa.hpp</label>
+      </node>
+      <node id="14">
+        <label>nil/crypto3/random/algebraic_random_device.hpp</label>
+      </node>
+      <node id="16">
+        <label>nil/crypto3/random/rfc6979.hpp</label>
+      </node>
+      <node id="20">
+        <label>optional</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>utility</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="d5/d9c/namespacebitcoin">bitcoin</innernamespace>
+    <innernamespace refid="df/dbe/namespacenil_1_1crypto3_1_1algebra">nil::crypto3::algebra</innernamespace>
+    <innernamespace refid="db/db0/namespacenil_1_1crypto3_1_1hashes">nil::crypto3::hashes</innernamespace>
+    <innernamespace refid="d0/d25/namespacenil_1_1marshalling_1_1bincode">nil::marshalling::bincode</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d5/d9c/namespacebitcoin_1a8b8184e6bc0d00cee90cd2869f43ad57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt; std::uint8_t &gt; bitcoin::BitcoinKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</definition>
+        <argsstring>(const pubkey::public_key&lt; policy_type &gt; &amp;pub_key)</argsstring>
+        <name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</name>
+        <qualifiedname>bitcoin::ExtractPubKeyFromField&lt; std::vector&lt; std::uint8_t &gt; &gt;</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; policy_type &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" line="58" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="64" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/namespacebitcoin_1a087de1c1de454df4be7a0574fab84646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>BitcoinKeyGenerator::PubKeyPair_t</type>
+        <definition>BitcoinKeyGenerator::PubKeyPair_t bitcoin::BitcoinKeyGenerator::ExtractPubKeyFromField&lt; BitcoinKeyGenerator::PubKeyPair_t &gt;</definition>
+        <argsstring>(const pubkey::public_key&lt; policy_type &gt; &amp;pub_key)</argsstring>
+        <name>BitcoinKeyGenerator::ExtractPubKeyFromField&lt; BitcoinKeyGenerator::PubKeyPair_t &gt;</name>
+        <qualifiedname>bitcoin::ExtractPubKeyFromField&lt; BitcoinKeyGenerator::PubKeyPair_t &gt;</qualifiedname>
+        <param>
+          <type>const pubkey::public_key&lt; policy_type &gt; &amp;</type>
+          <declname>pub_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" line="80" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp" bodystart="81" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Bitcoin address generator source file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-07 Super Genius (<ulink url="mailto:ken@gnus.ai">ken@gnus.ai</ulink>) Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dd/dd3/_bitcoin_key_generator_8hpp" kindref="compound">ProofSystem/BitcoinKeyGenerator.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/algorithm/hash.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/adaptor/hashed.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/hash/ripemd.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/algebra/marshalling.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/codec/algorithm/encode.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nil/crypto3/codec/base.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::crypto3::algebra;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::crypto3::hashes;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">nil::marshalling::bincode;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d5/d9c/namespacebitcoin" kindref="compound">bitcoin</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d9c/namespacebitcoin_1ad6edfc6794d6a03896b6df57cd26cb4c" kindref="member">random_generator_type</ref><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1abb2018890022014581717c8b57d9b89b" kindref="member">BitcoinKeyGenerator::key_gen</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" kindref="member">BitcoinKeyGenerator::BitcoinKeyGenerator</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" kindref="member">privkey</ref><sp/>=<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" kindref="member">BitcoinKeyGenerator::CreateKeys</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" kindref="member">pubkey</ref><sp/><sp/>=<sp/>std::make_shared&lt;pubkey::public_key&lt;policy_type&gt;&gt;(<sp/>*privkey<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" kindref="member">address</ref><sp/>=<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">DeriveAddress</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a598fc5b8c126709b814887ee687f1612" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" kindref="member">BitcoinKeyGenerator::BitcoinKeyGenerator</ref>(<sp/>std::string_view<sp/>private_key<sp/>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>priv_key_vector;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>priv_key_vector<sp/>=<sp/><ref refid="d6/d72/namespaceutil_1ac4a71008372eea0d50c92d60198eca31" kindref="member">util::HexASCII2NumStr&lt;std::uint8_t&gt;</ref>(<sp/>private_key<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>my_value<sp/>=</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;scalar_field_type&gt;::field_element_from_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>priv_key_vector.begin(),<sp/>priv_key_vector.end()<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" kindref="member">privkey</ref><sp/>=<sp/>std::make_shared&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;(<sp/>my_value.second<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" kindref="member">pubkey</ref><sp/><sp/>=<sp/>std::make_shared&lt;pubkey::public_key&lt;policy_type&gt;&gt;(<sp/>*privkey<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" kindref="member">address</ref><sp/>=<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">DeriveAddress</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a3e8be5c00825e764414be31bb121b032" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1af1eb62cb025032b3a4d607f615f4e127" kindref="member">BitcoinKeyGenerator::BitcoinKeyGenerator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/d9c/namespacebitcoin_1ab4a0977da9896055192f436273b61e8b" kindref="member">scalar_field_value_type</ref><sp/>&amp;private_key<sp/>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a65f04ccca3f75f21fb8b58ba25a16cfc" kindref="member">privkey</ref><sp/>=<sp/>std::make_shared&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;(<sp/>private_key<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" kindref="member">pubkey</ref><sp/><sp/>=<sp/>std::make_shared&lt;pubkey::public_key&lt;policy_type&gt;&gt;(<sp/>*privkey<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a197779e6678a2b6a72197906f4afd1f6" kindref="member">address</ref><sp/>=<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">DeriveAddress</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a044f5aaffbb0695e53610a5e31c3e86b" kindref="member">BitcoinKeyGenerator::CreateKeys</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_shared&lt;pubkey::ext_private_key&lt;policy_type&gt;&gt;(<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1abb2018890022014581717c8b57d9b89b" kindref="member">BitcoinKeyGenerator::key_gen</ref>()<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" kindref="member">BitcoinKeyGenerator::ExtractPubKeyFromField&lt;std::vector&lt;std::uint8_t&gt;</ref>&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;policy_type&gt;<sp/>&amp;pub_key<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>x_y_ser(<sp/>(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>)<sp/>*<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().Y.data,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_y_ser.begin(),<sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().X.data,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2,<sp/>x_y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>middle_pos<sp/>=<sp/>x_y_ser.begin()<sp/>+<sp/>x_y_ser.size()<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_y_ser,<sp/>x_y_ser.begin(),<sp/>middle_pos<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_y_ser,<sp/>middle_pos,<sp/>x_y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x_y_ser;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="80" refid="d5/d9c/namespacebitcoin_1a087de1c1de454df4be7a0574fab84646" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a21fe7833d2259880566f56c403894b4a" kindref="member">BitcoinKeyGenerator::PubKeyPair_t</ref></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" kindref="member">BitcoinKeyGenerator::ExtractPubKeyFromField&lt;BitcoinKeyGenerator::PubKeyPair_t&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pubkey::public_key&lt;policy_type&gt;<sp/>&amp;pub_key<sp/>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>x_ser(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>y_ser(<sp/>base_field_type::number_bits<sp/>/<sp/>8<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().X.data,<sp/>x_ser.begin(),</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field&lt;base_field_type&gt;::field_element_to_bytes&lt;std::vector&lt;std::uint8_t&gt;::iterator&gt;(<sp/>pub_key.pubkey_data().to_affine().Y.data,<sp/>y_ser.begin(),</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y_ser.end()<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>x_ser<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d72/namespaceutil_1a635206695a0eb931b47aef3dbacf46b0" kindref="member">util::AdjustEndianess</ref>(<sp/>y_ser<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_pair(x_ser,y_ser);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a06d2e40d188bf4deb26fd9ad6e3d7870" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">BitcoinKeyGenerator::DeriveAddress</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::uint8_t&gt;<sp/>&amp;pub_key_vect<sp/>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::uint8_t&gt;<sp/>work_vect(<sp/>pub_key_vect<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_vect.push_back(<sp/><sp/>(<sp/>pub_key_vect.front()<sp/>%<sp/>2<sp/>)<sp/>==<sp/>0<sp/>?<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a8c3e098d55f3002c183e15b5564a0797" kindref="member">PARITY_EVEN_ID</ref><sp/>:<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a410d091c283ef61803b3fb466e2454c8" kindref="member">PARITY_ODD_ID</ref><sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;uint8_t,<sp/>32&gt;<sp/>derivation_hash<sp/>=<sp/>hash&lt;derivation_hash_type&gt;(<sp/>work_vect.rbegin(),<sp/>work_vect.rend()<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;uint8_t,<sp/>20&gt;<sp/>ripemd_hash<sp/><sp/><sp/><sp/><sp/>=<sp/>hash&lt;hashes::ripemd160&gt;(<sp/>derivation_hash<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_vect<sp/>=<sp/>std::vector(<sp/>ripemd_hash.cbegin(),<sp/>ripemd_hash.cend()<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_vect.insert(<sp/>work_vect.begin(),<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a526f0d4938c9e44b0bae7a6edaff120e" kindref="member">MAIN_NETWORK_ID</ref><sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;std::uint8_t,<sp/>32&gt;<sp/>checksum<sp/>=<sp/>hash&lt;derivation_hash_type&gt;(<sp/>work_vect<sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>hash&lt;derivation_hash_type&gt;(<sp/>checksum<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>work_vect.insert(<sp/>work_vect.end(),<sp/>checksum.begin(),<sp/>checksum.begin()<sp/>+<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a38deb9b3979673b48a689a42d1bd3b51" kindref="member">CHECKSUM_SIZE_BYTES</ref><sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>encode&lt;nil::crypto3::codec::base58&gt;(<sp/>work_vect<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">BitcoinKeyGenerator::DeriveAddress</ref>(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pubkey_data_pair<sp/>=<sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ac235aa15587acf053dca9ab8d27f978b" kindref="member">ExtractPubKeyFromField&lt;PubKeyPair_t&gt;</ref>(<sp/>*<ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1ad7586a3a88fd76d25e83e394670f0e85" kindref="member">pubkey</ref><sp/>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a6d3fe595562871a00dd5f1712b48162a" kindref="member">pubkey_info</ref><sp/>=<sp/>std::make_shared&lt;BitcoinECDSAPublicKey&gt;(<sp/>std::get&lt;0&gt;(pubkey_data_pair),<sp/>std::get&lt;1&gt;(pubkey_data_pair)<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d9d/classbitcoin_1_1_bitcoin_key_generator_1a5376c9ac871747789229c27f49d86713" kindref="member">DeriveAddress</ref>(<sp/>std::get&lt;0&gt;(pubkey_data_pair)<sp/>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/BitcoinKeyGenerator.cpp"/>
+  </compounddef>
+</doxygen>

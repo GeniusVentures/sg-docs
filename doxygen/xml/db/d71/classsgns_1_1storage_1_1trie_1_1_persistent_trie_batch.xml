@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/trie_batches.hpp" line="36" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/trie_batches.hpp" line="36" column="29"/>
       </memberdef>
       <memberdef kind="function" id="db/d71/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_1a8afe5ddcd593d936317f3e7d4ca38db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::unique_ptr&lt; <ref refid="d2/d7a/classsgns_1_1storage_1_1trie_1_1_topper_trie_batch" kindref="compound">TopperTrieBatch</ref> &gt;</type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/storage/trie/trie_batches.hpp" line="41" column="29"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/trie_batches.hpp" line="41" column="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -165,7 +165,7 @@
         <label>std::enable_shared_from_this&lt; PersistentTrieBatch &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="src/storage/trie/trie_batches.hpp" line="28" column="3" bodyfile="src/storage/trie/trie_batches.hpp" bodystart="30" bodyend="42"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/trie_batches.hpp" line="28" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/trie_batches.hpp" bodystart="30" bodyend="42"/>
     <listofallmembers>
       <member refid="db/d71/classsgns_1_1storage_1_1trie_1_1_persistent_trie_batch_1a8afe5ddcd593d936317f3e7d4ca38db7" prot="public" virt="pure-virtual"><scope>sgns::storage::trie::PersistentTrieBatch</scope><name>batchOnTop</name></member>
       <member refid="dc/d88/classsgns_1_1storage_1_1trie_1_1_trie_batch_1af3a6d09746fc3ca5dbe79b3ae1a1ae60" prot="public" virt="pure-virtual"><scope>sgns::storage::trie::PersistentTrieBatch</scope><name>clearPrefix</name></member>

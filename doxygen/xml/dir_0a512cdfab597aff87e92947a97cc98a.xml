@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
   <compounddef id="dir_0a512cdfab597aff87e92947a97cc98a" kind="dir">
-    <compoundname>src/processing</compoundname>
-    <innerdir refid="dir_54778bebe1153b8aa7626f3520e9df44">src/processing/impl</innerdir>
+    <compoundname>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing</compoundname>
+    <innerdir refid="dir_54778bebe1153b8aa7626f3520e9df44">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/impl</innerdir>
     <innerfile refid="df/d22/processing__core_8hpp">processing_core.hpp</innerfile>
     <innerfile refid="df/d3c/processing__engine_8cpp">processing_engine.cpp</innerfile>
     <innerfile refid="d3/d33/processing__engine_8hpp">processing_engine.hpp</innerfile>
@@ -33,6 +33,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/processing/"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/processing/"/>
   </compounddef>
 </doxygen>

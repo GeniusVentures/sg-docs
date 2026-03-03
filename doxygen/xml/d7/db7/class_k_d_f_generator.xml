@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d7/db7/class_k_d_f_generator" kind="class" language="C++" prot="public">
+    <compoundname>KDFGenerator</compoundname>
+    <includes refid="d1/dec/_k_d_f_generator_8hpp" local="no">KDFGenerator.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename PolicyType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" prot="public" static="no">
+        <type>typename ecdsa_t::pubkey::public_key&lt; PolicyType &gt;::signature_type</type>
+        <definition>using KDFGenerator&lt; PolicyType &gt;::SignatureType = typename ecdsa_t::pubkey::public_key&lt;PolicyType&gt;::signature_type</definition>
+        <argsstring></argsstring>
+        <name>SignatureType</name>
+        <qualifiedname>KDFGenerator::SignatureType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="31" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using KDFGenerator&lt; PolicyType &gt;::ECDSAPubKey = std::string</definition>
+        <argsstring></argsstring>
+        <name>ECDSAPubKey</name>
+        <qualifiedname>KDFGenerator::ECDSAPubKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="32" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d7/db7/class_k_d_f_generator_1a959973c1385d8c86745c0ba912699cf2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t KDFGenerator&lt; PolicyType &gt;::EXPECTED_SECRET_SIZE</definition>
+        <argsstring></argsstring>
+        <name>EXPECTED_SECRET_SIZE</name>
+        <qualifiedname>KDFGenerator::EXPECTED_SECRET_SIZE</qualifiedname>
+        <initializer>= 192</initializer>
+        <briefdescription>
+<para>Expected size of the signature in bytes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="34" column="34" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d7/d5e/class_encryption" kindref="compound">Encryption</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Encryption&gt; KDFGenerator&lt; PolicyType &gt;::encryptor</definition>
+        <argsstring></argsstring>
+        <name>encryptor</name>
+        <qualifiedname>KDFGenerator::encryptor</qualifiedname>
+        <briefdescription>
+<para>The encryptor used by KDF to hide the shared secret. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="80" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KDFGenerator&lt; PolicyType &gt;::KDFGenerator</definition>
+        <argsstring>(const ecdsa_t::pubkey::ext_private_key&lt; PolicyType &gt; &amp;own_prvt_key, const ECDSAPubKey &amp;other_party_key)</argsstring>
+        <name>KDFGenerator</name>
+        <qualifiedname>KDFGenerator::KDFGenerator</qualifiedname>
+        <param>
+          <type>const ecdsa_t::pubkey::ext_private_key&lt; PolicyType &gt; &amp;</type>
+          <declname>own_prvt_key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref> &amp;</type>
+          <declname>other_party_key</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="d7/db7/class_k_d_f_generator" kindref="compound">KDFGenerator</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">own_prvt_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The private key from the owner of the instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">other_party_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The public key data from the other party </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="41" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string KDFGenerator&lt; PolicyType &gt;::GenerateSharedSecret</definition>
+        <argsstring>(const ecdsa_t::pubkey::ext_private_key&lt; PolicyType &gt; &amp;own_prvt_key, const ECDSAPubKey &amp;other_party_key)</argsstring>
+        <name>GenerateSharedSecret</name>
+        <qualifiedname>KDFGenerator::GenerateSharedSecret</qualifiedname>
+        <param>
+          <type>const ecdsa_t::pubkey::ext_private_key&lt; PolicyType &gt; &amp;</type>
+          <declname>own_prvt_key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref> &amp;</type>
+          <declname>other_party_key</declname>
+        </param>
+        <briefdescription>
+<para>Generates a shared secret with a new derived key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">own_prvt_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to sign the secret </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">other_party_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public key of other party </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The secret that represents the signed data and new derived key </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="49" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="90" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d3b/namespaceecdsa__t_1aa625c925d938088ea5085b591f95aa53" kindref="member">ecdsa_t::scalar_field_value_type</ref></type>
+        <definition>ecdsa_t::scalar_field_value_type KDFGenerator&lt; PolicyType &gt;::GetNewKeyFromSecret</definition>
+        <argsstring>(std::string_view signed_secret, const ECDSAPubKey &amp;signer_pubkey, const ECDSAPubKey &amp;verifier_pubkey)</argsstring>
+        <name>GetNewKeyFromSecret</name>
+        <qualifiedname>KDFGenerator::GetNewKeyFromSecret</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>signed_secret</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref> &amp;</type>
+          <declname>signer_pubkey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref> &amp;</type>
+          <declname>verifier_pubkey</declname>
+        </param>
+        <briefdescription>
+<para>Extracts the derived new key from the signed secret. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">signed_secret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shared secret </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">signer_pubkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The public key data from the signer of the secret </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">verifier_pubkey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The public key data that will be checked on the signature </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>New derived key scalar value </para>
+</simplesect>
+<simplesect kind="warning"><para>If the signature can&apos;t be verified or the data decrypted, it throws a runtime exception </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="59" column="38" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="111" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db7/class_k_d_f_generator_1ab2e8a6cfbc9dcbc47bbc814b9b5d35a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool KDFGenerator&lt; PolicyType &gt;::operator==</definition>
+        <argsstring>(const KDFGenerator &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>KDFGenerator::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator" kindref="compound">KDFGenerator</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Checks if the encryptor is the same for the KDF. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The other KDF instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the encryptors are the same, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="67" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ecdsa_t::pubkey::public_key&lt; PolicyType &gt;</type>
+        <definition>ecdsa_t::pubkey::public_key&lt; PolicyType &gt; KDFGenerator&lt; PolicyType &gt;::BuildPublicKeyECDSA</definition>
+        <argsstring>(const ECDSAPubKey &amp;pubkey_data)</argsstring>
+        <name>BuildPublicKeyECDSA</name>
+        <qualifiedname>KDFGenerator::BuildPublicKeyECDSA</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" kindref="member">ECDSAPubKey</ref> &amp;</type>
+          <declname>pubkey_data</declname>
+        </param>
+        <briefdescription>
+<para>Builds the public key data type from the data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pubkey_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String representation of X+Y coordinates </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ECDSA public key object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="77" column="40" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="143" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>KDF Generator class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Encryption</label>
+        <link refid="d7/d5e/class_encryption"/>
+      </node>
+      <node id="1">
+        <label>KDFGenerator&lt; PolicyType &gt;</label>
+        <link refid="d7/db7/class_k_d_f_generator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-encryptor</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="4">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; Encryption &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Encryption &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" line="28" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/KDFGenerator.hpp" bodystart="29" bodyend="81"/>
+    <listofallmembers>
+      <member refid="d7/db7/class_k_d_f_generator_1a6628327dbd4ab330ff87c3826dc3cebd" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>BuildPublicKeyECDSA</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1a05c75641f0b86307e265cfdc5cdc627c" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>ECDSAPubKey</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1afab7619106f07500da3a521afde4bdbd" prot="private" virt="non-virtual"><scope>KDFGenerator</scope><name>encryptor</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1a959973c1385d8c86745c0ba912699cf2" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>EXPECTED_SECRET_SIZE</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1a1491e7cdad133c8af551cb42fc0c2e63" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>GenerateSharedSecret</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1aa01843f40f890bdb1a4f44bc85e37e72" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>GetNewKeyFromSecret</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1a01ea7fbbba04d9d2cf0d33a9228a3d76" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>KDFGenerator</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1ab2e8a6cfbc9dcbc47bbc814b9b5d35a0" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>operator==</name></member>
+      <member refid="d7/db7/class_k_d_f_generator_1a153fd045308a0c6e73af654ce8438f37" prot="public" virt="non-virtual"><scope>KDFGenerator</scope><name>SignatureType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

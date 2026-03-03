@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="da/d09/class_super_genius_demo_app" kind="class" language="C++" prot="public">
+    <compoundname>SuperGeniusDemoApp</compoundname>
+    <includes refid="d7/d0a/_super_genius_demo_app_8hpp" local="no">SuperGeniusDemoApp.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/d09/class_super_genius_demo_app_1aa5061e193f72455e1ef69c4208db4435" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d6/d85/classsgns_1_1application_1_1_app_configuration" kindref="compound">sgns::application::AppConfiguration</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;sgns::application::AppConfiguration&gt; SuperGeniusDemoApp::cfg</definition>
+        <argsstring></argsstring>
+        <name>cfg</name>
+        <qualifiedname>SuperGeniusDemoApp::cfg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="27" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d09/class_super_genius_demo_app_1aa3df151dcd88daabd6eac5f341202408" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="de/de2/classsgns_1_1application_1_1_validating_node_application" kindref="compound">sgns::application::ValidatingNodeApplication</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;sgns::application::ValidatingNodeApplication&gt; SuperGeniusDemoApp::validation_node</definition>
+        <argsstring></argsstring>
+        <name>validation_node</name>
+        <qualifiedname>SuperGeniusDemoApp::validation_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="28" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d09/class_super_genius_demo_app_1a36b4792175a413945aac6cd2ba9a97c1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d9/d25/classsgns_1_1application_1_1_syncing_node_application" kindref="compound">sgns::application::SyncingNodeApplication</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;sgns::application::SyncingNodeApplication&gt; SuperGeniusDemoApp::syncingNode</definition>
+        <argsstring></argsstring>
+        <name>syncingNode</name>
+        <qualifiedname>SuperGeniusDemoApp::syncingNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="29" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d09/class_super_genius_demo_app_1aa92eacf7949d8858d20deaa3e7235c3c" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="da/dd5/classsgns_1_1application_1_1_bridging_node_application" kindref="compound">sgns::application::BridgingNodeApplication</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;sgns::application::BridgingNodeApplication&gt; SuperGeniusDemoApp::bridgingNode</definition>
+        <argsstring></argsstring>
+        <name>bridgingNode</name>
+        <qualifiedname>SuperGeniusDemoApp::bridgingNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="30" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d09/class_super_genius_demo_app_1a8304bfe0d38cb9133fc7e386a2b01093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SuperGeniusDemoApp::SuperGeniusDemoApp</definition>
+        <argsstring>()</argsstring>
+        <name>SuperGeniusDemoApp</name>
+        <qualifiedname>SuperGeniusDemoApp::SuperGeniusDemoApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d09/class_super_genius_demo_app_1a3842b7467b5d300361e511248eeb3deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SuperGeniusDemoApp::~SuperGeniusDemoApp</definition>
+        <argsstring>()</argsstring>
+        <name>~SuperGeniusDemoApp</name>
+        <qualifiedname>SuperGeniusDemoApp::~SuperGeniusDemoApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="21" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d09/class_super_genius_demo_app_1a1701846263a1668e396a8034fbdbfd7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SuperGeniusDemoApp::init</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>init</name>
+        <qualifiedname>SuperGeniusDemoApp::init</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="22" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp" bodystart="22" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d09/class_super_genius_demo_app_1a104771934b14a3e66761595b62d28a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SuperGeniusDemoApp::run</definition>
+        <argsstring>(void)</argsstring>
+        <name>run</name>
+        <qualifiedname>SuperGeniusDemoApp::run</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="23" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d09/class_super_genius_demo_app_1aa42bfc015ee54f1abccf1aec33174ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SuperGeniusDemoApp::exit</definition>
+        <argsstring>(void)</argsstring>
+        <name>exit</name>
+        <qualifiedname>SuperGeniusDemoApp::exit</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="24" column="10" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>IComponent</label>
+        <link refid="d1/dbf/class_i_component"/>
+      </node>
+      <node id="1">
+        <label>SuperGeniusDemoApp</label>
+        <link refid="da/d09/class_super_genius_demo_app"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-cfg</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-validation_node</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>-syncingNode</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>-bridgingNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>T</label>
+      </node>
+      <node id="3">
+        <label>sgns::application::AppConfiguration</label>
+        <link refid="d6/d85/classsgns_1_1application_1_1_app_configuration"/>
+      </node>
+      <node id="10">
+        <label>sgns::application::AppStateManager</label>
+        <link refid="d4/d75/classsgns_1_1application_1_1_app_state_manager"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>sgns::application::BridgingNodeApplication</label>
+        <link refid="da/dd5/classsgns_1_1application_1_1_bridging_node_application"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>-evmWatcher</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>-wsContext</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>-wsThreadPool</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>-rpcService</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>sgns::application::ConfigurationStorage</label>
+        <link refid="d7/de2/classsgns_1_1application_1_1_configuration_storage"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>sgns::application::KeyStorage</label>
+        <link refid="d5/ddb/classsgns_1_1application_1_1_key_storage"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>sgns::application::SgnsApplication</label>
+        <link refid="da/d1d/classsgns_1_1application_1_1_sgns_application"/>
+      </node>
+      <node id="25">
+        <label>sgns::application::SyncingNodeApplication</label>
+        <link refid="d9/d25/classsgns_1_1application_1_1_syncing_node_application"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>-injector_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-app_state_manager_</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>-logger_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>sgns::application::ValidatingNodeApplication</label>
+        <link refid="de/de2/classsgns_1_1application_1_1_validating_node_application"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-app_state_manager_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-io_context_</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>-config_storage_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>-key_storage_</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>-clock_</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>-production_</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>-finality_</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>-router_</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>-jrpc_api_service_</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>-logger_</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>std::enable_shared_from_this&lt; AppStateManager &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>std::shared_ptr&lt; AppConfiguration &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; AppConfiguration &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="20">
+        <label>std::shared_ptr&lt; Finality &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Finality &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>std::shared_ptr&lt; Production &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Production &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>std::shared_ptr&lt; RpcService &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; RpcService &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="31">
+        <label>std::shared_ptr&lt; WsContext &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; WsContext &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>std::shared_ptr&lt; WsThreadPool &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; WsThreadPool &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>std::shared_ptr&lt; api::ApiService &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; api::ApiService &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::shared_ptr&lt; boost::asio::io_context &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; boost::asio::io_context &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>std::shared_ptr&lt; clock::SystemClock &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; clock::SystemClock &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>std::shared_ptr&lt; network::Router &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; network::Router &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; sgns::application::AppConfiguration &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::AppConfiguration &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::shared_ptr&lt; sgns::application::AppStateManager &gt;</label>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::AppStateManager &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="27">
+        <label>std::shared_ptr&lt; sgns::application::BridgingNodeApplication &gt;</label>
+        <childnode refid="28" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::BridgingNodeApplication &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::shared_ptr&lt; sgns::application::ConfigurationStorage &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::ConfigurationStorage &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>std::shared_ptr&lt; sgns::application::KeyStorage &gt;</label>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::KeyStorage &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>std::shared_ptr&lt; sgns::application::SyncingNodeApplication &gt;</label>
+        <childnode refid="25" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::SyncingNodeApplication &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::shared_ptr&lt; sgns::application::ValidatingNodeApplication &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; sgns::application::ValidatingNodeApplication &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>std::unique_ptr&lt; T &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="29">
+        <label>std::unique_ptr&lt; EvmMessagingWatcher &gt;</label>
+        <childnode refid="30" relation="template-instance">
+          <edgelabel>&lt; EvmMessagingWatcher &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" line="17" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/SuperGeniusDemoApp.hpp" bodystart="18" bodyend="31"/>
+    <listofallmembers>
+      <member refid="da/d09/class_super_genius_demo_app_1aa92eacf7949d8858d20deaa3e7235c3c" prot="private" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>bridgingNode</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1aa5061e193f72455e1ef69c4208db4435" prot="private" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>cfg</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1aa42bfc015ee54f1abccf1aec33174ce7" prot="public" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>exit</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1a1701846263a1668e396a8034fbdbfd7c" prot="public" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>init</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1a104771934b14a3e66761595b62d28a1a" prot="public" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>run</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1a8304bfe0d38cb9133fc7e386a2b01093" prot="public" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>SuperGeniusDemoApp</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1a36b4792175a413945aac6cd2ba9a97c1" prot="private" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>syncingNode</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1aa3df151dcd88daabd6eac5f341202408" prot="private" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>validation_node</name></member>
+      <member refid="da/d09/class_super_genius_demo_app_1a3842b7467b5d300361e511248eeb3deb" prot="public" virt="non-virtual"><scope>SuperGeniusDemoApp</scope><name>~SuperGeniusDemoApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

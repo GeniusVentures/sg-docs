@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/d47/classsgns_1_1_system_api_factory" kind="class" language="C++" prot="public">
+    <compoundname>sgns::SystemApiFactory</compoundname>
+    <includes refid="df/d76/_system_api_factory_8hpp" local="no">SystemApiFactory.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d47/classsgns_1_1_system_api_factory_1a2a70382144aca3579c1a2901752b9dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; api::SystemApi &gt;</type>
+        <definition>std::shared_ptr&lt; api::SystemApi &gt; sgns::SystemApiFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>sgns::SystemApiFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp" line="22" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp" bodystart="22" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::SystemApiFactory</label>
+        <link refid="df/d47/classsgns_1_1_system_api_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp" line="18" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SystemApiFactory.hpp" bodystart="19" bodyend="35"/>
+    <listofallmembers>
+      <member refid="df/d47/classsgns_1_1_system_api_factory_1a2a70382144aca3579c1a2901752b9dea" prot="public" virt="non-virtual"><scope>sgns::SystemApiFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

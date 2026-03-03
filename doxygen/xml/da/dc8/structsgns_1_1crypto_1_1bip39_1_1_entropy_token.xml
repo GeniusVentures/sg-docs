@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crypto/bip39/entropy_accumulator.hpp" line="20" column="5" bodyfile="src/crypto/bip39/entropy_accumulator.hpp" bodystart="20" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" line="20" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -46,7 +46,7 @@
         <label>std::bitset&lt; Bits &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="src/crypto/bip39/entropy_accumulator.hpp" line="19" column="3" bodyfile="src/crypto/bip39/entropy_accumulator.hpp" bodystart="19" bodyend="22"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" line="19" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/entropy_accumulator.hpp" bodystart="19" bodyend="22"/>
     <listofallmembers>
       <member refid="da/dc8/structsgns_1_1crypto_1_1bip39_1_1_entropy_token_1a7a59e9102c939cb7b69198848bbc34f9" prot="public" virt="non-virtual"><scope>sgns::crypto::bip39::EntropyToken</scope><name>Parent</name></member>
     </listofallmembers>

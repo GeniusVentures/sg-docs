@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/dff/_el_gamal_key_generator_8cpp" kind="file" language="C++">
+    <compoundname>ElGamalKeyGenerator.cpp</compoundname>
+    <includes refid="df/d7b/_el_gamal_key_generator_8hpp" local="no">ProofSystem/ElGamalKeyGenerator.hpp</includes>
+    <includes refid="d4/d45/_crypto3_util_8hpp" local="no">ProofSystem/Crypto3Util.hpp</includes>
+    <incdepgraph>
+      <node id="11">
+        <label>ProofSystem/Crypto3Util.hpp</label>
+        <link refid="d4/d45/_crypto3_util_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ProofSystem/ElGamalKeyGenerator.hpp</label>
+        <link refid="df/d7b/_el_gamal_key_generator_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ProofSystem/PrimeNumbers.hpp</label>
+        <link refid="d0/d90/_prime_numbers_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp</label>
+        <link refid="d6/dff/_el_gamal_key_generator_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ctime</label>
+      </node>
+      <node id="3">
+        <label>memory</label>
+      </node>
+      <node id="8">
+        <label>nil/crypto3/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="10">
+        <label>nil/crypto3/multiprecision/cpp_int/literals.hpp</label>
+      </node>
+      <node id="9">
+        <label>nil/crypto3/multiprecision/miller_rabin.hpp</label>
+      </node>
+      <node id="7">
+        <label>unordered_map</label>
+      </node>
+      <node id="4">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Source file of El Gamal Key Generator module. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2024-01-29 Henrique A. Klein (<ulink url="mailto:henryaklein@gmail.com">henryaklein@gmail.com</ulink>) </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="df/d7b/_el_gamal_key_generator_8hpp" kindref="compound">ProofSystem/ElGamalKeyGenerator.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="d4/d45/_crypto3_util_8hpp" kindref="compound">ProofSystem/Crypto3Util.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d15/namespace_key_generator" kindref="compound">KeyGenerator</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="da/d91/class_key_generator_1_1_el_gamal_1a81cd2b1388d699ecb492fcdcd47347b8" refkind="member"><highlight class="normal"><ref refid="da/d91/class_key_generator_1_1_el_gamal_1af920815a9b7f49f344b66f35fcede8f4" kindref="member">ElGamal::ElGamal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">Params</ref><sp/>&amp;params,<sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>private_key_value<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" kindref="member">private_key</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" kindref="compound">PrivateKey</ref>&gt;(<sp/>params,<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::move(<sp/>private_key_value<sp/>)<sp/>)<sp/>),<sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a8faffff7873e6c82ab8e02b6f384dbe2" kindref="member">public_key</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kindref="compound">PublicKey</ref>&gt;(<sp/>*<ref refid="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" kindref="member">private_key</ref><sp/>)<sp/>),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a03ee2a743b6eeaeea486f4c5a9fb0c3e" kindref="member">bsgs_instance</ref>(<sp/><ref refid="d8/dcc/namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="df/d94/class_prime_numbers" kindref="compound">PrimeNumbers</ref>::BabyStepGiantStep&gt;(<sp/>params.prime_number,<sp/>params.generator<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a6b9ae358f1b3e9157737ed486d3550b5" kindref="member">ElGamal::~ElGamal</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" refkind="member"><highlight class="normal"><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">ElGamal::CypherTextType</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" kindref="member">ElGamal::EncryptData</ref>(<sp/><ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kindref="compound">PublicKey</ref><sp/>&amp;pubkey,<sp/>std::vector&lt;uint8_t&gt;<sp/>&amp;data_vector<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>message<sp/>=<sp/><ref refid="dc/d29/struct_crypto3_util_1a402ddc1f85f4cd6208deea09658e9592" kindref="member">Crypto3Util::BytesToCppInt</ref>(<sp/>data_vector<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" kindref="member">EncryptData</ref>(<sp/>pubkey,<sp/>message<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="da/d91/class_key_generator_1_1_el_gamal_1a63f7027c5844c9e5eb35c7a43087dff1" refkind="member"><highlight class="normal"><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">ElGamal::CypherTextType</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" kindref="member">ElGamal::EncryptData</ref>(<sp/><ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kindref="compound">PublicKey</ref><sp/>&amp;pubkey,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>&amp;data<sp/>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>random_value<sp/>=<sp/><ref refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" kindref="member">PrimeNumbers::GetRandomNumber</ref>(<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>a<sp/>=<sp/>powm(<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a670e9569717076e36e72ea517deb6c59" kindref="member">generator</ref>,<sp/>random_value,<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>b<sp/>=<sp/>powm(<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1a3a28a47008c67e41d4420bdca3c851d1" kindref="member">public_key_value</ref>,<sp/>random_value,<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>*=<sp/>data;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>%=<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kindref="member">prime_number</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_pair(<sp/>a,<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="da/d91/class_key_generator_1_1_el_gamal_1ae4d8840f7280a78f47d1215cca542a45" refkind="member"><highlight class="normal"><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">ElGamal::CypherTextType</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1ae4d8840f7280a78f47d1215cca542a45" kindref="member">ElGamal::EncryptDataAdditive</ref>(<sp/><ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kindref="compound">PublicKey</ref><sp/>&amp;pubkey,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>&amp;data<sp/>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>data_to_encrypt<sp/>=<sp/>powm(<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1a670e9569717076e36e72ea517deb6c59" kindref="member">generator</ref>,<sp/>data,<sp/>pubkey.<ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key_1acf40ea1eab4514b6fdc72829af41d706" kindref="member">params</ref>.<ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params_1ade70b794864a93f4efea14bc2240cff7" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a2fb9b734e8357655b06f6ac34f38cea2" kindref="member">EncryptData</ref>(<sp/>pubkey,<sp/>data_to_encrypt<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="49" refid="da/d91/class_key_generator_1_1_el_gamal_1a0080511d918f163ee7ffe6dac096e2f3" refkind="member"><highlight class="normal"><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" kindref="member">ElGamal::DecryptData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" kindref="compound">PrivateKey</ref><sp/>&amp;prvkey,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref><sp/>&amp;encrypted_data<sp/>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pubkey<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal"><ref refid="d1/d45/struct_key_generator_1_1_el_gamal_1_1_public_key" kindref="compound">PublicKey</ref><sp/>&amp;</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>prvkey<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>mod_inverse<sp/>=<sp/><ref refid="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" kindref="member">PrimeNumbers::ModInverseEuclideanDivision</ref>(<sp/>encrypted_data.first,<sp/>pubkey.params.prime_number<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>m<sp/>=<sp/>powm(<sp/>mod_inverse,<sp/>prvkey.<ref refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key_1a19166bc5bc4e5b3d09d7b4df66724df5" kindref="member">GetPrivateKeyScalar</ref>(),<sp/>pubkey.params.prime_number<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>*=<sp/>encrypted_data.second;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>%=<sp/>pubkey.params.prime_number;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="63" refid="da/d91/class_key_generator_1_1_el_gamal_1afc5899b7e26cd2f8ccfc91d93d8dfa8b" refkind="member"><highlight class="normal">std::vector&lt;uint8_t&gt;<sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" kindref="member">ElGamal::DecryptData</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" kindref="compound">PrivateKey</ref><sp/>&amp;prvkey,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref><sp/>&amp;encrypted_data<sp/>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" kindref="member">DecryptData&lt;cpp_int&gt;</ref>(<sp/>prvkey,<sp/>encrypted_data<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>retval<sp/>=<sp/><ref refid="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" kindref="member">Crypto3Util::CppIntToBytes</ref>(<sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" refkind="member"><highlight class="normal"><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" kindref="member">ElGamal::DecryptDataAdditive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref><sp/>&amp;encrypted_data<sp/>)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" kindref="member">DecryptDataAdditive</ref>(<sp/>*this-&gt;<ref refid="da/d91/class_key_generator_1_1_el_gamal_1a18defcb79d78c88a0f77543e1f0b0f8e" kindref="member">private_key</ref>,<sp/>encrypted_data,<sp/>*this-&gt;<ref refid="da/d91/class_key_generator_1_1_el_gamal_1a03ee2a743b6eeaeea486f4c5a9fb0c3e" kindref="member">bsgs_instance</ref><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="da/d91/class_key_generator_1_1_el_gamal_1af5ed405437a89e48e59d55421e6ea11d" refkind="member"><highlight class="normal"><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a4883006759722adf17c8127b26a3e16b" kindref="member">ElGamal::DecryptDataAdditive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/d88/struct_key_generator_1_1_el_gamal_1_1_private_key" kindref="compound">PrivateKey</ref><sp/>&amp;prvkey,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9781d206b9d4740def55bdfb394f1c1a" kindref="member">CypherTextType</ref><sp/>&amp;encrypted_data,<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step" kindref="compound">PrimeNumbers::BabyStepGiantStep</ref><sp/>&amp;bsgs<sp/>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>m<sp/>=<sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1a9d12388f6f9f66faaf516bef66d03fc7" kindref="member">DecryptData&lt;cpp_int&gt;</ref>(<sp/>prvkey,<sp/>encrypted_data<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bsgs.<ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" kindref="member">SolveECDLP</ref>(<sp/>m<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="da/d91/class_key_generator_1_1_el_gamal_1ad4b1e04a6498f3508ffbd4bd295567ee" refkind="member"><highlight class="normal"><ref refid="d3/d38/struct_key_generator_1_1_el_gamal_1_1_params" kindref="compound">ElGamal::Params</ref><sp/><ref refid="da/d91/class_key_generator_1_1_el_gamal_1ad4b1e04a6498f3508ffbd4bd295567ee" kindref="member">ElGamal::CreateGeneratorParams</ref>()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>prime_number<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/><ref refid="df/d94/class_prime_numbers_1a8c1a484ca3977c90868c9c9f225ebf5f" kindref="member">PrimeNumbers::GenerateSafePrime&lt;256&gt;</ref>(<sp/>10,<sp/>prime_number<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!ret<sp/>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<sp/></highlight><highlight class="stringliteral">&quot;Prime<sp/>number<sp/>not<sp/>found&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d15/namespace_key_generator_1a8020d5bc4785b21df1e68442592bf58c" kindref="member">cpp_int</ref><sp/>generator<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" kindref="member">PrimeNumbers::GetGeneratorFromPrime</ref>(<sp/>100,<sp/>prime_number,<sp/>generator<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!ret<sp/>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<sp/></highlight><highlight class="stringliteral">&quot;Generator<sp/>not<sp/>found&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>prime_number,<sp/>generator<sp/>};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/ElGamalKeyGenerator.cpp"/>
+  </compounddef>
+</doxygen>

@@ -12,7 +12,7 @@
     <includes refid="de/d4a/_i_basic_proof_8hpp" local="yes">IBasicProof.hpp</includes>
     <includes refid="d5/d20/_transfer_proof_8hpp" local="yes">TransferProof.hpp</includes>
     <includes refid="dc/d87/_recursive_transaction_circuit_8hpp" local="yes">circuits/RecursiveTransactionCircuit.hpp</includes>
-    <includedby refid="df/db6/_recursive_transfer_proof_8cpp" local="yes">src/proof/RecursiveTransferProof.cpp</includedby>
+    <includedby refid="df/db6/_recursive_transfer_proof_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp</includedby>
     <incdepgraph>
       <node id="27">
         <label>outcome/outcome.hpp</label>
@@ -139,7 +139,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/proof/RecursiveTransferProof.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp</label>
         <link refid="d7/d6d/_recursive_transfer_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -317,11 +317,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/proof/RecursiveTransferProof.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.cpp</label>
         <link refid="df/db6/_recursive_transfer_proof_8cpp"/>
       </node>
       <node id="1">
-        <label>src/proof/RecursiveTransferProof.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp</label>
         <link refid="d7/d6d/_recursive_transfer_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -400,6 +400,6 @@
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="src/proof/RecursiveTransferProof.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/RecursiveTransferProof.hpp"/>
   </compounddef>
 </doxygen>

@@ -63,7 +63,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/crypto/bip39/impl/bip39_provider_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/impl/bip39_provider_impl.cpp</label>
         <link refid="d4/d53/bip39__provider__impl_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -204,6 +204,6 @@
 <codeline lineno="51"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::crypto</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/crypto/bip39/impl/bip39_provider_impl.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/crypto/bip39/impl/bip39_provider_impl.cpp"/>
   </compounddef>
 </doxygen>

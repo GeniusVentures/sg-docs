@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d6/dfe/class_extrinsic_observer_factory" kind="class" language="C++" prot="public">
+    <compoundname>ExtrinsicObserverFactory</compoundname>
+    <includes refid="d3/d92/_extrinsic_observer_factory_8hpp" local="no">ExtrinsicObserverFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/dfe/class_extrinsic_observer_factory_1ad846383fb2160c8661a2a8e45a807526" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::network::ExtrinsicObserver &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::network::ExtrinsicObserver &gt; ExtrinsicObserverFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>ExtrinsicObserverFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp" line="17" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp" bodystart="17" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ExtrinsicObserverFactory</label>
+        <link refid="d6/dfe/class_extrinsic_observer_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/ExtrinsicObserverFactory.hpp" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d6/dfe/class_extrinsic_observer_factory_1ad846383fb2160c8661a2a8e45a807526" prot="public" virt="non-virtual"><scope>ExtrinsicObserverFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

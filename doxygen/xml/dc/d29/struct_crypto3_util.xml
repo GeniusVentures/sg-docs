@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dc/d29/struct_crypto3_util" kind="struct" language="C++" prot="public">
+    <compoundname>Crypto3Util</compoundname>
+    <includes refid="d4/d45/_crypto3_util_8hpp" local="no">Crypto3Util.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d29/struct_crypto3_util_1a402ddc1f85f4cd6208deea09658e9592" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>nil::crypto3::multiprecision::cpp_int</type>
+        <definition>static nil::crypto3::multiprecision::cpp_int Crypto3Util::BytesToCppInt</definition>
+        <argsstring>(std::vector&lt; std::uint8_t &gt; &amp;bytes)</argsstring>
+        <name>BytesToCppInt</name>
+        <qualifiedname>Crypto3Util::BytesToCppInt</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::uint8_t &gt; &amp;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="14" column="50" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="14" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>static std::vector&lt; std::uint8_t &gt; Crypto3Util::CppIntToBytes</definition>
+        <argsstring>(nil::crypto3::multiprecision::cpp_int &amp;big_num)</argsstring>
+        <name>CppIntToBytes</name>
+        <qualifiedname>Crypto3Util::CppIntToBytes</qualifiedname>
+        <param>
+          <type>nil::crypto3::multiprecision::cpp_int &amp;</type>
+          <declname>big_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="24" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="24" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Crypto3Util</label>
+        <link refid="dc/d29/struct_crypto3_util"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" line="11" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/Crypto3Util.hpp" bodystart="12" bodyend="35"/>
+    <listofallmembers>
+      <member refid="dc/d29/struct_crypto3_util_1a402ddc1f85f4cd6208deea09658e9592" prot="public" virt="non-virtual"><scope>Crypto3Util</scope><name>BytesToCppInt</name></member>
+      <member refid="dc/d29/struct_crypto3_util_1aa14c8f4d46f96e705480764ec4d900e0" prot="public" virt="non-virtual"><scope>Crypto3Util</scope><name>CppIntToBytes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

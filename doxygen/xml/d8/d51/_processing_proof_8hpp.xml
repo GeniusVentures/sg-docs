@@ -9,8 +9,8 @@
     <includes local="no">boost/json.hpp</includes>
     <includes local="no">string_view</includes>
     <includes refid="de/d4a/_i_basic_proof_8hpp" local="yes">IBasicProof.hpp</includes>
-    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
-    <includedby refid="dc/dc6/_processing_proof_8cpp" local="yes">src/proof/ProcessingProof.cpp</includedby>
+    <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</includedby>
+    <includedby refid="dc/dc6/_processing_proof_8cpp" local="yes">/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.cpp</includedby>
     <incdepgraph>
       <node id="12">
         <label>outcome/outcome.hpp</label>
@@ -39,7 +39,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/proof/ProcessingProof.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.hpp</label>
         <link refid="d8/d51/_processing_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -89,15 +89,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>src/account/TransactionManager.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
       <node id="3">
-        <label>src/proof/ProcessingProof.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.cpp</label>
         <link refid="dc/dc6/_processing_proof_8cpp"/>
       </node>
       <node id="1">
-        <label>src/proof/ProcessingProof.hpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.hpp</label>
         <link refid="d8/d51/_processing_proof_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -173,6 +173,6 @@
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="src/proof/ProcessingProof.hpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/ProcessingProof.hpp"/>
   </compounddef>
 </doxygen>

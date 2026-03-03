@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d1/dff/class_s_r25519_provider_factory" kind="class" language="C++" prot="public">
+    <compoundname>SR25519ProviderFactory</compoundname>
+    <includes refid="d0/df6/_s_r25519_provider_factory_8hpp" local="no">SR25519ProviderFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/dff/class_s_r25519_provider_factory_1a135f505abef9b60db7a5179c60b300c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="df/d78/classsgns_1_1crypto_1_1_s_r25519_provider" kindref="compound">sgns::crypto::SR25519Provider</ref> &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::crypto::SR25519Provider &gt; SR25519ProviderFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>SR25519ProviderFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp" line="16" column="24" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SR25519ProviderFactory</label>
+        <link refid="d1/dff/class_s_r25519_provider_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/SR25519ProviderFactory.hpp" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d1/dff/class_s_r25519_provider_factory_1a135f505abef9b60db7a5179c60b300c8" prot="public" virt="non-virtual"><scope>SR25519ProviderFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

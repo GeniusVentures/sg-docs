@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d1/de3/namespacesgns_1_1sgprocmanagersha" kind="namespace" language="C++">
+    <compoundname>sgns::sgprocmanagersha</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d1/de3/namespacesgns_1_1sgprocmanagersha_1a99f3b6932de4c54698bdf996dacffaf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt; uint8_t &gt; sgns::sgprocmanagersha::sha256</definition>
+        <argsstring>(const void *data, size_t dataSize)</argsstring>
+        <name>sha256</name>
+        <qualifiedname>sgns::sgprocmanagersha::sha256</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>dataSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sha256.cpp" line="9" column="17" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/src/util/sha256.cpp" bodystart="9" bodyend="21" declfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sha256.hpp" declline="10" declcolumn="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/SGProcessingManager/include/util/sha256.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

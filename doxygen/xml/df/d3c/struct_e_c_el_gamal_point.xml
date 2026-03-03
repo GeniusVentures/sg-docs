@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/d3c/struct_e_c_el_gamal_point" kind="struct" language="C++" prot="public">
+    <compoundname>ECElGamalPoint</compoundname>
+    <includes refid="d3/dd4/_e_c_el_gamal_types_8hpp" local="no">ECElGamalTypes.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CurveType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" prot="public" static="no">
+        <type>boost::multiprecision::cpp_int</type>
+        <definition>using ECElGamalPoint&lt; CurveType &gt;::cpp_int = boost::multiprecision::cpp_int</definition>
+        <argsstring></argsstring>
+        <name>cpp_int</name>
+        <qualifiedname>ECElGamalPoint::cpp_int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="27" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3c/struct_e_c_el_gamal_point_1a764295cc633d13d9efe55a6fb984f77d" prot="public" static="no">
+        <type>CurveType::template g1_type ::value_type</type>
+        <definition>typedef CurveType::template g1_type ::value_type ECElGamalPoint&lt; CurveType &gt;::curve_point_type</definition>
+        <argsstring></argsstring>
+        <name>curve_point_type</name>
+        <qualifiedname>ECElGamalPoint::curve_point_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="30" column="55" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" prot="public" static="no">
+        <type>CurveType::base_field_type::integral_type</type>
+        <definition>typedef CurveType::base_field_type::integral_type ECElGamalPoint&lt; CurveType &gt;::coeff_type</definition>
+        <argsstring></argsstring>
+        <name>coeff_type</name>
+        <qualifiedname>ECElGamalPoint::coeff_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="31" column="64" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="df/d3c/struct_e_c_el_gamal_point_1ad946fd8188c54f49d872d1e5aac3fce3" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" kindref="member">coeff_type</ref></type>
+        <definition>coeff_type ECElGamalPoint&lt; CurveType &gt;::a_coeff</definition>
+        <argsstring></argsstring>
+        <name>a_coeff</name>
+        <qualifiedname>ECElGamalPoint::a_coeff</qualifiedname>
+        <initializer>= CurveType::template g1_type&lt;&gt;::params_type::a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="33" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d3c/struct_e_c_el_gamal_point_1a38767d1ed5cc6eacee1d73f9639d0ff0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" kindref="member">coeff_type</ref></type>
+        <definition>coeff_type ECElGamalPoint&lt; CurveType &gt;::b_coeff</definition>
+        <argsstring></argsstring>
+        <name>b_coeff</name>
+        <qualifiedname>ECElGamalPoint::b_coeff</qualifiedname>
+        <initializer>= CurveType::template g1_type&lt;&gt;::params_type::b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="34" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d3c/struct_e_c_el_gamal_point_1aa325db8e5070353e48568b6c2bea2a42" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" kindref="member">coeff_type</ref></type>
+        <definition>coeff_type ECElGamalPoint&lt; CurveType &gt;::prime_number</definition>
+        <argsstring></argsstring>
+        <name>prime_number</name>
+        <qualifiedname>ECElGamalPoint::prime_number</qualifiedname>
+        <initializer>= CurveType::base_field_type::modulus</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="35" column="33" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d3c/struct_e_c_el_gamal_point_1ac8e2eb6fe7233fdbb6b46ca8bc9ae882" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="df/d3c/struct_e_c_el_gamal_point_1a764295cc633d13d9efe55a6fb984f77d" kindref="member">curve_point_type</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;curve_point_type&gt; ECElGamalPoint&lt; CurveType &gt;::curve_point</definition>
+        <argsstring></argsstring>
+        <name>curve_point</name>
+        <qualifiedname>ECElGamalPoint::curve_point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="70" column="21" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1ad41c15752f61785b5ab8cf1fc3cda032" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECElGamalPoint&lt; CurveType &gt;::ECElGamalPoint</definition>
+        <argsstring>(const cpp_int &amp;m_value)</argsstring>
+        <name>ECElGamalPoint</name>
+        <qualifiedname>ECElGamalPoint::ECElGamalPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>m_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="37" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="37" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1ab3810f08815d65716344fd2624dd7182" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ECElGamalPoint&lt; CurveType &gt;::ECElGamalPoint</definition>
+        <argsstring>(const curve_point_type &amp;m_value)</argsstring>
+        <name>ECElGamalPoint</name>
+        <qualifiedname>ECElGamalPoint::ECElGamalPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d3c/struct_e_c_el_gamal_point_1a764295cc633d13d9efe55a6fb984f77d" kindref="member">curve_point_type</ref> &amp;</type>
+          <declname>m_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="66" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1a536b161a4040f64aba41a320eb57d700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref></type>
+        <definition>ECElGamalPoint ECElGamalPoint&lt; CurveType &gt;::operator+</definition>
+        <argsstring>(const ECElGamalPoint &amp;other)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>ECElGamalPoint::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="72" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="72" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1a89c0749153283eb66b78be4f0cd3b1d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref></type>
+        <definition>ECElGamalPoint ECElGamalPoint&lt; CurveType &gt;::operator-</definition>
+        <argsstring>(const ECElGamalPoint &amp;other) const</argsstring>
+        <name>operator-</name>
+        <qualifiedname>ECElGamalPoint::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d3c/struct_e_c_el_gamal_point" kindref="compound">ECElGamalPoint</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="82" column="20" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1a3f94d1e5a86906e6e2dbc0823b490a7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int ECElGamalPoint&lt; CurveType &gt;::UnMap</definition>
+        <argsstring>(void)</argsstring>
+        <name>UnMap</name>
+        <qualifiedname>ECElGamalPoint::UnMap</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="90" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="90" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="df/d3c/struct_e_c_el_gamal_point_1a4ed82c56a5cb54892fc2827e368c2d24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" kindref="member">cpp_int</ref></type>
+        <definition>cpp_int ECElGamalPoint&lt; CurveType &gt;::CalcPossibleYSquared</definition>
+        <argsstring>(const cpp_int &amp;x_value)</argsstring>
+        <name>CalcPossibleYSquared</name>
+        <qualifiedname>ECElGamalPoint::CalcPossibleYSquared</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" kindref="member">cpp_int</ref> &amp;</type>
+          <declname>x_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="100" column="13" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="100" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ECElGamalPoint&lt; CurveType &gt;</label>
+        <link refid="df/d3c/struct_e_c_el_gamal_point"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+curve_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>T</label>
+      </node>
+      <node id="3">
+        <label>std::shared_ptr&lt; T &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::shared_ptr&lt; curve_point_type &gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; curve_point_type &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" line="21" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/include/ProofSystem/ECElGamalTypes.hpp" bodystart="22" bodyend="105"/>
+    <listofallmembers>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1ad946fd8188c54f49d872d1e5aac3fce3" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>a_coeff</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a38767d1ed5cc6eacee1d73f9639d0ff0" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>b_coeff</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a4ed82c56a5cb54892fc2827e368c2d24" prot="private" virt="non-virtual"><scope>ECElGamalPoint</scope><name>CalcPossibleYSquared</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1aa34ecb6f8154eef3d4377bf30eb1a1d7" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>coeff_type</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1ae8d18dcb980cb71c5abf3907b1351001" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>cpp_int</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1ac8e2eb6fe7233fdbb6b46ca8bc9ae882" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>curve_point</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a764295cc633d13d9efe55a6fb984f77d" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>curve_point_type</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1ad41c15752f61785b5ab8cf1fc3cda032" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>ECElGamalPoint</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1ab3810f08815d65716344fd2624dd7182" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>ECElGamalPoint</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a536b161a4040f64aba41a320eb57d700" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>operator+</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a89c0749153283eb66b78be4f0cd3b1d6" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>operator-</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1aa325db8e5070353e48568b6c2bea2a42" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>prime_number</name></member>
+      <member refid="df/d3c/struct_e_c_el_gamal_point_1a3f94d1e5a86906e6e2dbc0823b490a7b" prot="public" virt="non-virtual"><scope>ECElGamalPoint</scope><name>UnMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

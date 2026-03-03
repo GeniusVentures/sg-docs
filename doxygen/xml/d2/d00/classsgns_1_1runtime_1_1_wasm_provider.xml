@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/wasm_provider.hpp" line="12" column="13"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/wasm_provider.hpp" line="12" column="13"/>
       </memberdef>
       <memberdef kind="function" id="d2/d00/classsgns_1_1runtime_1_1_wasm_provider_1a753f3b4868712df7855290c65127b067" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>const <ref refid="de/dd5/classsgns_1_1base_1_1_buffer" kindref="compound">base::Buffer</ref> &amp;</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/runtime/wasm_provider.hpp" line="17" column="32"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/wasm_provider.hpp" line="17" column="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -69,7 +69,7 @@
         <link refid="d2/d00/classsgns_1_1runtime_1_1_wasm_provider"/>
       </node>
     </collaborationgraph>
-    <location file="src/runtime/wasm_provider.hpp" line="10" column="3" bodyfile="src/runtime/wasm_provider.hpp" bodystart="10" bodyend="18"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/wasm_provider.hpp" line="10" column="3" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/runtime/wasm_provider.hpp" bodystart="10" bodyend="18"/>
     <listofallmembers>
       <member refid="d2/d00/classsgns_1_1runtime_1_1_wasm_provider_1a753f3b4868712df7855290c65127b067" prot="public" virt="pure-virtual"><scope>sgns::runtime::WasmProvider</scope><name>getStateCode</name></member>
       <member refid="d2/d00/classsgns_1_1runtime_1_1_wasm_provider_1a380f66d67c973b57a1e12f9159fad82b" prot="public" virt="virtual"><scope>sgns::runtime::WasmProvider</scope><name>~WasmProvider</name></member>

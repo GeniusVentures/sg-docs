@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d8/dec/classsgns_1_1_rpc_context_factory" kind="class" language="C++" prot="public">
+    <compoundname>sgns::RpcContextFactory</compoundname>
+    <includes refid="d2/df2/_rpc_context_factory_8hpp" local="no">RpcContextFactory.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dec/classsgns_1_1_rpc_context_factory_1a3ecc51db559ca3f5d17acc2ba1fcd99a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="dd/d46/classsgns_1_1api_1_1_rpc_context" kindref="compound">api::RpcContext</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; api::RpcContext &gt; sgns::RpcContextFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>sgns::RpcContextFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RpcContextFactory.hpp" line="18" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RpcContextFactory.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::RpcContextFactory</label>
+        <link refid="d8/dec/classsgns_1_1_rpc_context_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RpcContextFactory.hpp" line="15" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/RpcContextFactory.hpp" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d8/dec/classsgns_1_1_rpc_context_factory_1a3ecc51db559ca3f5d17acc2ba1fcd99a" prot="public" virt="non-virtual"><scope>sgns::RpcContextFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

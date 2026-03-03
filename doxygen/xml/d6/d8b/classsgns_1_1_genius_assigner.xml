@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="67" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="68" bodyend="79"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="67" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="68" bodyend="79"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a3da104ae5fb3329634ea33db73300d88" prot="public" static="no">
         <type>crypto3::zk::snark::plonk_table_description&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a2d2769c400cea111cdac310aaca4f9a6" kindref="member">BlueprintFieldType</ref> &gt;</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="42" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="42" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="42" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a636b6edfc3948db5355f97c042edac23" prot="public" static="no">
         <type>crypto3::marshalling::types::plonk_constraint_system&lt; nil::marshalling::field_type&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1ae76b73acb13fb990fa666f45205a72ce" kindref="member">AssignerEndianess</ref> &gt;, <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a4d6ca29808798b4bd89572ae258864f8" kindref="member">ConstraintSystemType</ref> &gt;</type>
@@ -117,7 +117,7 @@ crypto3::marshalling::types::plonk_constraint_system&lt;nil::marshalling::field_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="43" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="43" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="43" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1afa467b5b38c772695d1365d4ac6601b6" prot="public" static="no">
         <type>crypto3::marshalling::types::plonk_assignment_table&lt; nil::marshalling::field_type&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1ae76b73acb13fb990fa666f45205a72ce" kindref="member">AssignerEndianess</ref> &gt;, <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a8a018dbbea894ec4191ad1fc855dbbfb" kindref="member">AssignmentTableType</ref> &gt;</type>
@@ -133,7 +133,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="46" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="46" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="46" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-type">
@@ -163,7 +163,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="132" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="133" bodyend="136"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="132" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a2d2769c400cea111cdac310aaca4f9a6" prot="private" static="no">
         <type>typename crypto3::algebra::curves::pallas::base_field_type</type>
@@ -177,7 +177,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="35" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="35" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="35" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1ae76b73acb13fb990fa666f45205a72ce" prot="private" static="no">
         <type>nil::marshalling::option::big_endian</type>
@@ -191,7 +191,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="36" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="36" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="36" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a7fad0f9c3f25451bfb42471f02400373" prot="private" static="no">
         <type>crypto3::zk::snark::plonk_constraint_system&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a2d2769c400cea111cdac310aaca4f9a6" kindref="member">BlueprintFieldType</ref> &gt;</type>
@@ -205,7 +205,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="37" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="37" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="37" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a4d6ca29808798b4bd89572ae258864f8" prot="private" static="no">
         <type>crypto3::zk::snark::plonk_constraint_system&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a2d2769c400cea111cdac310aaca4f9a6" kindref="member">BlueprintFieldType</ref> &gt;</type>
@@ -219,7 +219,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="38" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="38" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="38" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d6/d8b/classsgns_1_1_genius_assigner_1a8a018dbbea894ec4191ad1fc855dbbfb" prot="private" static="no">
         <type>nil::blueprint::assignment_proxy&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a7fad0f9c3f25451bfb42471f02400373" kindref="member">ArithmetizationType</ref> &gt;</type>
@@ -233,7 +233,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="39" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="39" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="39" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -250,7 +250,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="116" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="116" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="116" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1ad7b98cb670cb85bd0835f53678f26014" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::size_t</type>
@@ -265,7 +265,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="117" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="117" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="117" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a1ba4f084efbdecf0742f48be8478957e" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::size_t</type>
@@ -280,7 +280,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="118" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="118" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="118" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a36267752b11ed84438bebc6e1552fa90" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::size_t</type>
@@ -295,7 +295,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="119" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="119" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="119" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1af62e803e646ecbacecfc07853706478a" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::size_t</type>
@@ -310,7 +310,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="120" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="120" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="120" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a20c97d3238cbb5a7b7cf49eb7eaea7cb" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::size_t</type>
@@ -325,7 +325,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="121" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="121" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="121" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a5e9cfa23c0624a20843ea476988bf64a" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const long</type>
@@ -340,7 +340,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="122" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="122" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="122" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a5e961a8c954f82c3eeeafe9918e6a259" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const boost::log::trivial::severity_level</type>
@@ -355,7 +355,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="123" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="123" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="123" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a69d889458e00ecca8b452ba8ebc22da5" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::uint32_t</type>
@@ -370,7 +370,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="124" column="68" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="124" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="124" column="68" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a5367bb2d56626ac245d26743b026c2cf" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::uint32_t</type>
@@ -385,7 +385,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="125" column="49" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="125" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="125" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1a2989bc4d4b1f7b0e41b771a77d2e72e4" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::string_view</type>
@@ -400,7 +400,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="126" column="49" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="126" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="126" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1abe671554372448e293b134a01d0e1d7e" prot="private" static="yes" constexpr="yes" mutable="no">
         <type>const std::string_view</type>
@@ -415,7 +415,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="127" column="49" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="127" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="127" column="49" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="127" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -431,7 +431,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="129" column="71" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="129" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="129" column="71" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/d8b/classsgns_1_1_genius_assigner_1adfe213075b1eae9a471a9f4ec3608b2f" prot="private" static="no" mutable="no">
         <type>nil::blueprint::assigner&lt; <ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a2d2769c400cea111cdac310aaca4f9a6" kindref="member">BlueprintFieldType</ref> &gt;</type>
@@ -445,7 +445,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="130" column="51" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="130" bodyend="-1"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="130" column="51" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -461,7 +461,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="50" column="9" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="50" bodyend="63"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="50" column="9" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="50" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1a34acd052ee548e655d6b36b8e8b7a7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -475,7 +475,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="65" column="9"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="65" column="9"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1ad373c58f0c6b02dc6985e691097e9d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; <ref refid="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output" kindref="compound">AssignerOutput</ref> &gt; &gt;</type>
@@ -501,7 +501,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="102" column="25" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="45" bodyend="188"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="102" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="45" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1ad2d20a625b494db17e3b6f52409ca645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; <ref refid="d2/deb/structsgns_1_1_genius_assigner_1_1_assigner_output" kindref="compound">AssignerOutput</ref> &gt; &gt;</type>
@@ -527,7 +527,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="106" column="25" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="190" bodyend="213"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="106" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="190" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1a3ce1cb0f5b09f174d201e8e1594aecc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -553,7 +553,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="110" column="25" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="215" bodyend="249"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="110" column="25" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="215" bodyend="249"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -569,7 +569,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="92" column="43" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="92" bodyend="100"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="92" column="43" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="92" bodyend="100"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -601,7 +601,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="146" column="30" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="251" bodyend="306"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="146" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="251" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1a753258860e00923eddfe75f99a443d83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/dea/structsgns_1_1_genius_assigner_1_1_table_vectors" kindref="compound">TableVectors</ref></type>
@@ -635,7 +635,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="153" column="22" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="373" bodyend="533"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="153" column="22" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="373" bodyend="533"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1ad405133fab7ded05674abc5506673937" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d6/d8b/classsgns_1_1_genius_assigner_1a636b6edfc3948db5355f97c042edac23" kindref="member">PlonkConstraintSystemType</ref></type>
@@ -661,7 +661,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="159" column="35" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="535" bodyend="617"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="159" column="35" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="535" bodyend="617"/>
       </memberdef>
       <memberdef kind="function" id="d6/d8b/classsgns_1_1_genius_assigner_1a9bbd217b74b23a19b962597eabc1bfab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -695,7 +695,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="165" column="14" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="620" bodyend="625"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="165" column="14" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="620" bodyend="625"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -719,7 +719,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/proof/GeniusAssigner.hpp" line="151" column="30" bodyfile="src/proof/GeniusAssigner.cpp" bodystart="308" bodyend="371"/>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="151" column="30" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.cpp" bodystart="308" bodyend="371"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -744,7 +744,7 @@ crypto3::marshalling::types::plonk_assignment_table&lt;nil::marshalling::field_t
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/proof/GeniusAssigner.hpp" line="33" column="5" bodyfile="src/proof/GeniusAssigner.hpp" bodystart="34" bodyend="168"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" line="33" column="5" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/proof/GeniusAssigner.hpp" bodystart="34" bodyend="168"/>
     <listofallmembers>
       <member refid="d6/d8b/classsgns_1_1_genius_assigner_1a7fad0f9c3f25451bfb42471f02400373" prot="private" virt="non-virtual"><scope>sgns::GeniusAssigner</scope><name>ArithmetizationType</name></member>
       <member refid="d6/d8b/classsgns_1_1_genius_assigner_1adfe213075b1eae9a471a9f4ec3608b2f" prot="private" virt="non-virtual"><scope>sgns::GeniusAssigner</scope><name>assigner_instance_</name></member>

@@ -157,7 +157,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>src/storage/trie/serialization/trie_serializer_impl.cpp</label>
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer_impl.cpp</label>
         <link refid="dd/d1c/trie__serializer__impl_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -382,6 +382,6 @@
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>sgns::storage::trie</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="src/storage/trie/serialization/trie_serializer_impl.cpp"/>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/src/storage/trie/serialization/trie_serializer_impl.cpp"/>
   </compounddef>
 </doxygen>

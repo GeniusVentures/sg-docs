@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dd/d75/class_transcation_pool_factory" kind="class" language="C++" prot="public">
+    <compoundname>TranscationPoolFactory</compoundname>
+    <includes refid="d4/d08/_transcation_pool_factory_8hpp" local="no">TranscationPoolFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d75/class_transcation_pool_factory_1aa93a418d88d7363fb13dc53705a7137d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; sgns::transaction_pool::TransactionPool &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::transaction_pool::TransactionPool &gt; TranscationPoolFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>TranscationPoolFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" line="19" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" bodystart="19" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TranscationPoolFactory</label>
+        <link refid="dd/d75/class_transcation_pool_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" line="15" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/TranscationPoolFactory.hpp" bodystart="16" bodyend="43"/>
+    <listofallmembers>
+      <member refid="dd/d75/class_transcation_pool_factory_1aa93a418d88d7363fb13dc53705a7137d" prot="public" virt="non-virtual"><scope>TranscationPoolFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

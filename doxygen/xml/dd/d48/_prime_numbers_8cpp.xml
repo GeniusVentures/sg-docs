@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dd/d48/_prime_numbers_8cpp" kind="file" language="C++">
+    <compoundname>PrimeNumbers.cpp</compoundname>
+    <includes refid="d0/d90/_prime_numbers_8hpp" local="no">ProofSystem/PrimeNumbers.hpp</includes>
+    <includes local="no">random</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>ProofSystem/PrimeNumbers.hpp</label>
+        <link refid="d0/d90/_prime_numbers_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp</label>
+        <link refid="dd/d48/_prime_numbers_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ctime</label>
+      </node>
+      <node id="5">
+        <label>nil/crypto3/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="6">
+        <label>nil/crypto3/multiprecision/miller_rabin.hpp</label>
+      </node>
+      <node id="7">
+        <label>random</label>
+      </node>
+      <node id="4">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="d0/d90/_prime_numbers_8hpp" kindref="compound">ProofSystem/PrimeNumbers.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aec18034b6aa7e81529c53e536b60c2d9" kindref="member">PrimeNumbers::GetGeneratorFromPrime</ref>(<sp/>std::size_t<sp/>max_attempts,<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>prime_number,<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>&amp;out_val<sp/>)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>order<sp/>=<sp/>(<sp/>prime_number<sp/>-<sp/>1<sp/>)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>std::size_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>max_attempts;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>generator<sp/>=<sp/><ref refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" kindref="member">PrimeNumbers::GetRandomNumber</ref>(<sp/>prime_number<sp/>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>boost::math::gcd(<sp/>generator,<sp/>order<sp/>)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>powm(<sp/>generator,<sp/>order,<sp/>prime_number<sp/>)<sp/>==<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out_val<sp/>=<sp/>generator;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" refkind="member"><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/><ref refid="df/d94/class_prime_numbers_1a5a8536f9d46e93d0eacf16290bf398e5" kindref="member">PrimeNumbers::GetRandomNumber</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;prime_number<sp/>)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>std::random_device<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rd;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>std::mt19937<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>engine(<sp/>rd()<sp/>);<sp/></highlight><highlight class="comment">//<sp/>Seed<sp/>with<sp/>hardware<sp/>entropy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::random::uniform_int_distribution&lt;cpp_int&gt;<sp/>dist(<sp/>2,<sp/>prime_number<sp/>-<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dist(<sp/>engine<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" refkind="member"><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/><ref refid="df/d94/class_prime_numbers_1aeb2b5e2c9268a9299a317150b377203a" kindref="member">PrimeNumbers::ModInverseEuclideanDivision</ref>(<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>x,<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>prime<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>original_prime<sp/>=<sp/>prime;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>r<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>r_new<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>gcd(<sp/>x,<sp/>prime<sp/>)<sp/>!=<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<sp/></highlight><highlight class="stringliteral">&quot;x<sp/>and<sp/>prime<sp/>are<sp/>not<sp/>co-primes&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>x<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>quotient<sp/><sp/>=<sp/>prime<sp/>/<sp/>x;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">cpp_int</ref><sp/>remainder<sp/>=<sp/>prime<sp/>%<sp/>x;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::swap(<sp/>r,<sp/>r_new<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r_new<sp/>-=<sp/>quotient<sp/>*<sp/>r;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prime<sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/><sp/><sp/><sp/><sp/>=<sp/>remainder;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>r<sp/>&lt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>original_prime;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="df/d94/class_prime_numbers_1a69934db626b1741f2ccd003cefcecc49" refkind="member"><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/><ref refid="df/d94/class_prime_numbers_1a69934db626b1741f2ccd003cefcecc49" kindref="member">PrimeNumbers::SqrtMod</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;number,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;prime<sp/>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>powm(<sp/>number,<sp/>(<sp/>prime<sp/>-<sp/>1<sp/>)<sp/>/<sp/>2,<sp/>prime<sp/>)<sp/>!=<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>solution<sp/>exists</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Special<sp/>case:<sp/>prime<sp/>≡<sp/>3<sp/>(mod<sp/>4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>prime<sp/>%<sp/>4<sp/>==<sp/>3<sp/>)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>powm(<sp/>number,<sp/>(<sp/>prime<sp/>+<sp/>1<sp/>)<sp/>/<sp/>4,<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tonelli-Shanks<sp/>algorithm<sp/>for<sp/>general<sp/>primes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>q<sp/>=<sp/>prime<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>s<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>q<sp/>%<sp/>2<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q<sp/>/=<sp/>2;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>z<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>powm(<sp/>z,<sp/>(<sp/>prime<sp/>-<sp/>1<sp/>)<sp/>/<sp/>2,<sp/>prime<sp/>)<sp/>==<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z++;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Find<sp/>the<sp/>first<sp/>quadratic<sp/>non-residue<sp/>z<sp/>by<sp/>brute-force<sp/>search</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>c<sp/>=<sp/>powm(<sp/>z,<sp/>q,<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>r<sp/>=<sp/>powm(<sp/>number,<sp/>(<sp/>q<sp/>+<sp/>1<sp/>)<sp/>/<sp/>2,<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>t<sp/>=<sp/>powm(<sp/>number,<sp/>q,<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>m<sp/>=<sp/>s;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>t<sp/>!=<sp/>1<sp/>)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>i<sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>temp<sp/>=<sp/>t;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>temp<sp/>!=<sp/>1<sp/>&amp;&amp;<sp/>i<sp/>&lt;<sp/>m<sp/>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>powm(<sp/>temp,<sp/>2,<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>b<sp/>=<sp/>powm(<sp/>c,<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref>(<sp/>1<sp/>&lt;&lt;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">uint64_t</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>m<sp/>-<sp/>i<sp/>-<sp/>1<sp/>)<sp/>),<sp/>prime<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(<sp/>r<sp/>*<sp/>b<sp/>)<sp/>%<sp/>prime;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(<sp/>t<sp/>*<sp/>b<sp/>*<sp/>b<sp/>)<sp/>%<sp/>prime;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(<sp/>b<sp/>*<sp/>b<sp/>)<sp/>%<sp/>prime;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="df/d94/class_prime_numbers_1a928ee8bd1e7ec4b10cdbb266bea6bb8f" refkind="member"><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/><ref refid="df/d94/class_prime_numbers_1a928ee8bd1e7ec4b10cdbb266bea6bb8f" kindref="member">PrimeNumbers::PowHighPrec</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>&amp;exp<sp/>)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>retval<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>exp;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>*=<sp/>value;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a8c21cca4c521ecc5ed067b22137c8a05" refkind="member"><highlight class="normal"><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a8c21cca4c521ecc5ed067b22137c8a05" kindref="member">PrimeNumbers::BabyStepGiantStep::BabyStepGiantStep</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;prime,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;generator<sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kindref="member">prime_number</ref>(<sp/>prime<sp/>)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kindref="member">step_size</ref><sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>pow(<sp/>2,<sp/>16<sp/>)<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kindref="member">step_size</ref>;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>value<sp/>=<sp/>powm(<sp/>generator,<sp/>i,<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" kindref="member">value_table</ref>[value]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1acf7897b505abd9a5c8147230c8d937fd" kindref="member">g_n_inv</ref><sp/>=<sp/>powm(<sp/>generator,<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kindref="member">step_size</ref><sp/>*<sp/>(<sp/>prime<sp/>-<sp/>2<sp/>),<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kindref="member">prime_number</ref><sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" refkind="member"><highlight class="normal"><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a5550b5733cb5c80c7d68b53d8e2f3018" kindref="member">PrimeNumbers::BabyStepGiantStep::SolveECDLP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>&amp;number<sp/>)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/><ref refid="df/d94/class_prime_numbers_1aff5433837f5031a377c2a2787c83a091" kindref="member">PrimeNumbers::cpp_int</ref><sp/>i<sp/>=<sp/>0,<sp/>cur<sp/>=<sp/>number<sp/>%<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kindref="member">prime_number</ref>;<sp/>i<sp/>&lt;=<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kindref="member">step_size</ref>;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" kindref="member">value_table</ref>.find(<sp/>cur<sp/>)<sp/>!=<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" kindref="member">value_table</ref>.end()<sp/>)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i<sp/>*<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a756ec5f2d718b61c1af63909904fee82" kindref="member">step_size</ref><sp/>+<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a54b7c6f7ba7cdfc9d9c53c7d9e1f2398" kindref="member">value_table</ref>[cur];</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cur<sp/>=<sp/>(<sp/>cur<sp/>*<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1acf7897b505abd9a5c8147230c8d937fd" kindref="member">g_n_inv</ref><sp/>)<sp/>%<sp/><ref refid="d2/d0e/class_prime_numbers_1_1_baby_step_giant_step_1a3b127b4e209039249e384aa9c8905b1e" kindref="member">prime_number</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>no<sp/>solution<sp/>was<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>ECDLP<sp/>solution<sp/>found&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/ProofSystem/src/PrimeNumbers.cpp"/>
+  </compounddef>
+</doxygen>

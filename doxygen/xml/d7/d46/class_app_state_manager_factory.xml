@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="d7/d46/class_app_state_manager_factory" kind="class" language="C++" prot="public">
+    <compoundname>AppStateManagerFactory</compoundname>
+    <includes refid="dd/d57/_app_state_manager_factory_8hpp" local="no">AppStateManagerFactory.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d46/class_app_state_manager_factory_1a62d32c6ca0901c8e2ba23ad214c53155" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="d4/d75/classsgns_1_1application_1_1_app_state_manager" kindref="compound">sgns::application::AppStateManager</ref> &gt;</type>
+        <definition>static std::shared_ptr&lt; sgns::application::AppStateManager &gt; AppStateManagerFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>AppStateManagerFactory::create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp" line="16" column="28" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppStateManagerFactory</label>
+        <link refid="d7/d46/class_app_state_manager_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp" line="13" column="1" bodyfile="/Users/Shared/SSDevelopment/Development/GeniusVentures/GeniusNetwork/SuperGenius/app/integration/AppStateManagerFactory.hpp" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d7/d46/class_app_state_manager_factory_1a62d32c6ca0901c8e2ba23ad214c53155" prot="public" virt="non-virtual"><scope>AppStateManagerFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
