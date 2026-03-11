@@ -5,8 +5,7 @@
     <derivedcompoundref refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0" prot="public" virt="non-virtual">sgns::Migration0_2_0To1_0_0</derivedcompoundref>
     <derivedcompoundref refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0" prot="public" virt="non-virtual">sgns::Migration1_0_0To3_4_0</derivedcompoundref>
     <derivedcompoundref refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0" prot="public" virt="non-virtual">sgns::Migration3_4_0To3_5_0</derivedcompoundref>
-    <derivedcompoundref refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1" prot="public" virt="non-virtual">sgns::Migration3_5_0To3_5_1</derivedcompoundref>
-    <derivedcompoundref refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0" prot="public" virt="non-virtual">sgns::Migration3_5_1To3_6_0</derivedcompoundref>
+    <derivedcompoundref refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0" prot="public" virt="non-virtual">sgns::Migration3_5_0To3_6_0</derivedcompoundref>
     <includes refid="d5/da7/_i_migration_step_8hpp" local="no">IMigrationStep.hpp</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="d5/d0d/classsgns_1_1_i_migration_step_1a665d7bd47cadfb96da753277a9411e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -32,8 +31,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1a798431352485b54db97b025c643fd7a7">FromVersion</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a5cdc505b9cac8808b103f2b227110466">FromVersion</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a402bb1e8be25d505db100c8af85adec2">FromVersion</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a9f1db389ac7ddf61b75f56ce697a2d5c">FromVersion</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a3481edb18c848ae023be1141987ebad6">FromVersion</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a8434a66d654fd6740974127b31fe42c7">FromVersion</reimplementedby>
         <briefdescription>
 <para>Get the version from which the migration starts. </para>
         </briefdescription>
@@ -55,8 +53,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1a7c459286684fe4768c4497840cd85457">ToVersion</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a7b8f5b5eaf4b2f81f7efd7e47f3c43d4">ToVersion</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6d3912570089c65b4f75522b0a72fbe8">ToVersion</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aa0e9be869b81ba592e4d92263e23f8af">ToVersion</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a7a07e8ea0d9225edb8f565871f2a253d">ToVersion</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1ab10db4b38e70542c4a6f6b08ddc1ecdc">ToVersion</reimplementedby>
         <briefdescription>
 <para>Get the version to which the migration applies. </para>
         </briefdescription>
@@ -78,8 +75,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1a08f70d32fabbad498a63b7a7bc4d4454">Init</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a41196c0c157499b3ace1df69f50c80fe">Init</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1abedc7bea2cbf654e35453eb9d3ec09b0">Init</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a61827db42f6298e2bddc4fc1d283edbe">Init</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a6c7d0a49d6e668ca87622540552d23a0">Init</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a3518565188678536fcc0e084baea0793">Init</reimplementedby>
         <briefdescription>
 <para>Initializes internal variables after constructor. </para>
         </briefdescription>
@@ -101,8 +97,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1a7d17ee6e450261c36aea29a79391570b">Apply</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a1fbeac72f336b8774c3123f0059c2de3">Apply</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6c544e556466831e127b2ccd76d6f996">Apply</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a1ce558d6c1cb079dbe445b677f08d571">Apply</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a47225580c57d11bd1a88923bfdffa84d">Apply</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a90386a043f13360b8df014f8be8b3ccd">Apply</reimplementedby>
         <briefdescription>
 <para>Execute the migration logic. </para>
         </briefdescription>
@@ -124,8 +119,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1ab23462d4cb23e170d90ae80e60f82719">ShutDown</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a88aab05a80168577293b08b35bd5b785">ShutDown</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a753ddfd6c60944a777cfaba0f7449cdb">ShutDown</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2dee69796c6991302e2f584694399c31">ShutDown</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1abe120878c25acf64800218c5ed53a721">ShutDown</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a5731ca1770b3f39849c8d63bbb037a21">ShutDown</reimplementedby>
         <briefdescription>
 <para>Shuts down internal variables. </para>
         </briefdescription>
@@ -147,8 +141,7 @@
         <reimplementedby refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0_1acfed607131716a51104619954a46d8ae">IsRequired</reimplementedby>
         <reimplementedby refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0_1a624a9f1b7d72a11a43e523246e54dcee">IsRequired</reimplementedby>
         <reimplementedby refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a57513187b0f5c8bc474070217e81dd74">IsRequired</reimplementedby>
-        <reimplementedby refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aeada855dc16bc55d9852fd4337bd4ace">IsRequired</reimplementedby>
-        <reimplementedby refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1afe2d7b6fc3ba26625456fee4d4beae31">IsRequired</reimplementedby>
+        <reimplementedby refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1ad23ac360eaa4d00574366619368e5da3">IsRequired</reimplementedby>
         <briefdescription>
 <para>Check if migration is required. </para>
         </briefdescription>
@@ -231,14 +224,8 @@
         </childnode>
       </node>
       <node id="5">
-        <label>sgns::Migration3_5_0To3_5_1</label>
-        <link refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1"/>
-        <childnode refid="1" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>sgns::Migration3_5_1To3_6_0</label>
-        <link refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0"/>
+        <label>sgns::Migration3_5_0To3_6_0</label>
+        <link refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>

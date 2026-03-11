@@ -136,19 +136,11 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="26">
-        <label>src/account/GeniusAccount.cpp</label>
-        <link refid="dd/dd9/_genius_account_8cpp"/>
-      </node>
       <node id="4">
         <label>src/application/impl/validating_node_application.cpp</label>
         <link refid="d3/d34/validating__node__application_8cpp"/>
       </node>
-      <node id="27">
-        <label>src/local_secure_storage/impl/json/JSONSecureStorage.cpp</label>
-        <link refid="d7/d37/_j_s_o_n_secure_storage_8cpp"/>
-      </node>
-      <node id="28">
+      <node id="26">
         <label>src/singleton/CComponentFactory.cpp</label>
         <link refid="d8/db2/_c_component_factory_8cpp"/>
       </node>
@@ -199,13 +191,9 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="1">

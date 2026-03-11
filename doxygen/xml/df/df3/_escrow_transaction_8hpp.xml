@@ -8,85 +8,85 @@
     <includedby refid="d7/d12/_escrow_transaction_8cpp" local="yes">src/account/EscrowTransaction.cpp</includedby>
     <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
     <incdepgraph>
-      <node id="39">
+      <node id="63">
         <label>ProofSystem/ECDSAPublicKey.hpp</label>
         <link refid="d8/ddd/_e_c_d_s_a_public_key_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="55">
         <label>ECDSATypes.hpp</label>
         <link refid="db/da9/_e_c_d_s_a_types_8hpp"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="45">
         <label>ProofSystem/ElGamalKeyGenerator.hpp</label>
         <link refid="df/d7b/_el_gamal_key_generator_8hpp"/>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="52">
         <label>ProofSystem/EthereumKeyGenerator.hpp</label>
         <link refid="d9/dd7/_ethereum_key_generator_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="63" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="53">
         <label>ProofSystem/EthereumKeyPairParams.hpp</label>
         <link refid="dc/d35/_ethereum_key_pair_params_8hpp"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="46">
         <label>ProofSystem/PrimeNumbers.hpp</label>
         <link refid="d0/d90/_prime_numbers_8hpp"/>
-        <childnode refid="23" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="62">
         <label>ProofSystem/ext_private_key.hpp</label>
         <link refid="df/d62/ext__private__key_8hpp"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="64">
         <label>ProofSystem/util.hpp</label>
         <link refid="d1/d14/_proof_system_2include_2_proof_system_2util_8hpp"/>
         <childnode refid="2" relation="include">
@@ -95,9 +95,9 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -107,7 +107,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="75" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -137,21 +137,25 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="72" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -171,69 +175,93 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="67">
         <label>account/TokenID.hpp</label>
         <link refid="df/d5f/_token_i_d_8hpp"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="68" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="75">
         <label>UTXOStructs.hpp</label>
         <link refid="d1/dd1/_u_t_x_o_structs_8hpp"/>
-        <childnode refid="54" relation="include">
+        <childnode refid="76" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="76">
         <label>base/blob.hpp</label>
         <link refid="d4/d16/blob_8hpp"/>
-        <childnode refid="55" relation="include">
+        <childnode refid="77" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="78" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="79" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="80" relation="include">
         </childnode>
       </node>
-      <node id="57">
-        <label>base/hexutil.hpp</label>
-        <link refid="df/d28/hexutil_8hpp"/>
-        <childnode refid="58" relation="include">
+      <node id="31">
+        <label>base/buffer.hpp</label>
+        <link refid="da/d1d/buffer_8hpp"/>
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="79">
+        <label>base/hexutil.hpp</label>
+        <link refid="df/d28/hexutil_8hpp"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>base/logger.hpp</label>
+        <link refid="d6/da3/logger_8hpp"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
         <label>local_secure_storage/ISecureStorage.hpp</label>
         <link refid="dd/d1a/_i_secure_storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -242,35 +270,131 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="43">
         <label>singleton/IComponent.hpp</label>
         <link refid="df/dec/_i_component_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
+      <node id="29">
+        <label>storage/buffer_map_types.hpp</label>
+        <link refid="d8/dcc/buffer__map__types_8hpp"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>storage/face/batchable.hpp</label>
+        <link refid="de/d87/batchable_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>storage/face/generic_maps.hpp</label>
+        <link refid="d9/daa/generic__maps_8hpp"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>storage/face/generic_storage.hpp</label>
+        <link refid="d6/d4e/generic__storage_8hpp"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>storage/face/iterable.hpp</label>
+        <link refid="db/d3e/iterable_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>storage/face/map_cursor.hpp</label>
+        <link refid="d9/d4b/map__cursor_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>storage/face/readable.hpp</label>
+        <link refid="d5/dd2/readable_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>storage/face/write_batch.hpp</label>
+        <link refid="d2/d76/write__batch_8hpp"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>storage/face/writeable.hpp</label>
+        <link refid="dc/da4/writeable_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>storage/rocksdb/rocksdb.hpp</label>
+        <link refid="d1/d07/rocksdb_8hpp"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
       <node id="9">
         <label>account/proto/SGTransaction.pb.h</label>
       </node>
-      <node id="41">
+      <node id="65">
         <label>algorithm</label>
       </node>
       <node id="11">
         <label>array</label>
       </node>
-      <node id="51">
+      <node id="33">
+        <label>boost/container_hash/hash.hpp</label>
+      </node>
+      <node id="74">
         <label>boost/filesystem/operations.hpp</label>
       </node>
-      <node id="50">
+      <node id="73">
         <label>boost/filesystem/path.hpp</label>
       </node>
       <node id="6">
         <label>boost/format.hpp</label>
       </node>
-      <node id="56">
+      <node id="78">
         <label>boost/functional/hash.hpp</label>
       </node>
-      <node id="20">
+      <node id="44">
         <label>boost/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="34">
+        <label>boost/operators.hpp</label>
       </node>
       <node id="16">
         <label>chrono</label>
@@ -278,28 +402,28 @@
       <node id="15">
         <label>condition_variable</label>
       </node>
-      <node id="55">
+      <node id="77">
         <label>cstddef</label>
       </node>
-      <node id="42">
+      <node id="66">
         <label>cstdint</label>
       </node>
-      <node id="44">
+      <node id="68">
         <label>cstring</label>
       </node>
-      <node id="23">
+      <node id="47">
         <label>ctime</label>
       </node>
       <node id="17">
         <label>functional</label>
       </node>
-      <node id="52">
+      <node id="30">
         <label>gsl/span</label>
       </node>
-      <node id="45">
+      <node id="69">
         <label>iomanip</label>
       </node>
-      <node id="59">
+      <node id="80">
         <label>iostream</label>
       </node>
       <node id="8">
@@ -311,38 +435,53 @@
       <node id="14">
         <label>mutex</label>
       </node>
-      <node id="33">
+      <node id="57">
         <label>nil/crypto3/algebra/curves/secp_k1.hpp</label>
       </node>
-      <node id="30">
+      <node id="54">
         <label>nil/crypto3/hash/keccak.hpp</label>
       </node>
-      <node id="35">
+      <node id="59">
         <label>nil/crypto3/hash/sha2.hpp</label>
       </node>
-      <node id="25">
+      <node id="49">
         <label>nil/crypto3/multiprecision/cpp_int.hpp</label>
       </node>
-      <node id="27">
+      <node id="51">
         <label>nil/crypto3/multiprecision/cpp_int/literals.hpp</label>
       </node>
-      <node id="26">
+      <node id="50">
         <label>nil/crypto3/multiprecision/miller_rabin.hpp</label>
       </node>
-      <node id="36">
+      <node id="60">
         <label>nil/crypto3/pkpad/emsa/emsa1.hpp</label>
       </node>
-      <node id="32">
+      <node id="56">
         <label>nil/crypto3/pubkey/ecdsa.hpp</label>
       </node>
-      <node id="34">
+      <node id="58">
         <label>nil/crypto3/random/algebraic_random_device.hpp</label>
       </node>
-      <node id="37">
+      <node id="61">
         <label>nil/crypto3/random/rfc6979.hpp</label>
       </node>
       <node id="18">
         <label>optional</label>
+      </node>
+      <node id="22">
+        <label>rocksdb/db.h</label>
+      </node>
+      <node id="24">
+        <label>rocksdb/options.h</label>
+      </node>
+      <node id="21">
+        <label>rocksdb/rocksdb_namespace.h</label>
+      </node>
+      <node id="23">
+        <label>rocksdb/slice.h</label>
+      </node>
+      <node id="25">
+        <label>rocksdb/write_batch.h</label>
       </node>
       <node id="19">
         <label>set</label>
@@ -350,19 +489,25 @@
       <node id="13">
         <label>shared_mutex</label>
       </node>
-      <node id="46">
+      <node id="27">
+        <label>spdlog/fmt/ostr.h</label>
+      </node>
+      <node id="28">
+        <label>spdlog/spdlog.h</label>
+      </node>
+      <node id="70">
         <label>sstream</label>
       </node>
       <node id="2">
         <label>string</label>
       </node>
-      <node id="58">
+      <node id="32">
         <label>string_view</label>
       </node>
-      <node id="24">
+      <node id="48">
         <label>unordered_map</label>
       </node>
-      <node id="49">
+      <node id="72">
         <label>unordered_set</label>
       </node>
       <node id="4">

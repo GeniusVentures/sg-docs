@@ -21,7 +21,7 @@
     <includes refid="de/d68/sgns__version_8hpp" local="yes">base/sgns_version.hpp</includes>
     <includedby refid="d3/d63/_genius_node_8hpp" local="yes">src/account/GeniusNode.hpp</includedby>
     <includedby refid="de/d71/_migration3__4__0_to3__5__0_8hpp" local="yes">src/account/Migration3_4_0To3_5_0.hpp</includedby>
-    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">src/account/Migration3_5_1To3_6_0.cpp</includedby>
+    <includedby refid="d3/d08/_migration3__5__0_to3__6__0_8cpp" local="yes">src/account/Migration3_5_0To3_6_0.cpp</includedby>
     <includedby refid="da/d8c/_blockchain_8cpp" local="yes">src/blockchain/impl/Blockchain.cpp</includedby>
     <incdepgraph>
       <node id="100">
@@ -140,6 +140,10 @@
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="81" relation="include">
         </childnode>
@@ -857,8 +861,8 @@
         </childnode>
       </node>
       <node id="7">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
-        <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
+        <label>src/account/Migration3_5_0To3_6_0.cpp</label>
+        <link refid="d3/d08/_migration3__5__0_to3__6__0_8cpp"/>
       </node>
       <node id="6">
         <label>src/account/MigrationManager.cpp</label>
@@ -944,7 +948,7 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry" kindref="compound">ValidatorRegistry</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0" kindref="compound">Migration3_5_1To3_6_0</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0" kindref="compound">Migration3_5_0To3_6_0</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="de/da2/classsgns_1_1_blockchain" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/da2/classsgns_1_1_blockchain_1a953ef50eb58201ac2090901aacbe5888" kindref="member">Blockchain</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::enable_shared_from_this&lt;Blockchain&gt;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -991,7 +995,7 @@
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/da2/classsgns_1_1_blockchain_1a58db4e8afc7025bd128cd91596572ae3" kindref="member">SetFullNodeMode</ref>();</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="110" refid="de/da2/classsgns_1_1_blockchain_1a2248a39ce12ea36566397d3c5d39f370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/da2/classsgns_1_1_blockchain_1a2248a39ce12ea36566397d3c5d39f370" kindref="member">Migration3_5_1To3_6_0</ref>;</highlight></codeline>
+<codeline lineno="110" refid="de/da2/classsgns_1_1_blockchain_1affd52aefa1b3649506b45bacee507f22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/da2/classsgns_1_1_blockchain_1affd52aefa1b3649506b45bacee507f22" kindref="member">Migration3_5_0To3_6_0</ref>;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>outcome::result&lt;void&gt;<sp/><ref refid="de/da2/classsgns_1_1_blockchain_1af43308efb61c9334372f237408bcde5b" kindref="member">MigrateCids</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;crdt::GlobalDB&gt;<sp/>&amp;old_db,</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;crdt::GlobalDB&gt;<sp/>&amp;new_db<sp/>);</highlight></codeline>

@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/MigrationManager.hpp" line="56" column="32" bodyfile="src/account/MigrationManager.cpp" bodystart="34" bodyend="82"/>
+        <location file="src/account/MigrationManager.hpp" line="56" column="32" bodyfile="src/account/MigrationManager.cpp" bodystart="33" bodyend="74"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/MigrationManager.hpp" line="70" column="14" bodyfile="src/account/MigrationManager.cpp" bodystart="86" bodyend="92"/>
+        <location file="src/account/MigrationManager.hpp" line="70" column="14" bodyfile="src/account/MigrationManager.cpp" bodystart="78" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="d6/d9a/classsgns_1_1_migration_manager_1a2b861cf7ebc1dba124344c111afdc1f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/MigrationManager.hpp" line="76" column="25" bodyfile="src/account/MigrationManager.cpp" bodystart="94" bodyend="125"/>
+        <location file="src/account/MigrationManager.hpp" line="76" column="25" bodyfile="src/account/MigrationManager.cpp" bodystart="86" bodyend="117"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">

@@ -121,14 +121,14 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
-      <memberdef kind="friend" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aff5ff362f37c56be0401a240a3220a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="friend" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1da94d17f786677d967d56fd2c9abe28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class</type>
-        <definition>friend class sgns::Migration3_5_1To3_6_0</definition>
+        <definition>friend class sgns::Migration3_5_0To3_6_0</definition>
         <argsstring></argsstring>
-        <name>sgns::Migration3_5_1To3_6_0</name>
-        <qualifiedname>sgns::blockchain::ValidatorRegistry::Migration3_5_1To3_6_0</qualifiedname>
+        <name>sgns::Migration3_5_0To3_6_0</name>
+        <qualifiedname>sgns::blockchain::ValidatorRegistry::Migration3_5_0To3_6_0</qualifiedname>
         <param>
-          <type><ref refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0" kindref="compound">sgns::Migration3_5_1To3_6_0</ref></type>
+          <type><ref refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0" kindref="compound">sgns::Migration3_5_0To3_6_0</ref></type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -136,7 +136,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="98" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="98" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="99" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="99" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -152,7 +152,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="122" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="122" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="123" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac3b9f94413153fe05f08a648b399c86c" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -166,7 +166,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="123" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="123" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="124" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae028a0db293dde1ad7f422588271ea78" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -180,7 +180,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="124" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="124" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="125" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a441f5c958857a9efa133279adaf60e88" prot="private" static="no" mutable="no">
         <type><ref refid="da/dc2/structsgns_1_1blockchain_1_1_validator_registry_1_1_weight_config" kindref="compound">WeightConfig</ref></type>
@@ -194,7 +194,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="125" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="125" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="126" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1db97a8a67d2a4324af111f811421ef7" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -208,7 +208,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="126" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="126" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="127" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1b4a510c8009ceedf77039d40eab51ea" prot="private" static="no" mutable="no">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -223,7 +223,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="127" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="127" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="128" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad9c9c2b9c965b6fbec6d48c422718af0" prot="private" static="no" mutable="yes">
         <type>std::shared_mutex</type>
@@ -237,7 +237,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="128" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="128" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="129" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad13e457e668e7ab795e1fb93ccab1a2f" prot="private" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref> &gt;</type>
@@ -251,7 +251,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="129" column="31" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="129" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="130" column="31" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1dc0f42a37592af189bf1abc41a7e397" prot="private" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref> &gt;</type>
@@ -265,7 +265,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="130" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="130" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="131" column="25" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ada545c8a9cc8a0a376b5309116a823f2" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -279,7 +279,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="131" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="131" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="132" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a68adf4cdce61ed617d0ccfbece2d034d" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -294,7 +294,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="132" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="132" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="133" column="41" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a0defd94e71d7af6f75cf310b4b82a001" prot="private" static="no" mutable="no">
         <type><ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" kindref="member">InitCallback</ref></type>
@@ -308,7 +308,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="134" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="134" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="135" column="22" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a01ab382de40f9f40e57163b7088fb610" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(const std::string &amp;cid, std::function&lt; void(outcome::result&lt; std::string &gt;)&gt; callback)&gt;</type>
@@ -322,7 +322,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="136" column="13" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="136" bodyend="-1"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="137" column="13" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="137" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -381,7 +381,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="82" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="82" bodyend="85"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="83" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="83" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1b6b5028d9f8740da59c415e5106e06c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string_view</type>
@@ -395,7 +395,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="87" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="87" bodyend="90"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="88" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="88" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a3b865533ca84e596a2874fd007306361" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string_view</type>
@@ -409,7 +409,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="92" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="92" bodyend="95"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="93" column="43" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="93" bodyend="96"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -557,6 +557,24 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </inbodydescription>
         <location file="src/blockchain/ValidatorRegistry.hpp" line="74" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="443" bodyend="457"/>
       </memberdef>
+      <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aac9333569819c24e8bc1b8a3a63d28c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>outcome::result&lt; std::optional&lt; uint64_t &gt; &gt;</type>
+        <definition>outcome::result&lt; std::optional&lt; uint64_t &gt; &gt; sgns::blockchain::ValidatorRegistry::GetValidatorWeight</definition>
+        <argsstring>(const std::string &amp;validator_id) const</argsstring>
+        <name>GetValidatorWeight</name>
+        <qualifiedname>sgns::blockchain::ValidatorRegistry::GetValidatorWeight</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>validator_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="75" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="459" bodyend="475"/>
+      </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1adf78a171902d6ea39ef11ad21df4e480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool sgns::blockchain::ValidatorRegistry::RegisterFilter</definition>
@@ -569,7 +587,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="75" column="41" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="459" bodyend="489"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="76" column="41" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="477" bodyend="507"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aca9f4ef9e1834a8fbcd837d0ccf0b3fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -587,7 +605,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="77" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="295" bodyend="306"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="78" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="295" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1d88c4b1391f9220bb87a23584d5da46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a326f52e36051d3a1141b0222f7d6b703" kindref="member">Registry</ref> &gt;</type>
@@ -605,7 +623,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="78" column="37" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="308" bodyend="320"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="79" column="37" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="308" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae1bbbcae5d4aa278c32202514b150741" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -623,7 +641,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="79" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="322" bodyend="334"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="80" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="322" bodyend="334"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab7083c95c7f2102670dc3351711019a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad72bc9b3dd24c029f95784f66ea6ecad" kindref="member">RegistryUpdate</ref> &gt;</type>
@@ -641,7 +659,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="80" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="336" bodyend="348"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="81" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="336" bodyend="348"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-func">
@@ -665,7 +683,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="100" column="32" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="122" bodyend="199"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="101" column="32" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="122" bodyend="199"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -709,7 +727,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="104" column="9" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="59" bodyend="75"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="105" column="9" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="59" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a2a21c9c6ad154dac933c817fcd15193b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::vector&lt; crdt::pb::Element &gt; &gt;</type>
@@ -727,7 +745,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="112" column="23" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="491" bodyend="522"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="113" column="23" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="509" bodyend="540"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a15e7f27bad971a98917861da7d0e1df3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -749,7 +767,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="113" column="14" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="524" bodyend="547"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="114" column="14" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="542" bodyend="565"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ad569a5eb3b3cdf2cab604a9cf82ac387" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -767,7 +785,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="114" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="549" bodyend="566"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="115" column="25" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="567" bodyend="584"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a701a0469bc05b3f070bce256b34ce5cf" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -789,7 +807,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="115" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="568" bodyend="661"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="116" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="586" bodyend="679"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0de727b99aaf0e06f9040625fec5702" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab1f807a82389de5f5e2c83d578292c55" kindref="member">ValidatorEntry</ref> *</type>
@@ -811,7 +829,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="116" column="30" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="663" bodyend="677"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="117" column="30" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="681" bodyend="695"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aed2e7a4f18eb200660badc156ec93a2a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -825,7 +843,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="117" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="679" bodyend="749"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="118" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="697" bodyend="767"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a715f878b26779c5155c3bb8ffa66b0c0" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -843,7 +861,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="118" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="821" bodyend="833"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="119" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="839" bodyend="851"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a06dbf5010dc0cda9b36c7db3d12738b3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -861,7 +879,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="119" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="751" bodyend="760"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="120" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="769" bodyend="778"/>
       </memberdef>
       <memberdef kind="function" id="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a5b154349dac731c824703580115ac5f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -879,7 +897,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/blockchain/ValidatorRegistry.hpp" line="120" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="762" bodyend="819"/>
+        <location file="src/blockchain/ValidatorRegistry.hpp" line="121" column="31" bodyfile="src/blockchain/ValidatorRegistry.cpp" bodystart="780" bodyend="837"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1925,7 +1943,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/blockchain/ValidatorRegistry.hpp" line="35" column="5" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="36" bodyend="137"/>
+    <location file="src/blockchain/ValidatorRegistry.hpp" line="35" column="5" bodyfile="src/blockchain/ValidatorRegistry.hpp" bodystart="36" bodyend="138"/>
     <listofallmembers>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a096a515e35e5793ae0ce0e07b22584f6" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>BlockRequestMethod</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a68adf4cdce61ed617d0ccfbece2d034d" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>cache_initialized_</name></member>
@@ -1942,6 +1960,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a2a21c9c6ad154dac933c817fcd15193b" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>FilterRegistryUpdate</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0de727b99aaf0e06f9040625fec5702" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>FindValidator</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1db97a8a67d2a4324af111f811421ef7" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>genesis_authority_</name></member>
+      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aac9333569819c24e8bc1b8a3a63d28c9" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>GetValidatorWeight</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a0defd94e71d7af6f75cf310b4b82a001" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>init_callback_</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>InitCallback</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aed2e7a4f18eb200660badc156ec93a2a" prot="private" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>InitializeCache</name></member>
@@ -1967,7 +1986,7 @@ std::function&lt;void( const std::string &amp;, std::function&lt;void( outcome::
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aa10e589f38c27335fa6462699b5ff331" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>Role</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aca9f4ef9e1834a8fbcd837d0ccf0b3fc" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>SerializeRegistry</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae1bbbcae5d4aa278c32202514b150741" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>SerializeRegistryUpdate</name></member>
-      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aff5ff362f37c56be0401a240a3220a20" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>sgns::Migration3_5_1To3_6_0</name></member>
+      <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1da94d17f786677d967d56fd2c9abe28" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>sgns::Migration3_5_0To3_6_0</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac318a7a8f3fa8bfb1d802138609ee6e4" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>SignatureEntry</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9ab997dbfe67998930aba81579b26e14" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>Status</name></member>
       <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a47f758e7e8a08f667dd5ea16a5050e98" prot="public" virt="non-virtual"><scope>sgns::blockchain::ValidatorRegistry</scope><name>StoreGenesisRegistry</name></member>

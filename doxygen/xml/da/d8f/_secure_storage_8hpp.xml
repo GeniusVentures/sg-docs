@@ -4,7 +4,6 @@
     <compoundname>SecureStorage.hpp</compoundname>
     <includedby refid="dd/dd9/_genius_account_8cpp" local="yes">src/account/GeniusAccount.cpp</includedby>
     <includedby refid="df/de0/_genius_node_8cpp" local="yes">src/account/GeniusNode.cpp</includedby>
-    <includedby refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp" local="yes">src/account/Migration3_5_0To3_5_1.hpp</includedby>
     <invincdepgraph>
       <node id="2">
         <label>src/account/GeniusAccount.cpp</label>
@@ -14,30 +13,12 @@
         <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
-      <node id="5">
-        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
-        <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
-      </node>
-      <node id="4">
-        <label>src/account/Migration3_5_0To3_5_1.hpp</label>
-        <link refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>src/account/MigrationManager.cpp</label>
-        <link refid="d2/d4b/_migration_manager_8cpp"/>
-      </node>
       <node id="1">
         <label>src/local_secure_storage/SecureStorage.hpp</label>
         <link refid="da/d8f/_secure_storage_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -13,8 +13,7 @@
     <innerclass refid="d9/d5c/classsgns_1_1_migration0__2__0_to1__0__0" prot="public">sgns::Migration0_2_0To1_0_0</innerclass>
     <innerclass refid="d0/d09/classsgns_1_1_migration1__0__0_to3__4__0" prot="public">sgns::Migration1_0_0To3_4_0</innerclass>
     <innerclass refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0" prot="public">sgns::Migration3_4_0To3_5_0</innerclass>
-    <innerclass refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1" prot="public">sgns::Migration3_5_0To3_5_1</innerclass>
-    <innerclass refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0" prot="public">sgns::Migration3_5_1To3_6_0</innerclass>
+    <innerclass refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0" prot="public">sgns::Migration3_5_0To3_6_0</innerclass>
     <innerclass refid="d6/d9a/classsgns_1_1_migration_manager" prot="public">sgns::MigrationManager</innerclass>
     <innerclass refid="d7/d9c/classsgns_1_1_mint_transaction" prot="public">sgns::MintTransaction</innerclass>
     <innerclass refid="d6/d7f/classsgns_1_1_processing_transaction" prot="public">sgns::ProcessingTransaction</innerclass>
@@ -372,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="38" column="5" bodyfile="src/account/TransactionManager.hpp" bodystart="38" bodyend="-1"/>
+        <location file="src/account/TransactionManager.hpp" line="39" column="5" bodyfile="src/account/TransactionManager.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="d2/d2b/namespacesgns_1ab5ebc7fc374823b9575e303e417424fc" prot="public" static="no">
         <type>std::pair&lt; std::vector&lt; <ref refid="d3/dbc/structsgns_1_1_input_u_t_x_o_info" kindref="compound">InputUTXOInfo</ref> &gt;, std::vector&lt; <ref refid="dc/dfd/structsgns_1_1_output_dest_info" kindref="compound">OutputDestInfo</ref> &gt; &gt;</type>
@@ -446,6 +445,23 @@
         <location file="node/ipfs_lite_store.hpp" line="46" column="5" bodyfile="node/ipfs_lite_store.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
     </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d2/d2b/namespacesgns_1a641d35600f90cf10b00dc60354f534dd" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view sgns::FILE_NAME</definition>
+        <argsstring></argsstring>
+        <name>FILE_NAME</name>
+        <qualifiedname>sgns::FILE_NAME</qualifiedname>
+        <initializer>= &quot;secure_storage.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/local_secure_storage/impl/json/JSONSecureStorage.cpp" line="19" column="32" bodyfile="src/local_secure_storage/impl/json/JSONSecureStorage.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="d2/d2b/namespacesgns_1a2de1158d91abbd78cc0227c7ddcd6960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -477,7 +493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.cpp" line="936" column="17" bodyfile="src/account/GeniusNode.cpp" bodystart="936" bodyend="956"/>
+        <location file="src/account/GeniusNode.cpp" line="952" column="17" bodyfile="src/account/GeniusNode.cpp" bodystart="952" bodyend="972"/>
       </memberdef>
       <memberdef kind="function" id="d2/d2b/namespacesgns_1aa528beacefda8b0a1c432a7d0afda122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1456,6 +1472,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/account/AccountMessenger.cpp" line="39" column="1"/>
+    <location file="src/account/AccountMessenger.cpp" line="43" column="1"/>
   </compounddef>
 </doxygen>

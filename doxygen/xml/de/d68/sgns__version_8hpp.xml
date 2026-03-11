@@ -7,8 +7,7 @@
     <includedby refid="d0/d58/_account_messenger_8cpp" local="yes">src/account/AccountMessenger.cpp</includedby>
     <includedby refid="df/de0/_genius_node_8cpp" local="yes">src/account/GeniusNode.cpp</includedby>
     <includedby refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp" local="yes">src/account/Migration0_2_0To1_0_0.cpp</includedby>
-    <includedby refid="da/d32/_migration3__5__0_to3__5__1_8cpp" local="yes">src/account/Migration3_5_0To3_5_1.cpp</includedby>
-    <includedby refid="db/da7/_migration3__5__1_to3__6__0_8cpp" local="yes">src/account/Migration3_5_1To3_6_0.cpp</includedby>
+    <includedby refid="d3/d08/_migration3__5__0_to3__6__0_8cpp" local="yes">src/account/Migration3_5_0To3_6_0.cpp</includedby>
     <includedby refid="d2/d4b/_migration_manager_8cpp" local="yes">src/account/MigrationManager.cpp</includedby>
     <includedby refid="d0/dcc/_transaction_manager_8cpp" local="yes">src/account/TransactionManager.cpp</includedby>
     <includedby refid="d4/d36/sgns__version_8cpp" local="yes">src/base/sgns_version.cpp</includedby>
@@ -42,7 +41,7 @@
         <label>src/account/GeniusNode.cpp</label>
         <link refid="df/de0/_genius_node_8cpp"/>
       </node>
-      <node id="11">
+      <node id="10">
         <label>src/account/GeniusNode.hpp</label>
         <link refid="d3/d63/_genius_node_8hpp"/>
         <childnode refid="3" relation="include">
@@ -52,35 +51,31 @@
         <label>src/account/Migration0_2_0To1_0_0.cpp</label>
         <link refid="dc/dfe/_migration0__2__0_to1__0__0_8cpp"/>
       </node>
-      <node id="13">
+      <node id="12">
         <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
-      <node id="12">
+      <node id="11">
         <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="5">
-        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
-        <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
+        <label>src/account/Migration3_5_0To3_6_0.cpp</label>
+        <link refid="d3/d08/_migration3__5__0_to3__6__0_8cpp"/>
       </node>
       <node id="6">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
-        <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
-      </node>
-      <node id="7">
         <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
-      <node id="8">
+      <node id="7">
         <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
-      <node id="9">
+      <node id="8">
         <label>src/base/sgns_version.cpp</label>
         <link refid="d4/d36/sgns__version_8cpp"/>
       </node>
@@ -103,7 +98,7 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -111,38 +106,36 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>src/blockchain/Blockchain.hpp</label>
         <link refid="dc/d59/_blockchain_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="13">
         <label>src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>
-      <node id="15">
+      <node id="14">
         <label>src/crdt/globaldb/pubsub_broadcaster_ext.cpp</label>
         <link refid="d1/dc9/pubsub__broadcaster__ext_8cpp"/>
       </node>
-      <node id="16">
+      <node id="15">
         <label>src/processing/processing_service.cpp</label>
         <link refid="d3/d3a/processing__service_8cpp"/>
       </node>
-      <node id="17">
+      <node id="16">
         <label>src/processing/processing_subtask_queue_accessor_impl.cpp</label>
         <link refid="dd/d14/processing__subtask__queue__accessor__impl_8cpp"/>
       </node>
-      <node id="18">
+      <node id="17">
         <label>src/processing/processing_subtask_queue_channel_pubsub.cpp</label>
         <link refid="d8/d6f/processing__subtask__queue__channel__pubsub_8cpp"/>
       </node>

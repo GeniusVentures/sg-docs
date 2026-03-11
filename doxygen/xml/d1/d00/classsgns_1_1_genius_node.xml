@@ -1119,7 +1119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="77" column="9" bodyfile="src/account/GeniusNode.cpp" bodystart="811" bodyend="851"/>
+        <location file="src/account/GeniusNode.hpp" line="77" column="9" bodyfile="src/account/GeniusNode.cpp" bodystart="827" bodyend="867"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a667e8247c282279a9fea751b8127399b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -1137,7 +1137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="121" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="958" bodyend="1049"/>
+        <location file="src/account/GeniusNode.hpp" line="121" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="974" bodyend="1065"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a5e020ec7370df1519727570b8ae1e1ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1155,7 +1155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="123" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1051" bodyend="1080"/>
+        <location file="src/account/GeniusNode.hpp" line="123" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1067" bodyend="1096"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a02cf6d2dc5e398f1c6758490b0c1e8ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; double &gt;</type>
@@ -1169,7 +1169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="125" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1082" bodyend="1090"/>
+        <location file="src/account/GeniusNode.hpp" line="125" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1098" bodyend="1106"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a034721993d66617e336c6d1d4444371f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -1198,7 +1198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="132" column="21" bodyfile="src/account/GeniusNode.cpp" bodystart="1092" bodyend="1095"/>
+        <location file="src/account/GeniusNode.hpp" line="132" column="21" bodyfile="src/account/GeniusNode.cpp" bodystart="1108" bodyend="1111"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a304f03dcc92a70814a7ec4606730b6b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::pair&lt; std::string, uint64_t &gt; &gt;</type>
@@ -1278,7 +1278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="143" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1097" bodyend="1126"/>
+        <location file="src/account/GeniusNode.hpp" line="143" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1113" bodyend="1142"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a9dbf2d33faf8674ba557f5c252e997fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1296,7 +1296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="150" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="908" bodyend="911"/>
+        <location file="src/account/GeniusNode.hpp" line="150" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="924" bodyend="927"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a2d62eaafbea6d836ec93f324091c65b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1314,7 +1314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="151" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="853" bodyend="906"/>
+        <location file="src/account/GeniusNode.hpp" line="151" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="869" bodyend="922"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a594f9e8d050838ec5f5429c39bf58739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1328,7 +1328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="153" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1230" bodyend="1233"/>
+        <location file="src/account/GeniusNode.hpp" line="153" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1246" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ab5f3eeefd8388911f4f8bdb9efa0427a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1346,7 +1346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="154" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1235" bodyend="1238"/>
+        <location file="src/account/GeniusNode.hpp" line="154" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1251" bodyend="1254"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1aee920e4e76a4ac7ebfeacb451f58aa75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1364,7 +1364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="155" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1240" bodyend="1243"/>
+        <location file="src/account/GeniusNode.hpp" line="155" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1256" bodyend="1259"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1abd4c5d3403d9c7de92cdf4dc4cb18b0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1386,7 +1386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="156" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1245" bodyend="1248"/>
+        <location file="src/account/GeniusNode.hpp" line="156" column="18" bodyfile="src/account/GeniusNode.cpp" bodystart="1261" bodyend="1264"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ab89065bd8c923e16379647c5512d1e5a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
@@ -1486,7 +1486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="196" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1128" bodyend="1155"/>
+        <location file="src/account/GeniusNode.hpp" line="196" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1144" bodyend="1171"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a59dfcbcb8e25e5ccd035e59623f55ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::string &gt;</type>
@@ -1512,7 +1512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="201" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1157" bodyend="1171"/>
+        <location file="src/account/GeniusNode.hpp" line="201" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1173" bodyend="1187"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a4c652eb4730a18e5b34507489d67bcc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::pair&lt; std::string, uint64_t &gt; &gt;</type>
@@ -1539,7 +1539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="203" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1173" bodyend="1198"/>
+        <location file="src/account/GeniusNode.hpp" line="203" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1189" bodyend="1214"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a58a9c818b78c10b957a279c0a85f87e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; ipfs_pubsub::GossipPubSub &gt;</type>
@@ -1596,7 +1596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="222" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1447" bodyend="1463"/>
+        <location file="src/account/GeniusNode.hpp" line="222" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1463" bodyend="1479"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ae21cd60f305e22a284d848aadfb17076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -1639,7 +1639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="233" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1465" bodyend="1476"/>
+        <location file="src/account/GeniusNode.hpp" line="233" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1481" bodyend="1492"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a12f05e866a2e6c84b0611bb967851be6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1653,7 +1653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="235" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1337" bodyend="1347"/>
+        <location file="src/account/GeniusNode.hpp" line="235" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1353" bodyend="1363"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a1abc3c8ab2b882acbc7049a177943f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1667,7 +1667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="236" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1349" bodyend="1359"/>
+        <location file="src/account/GeniusNode.hpp" line="236" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1365" bodyend="1375"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a2458a4c3d80c37369ff03dd853a95d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1681,7 +1681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="237" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1361" bodyend="1371"/>
+        <location file="src/account/GeniusNode.hpp" line="237" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1377" bodyend="1387"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ac0e8225e9eeff9269c0c8ae898569eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::map&lt; std::string, double &gt; &gt;</type>
@@ -1699,7 +1699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="239" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1373" bodyend="1428"/>
+        <location file="src/account/GeniusNode.hpp" line="239" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1389" bodyend="1444"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ab1b0be87c91864635cd3a712f6195f7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::map&lt; std::string, std::map&lt; int64_t, double &gt; &gt; &gt;</type>
@@ -1721,7 +1721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="240" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1430" bodyend="1436"/>
+        <location file="src/account/GeniusNode.hpp" line="240" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1446" bodyend="1452"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a1385b5baf91357652d329cdb42178614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::map&lt; std::string, std::map&lt; int64_t, double &gt; &gt; &gt;</type>
@@ -1747,7 +1747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="243" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1438" bodyend="1445"/>
+        <location file="src/account/GeniusNode.hpp" line="243" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1454" bodyend="1461"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ada8cf04ced34b88da03d25e45a11fedf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionManager::TransactionStatus</ref></type>
@@ -1769,7 +1769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="248" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1491" bodyend="1500"/>
+        <location file="src/account/GeniusNode.hpp" line="248" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1507" bodyend="1516"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ad8ba4da7682057e437ef21cc72d2ffe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionManager::TransactionStatus</ref></type>
@@ -1791,7 +1791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="251" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1479" bodyend="1488"/>
+        <location file="src/account/GeniusNode.hpp" line="251" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1495" bodyend="1504"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a23ac7c8830b048f199f32787d64d5cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionManager::TransactionStatus</ref></type>
@@ -1813,7 +1813,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="254" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1502" bodyend="1511"/>
+        <location file="src/account/GeniusNode.hpp" line="254" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1518" bodyend="1527"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a2fc34d23eaddad05673b1d319de74d0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kindref="member">TransactionManager::State</ref></type>
@@ -1827,7 +1827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="257" column="35" bodyfile="src/account/GeniusNode.cpp" bodystart="1522" bodyend="1530"/>
+        <location file="src/account/GeniusNode.hpp" line="257" column="35" bodyfile="src/account/GeniusNode.cpp" bodystart="1538" bodyend="1546"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1afa6016691e91a308625e55e3cd605e1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d2/d58/classsgns_1_1_transaction_manager_1a2c0a2a8d110daaf042d1b42e91c0581f" kindref="member">TransactionManager::TransactionStatus</ref></type>
@@ -1845,7 +1845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="259" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1607" bodyend="1622"/>
+        <location file="src/account/GeniusNode.hpp" line="259" column="47" bodyfile="src/account/GeniusNode.cpp" bodystart="1623" bodyend="1638"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ae9d0c8b7817fde66cc897681974c02b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1874,7 +1874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="265" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1649" bodyend="1656"/>
+        <location file="src/account/GeniusNode.hpp" line="265" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1665" bodyend="1672"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1af3bdd43e73890ef7abf00bcdf5de5b56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -1892,7 +1892,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="271" column="27" bodyfile="src/account/GeniusNode.cpp" bodystart="1658" bodyend="1661"/>
+        <location file="src/account/GeniusNode.hpp" line="271" column="27" bodyfile="src/account/GeniusNode.cpp" bodystart="1674" bodyend="1677"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1abd635ce4661dbb3d8830d9881800df78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d1/d00/classsgns_1_1_genius_node_1aab900c100fea9b941444c7f0a5582752" kindref="member">NodeState</ref></type>
@@ -1930,7 +1930,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="281" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1532" bodyend="1543"/>
+        <location file="src/account/GeniusNode.hpp" line="281" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1548" bodyend="1559"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ac7f697ff1a92114f1d4c35c922eff52d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1952,7 +1952,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="282" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1545" bodyend="1556"/>
+        <location file="src/account/GeniusNode.hpp" line="282" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1561" bodyend="1572"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -2010,7 +2010,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="318" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="430" bodyend="435"/>
+        <location file="src/account/GeniusNode.hpp" line="318" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="446" bodyend="451"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a22de79ab3d543a5e431e75e147fae0fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2028,7 +2028,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="319" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="437" bodyend="562"/>
+        <location file="src/account/GeniusNode.hpp" line="319" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="453" bodyend="578"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a77130bcbf2d515339f7967a9c0152a11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d4/dcb/namespacesgns_1_1base_1a84728df12d1a8d2c47209c108acd99f8" kindref="member">base::Logger</ref></type>
@@ -2054,7 +2054,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="320" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="798" bodyend="809"/>
+        <location file="src/account/GeniusNode.hpp" line="320" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="814" bodyend="825"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ab70dd7bfce233df1c873b63191603717" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2076,7 +2076,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="323" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="564" bodyend="634"/>
+        <location file="src/account/GeniusNode.hpp" line="323" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="580" bodyend="650"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a74f23ef3258b245d2516e5b43f1aa9e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2090,7 +2090,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="324" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="636" bodyend="699"/>
+        <location file="src/account/GeniusNode.hpp" line="324" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="652" bodyend="715"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1abc40ce7b0f95a54168f692b43bdb3dca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2104,7 +2104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="325" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="701" bodyend="725"/>
+        <location file="src/account/GeniusNode.hpp" line="325" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="717" bodyend="741"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a5417677643ab815b937534003cba0c97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2118,7 +2118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="326" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="727" bodyend="738"/>
+        <location file="src/account/GeniusNode.hpp" line="326" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="743" bodyend="754"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1ac895f519a39ffc7c773923ccd5d9a814" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2150,7 +2150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="328" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="253" bodyend="428"/>
+        <location file="src/account/GeniusNode.hpp" line="328" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="253" bodyend="444"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1aa7ba1077a7ecf4fc47c0ae792fc52009" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2168,7 +2168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="329" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="740" bodyend="761"/>
+        <location file="src/account/GeniusNode.hpp" line="329" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="756" bodyend="777"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a0df60902fefe5400b52c6df282e92b05" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2182,7 +2182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="330" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="763" bodyend="775"/>
+        <location file="src/account/GeniusNode.hpp" line="330" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="779" bodyend="791"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a5e151d91c67b07b3579a8d57f6ab95d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2196,7 +2196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="331" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="777" bodyend="796"/>
+        <location file="src/account/GeniusNode.hpp" line="331" column="22" bodyfile="src/account/GeniusNode.cpp" bodystart="793" bodyend="812"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a29bb9a1ca31dca07afc6eaf43d15ee80" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="d2/d58/classsgns_1_1_transaction_manager" kindref="compound">TransactionManager</ref> &gt; &gt;</type>
@@ -2210,7 +2210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="332" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1513" bodyend="1520"/>
+        <location file="src/account/GeniusNode.hpp" line="332" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1529" bodyend="1536"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1afbeba3b45f13d77d6eb123a07575583e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -2242,7 +2242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="335" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="913" bodyend="934"/>
+        <location file="src/account/GeniusNode.hpp" line="335" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="929" bodyend="950"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a9dd29013dcc44956f2ff225069be2eb1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::pair&lt; std::string, uint64_t &gt; &gt;</type>
@@ -2273,7 +2273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="365" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1200" bodyend="1228"/>
+        <location file="src/account/GeniusNode.hpp" line="365" column="25" bodyfile="src/account/GeniusNode.cpp" bodystart="1216" bodyend="1244"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a588ce5cc678c602378de4eadd8264151" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2295,7 +2295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="371" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1250" bodyend="1321"/>
+        <location file="src/account/GeniusNode.hpp" line="371" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1266" bodyend="1337"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a9ccc1db51efa380e1b73ab8d973d19b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2313,7 +2313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="372" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1323" bodyend="1335"/>
+        <location file="src/account/GeniusNode.hpp" line="372" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1339" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a016de88582f1667a744f6bfb5e53e212" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2331,7 +2331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="374" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1558" bodyend="1605"/>
+        <location file="src/account/GeniusNode.hpp" line="374" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1574" bodyend="1621"/>
       </memberdef>
       <memberdef kind="function" id="d1/d00/classsgns_1_1_genius_node_1a9db3e51a6702f15dd9fb86f286ceff74" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -2384,7 +2384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusNode.hpp" line="382" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1624" bodyend="1647"/>
+        <location file="src/account/GeniusNode.hpp" line="382" column="14" bodyfile="src/account/GeniusNode.cpp" bodystart="1640" bodyend="1663"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -2429,20 +2429,20 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="67">
+      <node id="72">
         <label>BufferStorage</label>
         <link refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage"/>
-        <childnode refid="68" relation="public-inheritance">
+        <childnode refid="73" relation="public-inheritance">
         </childnode>
-        <childnode refid="76" relation="public-inheritance">
+        <childnode refid="81" relation="public-inheritance">
         </childnode>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-        <childnode refid="83" relation="template-instance">
+        <childnode refid="88" relation="template-instance">
           <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="249">
+      <node id="253">
         <label>DevConfig</label>
         <link refid="de/d39/struct_dev_config"/>
         <childnode refid="4" relation="usage">
@@ -2510,26 +2510,26 @@
           <edgelabel>-value_table</edgelabel>
         </childnode>
       </node>
-      <node id="187">
+      <node id="191">
         <label>ProcessingTaskQueue</label>
         <link refid="d0/deb/class_processing_task_queue"/>
       </node>
       <node id="11">
         <label>T</label>
       </node>
-      <node id="92">
+      <node id="98">
         <label>T1</label>
       </node>
-      <node id="93">
+      <node id="99">
         <label>T2</label>
       </node>
-      <node id="193">
+      <node id="197">
         <label>boost::equality_comparable&lt; Buffer &gt;</label>
       </node>
-      <node id="194">
+      <node id="198">
         <label>boost::equality_comparable&lt; gsl::span&lt; uint8_t &gt; &gt;</label>
       </node>
-      <node id="195">
+      <node id="199">
         <label>boost::equality_comparable&lt; std::vector&lt; uint8_t &gt; &gt;</label>
       </node>
       <node id="14">
@@ -2557,7 +2557,7 @@
         <childnode refid="22" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="106">
+      <node id="112">
         <label>ipfs_lite::ipfs::merkledag::MerkleDagService</label>
       </node>
       <node id="17">
@@ -2598,6 +2598,7 @@
         <childnode refid="53" relation="usage">
           <edgelabel>-block_first_response_time_</edgelabel>
           <edgelabel>-first_response_time_</edgelabel>
+          <edgelabel>-utxo_first_response_time_</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
           <edgelabel>-block_responses_mutex_</edgelabel>
@@ -2605,41 +2606,59 @@
           <edgelabel>-head_handler_mutex_</edgelabel>
           <edgelabel>-nonce_responses_mutex_</edgelabel>
           <edgelabel>-queue_mutex_</edgelabel>
+          <edgelabel>-utxo_responses_mutex_</edgelabel>
         </childnode>
         <childnode refid="55" relation="usage">
+          <edgelabel>-utxo_responses_</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
           <edgelabel>-methods_</edgelabel>
         </childnode>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>-worker_thread_</edgelabel>
         </childnode>
-        <childnode refid="57" relation="usage">
+        <childnode refid="62" relation="usage">
           <edgelabel>-request_queue_</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-stop_worker_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="55">
+      <node id="60">
         <label>sgns::AccountMessenger::InterfaceMethods</label>
         <link refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods"/>
       </node>
-      <node id="58">
+      <node id="63">
         <label>sgns::AccountMessenger::RequestTask</label>
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="4" relation="usage">
           <edgelabel>+cid</edgelabel>
+          <edgelabel>+utxo_address</edgelabel>
         </childnode>
-        <childnode refid="59" relation="usage">
+        <childnode refid="64" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
         </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>+utxo_promise</edgelabel>
+        </childnode>
       </node>
-      <node id="251">
+      <node id="57">
+        <label>sgns::AccountMessenger::UTXOResponseData</label>
+        <link refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+responder_address</edgelabel>
+        </childnode>
+        <childnode refid="58" relation="usage">
+          <edgelabel>+utxos</edgelabel>
+        </childnode>
+      </node>
+      <node id="255">
         <label>sgns::Blockchain</label>
         <link refid="de/da2/classsgns_1_1_blockchain"/>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="256" relation="public-inheritance">
         </childnode>
         <childnode refid="25" relation="usage">
           <edgelabel>-ACCOUNT_CREATION_CID_KEY_PREFIX</edgelabel>
@@ -2649,29 +2668,29 @@
           <edgelabel>-GENESIS_CID_KEY</edgelabel>
           <edgelabel>-GENESIS_KEY</edgelabel>
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
         <childnode refid="6" relation="usage">
           <edgelabel>-account_</edgelabel>
         </childnode>
-        <childnode refid="253" relation="usage">
+        <childnode refid="257" relation="usage">
           <edgelabel>-cids_</edgelabel>
         </childnode>
-        <childnode refid="255" relation="usage">
+        <childnode refid="259" relation="usage">
           <edgelabel>-validator_registry_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-validator_registry_initialized_</edgelabel>
         </childnode>
       </node>
-      <node id="253">
+      <node id="257">
         <label>sgns::Blockchain::BlockchainCIDs</label>
         <link refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds"/>
-        <childnode refid="254" relation="usage">
+        <childnode refid="258" relation="usage">
           <edgelabel>+account_creation_</edgelabel>
         </childnode>
       </node>
@@ -2711,6 +2730,12 @@
           <edgelabel>-get_cids_mutex_</edgelabel>
           <edgelabel>-nonce_request_mutex_</edgelabel>
         </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>-nonce_db_</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>-NONCE_KEY_PREFIX</edgelabel>
+        </childnode>
       </node>
       <node id="1">
         <label>sgns::GeniusNode</label>
@@ -2729,71 +2754,71 @@
         <childnode refid="6" relation="usage">
           <edgelabel>#account_</edgelabel>
         </childnode>
-        <childnode refid="64" relation="usage">
+        <childnode refid="93" relation="usage">
           <edgelabel>#utxo_manager_</edgelabel>
         </childnode>
         <childnode refid="49" relation="usage">
           <edgelabel>-pubsub_</edgelabel>
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-io_</edgelabel>
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-job_globaldb_</edgelabel>
           <edgelabel>-tx_globaldb_</edgelabel>
         </childnode>
-        <childnode refid="166" relation="usage">
+        <childnode refid="170" relation="usage">
           <edgelabel>-transaction_manager_</edgelabel>
         </childnode>
-        <childnode refid="185" relation="usage">
+        <childnode refid="189" relation="usage">
           <edgelabel>-task_queue_</edgelabel>
         </childnode>
-        <childnode refid="197" relation="usage">
+        <childnode refid="201" relation="usage">
           <edgelabel>-processing_core_</edgelabel>
         </childnode>
-        <childnode refid="213" relation="usage">
+        <childnode refid="217" relation="usage">
           <edgelabel>-processing_service_</edgelabel>
         </childnode>
-        <childnode refid="246" relation="usage">
+        <childnode refid="250" relation="usage">
           <edgelabel>-task_result_storage_</edgelabel>
         </childnode>
-        <childnode refid="248" relation="usage">
+        <childnode refid="252" relation="usage">
           <edgelabel>-logging_system_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-node_logger_</edgelabel>
         </childnode>
-        <childnode refid="249" relation="usage">
+        <childnode refid="253" relation="usage">
           <edgelabel>-dev_config_</edgelabel>
         </childnode>
-        <childnode refid="250" relation="usage">
+        <childnode refid="254" relation="usage">
           <edgelabel>-blockchain_</edgelabel>
         </childnode>
-        <childnode refid="259" relation="usage">
+        <childnode refid="263" relation="usage">
           <edgelabel>-m_tokenPriceCache</edgelabel>
         </childnode>
-        <childnode refid="261" relation="usage">
+        <childnode refid="265" relation="usage">
           <edgelabel>-io_threads_</edgelabel>
         </childnode>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>-upnp_thread</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-stop_upnp</edgelabel>
         </childnode>
-        <childnode refid="262" relation="usage">
+        <childnode refid="266" relation="usage">
           <edgelabel>-scheduler_</edgelabel>
         </childnode>
-        <childnode refid="263" relation="usage">
+        <childnode refid="267" relation="usage">
           <edgelabel>-generator_</edgelabel>
         </childnode>
-        <childnode refid="264" relation="usage">
+        <childnode refid="268" relation="usage">
           <edgelabel>-graphsyncnetwork_</edgelabel>
         </childnode>
-        <childnode refid="265" relation="usage">
+        <childnode refid="269" relation="usage">
           <edgelabel>-processing_callback_pool_</edgelabel>
         </childnode>
-        <childnode refid="266" relation="usage">
+        <childnode refid="270" relation="usage">
           <edgelabel>-state_</edgelabel>
         </childnode>
         <childnode refid="25" relation="usage">
@@ -2803,14 +2828,14 @@
           <edgelabel>-db_path_</edgelabel>
         </childnode>
       </node>
-      <node id="260">
+      <node id="264">
         <label>sgns::GeniusNode::PriceInfo</label>
         <link refid="d7/da3/structsgns_1_1_genius_node_1_1_price_info"/>
       </node>
-      <node id="177">
+      <node id="181">
         <label>sgns::IGeniusTransactions</label>
         <link refid="d1/d07/classsgns_1_1_i_genius_transactions"/>
-        <childnode refid="178" relation="usage">
+        <childnode refid="182" relation="usage">
           <edgelabel>-deserializers_map</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
@@ -2832,29 +2857,29 @@
           <edgelabel>-data_</edgelabel>
         </childnode>
       </node>
-      <node id="167">
+      <node id="171">
         <label>sgns::TransactionManager</label>
         <link refid="d2/d58/classsgns_1_1_transaction_manager"/>
-        <childnode refid="168" relation="public-inheritance">
+        <childnode refid="172" relation="public-inheritance">
         </childnode>
         <childnode refid="25" relation="usage">
           <edgelabel>+GNUS_FULL_NODES_TOPIC</edgelabel>
           <edgelabel>+GNUS_FULL_NODES_TOPIC_LEGACY</edgelabel>
           <edgelabel>-TRANSACTION_BASE_FORMAT</edgelabel>
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-globaldb_m</edgelabel>
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-ctx_m</edgelabel>
         </childnode>
         <childnode refid="6" relation="usage">
           <edgelabel>-account_m</edgelabel>
         </childnode>
-        <childnode refid="64" relation="usage">
+        <childnode refid="93" relation="usage">
           <edgelabel>-utxo_manager_</edgelabel>
         </childnode>
-        <childnode refid="169" relation="usage">
+        <childnode refid="173" relation="usage">
           <edgelabel>-hasher_m</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
@@ -2863,202 +2888,206 @@
         <childnode refid="54" relation="usage">
           <edgelabel>-cv_mutex_</edgelabel>
           <edgelabel>-deleted_data_queue_mutex_</edgelabel>
+          <edgelabel>-missing_tx_mutex_</edgelabel>
           <edgelabel>-mutex_m</edgelabel>
           <edgelabel>-new_data_queue_mutex_</edgelabel>
           <edgelabel>-state_change_callback_mutex_</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-received_first_periodic_sync_response_</edgelabel>
           <edgelabel>-stopped_</edgelabel>
         </childnode>
-        <childnode refid="171" relation="usage">
+        <childnode refid="175" relation="usage">
           <edgelabel>-tx_queue_m</edgelabel>
         </childnode>
         <childnode refid="43" relation="usage">
           <edgelabel>-tx_mutex_m</edgelabel>
         </childnode>
-        <childnode refid="174" relation="usage">
+        <childnode refid="178" relation="usage">
           <edgelabel>-tx_processed_m</edgelabel>
         </childnode>
-        <childnode refid="179" relation="usage">
+        <childnode refid="183" relation="usage">
           <edgelabel>-verifying_count_</edgelabel>
         </childnode>
-        <childnode refid="180" relation="usage">
+        <childnode refid="184" relation="usage">
           <edgelabel>-new_data_queue_</edgelabel>
         </childnode>
-        <childnode refid="182" relation="usage">
+        <childnode refid="186" relation="usage">
           <edgelabel>-deleted_data_queue_</edgelabel>
         </childnode>
-        <childnode refid="183" relation="usage">
+        <childnode refid="58" relation="usage">
+          <edgelabel>-missing_tx_hashes_</edgelabel>
+        </childnode>
+        <childnode refid="187" relation="usage">
           <edgelabel>-transaction_parsers</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="175">
+      <node id="179">
         <label>sgns::TransactionManager::TrackedTx</label>
         <link refid="d1/dc6/structsgns_1_1_transaction_manager_1_1_tracked_tx"/>
-        <childnode refid="176" relation="usage">
+        <childnode refid="180" relation="usage">
           <edgelabel>+tx</edgelabel>
         </childnode>
       </node>
-      <node id="64">
+      <node id="93">
         <label>sgns::UTXOManager</label>
         <link refid="d0/dac/classsgns_1_1_u_t_x_o_manager"/>
         <childnode refid="25" relation="usage">
           <edgelabel>-DB_PREFIX</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-address_</edgelabel>
         </childnode>
-        <childnode refid="65" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
         <childnode refid="43" relation="usage">
           <edgelabel>-utxos_mutex_</edgelabel>
         </childnode>
-        <childnode refid="88" relation="usage">
+        <childnode refid="94" relation="usage">
           <edgelabel>-utxos_</edgelabel>
         </childnode>
       </node>
-      <node id="192">
+      <node id="196">
         <label>sgns::base::Buffer</label>
         <link refid="de/dd5/classsgns_1_1base_1_1_buffer"/>
-        <childnode refid="193" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
-        <childnode refid="194" relation="public-inheritance">
+        <childnode refid="198" relation="public-inheritance">
         </childnode>
-        <childnode refid="195" relation="public-inheritance">
+        <childnode refid="199" relation="public-inheritance">
         </childnode>
-        <childnode refid="196" relation="usage">
+        <childnode refid="200" relation="usage">
           <edgelabel>-data_</edgelabel>
         </childnode>
       </node>
-      <node id="256">
+      <node id="260">
         <label>sgns::blockchain::ValidatorRegistry</label>
         <link refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry"/>
-        <childnode refid="257" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
-        <childnode refid="258" relation="usage">
+        <childnode refid="262" relation="usage">
           <edgelabel>-weight_config_</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-cached_registry_id_</edgelabel>
           <edgelabel>-genesis_authority_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
         <childnode refid="43" relation="usage">
           <edgelabel>-cache_mutex_</edgelabel>
         </childnode>
       </node>
-      <node id="258">
+      <node id="262">
         <label>sgns::blockchain::ValidatorRegistry::WeightConfig</label>
         <link refid="da/dc2/structsgns_1_1blockchain_1_1_validator_registry_1_1_weight_config"/>
       </node>
-      <node id="189">
+      <node id="193">
         <label>sgns::crdt::AtomicTransaction</label>
         <link refid="d8/da6/classsgns_1_1crdt_1_1_atomic_transaction"/>
-        <childnode refid="131" relation="usage">
+        <childnode refid="137" relation="usage">
           <edgelabel>-datastore_</edgelabel>
         </childnode>
-        <childnode refid="190" relation="usage">
+        <childnode refid="194" relation="usage">
           <edgelabel>-operations_</edgelabel>
         </childnode>
-        <childnode refid="158" relation="usage">
+        <childnode refid="58" relation="usage">
           <edgelabel>-modified_keys_</edgelabel>
         </childnode>
       </node>
-      <node id="191">
+      <node id="195">
         <label>sgns::crdt::AtomicTransaction::PendingOperation</label>
         <link refid="d5/db9/structsgns_1_1crdt_1_1_atomic_transaction_1_1_pending_operation"/>
-        <childnode refid="136" relation="usage">
+        <childnode refid="142" relation="usage">
           <edgelabel>+key</edgelabel>
         </childnode>
-        <childnode refid="192" relation="usage">
+        <childnode refid="196" relation="usage">
           <edgelabel>+value</edgelabel>
         </childnode>
       </node>
-      <node id="101">
+      <node id="107">
         <label>sgns::crdt::Broadcaster</label>
         <link refid="d9/de2/classsgns_1_1crdt_1_1_broadcaster"/>
       </node>
-      <node id="160">
+      <node id="164">
         <label>sgns::crdt::CRDTCallbackManager</label>
         <link refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager"/>
         <childnode refid="43" relation="usage">
           <edgelabel>-deleted_data_callback_registry_mutex_</edgelabel>
           <edgelabel>-new_data_callback_registry_mutex_</edgelabel>
         </childnode>
-        <childnode refid="161" relation="usage">
+        <childnode refid="165" relation="usage">
           <edgelabel>-new_data_callback_registry_</edgelabel>
         </childnode>
-        <childnode refid="162" relation="usage">
+        <childnode refid="166" relation="usage">
           <edgelabel>-deleted_data_callback_registry_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="156">
+      <node id="162">
         <label>sgns::crdt::CRDTDataFilter</label>
         <link refid="dd/d9b/classsgns_1_1crdt_1_1_c_r_d_t_data_filter"/>
         <childnode refid="43" relation="usage">
           <edgelabel>-element_registry_mutex_</edgelabel>
           <edgelabel>-tombstone_registry_mutex_</edgelabel>
         </childnode>
-        <childnode refid="157" relation="usage">
+        <childnode refid="163" relation="usage">
           <edgelabel>-element_registry_</edgelabel>
           <edgelabel>-tombstone_registry_</edgelabel>
         </childnode>
       </node>
-      <node id="132">
+      <node id="138">
         <label>sgns::crdt::CrdtDatastore</label>
         <link refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore"/>
-        <childnode refid="133" relation="public-inheritance">
+        <childnode refid="139" relation="public-inheritance">
         </childnode>
-        <childnode refid="65" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>-dataStore_</edgelabel>
         </childnode>
-        <childnode refid="134" relation="usage">
+        <childnode refid="140" relation="usage">
           <edgelabel>-options_</edgelabel>
         </childnode>
-        <childnode refid="136" relation="usage">
+        <childnode refid="142" relation="usage">
           <edgelabel>-namespaceKey_</edgelabel>
         </childnode>
-        <childnode refid="137" relation="usage">
+        <childnode refid="143" relation="usage">
           <edgelabel>-set_</edgelabel>
         </childnode>
-        <childnode refid="139" relation="usage">
+        <childnode refid="145" relation="usage">
           <edgelabel>-heads_</edgelabel>
         </childnode>
-        <childnode refid="143" relation="usage">
+        <childnode refid="149" relation="usage">
           <edgelabel>-broadcaster_</edgelabel>
         </childnode>
-        <childnode refid="144" relation="usage">
+        <childnode refid="150" relation="usage">
           <edgelabel>-dagSyncer_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
         <childnode refid="25" relation="usage">
           <edgelabel>-headsNamespace_</edgelabel>
           <edgelabel>-setsNamespace_</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-dagWorkerJobListThreadRunning_</edgelabel>
           <edgelabel>-handleNextThreadRunning_</edgelabel>
           <edgelabel>-rebroadcastThreadRunning_</edgelabel>
         </childnode>
-        <childnode refid="145" relation="usage">
+        <childnode refid="151" relation="usage">
           <edgelabel>-dagWorkers_</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
@@ -3070,81 +3099,81 @@
           <edgelabel>-rebroadcastMutex_</edgelabel>
           <edgelabel>-topicNamesMutex_</edgelabel>
         </childnode>
-        <childnode refid="149" relation="usage">
+        <childnode refid="155" relation="usage">
           <edgelabel>-rootCIDJobList_</edgelabel>
           <edgelabel>-selfCreatedJobList_</edgelabel>
         </childnode>
-        <childnode refid="152" relation="usage">
+        <childnode refid="158" relation="usage">
           <edgelabel>-pendingHeadsByRootCID_</edgelabel>
         </childnode>
-        <childnode refid="155" relation="usage">
+        <childnode refid="161" relation="usage">
           <edgelabel>-pendingRootQueue_</edgelabel>
         </childnode>
-        <childnode refid="156" relation="usage">
+        <childnode refid="162" relation="usage">
           <edgelabel>-crdt_filter_</edgelabel>
         </childnode>
-        <childnode refid="158" relation="usage">
+        <childnode refid="58" relation="usage">
           <edgelabel>-pendingBroadcastTopics_</edgelabel>
           <edgelabel>-topicNames_</edgelabel>
         </childnode>
-        <childnode refid="160" relation="usage">
+        <childnode refid="164" relation="usage">
           <edgelabel>-crdt_cb_manager_</edgelabel>
         </childnode>
-        <childnode refid="163" relation="usage">
+        <childnode refid="167" relation="usage">
           <edgelabel>-pending_jobs_</edgelabel>
         </childnode>
-        <childnode refid="164" relation="usage">
+        <childnode refid="168" relation="usage">
           <edgelabel>-cid_string_cache_</edgelabel>
         </childnode>
       </node>
-      <node id="147">
+      <node id="153">
         <label>sgns::crdt::CrdtDatastore::DagWorker</label>
         <link refid="db/d23/structsgns_1_1crdt_1_1_crdt_datastore_1_1_dag_worker"/>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>+dagWorkerThreadRunning_</edgelabel>
         </childnode>
       </node>
-      <node id="150">
+      <node id="156">
         <label>sgns::crdt::CrdtDatastore::RootCIDJob</label>
         <link refid="d1/de1/structsgns_1_1crdt_1_1_crdt_datastore_1_1_root_c_i_d_job"/>
-        <childnode refid="151" relation="usage">
+        <childnode refid="157" relation="usage">
           <edgelabel>+node_</edgelabel>
           <edgelabel>+root_node_</edgelabel>
         </childnode>
       </node>
-      <node id="140">
+      <node id="146">
         <label>sgns::crdt::CrdtHeads</label>
         <link refid="d5/dea/classsgns_1_1crdt_1_1_crdt_heads"/>
         <childnode refid="43" relation="usage">
           <edgelabel>-mutex_</edgelabel>
         </childnode>
-        <childnode refid="65" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>-dataStore_</edgelabel>
         </childnode>
-        <childnode refid="141" relation="usage">
+        <childnode refid="147" relation="usage">
           <edgelabel>-cache_</edgelabel>
         </childnode>
-        <childnode refid="136" relation="usage">
+        <childnode refid="142" relation="usage">
           <edgelabel>-namespaceKey_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="135">
+      <node id="141">
         <label>sgns::crdt::CrdtOptions</label>
         <link refid="db/d77/structsgns_1_1crdt_1_1_crdt_options"/>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>+logger</edgelabel>
         </childnode>
       </node>
-      <node id="138">
+      <node id="144">
         <label>sgns::crdt::CrdtSet</label>
         <link refid="dd/d80/classsgns_1_1crdt_1_1_crdt_set"/>
-        <childnode refid="65" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>-dataStore_</edgelabel>
         </childnode>
-        <childnode refid="136" relation="usage">
+        <childnode refid="142" relation="usage">
           <edgelabel>-namespaceKey_</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
@@ -3158,51 +3187,51 @@
           <edgelabel>-valueSuffix_</edgelabel>
         </childnode>
       </node>
-      <node id="105">
+      <node id="111">
         <label>sgns::crdt::DAGSyncer</label>
         <link refid="d5/d05/classsgns_1_1crdt_1_1_d_a_g_syncer"/>
-        <childnode refid="106" relation="public-inheritance">
+        <childnode refid="112" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="96">
+      <node id="102">
         <label>sgns::crdt::GlobalDB</label>
         <link refid="da/d32/classsgns_1_1crdt_1_1_global_d_b"/>
-        <childnode refid="97" relation="public-inheritance">
+        <childnode refid="103" relation="public-inheritance">
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-m_context</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_databasePath</edgelabel>
           <edgelabel>-m_graphSyncAddrs</edgelabel>
         </childnode>
-        <childnode refid="98" relation="usage">
+        <childnode refid="104" relation="usage">
           <edgelabel>-m_pubsub</edgelabel>
         </childnode>
-        <childnode refid="99" relation="usage">
+        <childnode refid="105" relation="usage">
           <edgelabel>-m_broadcaster</edgelabel>
         </childnode>
-        <childnode refid="65" relation="usage">
+        <childnode refid="70" relation="usage">
           <edgelabel>-m_datastore</edgelabel>
         </childnode>
-        <childnode refid="131" relation="usage">
+        <childnode refid="137" relation="usage">
           <edgelabel>-m_crdtDatastore</edgelabel>
         </childnode>
-        <childnode refid="165" relation="usage">
+        <childnode refid="169" relation="usage">
           <edgelabel>-bootstrapAddresses_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="104">
+      <node id="110">
         <label>sgns::crdt::GraphsyncDAGSyncer</label>
         <link refid="d0/d05/classsgns_1_1crdt_1_1_graphsync_d_a_g_syncer"/>
-        <childnode refid="105" relation="public-inheritance">
+        <childnode refid="111" relation="public-inheritance">
         </childnode>
-        <childnode refid="107" relation="public-inheritance">
+        <childnode refid="113" relation="public-inheritance">
         </childnode>
-        <childnode refid="108" relation="usage">
+        <childnode refid="114" relation="usage">
           <edgelabel>-unexpected_blocks</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
@@ -3212,85 +3241,85 @@
           <edgelabel>-registry_mutex_</edgelabel>
           <edgelabel>-routing_mutex_</edgelabel>
         </childnode>
-        <childnode refid="109" relation="usage">
+        <childnode refid="115" relation="usage">
           <edgelabel>-graphsync_</edgelabel>
         </childnode>
-        <childnode refid="110" relation="usage">
+        <childnode refid="116" relation="usage">
           <edgelabel>-host_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
-        <childnode refid="111" relation="usage">
+        <childnode refid="117" relation="usage">
           <edgelabel>-requests_</edgelabel>
         </childnode>
-        <childnode refid="113" relation="usage">
+        <childnode refid="119" relation="usage">
           <edgelabel>-peer_registry_</edgelabel>
         </childnode>
-        <childnode refid="115" relation="usage">
+        <childnode refid="121" relation="usage">
           <edgelabel>-peer_index_</edgelabel>
         </childnode>
-        <childnode refid="116" relation="usage">
+        <childnode refid="122" relation="usage">
           <edgelabel>-routing_</edgelabel>
         </childnode>
-        <childnode refid="117" relation="usage">
+        <childnode refid="123" relation="usage">
           <edgelabel>-blacklist_</edgelabel>
         </childnode>
-        <childnode refid="119" relation="usage">
+        <childnode refid="125" relation="usage">
           <edgelabel>-cid_failures_</edgelabel>
         </childnode>
-        <childnode refid="121" relation="usage">
+        <childnode refid="127" relation="usage">
           <edgelabel>-received_blocks_</edgelabel>
         </childnode>
-        <childnode refid="123" relation="usage">
+        <childnode refid="129" relation="usage">
           <edgelabel>-lru_cid_cache_</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-is_stopped_</edgelabel>
         </childnode>
       </node>
-      <node id="118">
+      <node id="124">
         <label>sgns::crdt::GraphsyncDAGSyncer::BlacklistEntry</label>
         <link refid="d8/dea/structsgns_1_1crdt_1_1_graphsync_d_a_g_syncer_1_1_blacklist_entry"/>
       </node>
-      <node id="123">
+      <node id="129">
         <label>sgns::crdt::GraphsyncDAGSyncer::LRUCIDCache</label>
         <link refid="d9/d91/classsgns_1_1crdt_1_1_graphsync_d_a_g_syncer_1_1_l_r_u_c_i_d_cache"/>
-        <childnode refid="124" relation="usage">
+        <childnode refid="130" relation="usage">
           <edgelabel>+cache_map_</edgelabel>
         </childnode>
-        <childnode refid="126" relation="usage">
+        <childnode refid="132" relation="usage">
           <edgelabel>+lru_list_</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
           <edgelabel>+mutex_</edgelabel>
         </childnode>
       </node>
-      <node id="136">
+      <node id="142">
         <label>sgns::crdt::HierarchicalKey</label>
         <link refid="d6/dfe/classsgns_1_1crdt_1_1_hierarchical_key"/>
         <childnode refid="4" relation="usage">
           <edgelabel>-key_</edgelabel>
         </childnode>
       </node>
-      <node id="100">
+      <node id="106">
         <label>sgns::crdt::PubSubBroadcasterExt</label>
         <link refid="da/d80/classsgns_1_1crdt_1_1_pub_sub_broadcaster_ext"/>
-        <childnode refid="101" relation="public-inheritance">
+        <childnode refid="107" relation="public-inheritance">
         </childnode>
-        <childnode refid="102" relation="public-inheritance">
+        <childnode refid="108" relation="public-inheritance">
         </childnode>
         <childnode refid="52" relation="usage">
           <edgelabel>-topicsToBroadcast_</edgelabel>
           <edgelabel>-topicsToListen_</edgelabel>
         </childnode>
-        <childnode refid="103" relation="usage">
+        <childnode refid="109" relation="usage">
           <edgelabel>-dagSyncer_</edgelabel>
         </childnode>
-        <childnode refid="128" relation="usage">
+        <childnode refid="134" relation="usage">
           <edgelabel>-messageQueue_</edgelabel>
         </childnode>
-        <childnode refid="129" relation="usage">
+        <childnode refid="135" relation="usage">
           <edgelabel>-pubSub_</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
@@ -3299,33 +3328,33 @@
           <edgelabel>-queueMutex_</edgelabel>
           <edgelabel>-subscriptionMutex_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
-        <childnode refid="130" relation="usage">
+        <childnode refid="136" relation="usage">
           <edgelabel>-subscriptionFutures_</edgelabel>
         </childnode>
       </node>
-      <node id="170">
+      <node id="174">
         <label>sgns::crypto::Hasher</label>
         <link refid="dd/d14/classsgns_1_1crypto_1_1_hasher"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="199">
+      <node id="203">
         <label>sgns::processing::ProcessingCore</label>
         <link refid="d6/da7/classsgns_1_1processing_1_1_processing_core"/>
       </node>
-      <node id="198">
+      <node id="202">
         <label>sgns::processing::ProcessingCoreImpl</label>
         <link refid="d0/d7f/classsgns_1_1processing_1_1_processing_core_impl"/>
-        <childnode refid="199" relation="public-inheritance">
+        <childnode refid="203" relation="public-inheritance">
         </childnode>
-        <childnode refid="200" relation="usage">
+        <childnode refid="204" relation="usage">
           <edgelabel>+m_chunkResulHashes</edgelabel>
           <edgelabel>+m_validationChunkHashes</edgelabel>
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-m_db</edgelabel>
         </childnode>
         <childnode refid="12" relation="usage">
@@ -3334,113 +3363,113 @@
         <childnode refid="54" relation="usage">
           <edgelabel>-m_subTaskCountMutex</edgelabel>
         </childnode>
-        <childnode refid="201" relation="usage">
+        <childnode refid="205" relation="usage">
           <edgelabel>-m_currentProcessingManager</edgelabel>
         </childnode>
-        <childnode refid="208" relation="usage">
+        <childnode refid="212" relation="usage">
           <edgelabel>-cidData_</edgelabel>
         </childnode>
       </node>
-      <node id="228">
+      <node id="232">
         <label>sgns::processing::ProcessingEngine</label>
         <link refid="dc/d00/classsgns_1_1processing_1_1_processing_engine"/>
-        <childnode refid="229" relation="public-inheritance">
+        <childnode refid="233" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_nodeId</edgelabel>
         </childnode>
-        <childnode refid="221" relation="usage">
+        <childnode refid="225" relation="usage">
           <edgelabel>-m_processingCore</edgelabel>
         </childnode>
-        <childnode refid="230" relation="usage">
+        <childnode refid="234" relation="usage">
           <edgelabel>-m_subTaskQueueAccessor</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
           <edgelabel>-m_mutexSubTaskQueue</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="225">
+      <node id="229">
         <label>sgns::processing::ProcessingNode</label>
         <link refid="d2/d5b/classsgns_1_1processing_1_1_processing_node"/>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="230" relation="public-inheritance">
         </childnode>
-        <childnode refid="98" relation="usage">
+        <childnode refid="104" relation="usage">
           <edgelabel>-m_gossipPubSub</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_escrowId</edgelabel>
           <edgelabel>-m_nodeId</edgelabel>
         </childnode>
-        <childnode refid="221" relation="usage">
+        <childnode refid="225" relation="usage">
           <edgelabel>-m_processingCore</edgelabel>
         </childnode>
-        <childnode refid="219" relation="usage">
+        <childnode refid="223" relation="usage">
           <edgelabel>-m_subTaskResultStorage</edgelabel>
         </childnode>
-        <childnode refid="227" relation="usage">
+        <childnode refid="231" relation="usage">
           <edgelabel>-m_processingEngine</edgelabel>
         </childnode>
-        <childnode refid="232" relation="usage">
+        <childnode refid="236" relation="usage">
           <edgelabel>-m_queueChannel</edgelabel>
         </childnode>
-        <childnode refid="234" relation="usage">
+        <childnode refid="238" relation="usage">
           <edgelabel>-m_subtaskQueueManager</edgelabel>
         </childnode>
-        <childnode refid="230" relation="usage">
+        <childnode refid="234" relation="usage">
           <edgelabel>-m_subTaskQueueAccessor</edgelabel>
         </childnode>
-        <childnode refid="244" relation="usage">
+        <childnode refid="248" relation="usage">
           <edgelabel>-m_ttlTimer</edgelabel>
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-m_localContext</edgelabel>
         </childnode>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>-m_localIoThread</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="214">
+      <node id="218">
         <label>sgns::processing::ProcessingServiceImpl</label>
         <link refid="dd/d81/classsgns_1_1processing_1_1_processing_service_impl"/>
-        <childnode refid="215" relation="public-inheritance">
+        <childnode refid="219" relation="public-inheritance">
         </childnode>
-        <childnode refid="98" relation="usage">
+        <childnode refid="104" relation="usage">
           <edgelabel>-m_gossipPubSub</edgelabel>
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-m_context</edgelabel>
         </childnode>
-        <childnode refid="216" relation="usage">
+        <childnode refid="220" relation="usage">
           <edgelabel>-m_context_work</edgelabel>
         </childnode>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>-io_thread</edgelabel>
         </childnode>
-        <childnode refid="217" relation="usage">
+        <childnode refid="221" relation="usage">
           <edgelabel>-m_subTaskEnqueuer</edgelabel>
         </childnode>
-        <childnode refid="219" relation="usage">
+        <childnode refid="223" relation="usage">
           <edgelabel>-m_subTaskResultStorage</edgelabel>
         </childnode>
-        <childnode refid="221" relation="usage">
+        <childnode refid="225" relation="usage">
           <edgelabel>-m_processingCore</edgelabel>
         </childnode>
-        <childnode refid="222" relation="usage">
+        <childnode refid="226" relation="usage">
           <edgelabel>-m_gridChannel</edgelabel>
         </childnode>
-        <childnode refid="223" relation="usage">
+        <childnode refid="227" relation="usage">
           <edgelabel>-m_processingNodes</edgelabel>
         </childnode>
-        <childnode refid="61" relation="usage">
+        <childnode refid="67" relation="usage">
           <edgelabel>-m_isStopped</edgelabel>
         </childnode>
-        <childnode refid="238" relation="usage">
+        <childnode refid="242" relation="usage">
           <edgelabel>-m_mutexNodes</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
@@ -3451,89 +3480,89 @@
           <edgelabel>-m_blacklistedChannels</edgelabel>
           <edgelabel>-m_competingPeers</edgelabel>
         </childnode>
-        <childnode refid="245" relation="usage">
+        <childnode refid="249" relation="usage">
           <edgelabel>-m_pendingSubTasks</edgelabel>
         </childnode>
         <childnode refid="54" relation="usage">
           <edgelabel>-m_mutexBlacklist</edgelabel>
           <edgelabel>-m_mutexPendingCreation</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="240">
+      <node id="244">
         <label>sgns::processing::ProcessingSubTaskQueue</label>
         <link refid="d8/d64/classsgns_1_1processing_1_1_processing_sub_task_queue"/>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_localNodeId</edgelabel>
         </childnode>
-        <childnode refid="241" relation="usage">
+        <childnode refid="245" relation="usage">
           <edgelabel>-m_enabledItemIndices</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="233">
+      <node id="237">
         <label>sgns::processing::ProcessingSubTaskQueueChannel</label>
         <link refid="d7/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_channel"/>
       </node>
-      <node id="235">
+      <node id="239">
         <label>sgns::processing::ProcessingSubTaskQueueManager</label>
         <link refid="d4/d2b/classsgns_1_1processing_1_1_processing_sub_task_queue_manager"/>
-        <childnode refid="236" relation="public-inheritance">
+        <childnode refid="240" relation="public-inheritance">
         </childnode>
-        <childnode refid="232" relation="usage">
+        <childnode refid="236" relation="usage">
           <edgelabel>-m_queueChannel</edgelabel>
         </childnode>
-        <childnode refid="94" relation="usage">
+        <childnode refid="100" relation="usage">
           <edgelabel>-m_context</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_localNodeId</edgelabel>
         </childnode>
-        <childnode refid="237" relation="usage">
+        <childnode refid="241" relation="usage">
           <edgelabel>-m_queue</edgelabel>
         </childnode>
-        <childnode refid="238" relation="usage">
+        <childnode refid="242" relation="usage">
           <edgelabel>-m_queueMutex</edgelabel>
         </childnode>
-        <childnode refid="239" relation="usage">
+        <childnode refid="243" relation="usage">
           <edgelabel>-m_onSubTaskGrabbedCallbacks</edgelabel>
         </childnode>
         <childnode refid="52" relation="usage">
           <edgelabel>-m_processedSubTaskIds</edgelabel>
         </childnode>
-        <childnode refid="240" relation="usage">
+        <childnode refid="244" relation="usage">
           <edgelabel>-m_processingQueue</edgelabel>
         </childnode>
-        <childnode refid="242" relation="usage">
+        <childnode refid="246" relation="usage">
           <edgelabel>-m_ownershipRequestQueue</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
       </node>
-      <node id="243">
+      <node id="247">
         <label>sgns::processing::ProcessingSubTaskQueueManager::OwnershipRequest</label>
         <link refid="da/d9a/structsgns_1_1processing_1_1_processing_sub_task_queue_manager_1_1_ownership_request"/>
         <childnode refid="4" relation="usage">
           <edgelabel>+node_id</edgelabel>
         </childnode>
       </node>
-      <node id="186">
+      <node id="190">
         <label>sgns::processing::ProcessingTaskQueueImpl</label>
         <link refid="d6/d4e/classsgns_1_1processing_1_1_processing_task_queue_impl"/>
-        <childnode refid="187" relation="public-inheritance">
+        <childnode refid="191" relation="public-inheritance">
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-m_db</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
-        <childnode refid="188" relation="usage">
+        <childnode refid="192" relation="usage">
           <edgelabel>-job_crdt_transaction_</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
@@ -3551,185 +3580,185 @@
           <edgelabel>-TASK_LIST_KEY</edgelabel>
         </childnode>
       </node>
-      <node id="218">
+      <node id="222">
         <label>sgns::processing::SubTaskEnqueuer</label>
         <link refid="d2/d46/classsgns_1_1processing_1_1_sub_task_enqueuer"/>
       </node>
-      <node id="231">
+      <node id="235">
         <label>sgns::processing::SubTaskQueueAccessor</label>
         <link refid="dd/d1c/classsgns_1_1processing_1_1_sub_task_queue_accessor"/>
       </node>
-      <node id="220">
+      <node id="224">
         <label>sgns::processing::SubTaskResultStorage</label>
         <link refid="d0/d47/classsgns_1_1processing_1_1_sub_task_result_storage"/>
       </node>
-      <node id="247">
+      <node id="251">
         <label>sgns::processing::SubTaskResultStorageImpl</label>
         <link refid="d3/df7/classsgns_1_1processing_1_1_sub_task_result_storage_impl"/>
-        <childnode refid="220" relation="public-inheritance">
+        <childnode refid="224" relation="public-inheritance">
         </childnode>
-        <childnode refid="95" relation="usage">
+        <childnode refid="101" relation="usage">
           <edgelabel>-m_db</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>-m_processing_topic</edgelabel>
         </childnode>
       </node>
-      <node id="202">
+      <node id="206">
         <label>sgns::sgprocessing::ProcessingManager</label>
         <link refid="d7/d85/classsgns_1_1sgprocessing_1_1_processing_manager"/>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-m_logger</edgelabel>
         </childnode>
-        <childnode refid="203" relation="usage">
+        <childnode refid="207" relation="usage">
           <edgelabel>-m_processor</edgelabel>
         </childnode>
-        <childnode refid="206" relation="usage">
+        <childnode refid="210" relation="usage">
           <edgelabel>-m_processorFactories</edgelabel>
         </childnode>
-        <childnode refid="207" relation="usage">
+        <childnode refid="211" relation="usage">
           <edgelabel>-m_inputMap</edgelabel>
         </childnode>
       </node>
-      <node id="204">
+      <node id="208">
         <label>sgns::sgprocessing::ProcessingProcessor</label>
         <link refid="dc/d66/classsgns_1_1sgprocessing_1_1_processing_processor"/>
-        <childnode refid="205" relation="usage">
+        <childnode refid="209" relation="usage">
           <edgelabel>#m_progress</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>#m_logger</edgelabel>
-        </childnode>
-      </node>
-      <node id="80">
-        <label>sgns::storage::face::BatchWriteMap&lt; K, V &gt;</label>
-        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
-        <childnode refid="81" relation="public-inheritance">
-        </childnode>
-        <childnode refid="82" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="76">
-        <label>sgns::storage::face::BatchWriteMap&lt; Buffer, Buffer &gt;</label>
-        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
-        <childnode refid="77" relation="public-inheritance">
-        </childnode>
-        <childnode refid="79" relation="public-inheritance">
-        </childnode>
-        <childnode refid="80" relation="template-instance">
-          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
         </childnode>
       </node>
       <node id="85">
         <label>sgns::storage::face::BatchWriteMap&lt; K, V &gt;</label>
         <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
-        <childnode refid="81" relation="public-inheritance">
+        <childnode refid="86" relation="public-inheritance">
         </childnode>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>sgns::storage::face::BatchWriteMap&lt; Buffer, Buffer &gt;</label>
+        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
         <childnode refid="82" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="79">
-        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
-        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
-      </node>
-      <node id="82">
-        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
-        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
-      </node>
-      <node id="83">
-        <label>sgns::storage::face::GenericStorage&lt; K, V &gt;</label>
-        <link refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage"/>
         <childnode refid="84" relation="public-inheritance">
         </childnode>
-        <childnode refid="85" relation="public-inheritance">
+        <childnode refid="85" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="90">
+        <label>sgns::storage::face::BatchWriteMap&lt; K, V &gt;</label>
+        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
+        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
+      </node>
+      <node id="87">
+        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
+        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
+      </node>
+      <node id="88">
+        <label>sgns::storage::face::GenericStorage&lt; K, V &gt;</label>
+        <link refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+        <childnode refid="90" relation="public-inheritance">
         </childnode>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="70">
+      <node id="75">
         <label>sgns::storage::face::Iterable&lt; K, V &gt;</label>
         <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
-      </node>
-      <node id="69">
-        <label>sgns::storage::face::Iterable&lt; Buffer, Buffer &gt;</label>
-        <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
-        <childnode refid="70" relation="template-instance">
-          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
-        </childnode>
       </node>
       <node id="74">
+        <label>sgns::storage::face::Iterable&lt; Buffer, Buffer &gt;</label>
+        <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
+        <childnode refid="75" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
         <label>sgns::storage::face::Iterable&lt; K, V &gt;</label>
         <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
       </node>
-      <node id="73">
+      <node id="78">
         <label>sgns::storage::face::ReadOnlyMap&lt; K, V &gt;</label>
         <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
-        <childnode refid="74" relation="public-inheritance">
+        <childnode refid="79" relation="public-inheritance">
         </childnode>
-        <childnode refid="75" relation="public-inheritance">
+        <childnode refid="80" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="68">
+      <node id="73">
         <label>sgns::storage::face::ReadOnlyMap&lt; Buffer, Buffer &gt;</label>
         <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
-        <childnode refid="69" relation="public-inheritance">
-        </childnode>
-        <childnode refid="71" relation="public-inheritance">
-        </childnode>
-        <childnode refid="73" relation="template-instance">
-          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="84">
-        <label>sgns::storage::face::ReadOnlyMap&lt; K, V &gt;</label>
-        <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
         <childnode refid="74" relation="public-inheritance">
         </childnode>
-        <childnode refid="75" relation="public-inheritance">
+        <childnode refid="76" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="72">
-        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
-        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
-      </node>
-      <node id="71">
-        <label>sgns::storage::face::Readable&lt; Buffer, Buffer &gt;</label>
-        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
-        <childnode refid="72" relation="template-instance">
-          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
-        </childnode>
-      </node>
-      <node id="75">
-        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
-        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
-      </node>
-      <node id="78">
-        <label>sgns::storage::face::Writeable&lt; K, V &gt;</label>
-        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
-      </node>
-      <node id="77">
-        <label>sgns::storage::face::Writeable&lt; Buffer, Buffer &gt;</label>
-        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
         <childnode refid="78" relation="template-instance">
           <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="81">
+      <node id="89">
+        <label>sgns::storage::face::ReadOnlyMap&lt; K, V &gt;</label>
+        <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+      </node>
+      <node id="76">
+        <label>sgns::storage::face::Readable&lt; Buffer, Buffer &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+        <childnode refid="77" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="80">
+        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+      </node>
+      <node id="83">
         <label>sgns::storage::face::Writeable&lt; K, V &gt;</label>
         <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
       </node>
-      <node id="66">
+      <node id="82">
+        <label>sgns::storage::face::Writeable&lt; Buffer, Buffer &gt;</label>
+        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
+        <childnode refid="83" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="86">
+        <label>sgns::storage::face::Writeable&lt; K, V &gt;</label>
+        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
+      </node>
+      <node id="71">
         <label>sgns::storage::rocksdb</label>
         <link refid="d5/dbf/classsgns_1_1storage_1_1rocksdb"/>
-        <childnode refid="67" relation="public-inheritance">
+        <childnode refid="72" relation="public-inheritance">
         </childnode>
-        <childnode refid="86" relation="usage">
+        <childnode refid="91" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
-        <childnode refid="63" relation="usage">
+        <childnode refid="69" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
-        <childnode refid="87" relation="usage">
+        <childnode refid="92" relation="usage">
           <edgelabel>-options_</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
@@ -3748,33 +3777,33 @@
           <edgelabel>&lt; uint8_t, 32 &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="62">
+      <node id="68">
         <label>std::atomic&lt; T &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="266">
+      <node id="270">
         <label>std::atomic&lt; NodeState &gt;</label>
-        <childnode refid="62" relation="template-instance">
+        <childnode refid="68" relation="template-instance">
           <edgelabel>&lt; NodeState &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="61">
+      <node id="67">
         <label>std::atomic&lt; bool &gt;</label>
-        <childnode refid="62" relation="template-instance">
+        <childnode refid="68" relation="template-instance">
           <edgelabel>&lt; bool &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="205">
+      <node id="209">
         <label>std::atomic&lt; float &gt;</label>
-        <childnode refid="62" relation="template-instance">
+        <childnode refid="68" relation="template-instance">
           <edgelabel>&lt; float &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="179">
+      <node id="183">
         <label>std::atomic&lt; size_t &gt;</label>
-        <childnode refid="62" relation="template-instance">
+        <childnode refid="68" relation="template-instance">
           <edgelabel>&lt; size_t &gt;</edgelabel>
         </childnode>
       </node>
@@ -3784,28 +3813,28 @@
       <node id="26">
         <label>std::basic_string_view&lt; Char &gt;</label>
       </node>
-      <node id="173">
+      <node id="177">
         <label>std::deque&lt; T &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="171">
+      <node id="175">
         <label>std::deque&lt; TransactionItem &gt;</label>
-        <childnode refid="172" relation="usage">
+        <childnode refid="176" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="173" relation="template-instance">
+        <childnode refid="177" relation="template-instance">
           <edgelabel>&lt; TransactionItem &gt;</edgelabel>
         </childnode>
       </node>
       <node id="48">
         <label>std::enable_shared_from_this&lt; AccountMessenger &gt;</label>
       </node>
-      <node id="252">
+      <node id="256">
         <label>std::enable_shared_from_this&lt; Blockchain &gt;</label>
       </node>
-      <node id="133">
+      <node id="139">
         <label>std::enable_shared_from_this&lt; CrdtDatastore &gt;</label>
       </node>
       <node id="8">
@@ -3814,61 +3843,61 @@
       <node id="3">
         <label>std::enable_shared_from_this&lt; GeniusNode &gt;</label>
       </node>
-      <node id="97">
+      <node id="103">
         <label>std::enable_shared_from_this&lt; GlobalDB &gt;</label>
       </node>
-      <node id="107">
+      <node id="113">
         <label>std::enable_shared_from_this&lt; GraphsyncDAGSyncer &gt;</label>
       </node>
       <node id="41">
         <label>std::enable_shared_from_this&lt; ISecureStorage &gt;</label>
       </node>
-      <node id="229">
+      <node id="233">
         <label>std::enable_shared_from_this&lt; ProcessingEngine &gt;</label>
       </node>
-      <node id="226">
+      <node id="230">
         <label>std::enable_shared_from_this&lt; ProcessingNode &gt;</label>
       </node>
-      <node id="215">
+      <node id="219">
         <label>std::enable_shared_from_this&lt; ProcessingServiceImpl &gt;</label>
       </node>
-      <node id="236">
+      <node id="240">
         <label>std::enable_shared_from_this&lt; ProcessingSubTaskQueueManager &gt;</label>
       </node>
-      <node id="102">
+      <node id="108">
         <label>std::enable_shared_from_this&lt; PubSubBroadcasterExt &gt;</label>
       </node>
-      <node id="168">
+      <node id="172">
         <label>std::enable_shared_from_this&lt; TransactionManager &gt;</label>
       </node>
-      <node id="257">
+      <node id="261">
         <label>std::enable_shared_from_this&lt; ValidatorRegistry &gt;</label>
       </node>
-      <node id="127">
+      <node id="133">
         <label>std::list&lt; T &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="126">
+      <node id="132">
         <label>std::list&lt; CID &gt;</label>
-        <childnode refid="127" relation="template-instance">
+        <childnode refid="133" relation="template-instance">
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="245">
+      <node id="249">
         <label>std::list&lt; SGProcessing::SubTask &gt;</label>
-        <childnode refid="127" relation="template-instance">
+        <childnode refid="133" relation="template-instance">
           <edgelabel>&lt; SGProcessing::SubTask &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="239">
+      <node id="243">
         <label>std::list&lt; SubTaskGrabbedCallback &gt;</label>
-        <childnode refid="127" relation="template-instance">
+        <childnode refid="133" relation="template-instance">
           <edgelabel>&lt; SubTaskGrabbedCallback &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="112">
+      <node id="118">
         <label>std::map&lt; K, T &gt;</label>
         <childnode refid="38" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -3877,254 +3906,254 @@
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="163">
+      <node id="167">
         <label>std::map&lt; CID, JobStatus &gt;</label>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, JobStatus &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="116">
+      <node id="122">
         <label>std::map&lt; CID, PeerKey &gt;</label>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, PeerKey &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="124">
+      <node id="130">
         <label>std::map&lt; CID, std::pair&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt; &gt;</label>
-        <childnode refid="125" relation="usage">
+        <childnode refid="131" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, std::pair&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="152">
+      <node id="158">
         <label>std::map&lt; CID, std::set&lt; std::pair&lt; CID, std::string &gt; &gt; &gt;</label>
-        <childnode refid="153" relation="usage">
+        <childnode refid="159" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, std::set&lt; std::pair&lt; CID, std::string &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="121">
+      <node id="127">
         <label>std::map&lt; CID, std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt; &gt;</label>
-        <childnode refid="122" relation="usage">
+        <childnode refid="128" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="164">
+      <node id="168">
         <label>std::map&lt; CID, std::string &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="111">
+      <node id="117">
         <label>std::map&lt; CID, std::tuple&lt; std::shared_ptr&lt; Subscription &gt;, std::shared_ptr&lt; std::promise&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt; &gt; &gt; &gt; &gt;</label>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, std::tuple&lt; std::shared_ptr&lt; Subscription &gt;, std::shared_ptr&lt; std::promise&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt; &gt; &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="142">
+      <node id="148">
         <label>std::map&lt; CID, uint64_t &gt;</label>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; CID, uint64_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="117">
+      <node id="123">
         <label>std::map&lt; Multihash, sgns::crdt::GraphsyncDAGSyncer::BlacklistEntry &gt;</label>
-        <childnode refid="118" relation="usage">
+        <childnode refid="124" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; Multihash, sgns::crdt::GraphsyncDAGSyncer::BlacklistEntry &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="115">
+      <node id="121">
         <label>std::map&lt; PeerId, PeerKey &gt;</label>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; PeerId, PeerKey &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="119">
+      <node id="125">
         <label>std::map&lt; std::pair&lt; Multihash, CID &gt;, uint64_t &gt;</label>
-        <childnode refid="120" relation="usage">
+        <childnode refid="126" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; std::pair&lt; Multihash, CID &gt;, uint64_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="259">
+      <node id="263">
         <label>std::map&lt; std::string, sgns::GeniusNode::PriceInfo &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="260" relation="usage">
+        <childnode refid="264" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; std::string, sgns::GeniusNode::PriceInfo &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="208">
+      <node id="212">
         <label>std::map&lt; std::string, std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt; &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="209" relation="usage">
+        <childnode refid="213" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="112" relation="template-instance">
+        <childnode refid="118" relation="template-instance">
           <edgelabel>&lt; std::string, std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
       <node id="54">
         <label>std::mutex</label>
       </node>
-      <node id="91">
+      <node id="97">
         <label>std::pair&lt; T1, T2 &gt;</label>
-        <childnode refid="92" relation="usage">
+        <childnode refid="98" relation="usage">
           <edgelabel>+first_type</edgelabel>
         </childnode>
-        <childnode refid="93" relation="usage">
+        <childnode refid="99" relation="usage">
           <edgelabel>+second_type</edgelabel>
         </childnode>
       </node>
-      <node id="154">
+      <node id="160">
         <label>std::pair&lt; CID, std::string &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; CID, std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="120">
+      <node id="126">
         <label>std::pair&lt; Multihash, CID &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; Multihash, CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="114">
+      <node id="120">
         <label>std::pair&lt; PeerId, std::vector&lt; Multiaddress &gt; &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; PeerId, std::vector&lt; Multiaddress &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="172">
+      <node id="176">
         <label>std::pair&lt; TransactionBatch, std::optional&lt; std::shared_ptr&lt; crdt::AtomicTransaction &gt; &gt; &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; TransactionBatch, std::optional&lt; std::shared_ptr&lt; crdt::AtomicTransaction &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="184">
+      <node id="188">
         <label>std::pair&lt; TransactionParserFn, TransactionParserFn &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; TransactionParserFn, TransactionParserFn &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="90">
+      <node id="96">
         <label>std::pair&lt; UTXOState, GeniusUTXO &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; UTXOState, GeniusUTXO &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="125">
+      <node id="131">
         <label>std::pair&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt;</label>
-        <childnode refid="122" relation="usage">
+        <childnode refid="128" relation="usage">
           <edgelabel>+first_type</edgelabel>
         </childnode>
-        <childnode refid="126" relation="usage">
+        <childnode refid="132" relation="usage">
           <edgelabel>+second_type</edgelabel>
         </childnode>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;, std::list&lt; CID &gt;::iterator &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="210">
+      <node id="214">
         <label>std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt;</label>
-        <childnode refid="211" relation="usage">
+        <childnode refid="215" relation="usage">
           <edgelabel>+first_type</edgelabel>
           <edgelabel>+second_type</edgelabel>
         </childnode>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="181">
+      <node id="185">
         <label>std::pair&lt; std::string, base::Buffer &gt;</label>
-        <childnode refid="91" relation="template-instance">
+        <childnode refid="97" relation="template-instance">
           <edgelabel>&lt; std::string, base::Buffer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="60">
+      <node id="66">
         <label>std::queue&lt; T &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="155">
+      <node id="161">
         <label>std::queue&lt; CID &gt;</label>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="180">
+      <node id="184">
         <label>std::queue&lt; crdt::CRDTCallbackManager::NewDataPair &gt;</label>
-        <childnode refid="181" relation="usage">
+        <childnode refid="185" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; crdt::CRDTCallbackManager::NewDataPair &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="57">
+      <node id="62">
         <label>std::queue&lt; sgns::AccountMessenger::RequestTask &gt;</label>
-        <childnode refid="58" relation="usage">
+        <childnode refid="63" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; sgns::AccountMessenger::RequestTask &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="149">
+      <node id="155">
         <label>std::queue&lt; sgns::crdt::CrdtDatastore::RootCIDJob &gt;</label>
-        <childnode refid="150" relation="usage">
+        <childnode refid="156" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtDatastore::RootCIDJob &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="242">
+      <node id="246">
         <label>std::queue&lt; sgns::processing::ProcessingSubTaskQueueManager::OwnershipRequest &gt;</label>
-        <childnode refid="243" relation="usage">
+        <childnode refid="247" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingSubTaskQueueManager::OwnershipRequest &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="182">
+      <node id="186">
         <label>std::queue&lt; std::string &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="128">
+      <node id="134">
         <label>std::queue&lt; std::tuple&lt; libp2p::peer::PeerId, std::string &gt; &gt;</label>
-        <childnode refid="60" relation="template-instance">
+        <childnode refid="66" relation="template-instance">
           <edgelabel>&lt; std::tuple&lt; libp2p::peer::PeerId, std::string &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="238">
+      <node id="242">
         <label>std::recursive_mutex</label>
       </node>
       <node id="45">
@@ -4133,9 +4162,9 @@
           <edgelabel>+keys</edgelabel>
         </childnode>
       </node>
-      <node id="153">
+      <node id="159">
         <label>std::set&lt; std::pair&lt; CID, std::string &gt; &gt;</label>
-        <childnode refid="154" relation="usage">
+        <childnode refid="160" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
         <childnode refid="45" relation="template-instance">
@@ -4166,25 +4195,25 @@
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="86">
+      <node id="91">
         <label>std::shared_ptr&lt; DB &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; DB &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="129">
+      <node id="135">
         <label>std::shared_ptr&lt; GossipPubSub &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; GossipPubSub &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="109">
+      <node id="115">
         <label>std::shared_ptr&lt; Graphsync &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; Graphsync &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="151">
+      <node id="157">
         <label>std::shared_ptr&lt; IPLDNode &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; IPLDNode &gt;</edgelabel>
@@ -4217,7 +4246,7 @@
           <edgelabel>&lt; KeyGenerator::ElGamal::PublicKey &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="87">
+      <node id="92">
         <label>std::shared_ptr&lt; Options &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; Options &gt;</edgelabel>
@@ -4232,13 +4261,13 @@
           <edgelabel>&lt; PrimeNumbers::BabyStepGiantStep &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="237">
+      <node id="241">
         <label>std::shared_ptr&lt; SGProcessing::SubTaskQueue &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; SGProcessing::SubTaskQueue &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="94">
+      <node id="100">
         <label>std::shared_ptr&lt; boost::asio::io_context &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; boost::asio::io_context &gt;</edgelabel>
@@ -4262,19 +4291,19 @@
           <edgelabel>&lt; ethereum::EthereumKeyGenerator::EthereumECDSAPublicKey &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="264">
+      <node id="268">
         <label>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::Network &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; ipfs_lite::ipfs::graphsync::Network &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="263">
+      <node id="267">
         <label>std::shared_ptr&lt; ipfs_lite::ipfs::graphsync::RequestIdGenerator &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; ipfs_lite::ipfs::graphsync::RequestIdGenerator &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="122">
+      <node id="128">
         <label>std::shared_ptr&lt; ipfs_lite::ipld::IPLDNode &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; ipfs_lite::ipld::IPLDNode &gt;</edgelabel>
@@ -4286,13 +4315,13 @@
           <edgelabel>&lt; ipfs_pubsub::GossipPubSub &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="110">
+      <node id="116">
         <label>std::shared_ptr&lt; libp2p::Host &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; libp2p::Host &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="262">
+      <node id="266">
         <label>std::shared_ptr&lt; libp2p::protocol::AsioScheduler &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; libp2p::protocol::AsioScheduler &gt;</edgelabel>
@@ -4322,9 +4351,9 @@
           <edgelabel>&lt; sgns::AccountMessenger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="250">
+      <node id="254">
         <label>std::shared_ptr&lt; sgns::Blockchain &gt;</label>
-        <childnode refid="251" relation="usage">
+        <childnode refid="255" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
@@ -4340,9 +4369,9 @@
           <edgelabel>&lt; sgns::GeniusAccount &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="176">
+      <node id="180">
         <label>std::shared_ptr&lt; sgns::IGeniusTransactions &gt;</label>
-        <childnode refid="177" relation="usage">
+        <childnode refid="181" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
@@ -4358,285 +4387,291 @@
           <edgelabel>&lt; sgns::ISecureStorage &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="166">
+      <node id="170">
         <label>std::shared_ptr&lt; sgns::TransactionManager &gt;</label>
-        <childnode refid="167" relation="usage">
+        <childnode refid="171" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::TransactionManager &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="255">
+      <node id="259">
         <label>std::shared_ptr&lt; sgns::blockchain::ValidatorRegistry &gt;</label>
-        <childnode refid="256" relation="usage">
+        <childnode refid="260" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::blockchain::ValidatorRegistry &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="188">
+      <node id="192">
         <label>std::shared_ptr&lt; sgns::crdt::AtomicTransaction &gt;</label>
-        <childnode refid="189" relation="usage">
+        <childnode refid="193" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::AtomicTransaction &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="143">
+      <node id="149">
         <label>std::shared_ptr&lt; sgns::crdt::Broadcaster &gt;</label>
-        <childnode refid="101" relation="usage">
+        <childnode refid="107" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::Broadcaster &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="131">
+      <node id="137">
         <label>std::shared_ptr&lt; sgns::crdt::CrdtDatastore &gt;</label>
-        <childnode refid="132" relation="usage">
+        <childnode refid="138" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtDatastore &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="139">
+      <node id="145">
         <label>std::shared_ptr&lt; sgns::crdt::CrdtHeads &gt;</label>
-        <childnode refid="140" relation="usage">
+        <childnode refid="146" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtHeads &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="134">
+      <node id="140">
         <label>std::shared_ptr&lt; sgns::crdt::CrdtOptions &gt;</label>
-        <childnode refid="135" relation="usage">
+        <childnode refid="141" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtOptions &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="137">
+      <node id="143">
         <label>std::shared_ptr&lt; sgns::crdt::CrdtSet &gt;</label>
-        <childnode refid="138" relation="usage">
+        <childnode refid="144" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtSet &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="144">
+      <node id="150">
         <label>std::shared_ptr&lt; sgns::crdt::DAGSyncer &gt;</label>
-        <childnode refid="105" relation="usage">
+        <childnode refid="111" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::DAGSyncer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="95">
+      <node id="101">
         <label>std::shared_ptr&lt; sgns::crdt::GlobalDB &gt;</label>
-        <childnode refid="96" relation="usage">
+        <childnode refid="102" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::GlobalDB &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="103">
+      <node id="109">
         <label>std::shared_ptr&lt; sgns::crdt::GraphsyncDAGSyncer &gt;</label>
-        <childnode refid="104" relation="usage">
+        <childnode refid="110" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::GraphsyncDAGSyncer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="99">
+      <node id="105">
         <label>std::shared_ptr&lt; sgns::crdt::PubSubBroadcasterExt &gt;</label>
-        <childnode refid="100" relation="usage">
+        <childnode refid="106" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::PubSubBroadcasterExt &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="169">
+      <node id="173">
         <label>std::shared_ptr&lt; sgns::crypto::Hasher &gt;</label>
-        <childnode refid="170" relation="usage">
+        <childnode refid="174" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::crypto::Hasher &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="98">
+      <node id="104">
         <label>std::shared_ptr&lt; sgns::ipfs_pubsub::GossipPubSub &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::ipfs_pubsub::GossipPubSub &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="221">
+      <node id="225">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingCore &gt;</label>
-        <childnode refid="199" relation="usage">
+        <childnode refid="203" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingCore &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="197">
+      <node id="201">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingCoreImpl &gt;</label>
-        <childnode refid="198" relation="usage">
+        <childnode refid="202" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingCoreImpl &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="227">
+      <node id="231">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingEngine &gt;</label>
-        <childnode refid="228" relation="usage">
+        <childnode refid="232" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingEngine &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="224">
+      <node id="228">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingNode &gt;</label>
-        <childnode refid="225" relation="usage">
+        <childnode refid="229" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingNode &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="213">
+      <node id="217">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingServiceImpl &gt;</label>
-        <childnode refid="214" relation="usage">
+        <childnode refid="218" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingServiceImpl &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="232">
+      <node id="236">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingSubTaskQueueChannel &gt;</label>
-        <childnode refid="233" relation="usage">
+        <childnode refid="237" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingSubTaskQueueChannel &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="234">
+      <node id="238">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingSubTaskQueueManager &gt;</label>
-        <childnode refid="235" relation="usage">
+        <childnode refid="239" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingSubTaskQueueManager &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="185">
+      <node id="189">
         <label>std::shared_ptr&lt; sgns::processing::ProcessingTaskQueueImpl &gt;</label>
-        <childnode refid="186" relation="usage">
+        <childnode refid="190" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::ProcessingTaskQueueImpl &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="217">
+      <node id="221">
         <label>std::shared_ptr&lt; sgns::processing::SubTaskEnqueuer &gt;</label>
-        <childnode refid="218" relation="usage">
+        <childnode refid="222" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::SubTaskEnqueuer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="230">
+      <node id="234">
         <label>std::shared_ptr&lt; sgns::processing::SubTaskQueueAccessor &gt;</label>
-        <childnode refid="231" relation="usage">
+        <childnode refid="235" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::SubTaskQueueAccessor &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="219">
+      <node id="223">
         <label>std::shared_ptr&lt; sgns::processing::SubTaskResultStorage &gt;</label>
-        <childnode refid="220" relation="usage">
+        <childnode refid="224" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::SubTaskResultStorage &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="246">
+      <node id="250">
         <label>std::shared_ptr&lt; sgns::processing::SubTaskResultStorageImpl &gt;</label>
-        <childnode refid="247" relation="usage">
+        <childnode refid="251" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::processing::SubTaskResultStorageImpl &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="201">
+      <node id="205">
         <label>std::shared_ptr&lt; sgns::sgprocessing::ProcessingManager &gt;</label>
-        <childnode refid="202" relation="usage">
+        <childnode refid="206" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::sgprocessing::ProcessingManager &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="65">
+      <node id="70">
         <label>std::shared_ptr&lt; sgns::storage::rocksdb &gt;</label>
-        <childnode refid="66" relation="usage">
+        <childnode refid="71" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; sgns::storage::rocksdb &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="248">
+      <node id="252">
         <label>std::shared_ptr&lt; soralog::LoggingSystem &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; soralog::LoggingSystem &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="63">
+      <node id="69">
         <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="209">
+      <node id="213">
         <label>std::shared_ptr&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt;</label>
-        <childnode refid="210" relation="usage">
+        <childnode refid="214" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; std::pair&lt; std::shared_ptr&lt; std::vector&lt; char &gt; &gt;, std::shared_ptr&lt; std::vector&lt; char &gt; &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="59">
+      <node id="65">
+        <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</label>
+        <childnode refid="18" relation="template-instance">
+          <edgelabel>&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
         <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</label>
         <childnode refid="18" relation="template-instance">
           <edgelabel>&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="211">
+      <node id="215">
         <label>std::shared_ptr&lt; std::vector&lt; char &gt; &gt;</label>
-        <childnode refid="212" relation="usage">
+        <childnode refid="216" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="18" relation="template-instance">
@@ -4653,54 +4688,54 @@
         <childnode refid="26" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="56">
+      <node id="61">
         <label>std::thread</label>
       </node>
-      <node id="148">
+      <node id="154">
         <label>std::unique_ptr&lt; T &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="216">
+      <node id="220">
         <label>std::unique_ptr&lt; boost::asio::io_context::work &gt;</label>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; boost::asio::io_context::work &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="244">
+      <node id="248">
         <label>std::unique_ptr&lt; boost::asio::steady_timer &gt;</label>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; boost::asio::steady_timer &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="265">
+      <node id="269">
         <label>std::unique_ptr&lt; boost::asio::thread_pool &gt;</label>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; boost::asio::thread_pool &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="146">
+      <node id="152">
         <label>std::unique_ptr&lt; sgns::crdt::CrdtDatastore::DagWorker &gt;</label>
-        <childnode refid="147" relation="usage">
+        <childnode refid="153" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::CrdtDatastore::DagWorker &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="222">
+      <node id="226">
         <label>std::unique_ptr&lt; sgns::ipfs_pubsub::GossipPubSubTopic &gt;</label>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; sgns::ipfs_pubsub::GossipPubSubTopic &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="203">
+      <node id="207">
         <label>std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;</label>
-        <childnode refid="204" relation="usage">
+        <childnode refid="208" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
-        <childnode refid="148" relation="template-instance">
+        <childnode refid="154" relation="template-instance">
           <edgelabel>&lt; sgns::sgprocessing::ProcessingProcessor &gt;</edgelabel>
         </childnode>
       </node>
@@ -4719,31 +4754,31 @@
           <edgelabel>&lt; cpp_int, cpp_int &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="206">
+      <node id="210">
         <label>std::unordered_map&lt; int, std::function&lt; std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;()&gt; &gt;</label>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; int, std::function&lt; std::unique_ptr&lt; sgns::sgprocessing::ProcessingProcessor &gt;()&gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="162">
+      <node id="166">
         <label>std::unordered_map&lt; std::string, DeletedDataCallback &gt;</label>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, DeletedDataCallback &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="157">
+      <node id="163">
         <label>std::unordered_map&lt; std::string, ElementFilterCallback &gt;</label>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, ElementFilterCallback &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="161">
+      <node id="165">
         <label>std::unordered_map&lt; std::string, NewDataCallback &gt;</label>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, NewDataCallback &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="178">
+      <node id="182">
         <label>std::unordered_map&lt; std::string, TransactionDeserializeFn &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -4752,19 +4787,19 @@
           <edgelabel>&lt; std::string, TransactionDeserializeFn &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="174">
+      <node id="178">
         <label>std::unordered_map&lt; std::string, sgns::TransactionManager::TrackedTx &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="175" relation="usage">
+        <childnode refid="179" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, sgns::TransactionManager::TrackedTx &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="207">
+      <node id="211">
         <label>std::unordered_map&lt; std::string, size_t &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
@@ -4773,43 +4808,43 @@
           <edgelabel>&lt; std::string, size_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="141">
+      <node id="147">
         <label>std::unordered_map&lt; std::string, std::map&lt; CID, uint64_t &gt; &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="142" relation="usage">
+        <childnode refid="148" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, std::map&lt; CID, uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="183">
+      <node id="187">
         <label>std::unordered_map&lt; std::string, std::pair&lt; TransactionParserFn, TransactionParserFn &gt; &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="184" relation="usage">
+        <childnode refid="188" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, std::pair&lt; TransactionParserFn, TransactionParserFn &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="223">
+      <node id="227">
         <label>std::unordered_map&lt; std::string, std::shared_ptr&lt; sgns::processing::ProcessingNode &gt; &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="224" relation="usage">
+        <childnode refid="228" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="37" relation="template-instance">
           <edgelabel>&lt; std::string, std::shared_ptr&lt; sgns::processing::ProcessingNode &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="254">
+      <node id="258">
         <label>std::unordered_map&lt; std::string, std::string &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -4819,12 +4854,12 @@
           <edgelabel>&lt; std::string, std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="88">
+      <node id="94">
         <label>std::unordered_map&lt; std::string, std::vector&lt; UTXOData &gt; &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="89" relation="usage">
+        <childnode refid="95" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="37" relation="template-instance">
@@ -4864,18 +4899,27 @@
           <edgelabel>&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="159">
+      <node id="55">
+        <label>std::unordered_map&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</label>
+        <childnode refid="56" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="template-instance">
+          <edgelabel>&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
         <label>std::unordered_set&lt; K &gt;</label>
         <childnode refid="38" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
       </node>
-      <node id="158">
+      <node id="58">
         <label>std::unordered_set&lt; std::string &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+keys</edgelabel>
         </childnode>
-        <childnode refid="159" relation="template-instance">
+        <childnode refid="59" relation="template-instance">
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
@@ -4885,64 +4929,73 @@
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="108">
+      <node id="114">
         <label>std::vector&lt; CID &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="113">
+      <node id="119">
         <label>std::vector&lt; PeerEntry &gt;</label>
-        <childnode refid="114" relation="usage">
+        <childnode refid="120" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; PeerEntry &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="89">
+      <node id="95">
         <label>std::vector&lt; UTXOData &gt;</label>
-        <childnode refid="90" relation="usage">
+        <childnode refid="96" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; UTXOData &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="212">
+      <node id="216">
         <label>std::vector&lt; char &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; char &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="241">
+      <node id="245">
         <label>std::vector&lt; int &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; int &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="190">
+      <node id="56">
+        <label>std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt;</label>
+        <childnode refid="57" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="template-instance">
+          <edgelabel>&lt; sgns::AccountMessenger::UTXOResponseData &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="194">
         <label>std::vector&lt; sgns::crdt::AtomicTransaction::PendingOperation &gt;</label>
-        <childnode refid="191" relation="usage">
+        <childnode refid="195" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; sgns::crdt::AtomicTransaction::PendingOperation &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="200">
+      <node id="204">
         <label>std::vector&lt; size_t &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; size_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="130">
+      <node id="136">
         <label>std::vector&lt; std::shared_future&lt; std::shared_ptr&lt; libp2p::protocol::Subscription &gt; &gt; &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; std::shared_future&lt; std::shared_ptr&lt; libp2p::protocol::Subscription &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="165">
+      <node id="169">
         <label>std::vector&lt; std::string &gt;</label>
         <childnode refid="4" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -4951,9 +5004,9 @@
           <edgelabel>&lt; std::string &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="261">
+      <node id="265">
         <label>std::vector&lt; std::thread &gt;</label>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="24" relation="template-instance">
@@ -4966,16 +5019,16 @@
           <edgelabel>&lt; std::uint8_t &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="145">
+      <node id="151">
         <label>std::vector&lt; std::unique_ptr&lt; sgns::crdt::CrdtDatastore::DagWorker &gt; &gt;</label>
-        <childnode refid="146" relation="usage">
+        <childnode refid="152" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; std::unique_ptr&lt; sgns::crdt::CrdtDatastore::DagWorker &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="196">
+      <node id="200">
         <label>std::vector&lt; uint8_t &gt;</label>
         <childnode refid="24" relation="template-instance">
           <edgelabel>&lt; uint8_t &gt;</edgelabel>

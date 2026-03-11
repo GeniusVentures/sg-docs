@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="52" column="9" bodyfile="src/account/GeniusAccount.hpp" bodystart="52" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="55" column="9" bodyfile="src/account/GeniusAccount.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="61" column="33" bodyfile="src/account/GeniusAccount.hpp" bodystart="61" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="64" column="33" bodyfile="src/account/GeniusAccount.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a62bde34db8bf8a1e2e775230599441ca" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>uint64_t</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="62" column="46" bodyfile="src/account/GeniusAccount.hpp" bodystart="62" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="65" column="46" bodyfile="src/account/GeniusAccount.hpp" bodystart="65" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -72,7 +72,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="234" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="234" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="263" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="dc/d64/classsgns_1_1_genius_account_1adb936c8577cc481f904aee636498cfc0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class TransactionManager</definition>
+        <argsstring></argsstring>
+        <name>TransactionManager</name>
+        <qualifiedname>sgns::GeniusAccount::TransactionManager</qualifiedname>
+        <param>
+          <type>TransactionManager</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="264" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="264" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -90,7 +107,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="242" column="33" bodyfile="src/account/GeniusAccount.hpp" bodystart="242" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="281" column="33" bodyfile="src/account/GeniusAccount.hpp" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a7f26855c38ea9e15d02a2c330a0a8deb" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view sgns::GeniusAccount::NONCE_KEY_PREFIX</definition>
+        <argsstring></argsstring>
+        <name>NONCE_KEY_PREFIX</name>
+        <qualifiedname>sgns::GeniusAccount::NONCE_KEY_PREFIX</qualifiedname>
+        <initializer>= &quot;gnus-confirmed-nonce-&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="321" column="43" bodyfile="src/account/GeniusAccount.hpp" bodystart="321" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -107,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="250" column="17" bodyfile="src/account/GeniusAccount.hpp" bodystart="250" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="289" column="17" bodyfile="src/account/GeniusAccount.hpp" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1afdc0057cdd7f40ac1e13661daf16d40a" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -122,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="251" column="17" bodyfile="src/account/GeniusAccount.hpp" bodystart="251" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="290" column="17" bodyfile="src/account/GeniusAccount.hpp" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1aa598cbec14ae3b5150b4dd7286f701f7" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="dc/dc0/classethereum_1_1_ethereum_key_generator" kindref="compound">ethereum::EthereumKeyGenerator</ref> &gt;</type>
@@ -137,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="253" column="25" bodyfile="src/account/GeniusAccount.hpp" bodystart="253" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="292" column="25" bodyfile="src/account/GeniusAccount.hpp" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a4be01ca99342c52ad3a4cd65b874368d" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="da/d91/class_key_generator_1_1_el_gamal" kindref="compound">KeyGenerator::ElGamal</ref> &gt;</type>
@@ -152,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="254" column="34" bodyfile="src/account/GeniusAccount.hpp" bodystart="254" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="293" column="34" bodyfile="src/account/GeniusAccount.hpp" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a45527417f5d0c683305ca287d3e6ca49" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d5/db7/classsgns_1_1_i_secure_storage" kindref="compound">ISecureStorage</ref> &gt;</type>
@@ -167,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="255" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="255" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="294" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a5caf0445c31bc7b383a2c793a6fd5117" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, uint64_t &gt;</type>
@@ -182,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="256" column="34" bodyfile="src/account/GeniusAccount.hpp" bodystart="256" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="295" column="34" bodyfile="src/account/GeniusAccount.hpp" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a3a7da50c6e1beeedd1cfc23db3823181" prot="private" static="no" mutable="yes">
         <type>std::shared_mutex</type>
@@ -197,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="257" column="57" bodyfile="src/account/GeniusAccount.hpp" bodystart="257" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="296" column="57" bodyfile="src/account/GeniusAccount.hpp" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1ac7e63962d3b0e54962e90e4354d9568a" prot="private" static="no" mutable="no">
         <type>std::set&lt; uint64_t &gt;</type>
@@ -212,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="258" column="47" bodyfile="src/account/GeniusAccount.hpp" bodystart="258" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="297" column="47" bodyfile="src/account/GeniusAccount.hpp" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1ab7b5f99b384e4c876da10689758b5061" prot="private" static="no" mutable="no">
         <type>std::optional&lt; uint64_t &gt;</type>
@@ -227,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="259" column="47" bodyfile="src/account/GeniusAccount.hpp" bodystart="259" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="298" column="47" bodyfile="src/account/GeniusAccount.hpp" bodystart="298" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a17f8892c95d4b0aa18779e21e6c5c6bd" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; <ref refid="d5/d74/classsgns_1_1_account_messenger" kindref="compound">AccountMessenger</ref> &gt;</type>
@@ -242,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="260" column="39" bodyfile="src/account/GeniusAccount.hpp" bodystart="260" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="299" column="39" bodyfile="src/account/GeniusAccount.hpp" bodystart="299" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1ab389ef8f1c8d58e7648e30dd11b50346" prot="private" static="no" mutable="yes">
         <type>std::mutex</type>
@@ -257,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="263" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="263" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="302" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="302" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1aef6029ce27ece0c64a399177d27fe0ee" prot="private" static="no" mutable="yes">
         <type>std::condition_variable</type>
@@ -272,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="264" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="264" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="303" column="41" bodyfile="src/account/GeniusAccount.hpp" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a5d9ae0b469242fc177304179b1ae2691" prot="private" static="no" mutable="yes">
         <type>bool</type>
@@ -287,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="265" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="265" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="304" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1ad3ac04cac05ba38f1083defb7671be4b" prot="private" static="no" mutable="yes">
         <type>std::optional&lt; outcome::result&lt; uint64_t &gt; &gt;</type>
@@ -302,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="267" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="267" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="306" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1af9d804b388d38616a51a1998d870e806" prot="private" static="no" mutable="yes">
         <type>std::chrono::steady_clock::time_point</type>
@@ -317,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="269" column="20" bodyfile="src/account/GeniusAccount.hpp" bodystart="269" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="308" column="20" bodyfile="src/account/GeniusAccount.hpp" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a5020ba8817e51460a62cfaa46dc976bc" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
@@ -332,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="270" column="20" bodyfile="src/account/GeniusAccount.hpp" bodystart="270" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="309" column="20" bodyfile="src/account/GeniusAccount.hpp" bodystart="309" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a517a74935afb3f1777b4196199ad3aea" prot="private" static="no" mutable="no">
         <type>std::function&lt; outcome::result&lt; std::string &gt;(uint8_t, const std::string &amp;)&gt;</type>
@@ -347,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="272" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="272" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="311" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1ad4629f30bcf19864375d5260e6bd07de" prot="private" static="no" mutable="no">
         <type>std::function&lt; outcome::result&lt; bool &gt;(const std::string &amp;)&gt;</type>
@@ -362,7 +394,67 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="273" column="25" bodyfile="src/account/GeniusAccount.hpp" bodystart="273" bodyend="-1"/>
+        <location file="src/account/GeniusAccount.hpp" line="312" column="25" bodyfile="src/account/GeniusAccount.hpp" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a62eb0a4330684a7378d361eacbd43ba3" prot="private" static="no" mutable="no">
+        <type>std::function&lt; outcome::result&lt; std::vector&lt; std::string &gt; &gt;(const std::string &amp;)&gt;</type>
+        <definition>std::function&lt;outcome::result&lt;std::vector&lt;std::string&gt; &gt;( const std::string &amp; )&gt; sgns::GeniusAccount::get_utxos_method_</definition>
+        <argsstring></argsstring>
+        <name>get_utxos_method_</name>
+        <qualifiedname>sgns::GeniusAccount::get_utxos_method_</qualifiedname>
+        <briefdescription>
+<para>Function to get UTXOs for an address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="314" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a60cbeac16aedbb0777e5491d996a6cf0" prot="private" static="no" mutable="no">
+        <type>std::function&lt; outcome::result&lt; std::optional&lt; uint64_t &gt; &gt;(const std::string &amp;)&gt;</type>
+        <definition>std::function&lt;outcome::result&lt;std::optional&lt;uint64_t&gt; &gt;( const std::string &amp; )&gt; sgns::GeniusAccount::get_validator_weight_method_</definition>
+        <argsstring></argsstring>
+        <name>get_validator_weight_method_</name>
+        <qualifiedname>sgns::GeniusAccount::get_validator_weight_method_</qualifiedname>
+        <briefdescription>
+<para>Function to get validator weight for an address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="316" column="13" bodyfile="src/account/GeniusAccount.hpp" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a2003a939fe85c52ff447500c1542c616" prot="private" static="no" mutable="no">
+        <type>std::function&lt; outcome::result&lt; std::string &gt;(const std::string &amp;)&gt;</type>
+        <definition>std::function&lt;outcome::result&lt;std::string&gt;( const std::string &amp; )&gt; sgns::GeniusAccount::get_transaction_cid_method_</definition>
+        <argsstring></argsstring>
+        <name>get_transaction_cid_method_</name>
+        <qualifiedname>sgns::GeniusAccount::get_transaction_cid_method_</qualifiedname>
+        <briefdescription>
+<para>Function to get transaction CID by hash. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="318" column="43" bodyfile="src/account/GeniusAccount.hpp" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d64/classsgns_1_1_genius_account_1a6741f94cd25b01e661f9c04c1f33313f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb" kindref="compound">storage::rocksdb</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;storage::rocksdb&gt; sgns::GeniusAccount::nonce_db_</definition>
+        <argsstring></argsstring>
+        <name>nonce_db_</name>
+        <qualifiedname>sgns::GeniusAccount::nonce_db_</qualifiedname>
+        <briefdescription>
+<para>RocksDB for nonce persistence. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="319" column="25" bodyfile="src/account/GeniusAccount.hpp" bodystart="319" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -432,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="72" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="88" bodyend="110"/>
+        <location file="src/account/GeniusAccount.hpp" line="75" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="125" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a76ade584c4f970df8ff1f61630a8a45c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" kindref="member">GeniusAccount</ref> &gt;</type>
@@ -474,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="81" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="112" bodyend="139"/>
+        <location file="src/account/GeniusAccount.hpp" line="84" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="149" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ad1e69568ef50036f8be13c8590438d91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" kindref="member">GeniusAccount</ref> &gt;</type>
@@ -512,7 +604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="90" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="141" bodyend="168"/>
+        <location file="src/account/GeniusAccount.hpp" line="93" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="178" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a0a0b690a932bf82303b3b27aeeca919d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -567,7 +659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="141" column="21" bodyfile="src/account/GeniusAccount.cpp" bodystart="435" bodyend="478"/>
+        <location file="src/account/GeniusAccount.hpp" line="149" column="21" bodyfile="src/account/GeniusAccount.cpp" bodystart="553" bodyend="596"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a17310b389bbed7fa19000064e559b785" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dc/d64/classsgns_1_1_genius_account_1ada9b0c2374ac9971bbd3f65b482a3713" kindref="member">StorageWithAddress</ref> &gt;</type>
@@ -589,7 +681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="227" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="235" bodyend="277"/>
+        <location file="src/account/GeniusAccount.hpp" line="256" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="284" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1aa14672d15a0f3fd66fb9e63ee663746b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; <ref refid="dc/d64/classsgns_1_1_genius_account_1ada9b0c2374ac9971bbd3f65b482a3713" kindref="member">StorageWithAddress</ref> &gt;</type>
@@ -611,7 +703,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="230" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="217" bodyend="233"/>
+        <location file="src/account/GeniusAccount.hpp" line="259" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="266" bodyend="282"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -644,14 +736,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="99" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="279" bodyend="349"/>
+        <location file="src/account/GeniusAccount.hpp" line="102" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="333" bodyend="451"/>
       </memberdef>
-      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ace3a92965977c4f20cc74c0b2a6ad2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a2393c9965cf09378f1e995050deaac30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool sgns::GeniusAccount::ConfigureMessengerHandlers</definition>
+        <definition>bool sgns::GeniusAccount::ConfigureDatabaseDependencies</definition>
         <argsstring>(std::shared_ptr&lt; crdt::GlobalDB &gt; global_db)</argsstring>
-        <name>ConfigureMessengerHandlers</name>
-        <qualifiedname>sgns::GeniusAccount::ConfigureMessengerHandlers</qualifiedname>
+        <name>ConfigureDatabaseDependencies</name>
+        <qualifiedname>sgns::GeniusAccount::ConfigureDatabaseDependencies</qualifiedname>
         <param>
           <type>std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt;</type>
           <declname>global_db</declname>
@@ -675,7 +767,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="106" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="351" bodyend="412"/>
+        <location file="src/account/GeniusAccount.hpp" line="109" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="453" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a95ec03afa7c95acbb9e158430e89c900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::DeconfigureDatabaseDependencies</definition>
+        <argsstring>()</argsstring>
+        <name>DeconfigureDatabaseDependencies</name>
+        <qualifiedname>sgns::GeniusAccount::DeconfigureDatabaseDependencies</qualifiedname>
+        <briefdescription>
+<para>Clears handlers and methods set by ConfigureDatabaseDependencies. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="114" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="518" bodyend="530"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a21d34d3ab4bf2e3ea1d952e4a0cd2721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -690,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="111" column="9" bodyfile="src/account/GeniusAccount.cpp" bodystart="423" bodyend="423"/>
+        <location file="src/account/GeniusAccount.hpp" line="119" column="9" bodyfile="src/account/GeniusAccount.cpp" bodystart="541" bodyend="541"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a524e294199cb93abf008d9f6397293a4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -708,7 +815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="117" column="22" bodyfile="src/account/GeniusAccount.cpp" bodystart="425" bodyend="428"/>
+        <location file="src/account/GeniusAccount.hpp" line="125" column="22" bodyfile="src/account/GeniusAccount.cpp" bodystart="543" bodyend="546"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1afe18cc7c6b3902929c57110f59c96a1e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d9/dd1/classsgns_1_1_token_i_d" kindref="compound">TokenID</ref></type>
@@ -726,7 +833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="123" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="430" bodyend="433"/>
+        <location file="src/account/GeniusAccount.hpp" line="131" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="548" bodyend="551"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1abc13369957891ceff78008a36cec183c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
@@ -744,7 +851,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="129" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="129" bodyend="132"/>
+        <location file="src/account/GeniusAccount.hpp" line="137" column="22" bodyfile="src/account/GeniusAccount.hpp" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a5185e87b964aaca973c332a394c68827" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; uint8_t &gt;</type>
@@ -775,7 +882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="150" column="21" bodyfile="src/account/GeniusAccount.cpp" bodystart="480" bodyend="497"/>
+        <location file="src/account/GeniusAccount.hpp" line="158" column="21" bodyfile="src/account/GeniusAccount.cpp" bodystart="598" bodyend="615"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a2c4ce679cb7b6c8ace526602524060c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -804,7 +911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="156" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="499" bodyend="504"/>
+        <location file="src/account/GeniusAccount.hpp" line="164" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="617" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a965168eb86754a1ad41ff2b377563a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -845,7 +952,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="163" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="506" bodyend="530"/>
+        <location file="src/account/GeniusAccount.hpp" line="171" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="624" bodyend="651"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a3f91917209229d8306d9b64b4cc59c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -886,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="170" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="532" bodyend="572"/>
+        <location file="src/account/GeniusAccount.hpp" line="178" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="653" bodyend="693"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1aa4da5c19a47e40c12fb24d8aeb5ef76e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -917,7 +1024,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="177" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="604" bodyend="617"/>
+        <location file="src/account/GeniusAccount.hpp" line="185" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="725" bodyend="738"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1acd8500e0f5cde61003ea3bc7b252a3f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -935,7 +1042,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="183" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="619" bodyend="622"/>
+        <location file="src/account/GeniusAccount.hpp" line="191" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="740" bodyend="743"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a140c82ff3bedfe66ebb0325294b68b52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; uint64_t &gt;</type>
@@ -966,7 +1073,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="190" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="624" bodyend="716"/>
+        <location file="src/account/GeniusAccount.hpp" line="198" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="768" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a89178652507244c5a201f8122bcb6844" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>outcome::result&lt; std::optional&lt; uint64_t &gt; &gt;</type>
+        <definition>outcome::result&lt; std::optional&lt; uint64_t &gt; &gt; sgns::GeniusAccount::FetchNetworkNonce</definition>
+        <argsstring>(uint64_t timeout_ms) const</argsstring>
+        <name>FetchNetworkNonce</name>
+        <qualifiedname>sgns::GeniusAccount::FetchNetworkNonce</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>timeout_ms</declname>
+        </param>
+        <briefdescription>
+<para>Fetch the latest nonce from the network without relying on cached values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timeout in miliseconds to get the confirmed nonce </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Error if no response received, optional nonce if success </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="205" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="745" bodyend="766"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a179e7366b3c626f4e9f8d30b3d3012f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -984,7 +1122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="196" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="584" bodyend="588"/>
+        <location file="src/account/GeniusAccount.hpp" line="211" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="705" bodyend="709"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a08b3c45f1a2242bee7f0fb504a514a05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
@@ -1002,7 +1140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="202" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="590" bodyend="596"/>
+        <location file="src/account/GeniusAccount.hpp" line="217" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="711" bodyend="717"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a810369330f1dbfb19243dca6c9702f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1031,7 +1169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="208" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="598" bodyend="602"/>
+        <location file="src/account/GeniusAccount.hpp" line="223" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="719" bodyend="723"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1aea67add31854605f0513d2a9d85d410a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1055,7 +1193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="210" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="718" bodyend="729"/>
+        <location file="src/account/GeniusAccount.hpp" line="225" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="862" bodyend="873"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1abad28c2c1636fa5b662b5a86a84e8d98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1077,7 +1215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="213" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="731" bodyend="742"/>
+        <location file="src/account/GeniusAccount.hpp" line="228" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="875" bodyend="886"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1acb4acd7a73f4061850dd230f53816efb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1104,7 +1242,90 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="216" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="755" bodyend="767"/>
+        <location file="src/account/GeniusAccount.hpp" line="231" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="899" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a43f34cdc2a0d27a52e57395ca0c1d244" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>outcome::result&lt; void &gt;</type>
+        <definition>outcome::result&lt; void &gt; sgns::GeniusAccount::RequestTransaction</definition>
+        <argsstring>(uint64_t timeout_ms, const std::string &amp;tx_hash, std::function&lt; void(outcome::result&lt; std::string &gt;)&gt; callback=nullptr) const</argsstring>
+        <name>RequestTransaction</name>
+        <qualifiedname>sgns::GeniusAccount::RequestTransaction</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>timeout_ms</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tx_hash</declname>
+        </param>
+        <param>
+          <type>std::function&lt; void(outcome::result&lt; std::string &gt;)&gt;</type>
+          <declname>callback</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="235" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="913" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ad90347b8a6e0fa3036d18af9be58c8bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt;</type>
+        <definition>outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; sgns::GeniusAccount::RequestUTXOs</definition>
+        <argsstring>(uint64_t timeout_ms, const std::string &amp;address, uint64_t silent_time_ms=150) const</argsstring>
+        <name>RequestUTXOs</name>
+        <qualifiedname>sgns::GeniusAccount::RequestUTXOs</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>timeout_ms</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>silent_time_ms</declname>
+          <defval>150</defval>
+        </param>
+        <briefdescription>
+<para>Request UTXOs for a specific address and return the selected response. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Total timeout in milliseconds to wait for responses </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address to request UTXOs for </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">silent_time_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time to wait for subsequent responses after first one </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Set of UTXO strings based on selection criteria, or error otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="246" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="927" bodyend="938"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a0b5023d092bdc57e971cc77bf1e14a22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -1135,7 +1356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="225" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="744" bodyend="753"/>
+        <location file="src/account/GeniusAccount.hpp" line="254" column="25" bodyfile="src/account/GeniusAccount.cpp" bodystart="888" bodyend="897"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -1155,7 +1376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="235" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="769" bodyend="774"/>
+        <location file="src/account/GeniusAccount.hpp" line="265" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="940" bodyend="945"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a232ce2bb40863b691afcd57cc6bf8b35" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1169,7 +1390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="237" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="776" bodyend="780"/>
+        <location file="src/account/GeniusAccount.hpp" line="267" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="947" bodyend="951"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a9bd6306a491016b3fdb96dd0b810f7fa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1187,7 +1408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="238" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="782" bodyend="786"/>
+        <location file="src/account/GeniusAccount.hpp" line="268" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="953" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a9d77f47e29e9a58702737f752de75e07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1201,7 +1422,121 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="239" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="788" bodyend="792"/>
+        <location file="src/account/GeniusAccount.hpp" line="269" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="959" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ac75a592ab4676c8a4fde9449d38e2478" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::SetGetUTXOsMethod</definition>
+        <argsstring>(std::function&lt; outcome::result&lt; std::vector&lt; std::string &gt; &gt;(const std::string &amp;)&gt; method)</argsstring>
+        <name>SetGetUTXOsMethod</name>
+        <qualifiedname>sgns::GeniusAccount::SetGetUTXOsMethod</qualifiedname>
+        <param>
+          <type>std::function&lt; outcome::result&lt; std::vector&lt; std::string &gt; &gt;(const std::string &amp;)&gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="270" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="965" bodyend="970"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a83a374ff6248017c72edf4e541fa3d81" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::ClearGetUTXOsMethod</definition>
+        <argsstring>()</argsstring>
+        <name>ClearGetUTXOsMethod</name>
+        <qualifiedname>sgns::GeniusAccount::ClearGetUTXOsMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="272" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="972" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ae0379c6c2a33ec6bd5d98820e53aa5d4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::SetGetValidatorWeightMethod</definition>
+        <argsstring>(std::function&lt; outcome::result&lt; std::optional&lt; uint64_t &gt; &gt;(const std::string &amp;)&gt; method)</argsstring>
+        <name>SetGetValidatorWeightMethod</name>
+        <qualifiedname>sgns::GeniusAccount::SetGetValidatorWeightMethod</qualifiedname>
+        <param>
+          <type>std::function&lt; outcome::result&lt; std::optional&lt; uint64_t &gt; &gt;(const std::string &amp;)&gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="273" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="978" bodyend="983"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ab202a686b2ae281753d0504d78fafcd9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::ClearGetValidatorWeightMethod</definition>
+        <argsstring>()</argsstring>
+        <name>ClearGetValidatorWeightMethod</name>
+        <qualifiedname>sgns::GeniusAccount::ClearGetValidatorWeightMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="275" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="985" bodyend="989"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ab228f1afd83719866c75c153c6c20653" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::SetGetTransactionCIDMethod</definition>
+        <argsstring>(std::function&lt; outcome::result&lt; std::string &gt;(const std::string &amp;)&gt; method)</argsstring>
+        <name>SetGetTransactionCIDMethod</name>
+        <qualifiedname>sgns::GeniusAccount::SetGetTransactionCIDMethod</qualifiedname>
+        <param>
+          <type>std::function&lt; outcome::result&lt; std::string &gt;(const std::string &amp;)&gt;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="276" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="991" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a5c3e3abbb9e6f78469cd6eaacfaa4d4d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::ClearGetTransactionCIDMethod</definition>
+        <argsstring>()</argsstring>
+        <name>ClearGetTransactionCIDMethod</name>
+        <qualifiedname>sgns::GeniusAccount::ClearGetTransactionCIDMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="277" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="998" bodyend="1002"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1af6fbef6c7add6b324f89b7f64ddbb0da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::SetNonceStore</definition>
+        <argsstring>(std::shared_ptr&lt; storage::rocksdb &gt; db)</argsstring>
+        <name>SetNonceStore</name>
+        <qualifiedname>sgns::GeniusAccount::SetNonceStore</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="d5/dbf/classsgns_1_1storage_1_1rocksdb" kindref="compound">storage::rocksdb</ref> &gt;</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="278" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="1004" bodyend="1008"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -1221,7 +1556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="244" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="170" bodyend="215"/>
+        <location file="src/account/GeniusAccount.hpp" line="283" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="207" bodyend="264"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a6e9743ff91af975f0f3d241d5f4127f3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; <ref refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" kindref="member">GeniusAccount</ref> &gt;</type>
@@ -1247,10 +1582,46 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="246" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="72" bodyend="85"/>
+        <location file="src/account/GeniusAccount.hpp" line="285" column="32" bodyfile="src/account/GeniusAccount.cpp" bodystart="109" bodyend="122"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1a31f48e83daeddd24d519ae986945a253" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::LoadConfirmedNonces</definition>
+        <argsstring>()</argsstring>
+        <name>LoadConfirmedNonces</name>
+        <qualifiedname>sgns::GeniusAccount::LoadConfirmedNonces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="323" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="1010" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ac3ce253d84d7bd403c71887a6270a11b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sgns::GeniusAccount::PersistConfirmedNonce</definition>
+        <argsstring>(const std::string &amp;address, uint64_t nonce)</argsstring>
+        <name>PersistConfirmedNonce</name>
+        <qualifiedname>sgns::GeniusAccount::PersistConfirmedNonce</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>nonce</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/GeniusAccount.hpp" line="324" column="14" bodyfile="src/account/GeniusAccount.cpp" bodystart="1064" bodyend="1082"/>
+      </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1ae72400a6e7031c212f4670e7830bfea6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>uint64_t</type>
         <definition>uint64_t sgns::GeniusAccount::GetNextNonceLocked</definition>
@@ -1263,7 +1634,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="275" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="574" bodyend="582"/>
+        <location file="src/account/GeniusAccount.hpp" line="326" column="18" bodyfile="src/account/GeniusAccount.cpp" bodystart="695" bodyend="703"/>
       </memberdef>
       <memberdef kind="function" id="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1316,7 +1687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/GeniusAccount.hpp" line="283" column="9" bodyfile="src/account/GeniusAccount.cpp" bodystart="414" bodyend="421"/>
+        <location file="src/account/GeniusAccount.hpp" line="334" column="9" bodyfile="src/account/GeniusAccount.cpp" bodystart="532" bodyend="539"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1335,6 +1706,19 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="69">
+        <label>BufferStorage</label>
+        <link refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+        <childnode refid="85" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="16">
         <label>ECDSAPublicKey</label>
         <link refid="de/d81/class_e_c_d_s_a_public_key"/>
@@ -1458,6 +1842,7 @@
         <childnode refid="50" relation="usage">
           <edgelabel>-block_first_response_time_</edgelabel>
           <edgelabel>-first_response_time_</edgelabel>
+          <edgelabel>-utxo_first_response_time_</edgelabel>
         </childnode>
         <childnode refid="51" relation="usage">
           <edgelabel>-block_responses_mutex_</edgelabel>
@@ -1465,35 +1850,53 @@
           <edgelabel>-head_handler_mutex_</edgelabel>
           <edgelabel>-nonce_responses_mutex_</edgelabel>
           <edgelabel>-queue_mutex_</edgelabel>
+          <edgelabel>-utxo_responses_mutex_</edgelabel>
         </childnode>
         <childnode refid="52" relation="usage">
+          <edgelabel>-utxo_responses_</edgelabel>
+        </childnode>
+        <childnode refid="57" relation="usage">
           <edgelabel>-methods_</edgelabel>
         </childnode>
-        <childnode refid="53" relation="usage">
+        <childnode refid="58" relation="usage">
           <edgelabel>-worker_thread_</edgelabel>
         </childnode>
-        <childnode refid="54" relation="usage">
+        <childnode refid="59" relation="usage">
           <edgelabel>-request_queue_</edgelabel>
         </childnode>
-        <childnode refid="58" relation="usage">
+        <childnode refid="64" relation="usage">
           <edgelabel>-stop_worker_</edgelabel>
         </childnode>
-        <childnode refid="60" relation="usage">
+        <childnode refid="66" relation="usage">
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="52">
+      <node id="57">
         <label>sgns::AccountMessenger::InterfaceMethods</label>
         <link refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods"/>
       </node>
-      <node id="55">
+      <node id="60">
         <label>sgns::AccountMessenger::RequestTask</label>
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="17" relation="usage">
           <edgelabel>+cid</edgelabel>
+          <edgelabel>+utxo_address</edgelabel>
         </childnode>
-        <childnode refid="56" relation="usage">
+        <childnode refid="61" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>+utxo_promise</edgelabel>
+        </childnode>
+      </node>
+      <node id="54">
+        <label>sgns::AccountMessenger::UTXOResponseData</label>
+        <link refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+responder_address</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>+utxos</edgelabel>
         </childnode>
       </node>
       <node id="1">
@@ -1532,6 +1935,12 @@
           <edgelabel>-get_cids_mutex_</edgelabel>
           <edgelabel>-nonce_request_mutex_</edgelabel>
         </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>-nonce_db_</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>-NONCE_KEY_PREFIX</edgelabel>
+        </childnode>
       </node>
       <node id="36">
         <label>sgns::ISecureStorage</label>
@@ -1548,6 +1957,141 @@
           <edgelabel>-data_</edgelabel>
         </childnode>
       </node>
+      <node id="82">
+        <label>sgns::storage::face::BatchWriteMap&lt; K, V &gt;</label>
+        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>sgns::storage::face::BatchWriteMap&lt; Buffer, Buffer &gt;</label>
+        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="87">
+        <label>sgns::storage::face::BatchWriteMap&lt; K, V &gt;</label>
+        <link refid="d3/df4/structsgns_1_1storage_1_1face_1_1_batch_write_map"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
+        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
+      </node>
+      <node id="84">
+        <label>sgns::storage::face::Batchable&lt; K, V &gt;</label>
+        <link refid="de/d2d/structsgns_1_1storage_1_1face_1_1_batchable"/>
+      </node>
+      <node id="85">
+        <label>sgns::storage::face::GenericStorage&lt; K, V &gt;</label>
+        <link refid="da/d5d/structsgns_1_1storage_1_1face_1_1_generic_storage"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>sgns::storage::face::Iterable&lt; K, V &gt;</label>
+        <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
+      </node>
+      <node id="71">
+        <label>sgns::storage::face::Iterable&lt; Buffer, Buffer &gt;</label>
+        <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
+        <childnode refid="72" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="76">
+        <label>sgns::storage::face::Iterable&lt; K, V &gt;</label>
+        <link refid="d4/d27/structsgns_1_1storage_1_1face_1_1_iterable"/>
+      </node>
+      <node id="75">
+        <label>sgns::storage::face::ReadOnlyMap&lt; K, V &gt;</label>
+        <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>sgns::storage::face::ReadOnlyMap&lt; Buffer, Buffer &gt;</label>
+        <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="86">
+        <label>sgns::storage::face::ReadOnlyMap&lt; K, V &gt;</label>
+        <link refid="d6/d8f/structsgns_1_1storage_1_1face_1_1_read_only_map"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+      </node>
+      <node id="73">
+        <label>sgns::storage::face::Readable&lt; Buffer, Buffer &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+        <childnode refid="74" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>sgns::storage::face::Readable&lt; K, V &gt;</label>
+        <link refid="dc/d9e/structsgns_1_1storage_1_1face_1_1_readable"/>
+      </node>
+      <node id="80">
+        <label>sgns::storage::face::Writeable&lt; K, V &gt;</label>
+        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
+      </node>
+      <node id="79">
+        <label>sgns::storage::face::Writeable&lt; Buffer, Buffer &gt;</label>
+        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
+        <childnode refid="80" relation="template-instance">
+          <edgelabel>&lt; Buffer, Buffer &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="83">
+        <label>sgns::storage::face::Writeable&lt; K, V &gt;</label>
+        <link refid="d7/dc2/structsgns_1_1storage_1_1face_1_1_writeable"/>
+      </node>
+      <node id="68">
+        <label>sgns::storage::rocksdb</label>
+        <link refid="d5/dbf/classsgns_1_1storage_1_1rocksdb"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>-db_</edgelabel>
+        </childnode>
+        <childnode refid="66" relation="usage">
+          <edgelabel>-logger_</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>-options_</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>-path_</edgelabel>
+        </childnode>
+      </node>
       <node id="4">
         <label>std::array&lt; T &gt;</label>
         <childnode refid="5" relation="usage">
@@ -1560,15 +2104,15 @@
           <edgelabel>&lt; uint8_t, 32 &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="59">
+      <node id="65">
         <label>std::atomic&lt; T &gt;</label>
         <childnode refid="5" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="58">
+      <node id="64">
         <label>std::atomic&lt; bool &gt;</label>
-        <childnode refid="59" relation="template-instance">
+        <childnode refid="65" relation="template-instance">
           <edgelabel>&lt; bool &gt;</edgelabel>
         </childnode>
       </node>
@@ -1590,18 +2134,18 @@
       <node id="51">
         <label>std::mutex</label>
       </node>
-      <node id="57">
+      <node id="63">
         <label>std::queue&lt; T &gt;</label>
         <childnode refid="5" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
       </node>
-      <node id="54">
+      <node id="59">
         <label>std::queue&lt; sgns::AccountMessenger::RequestTask &gt;</label>
-        <childnode refid="55" relation="usage">
+        <childnode refid="60" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
-        <childnode refid="57" relation="template-instance">
+        <childnode refid="63" relation="template-instance">
           <edgelabel>&lt; sgns::AccountMessenger::RequestTask &gt;</edgelabel>
         </childnode>
       </node>
@@ -1635,6 +2179,12 @@
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
+      <node id="88">
+        <label>std::shared_ptr&lt; DB &gt;</label>
+        <childnode refid="12" relation="template-instance">
+          <edgelabel>&lt; DB &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="23">
         <label>std::shared_ptr&lt; KeyGenerator::ElGamal &gt;</label>
         <childnode refid="24" relation="usage">
@@ -1660,6 +2210,12 @@
         </childnode>
         <childnode refid="12" relation="template-instance">
           <edgelabel>&lt; KeyGenerator::ElGamal::PublicKey &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>std::shared_ptr&lt; Options &gt;</label>
+        <childnode refid="12" relation="template-instance">
+          <edgelabel>&lt; Options &gt;</edgelabel>
         </childnode>
       </node>
       <node id="30">
@@ -1728,13 +2284,28 @@
           <edgelabel>&lt; sgns::ISecureStorage &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="60">
+      <node id="67">
+        <label>std::shared_ptr&lt; sgns::storage::rocksdb &gt;</label>
+        <childnode refid="68" relation="usage">
+          <edgelabel>+ptr</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="template-instance">
+          <edgelabel>&lt; sgns::storage::rocksdb &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="66">
         <label>std::shared_ptr&lt; spdlog::logger &gt;</label>
         <childnode refid="12" relation="template-instance">
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="56">
+      <node id="62">
+        <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</label>
+        <childnode refid="12" relation="template-instance">
+          <edgelabel>&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
         <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</label>
         <childnode refid="12" relation="template-instance">
           <edgelabel>&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</edgelabel>
@@ -1750,7 +2321,7 @@
         <childnode refid="22" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="53">
+      <node id="58">
         <label>std::thread</label>
       </node>
       <node id="33">
@@ -1801,10 +2372,43 @@
           <edgelabel>&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="52">
+        <label>std::unordered_map&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</label>
+        <childnode refid="53" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="template-instance">
+          <edgelabel>&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="56">
+        <label>std::unordered_set&lt; K &gt;</label>
+        <childnode refid="34" relation="usage">
+          <edgelabel>+keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>std::unordered_set&lt; std::string &gt;</label>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+keys</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="template-instance">
+          <edgelabel>&lt; std::string &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="20">
         <label>std::vector&lt; T &gt;</label>
         <childnode refid="5" relation="usage">
           <edgelabel>+elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt;</label>
+        <childnode refid="54" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="template-instance">
+          <edgelabel>&lt; sgns::AccountMessenger::UTXOResponseData &gt;</edgelabel>
         </childnode>
       </node>
       <node id="19">
@@ -1814,24 +2418,32 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/GeniusAccount.hpp" line="49" column="5" bodyfile="src/account/GeniusAccount.hpp" bodystart="50" bodyend="284"/>
+    <location file="src/account/GeniusAccount.hpp" line="52" column="5" bodyfile="src/account/GeniusAccount.hpp" bodystart="53" bodyend="335"/>
     <listofallmembers>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a8db2b3749abc91927de305b50eb1d4e7" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>Blockchain</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ad3ac04cac05ba38f1083defb7671be4b" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>cached_nonce_result_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1af9d804b388d38616a51a1998d870e806" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>cached_nonce_timestamp_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a232ce2bb40863b691afcd57cc6bf8b35" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ClearGetBlockChainCIDMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a5c3e3abbb9e6f78469cd6eaacfaa4d4d" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ClearGetTransactionCIDMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a83a374ff6248017c72edf4e541fa3d81" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ClearGetUTXOsMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ab202a686b2ae281753d0504d78fafcd9" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ClearGetValidatorWeightMethod</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a9d77f47e29e9a58702737f752de75e07" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ClearHasBlockCidMethod</name></member>
-      <member refid="dc/d64/classsgns_1_1_genius_account_1ace3a92965977c4f20cc74c0b2a6ad2f4" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ConfigureMessengerHandlers</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a2393c9965cf09378f1e995050deaac30" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ConfigureDatabaseDependencies</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a5caf0445c31bc7b383a2c793a6fd5117" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>confirmed_nonces_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a6e9743ff91af975f0f3d241d5f4127f3" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>CreateInstanceFromResponse</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a95ec03afa7c95acbb9e158430e89c900" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>DeconfigureDatabaseDependencies</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a4be01ca99342c52ad3a4cd65b874368d" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>elgamal_address_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a4e32e410be028c56f0ef006b69b25657" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ELGAMAL_PUBKEY_PREDEFINED</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1aa598cbec14ae3b5150b4dd7286f701f7" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>eth_keypair_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a89178652507244c5a201f8122bcb6844" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>FetchNetworkNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a17310b389bbed7fa19000064e559b785" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GenerateGeniusAddress</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1aa14672d15a0f3fd66fb9e63ee663746b" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GenerateGeniusAddress</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GeniusAccount</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a517a74935afb3f1777b4196199ad3aea" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>get_cids_method_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a5020ba8817e51460a62cfaa46dc976bc" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>get_cids_mutex_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a2003a939fe85c52ff447500c1542c616" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>get_transaction_cid_method_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a62eb0a4330684a7378d361eacbd43ba3" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>get_utxos_method_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a60cbeac16aedbb0777e5491d996a6cf0" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>get_validator_weight_method_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a524e294199cb93abf008d9f6397293a4" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GetAddress</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a140c82ff3bedfe66ebb0325294b68b52" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GetConfirmedNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1acd8500e0f5cde61003ea3bc7b252a3f1" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>GetLocalConfirmedNonce</name></member>
@@ -1843,6 +2455,7 @@
       <member refid="dc/d64/classsgns_1_1_genius_account_1ad4629f30bcf19864375d5260e6bd07de" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>has_cid_method_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a2d368e46a92a458ad612e4d382c9088d" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>InitMessenger</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1afdc0057cdd7f40ac1e13661daf16d40a" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>is_full_node_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a31f48e83daeddd24d519ae986945a253" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>LoadConfirmedNonces</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ae747d377965085cc14266fc700f061eb" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>LoadGeniusAccount</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ab7b5f99b384e4c876da10689758b5061" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>local_confirmed_nonce_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a17f8892c95d4b0aa18779e21e6c5c6bd" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>messenger_</name></member>
@@ -1850,27 +2463,37 @@
       <member refid="dc/d64/classsgns_1_1_genius_account_1a76ade584c4f970df8ff1f61630a8a45c" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>New</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ad1e69568ef50036f8be13c8590438d91" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>New</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a62bde34db8bf8a1e2e775230599441ca" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>NONCE_CACHE_DURATION_MS</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a6741f94cd25b01e661f9c04c1f33313f" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>nonce_db_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a7f26855c38ea9e15d02a2c330a0a8deb" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>NONCE_KEY_PREFIX</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a3a7da50c6e1beeedd1cfc23db3823181" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>nonce_mutex_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1aef6029ce27ece0c64a399177d27fe0ee" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>nonce_request_cv_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a5d9ae0b469242fc177304179b1ae2691" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>nonce_request_in_progress_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ab389ef8f1c8d58e7648e30dd11b50346" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>nonce_request_mutex_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ac7e63962d3b0e54962e90e4354d9568a" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>pending_nonces_</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ac3ce253d84d7bd403c71887a6270a11b" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>PersistConfirmedNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a810369330f1dbfb19243dca6c9702f57" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ReleaseNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1abad28c2c1636fa5b662b5a86a84e8d98" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestAccountCreation</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1aea67add31854605f0513d2a9d85d410a" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestGenesis</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a0b5023d092bdc57e971cc77bf1e14a22" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestHeads</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1acb4acd7a73f4061850dd230f53816efb" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestRegularBlock</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1a43f34cdc2a0d27a52e57395ca0c1d244" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestTransaction</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ad90347b8a6e0fa3036d18af9be58c8bc" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RequestUTXOs</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a08b3c45f1a2242bee7f0fb504a514a05" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>ReserveNextNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a3f91917209229d8306d9b64b4cc59c47" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>RollBackPeerConfirmedNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ae64b6ea986b8d65f37c24d88981a2661" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetGetBlockChainCIDMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ab228f1afd83719866c75c153c6c20653" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetGetTransactionCIDMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ac75a592ab4676c8a4fde9449d38e2478" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetGetUTXOsMethod</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1ae0379c6c2a33ec6bd5d98820e53aa5d4" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetGetValidatorWeightMethod</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a9bd6306a491016b3fdb96dd0b810f7fa" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetHasBlockCidMethod</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a2c4ce679cb7b6c8ace526602524060c5" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetLocalConfirmedNonce</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1af6fbef6c7add6b324f89b7f64ddbb0da" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetNonceStore</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a965168eb86754a1ad41ff2b377563a77" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SetPeerConfirmedNonce</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a5185e87b964aaca973c332a394c68827" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>Sign</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a52c1050cffdb35b977f2126fc3bb9f16" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>SIGNATURE_EXP_SIZE</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a45527417f5d0c683305ca287d3e6ca49" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>storage_</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1ada9b0c2374ac9971bbd3f65b482a3713" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>StorageWithAddress</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a290e4c816e863f1f07573d7afe6e7178" prot="private" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>token</name></member>
+      <member refid="dc/d64/classsgns_1_1_genius_account_1adb936c8577cc481f904aee636498cfc0" prot="protected" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>TransactionManager</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a0a0b690a932bf82303b3b27aeeca919d" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>VerifySignature</name></member>
       <member refid="dc/d64/classsgns_1_1_genius_account_1a21d34d3ab4bf2e3ea1d952e4a0cd2721" prot="public" virt="non-virtual"><scope>sgns::GeniusAccount</scope><name>~GeniusAccount</name></member>
     </listofallmembers>

@@ -729,21 +729,6 @@
         </inbodydescription>
         <location file="src/crdt/crdt_datastore.hpp" line="453" column="41" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="453" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a921f4f32f6d7695ff20f45a262bb8b34" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool sgns::crdt::CrdtDatastore::isFullNode</definition>
-        <argsstring></argsstring>
-        <name>isFullNode</name>
-        <qualifiedname>sgns::crdt::CrdtDatastore::isFullNode</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="454" column="41" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="454" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a726910581676c6e0a1bddb1a2ca5fb55" prot="private" static="no" mutable="no">
         <type>std::mutex</type>
         <definition>std::mutex sgns::crdt::CrdtDatastore::pendingBroadcastMutex_</definition>
@@ -756,7 +741,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="455" column="41" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="455" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="454" column="41" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="454" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1aaa1178d58a74e3c45c81bc7f164b93eb" prot="private" static="no" mutable="no">
         <type>std::unordered_set&lt; std::string &gt;</type>
@@ -770,7 +755,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="456" column="28" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="456" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="455" column="28" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="455" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1aa8447e14bc9ab67596b6edb06c670b28" prot="private" static="no" mutable="no">
         <type><ref refid="d7/d42/classsgns_1_1crdt_1_1_c_r_d_t_callback_manager" kindref="compound">CRDTCallbackManager</ref></type>
@@ -784,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="458" column="29" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="458" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="457" column="29" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="457" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a2d9a826dc6c16e982afa7fb6f38923c0" prot="private" static="no" mutable="no">
         <type>std::map&lt; CID, <ref refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ab06839ca5daaef53700cc8f3f7c8ba8b" kindref="member">JobStatus</ref> &gt;</type>
@@ -798,7 +783,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="460" column="18" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="460" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="459" column="18" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="459" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a567691d2d0a4e9856e3d25dff7451131" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -812,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="461" column="34" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="461" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="460" column="34" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="460" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a469b6663bf3a4422fd6f0fcca51d79ae" prot="private" static="no" mutable="yes">
         <type>std::map&lt; CID, std::string &gt;</type>
@@ -826,7 +811,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="467" column="26" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="467" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="466" column="26" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="466" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1afa13ee10cb5d6c10ad0d97e5927f8101" prot="private" static="no" mutable="yes">
         <type>std::mutex</type>
@@ -840,7 +825,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="468" column="44" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="468" bodyend="-1"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="467" column="44" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="467" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -2684,7 +2669,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="463" column="14" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="1367" bodyend="1375"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="462" column="14" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="1367" bodyend="1375"/>
       </memberdef>
       <memberdef kind="function" id="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a9294a012f835f538f716ce8083ee1c13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2702,7 +2687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/crdt/crdt_datastore.hpp" line="464" column="14" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="1377" bodyend="1381"/>
+        <location file="src/crdt/crdt_datastore.hpp" line="463" column="14" bodyfile="src/crdt/impl/crdt_datastore.cpp" bodystart="1377" bodyend="1381"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3370,7 +3355,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/crdt/crdt_datastore.hpp" line="52" column="5" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="53" bodyend="469"/>
+    <location file="src/crdt/crdt_datastore.hpp" line="52" column="5" bodyfile="src/crdt/crdt_datastore.hpp" bodystart="53" bodyend="468"/>
     <listofallmembers>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ad3d0fbbdbb7a165f32ed3bd76314d81a" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>::sgns::Blockchain</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a74f1fd31ed085e5b88d6db36f1cc7f01" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>::sgns::blockchain::ValidatorRegistry</name></member>
@@ -3436,7 +3421,6 @@
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a4c1d9e7afb36978fe3767ef61072f18e" prot="private" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>heads_</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ac27f1c76d017e60f59581c673da42dcc" prot="private" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>headsNamespace_</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ac6a08d717cc5d183a758a141e26facec" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>IPLDNode</name></member>
-      <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a921f4f32f6d7695ff20f45a262bb8b34" prot="private" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>isFullNode</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ad11870222957fde553de380caa1e52f5" prot="private" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>IsRootCIDPendingOrActive</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1abfcef2276e0a9a0d9061e46d231a8461" prot="private" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>IsRootCIDPendingOrActiveLocked</name></member>
       <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ab06839ca5daaef53700cc8f3f7c8ba8b" prot="public" virt="non-virtual"><scope>sgns::crdt::CrdtDatastore</scope><name>JobStatus</name></member>

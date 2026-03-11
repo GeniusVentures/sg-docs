@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="30" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="28" bodyend="46"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="30" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="30" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a1cabc94221bfa0d5f09bc4b670c4979b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="38" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="48" bodyend="48"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="38" column="9" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="50" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a402bb1e8be25d505db100c8af85adec2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="44" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="50" bodyend="53"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="44" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6d3912570089c65b4f75522b0a72fbe8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -334,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="50" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="55" bodyend="58"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="50" column="21" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1abedc7bea2cbf654e35453eb9d3ec09b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="52" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="100" bodyend="110"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="52" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="102" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a57513187b0f5c8bc474070217e81dd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; bool &gt;</type>
@@ -372,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="58" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="60" bodyend="98"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="58" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="62" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a6c544e556466831e127b2ccd76d6f996" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="64" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="112" bodyend="417"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="64" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="114" bodyend="421"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a753ddfd6c60944a777cfaba0f7449cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>outcome::result&lt; void &gt;</type>
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="66" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="479" bodyend="485"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="66" column="25" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="483" bodyend="490"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -430,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="79" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="419" bodyend="450"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="79" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="423" bodyend="454"/>
       </memberdef>
       <memberdef kind="function" id="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ab76dc8fc7e668d2c887342bc30bff993" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>outcome::result&lt; std::shared_ptr&lt; <ref refid="da/d32/classsgns_1_1crdt_1_1_global_d_b" kindref="compound">crdt::GlobalDB</ref> &gt; &gt;</type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="80" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="452" bodyend="477"/>
+        <location file="src/account/Migration3_4_0To3_5_0.hpp" line="80" column="40" bodyfile="src/account/Migration3_4_0To3_5_0.cpp" bodystart="456" bodyend="481"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -615,6 +615,7 @@
         <childnode refid="163" relation="usage">
           <edgelabel>-block_first_response_time_</edgelabel>
           <edgelabel>-first_response_time_</edgelabel>
+          <edgelabel>-utxo_first_response_time_</edgelabel>
         </childnode>
         <childnode refid="32" relation="usage">
           <edgelabel>-block_responses_mutex_</edgelabel>
@@ -622,14 +623,18 @@
           <edgelabel>-head_handler_mutex_</edgelabel>
           <edgelabel>-nonce_responses_mutex_</edgelabel>
           <edgelabel>-queue_mutex_</edgelabel>
+          <edgelabel>-utxo_responses_mutex_</edgelabel>
         </childnode>
         <childnode refid="164" relation="usage">
+          <edgelabel>-utxo_responses_</edgelabel>
+        </childnode>
+        <childnode refid="167" relation="usage">
           <edgelabel>-methods_</edgelabel>
         </childnode>
-        <childnode refid="165" relation="usage">
+        <childnode refid="168" relation="usage">
           <edgelabel>-worker_thread_</edgelabel>
         </childnode>
-        <childnode refid="166" relation="usage">
+        <childnode refid="169" relation="usage">
           <edgelabel>-request_queue_</edgelabel>
         </childnode>
         <childnode refid="55" relation="usage">
@@ -639,18 +644,32 @@
           <edgelabel>-logger_</edgelabel>
         </childnode>
       </node>
-      <node id="164">
+      <node id="167">
         <label>sgns::AccountMessenger::InterfaceMethods</label>
         <link refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods"/>
       </node>
-      <node id="167">
+      <node id="170">
         <label>sgns::AccountMessenger::RequestTask</label>
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="11" relation="usage">
           <edgelabel>+cid</edgelabel>
+          <edgelabel>+utxo_address</edgelabel>
         </childnode>
-        <childnode refid="168" relation="usage">
+        <childnode refid="171" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>+utxo_promise</edgelabel>
+        </childnode>
+      </node>
+      <node id="166">
+        <label>sgns::AccountMessenger::UTXOResponseData</label>
+        <link refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+responder_address</edgelabel>
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>+utxos</edgelabel>
         </childnode>
       </node>
       <node id="125">
@@ -672,10 +691,10 @@
         <childnode refid="127" relation="usage">
           <edgelabel>-account_</edgelabel>
         </childnode>
-        <childnode refid="169" relation="usage">
+        <childnode refid="173" relation="usage">
           <edgelabel>-cids_</edgelabel>
         </childnode>
-        <childnode refid="171" relation="usage">
+        <childnode refid="175" relation="usage">
           <edgelabel>-validator_registry_</edgelabel>
         </childnode>
         <childnode refid="13" relation="usage">
@@ -685,10 +704,10 @@
           <edgelabel>-validator_registry_initialized_</edgelabel>
         </childnode>
       </node>
-      <node id="169">
+      <node id="173">
         <label>sgns::Blockchain::BlockchainCIDs</label>
         <link refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds"/>
-        <childnode refid="170" relation="usage">
+        <childnode refid="174" relation="usage">
           <edgelabel>+account_creation_</edgelabel>
         </childnode>
       </node>
@@ -727,6 +746,12 @@
         <childnode refid="32" relation="usage">
           <edgelabel>-get_cids_mutex_</edgelabel>
           <edgelabel>-nonce_request_mutex_</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>-nonce_db_</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>-NONCE_KEY_PREFIX</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -780,7 +805,7 @@
         <childnode refid="127" relation="usage">
           <edgelabel>-account_</edgelabel>
         </childnode>
-        <childnode refid="175" relation="usage">
+        <childnode refid="179" relation="usage">
           <edgelabel>-blockchain_status_</edgelabel>
         </childnode>
       </node>
@@ -791,15 +816,15 @@
           <edgelabel>-data_</edgelabel>
         </childnode>
       </node>
-      <node id="172">
+      <node id="176">
         <label>sgns::blockchain::ValidatorRegistry</label>
         <link refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry"/>
-        <childnode refid="173" relation="public-inheritance">
+        <childnode refid="177" relation="public-inheritance">
         </childnode>
         <childnode refid="14" relation="usage">
           <edgelabel>-db_</edgelabel>
         </childnode>
-        <childnode refid="174" relation="usage">
+        <childnode refid="178" relation="usage">
           <edgelabel>-weight_config_</edgelabel>
         </childnode>
         <childnode refid="11" relation="usage">
@@ -813,7 +838,7 @@
           <edgelabel>-cache_mutex_</edgelabel>
         </childnode>
       </node>
-      <node id="174">
+      <node id="178">
         <label>sgns::blockchain::ValidatorRegistry::WeightConfig</label>
         <link refid="da/dc2/structsgns_1_1blockchain_1_1_validator_registry_1_1_weight_config"/>
       </node>
@@ -1289,7 +1314,7 @@
           <edgelabel>+ptr</edgelabel>
         </childnode>
       </node>
-      <node id="175">
+      <node id="179">
         <label>std::atomic&lt; Status &gt;</label>
         <childnode refid="56" relation="template-instance">
           <edgelabel>&lt; Status &gt;</edgelabel>
@@ -1334,7 +1359,7 @@
       <node id="21">
         <label>std::enable_shared_from_this&lt; PubSubBroadcasterExt &gt;</label>
       </node>
-      <node id="173">
+      <node id="177">
         <label>std::enable_shared_from_this&lt; ValidatorRegistry &gt;</label>
       </node>
       <node id="54">
@@ -1496,9 +1521,9 @@
           <edgelabel>&lt; CID &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="166">
+      <node id="169">
         <label>std::queue&lt; sgns::AccountMessenger::RequestTask &gt;</label>
-        <childnode refid="167" relation="usage">
+        <childnode refid="170" relation="usage">
           <edgelabel>+elements</edgelabel>
         </childnode>
         <childnode refid="58" relation="template-instance">
@@ -1736,9 +1761,9 @@
           <edgelabel>&lt; sgns::ISecureStorage &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="171">
+      <node id="175">
         <label>std::shared_ptr&lt; sgns::blockchain::ValidatorRegistry &gt;</label>
-        <childnode refid="172" relation="usage">
+        <childnode refid="176" relation="usage">
           <edgelabel>+ptr</edgelabel>
         </childnode>
         <childnode refid="5" relation="template-instance">
@@ -1847,7 +1872,13 @@
           <edgelabel>&lt; spdlog::logger &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="168">
+      <node id="172">
+        <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
         <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</label>
         <childnode refid="5" relation="template-instance">
           <edgelabel>&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</edgelabel>
@@ -1863,7 +1894,7 @@
         <childnode refid="94" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="165">
+      <node id="168">
         <label>std::thread</label>
       </node>
       <node id="106">
@@ -1926,7 +1957,7 @@
           <edgelabel>&lt; std::string, std::map&lt; CID, uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
-      <node id="170">
+      <node id="174">
         <label>std::unordered_map&lt; std::string, std::string &gt;</label>
         <childnode refid="11" relation="usage">
           <edgelabel>+elements</edgelabel>
@@ -1969,6 +2000,15 @@
           <edgelabel>&lt; uint64_t, std::set&lt; uint64_t &gt; &gt;</edgelabel>
         </childnode>
       </node>
+      <node id="164">
+        <label>std::unordered_map&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</label>
+        <childnode refid="165" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="100" relation="template-instance">
+          <edgelabel>&lt; uint64_t, std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
       <node id="117">
         <label>std::unordered_set&lt; K &gt;</label>
         <childnode refid="24" relation="usage">
@@ -2003,6 +2043,15 @@
         </childnode>
         <childnode refid="31" relation="template-instance">
           <edgelabel>&lt; PeerEntry &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="165">
+        <label>std::vector&lt; sgns::AccountMessenger::UTXOResponseData &gt;</label>
+        <childnode refid="166" relation="usage">
+          <edgelabel>+elements</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="template-instance">
+          <edgelabel>&lt; sgns::AccountMessenger::UTXOResponseData &gt;</edgelabel>
         </childnode>
       </node>
       <node id="60">

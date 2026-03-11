@@ -9,6 +9,7 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ac5f7a607c263ee8aa75e740dc0b96f78ab2079e623f8503d646fa8ac00f3bd216" kind="enumvalue"><name>NO_RESPONSE_RECEIVED</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ac5f7a607c263ee8aa75e740dc0b96f78afcea3335bf0aaffd5f33b8bfa66707a3" kind="enumvalue"><name>RESPONSE_WITHOUT_NONCE</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ac5f7a607c263ee8aa75e740dc0b96f78a04f2b654f964e6c4f7ae390b13478f9c" kind="enumvalue"><name>GENESIS_REQUEST_ERROR</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1ac5f7a607c263ee8aa75e740dc0b96f78a9b132f7cc59562e15d55751e26195b8c" kind="enumvalue"><name>UTXO_REQUEST_ERROR</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a21bd8a1198fb2150ffb514745dfb66e3" kind="typedef"><name>BlockResponseHandler</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ae5cd35734c88e17b9609aebe704d6265" kind="typedef"><name>HeadRequestHandler</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396" kind="enum"><name>RequestType</name></member>
@@ -16,6 +17,9 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396a411f3239ffbefd44ebd08ac9eaec6489" kind="enumvalue"><name>Genesis</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396a154db57a99e3ecdddbf535530d9ed701" kind="enumvalue"><name>AccountCreation</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396ae3f89acfed95a8c8ace9dd3dceafd680" kind="enumvalue"><name>BlockByCid</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396aa969b261036d329b810ffe621aa08087" kind="enumvalue"><name>UTXO</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1adf1c174849e30cdb996e1299d590b396a1b0ffaae3973401f71cd000ab9f7856e" kind="enumvalue"><name>Transaction</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1aac8fae28552494c9054905d00b959d74" kind="typedef"><name>BlockQuery</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a97c685516d246f58ba190f07e9c2df48" kind="variable"><name>ACCOUNT_COMM</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1af52b7cddf4fff52261a4a933c46b7837" kind="variable"><name>REQUESTS_COMM</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ad37cadd08e4b3efc73dcb8597dfc4e1f" kind="variable"><name>address_</name></member>
@@ -31,6 +35,9 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ab812ad85da87af6b3891fea96fe9c6ca" kind="variable"><name>block_responses_</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a5612c138082a27862bd8af4090721681" kind="variable"><name>block_first_response_time_</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ac8e174b7164338b33aa3264967822565" kind="variable"><name>block_responses_mutex_</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a6e61dae797373ee3fb63fb6983fbadde" kind="variable"><name>utxo_responses_</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a30c1ff6a7f1492338a9095d50b87a3a4" kind="variable"><name>utxo_first_response_time_</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a1eb1c182727bff81e67b667047ea0a72" kind="variable"><name>utxo_responses_mutex_</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a8a9f55876d3bfa4a3f059ebc20755b01" kind="variable"><name>methods_</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a8c49d10f4752414a5d6c5b89969caa90" kind="variable"><name>rd_</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1af086106e941b043d7d0df8bb63cae0bf" kind="variable"><name>global_block_handler_</name></member>
@@ -49,6 +56,8 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a32967606488c27464465f5e750c01124" kind="function"><name>RequestGenesis</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a28a3ae95e647c5ec84db7afd6a5290dd" kind="function"><name>RequestAccountCreation</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a96ae85db1aa2c88a16b163c84a3654c8" kind="function"><name>RequestRegularBlock</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1ad42381f4b41230ca7b80ef4e7d5c085d" kind="function"><name>RequestTransaction</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a05b0b196319b637cd095d24922a3bf18" kind="function"><name>RequestUTXOs</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a04c49378281624ab1c95a4d7a8f0f9bb" kind="function"><name>RegisterBlockResponseHandler</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a10902eb5a1c21f7bfa4ccf2a15f75794" kind="function"><name>ClearBlockResponseHandler</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a52ca7ef22d099057364989abf4bf8ef9" kind="function"><name>RegisterHeadRequestHandler</name></member>
@@ -57,12 +66,14 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ab7d2808bbee372c06c282f49b8dc9475" kind="function"><name>WorkerLoop</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1af1c8342b13d9d390196ad9e246ca787e" kind="function"><name>EnqueueTask</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a3b272d57f04e7c750ede86248b08a43e" kind="function"><name>PerformNonceRequest</name></member>
-    <member refid="d5/d74/classsgns_1_1_account_messenger_1a2ac052338c0ef098cb10b8cd28e523ab" kind="function"><name>PerformBlockRequest</name></member>
-    <member refid="d5/d74/classsgns_1_1_account_messenger_1ad2ffc7d30f2c5d21987f39df8ffa2c92" kind="function"><name>PerformBlockCidRequest</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a8e8f8ec39a7be9712a0a2ea21fe47df8" kind="function"><name>PerformBlockRequest</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a9e24649b1c781e2836368b0c8ffc6e95" kind="function"><name>PerformUTXORequest</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a72dd574f55429e43edb9ca88d9feb242" kind="function"><name>AccountMessenger</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1aa75bfe008e65564522cb2ec163088249" kind="function"><name>RequestNonce</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a04db696f038cfb9823560a45b1860e9a" kind="function"><name>RequestBlock</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1ab7c25229451a20bfb082a5f0d74b6690" kind="function"><name>RequestBlockByCid</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a85f94927dfcedab8f309a6a7763650d1" kind="function"><name>RequestBlockByHash</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a7d7e977cd1dfeae8636a5ecc7635f9bc" kind="function"><name>RequestUTXO</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a66031e611f274efbb0cd6e74a3478de4" kind="function"><name>OnResponse</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1afdd49cb2b860d2b67d552de84d821aa8" kind="function"><name>OnRequest</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a064e540142f90a893830b32befcba909" kind="function"><name>SendAccountMessage</name></member>
@@ -71,7 +82,11 @@
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a77c8a1a62f2980c5b303610e87d62c3a" kind="function"><name>HandleBlockRequest</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a22d88b9d06d44104d7a13c444e06c5b5" kind="function"><name>HandleBlockCidRequest</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a9b16632040cd014412f3f93d033c9e08" kind="function"><name>HandleBlockResponse</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a23955ec01edc5a8115ee2639f1ab092a" kind="function"><name>HandleTransactionRequest</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1a1ec50f357fd3b4428047f5a56edcf304" kind="function"><name>HandleBlockLikeRequest</name></member>
     <member refid="d5/d74/classsgns_1_1_account_messenger_1a64ef75af74993e69ec8f57c20546e048" kind="function"><name>HandleHeadRequest</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1afb19d993014d589099c0477547a8c4ad" kind="function"><name>HandleUTXORequest</name></member>
+    <member refid="d5/d74/classsgns_1_1_account_messenger_1abae02895d7f211d0dccb4f991f61999b" kind="function"><name>HandleUTXOResponse</name></member>
   </compound>
   <compound refid="d2/da2/class_a_e_s_encryption" kind="class"><name>AESEncryption</name>
     <member refid="d2/da2/class_a_e_s_encryption_1a9e2e2ca3557a34a0820099b2f8eb71ba" kind="function"><name>EncryptData</name></member>
@@ -545,7 +560,7 @@
     <member refid="de/da2/classsgns_1_1_blockchain_1a7b8175cc61ed4169a90cf44993ab000ea9f6d9bd75a9493c804f6174020c6f6a1" kind="enumvalue"><name>VALIDATOR_REGISTRY_CREATION_FAILED</name></member>
     <member refid="de/da2/classsgns_1_1_blockchain_1a7b8175cc61ed4169a90cf44993ab000ea7069a5d7744d969d9142059dd1faf781" kind="enumvalue"><name>BLOCKCHAIN_NOT_INITIALIZED</name></member>
     <member refid="de/da2/classsgns_1_1_blockchain_1a33656a69def2abe777a01e68e7aeaff5" kind="typedef"><name>BlockchainCallback</name></member>
-    <member refid="de/da2/classsgns_1_1_blockchain_1a2248a39ce12ea36566397d3c5d39f370" kind="friend"><name>Migration3_5_1To3_6_0</name></member>
+    <member refid="de/da2/classsgns_1_1_blockchain_1affd52aefa1b3649506b45bacee507f22" kind="friend"><name>Migration3_5_0To3_6_0</name></member>
     <member refid="de/da2/classsgns_1_1_blockchain_1a1bc85033e8479fe34e92ab70f5f3e4cf" kind="variable"><name>BLOCKCHAIN_TOPIC</name></member>
     <member refid="de/da2/classsgns_1_1_blockchain_1a7633e5f8f427a29a06be03cc9a55be66" kind="variable"><name>DEFAULT_FULL_NODE_PUB_ADDRESS</name></member>
     <member refid="de/da2/classsgns_1_1_blockchain_1a96fd8f9e3a0941b5bd42637b5e1a08ee" kind="variable"><name>GENESIS_KEY</name></member>
@@ -614,6 +629,9 @@
     <member refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1a347dc09775fb7272a87e66ba2de79d80" kind="function"><name>hasAnyAccount</name></member>
     <member refid="d9/d46/structsgns_1_1_blockchain_1_1_blockchain_c_i_ds_1aeed83f5f1742363bde4702ae0af7bba0" kind="function"><name>isCompleteFor</name></member>
   </compound>
+  <compound refid="db/d98/structsgns_1_1_account_messenger_1_1_block_cid_request" kind="struct"><name>sgns::AccountMessenger::BlockCidRequest</name>
+    <member refid="db/d98/structsgns_1_1_account_messenger_1_1_block_cid_request_1a27138574aeae079a3b7aeb1390406d92" kind="variable"><name>cid</name></member>
+  </compound>
   <compound refid="d3/db4/structsgns_1_1primitives_1_1_block_data" kind="struct"><name>sgns::primitives::BlockData</name>
     <member refid="d3/db4/structsgns_1_1primitives_1_1_block_data_1a7d84583dc617b9c0649fc31a94f7796b" kind="variable"><name>hash</name></member>
     <member refid="d3/db4/structsgns_1_1primitives_1_1_block_data_1a8db11be8032a021a60def1bd43553bbd" kind="variable"><name>header</name></member>
@@ -658,6 +676,9 @@
   </compound>
   <compound refid="d2/d44/class_block_header_repository_factory" kind="class"><name>BlockHeaderRepositoryFactory</name>
     <member refid="d2/d44/class_block_header_repository_factory_1a6b25aaa484dcdd28616a968f30afe3c7" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="d1/dae/structsgns_1_1_account_messenger_1_1_block_index_request" kind="struct"><name>sgns::AccountMessenger::BlockIndexRequest</name>
+    <member refid="d1/dae/structsgns_1_1_account_messenger_1_1_block_index_request_1a9dda9c1eaea5a2c06516dd9e2fd82f37" kind="variable"><name>block_index</name></member>
   </compound>
   <compound refid="de/d12/structsgns_1_1primitives_1_1detail_1_1_block_info_t" kind="struct"><name>sgns::primitives::detail::BlockInfoT</name>
     <member refid="de/d12/structsgns_1_1primitives_1_1detail_1_1_block_info_t_1a5973293d4777f5b396e7b07e2d91cbc7" kind="variable"><name>block_number</name></member>
@@ -1378,7 +1399,6 @@
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1aa76483b9e8d9fd20f0ddc9b980124aa1" kind="variable"><name>rebroadcastCv_</name></member>
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a3cced9e7ca18290c1b84a57b9a46fe07" kind="variable"><name>topicNames_</name></member>
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1ad388b863800690ab1457d049f60a7eac" kind="variable"><name>topicNamesMutex_</name></member>
-    <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a921f4f32f6d7695ff20f45a262bb8b34" kind="variable"><name>isFullNode</name></member>
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1a726910581676c6e0a1bddb1a2ca5fb55" kind="variable"><name>pendingBroadcastMutex_</name></member>
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1aaa1178d58a74e3c45c81bc7f164b93eb" kind="variable"><name>pendingBroadcastTopics_</name></member>
     <member refid="db/dbb/classsgns_1_1crdt_1_1_crdt_datastore_1aa8447e14bc9ab67596b6edb06c670b28" kind="variable"><name>crdt_cb_manager_</name></member>
@@ -2070,7 +2090,9 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1a4e32e410be028c56f0ef006b69b25657" kind="variable"><name>ELGAMAL_PUBKEY_PREDEFINED</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a62bde34db8bf8a1e2e775230599441ca" kind="variable"><name>NONCE_CACHE_DURATION_MS</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a8db2b3749abc91927de305b50eb1d4e7" kind="friend"><name>Blockchain</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1adb936c8577cc481f904aee636498cfc0" kind="friend"><name>TransactionManager</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a52c1050cffdb35b977f2126fc3bb9f16" kind="variable"><name>SIGNATURE_EXP_SIZE</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a7f26855c38ea9e15d02a2c330a0a8deb" kind="variable"><name>NONCE_KEY_PREFIX</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a290e4c816e863f1f07573d7afe6e7178" kind="variable"><name>token</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1afdc0057cdd7f40ac1e13661daf16d40a" kind="variable"><name>is_full_node_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1aa598cbec14ae3b5150b4dd7286f701f7" kind="variable"><name>eth_keypair_</name></member>
@@ -2089,6 +2111,10 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1a5020ba8817e51460a62cfaa46dc976bc" kind="variable"><name>get_cids_mutex_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a517a74935afb3f1777b4196199ad3aea" kind="variable"><name>get_cids_method_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ad4629f30bcf19864375d5260e6bd07de" kind="variable"><name>has_cid_method_</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a62eb0a4330684a7378d361eacbd43ba3" kind="variable"><name>get_utxos_method_</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a60cbeac16aedbb0777e5491d996a6cf0" kind="variable"><name>get_validator_weight_method_</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a2003a939fe85c52ff447500c1542c616" kind="variable"><name>get_transaction_cid_method_</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a6741f94cd25b01e661f9c04c1f33313f" kind="variable"><name>nonce_db_</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ad67b73108af7b65d2c4c61c80e05b6c2" kind="function"><name>New</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a76ade584c4f970df8ff1f61630a8a45c" kind="function"><name>New</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ad1e69568ef50036f8be13c8590438d91" kind="function"><name>New</name></member>
@@ -2096,7 +2122,8 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1a17310b389bbed7fa19000064e559b785" kind="function"><name>GenerateGeniusAddress</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1aa14672d15a0f3fd66fb9e63ee663746b" kind="function"><name>GenerateGeniusAddress</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a2d368e46a92a458ad612e4d382c9088d" kind="function"><name>InitMessenger</name></member>
-    <member refid="dc/d64/classsgns_1_1_genius_account_1ace3a92965977c4f20cc74c0b2a6ad2f4" kind="function"><name>ConfigureMessengerHandlers</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a2393c9965cf09378f1e995050deaac30" kind="function"><name>ConfigureDatabaseDependencies</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a95ec03afa7c95acbb9e158430e89c900" kind="function"><name>DeconfigureDatabaseDependencies</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a21d34d3ab4bf2e3ea1d952e4a0cd2721" kind="function"><name>~GeniusAccount</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a524e294199cb93abf008d9f6397293a4" kind="function"><name>GetAddress</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1afe18cc7c6b3902929c57110f59c96a1e" kind="function"><name>GetToken</name></member>
@@ -2108,19 +2135,31 @@
     <member refid="dc/d64/classsgns_1_1_genius_account_1aa4da5c19a47e40c12fb24d8aeb5ef76e" kind="function"><name>GetPeerNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1acd8500e0f5cde61003ea3bc7b252a3f1" kind="function"><name>GetLocalConfirmedNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a140c82ff3bedfe66ebb0325294b68b52" kind="function"><name>GetConfirmedNonce</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a89178652507244c5a201f8122bcb6844" kind="function"><name>FetchNetworkNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a179e7366b3c626f4e9f8d30b3d3012f3" kind="function"><name>GetProposedNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a08b3c45f1a2242bee7f0fb504a514a05" kind="function"><name>ReserveNextNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a810369330f1dbfb19243dca6c9702f57" kind="function"><name>ReleaseNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1aea67add31854605f0513d2a9d85d410a" kind="function"><name>RequestGenesis</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1abad28c2c1636fa5b662b5a86a84e8d98" kind="function"><name>RequestAccountCreation</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1acb4acd7a73f4061850dd230f53816efb" kind="function"><name>RequestRegularBlock</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a43f34cdc2a0d27a52e57395ca0c1d244" kind="function"><name>RequestTransaction</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ad90347b8a6e0fa3036d18af9be58c8bc" kind="function"><name>RequestUTXOs</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a0b5023d092bdc57e971cc77bf1e14a22" kind="function"><name>RequestHeads</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ae64b6ea986b8d65f37c24d88981a2661" kind="function"><name>SetGetBlockChainCIDMethod</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a232ce2bb40863b691afcd57cc6bf8b35" kind="function"><name>ClearGetBlockChainCIDMethod</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a9bd6306a491016b3fdb96dd0b810f7fa" kind="function"><name>SetHasBlockCidMethod</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a9d77f47e29e9a58702737f752de75e07" kind="function"><name>ClearHasBlockCidMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ac75a592ab4676c8a4fde9449d38e2478" kind="function"><name>SetGetUTXOsMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a83a374ff6248017c72edf4e541fa3d81" kind="function"><name>ClearGetUTXOsMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ae0379c6c2a33ec6bd5d98820e53aa5d4" kind="function"><name>SetGetValidatorWeightMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ab202a686b2ae281753d0504d78fafcd9" kind="function"><name>ClearGetValidatorWeightMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ab228f1afd83719866c75c153c6c20653" kind="function"><name>SetGetTransactionCIDMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a5c3e3abbb9e6f78469cd6eaacfaa4d4d" kind="function"><name>ClearGetTransactionCIDMethod</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1af6fbef6c7add6b324f89b7f64ddbb0da" kind="function"><name>SetNonceStore</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ae747d377965085cc14266fc700f061eb" kind="function"><name>LoadGeniusAccount</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1a6e9743ff91af975f0f3d241d5f4127f3" kind="function"><name>CreateInstanceFromResponse</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1a31f48e83daeddd24d519ae986945a253" kind="function"><name>LoadConfirmedNonces</name></member>
+    <member refid="dc/d64/classsgns_1_1_genius_account_1ac3ce253d84d7bd403c71887a6270a11b" kind="function"><name>PersistConfirmedNonce</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1ae72400a6e7031c212f4670e7830bfea6" kind="function"><name>GetNextNonceLocked</name></member>
     <member refid="dc/d64/classsgns_1_1_genius_account_1abbebe5c93cfafe8d838008d339fa9171" kind="function"><name>GeniusAccount</name></member>
   </compound>
@@ -2828,6 +2867,9 @@
     <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1ac3a12d32fda7275b8eb610df0a4b0fe4" kind="variable"><name>get_local_nonce_</name></member>
     <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1a1d2baf9ee2d5be90b5224b25cd175f0a" kind="variable"><name>get_block_cid_</name></member>
     <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1acff81209a019e7bb0eef37fcedf8c500" kind="variable"><name>has_block_cid_</name></member>
+    <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1aa1597fe10bd649b74dcb23e83b4d608d" kind="variable"><name>get_utxos_</name></member>
+    <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1a0423a0c3e8764f00b66af3c110eba9d3" kind="variable"><name>get_validator_weight_</name></member>
+    <member refid="dd/d3e/structsgns_1_1_account_messenger_1_1_interface_methods_1ac7c05826d5c8effd83bce7d87450ea37" kind="variable"><name>get_transaction_cid_</name></member>
   </compound>
   <compound refid="d4/de6/classsgns_1_1ipfs__lite__store" kind="class"><name>sgns::ipfs_lite_store</name>
     <member refid="d4/de6/classsgns_1_1ipfs__lite__store_1a0b948935d2bbe64cf4353aec5caf5eb2" kind="variable"><name>datastore</name></member>
@@ -2920,8 +2962,8 @@
     <member refid="d9/d71/classsgns_1_1_j_s_o_n_backend_1a7ec4c317139903bcb835bb3d33a4ae07" kind="function"><name>SaveJSON</name></member>
   </compound>
   <compound refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage" kind="class"><name>sgns::JSONSecureStorage</name>
-    <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1aea6a9574823cc80a0157e52107fc93a4" kind="variable"><name>directory_</name></member>
-    <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1ab190943e1bbf8911644ac289a6335b97" kind="function"><name>JSONSecureStorage</name></member>
+    <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1a3151cc3d043956f3e6264cf9d717ccc9" kind="variable"><name>directory_</name></member>
+    <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1ab57572d5bcf0fbe4edd79f24d25a20fc" kind="function"><name>JSONSecureStorage</name></member>
     <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1a743ac769f870710696b1aaa5ecc1b2d4" kind="function"><name>~JSONSecureStorage</name></member>
     <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1a955ba62ae5be231e6c499eb5ff0a9b27" kind="function"><name>Load</name></member>
     <member refid="d4/dd2/classsgns_1_1_j_s_o_n_secure_storage_1a896bca85596f8c63101bfa8f333fb2c2" kind="function"><name>Save</name></member>
@@ -3393,47 +3435,26 @@
     <member refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1a2bee2c6af0203cec746df9a14d7e4c86" kind="function"><name>InitLegacyDb</name></member>
     <member refid="d1/dd2/classsgns_1_1_migration3__4__0_to3__5__0_1ab76dc8fc7e668d2c887342bc30bff993" kind="function"><name>InitTargetDb</name></member>
   </compound>
-  <compound refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1" kind="class"><name>sgns::Migration3_5_0To3_5_1</name>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a45884d9338f2a11de824d1e2abf3f4bd" kind="variable"><name>logger_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2e893e6010b5054800d35cbd63a5ba68" kind="variable"><name>ioContext_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a3b3e78932c8398e17779d22a792c46c6" kind="variable"><name>pubSub_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a6b42838d4e91893ff8413690f932e3d6" kind="variable"><name>graphsync_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a152a1afcbf0943eea3f7aadec8153c87" kind="variable"><name>scheduler_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1ad42988b9c779ad0f00e8703afed9ba19" kind="variable"><name>generator_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a26db6869ec58d6a0d21adfbfd7e85d2a" kind="variable"><name>writeBasePath_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2a2544d43a2bd968330a5ec015f26140" kind="variable"><name>base58key_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1ad889d4f16ae4e9dca8dfae49ca14e9ca" kind="variable"><name>db_3_5_0_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a5418c81f095f43c9e094fec0a14aeb80" kind="variable"><name>json_storage_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1afade37109cf7a6cee65195c19e94b5dd" kind="variable"><name>secure_storage_</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a68716145f6743498a5e63080884864c6" kind="function"><name>Migration3_5_0To3_5_1</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a9f1db389ac7ddf61b75f56ce697a2d5c" kind="function"><name>FromVersion</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aa0e9be869b81ba592e4d92263e23f8af" kind="function"><name>ToVersion</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a61827db42f6298e2bddc4fc1d283edbe" kind="function"><name>Init</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a1ce558d6c1cb079dbe445b677f08d571" kind="function"><name>Apply</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a2dee69796c6991302e2f584694399c31" kind="function"><name>ShutDown</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1aeada855dc16bc55d9852fd4337bd4ace" kind="function"><name>IsRequired</name></member>
-    <member refid="dc/dcf/classsgns_1_1_migration3__5__0_to3__5__1_1a4c90e935b50f8af56560d1f610b5820b" kind="function"><name>InitLegacyDb</name></member>
-  </compound>
-  <compound refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0" kind="class"><name>sgns::Migration3_5_1To3_6_0</name>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a3e5decefaeff2be00867f012916af917" kind="variable"><name>logger_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a7cab3a60c0f96518b87b2ba68c0123ca" kind="variable"><name>ioContext_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a8aa6cb60546b1095519118d6576702a4" kind="variable"><name>pubSub_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a192236242f799fa0d132ecd681564f48" kind="variable"><name>graphsync_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1af5c4d6cfcdf6adddfee6f7c78118f73f" kind="variable"><name>scheduler_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1ad71f0cb2280015cc86e8cc3c826bdae5" kind="variable"><name>generator_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a4b8f6b3b837392f60ceaf968ce77ad2b" kind="variable"><name>writeBasePath_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1ac0468e1dad253b8bc9aeef778f2ba9c9" kind="variable"><name>base58key_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a312f5736fe34ed69be8965902581ea21" kind="variable"><name>db_3_5_1_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a06a2be3cb97ac689105cc31b5ce7162b" kind="variable"><name>db_3_6_0_</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a3db7db15468b377dd041892a5f36a6d8" kind="function"><name>Migration3_5_1To3_6_0</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a3481edb18c848ae023be1141987ebad6" kind="function"><name>FromVersion</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a7a07e8ea0d9225edb8f565871f2a253d" kind="function"><name>ToVersion</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a6c7d0a49d6e668ca87622540552d23a0" kind="function"><name>Init</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a47225580c57d11bd1a88923bfdffa84d" kind="function"><name>Apply</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1abe120878c25acf64800218c5ed53a721" kind="function"><name>ShutDown</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1afe2d7b6fc3ba26625456fee4d4beae31" kind="function"><name>IsRequired</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1af10cdbf0510f32bd51c6b76d3ff6c102" kind="function"><name>InitLegacyDb</name></member>
-    <member refid="df/da7/classsgns_1_1_migration3__5__1_to3__6__0_1a96353c4a42479cce94e21099272e627a" kind="function"><name>InitTargetDb</name></member>
+  <compound refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0" kind="class"><name>sgns::Migration3_5_0To3_6_0</name>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a46a1bc2702bbc810061519c482531dbd" kind="variable"><name>logger_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1aaa44596a98d814e30dc0aec9fab09d7f" kind="variable"><name>ioContext_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a4134c7c4b269f1b1dfdc83b4ca2c6e12" kind="variable"><name>pubSub_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a7999f67e9cc6f1c0d03ed562e0d1b6bd" kind="variable"><name>graphsync_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a469831763c7923ece19504589856f391" kind="variable"><name>scheduler_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a0c777581f6662b91ac155520e9d3d3f9" kind="variable"><name>generator_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a865effd80bd7c515448ac9239e15305f" kind="variable"><name>writeBasePath_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1aa4ffc0b79d291dd2fa579f5e59e1cbbd" kind="variable"><name>base58key_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1ad85a6c9da7fa6ecce79dfd9917302df8" kind="variable"><name>db_3_5_1_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a7896c61e006e878623ddc0173b50c4f1" kind="variable"><name>db_3_6_0_</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1acc2867e73dd7ba721a1c65f27388e32a" kind="function"><name>Migration3_5_0To3_6_0</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a8434a66d654fd6740974127b31fe42c7" kind="function"><name>FromVersion</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1ab10db4b38e70542c4a6f6b08ddc1ecdc" kind="function"><name>ToVersion</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a3518565188678536fcc0e084baea0793" kind="function"><name>Init</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a90386a043f13360b8df014f8be8b3ccd" kind="function"><name>Apply</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a5731ca1770b3f39849c8d63bbb037a21" kind="function"><name>ShutDown</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1ad23ac360eaa4d00574366619368e5da3" kind="function"><name>IsRequired</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a8e16c94fd7042873d44f1bac9f46fbaa" kind="function"><name>InitLegacyDb</name></member>
+    <member refid="d8/d7f/classsgns_1_1_migration3__5__0_to3__6__0_1a8c3427e65bf50c7dab426347bcecd570" kind="function"><name>InitTargetDb</name></member>
   </compound>
   <compound refid="d6/d9a/classsgns_1_1_migration_manager" kind="class"><name>sgns::MigrationManager</name>
     <member refid="d6/d9a/classsgns_1_1_migration_manager_1a4a9bb6d7cb4265143580723dfc6d76d6" kind="enum"><name>Error</name></member>
@@ -4282,8 +4303,10 @@
     <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a770980f71a19d80d20fe4dcee4d785e4" kind="variable"><name>silent_time_ms</name></member>
     <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a9e4c173d706a388dd1555030705d5ac1" kind="variable"><name>block_index</name></member>
     <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ab6a572e5b47db868b48fb033259a4ea8" kind="variable"><name>cid</name></member>
+    <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a6cb4fbba693e18936a51acb9672cb633" kind="variable"><name>utxo_address</name></member>
     <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a346a9ba052b0e713364fbb0421701b68" kind="variable"><name>callback</name></member>
     <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a8d58681dded0ae650080346b3fca863d" kind="variable"><name>nonce_promise</name></member>
+    <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae0d73a8b83ce042c5ffbfb44568266d3" kind="variable"><name>utxo_promise</name></member>
   </compound>
   <compound refid="d3/da5/structsgns_1_1primitives_1_1_resume" kind="struct"><name>sgns::primitives::Resume</name>
     <member refid="d3/da5/structsgns_1_1primitives_1_1_resume_1a63b5b6cb3b7edada7397111664cbfc50" kind="function"><name>DelayInChain</name></member>
@@ -5080,6 +5103,9 @@
     <member refid="d6/d60/structsgns_1_1primitives_1_1_transaction_1a857cda982e6f112d5005b848d2732384" kind="variable"><name>should_propagate</name></member>
     <member refid="d6/d60/structsgns_1_1primitives_1_1_transaction_1a347931f5f9f99130c7c7832998ed6231" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
+  <compound refid="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request" kind="struct"><name>sgns::AccountMessenger::TransactionHashRequest</name>
+    <member refid="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request_1a2f6db604dd817c8fe3aea943e122500d" kind="variable"><name>tx_hash</name></member>
+  </compound>
   <compound refid="d2/d58/classsgns_1_1_transaction_manager" kind="class"><name>sgns::TransactionManager</name>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0" kind="enum"><name>State</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a46709f45e1547d0d8f64fbe7cc452ee0a6aa51a91f98b50db5edf13a471e12f17" kind="enumvalue"><name>CREATING</name></member>
@@ -5107,6 +5133,7 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a2422451c21c25dd8c45653dee8c92a37" kind="variable"><name>INITIAL_PERIODIC_SYNC_INTERVAL</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ab4e0be54f7435398eb07f61aad9e7237" kind="variable"><name>TIMESTAMP_TOLERANCE</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a4102e982efb611ed3be78e13504ba169" kind="variable"><name>MUTABILITY_WINDOW</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a257c6096a15ccacedc8df76762543da6" kind="variable"><name>k_init_tx_request_cooldown_ms</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a7342666b69c2e5b10bc0ac59fe3067c0" kind="variable"><name>transaction_parsers</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a907b13cb3bd90e758064a599bf820171" kind="variable"><name>globaldb_m</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a84288f30c632402e60fa75975e0b4d32" kind="variable"><name>ctx_m</name></member>
@@ -5137,6 +5164,9 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1aa71dbfb8b290a685ae625c55faf16588" kind="variable"><name>new_data_queue_mutex_</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ac3ad27c794be47311b053bf0f7cd0512" kind="variable"><name>deleted_data_queue_mutex_</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1aafcc3fe31675946f9e4f6d65ead1e632" kind="variable"><name>last_loop_time_</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1ae92792877ba7d5855a99cdae81804655" kind="variable"><name>missing_tx_mutex_</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a88f4d1086d3ae4c8a42228390f0b6d36" kind="variable"><name>missing_tx_hashes_</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1ae054403f5affac192bcb1f09cf9d28af" kind="variable"><name>last_init_tx_request_time_</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ad6c3b99e9baeb2a46ec2bb2358716df8" kind="variable"><name>m_logger</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ac103adf5c5d4b65e9105e25948ac4035" kind="function"><name>New</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a0348f93a698c70b0ee8e365f90fc0ce3" kind="function"><name>GetTransactionPath</name></member>
@@ -5169,6 +5199,7 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a046cbd3eb8e70c419f0eb5639648040f" kind="function"><name>UnregisterStateChangeCallback</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a3956432163c992ca8e67a636e8ecbad0" kind="function"><name>QueryTransactions</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a6050dcf5da7a070791ab0f464eeb58fa" kind="function"><name>FetchAndProcessTransaction</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1aff26922e9fe83786fb2ba429c1a9c459" kind="function"><name>GetTransactionCID</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a31fd2361e22fd21fe2fabf7f2a79d375" kind="function"><name>EnqueueTransaction</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1af9bba476bee6d10b28dce5226b0a41d1" kind="function"><name>EnqueueTransaction</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a6c662444e306816c24bc8f01a1ef2d6f" kind="function"><name>SetTimeFrameToleranceMs</name></member>
@@ -5181,7 +5212,9 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a68dfc8752ac083fe1afb807693dc11f4" kind="function"><name>CheckProof</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ab9f6ab28cee46ff43525606bd013d528" kind="function"><name>ParseTransaction</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a93a62b127c6731ba7137841404c61f79" kind="function"><name>RevertTransaction</name></member>
-    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a606fb5077049ed6cfda90c771793244c" kind="function"><name>InitNonce</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a0a265cbe9bf6ad75ed993dc7d0c360bd" kind="function"><name>InitializeUTXOs</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a0666c3adb5f280b549d9b726ab7a1d1f" kind="function"><name>InitTransactions</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1aa8811c8d2f00c1ccb5e0a257c20375f4" kind="function"><name>CheckNonce</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a161e748cccf26731f4c44a8828f0e834" kind="function"><name>SyncNonce</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ae0be63abf8c603c7cd72ff4735c5cd49" kind="function"><name>RequestRelevantHeads</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1aca57ed9229d6ff6e9bd61de19046d06b" kind="function"><name>CheckTransactionValidity</name></member>
@@ -5207,9 +5240,10 @@
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1abe64b9da6d6f026ec421d5e22fd26f0e" kind="function"><name>IsTransactionImmutable</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a253ed4e1368123142fd9c5b8b8c557db" kind="function"><name>RemoveTransactionFromProcessedMaps</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1aae61f05aaa78cc4da8bb3670a8ebe37e" kind="function"><name>AddTransactionToProcessedMaps</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a45a8317d5924d4b300a87546e3bde232" kind="function"><name>StoreTransactionCID</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1ab8731f78c41dac2f68b410bba66849ea" kind="function"><name>ProcessDeletion</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1afa9dbf74bcb11100ed39d4d7358c418d" kind="function"><name>ProcessNewData</name></member>
-    <member refid="d2/d58/classsgns_1_1_transaction_manager_1a42d3c710542b8d7c0939e446ceee4c8c" kind="function"><name>NewElementCallback</name></member>
+    <member refid="d2/d58/classsgns_1_1_transaction_manager_1ae820cce6e0d87f5e210c88dc0e55763a" kind="function"><name>NewElementCallback</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a8c3264757f37b963c9572a1b1e52307e" kind="function"><name>DeleteElementCallback</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a21e0b26dadcbf9915488850eaa90636b" kind="function"><name>ChangeState</name></member>
     <member refid="d2/d58/classsgns_1_1_transaction_manager_1a8577187d452274eea5f67fd85fca1d12" kind="function"><name>GetMonitoredNetworkIDs</name></member>
@@ -5466,6 +5500,11 @@
     <member refid="d0/dac/classsgns_1_1_u_t_x_o_manager_1ac674575ba1e3f408acb4f77ce48962dc" kind="function"><name>SelectUTXOs</name></member>
     <member refid="d0/dac/classsgns_1_1_u_t_x_o_manager_1a63826c5c47b07809400f23085ec19dd5" kind="function"><name>SignInputs</name></member>
   </compound>
+  <compound refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data" kind="struct"><name>sgns::AccountMessenger::UTXOResponseData</name>
+    <member refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data_1abdc997d36266b0e584aceacaced60d06" kind="variable"><name>responder_address</name></member>
+    <member refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data_1a1cc91a7834300cf23f070b7822efdabb" kind="variable"><name>utxos</name></member>
+    <member refid="d4/d67/structsgns_1_1_account_messenger_1_1_u_t_x_o_response_data_1a6bb5f3fe89e1333c0825c6850f100a6b" kind="variable"><name>has_utxos</name></member>
+  </compound>
   <compound refid="de/de2/classsgns_1_1application_1_1_validating_node_application" kind="class"><name>sgns::application::ValidatingNodeApplication</name>
     <member refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1a29a04337fa033834824df435ed9c7f21" kind="typedef"><name>Production</name></member>
     <member refid="de/de2/classsgns_1_1application_1_1_validating_node_application_1a0e0add155704825bbd0f402b04d3fd5b" kind="typedef"><name>Finality</name></member>
@@ -5493,7 +5532,7 @@
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a9ab997dbfe67998930aba81579b26e14" kind="typedef"><name>Status</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a561c130ecb3c2a1cb74caab160778c26" kind="typedef"><name>InitCallback</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a096a515e35e5793ae0ce0e07b22584f6" kind="typedef"><name>BlockRequestMethod</name></member>
-    <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aff5ff362f37c56be0401a240a3220a20" kind="friend"><name>sgns::Migration3_5_1To3_6_0</name></member>
+    <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1da94d17f786677d967d56fd2c9abe28" kind="friend"><name>sgns::Migration3_5_0To3_6_0</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab73edbca07efe223d512b3b3d6cfec6f" kind="variable"><name>db_</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ac3b9f94413153fe05f08a648b399c86c" kind="variable"><name>quorum_numerator_</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ae028a0db293dde1ad7f422588271ea78" kind="variable"><name>quorum_denominator_</name></member>
@@ -5519,6 +5558,7 @@
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a47f758e7e8a08f667dd5ea16a5050e98" kind="function"><name>StoreGenesisRegistry</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a09391cdbb6d2b9df7e3fa60c6387a9aa" kind="function"><name>LoadRegistry</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1ab0c8c06a5bbb2394e6f20bd4d8566423" kind="function"><name>LoadRegistryUpdate</name></member>
+    <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aac9333569819c24e8bc1b8a3a63d28c9" kind="function"><name>GetValidatorWeight</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1adf78a171902d6ea39ef11ad21df4e480" kind="function"><name>RegisterFilter</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1aca9f4ef9e1834a8fbcd837d0ccf0b3fc" kind="function"><name>SerializeRegistry</name></member>
     <member refid="d3/d1c/classsgns_1_1blockchain_1_1_validator_registry_1a1d88c4b1391f9220bb87a23584d5da46" kind="function"><name>DeserializeRegistry</name></member>
@@ -6042,6 +6082,7 @@
     <member refid="d2/d2b/namespacesgns_1a1393d49beee235b599e89a325e914803" kind="typedef"><name>tcp_endpoint</name></member>
     <member refid="d2/d2b/namespacesgns_1a1a0b3c97c07375bd3f9dc07e1f832177" kind="typedef"><name>ipfs_dbi</name></member>
     <member refid="d2/d2b/namespacesgns_1aa3452b68fa5043a4b7cd36d669923882" kind="typedef"><name>ipfs_val</name></member>
+    <member refid="d2/d2b/namespacesgns_1a641d35600f90cf10b00dc60354f534dd" kind="variable"><name>FILE_NAME</name></member>
     <member refid="d2/d2b/namespacesgns_1a2de1158d91abbd78cc0227c7ddcd6960" kind="function"><name>GeniusNodeLogger</name></member>
     <member refid="d2/d2b/namespacesgns_1a22da46e7b9a50eec8f2229e2322f48c0" kind="function"><name>generate_uuid_with_ipfs_id</name></member>
     <member refid="d2/d2b/namespacesgns_1aa528beacefda8b0a1c432a7d0afda122" kind="function"><name>operator&lt;&lt;</name></member>
@@ -7031,6 +7072,7 @@
   <compound refid="df/df3/_escrow_transaction_8hpp" kind="file"><name>EscrowTransaction.hpp</name>
   </compound>
   <compound refid="dd/dd9/_genius_account_8cpp" kind="file"><name>GeniusAccount.cpp</name>
+    <member refid="dd/dd9/_genius_account_8cpp_1a73efa5fb30e55e53337824fca6fb2fa1" kind="variable"><name>SECURE_STORAGE_PREFIX</name></member>
   </compound>
   <compound refid="d0/dad/_genius_account_8hpp" kind="file"><name>GeniusAccount.hpp</name>
   </compound>
@@ -7066,13 +7108,9 @@
   </compound>
   <compound refid="de/d71/_migration3__4__0_to3__5__0_8hpp" kind="file"><name>Migration3_4_0To3_5_0.hpp</name>
   </compound>
-  <compound refid="da/d32/_migration3__5__0_to3__5__1_8cpp" kind="file"><name>Migration3_5_0To3_5_1.cpp</name>
+  <compound refid="d3/d08/_migration3__5__0_to3__6__0_8cpp" kind="file"><name>Migration3_5_0To3_6_0.cpp</name>
   </compound>
-  <compound refid="d6/d6e/_migration3__5__0_to3__5__1_8hpp" kind="file"><name>Migration3_5_0To3_5_1.hpp</name>
-  </compound>
-  <compound refid="db/da7/_migration3__5__1_to3__6__0_8cpp" kind="file"><name>Migration3_5_1To3_6_0.cpp</name>
-  </compound>
-  <compound refid="df/dd5/_migration3__5__1_to3__6__0_8hpp" kind="file"><name>Migration3_5_1To3_6_0.hpp</name>
+  <compound refid="d3/d7e/_migration3__5__0_to3__6__0_8hpp" kind="file"><name>Migration3_5_0To3_6_0.hpp</name>
   </compound>
   <compound refid="d2/d4b/_migration_manager_8cpp" kind="file"><name>MigrationManager.cpp</name>
     <member refid="d2/d4b/_migration_manager_8cpp_1a8de866b0d791516f6cfa13ec13588387" kind="function"><name>OUTCOME_CPP_DEFINE_CATEGORY_3</name></member>
@@ -7825,6 +7863,7 @@
   <compound refid="d1/dc4/_apple_8hpp" kind="file"><name>Apple.hpp</name>
   </compound>
   <compound refid="d7/d37/_j_s_o_n_secure_storage_8cpp" kind="file"><name>JSONSecureStorage.cpp</name>
+    <member refid="d2/d2b/namespacesgns_1a641d35600f90cf10b00dc60354f534dd" kind="variable"><name>FILE_NAME</name></member>
   </compound>
   <compound refid="d3/dfa/_j_s_o_n_secure_storage_8hpp" kind="file"><name>JSONSecureStorage.hpp</name>
   </compound>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request" kind="struct" language="C++" prot="private">
+    <compoundname>sgns::AccountMessenger::TransactionHashRequest</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request_1a2f6db604dd817c8fe3aea943e122500d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string sgns::AccountMessenger::TransactionHashRequest::tx_hash</definition>
+        <argsstring></argsstring>
+        <name>tx_hash</name>
+        <qualifiedname>sgns::AccountMessenger::TransactionHashRequest::tx_hash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/AccountMessenger.hpp" line="213" column="25" bodyfile="src/account/AccountMessenger.hpp" bodystart="213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sgns::AccountMessenger::TransactionHashRequest</label>
+        <link refid="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+tx_hash</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::string</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/account/AccountMessenger.hpp" line="211" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="212" bodyend="214"/>
+    <listofallmembers>
+      <member refid="df/d45/structsgns_1_1_account_messenger_1_1_transaction_hash_request_1a2f6db604dd817c8fe3aea943e122500d" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::TransactionHashRequest</scope><name>tx_hash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

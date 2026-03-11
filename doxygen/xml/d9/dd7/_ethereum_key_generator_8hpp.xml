@@ -172,9 +172,9 @@
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -206,7 +206,7 @@
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -217,23 +217,19 @@
         <label>src/account/Migration3_4_0To3_5_0.cpp</label>
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
-      <node id="26">
+      <node id="25">
         <label>src/account/Migration3_4_0To3_5_0.hpp</label>
         <link refid="de/d71/_migration3__4__0_to3__5__0_8hpp"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="22">
-        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
-        <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
-      </node>
       <node id="12">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
-        <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
+        <label>src/account/Migration3_5_0To3_6_0.cpp</label>
+        <link refid="d3/d08/_migration3__5__0_to3__6__0_8cpp"/>
       </node>
-      <node id="27">
+      <node id="26">
         <label>src/account/MigrationManager.cpp</label>
         <link refid="d2/d4b/_migration_manager_8cpp"/>
       </node>
@@ -274,18 +270,16 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="23">
         <label>src/account/TransferTransaction.cpp</label>
         <link refid="db/dbb/_transfer_transaction_8cpp"/>
       </node>
-      <node id="23">
+      <node id="22">
         <label>src/account/TransferTransaction.hpp</label>
         <link refid="dd/d70/_transfer_transaction_8hpp"/>
         <childnode refid="10" relation="include">
@@ -296,26 +290,26 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="24">
         <label>src/blockchain/Blockchain.hpp</label>
         <link refid="dc/d59/_blockchain_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="28">
         <label>src/blockchain/ValidatorRegistry.cpp</label>
         <link refid="df/d00/_validator_registry_8cpp"/>
       </node>
-      <node id="28">
+      <node id="27">
         <label>src/blockchain/impl/Blockchain.cpp</label>
         <link refid="da/d8c/_blockchain_8cpp"/>
       </node>

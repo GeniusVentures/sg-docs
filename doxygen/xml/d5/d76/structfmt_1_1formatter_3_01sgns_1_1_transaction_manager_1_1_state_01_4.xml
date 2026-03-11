@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/TransactionManager.hpp" line="353" column="30" bodyfile="src/account/TransactionManager.cpp" bodystart="2660" bodyend="2685"/>
+        <location file="src/account/TransactionManager.hpp" line="365" column="30" bodyfile="src/account/TransactionManager.cpp" bodystart="2936" bodyend="2961"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -56,7 +56,7 @@
         <label>formatter&lt; std::string_view &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="src/account/TransactionManager.hpp" line="351" column="1" bodyfile="src/account/TransactionManager.hpp" bodystart="352" bodyend="354"/>
+    <location file="src/account/TransactionManager.hpp" line="363" column="1" bodyfile="src/account/TransactionManager.hpp" bodystart="364" bodyend="366"/>
     <listofallmembers>
       <member refid="d5/d76/structfmt_1_1formatter_3_01sgns_1_1_transaction_manager_1_1_state_01_4_1a007a10b1f4827c6159e0a5f9e887012d" prot="public" virt="non-virtual"><scope>fmt::formatter&lt; sgns::TransactionManager::State &gt;</scope><name>format</name></member>
     </listofallmembers>

@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="212" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="212" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="277" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae012d8e5d3a223ae5998baefd6d04c73" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="213" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="213" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="278" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="278" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a770980f71a19d80d20fe4dcee4d785e4" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="214" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="214" bodyend="214"/>
+        <location file="src/account/AccountMessenger.hpp" line="279" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="279" bodyend="279"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a9e4c173d706a388dd1555030705d5ac1" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="215" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="215" bodyend="215"/>
+        <location file="src/account/AccountMessenger.hpp" line="280" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="280" bodyend="280"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ab6a572e5b47db868b48fb033259a4ea8" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -73,7 +73,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="216" column="65" bodyfile="src/account/AccountMessenger.hpp" bodystart="216" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="281" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a6cb4fbba693e18936a51acb9672cb633" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string sgns::AccountMessenger::RequestTask::utxo_address</definition>
+        <argsstring></argsstring>
+        <name>utxo_address</name>
+        <qualifiedname>sgns::AccountMessenger::RequestTask::utxo_address</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/AccountMessenger.hpp" line="282" column="93" bodyfile="src/account/AccountMessenger.hpp" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a346a9ba052b0e713364fbb0421701b68" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(outcome::result&lt; std::string &gt;)&gt;</type>
@@ -87,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="217" column="27" bodyfile="src/account/AccountMessenger.hpp" bodystart="217" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="283" column="55" bodyfile="src/account/AccountMessenger.hpp" bodystart="283" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a8d58681dded0ae650080346b3fca863d" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; uint64_t &gt; &gt; &gt;</type>
@@ -101,7 +115,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/account/AccountMessenger.hpp" line="218" column="29" bodyfile="src/account/AccountMessenger.hpp" bodystart="218" bodyend="-1"/>
+        <location file="src/account/AccountMessenger.hpp" line="284" column="52" bodyfile="src/account/AccountMessenger.hpp" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae0d73a8b83ce042c5ffbfb44568266d3" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;std::promise&lt;outcome::result&lt;std::unordered_set&lt;std::string&gt; &gt; &gt; &gt; sgns::AccountMessenger::RequestTask::utxo_promise</definition>
+        <argsstring></argsstring>
+        <name>utxo_promise</name>
+        <qualifiedname>sgns::AccountMessenger::RequestTask::utxo_promise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/account/AccountMessenger.hpp" line="285" column="29" bodyfile="src/account/AccountMessenger.hpp" bodystart="285" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -117,9 +145,13 @@
         <link refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task"/>
         <childnode refid="2" relation="usage">
           <edgelabel>+cid</edgelabel>
+          <edgelabel>+utxo_address</edgelabel>
         </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>+nonce_promise</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+utxo_promise</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -129,6 +161,12 @@
         <label>std::shared_ptr&lt; T &gt;</label>
         <childnode refid="6" relation="usage">
           <edgelabel>+ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::shared_ptr&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</label>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; std::promise&lt; outcome::result&lt; std::unordered_set&lt; std::string &gt; &gt; &gt; &gt;</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -143,7 +181,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="src/account/AccountMessenger.hpp" line="210" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="211" bodyend="219"/>
+    <location file="src/account/AccountMessenger.hpp" line="275" column="9" bodyfile="src/account/AccountMessenger.hpp" bodystart="276" bodyend="286"/>
     <listofallmembers>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a9e4c173d706a388dd1555030705d5ac1" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>block_index</name></member>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a346a9ba052b0e713364fbb0421701b68" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>callback</name></member>
@@ -152,6 +190,8 @@
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a770980f71a19d80d20fe4dcee4d785e4" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>silent_time_ms</name></member>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae012d8e5d3a223ae5998baefd6d04c73" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>timeout_ms</name></member>
       <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a335b7448242feba2dfc1772ed07f2219" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>type</name></member>
+      <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1a6cb4fbba693e18936a51acb9672cb633" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>utxo_address</name></member>
+      <member refid="dc/d28/structsgns_1_1_account_messenger_1_1_request_task_1ae0d73a8b83ce042c5ffbfb44568266d3" prot="public" virt="non-virtual"><scope>sgns::AccountMessenger::RequestTask</scope><name>utxo_promise</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

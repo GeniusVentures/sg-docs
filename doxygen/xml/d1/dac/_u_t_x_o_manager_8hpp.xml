@@ -668,14 +668,10 @@
         <link refid="d6/d71/_migration3__4__0_to3__5__0_8cpp"/>
       </node>
       <node id="7">
-        <label>src/account/Migration3_5_0To3_5_1.cpp</label>
-        <link refid="da/d32/_migration3__5__0_to3__5__1_8cpp"/>
+        <label>src/account/Migration3_5_0To3_6_0.cpp</label>
+        <link refid="d3/d08/_migration3__5__0_to3__6__0_8cpp"/>
       </node>
       <node id="8">
-        <label>src/account/Migration3_5_1To3_6_0.cpp</label>
-        <link refid="db/da7/_migration3__5__1_to3__6__0_8cpp"/>
-      </node>
-      <node id="9">
         <label>src/account/TransactionManager.cpp</label>
         <link refid="d0/dcc/_transaction_manager_8cpp"/>
       </node>
@@ -692,10 +688,8 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="9">
         <label>src/account/UTXOManager.cpp</label>
         <link refid="dc/d76/_u_t_x_o_manager_8cpp"/>
       </node>
@@ -706,7 +700,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
