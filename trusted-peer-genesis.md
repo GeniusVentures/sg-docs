@@ -29,6 +29,45 @@ The concrete identities and thresholds shown in this document and in
 are non-production values that must not be copied into a deployment or treated
 as project authority.
 
+## Maintainer quick start
+
+This section is the complete procedure for a trusted peer (maintainer). The
+remaining sections are the operator's ceremony procedure.
+
+1. **Send your public address to the release coordinator.** Your address is
+   the 128-character lowercase hex public key of your node account (what your
+   wallet/node shows as your Genius address). Send it over an already trusted
+   channel and confirm it through a second channel. **Never send your private
+   key, mnemonic, or key file to anyone** — the ceremony never needs them.
+2. **Receive the trust configuration block.** The coordinator distributes one
+   identical block to every maintainer:
+
+   ```json
+   "trusted_peers": ["<maintainer address>", "..."],
+   "bootstrapper_node": "<bootstrapper address>",
+   "trusted_peer_quorum_threshold": 3,
+   "burn_config_quorum_threshold": 4
+   ```
+
+   Check that your address is present in `trusted_peers` and that the values
+   match what the group agreed on. Every maintainer must run byte-identical
+   trust values: each node independently derives the genesis fingerprint from
+   its own config, and a mismatching node rejects the genesis the others
+   accept.
+3. **Upgrade and configure.** Add the block to your `sgns_config.json`, keep
+   your usual `net_id`/`subnet_id`, and run the release build.
+4. **Start the node and leave it running.** It parks in
+   `WAITING_FOR_TRUST_GENESIS`. This is the designed restricted state:
+   networking and GlobalDB are live, economic operations are closed until
+   genesis. No further action is needed from you.
+5. **Automatic activation.** When the coordinator submits the signed genesis,
+   your node validates it against its configured values, persists it under
+   `trust-state`, casts its initial-burn approval by itself, and reaches
+   `READY` with no operator action. On later restarts it reloads the persisted
+   genesis and does not wait for the ceremony again. Nodes that join after the
+   ceremony completes activate the same way from the already-replicated
+   approvals.
+
 ## 1. Freeze the ceremony inputs
 
 Assign one release coordinator and at least two independent reviewers. Record
@@ -78,15 +117,38 @@ encoding it.
 
 ## 2. Create identical canonical manifests independently
 
-`sgns-trust` deliberately consumes canonical `GenesisManifest` bytes; it does
-not accept JSON and has no manifest-generation or secret-valued command-line
-option. On two isolated reviewer workstations, encode the independently
-reviewed source with this release-matched reference procedure:
+`sgns-trust` consumes canonical `GenesisManifest` bytes. The release-matched
+encoder is the offline `make-manifest` operation; it validates addresses,
+enforces the quorum floors, sorts the peer list canonically, and pins policy
+version `1` and initial burn `100` basis points to match what nodes derive from
+their `sgns_config.json`:
 
 ```sh
+SGNS_TRUST=/opt/supergenius/bin/sgns-trust
 CEREMONY_DIR=/secure/reviewed/sgns-genesis
+test -x "$SGNS_TRUST"
 test -d "$CEREMONY_DIR"
-python3 - "$CEREMONY_DIR/reviewed-genesis.json" "$CEREMONY_DIR/genesis.manifest" <<'PY'
+"$SGNS_TRUST" make-manifest \
+  --network-id 144 \
+  --bootstrapper 06a11bcf9223a46514207b0551ed6460140531e8ec94d97a6a1c6bddd1a52da79e04980db3009325837f97ccbd1b1e3fdf05585a4a79ab3d043b7f19bbbc2c80 \
+  --peers 07b22cde0334a57625318c0662ae7571251642f9dea5ea8b7a2d7ceef2a63eb80d15a092ec410436948108ddce0c2a40ec06696b5b8ab4de154c9020accd3d91,8a33bdf1445a68736429d1773be8682362753a0efc6fb9d8b3e8dffe3b74fc91e26b203fd521547a5219eddf1d3ac51fd17a7646c9bca5ef065da131add4e5a2 \
+  --membership-threshold 2 \
+  --burn-threshold 2 \
+  --out "$CEREMONY_DIR/genesis.manifest"
+chmod 0444 "$CEREMONY_DIR/genesis.manifest"
+```
+
+`--membership-threshold` and `--burn-threshold` may be omitted to use the
+enforced floors (`floor(M / 2) + 1` and `M - floor(M / 3)`). The command prints
+the ordered peer list and the SHA-256 fingerprint of the canonical bytes.
+The values above are **NON-PRODUCTION EXAMPLE VALUES**.
+
+For independent review, a second reviewer on an isolated workstation encodes
+the same reviewed source with this reference procedure, which mirrors
+`GenesisManifest::CanonicalBytes` without sharing code with the release binary:
+
+```sh
+python3 - "$CEREMONY_DIR/reviewed-genesis.json" "$CEREMONY_DIR/review.manifest" <<'PY'
 import hashlib
 import json
 import struct
@@ -151,14 +213,18 @@ for value in peer_hex:
     print(f"  {value}")
 print(f"fingerprint: {hashlib.sha256(manifest).hexdigest()}")
 PY
-chmod 0444 "$CEREMONY_DIR/genesis.manifest"
-openssl dgst -sha256 "$CEREMONY_DIR/genesis.manifest"
+openssl dgst -sha256 "$CEREMONY_DIR/review.manifest"
 ```
 
 The byte layout above mirrors `GenesisManifest::CanonicalBytes`: domain
 `SGNS_TRUST_GENESIS_V1`, fixed-width big-endian integers, 32-bit big-endian
 length prefixes, and lexicographically ordered lowercase 64-byte peer keys.
-Do not hand-edit `genesis.manifest`.
+Do not hand-edit `genesis.manifest`. The reviewer's `review.manifest` must be
+byte-identical to the `make-manifest` output:
+
+```sh
+cmp "$CEREMONY_DIR/genesis.manifest" "$CEREMONY_DIR/review.manifest"
+```
 
 Compare all of the following between reviewers over a separate trusted channel:
 
@@ -400,6 +466,17 @@ holder's responsibility.
 
 ## Command-surface audit
 
+The shipped command has exactly one offline operation:
+
+```text
+make-manifest
+```
+
+`make-manifest` requires `--network-id`, `--bootstrapper`, `--peers`
+(comma-separated), and `--out`, and accepts optional `--membership-threshold`
+and `--burn-threshold`. It touches no network, database, or secret, and its
+output is the canonical manifest consumed by the local operations below.
+
 The shipped command has exactly these local operations:
 
 ```text
@@ -410,15 +487,16 @@ propose-burn
 approve
 ```
 
-All operations require `--manifest`, `--network-config`, `--database`, and
-`--topic`. Every operation except `list` requires exactly one of `--key-file`
-or `--key-stdin`; `genesis` alone accepts `--timeout-seconds`,
+All local operations require `--manifest`, `--network-config`, `--database`,
+and `--topic`. Every local operation except `list` requires exactly one of
+`--key-file` or `--key-stdin`; `genesis` alone accepts `--timeout-seconds`,
 `propose-policy` requires `--candidate`, `propose-burn` requires
 `--basis-points`, and `approve` requires `--candidate-id`. There is no
 `--private-key`, `--secret`, token, environment-secret, HTTP, RPC, or remote
 auto-approval option.
 
 The command forms documented above are the literal shipped surface:
-`sgns-trust genesis`, `sgns-trust list`, `sgns-trust propose-policy`,
-`sgns-trust propose-burn`, and `sgns-trust approve`. A packaged or installed
-binary may be invoked through an absolute path as shown in the procedure.
+`sgns-trust make-manifest`, `sgns-trust genesis`, `sgns-trust list`,
+`sgns-trust propose-policy`, `sgns-trust propose-burn`, and
+`sgns-trust approve`. A packaged or installed binary may be invoked through an
+absolute path as shown in the procedure.
