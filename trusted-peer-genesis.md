@@ -327,7 +327,23 @@ Genesis durably confirmed.
 
 That line is emitted only after `DATABASE/trust-state` loads a verified durable
 snapshot whose canonical genesis and fingerprint exactly match the reviewed
-manifest. Record the exit status, the non-secret review output, timestamp,
+manifest.
+
+Durable confirmation is a local statement: it proves this tool's store
+committed, not that peers received the genesis DAG. Head delivery and the
+peers' GraphSync fetches are asynchronous, and the tool is the only serving
+transport for the freshly written DAG. After printing the confirmation line
+the tool therefore keeps serving for `--serve-seconds` (default 600, `0`
+exits immediately for scripted use):
+
+```text
+Genesis durably confirmed.
+Serving genesis to peers for 600s before exit.
+Genesis serving window complete.
+```
+
+Do not shorten or skip the window unless every peer is verified synced. Record
+the exit status, the non-secret review output, timestamp,
 release binary hash, manifest fingerprint, topic, and confirmation line as the
 ceremony evidence.
 
@@ -489,7 +505,8 @@ approve
 
 All local operations require `--manifest`, `--network-config`, `--database`,
 and `--topic`. Every local operation except `list` requires exactly one of
-`--key-file` or `--key-stdin`; `genesis` alone accepts `--timeout-seconds`,
+`--key-file` or `--key-stdin`; `genesis` alone accepts `--timeout-seconds`
+and `--serve-seconds`,
 `propose-policy` requires `--candidate`, `propose-burn` requires
 `--basis-points`, and `approve` requires `--candidate-id`. There is no
 `--private-key`, `--secret`, token, environment-secret, HTTP, RPC, or remote
