@@ -1,0 +1,103 @@
+Default Project name is GeniusSDK
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 6.2.9200.
+-- [GeniusSDK] add compile option: W:/gnus/GeniusNetwork/GeniusSDK/build/cmake/compile_option_by_platform/Windows.cmake
+-- Building with /wd4146
+-- Building with /wd4267
+-- Building with /wd4244
+-- Building with /wd4722
+-- Building with /WX-
+-- Building with /Od
+-- Building with /D_CRT_SECURE_NO_WARNINGS
+-- Building with /D_SCL_SECURE_NO_WARNINGS
+-- Building with /D_ENABLE_EXTENDED_ALIGNED_STORAGE
+-- Building with /D_CRT_NONSTDC_NO_DEPRECATE
+-- Linking with /STACK:8388608
+-- Found thirdparty: W:/gnus/GeniusNetwork/thirdparty
+-- [GeniusSDK] Project root is GeniusSDK
+-- [GeniusSDK] thirdparty root is W:/gnus/GeniusNetwork/thirdparty
+-- [GeniusSDK] Project super root is W:/gnus/GeniusNetwork
+-- [GeniusSDK] Using zkLLVM at W:/gnus/GeniusNetwork/zkLLVM/build/Windows/Debug
+-- [GeniusSDK] Found third party directory under super root
+-- [GeniusSDK] THIRDPARTY BUILD DIR: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug
+-- [GeniusSDK] THIRDPARTY SRC DIR: W:/gnus/GeniusNetwork/thirdparty
+-- Could NOT find Vulkan (missing: Vulkan_INCLUDE_DIR) (found version "")
+-- [GeniusSDK] PROTOC_LOCATION: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Protobuf version : 34.0.0
+-- Protobuf compiler : W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-pubsub/lib/cmake/ipfs-pubsub
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-bitswap-cpp/lib/cmake/ipfs-bitswap-cpp
+-- RapidJSON found. Headers: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/rapidjson/lib/cmake/RapidJSON/../../../include
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found suitable version "3.3.3", minimum required is "3.0.0") found components: Crypto SSL
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found version "3.3.3")
+-- SGNS_COLD_STORAGE: sgns-blockstore found via W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/sgns-blockstore/lib/cmake/sgns-blockstore
+-- [GeniusSDK] SuperGenius_DIR: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug/SuperGenius/lib/cmake/SuperGenius/
+-- Configuring done (0.6s)
+-- Generating done (0.4s)
+-- Build files have been written to: W:/gnus/GeniusNetwork/GeniusSDK/build/Windows/Debug
+  
+=== OFF restore ===  
+Default Project name is GeniusSDK
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 6.2.9200.
+-- [GeniusSDK] add compile option: W:/gnus/GeniusNetwork/GeniusSDK/build/cmake/compile_option_by_platform/Windows.cmake
+-- Building with /wd4146
+-- Building with /wd4267
+-- Building with /wd4244
+-- Building with /wd4722
+-- Building with /WX-
+-- Building with /Od
+-- Building with /D_CRT_SECURE_NO_WARNINGS
+-- Building with /D_SCL_SECURE_NO_WARNINGS
+-- Building with /D_ENABLE_EXTENDED_ALIGNED_STORAGE
+-- Building with /D_CRT_NONSTDC_NO_DEPRECATE
+-- Linking with /STACK:8388608
+-- Found thirdparty: W:/gnus/GeniusNetwork/thirdparty
+-- [GeniusSDK] Project root is GeniusSDK
+-- [GeniusSDK] thirdparty root is W:/gnus/GeniusNetwork/thirdparty
+-- [GeniusSDK] Project super root is W:/gnus/GeniusNetwork
+-- [GeniusSDK] Using zkLLVM at W:/gnus/GeniusNetwork/zkLLVM/build/Windows/Debug
+-- [GeniusSDK] Found third party directory under super root
+-- [GeniusSDK] THIRDPARTY BUILD DIR: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug
+-- [GeniusSDK] THIRDPARTY SRC DIR: W:/gnus/GeniusNetwork/thirdparty
+-- Could NOT find Vulkan (missing: Vulkan_INCLUDE_DIR) (found version "")
+-- [GeniusSDK] PROTOC_LOCATION: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Protobuf version : 34.0.0
+-- Protobuf compiler : W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-pubsub/lib/cmake/ipfs-pubsub
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-bitswap-cpp/lib/cmake/ipfs-bitswap-cpp
+-- RapidJSON found. Headers: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/rapidjson/lib/cmake/RapidJSON/../../../include
+-- [GeniusSDK] SuperGenius_DIR: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug/SuperGenius/lib/cmake/SuperGenius/
+-- Configuring done (0.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: W:/gnus/GeniusNetwork/GeniusSDK/build/Windows/Debug
