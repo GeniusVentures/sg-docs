@@ -1,0 +1,144 @@
+-- PROJECT_VERSION: 3.7.0
+-- SUPERGENIUS_PROCESSING_VERSION: 1
+-- GIT_COMMIT_HASH: 4bc56202d
+-- GIT_BRANCH: dev_blockstore
+-- BUILD_DATE: 20261023
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 6.2.9200.
+-- MSBuild MultiProcMaxCount=31
+-- Using ccache as compiler launcher: C:/Strawberry/c/bin/ccache.exe
+-- Setting default thirdparty directory to same as build type
+-- THIRDPARTY_BUILD_DIR: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug
+Gtest dir: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/GTest/lib/cmake/GTest
+-- [SuperGenius] PROTOC_LOCATION: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Protobuf version : 34.0.0
+-- Protobuf compiler : W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- INCLUDE DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: container date_time filesystem random regex system thread log log_setup program_options unit_test_framework json context coroutine
+-- Could NOT find Vulkan (missing: Vulkan_INCLUDE_DIR) (found version "")
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-pubsub/lib/cmake/ipfs-pubsub
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-bitswap-cpp/lib/cmake/ipfs-bitswap-cpp
+-- RapidJSON found. Headers: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/rapidjson/lib/cmake/RapidJSON/../../../include
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found suitable version "3.3.3", minimum required is "3.0.0") found components: Crypto SSL
+-- Found httplib: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/minio-cpp/include/httplib.h (found version "0.53.1")
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found version "3.3.3")
+-- Found ZLIB: C:/Strawberry/c/lib/libz.a (found version "1.3.2.1")
+-- [SuperGenius] CMAKE_HOST_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_CXX_STANDARD: 17
+-- [SuperGenius] CMAKE_CXX_STANDARD_REQUIRED: ON
+-- [SuperGenius] C flags: /DWIN32 /D_WINDOWS -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] CXX flags: /DWIN32 /D_WINDOWS /EHsc -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] C Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] CXX Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] C Release flags: /O2 /Ob2 /DNDEBUG
+-- [SuperGenius] CXX Release flags: /O2 /Ob2 /DNDEBUG
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: random
+-- [SuperGenius] *** Current cmake current list dir: W:/gnus/GeniusNetwork/SuperGenius/ProofSystem/src
+-- LIBP2P DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/libp2p/include
+-- MNN LLM engine headers found (W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include/llm) -- building MNN_Llm processor (PROC-01)
+-- Vulkan validation layers: ENABLED (best-effort)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: date_time filesystem random regex system thread log log_setup program_options json context coroutine
+-- Generating sgnsv.h from sgnsv.h.in
+-- Phase 12 real-socket battery skipped on this platform (requires macOS + CMake 3.29+): multi_node_finality_fault_compatibility_smoke_test, multi_node_finality_fault_test, multi_node_finality_fault_process_ownership_test
+-- Configuring done (2.9s)
+-- Generating done (19.6s)
+-- Build files have been written to: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule W:/gnus/GeniusNetwork/SuperGenius/test/src/crdt/CMakeLists.txt
+  cold_storage_link_proof_test.cpp
+W:\gnus\GeniusNetwork\SuperGenius\test\src\crdt\cold_storage_link_proof_test.cpp(51,5): warning C4834: discarding return value of function with [[nodiscard]] attribute [W:\gnus\GeniusNetwork\SuperGenius\build\Windows\Debug\test\src\crdt\cold_storage_link_proof_test.vcxproj]
+  cold_storage_link_proof_test.vcxproj -> W:\gnus\GeniusNetwork\SuperGenius\build\Windows\Debug\test_bin\Debug\cold_storage_link_proof_test.exe
+MSBuild version 17.14.10+8b8e13593 for .NET Framework
+
+  cold_storage_link_proof_test.cpp
+  cold_storage_link_proof_test.vcxproj -> W:\gnus\GeniusNetwork\SuperGenius\build\Windows\Debug\test_bin\Debug\cold_storage_link_proof_test.exe
+Internal ctest changing into directory: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
+Test project W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
+    Start 92: cold_storage_link_proof_test
+1/1 Test #92: cold_storage_link_proof_test .....   Passed    0.36 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Label Time Summary:
+Tier1    =   0.36 sec*proc (1 test)
+
+Total Test time (real) =   0.41 sec
+  
+=== ON re-entry after OFF restore (cache re-entry proof) ===  
+-- PROJECT_VERSION: 3.7.0
+-- SUPERGENIUS_PROCESSING_VERSION: 1
+-- GIT_COMMIT_HASH: 4bc56202d
+-- GIT_BRANCH: dev_blockstore
+-- BUILD_DATE: 20261023
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 6.2.9200.
+-- MSBuild MultiProcMaxCount=31
+-- Using ccache as compiler launcher: C:/Strawberry/c/bin/ccache.exe
+-- Setting default thirdparty directory to same as build type
+-- THIRDPARTY_BUILD_DIR: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug
+Gtest dir: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/GTest/lib/cmake/GTest
+-- [SuperGenius] PROTOC_LOCATION: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Protobuf version : 34.0.0
+-- Protobuf compiler : W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- INCLUDE DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: container date_time filesystem random regex system thread log log_setup program_options unit_test_framework json context coroutine
+-- Could NOT find Vulkan (missing: Vulkan_INCLUDE_DIR) (found version "")
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-pubsub/lib/cmake/ipfs-pubsub
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-bitswap-cpp/lib/cmake/ipfs-bitswap-cpp
+-- RapidJSON found. Headers: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/rapidjson/lib/cmake/RapidJSON/../../../include
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found suitable version "3.3.3", minimum required is "3.0.0") found components: Crypto SSL
+-- Found OpenSSL: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/openssl/build/lib/libcrypto.lib (found version "3.3.3")
+-- [SuperGenius] CMAKE_HOST_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_CXX_STANDARD: 17
+-- [SuperGenius] CMAKE_CXX_STANDARD_REQUIRED: ON
+-- [SuperGenius] C flags: /DWIN32 /D_WINDOWS -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] CXX flags: /DWIN32 /D_WINDOWS /EHsc -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] C Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] CXX Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] C Release flags: /O2 /Ob2 /DNDEBUG
+-- [SuperGenius] CXX Release flags: /O2 /Ob2 /DNDEBUG
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: random
+-- [SuperGenius] *** Current cmake current list dir: W:/gnus/GeniusNetwork/SuperGenius/ProofSystem/src
+-- LIBP2P DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/libp2p/include
+-- MNN LLM engine headers found (W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include/llm) -- building MNN_Llm processor (PROC-01)
+-- Vulkan validation layers: ENABLED (best-effort)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: date_time filesystem random regex system thread log log_setup program_options json context coroutine
+-- Generating sgnsv.h from sgnsv.h.in
+-- Phase 12 real-socket battery skipped on this platform (requires macOS + CMake 3.29+): multi_node_finality_fault_compatibility_smoke_test, multi_node_finality_fault_test, multi_node_finality_fault_process_ownership_test
+-- Configuring done (0.7s)
+-- Generating done (10.5s)
+-- Build files have been written to: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
