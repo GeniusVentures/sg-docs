@@ -114,3 +114,62 @@ CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-
 -- Configuring done (0.4s)
 -- Generating done (10.5s)
 -- Build files have been written to: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
+  
+=== final OFF restore (post message-add) ===  
+-- PROJECT_VERSION: 3.7.0
+-- SUPERGENIUS_PROCESSING_VERSION: 1
+-- GIT_COMMIT_HASH: 9f20ad184
+-- GIT_BRANCH: dev_blockstore
+-- BUILD_DATE: 20261023
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 6.2.9200.
+-- MSBuild MultiProcMaxCount=31
+-- Using ccache as compiler launcher: C:/Strawberry/c/bin/ccache.exe
+-- Setting default thirdparty directory to same as build type
+-- THIRDPARTY_BUILD_DIR: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug
+Gtest dir: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/GTest/lib/cmake/GTest
+-- [SuperGenius] PROTOC_LOCATION: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- Protobuf version : 34.0.0
+-- Protobuf compiler : W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/protobuf/bin/protoc.exe
+-- INCLUDE DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Boost toolset is unknown (compiler MSVC 19.44.35209.0)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: container date_time filesystem random regex system thread log log_setup program_options unit_test_framework json context coroutine
+-- Could NOT find Vulkan (missing: Vulkan_INCLUDE_DIR) (found version "")
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-pubsub/lib/cmake/ipfs-pubsub
+CMAKE_CURRENT_LIST_DIRW:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/ipfs-bitswap-cpp/lib/cmake/ipfs-bitswap-cpp
+-- RapidJSON found. Headers: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/rapidjson/lib/cmake/RapidJSON/../../../include
+-- [SuperGenius] CMAKE_HOST_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_SYSTEM_NAME: Windows
+-- [SuperGenius] CMAKE_CXX_STANDARD: 17
+-- [SuperGenius] CMAKE_CXX_STANDARD_REQUIRED: ON
+-- [SuperGenius] C flags: /DWIN32 /D_WINDOWS -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] CXX flags: /DWIN32 /D_WINDOWS /EHsc -D_WIN32_WINNT=0x0A00 -DNOMINMAX
+-- [SuperGenius] C Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] CXX Debug flags: /Z7 /Ob0 /Od /RTC1
+-- [SuperGenius] C Release flags: /O2 /Ob2 /DNDEBUG
+-- [SuperGenius] CXX Release flags: /O2 /Ob2 /DNDEBUG
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: random
+-- [SuperGenius] *** Current cmake current list dir: W:/gnus/GeniusNetwork/SuperGenius/ProofSystem/src
+-- LIBP2P DIR W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/libp2p/include
+-- MNN LLM engine headers found (W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/MNN/include/llm) -- building MNN_Llm processor (PROC-01)
+-- Vulkan validation layers: ENABLED (best-effort)
+-- Found Boost: W:/gnus/GeniusNetwork/thirdparty/build/Windows/Debug/boost/build/lib/cmake/Boost-1.85.0/BoostConfig.cmake (found version "1.85.0") found components: date_time filesystem random regex system thread log log_setup program_options json context coroutine
+-- Generating sgnsv.h from sgnsv.h.in
+-- Phase 12 real-socket battery skipped on this platform (requires macOS + CMake 3.29+): multi_node_finality_fault_compatibility_smoke_test, multi_node_finality_fault_test, multi_node_finality_fault_process_ownership_test
+-- Configuring done (0.4s)
+-- Generating done (10.5s)
+-- Build files have been written to: W:/gnus/GeniusNetwork/SuperGenius/build/Windows/Debug
