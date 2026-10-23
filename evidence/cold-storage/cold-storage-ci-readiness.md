@@ -45,3 +45,21 @@ gh release view --repo GeniusVentures/thirdparty --json tagName,assets
 # then download the platform tarball and list for:
 #   build/<Platform>/<Config>/{sgns-blockstore,minio-cpp,pugixml}/
 ```
+
+## CI ON-lane disposition (07-03 Task 2, 2026-10-23)
+
+**Status: blocked-on-thirdparty-release-cut.** Per the stale-verdict decision
+rule above, plan 07-03 did NOT wire an SGNS_COLD_STORAGE=ON CI job: the
+released tarball lacks the Phase-6 install trees, so every ON configure
+would fail at the find. The committed local superbuild evidence stands in
+(v1.0 pattern):
+
+- Windows ON configure/build/link/ctest proof: `windows-on-link-proof.log`
+- GeniusSDK ON configure proof: `genius-sdk-on-configure.log`
+
+**Follow-up (post-phase, requires push):** cut a `GeniusVentures/thirdparty`
+release containing the Phase-6 install trees (push the thirdparty submodule
+pointer, run the release workflow), re-run the re-verification command
+above, then wire the ON-lane leg (configure with `-DSGNS_COLD_STORAGE=ON`
+against the released `THIRDPARTY_BUILD_DIR`, build
+`cold_storage_link_proof_test`, run `ctest -L Tier1 --no-tests=error`).
