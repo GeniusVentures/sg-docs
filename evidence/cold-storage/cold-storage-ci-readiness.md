@@ -63,3 +63,34 @@ pointer, run the release workflow), re-run the re-verification command
 above, then wire the ON-lane leg (configure with `-DSGNS_COLD_STORAGE=ON`
 against the released `THIRDPARTY_BUILD_DIR`, build
 `cold_storage_link_proof_test`, run `ctest -L Tier1 --no-tests=error`).
+
+## Phase-8 disposition (08-03 Task 2, 2026-10-24)
+
+**Status: unchanged — ON-lane still blocked-on-thirdparty-release-cut.**
+
+The Phase-8 spill tests (`cold_storage_spill_test`: 13 cases — journal
+contract, drain-to-S3, crash-restart reconciliation, s3d-down backpressure
+window, enqueue-never-inline, shutdown grace, degenerate inputs, SC1
+latency-independence benchmark, partial-success backoff) are
+`SGNS_COLD_STORAGE`-gated in `SuperGenius/test/src/crdt/CMakeLists.txt`
+because they link `sgns-blockstore::sgns-blockstore` — the same structural
+reason as the Phase-7 link proof. The release-cut verdict above is
+therefore NOT re-evaluated this phase: the newest `thirdparty` release
+still predates the Phase-6 install trees, and every CI ON configure would
+fail at the find. No `cmake.yml` change was made in Phase 8.
+
+The local Windows ON-lane Tier-1 evidence stands in (v1.0/Phase-7
+pattern), produced from the local superbuild install tree:
+
+```
+ctest --test-dir SuperGenius/build/Windows/Debug -C Debug -L Tier1 --no-tests=error
+# 100% tests passed, 0 tests failed out of 3   (2026-10-24)
+#   cold_storage_config_gate_test  (unconditional; 26 matrix cases)
+#   cold_storage_link_proof_test   (gated; Phase 7)
+#   cold_storage_spill_test        (gated; Phase 8, 13 cases)
+```
+
+The CI ON-lane flip (Open Question 1, 08-RESEARCH) remains blocked on the
+SAME release cut with the SAME re-verification command — see the block
+above. Do not weaken or reinterpret this rule without a fresh tarball
+listing.
